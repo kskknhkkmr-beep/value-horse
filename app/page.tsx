@@ -268,7 +268,7 @@ function BetTicketSection({ score }: { score: ScoreResponse }) {
       {/* Horse ticket header */}
       <div className="flex items-stretch border-b border-gray-200">
         <div className="w-2 bg-gray-800 shrink-0" />
-        <div className="flex-1 px-4 py-3 grid grid-cols-3 gap-y-1 gap-x-6">
+        <div className="flex-1 px-4 py-3 grid grid-cols-2 sm:grid-cols-3 gap-y-1 gap-x-6">
           {topHorses.map((h) => (
             <div key={h.horse} className="flex items-center gap-1.5">
               <span className={`font-bold w-4 shrink-0 text-[11px] ${h.mark === "◎" ? "text-red-600" : "text-gray-700"}`}>
@@ -373,11 +373,11 @@ export default function Home() {
   const candidates = (score?.evRanking ?? []).filter((h) => h.ev > 0);
 
   return (
-    <main className="min-h-screen bg-gray-50 text-gray-900 text-sm p-4">
+    <main className="min-h-screen bg-gray-50 text-gray-900 text-sm p-2 sm:p-4">
       <div className="max-w-7xl mx-auto space-y-4">
 
         {/* ── Row 1 ── */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
           {/* Panel A */}
           <div className="border border-gray-200 bg-white p-5 flex flex-col gap-4">
@@ -486,7 +486,7 @@ export default function Home() {
         {/* ── 投資対象馬 ── */}
         {score && candidates.length > 0 && (
           <div className="border border-gray-900 bg-white">
-            <div className="flex items-center justify-between px-5 py-3 border-b border-gray-200">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between px-5 py-3 border-b border-gray-200">
               <div>
                 <span className="text-xs font-bold text-gray-900 tracking-wider uppercase">投資対象馬</span>
                 <span className="ml-2 text-xs text-gray-400">— ROIベース / EV正の馬のみ</span>
@@ -504,12 +504,12 @@ export default function Home() {
                 <span className="text-xs text-gray-400">円</span>
               </div>
             </div>
-            <div className="grid grid-cols-3 divide-x divide-gray-100">
+            <div className="grid grid-cols-1 sm:grid-cols-3">
               {candidates.slice(0, 3).map((h, i) => {
                 const roiPct = Math.round((h.ev + 1) * 100);
                 const profit = Math.round(investment * h.ev);
                 return (
-                  <div key={h.horse} className="px-5 py-4 flex flex-col gap-3">
+                  <div key={h.horse} className="px-5 py-4 flex flex-col gap-3 border-b sm:border-b-0 sm:border-r border-gray-100 last:border-0">
                     <div className="flex items-start justify-between gap-2">
                       <div>
                         <div className="text-[10px] text-gray-400 mb-1">#{i + 1}</div>
@@ -534,12 +534,12 @@ export default function Home() {
                 );
               })}
               {candidates.length > 3 && (
-                <div className="col-span-3 border-t border-gray-100 px-5 py-2 flex gap-4">
+                <div className="col-span-1 sm:col-span-3 border-t border-gray-100 px-5 py-2 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:gap-4">
                   {candidates.slice(3).map((h) => {
                     const roiPct = Math.round((h.ev + 1) * 100);
                     const profit = Math.round(investment * h.ev);
                     return (
-                      <div key={h.horse} className="flex items-center gap-4 text-xs text-gray-600">
+                      <div key={h.horse} className="flex items-center gap-3 text-xs text-gray-600">
                         <span className="font-bold text-gray-900">{h.horse}</span>
                         <span className="tabular-nums text-gray-500">ROI <span className="font-bold text-gray-900">{roiPct}%</span></span>
                         <span className="tabular-nums text-gray-500">単勝 {h.odds}倍</span>
@@ -555,7 +555,7 @@ export default function Home() {
 
         {/* ── Row 2 ── */}
         {selectedHorse && score && (
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
             {/* Panel D */}
             <div className="border border-gray-200 bg-white p-5 flex flex-col gap-3">
@@ -660,7 +660,7 @@ export default function Home() {
                   <tr className="text-gray-400">
                     <th className="text-left pb-2 font-normal">馬名</th>
                     <th className="text-right pb-2 font-normal">勝率</th>
-                    <th className="text-right pb-2 font-normal">Edge</th>
+                    <th className="text-right pb-2 font-normal hidden sm:table-cell">Edge</th>
                     <th className="text-right pb-2 font-normal">EV</th>
                   </tr>
                 </thead>
@@ -676,7 +676,7 @@ export default function Home() {
                       >
                         <td className="py-1 truncate max-w-[80px] text-gray-700">{h.horse}</td>
                         <td className="py-1 text-right text-gray-400">{(h.pTrue * 100).toFixed(0)}%</td>
-                        <td className={`py-1 text-right ${h.edge > 0 ? "text-blue-500" : "text-red-400"}`}>
+                        <td className={`py-1 text-right hidden sm:table-cell ${h.edge > 0 ? "text-blue-500" : "text-red-400"}`}>
                           {h.edge > 0 ? "+" : ""}{(h.edge * 100).toFixed(1)}
                         </td>
                         <td className={`py-1 text-right font-bold ${h.ev > 0 ? "text-blue-600" : "text-red-500"}`}>
