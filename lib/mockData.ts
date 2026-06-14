@@ -1,6 +1,12 @@
 // 2026-06-13 実レースデータ
-// 東京11R ジューンS(OP) 出走馬：スポーツナビ・競馬ブック 2ソース一致確認済み
-// 単勝オッズ：スポーツナビ（2026-06-13 取得）
+// 東京11R ジューンS(OP) 出走馬：netkeiba (race_id=202605030311) / スポーツナビ 2ソース一致確認済み
+// 単勝オッズ：netkeiba / スポーツナビ（2026-06-13 取得）
+// formScore/pedigreeScore/trainingScore：市場オッズから推定
+// jockeyScore：騎手実績ベース推定値
+//
+// 2026-06-14 実レースデータ
+// 阪神11R 宝塚記念(G1) 出走馬：netkeiba (race_id=202609030411) / umanity 2ソース一致確認済み
+// 単勝オッズ：umanity（2026-06-14 取得）
 // formScore/pedigreeScore/trainingScore：市場オッズから推定
 // jockeyScore：騎手実績ベース推定値
 
@@ -21,42 +27,90 @@ export const races = [
     raceName: "函館スプリントS（G3）",
     postTime: "15:45",
   },
+  {
+    id: 3,
+    date: "2026-06-14",
+    venue: "阪神",
+    raceNumber: 11,
+    raceName: "宝塚記念（G1）",
+    postTime: "15:40",
+  },
 ];
 
 export const horses = [
-  // 東京11R ジューンS(OP) 13頭
-  { id: 101, raceId: 1, horse: "レガーロデルシエロ" },
-  { id: 102, raceId: 1, horse: "タシット" },
-  { id: 103, raceId: 1, horse: "カネラフィーナ" },
-  { id: 104, raceId: 1, horse: "リラエンブレム" },
-  { id: 105, raceId: 1, horse: "ナムラエイハブ" },
-  { id: 106, raceId: 1, horse: "メリオーレム" },
-  { id: 107, raceId: 1, horse: "コントラポスト" },
-  { id: 108, raceId: 1, horse: "バレエマスター" },
-  { id: 109, raceId: 1, horse: "ダノンエアズロック" },
-  { id: 110, raceId: 1, horse: "ディマイザキッド" },
-  { id: 111, raceId: 1, horse: "トーセンリョウ" },
-  { id: 112, raceId: 1, horse: "ヤマニンサンパ" },
-  { id: 113, raceId: 1, horse: "マルチャン" },
+  // 東京11R ジューンS(OP) 13頭 — 枠番・馬番・騎手：netkeiba 202605030311
+  { id: 101, raceId: 1, frameNumber: 1, horseNumber: 1,  horse: "レガーロデルシエロ", jockey: "大野拓弥" },
+  { id: 102, raceId: 1, frameNumber: 2, horseNumber: 2,  horse: "タシット",           jockey: "三浦皇成" },
+  { id: 103, raceId: 1, frameNumber: 3, horseNumber: 3,  horse: "カネラフィーナ",     jockey: "C.ルメール" },
+  { id: 104, raceId: 1, frameNumber: 4, horseNumber: 4,  horse: "リラエンブレム",     jockey: "戸崎圭太" },
+  { id: 105, raceId: 1, frameNumber: 4, horseNumber: 5,  horse: "ナムラエイハブ",     jockey: "原優介" },
+  { id: 106, raceId: 1, frameNumber: 5, horseNumber: 6,  horse: "メリオーレム",       jockey: "石川裕紀人" },
+  { id: 107, raceId: 1, frameNumber: 5, horseNumber: 7,  horse: "コントラポスト",     jockey: "津村明秀" },
+  { id: 108, raceId: 1, frameNumber: 6, horseNumber: 8,  horse: "バレエマスター",     jockey: "菊沢一樹" },
+  { id: 109, raceId: 1, frameNumber: 6, horseNumber: 9,  horse: "ダノンエアズロック", jockey: "D.レーン" },
+  { id: 110, raceId: 1, frameNumber: 7, horseNumber: 10, horse: "ディマイザキッド",   jockey: "M.ディー" },
+  { id: 111, raceId: 1, frameNumber: 7, horseNumber: 11, horse: "トーセンリョウ",     jockey: "F.ゴンサルベス" },
+  { id: 112, raceId: 1, frameNumber: 8, horseNumber: 12, horse: "ヤマニンサンパ",     jockey: "亀田温心" },
+  { id: 113, raceId: 1, frameNumber: 8, horseNumber: 13, horse: "マルチャン",         jockey: "丸田恭介" },
+  // 阪神11R 宝塚記念(G1) 18頭 — 枠番・馬番・騎手：netkeiba 202609030411 / umanity 2ソース確認済み
+  { id: 301, raceId: 3, frameNumber: 1, horseNumber: 1,  horse: "ダノンデサイル",     jockey: "戸崎圭太" },
+  { id: 302, raceId: 3, frameNumber: 1, horseNumber: 2,  horse: "ミュージアムマイル", jockey: "D.レーン" },
+  { id: 303, raceId: 3, frameNumber: 2, horseNumber: 3,  horse: "シュガークン",       jockey: "吉村誠之助" },
+  { id: 304, raceId: 3, frameNumber: 2, horseNumber: 4,  horse: "ミクニインスパイア", jockey: "丹内祐次" },
+  { id: 305, raceId: 3, frameNumber: 3, horseNumber: 5,  horse: "クロワデュノール",   jockey: "北村友一" },
+  { id: 306, raceId: 3, frameNumber: 3, horseNumber: 6,  horse: "ビザンチンドリーム", jockey: "西村淳也" },
+  { id: 307, raceId: 3, frameNumber: 4, horseNumber: 7,  horse: "ファミリータイム",   jockey: "幸英明" },
+  { id: 308, raceId: 3, frameNumber: 4, horseNumber: 8,  horse: "タガノデュード",     jockey: "高杉吏麒" },
+  { id: 309, raceId: 3, frameNumber: 5, horseNumber: 9,  horse: "コスモキュランダ",   jockey: "横山武史" },
+  { id: 310, raceId: 3, frameNumber: 5, horseNumber: 10, horse: "ジューンテイク",     jockey: "松山弘平" },
+  { id: 311, raceId: 3, frameNumber: 6, horseNumber: 11, horse: "シンエンペラー",     jockey: "坂井瑠星" },
+  { id: 312, raceId: 3, frameNumber: 6, horseNumber: 12, horse: "マイネルエンペラー", jockey: "川田将雅" },
+  { id: 313, raceId: 3, frameNumber: 7, horseNumber: 13, horse: "シェイクユアハート", jockey: "古川吉洋" },
+  { id: 314, raceId: 3, frameNumber: 7, horseNumber: 14, horse: "スティンガーグラス", jockey: "岩田望来" },
+  { id: 315, raceId: 3, frameNumber: 7, horseNumber: 15, horse: "マイユニバース",     jockey: "横山典弘" },
+  { id: 316, raceId: 3, frameNumber: 8, horseNumber: 16, horse: "メイショウタバル",   jockey: "武豊" },
+  { id: 317, raceId: 3, frameNumber: 8, horseNumber: 17, horse: "レガレイラ",         jockey: "C.ルメール" },
+  { id: 318, raceId: 3, frameNumber: 8, horseNumber: 18, horse: "ミステリーウェイ",   jockey: "松本大輝" },
   // 函館11R 函館スプリントS G3 13頭
-  { id: 201, raceId: 2, horse: "モズナナスター" },
-  { id: 202, raceId: 2, horse: "ダノンマッキンリー" },
-  { id: 203, raceId: 2, horse: "レイピア" },
-  { id: 204, raceId: 2, horse: "カルプスペルシュ" },
-  { id: 205, raceId: 2, horse: "ジョーメッドヴィン" },
-  { id: 206, raceId: 2, horse: "ウイングレイテスト" },
-  { id: 207, raceId: 2, horse: "ピューロマジック" },
-  { id: 208, raceId: 2, horse: "ポッドベイダー" },
-  { id: 209, raceId: 2, horse: "クラスペディア" },
-  { id: 210, raceId: 2, horse: "エーティーマクフィ" },
-  { id: 211, raceId: 2, horse: "インビンシブルパパ" },
-  { id: 212, raceId: 2, horse: "ルシード" },
-  { id: 213, raceId: 2, horse: "シュタールヴィント" },
+  { id: 201, raceId: 2, frameNumber: 1, horseNumber: 1,  horse: "モズナナスター",     jockey: "" },
+  { id: 202, raceId: 2, frameNumber: 1, horseNumber: 2,  horse: "ダノンマッキンリー", jockey: "" },
+  { id: 203, raceId: 2, frameNumber: 2, horseNumber: 3,  horse: "レイピア",           jockey: "" },
+  { id: 204, raceId: 2, frameNumber: 2, horseNumber: 4,  horse: "カルプスペルシュ",   jockey: "" },
+  { id: 205, raceId: 2, frameNumber: 3, horseNumber: 5,  horse: "ジョーメッドヴィン", jockey: "" },
+  { id: 206, raceId: 2, frameNumber: 3, horseNumber: 6,  horse: "ウイングレイテスト", jockey: "" },
+  { id: 207, raceId: 2, frameNumber: 4, horseNumber: 7,  horse: "ピューロマジック",   jockey: "" },
+  { id: 208, raceId: 2, frameNumber: 5, horseNumber: 8,  horse: "ポッドベイダー",     jockey: "" },
+  { id: 209, raceId: 2, frameNumber: 5, horseNumber: 9,  horse: "クラスペディア",     jockey: "" },
+  { id: 210, raceId: 2, frameNumber: 6, horseNumber: 10, horse: "エーティーマクフィ", jockey: "" },
+  { id: 211, raceId: 2, frameNumber: 6, horseNumber: 11, horse: "インビンシブルパパ", jockey: "" },
+  { id: 212, raceId: 2, frameNumber: 7, horseNumber: 12, horse: "ルシード",           jockey: "" },
+  { id: 213, raceId: 2, frameNumber: 8, horseNumber: 13, horse: "シュタールヴィント", jockey: "" },
 ];
 
-// jockeyScore凡例: ルメール=95, レーン=90, ディー=85, 戸崎=84, 大野=76,
-//                  ゴンサルベス=75, 石川=73, 三浦=72, 津村=72, 亀田=72, 菊沢=70, 原=70, 丸田=68
+// jockeyScore凡例: ルメール=95, レーン=90, 川田=88, 武豊=88, 横山武=84, 戸崎=84, 坂井=82,
+//                  岩田望=80, 北村友=80, 松山=80, 横山典=78, 西村淳=76, 大野=76,
+//                  幸=74, ゴンサルベス=75, 古川吉=72, 石川=73, 三浦=72, 津村=72, 亀田=72,
+//                  菊沢=70, 原=70, 丹内=70, 高杉=65, 吉村誠=65, 松本大=68, 丸田=68
 export const horseFeatures = [
+  // 阪神11R 宝塚記念(G1) — formScore/pedigreeScore/trainingScore はオッズ逆相関で推定
+  { horseId: 301, formScore: 76, pedigreeScore: 75, trainingScore: 75, jockeyScore: 84 }, // ダノンデサイル 戸崎 7.0倍
+  { horseId: 302, formScore: 76, pedigreeScore: 74, trainingScore: 75, jockeyScore: 90 }, // ミュージアムマイル レーン 7.1倍
+  { horseId: 303, formScore: 39, pedigreeScore: 38, trainingScore: 39, jockeyScore: 65 }, // シュガークン 吉村誠之助 250.2倍
+  { horseId: 304, formScore: 55, pedigreeScore: 54, trainingScore: 55, jockeyScore: 70 }, // ミクニインスパイア 丹内 56.1倍
+  { horseId: 305, formScore: 88, pedigreeScore: 86, trainingScore: 87, jockeyScore: 80 }, // クロワデュノール 北村友一 2.5倍
+  { horseId: 306, formScore: 62, pedigreeScore: 60, trainingScore: 61, jockeyScore: 76 }, // ビザンチンドリーム 西村淳也 29.6倍
+  { horseId: 307, formScore: 37, pedigreeScore: 36, trainingScore: 37, jockeyScore: 74 }, // ファミリータイム 幸 287.4倍
+  { horseId: 308, formScore: 55, pedigreeScore: 53, trainingScore: 54, jockeyScore: 65 }, // タガノデュード 高杉 58.8倍
+  { horseId: 309, formScore: 59, pedigreeScore: 57, trainingScore: 58, jockeyScore: 84 }, // コスモキュランダ 横山武史 41.6倍
+  { horseId: 310, formScore: 40, pedigreeScore: 39, trainingScore: 40, jockeyScore: 80 }, // ジューンテイク 松山 222.6倍
+  { horseId: 311, formScore: 51, pedigreeScore: 49, trainingScore: 50, jockeyScore: 82 }, // シンエンペラー 坂井 85.0倍
+  { horseId: 312, formScore: 46, pedigreeScore: 45, trainingScore: 46, jockeyScore: 88 }, // マイネルエンペラー 川田 121.0倍
+  { horseId: 313, formScore: 51, pedigreeScore: 50, trainingScore: 51, jockeyScore: 72 }, // シェイクユアハート 古川吉 84.0倍
+  { horseId: 314, formScore: 44, pedigreeScore: 42, trainingScore: 43, jockeyScore: 80 }, // スティンガーグラス 岩田望来 151.6倍
+  { horseId: 315, formScore: 67, pedigreeScore: 65, trainingScore: 66, jockeyScore: 78 }, // マイユニバース 横山典弘 19.1倍
+  { horseId: 316, formScore: 87, pedigreeScore: 84, trainingScore: 85, jockeyScore: 88 }, // メイショウタバル 武豊 2.5倍
+  { horseId: 317, formScore: 75, pedigreeScore: 73, trainingScore: 74, jockeyScore: 95 }, // レガレイラ ルメール 7.8倍
+  { horseId: 318, formScore: 39, pedigreeScore: 38, trainingScore: 39, jockeyScore: 68 }, // ミステリーウェイ 松本大輝 229.4倍
   // 東京11R ジューンS(OP) — formScore/pedigreeScore/trainingScore はオッズ逆相関で推定
   { horseId: 101, formScore: 78, pedigreeScore: 76, trainingScore: 77, jockeyScore: 76 }, // レガーロデルシエロ 大野拓弥 5.7倍
   { horseId: 102, formScore: 48, pedigreeScore: 47, trainingScore: 48, jockeyScore: 72 }, // タシット 三浦皇成 120.3倍
@@ -88,6 +142,25 @@ export const horseFeatures = [
 ];
 
 export const sentimentScores = [
+  // 阪神11R 宝塚記念(G1)
+  { horseId: 301, proScore: 78, youtubeScore: 76 }, // ダノンデサイル
+  { horseId: 302, proScore: 78, youtubeScore: 75 }, // ミュージアムマイル
+  { horseId: 303, proScore: 34, youtubeScore: 31 }, // シュガークン
+  { horseId: 304, proScore: 50, youtubeScore: 47 }, // ミクニインスパイア
+  { horseId: 305, proScore: 90, youtubeScore: 88 }, // クロワデュノール
+  { horseId: 306, proScore: 60, youtubeScore: 57 }, // ビザンチンドリーム
+  { horseId: 307, proScore: 32, youtubeScore: 29 }, // ファミリータイム
+  { horseId: 308, proScore: 50, youtubeScore: 47 }, // タガノデュード
+  { horseId: 309, proScore: 55, youtubeScore: 52 }, // コスモキュランダ
+  { horseId: 310, proScore: 35, youtubeScore: 32 }, // ジューンテイク
+  { horseId: 311, proScore: 46, youtubeScore: 43 }, // シンエンペラー
+  { horseId: 312, proScore: 41, youtubeScore: 38 }, // マイネルエンペラー
+  { horseId: 313, proScore: 46, youtubeScore: 43 }, // シェイクユアハート
+  { horseId: 314, proScore: 39, youtubeScore: 36 }, // スティンガーグラス
+  { horseId: 315, proScore: 68, youtubeScore: 65 }, // マイユニバース
+  { horseId: 316, proScore: 88, youtubeScore: 86 }, // メイショウタバル
+  { horseId: 317, proScore: 77, youtubeScore: 75 }, // レガレイラ
+  { horseId: 318, proScore: 34, youtubeScore: 31 }, // ミステリーウェイ
   // 東京11R ジューンS
   { horseId: 101, proScore: 80, youtubeScore: 78 }, // レガーロデルシエロ
   { horseId: 102, proScore: 40, youtubeScore: 38 }, // タシット
@@ -118,9 +191,29 @@ export const sentimentScores = [
   { horseId: 213, proScore: 44, youtubeScore: 42 },
 ];
 
-// 単勝オッズ：東京11R はスポーツナビ・競馬ブック 2ソース一致の実データ
+// 単勝オッズ：netkeiba (race_id=202605030311) / スポーツナビ 2ソース一致の実データ（2026-06-13 取得）
+// 単勝オッズ：netkeiba (race_id=202609030411) / umanity 2ソース確認済み（2026-06-14 取得）
 export const marketOdds = [
-  // 東京11R ジューンS(OP) 実オッズ
+  // 阪神11R 宝塚記念(G1) 実オッズ（umanity確認済み）
+  { horseId: 301, odds: 7.0 },   // ダノンデサイル
+  { horseId: 302, odds: 7.1 },   // ミュージアムマイル
+  { horseId: 303, odds: 250.2 }, // シュガークン
+  { horseId: 304, odds: 56.1 },  // ミクニインスパイア
+  { horseId: 305, odds: 2.5 },   // クロワデュノール（1番人気）
+  { horseId: 306, odds: 29.6 },  // ビザンチンドリーム
+  { horseId: 307, odds: 287.4 }, // ファミリータイム
+  { horseId: 308, odds: 58.8 },  // タガノデュード
+  { horseId: 309, odds: 41.6 },  // コスモキュランダ
+  { horseId: 310, odds: 222.6 }, // ジューンテイク
+  { horseId: 311, odds: 85.0 },  // シンエンペラー
+  { horseId: 312, odds: 121.0 }, // マイネルエンペラー
+  { horseId: 313, odds: 84.0 },  // シェイクユアハート
+  { horseId: 314, odds: 151.6 }, // スティンガーグラス
+  { horseId: 315, odds: 19.1 },  // マイユニバース
+  { horseId: 316, odds: 2.5 },   // メイショウタバル（2番人気）
+  { horseId: 317, odds: 7.8 },   // レガレイラ
+  { horseId: 318, odds: 229.4 }, // ミステリーウェイ
+  // 東京11R ジューンS(OP) 実オッズ（netkeiba確認済み）
   { horseId: 101, odds: 5.7 },   // レガーロデルシエロ
   { horseId: 102, odds: 120.3 }, // タシット
   { horseId: 103, odds: 5.1 },   // カネラフィーナ
