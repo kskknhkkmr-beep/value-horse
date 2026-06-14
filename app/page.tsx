@@ -54,7 +54,16 @@ export default function Home() {
       .then((data: ScoreResponse) => setScore(data));
   }, [selectedRaceId]);
 
-  const evPositive = (score?.evRanking ?? []).filter((h) => h.ev > 0);
+  // EV正の馬フィルター（3条件すべて満たす馬のみ）
+  // EV_MIN:   期待値10%以上（投資額の1.10倍以上のリターンを期待）
+  // EDGE_MIN: 公正市場確率比でモデルが2pp以上上回る（オーバーラウンド補正済み）
+  // ODDS_MAX: 30倍以下（高オッズ馬はスコア推定誤差が拡大するため除外）
+  const EV_MIN = 0.10;
+  const EDGE_MIN = 0.02;
+  const ODDS_MAX = 30;
+  const evPositive = (score?.evRanking ?? []).filter(
+    (h) => h.ev > EV_MIN && h.edge > EDGE_MIN && h.odds <= ODDS_MAX
+  );
 
   const allByEV = score?.evRanking ?? [];
   const axis = evPositive[0] ?? null;
