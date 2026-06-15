@@ -1,5 +1,11 @@
 import type { RaceResult, JockeyStats } from "./scorer";
 
+// ── 会場コード → 会場名 ───────────────────────────────────────────────────────
+export const VENUE_MAP: Record<string, string> = {
+  "01": "札幌", "02": "函館", "03": "福島", "04": "新潟", "05": "東京",
+  "06": "中山", "07": "中京", "08": "京都", "09": "阪神", "10": "小倉",
+};
+
 const PC_HEADERS = {
   "User-Agent":
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -217,4 +223,155 @@ function parseJockeyRaceRows(html: string): JockeyStats | null {
   }
 
   return rides > 0 ? { wins, rides, places } : null;
+}
+
+// ─── 週末レース一覧取得 ───────────────────────────────────────────────────────
+
+/** 指定日（YYYYMMDD）の race_id 一覧を返す */
+export async function fetchRaceIdsByDate(yyyymmdd: string): Promise<string[]> {
+  await sleep(1000);
+  const url = `https://race.sp.netkeiba.com/top/race_list.html?kaisai_date=${yyyymmdd}`;
+  try {
+    const html = await fetchUtf8(url);
+    const ids = new Set<string>();
+    for (const m of html.matchAll(/race_id=(\d{12})/g)) {
+      ids.add(m[1]);
+    }
+    return [...ids].sort();
+  } catch (e) {
+    console.warn(`  [scraper] fetchRaceIdsByDate failed (${yyyymmdd}):`, (e as Error).message);
+    return [];
+  }
+}
+
+// ─── 出馬表フル取得 ───────────────────────────────────────────────────────────
+
+export type RaceEntryHorse = {
+  frameNumber: number;
+  horseNumber: number;
+  horse: string;
+  netKeibaHorseId: string;
+  jockey: string;
+  odds: number | null;
+};
+
+export type RaceEntryInfo = {
+  raceName: string;
+  postTime: string | null;
+  surface: "芝" | "ダ" | "障";
+  distance: number;
+  venue: string;
+  raceNumber: number;
+  netKeibaRaceId: string;
+  horses: RaceEntryHorse[];
+};
+
+/**
+ * SP 出馬表ページから馬エントリーとレース情報を取得する。
+ * 出馬表未発表など取得できない場合は null を返す。
+ */
+export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryInfo | null> {
+  await sleep(800);
+  const url = `https://race.sp.netkeiba.com/race/shutuba.html?race_id=${netKeibaRaceId}`;
+  try {
+    const html = await fetchUtf8(url);
+
+    // race_id から venue / raceNumber を導出
+    const venueCode = netKeibaRaceId.substring(4, 6);
+    const raceNumber = parseInt(netKeibaRaceId.substring(10, 12), 10);
+    const venue = VENUE_MAP[venueCode] ?? `会場${venueCode}`;
+
+    // レース名（複数パターンで試行）
+    let raceName = "";
+    const raceNameCandidates = [
+      html.match(/<h1[^>]*class="[^"]*RaceName[^"]*"[^>]*>([^<]+)<\/h1>/i),
+      html.match(/<div[^>]*class="[^"]*RaceName[^"]*"[^>]*>([^<]+)<\/div>/i),
+      html.match(/<span[^>]*class="[^"]*RaceName[^"]*"[^>]*>([^<]+)<\/span>/i),
+      html.match(/<title>([^|<\n]+)/),
+    ];
+    for (const m of raceNameCandidates) {
+      const v = m?.[1]?.trim().replace(/\s+/g, "");
+      if (v && v.length > 0 && v.length < 40) { raceName = v; break; }
+    }
+
+    // 発走時刻
+    const timeM = html.match(/(\d{2}:\d{2})発走/);
+    const postTime = timeM ? timeM[1] : null;
+
+    // 芝 / ダ / 距離
+    let surface: "芝" | "ダ" | "障" = "芝";
+    let distance = 0;
+    const courseM = html.match(/([芝ダ障])(\d{3,4})m/);
+    if (courseM) {
+      surface = courseM[1] === "芝" ? "芝" : courseM[1] === "障" ? "障" : "ダ";
+      distance = parseInt(courseM[2], 10);
+    }
+
+    // 馬エントリー: id="db_XXX" パターンで馬名・馬 ID を順番に取得
+    const matches = [...html.matchAll(/id="db_(\d+)"[^>]*><span>([^の]+)のデータベース<\/span>/g)];
+    if (matches.length === 0) return null; // 出馬表未発表
+
+    const frameNums = calcFrameNumbers(matches.length);
+
+    const horses: RaceEntryHorse[] = matches.map((m, idx) => {
+      const horseId = m[1];
+      const horseName = m[2].trim();
+      const pos = m.index ?? 0;
+      const nextPos = matches[idx + 1]?.index ?? html.length;
+      // 前後の文脈（騎手・オッズ探索用）
+      const segment = html.substring(Math.max(0, pos - 300), nextPos);
+
+      // 騎手: /jockey/ href 付きリンクのテキスト
+      let jockey = "";
+      const jockeyM = segment.match(/href="[^"]*\/jockey\/[^"]*"[^>]*>([^<]{2,8})<\/a>/) ??
+        segment.match(/class="[^"]*Jockey[^"]*"[^>]*>(?:<[^>]+>)*([^<]{2,8})/);
+      if (jockeyM) jockey = stripTags(jockeyM[1]).trim();
+
+      // オッズ: Odds 系クラスまたは数値パターン
+      let odds: number | null = null;
+      const oddsM = segment.match(/class="[^"]*Odds[^"]*"[^>]*>\s*<[^>]+>\s*([\d.]+)/) ??
+        segment.match(/class="[^"]*Odds[^"]*"[^>]*>([\d.]+)/) ??
+        segment.match(/class="[^"]*OddsPoint[^"]*"[^>]*>([\d.]+)/);
+      if (oddsM) {
+        const v = parseFloat(oddsM[1]);
+        if (!isNaN(v) && v >= 1.0 && v <= 9999) odds = v;
+      }
+
+      return {
+        frameNumber: frameNums[idx],
+        horseNumber: idx + 1,
+        horse: horseName,
+        netKeibaHorseId: horseId,
+        jockey,
+        odds,
+      };
+    });
+
+    return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, horses };
+  } catch (e) {
+    console.warn(`  [scraper] fetchRaceEntry failed (${netKeibaRaceId}):`, (e as Error).message);
+    return null;
+  }
+}
+
+/** JRA 標準枠番割り当て（n 頭 → 各馬の枠番配列） */
+function calcFrameNumbers(n: number): number[] {
+  if (n <= 8) return Array.from({ length: n }, (_, i) => i + 1);
+
+  // 各枠の頭数: まず全枠1頭、余りを外枠(8→1)から順に加算
+  const counts = new Array(8).fill(1);
+  let extra = n - 8;
+  let f = 7;
+  while (extra > 0) {
+    counts[f]++;
+    f = f === 0 ? 7 : f - 1;
+    extra--;
+  }
+
+  // 枠番配列生成（馬番順に枠番を割り当て）
+  const result: number[] = [];
+  for (let frame = 0; frame < 8; frame++) {
+    for (let j = 0; j < counts[frame]; j++) result.push(frame + 1);
+  }
+  return result.slice(0, n);
 }

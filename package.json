@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch-scores": "tsx scripts/fetch-scores.ts"
+    "fetch-races": "tsx scripts/fetch-races.ts",
+    "fetch-scores": "tsx scripts/fetch-scores.ts",
+    "fetch-all": "npm run fetch-races && npm run fetch-scores"
   },
   "dependencies": {
     "next": "16.2.7",

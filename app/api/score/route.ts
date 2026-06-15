@@ -5,8 +5,9 @@ import { NextResponse } from "next/server";
 import { calculateScore } from "@/lib/engine";
 import { races, horses, horseFeatures, marketOdds } from "@/lib/mockData";
 import type { HorseScores } from "@/lib/scorer";
+import type { RacesCache, CachedRace } from "@/scripts/fetch-races";
 
-// ── キャッシュ読み込み（fetch-scores スクリプト実行後に有効になる）─────────
+// ── キャッシュ読み込み ─────────────────────────────────────────────────────────
 
 type ScoresCache = Record<number, HorseScores>;
 
@@ -14,77 +15,114 @@ function loadScoresCache(): ScoresCache {
   try {
     const p = join(process.cwd(), "lib", "scores-cache.json");
     if (!existsSync(p)) return {};
-    const raw = JSON.parse(readFileSync(p, "utf-8")) as {
-      scores?: Record<string, HorseScores>;
-    };
-    // キーは文字列で保存されているので数値変換
+    const raw = JSON.parse(readFileSync(p, "utf-8")) as { scores?: Record<string, HorseScores> };
     const result: ScoresCache = {};
-    for (const [k, v] of Object.entries(raw.scores ?? {})) {
-      result[Number(k)] = v;
-    }
+    for (const [k, v] of Object.entries(raw.scores ?? {})) result[Number(k)] = v;
     return result;
   } catch {
     return {};
   }
 }
 
-// ── Route Handler ─────────────────────────────────────────────────────────
+function loadRacesCache(): RacesCache | null {
+  try {
+    const p = join(process.cwd(), "lib", "races-cache.json");
+    if (!existsSync(p)) return null;
+    const raw = JSON.parse(readFileSync(p, "utf-8")) as RacesCache;
+    return raw.races?.length > 0 ? raw : null;
+  } catch {
+    return null;
+  }
+}
+
+// ── Route Handler ─────────────────────────────────────────────────────────────
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const raceId = Number(searchParams.get("raceId")) || 1;
 
-  const race = races.find((r) => r.id === raceId);
-  if (!race) {
-    return NextResponse.json({ error: "Race not found" }, { status: 404 });
+  const scoresCache = loadScoresCache();
+  const racesCache = loadRacesCache();
+
+  // races-cache.json があれば優先使用
+  let race: { id: number; raceName: string; date: string; venue: string; raceNumber: number; postTime: string } | undefined;
+  let raceHorses: Array<{ id: number; horse: string; odds: number | null; jockey?: string }> = [];
+  let usingRacesCache = false;
+
+  if (racesCache) {
+    const cr: CachedRace | undefined = racesCache.races.find((r) => r.id === raceId);
+    if (cr) {
+      race = { id: cr.id, raceName: cr.raceName, date: cr.date, venue: cr.venue, raceNumber: cr.raceNumber, postTime: cr.postTime };
+      raceHorses = cr.horses.map((h) => ({ id: h.id, horse: h.horse, odds: h.odds, jockey: h.jockey }));
+      usingRacesCache = true;
+    }
   }
 
-  const scoresCache = loadScoresCache();
-  const usingCache = Object.keys(scoresCache).length > 0;
+  // フォールバック: mockData
+  if (!race) {
+    const mr = races.find((r) => r.id === raceId);
+    if (!mr) return NextResponse.json({ error: "Race not found" }, { status: 404 });
+    race = mr;
+    raceHorses = horses
+      .filter((h) => h.raceId === raceId)
+      .map((h) => ({ id: h.id, horse: h.horse, odds: marketOdds.find((o) => o.horseId === h.id)?.odds ?? null }));
+  }
 
-  const raceHorses = horses.filter((h) => h.raceId === raceId);
+  const usingScoresCache = Object.keys(scoresCache).length > 0;
 
-  const inputs = raceHorses.map((h) => {
+  // odds が全頭 null の場合は EV 計算不可
+  const horsesWithOdds = raceHorses.filter((h) => h.odds != null && h.odds > 0);
+  if (horsesWithOdds.length === 0) {
+    return NextResponse.json({
+      raceId: race.id,
+      raceName: race.raceName,
+      date: race.date,
+      venue: race.venue,
+      raceNumber: race.raceNumber,
+      postTime: race.postTime,
+      oddsUnavailable: true,
+      dataSource: "出走登録済み（オッズ未確定）",
+      finalScores: [],
+      valueRanking: [],
+      evRanking: [],
+      edgeRanking: [],
+    });
+  }
+
+  const inputs = horsesWithOdds.map((h) => {
     const cached = scoresCache[h.id];
-    const fallback = horseFeatures.find((f) => f.horseId === h.id)!;
-    const odds = marketOdds.find((o) => o.horseId === h.id)!;
 
-    // キャッシュ（実データ）があればそちらを優先、なければ mockData を使用
-    const formScore = (cached?.formScore ?? fallback.formScore) / 100;
-    const pedigreeScore = (cached?.pedigreeScore ?? fallback.pedigreeScore) / 100;
-    const trainingScore = (cached?.trainingScore ?? fallback.trainingScore) / 100;
-    const jockeyScore = (cached?.jockeyScore ?? fallback.jockeyScore) / 100;
+    // mockData の horseFeatures を探す（フォールバック用）
+    const fallback = !usingRacesCache
+      ? horseFeatures.find((f) => f.horseId === h.id)
+      : undefined;
 
-    return {
-      id: h.id,
-      name: h.horse,
-      formScore,
-      pedigreeScore,
-      trainingScore,
-      jockeyScore,
-      odds: odds.odds,
-    };
+    const DEFAULT = 65;
+    const formScore = (cached?.formScore ?? fallback?.formScore ?? DEFAULT) / 100;
+    const pedigreeScore = (cached?.pedigreeScore ?? fallback?.pedigreeScore ?? DEFAULT) / 100;
+    const trainingScore = (cached?.trainingScore ?? fallback?.trainingScore ?? DEFAULT) / 100;
+    const jockeyScore = (cached?.jockeyScore ?? fallback?.jockeyScore ?? DEFAULT) / 100;
+
+    return { id: h.id, name: h.horse, formScore, pedigreeScore, trainingScore, jockeyScore, odds: h.odds! };
   });
 
   const result = calculateScore(inputs);
 
   const featuresById = new Map(
-    raceHorses.map((h) => {
+    horsesWithOdds.map((h) => {
       const cached = scoresCache[h.id];
-      const fallback = horseFeatures.find((f) => f.horseId === h.id)!;
-      return [
-        h.id,
-        {
-          formScore: cached?.formScore ?? fallback.formScore,
-          pedigreeScore: cached?.pedigreeScore ?? fallback.pedigreeScore,
-          trainingScore: cached?.trainingScore ?? fallback.trainingScore,
-          jockeyScore: cached?.jockeyScore ?? fallback.jockeyScore,
-        },
-      ];
+      const fallback = !usingRacesCache ? horseFeatures.find((f) => f.horseId === h.id) : undefined;
+      const DEFAULT = 65;
+      return [h.id, {
+        formScore: cached?.formScore ?? fallback?.formScore ?? DEFAULT,
+        pedigreeScore: cached?.pedigreeScore ?? fallback?.pedigreeScore ?? DEFAULT,
+        trainingScore: cached?.trainingScore ?? fallback?.trainingScore ?? DEFAULT,
+        jockeyScore: cached?.jockeyScore ?? fallback?.jockeyScore ?? DEFAULT,
+      }];
     })
   );
 
-  const toHorseShape = (h: (typeof result.finalScores)[number]) => {
+  const toShape = (h: (typeof result.finalScores)[number]) => {
     const f = featuresById.get(h.id);
     return {
       horse: h.name,
@@ -94,16 +132,13 @@ export async function GET(request: Request) {
       edge: h.edge,
       ev: h.ev,
       valueRating: h.valueRating,
-      features: f
-        ? {
-            form: f.formScore,
-            pedigree: f.pedigreeScore,
-            training: f.trainingScore,
-            jockey: f.jockeyScore,
-          }
-        : null,
+      features: f ? { form: f.formScore, pedigree: f.pedigreeScore, training: f.trainingScore, jockey: f.jockeyScore } : null,
     };
   };
+
+  const dataSource = usingRacesCache
+    ? usingScoresCache ? "netkeiba（実データ）" : "netkeiba 出馬表（スコアはデフォルト値）"
+    : usingScoresCache ? "netkeiba（実データ）" : "mockData（推定値）";
 
   return NextResponse.json({
     raceId: race.id,
@@ -112,10 +147,11 @@ export async function GET(request: Request) {
     venue: race.venue,
     raceNumber: race.raceNumber,
     postTime: race.postTime,
-    dataSource: usingCache ? "netkeiba (実データ)" : "mockData (推定値)",
-    finalScores: result.finalScores.map(toHorseShape),
-    valueRanking: result.valueRanking.map(toHorseShape),
-    evRanking: result.evRanking.map(toHorseShape),
-    edgeRanking: result.edgeRanking.map(toHorseShape),
+    oddsUnavailable: false,
+    dataSource,
+    finalScores: result.finalScores.map(toShape),
+    valueRanking: result.valueRanking.map(toShape),
+    evRanking: result.evRanking.map(toShape),
+    edgeRanking: result.edgeRanking.map(toShape),
   });
 }

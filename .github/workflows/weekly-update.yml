@@ -1,0 +1,54 @@
+name: 週末レースデータ自動更新
+
+on:
+  schedule:
+    # 毎週金曜 19:00 JST (= UTC 10:00) に実行
+    - cron: '0 10 * * 5'
+  # GitHub Actions UI から手動実行も可能
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: '対象日（YYYYMMDD 空白区切り、省略時は次の土日）'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  update-races:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 依存パッケージインストール
+        run: npm ci
+
+      - name: レース一覧・出馬表取得
+        run: |
+          if [ -n "${{ github.event.inputs.dates }}" ]; then
+            npm run fetch-races -- ${{ github.event.inputs.dates }}
+          else
+            npm run fetch-races
+          fi
+
+      - name: 近走成績・騎手スコア取得
+        run: npm run fetch-scores
+
+      - name: キャッシュをコミット＆プッシュ
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add lib/races-cache.json lib/scores-cache.json
+          if git diff --cached --quiet; then
+            echo "変更なし — コミットをスキップ"
+          else
+            git commit -m "data: 週末レース自動更新 $(date '+%Y-%m-%d')"
+            git push
+          fi
