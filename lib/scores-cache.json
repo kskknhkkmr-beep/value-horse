@@ -1,0 +1,174 @@
+{
+  "fetchedAt": "2026-06-13T13:59:00.127Z",
+  "source": "netkeiba db.netkeiba.com / race.sp.netkeiba.com",
+  "raceConditions": {
+    "1": {
+      "netKeibaRaceId": "202605030311",
+      "surface": "芝",
+      "distance": 1800
+    },
+    "2": {
+      "netKeibaRaceId": "202606030311",
+      "surface": "芝",
+      "distance": 1200
+    }
+  },
+  "scores": {
+    "101": {
+      "formScore": 77,
+      "pedigreeScore": 83,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "102": {
+      "formScore": 54,
+      "pedigreeScore": 58,
+      "jockeyScore": 50,
+      "trainingScore": 65
+    },
+    "103": {
+      "formScore": 78,
+      "pedigreeScore": 88,
+      "jockeyScore": 95,
+      "trainingScore": 65
+    },
+    "104": {
+      "formScore": 62,
+      "pedigreeScore": 73,
+      "jockeyScore": 95,
+      "trainingScore": 65
+    },
+    "105": {
+      "formScore": 54,
+      "pedigreeScore": 67,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "106": {
+      "formScore": 70,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "107": {
+      "formScore": 81,
+      "pedigreeScore": 77,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "108": {
+      "formScore": 61,
+      "pedigreeScore": 58,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "109": {
+      "formScore": 82,
+      "pedigreeScore": 73,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "110": {
+      "formScore": 66,
+      "pedigreeScore": 78,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "111": {
+      "formScore": 70,
+      "pedigreeScore": 77,
+      "jockeyScore": 83,
+      "trainingScore": 65
+    },
+    "112": {
+      "formScore": 60,
+      "pedigreeScore": 66,
+      "jockeyScore": 63,
+      "trainingScore": 65
+    },
+    "113": {
+      "formScore": 23,
+      "pedigreeScore": 44,
+      "jockeyScore": 40,
+      "trainingScore": 65
+    },
+    "201": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "202": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "203": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "204": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "205": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "206": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "207": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "208": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "209": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "210": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "211": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "212": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "213": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    }
+  }
+}

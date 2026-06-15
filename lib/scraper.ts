@@ -227,21 +227,85 @@ function parseJockeyRaceRows(html: string): JockeyStats | null {
 
 // ─── 週末レース一覧取得 ───────────────────────────────────────────────────────
 
-/** 指定日（YYYYMMDD）の race_id 一覧を返す */
+/**
+ * 指定日（YYYYMMDD）の race_id 一覧を返す。
+ *
+ * ① db.netkeiba.com/race/list/YYYYMMDD/ から 12 桁 race_id を直接抽出（過去レース）
+ * ② 見つからない場合は会場コードを取得し、shutuba ページを探索して特定（未来レース）
+ */
 export async function fetchRaceIdsByDate(yyyymmdd: string): Promise<string[]> {
   await sleep(1000);
-  const url = `https://race.sp.netkeiba.com/top/race_list.html?kaisai_date=${yyyymmdd}`;
+  const listUrl = `https://db.netkeiba.com/race/list/${yyyymmdd}/`;
+
   try {
-    const html = await fetchUtf8(url);
-    const ids = new Set<string>();
-    for (const m of html.matchAll(/race_id=(\d{12})/g)) {
-      ids.add(m[1]);
+    const html = await fetchEuc(listUrl);
+
+    // ① 12 桁 race_id を直接抽出（結果確定済みレース）
+    const directIds = new Set<string>();
+    for (const m of html.matchAll(/\/race\/(\d{12})\//g)) directIds.add(m[1]);
+    if (directIds.size > 0) return [...directIds].sort();
+
+    // ② 会場コードを抽出 → shutuba ページ探索
+    const venueCodes = new Set<string>();
+    for (const m of html.matchAll(/\/race\/(?:sum|pay)\/(\d{2})\/\d{8}\//g)) {
+      venueCodes.add(m[1]);
     }
-    return [...ids].sort();
+    if (venueCodes.size === 0) {
+      console.warn(`  [scraper] 会場コード取得失敗 (${yyyymmdd})`);
+      return [];
+    }
+
+    const date = new Date(`${yyyymmdd.slice(0, 4)}-${yyyymmdd.slice(4, 6)}-${yyyymmdd.slice(6, 8)}`);
+    const isSaturday = date.getDay() === 6;
+    const year = yyyymmdd.slice(0, 4);
+    const month = parseInt(yyyymmdd.slice(4, 6));
+    const day = parseInt(yyyymmdd.slice(6, 8));
+
+    console.log(`  会場コード: ${[...venueCodes].map(c => `${c}(${VENUE_MAP[c] ?? c})`).join(', ')}`);
+
+    const allIds: string[] = [];
+    for (const venueCode of venueCodes) {
+      const ids = await probeRaceIds(year, venueCode, month, day, isSaturday);
+      allIds.push(...ids);
+    }
+    return allIds.sort();
+
   } catch (e) {
     console.warn(`  [scraper] fetchRaceIdsByDate failed (${yyyymmdd}):`, (e as Error).message);
     return [];
   }
+}
+
+/** 会場コードと日付から race_id を探索する（shutuba ページの日付で照合） */
+async function probeRaceIds(
+  year: string, venueCode: string, month: number, day: number, isSat: boolean
+): Promise<string[]> {
+  // 土曜=奇数D、日曜=偶数D（JRA 標準）
+  const dCandidates = isSat ? [1, 3, 5, 7, 9] : [2, 4, 6, 8, 10];
+  const datePattern = `${month}月${day}日`;
+  const venue = VENUE_MAP[venueCode] ?? venueCode;
+
+  for (let meet = 1; meet <= 4; meet++) {
+    for (const d of dCandidates) {
+      const probeId = `${year}${venueCode}${String(meet).padStart(2, "0")}${String(d).padStart(2, "0")}11`;
+      await sleep(600);
+      try {
+        const html = await fetchUtf8(
+          `https://race.sp.netkeiba.com/race/shutuba.html?race_id=${probeId}`
+        );
+        if (html.includes(datePattern)) {
+          const prefix = `${year}${venueCode}${String(meet).padStart(2, "0")}${String(d).padStart(2, "0")}`;
+          const ids = Array.from({ length: 12 }, (_, i) => prefix + String(i + 1).padStart(2, "0"));
+          console.log(`  ${venue}: M${meet} D${d} 確認 → ${ids.length}レース`);
+          return ids;
+        }
+      } catch {
+        // 存在しない race_id は無視
+      }
+    }
+  }
+  console.warn(`  ${venue}(${venueCode}): race_id 特定失敗`);
+  return [];
 }
 
 // ─── 出馬表フル取得 ───────────────────────────────────────────────────────────
@@ -263,6 +327,7 @@ export type RaceEntryInfo = {
   venue: string;
   raceNumber: number;
   netKeibaRaceId: string;
+  entriesPending: boolean; // true = 出馬表未発表
   horses: RaceEntryHorse[];
 };
 
@@ -284,32 +349,86 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
     // レース名（複数パターンで試行）
     let raceName = "";
     const raceNameCandidates = [
+      // class あり h1
       html.match(/<h1[^>]*class="[^"]*RaceName[^"]*"[^>]*>([^<]+)<\/h1>/i),
+      // class なし h1（SP shutuba はシンプルな h1）
+      html.match(/<h1[^>]*>([^<]{2,35})<\/h1>/),
       html.match(/<div[^>]*class="[^"]*RaceName[^"]*"[^>]*>([^<]+)<\/div>/i),
-      html.match(/<span[^>]*class="[^"]*RaceName[^"]*"[^>]*>([^<]+)<\/span>/i),
+      // タイトルタグ（「出馬表」を除去）
       html.match(/<title>([^|<\n]+)/),
     ];
     for (const m of raceNameCandidates) {
-      const v = m?.[1]?.trim().replace(/\s+/g, "");
-      if (v && v.length > 0 && v.length < 40) { raceName = v; break; }
+      const v = m?.[1]?.trim()
+        .replace(/出馬表.*$/, "")   // 「出馬表」以降を除去
+        .replace(/\s+/g, "")
+        .replace(/\|.*$/, "");     // パイプ以降を除去
+      if (v && v.length >= 2 && v.length < 40) { raceName = v; break; }
     }
 
-    // 発走時刻
-    const timeM = html.match(/(\d{2}:\d{2})発走/);
-    const postTime = timeM ? timeM[1] : null;
+    // テキスト正規化ヘルパー（タグ除去 + 全角数字・ｍ・ダート正規化）
+    const toPlain = (src: string) =>
+      stripTags(src)
+        .replace(/[０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xFEE0))
+        .replace(/ｍ/g, "m")
+        .replace(/ダート/g, "ダ");
 
-    // 芝 / ダ / 距離
+    const headerPlain = toPlain(html);
+
+    // 発走時刻
+    const timeM = headerPlain.match(/(\d{2}:\d{2})\s*発走/) ??
+                  headerPlain.match(/(\d{2}:\d{2})\s*[芝ダ障]/);
+    let postTime: string | null = timeM ? timeM[1] : null;
+
+    // コース情報パーサー（「芝2200m」「ダ 2100 m」「2200 m 芝」いずれにも対応）
+    const parseCourse = (text: string) => {
+      const m = text.match(/([芝ダ障])\s*(\d{3,4})\s*m/) ??
+                text.match(/(\d{3,4})\s*m\s*([芝ダ障])/);
+      if (!m) return null;
+      const s = /^\d/.test(m[1]) ? m[2] : m[1]; // 数字先頭なら m[2] が surface
+      const d = /^\d/.test(m[1]) ? m[1] : m[2];
+      return {
+        surface: (s === "芝" ? "芝" : s === "障" ? "障" : "ダ") as "芝" | "ダ" | "障",
+        distance: parseInt(d, 10),
+      };
+    };
+
+    // ① SP ページから試行
     let surface: "芝" | "ダ" | "障" = "芝";
     let distance = 0;
-    const courseM = html.match(/([芝ダ障])(\d{3,4})m/);
-    if (courseM) {
-      surface = courseM[1] === "芝" ? "芝" : courseM[1] === "障" ? "障" : "ダ";
-      distance = parseInt(courseM[2], 10);
+    const spCourse = parseCourse(headerPlain);
+    if (spCourse) {
+      surface = spCourse.surface;
+      distance = spCourse.distance;
+    } else {
+      // ② SP から取れなければ PC 版 shutuba（EUC-JP）を試行
+      try {
+        await sleep(600);
+        const pcHtml = await fetchEuc(
+          `https://race.netkeiba.com/race/shutuba.html?race_id=${netKeibaRaceId}`
+        );
+        const pcPlain = toPlain(pcHtml);
+        const pcCourse = parseCourse(pcPlain);
+        if (pcCourse) {
+          surface = pcCourse.surface;
+          distance = pcCourse.distance;
+        }
+        if (!postTime) {
+          const pcTime = pcPlain.match(/(\d{2}:\d{2})\s*発走/);
+          if (pcTime) postTime = pcTime[1];
+        }
+      } catch {
+        // PC 版取得失敗は無視
+      }
     }
 
     // 馬エントリー: id="db_XXX" パターンで馬名・馬 ID を順番に取得
     const matches = [...html.matchAll(/id="db_(\d+)"[^>]*><span>([^の]+)のデータベース<\/span>/g)];
-    if (matches.length === 0) return null; // 出馬表未発表
+
+    // 出馬表未発表の場合: レースメタ情報だけ返す
+    if (matches.length === 0) {
+      if (!raceName && !postTime) return null; // ページ自体がないか無効
+      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, horses: [] };
+    }
 
     const frameNums = calcFrameNumbers(matches.length);
 
@@ -318,16 +437,13 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
       const horseName = m[2].trim();
       const pos = m.index ?? 0;
       const nextPos = matches[idx + 1]?.index ?? html.length;
-      // 前後の文脈（騎手・オッズ探索用）
       const segment = html.substring(Math.max(0, pos - 300), nextPos);
 
-      // 騎手: /jockey/ href 付きリンクのテキスト
       let jockey = "";
       const jockeyM = segment.match(/href="[^"]*\/jockey\/[^"]*"[^>]*>([^<]{2,8})<\/a>/) ??
         segment.match(/class="[^"]*Jockey[^"]*"[^>]*>(?:<[^>]+>)*([^<]{2,8})/);
       if (jockeyM) jockey = stripTags(jockeyM[1]).trim();
 
-      // オッズ: Odds 系クラスまたは数値パターン
       let odds: number | null = null;
       const oddsM = segment.match(/class="[^"]*Odds[^"]*"[^>]*>\s*<[^>]+>\s*([\d.]+)/) ??
         segment.match(/class="[^"]*Odds[^"]*"[^>]*>([\d.]+)/) ??
@@ -347,7 +463,7 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
       };
     });
 
-    return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, horses };
+    return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: false, horses };
   } catch (e) {
     console.warn(`  [scraper] fetchRaceEntry failed (${netKeibaRaceId}):`, (e as Error).message);
     return null;

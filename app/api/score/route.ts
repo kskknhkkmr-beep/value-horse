@@ -70,22 +70,28 @@ export async function GET(request: Request) {
 
   const usingScoresCache = Object.keys(scoresCache).length > 0;
 
+  // エントリー未発表チェック
+  if (usingRacesCache) {
+    const cr = racesCache?.races.find((r) => r.id === raceId);
+    if (cr?.entriesPending) {
+      return NextResponse.json({
+        raceId: race.id, raceName: race.raceName, date: race.date, venue: race.venue,
+        raceNumber: race.raceNumber, postTime: race.postTime,
+        entriesPending: true, oddsUnavailable: false,
+        dataSource: "出走登録前", finalScores: [], valueRanking: [], evRanking: [], edgeRanking: [],
+      });
+    }
+  }
+
   // odds が全頭 null の場合は EV 計算不可
   const horsesWithOdds = raceHorses.filter((h) => h.odds != null && h.odds > 0);
   if (horsesWithOdds.length === 0) {
     return NextResponse.json({
-      raceId: race.id,
-      raceName: race.raceName,
-      date: race.date,
-      venue: race.venue,
-      raceNumber: race.raceNumber,
-      postTime: race.postTime,
-      oddsUnavailable: true,
+      raceId: race.id, raceName: race.raceName, date: race.date, venue: race.venue,
+      raceNumber: race.raceNumber, postTime: race.postTime,
+      entriesPending: false, oddsUnavailable: true,
       dataSource: "出走登録済み（オッズ未確定）",
-      finalScores: [],
-      valueRanking: [],
-      evRanking: [],
-      edgeRanking: [],
+      finalScores: [], valueRanking: [], evRanking: [], edgeRanking: [],
     });
   }
 

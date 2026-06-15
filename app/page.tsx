@@ -28,6 +28,7 @@ type ScoreResponse = {
   venue: string;
   raceNumber: number;
   postTime: string;
+  entriesPending?: boolean;
   oddsUnavailable?: boolean;
   evRanking: HorseScore[];
   valueRanking: HorseScore[];
@@ -110,14 +111,21 @@ export default function Home() {
           </div>
         )}
 
-        {score?.oddsUnavailable && (
+        {score?.entriesPending && (
           <div className="border border-gray-200 px-4 py-8 text-center text-xs text-gray-400 space-y-1">
-            <div>出走登録済み</div>
-            <div className="text-gray-300">オッズ確定後に再度 fetch-all を実行してください</div>
+            <div>出走登録前</div>
+            <div className="text-gray-300">金曜〜土曜朝に npm run fetch-all で更新してください</div>
           </div>
         )}
 
-        {score && !score.oddsUnavailable && (
+        {score?.oddsUnavailable && (
+          <div className="border border-gray-200 px-4 py-8 text-center text-xs text-gray-400 space-y-1">
+            <div>出走登録済み</div>
+            <div className="text-gray-300">オッズ確定後に npm run fetch-all を実行してください</div>
+          </div>
+        )}
+
+        {score && !score.oddsUnavailable && !score.entriesPending && (
           <>
             {/* ── ① EV正の馬 ── */}
             <section>

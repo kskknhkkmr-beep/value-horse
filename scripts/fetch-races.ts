@@ -34,6 +34,7 @@ export type CachedRace = {
   surface: "芝" | "ダ" | "障";
   distance: number;
   netKeibaRaceId: string;
+  entriesPending: boolean;
   horses: CachedHorse[];
 };
 
@@ -91,8 +92,8 @@ async function main() {
       process.stdout.write(`  [${raceId}] ...`);
       const info = await fetchRaceEntry(raceId);
 
-      if (!info || info.horses.length === 0) {
-        console.log(" スキップ（出馬表なし）");
+      if (!info) {
+        console.log(" スキップ（ページ無効）");
         continue;
       }
 
@@ -107,6 +108,7 @@ async function main() {
         surface: info.surface,
         distance: info.distance,
         netKeibaRaceId: raceId,
+        entriesPending: info.entriesPending,
         horses: info.horses.map((h, i) => ({
           id: raceSeq * 1000 + (i + 1),
           raceId: raceSeq,
@@ -119,9 +121,10 @@ async function main() {
         })),
       };
 
+      const status = info.entriesPending ? "エントリー未発表" : `${race.horses.length}頭`;
       console.log(
-        ` ✓ ${race.raceName} ${info.surface}${info.distance}m ` +
-        `${race.horses.length}頭 ${info.postTime ?? "時刻不明"}`
+        ` ✓ ${race.raceName} ${info.surface || "?"}${info.distance || "?"}m ` +
+        `${status} ${info.postTime ?? "時刻不明"}`
       );
       races.push(race);
     }
