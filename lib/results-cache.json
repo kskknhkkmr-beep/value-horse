@@ -1,0 +1,5648 @@
+{
+  "fetchedAt": "2026-06-24T02:30:45.775Z",
+  "results": [
+    {
+      "raceId": 1,
+      "netKeibaRaceId": "202602010301",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 13,
+          "horse": "グランフィエルテ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "ブラックジャック"
+        },
+        {
+          "position": 3,
+          "horseNumber": 16,
+          "horse": "ブルーエ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ミルトメロディー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "クリオロゴールド"
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "ハッピーローヴァー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "テイクマイハート"
+        },
+        {
+          "position": 8,
+          "horseNumber": 12,
+          "horse": "ブレッティレディ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "メーテルリンク"
+        },
+        {
+          "position": 10,
+          "horseNumber": 14,
+          "horse": "ミスチヴマリアンヌ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "ブルーハーツ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 15,
+          "horse": "ウインドトリック"
+        },
+        {
+          "position": 13,
+          "horseNumber": 2,
+          "horse": "チョウブク"
+        },
+        {
+          "position": 14,
+          "horseNumber": 11,
+          "horse": "テリオスルミ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 10,
+          "horse": "カンフージョン"
+        },
+        {
+          "position": 16,
+          "horseNumber": 1,
+          "horse": "ナオミニオールイン"
+        }
+      ]
+    },
+    {
+      "raceId": 2,
+      "netKeibaRaceId": "202602010302",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "コイタマチャン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 11,
+          "horse": "マーゴットクリュグ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 1,
+          "horse": "ウォータースパウト"
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "ギンケイ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 12,
+          "horse": "サラサチャチャチャ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 10,
+          "horse": "ストリートクイーン"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "アンミックス"
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "ティナンヴァランタ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "ダリアフレイバー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 6,
+          "horse": "エーデルハイ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "ソルトバーン"
+        },
+        {
+          "position": 12,
+          "horseNumber": 14,
+          "horse": "フローレスカラーズ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "キトゥンズラスター"
+        },
+        {
+          "position": 14,
+          "horseNumber": 4,
+          "horse": "サチノブーケ"
+        }
+      ]
+    },
+    {
+      "raceId": 3,
+      "netKeibaRaceId": "202602010303",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "ジャケットポケット"
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "ギオンバヤシ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "ゴコウコイコイ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 14,
+          "horse": "マコトアディントン"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "デイズインザサン"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "スチョウプリンセス"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ヒルノボローニャ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "メイショウノヴァス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 16,
+          "horse": "ウインポーシャ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "インタノン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "スリールーディカ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 4,
+          "horse": "アームアンフルール"
+        },
+        {
+          "position": 13,
+          "horseNumber": 6,
+          "horse": "ハヤブサブロー"
+        },
+        {
+          "position": 14,
+          "horseNumber": 12,
+          "horse": "ヤクジョ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 15,
+          "horse": "ラインクインビー"
+        },
+        {
+          "position": 16,
+          "horseNumber": 11,
+          "horse": "ザタイムハズカム"
+        }
+      ]
+    },
+    {
+      "raceId": 4,
+      "netKeibaRaceId": "202602010304",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "ミリオンアップ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "ゴールデンダガー"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "ブレイズランナー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "ニシノモリミチ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 13,
+          "horse": "タガノシルフィー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "タイセイルビー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 12,
+          "horse": "ガーディアンテイル"
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "ブリスフルイヤー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "テリオスリコ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "クッカユフラ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 7,
+          "horse": "セイカユウヒ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 10,
+          "horse": "マツリダシリウス"
+        },
+        {
+          "position": 13,
+          "horseNumber": 14,
+          "horse": "リベンジャー"
+        },
+        {
+          "position": 14,
+          "horseNumber": 4,
+          "horse": "シバノパージャン"
+        }
+      ]
+    },
+    {
+      "raceId": 5,
+      "netKeibaRaceId": "202602010305",
+      "raceName": "2歳新馬",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "イモージェン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "ソニックアイル"
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "ラピッドテソーロ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "チカバリエンテ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 3,
+          "horse": "ファサ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "スノーウィスパー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 8,
+          "horse": "ショコラリーヴ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 7,
+          "horse": "タイガーストリート"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "セイウンコハルタ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "ワイプユアアイズ"
+        }
+      ]
+    },
+    {
+      "raceId": 6,
+      "netKeibaRaceId": "202602010306",
+      "raceName": "2歳新馬",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "ノリヤンモーニン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "クラウスーラ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 10,
+          "horse": "ワイドウィンザー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "アースグリッパー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "サンクレセント"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "ベイビーブラザー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "イチゴワタアメ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "アークレオン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "カクシンゴールド"
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "ノヴァフォルス"
+        },
+        {
+          "position": 11,
+          "horseNumber": 2,
+          "horse": "デスティネーション"
+        }
+      ]
+    },
+    {
+      "raceId": 7,
+      "netKeibaRaceId": "202602010307",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "ダーリンダーリン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 14,
+          "horse": "メイショウローゼ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 8,
+          "horse": "ルナティックブルー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "アンビエントポップ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "ジュラトリー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 16,
+          "horse": "ベネディクション"
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "サウンドファミリエ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 13,
+          "horse": "ドルマバフチェ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "シンデレラカラー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 4,
+          "horse": "モーリア"
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "ヴィンテール"
+        },
+        {
+          "position": 12,
+          "horseNumber": 10,
+          "horse": "メメボス"
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "アトリ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 15,
+          "horse": "ギルランダ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 11,
+          "horse": "アーミル"
+        },
+        {
+          "position": 16,
+          "horseNumber": 12,
+          "horse": "グランマズドリーム"
+        }
+      ]
+    },
+    {
+      "raceId": 8,
+      "netKeibaRaceId": "202602010308",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "クロナ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "ムーンブランシュ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "キャンドルマス"
+        },
+        {
+          "position": 4,
+          "horseNumber": 7,
+          "horse": "クイーンレグナント"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "タイセイブルーム"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "グッバイウェーブ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 11,
+          "horse": "ワイルドゴーア"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "セイルロケット"
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "サイコウダネ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "カップッチョ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "フクシマコウヨウ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 2,
+          "horse": "エムフォー"
+        }
+      ]
+    },
+    {
+      "raceId": 9,
+      "netKeibaRaceId": "202602010309",
+      "raceName": "下北半島特別",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "スミッコディスコ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "デルマリシリ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 1,
+          "horse": "メイショウハッケイ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "コモンスナイプ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 11,
+          "horse": "ロンドンオービタル"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "プリンセスモコ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "ウォーターサグラダ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "フレンドモナコ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "アヤサンジョリーン"
+        },
+        {
+          "position": 10,
+          "horseNumber": 10,
+          "horse": "トーアサジタリウス"
+        },
+        {
+          "position": 11,
+          "horseNumber": 8,
+          "horse": "マイオウンウェイ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 5,
+          "horse": "プルヴォワール"
+        }
+      ]
+    },
+    {
+      "raceId": 10,
+      "netKeibaRaceId": "202602010310",
+      "raceName": "駒ケ岳特別",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "ゴールデンパゴーダ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "バズアップビート"
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "ペリプルス"
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "マイネルゼウス"
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "シャインバオバブ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 2,
+          "horse": "ローレルオーブ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "サイモンイロハニー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "アスクファイアモア"
+        }
+      ]
+    },
+    {
+      "raceId": 11,
+      "netKeibaRaceId": "202602010311",
+      "raceName": "STV杯",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "アンジュプロミス"
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "ピコアーガイル"
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "レザンノワール"
+        },
+        {
+          "position": 4,
+          "horseNumber": 15,
+          "horse": "モズアンタレス"
+        },
+        {
+          "position": 5,
+          "horseNumber": 16,
+          "horse": "ラパンチュール"
+        },
+        {
+          "position": 6,
+          "horseNumber": 1,
+          "horse": "キープサインオン"
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "マジカルフェアリー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "スムースベルベット"
+        },
+        {
+          "position": 9,
+          "horseNumber": 14,
+          "horse": "トウカイエルデ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "フードマン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 11,
+          "horse": "ビーコング"
+        },
+        {
+          "position": 12,
+          "horseNumber": 12,
+          "horse": "モンサンゴールデン"
+        },
+        {
+          "position": 13,
+          "horseNumber": 2,
+          "horse": "バンブルビー"
+        },
+        {
+          "position": 14,
+          "horseNumber": 7,
+          "horse": "ニシノラヴァンダ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 5,
+          "horse": "スイミーユニバンス"
+        },
+        {
+          "position": 16,
+          "horseNumber": 13,
+          "horse": "ブルーサンセット"
+        }
+      ]
+    },
+    {
+      "raceId": 12,
+      "netKeibaRaceId": "202602010312",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "ディナン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "リュウカルネ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "ゴールドブレイズ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "マーベリックシチー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "ブレイジングスター"
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "ラッキーヤース"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "エンダードラゴン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "ノリノドラゴン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 8,
+          "horse": "カージオイド"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "コムルヴァン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 9,
+          "horse": "ブライトビギニング"
+        }
+      ]
+    },
+    {
+      "raceId": 13,
+      "netKeibaRaceId": "202605030501",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 14,
+          "horse": "ダノンプレサージュ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "フェスティヴハート"
+        },
+        {
+          "position": 3,
+          "horseNumber": 10,
+          "horse": "ユニバーサルラヴ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 13,
+          "horse": "フジサン"
+        },
+        {
+          "position": 5,
+          "horseNumber": 16,
+          "horse": "ゴールドビリーヴ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "ホウオウロレンシア"
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "オウケンサクラコ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "サマースプラッシュ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "アーティラリー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "ノーブルブロウ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 7,
+          "horse": "ホワイトオパール"
+        },
+        {
+          "position": 12,
+          "horseNumber": 2,
+          "horse": "アンチェーン"
+        },
+        {
+          "position": 13,
+          "horseNumber": 15,
+          "horse": "マッドヘッドラブ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 6,
+          "horse": "ベッラモレーン"
+        },
+        {
+          "position": 15,
+          "horseNumber": 11,
+          "horse": "カキュウ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 1,
+          "horse": "リコラピッド"
+        }
+      ]
+    },
+    {
+      "raceId": 14,
+      "netKeibaRaceId": "202605030502",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "ブルーミーティア"
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "サクラドール"
+        },
+        {
+          "position": 3,
+          "horseNumber": 14,
+          "horse": "レイズレガシー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "ヴェントベローチェ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 10,
+          "horse": "ショウナンタヅナ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "キイチムーブメント"
+        },
+        {
+          "position": 7,
+          "horseNumber": 12,
+          "horse": "ブレイブシュガー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "エッジランナー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 16,
+          "horse": "トゥントゥントゥン"
+        },
+        {
+          "position": 10,
+          "horseNumber": 5,
+          "horse": "スウィートラキ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 15,
+          "horse": "ガヤーズベース"
+        },
+        {
+          "position": 12,
+          "horseNumber": 9,
+          "horse": "ソーマッチ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "ステラゲイル"
+        },
+        {
+          "position": 14,
+          "horseNumber": 8,
+          "horse": "セキテイロックス"
+        },
+        {
+          "position": 15,
+          "horseNumber": 4,
+          "horse": "リオダプラタ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 3,
+          "horse": "パッサージュワイズ"
+        }
+      ]
+    },
+    {
+      "raceId": 15,
+      "netKeibaRaceId": "202605030503",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "ジュナベーラ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "ペプチドドリーム"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "ムーングレイル"
+        },
+        {
+          "position": 4,
+          "horseNumber": 13,
+          "horse": "ウインアプローチ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 10,
+          "horse": "クレアノア"
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "シルフィー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "セキテイリノ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 12,
+          "horse": "チャチャット"
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "カドドゥディエ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "コスモヘリアンサス"
+        },
+        {
+          "position": 11,
+          "horseNumber": 16,
+          "horse": "フュチュール"
+        },
+        {
+          "position": 12,
+          "horseNumber": 1,
+          "horse": "ルミナスレイナ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 4,
+          "horse": "ジュンヴィヴァン"
+        },
+        {
+          "position": 14,
+          "horseNumber": 2,
+          "horse": "ブレイブキトゥン"
+        },
+        {
+          "position": 15,
+          "horseNumber": 14,
+          "horse": "タケショウカイザー"
+        },
+        {
+          "position": 16,
+          "horseNumber": 15,
+          "horse": "タイセイネクサス"
+        }
+      ]
+    },
+    {
+      "raceId": 16,
+      "netKeibaRaceId": "202605030504",
+      "raceName": "2歳新馬",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "ルークウォーム"
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "インサイドエッジ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "ユリア"
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "ゴールデンハニビー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "ニクスルーナ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "スターリーデー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "パストザクラウン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "ソプラノクイーン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 3,
+          "horse": "アフィーリア"
+        },
+        {
+          "position": 10,
+          "horseNumber": 6,
+          "horse": "エルシオン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "オーケーマドンナ"
+        }
+      ]
+    },
+    {
+      "raceId": 17,
+      "netKeibaRaceId": "202605030505",
+      "raceName": "2歳新馬",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "レッチュベルク"
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "ペアスターロード"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "コナパームス"
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "ジーティーフクジ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "ウィールズアップ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 2,
+          "horse": "コンクレデンツァ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "ホワイトフレアー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 4,
+          "horse": "マーズエクレール"
+        },
+        {
+          "position": 9,
+          "horseNumber": 8,
+          "horse": "ナナレイ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 3,
+          "horse": "ニシノアイオーン"
+        }
+      ]
+    },
+    {
+      "raceId": 18,
+      "netKeibaRaceId": "202605030506",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "ロングミックス"
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "ビンバラ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 14,
+          "horse": "ウェスケンジントン"
+        },
+        {
+          "position": 4,
+          "horseNumber": 7,
+          "horse": "ゴットタレント"
+        },
+        {
+          "position": 5,
+          "horseNumber": 8,
+          "horse": "ロイヤルタイム"
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "トルネードアイル"
+        },
+        {
+          "position": 7,
+          "horseNumber": 15,
+          "horse": "ティブロン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "ミッキーサウザンド"
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "ソフィアプルーマ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "ニシノトップダノン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "ベンガルボダイジュ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 13,
+          "horse": "ウインエンブレム"
+        },
+        {
+          "position": 13,
+          "horseNumber": 12,
+          "horse": "ベアブルージュ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 1,
+          "horse": "タマモブレイキン"
+        },
+        {
+          "position": 15,
+          "horseNumber": 16,
+          "horse": "ピクシーゲイル"
+        },
+        {
+          "position": 16,
+          "horseNumber": 10,
+          "horse": "ヴェイルドハート"
+        }
+      ]
+    },
+    {
+      "raceId": 19,
+      "netKeibaRaceId": "202605030507",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "アンジェラス"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "ニシノスフィンクス"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "ハングローズ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 7,
+          "horse": "ジャメビュ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 15,
+          "horse": "ロンバスブレス"
+        },
+        {
+          "position": 6,
+          "horseNumber": 10,
+          "horse": "タカラエイティ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "アルデバローズ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "ユキノサイエンス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 14,
+          "horse": "アルペンローゼ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 16,
+          "horse": "ノアレジェンド"
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "ミウ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 12,
+          "horse": "ダノンケリー"
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "バターショコラ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 1,
+          "horse": "ノヴェルピアーチェ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 8,
+          "horse": "ミスエベレスト"
+        },
+        {
+          "position": 16,
+          "horseNumber": 11,
+          "horse": "ハクシンスマイル"
+        }
+      ]
+    },
+    {
+      "raceId": 20,
+      "netKeibaRaceId": "202605030508",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "タイセイプランセス"
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "ダノンファンスター"
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "タッセルノット"
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "アドミラルシップ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 16,
+          "horse": "オルフセン"
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "ウインドラート"
+        },
+        {
+          "position": 7,
+          "horseNumber": 11,
+          "horse": "ダーリングハースト"
+        },
+        {
+          "position": 8,
+          "horseNumber": 15,
+          "horse": "ショウナンダイン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "アナザーフェイス"
+        },
+        {
+          "position": 10,
+          "horseNumber": 2,
+          "horse": "スペードギニー"
+        },
+        {
+          "position": 11,
+          "horseNumber": 6,
+          "horse": "コスモグラニット"
+        },
+        {
+          "position": 12,
+          "horseNumber": 7,
+          "horse": "ワールドブレイヴ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 8,
+          "horse": "シークレットイスラ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 14,
+          "horse": "コスモエルヴァル"
+        },
+        {
+          "position": 15,
+          "horseNumber": 9,
+          "horse": "エテルニータ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 13,
+          "horse": "オメガディコン"
+        }
+      ]
+    },
+    {
+      "raceId": 21,
+      "netKeibaRaceId": "202605030509",
+      "raceName": "町田特別",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "チャリングクロス"
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "レーヴドロペラ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "オウケンボルト"
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "ランツフート"
+        },
+        {
+          "position": 5,
+          "horseNumber": 3,
+          "horse": "ピックデムッシュ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "クリフハンガー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 1,
+          "horse": "フルレゾン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 4,
+          "horse": "バンフィエルド"
+        },
+        {
+          "position": 9,
+          "horseNumber": 10,
+          "horse": "シテフローラル"
+        },
+        {
+          "position": 10,
+          "horseNumber": 2,
+          "horse": "サイモンルモンド"
+        }
+      ]
+    },
+    {
+      "raceId": 22,
+      "netKeibaRaceId": "202605030510",
+      "raceName": "相模湖特別",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 14,
+          "horse": "ラージギャラリー"
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "ダガーリング"
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "レイククレセント"
+        },
+        {
+          "position": 4,
+          "horseNumber": 9,
+          "horse": "アスミル"
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "クレパスキュラー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "ビービーエフォート"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "キョウエイボニータ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "チムグクル"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "ギフテッド"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "メランジェ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "カラヴァジェスティ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 6,
+          "horse": "サクセスカラー"
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "コンテネレッツア"
+        },
+        {
+          "position": 14,
+          "horseNumber": 12,
+          "horse": "ユキノエミリオ"
+        }
+      ]
+    },
+    {
+      "raceId": 23,
+      "netKeibaRaceId": "202605030511",
+      "raceName": "スレイプニルS",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "リアレスト"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "クールミラボー"
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "ロードプレジール"
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "タガノバビロン"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "スナークラファエロ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "レヴォントゥレット"
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "フタイテンロック"
+        },
+        {
+          "position": 8,
+          "horseNumber": 14,
+          "horse": "レッドプロフェシー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "ハナウマビーチ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "タイセイドレフォン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "ルヴァンユニベール"
+        },
+        {
+          "position": 12,
+          "horseNumber": 11,
+          "horse": "ピカピカサンダー"
+        },
+        {
+          "position": 13,
+          "horseNumber": 15,
+          "horse": "アムールドパリ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 12,
+          "horse": "ミッキークレスト"
+        },
+        {
+          "position": 15,
+          "horseNumber": 1,
+          "horse": "マリオロード"
+        }
+      ]
+    },
+    {
+      "raceId": 24,
+      "netKeibaRaceId": "202605030512",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 12,
+          "horse": "オクトーバーナイン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "サンデーパーティー"
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "コスモシェルベット"
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "アトミックブレス"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "ヤングアメリカンズ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 13,
+          "horse": "カーマンライン"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "ティアップドライブ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 14,
+          "horse": "ニャンタロウ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 16,
+          "horse": "サムワンライクユー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 15,
+          "horse": "メトロポリターナ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 8,
+          "horse": "ヘルメスギャング"
+        },
+        {
+          "position": 12,
+          "horseNumber": 11,
+          "horse": "カルネヴァーレ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "パラダイスフェイス"
+        },
+        {
+          "position": 14,
+          "horseNumber": 6,
+          "horse": "ツァガーンサル"
+        },
+        {
+          "position": 15,
+          "horseNumber": 4,
+          "horse": "アイランドピーク"
+        },
+        {
+          "position": 16,
+          "horseNumber": 3,
+          "horse": "フルミネブル"
+        }
+      ]
+    },
+    {
+      "raceId": 25,
+      "netKeibaRaceId": "202609030501",
+      "raceName": "3歳以上障害OP",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "ロードリベラシオン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "オオキニ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "ネイチャーシップ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "ライツフォル"
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "グラニットピーク"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "シャンデルナゴル"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "テイエムエメラルド"
+        }
+      ]
+    },
+    {
+      "raceId": 26,
+      "netKeibaRaceId": "202609030502",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 12,
+          "horse": "マリリンバローズ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "キャッチアシーフ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "クロカミジョウ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "サンライズロイ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "シャインゴーツ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "シビルガード"
+        },
+        {
+          "position": 7,
+          "horseNumber": 11,
+          "horse": "ジャストアダッシュ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 13,
+          "horse": "ココロザスノ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 4,
+          "horse": "イズジョーアザヤカ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 14,
+          "horse": "ルクスドリーム"
+        },
+        {
+          "position": 11,
+          "horseNumber": 15,
+          "horse": "サウンドジュテ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 3,
+          "horse": "エナクローム"
+        },
+        {
+          "position": 13,
+          "horseNumber": 16,
+          "horse": "レッドジルベスター"
+        },
+        {
+          "position": 14,
+          "horseNumber": 10,
+          "horse": "マスターストーン"
+        },
+        {
+          "position": 15,
+          "horseNumber": 9,
+          "horse": "キタノガイヤール"
+        },
+        {
+          "position": 16,
+          "horseNumber": 7,
+          "horse": "テイエムオオアラシ"
+        }
+      ]
+    },
+    {
+      "raceId": 27,
+      "netKeibaRaceId": "202609030503",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "マクノス"
+        },
+        {
+          "position": 2,
+          "horseNumber": 14,
+          "horse": "マーゴットガイア"
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "ウンナターシャ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 11,
+          "horse": "アキノビューティー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 10,
+          "horse": "エレーデサンライズ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 16,
+          "horse": "コズミックフレア"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "アティラン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "フローマジック"
+        },
+        {
+          "position": 9,
+          "horseNumber": 15,
+          "horse": "ルージュエピック"
+        },
+        {
+          "position": 10,
+          "horseNumber": 12,
+          "horse": "マリノエステーラ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "ファーヴニル"
+        },
+        {
+          "position": 12,
+          "horseNumber": 5,
+          "horse": "アウラニ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "エアリアルグレース"
+        },
+        {
+          "position": 14,
+          "horseNumber": 9,
+          "horse": "ロサドラーダ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 8,
+          "horse": "ミーンアロット"
+        },
+        {
+          "position": 16,
+          "horseNumber": 7,
+          "horse": "ローレルアイビー"
+        }
+      ]
+    },
+    {
+      "raceId": 28,
+      "netKeibaRaceId": "202609030504",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 6,
+          "horse": "オンザ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 13,
+          "horse": "スパルタンエックス"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "リバーソニック"
+        },
+        {
+          "position": 4,
+          "horseNumber": 12,
+          "horse": "キングズテイル"
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "タガノランパート"
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "グロートカイザー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 11,
+          "horse": "サトノディヴァイン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 14,
+          "horse": "ビーウィナー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 15,
+          "horse": "コンテナヒーロー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 4,
+          "horse": "リノルアナ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "リリークリスタル"
+        },
+        {
+          "position": 12,
+          "horseNumber": 8,
+          "horse": "ギレイ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 16,
+          "horse": "リードアクター"
+        },
+        {
+          "position": 14,
+          "horseNumber": 10,
+          "horse": "ソルトダイヤモンド"
+        },
+        {
+          "position": 15,
+          "horseNumber": 5,
+          "horse": "ペイシャマイデイズ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 7,
+          "horse": "アウトリュコス"
+        }
+      ]
+    },
+    {
+      "raceId": 29,
+      "netKeibaRaceId": "202609030505",
+      "raceName": "2歳新馬",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "リュウトウコヤク"
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "ブラックミューズ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "ルースソラール"
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "クールタロウ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "カツダルマ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 1,
+          "horse": "サンタンジェロ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "ティンタアマレラ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "ハロナ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "ダノンヴェルサイユ"
+        }
+      ]
+    },
+    {
+      "raceId": 30,
+      "netKeibaRaceId": "202609030506",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "メイショウショカツ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "ホウオウモチーヴ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 16,
+          "horse": "レッドパラジウム"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ダンツウルス"
+        },
+        {
+          "position": 5,
+          "horseNumber": 17,
+          "horse": "タケルフォーカス"
+        },
+        {
+          "position": 6,
+          "horseNumber": 14,
+          "horse": "アイルドゥレーヴェ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 2,
+          "horse": "ライフイズカラフル"
+        },
+        {
+          "position": 8,
+          "horseNumber": 18,
+          "horse": "チュオンソン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "アージュドール"
+        },
+        {
+          "position": 10,
+          "horseNumber": 15,
+          "horse": "グローリーバローズ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "ゴリョウセイ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 1,
+          "horse": "シャイニングスター"
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "プロスト"
+        },
+        {
+          "position": 14,
+          "horseNumber": 9,
+          "horse": "レヴロード"
+        },
+        {
+          "position": 15,
+          "horseNumber": 8,
+          "horse": "ノチェブエナ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 10,
+          "horse": "ビジュアライズ"
+        },
+        {
+          "position": 17,
+          "horseNumber": 11,
+          "horse": "ホウオウスカイハイ"
+        }
+      ]
+    },
+    {
+      "raceId": 31,
+      "netKeibaRaceId": "202609030507",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 5,
+          "horse": "サガルマータ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "シートゥサミット"
+        },
+        {
+          "position": 3,
+          "horseNumber": 3,
+          "horse": "パウンドフォーワン"
+        },
+        {
+          "position": 4,
+          "horseNumber": 11,
+          "horse": "タガノアルトゥーラ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 15,
+          "horse": "テイクザクラウン"
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "ガウディ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 14,
+          "horse": "シルバーリム"
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "ヤマカツレオン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 9,
+          "horse": "フララナキラ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 16,
+          "horse": "ロードスタニング"
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "マイネルビスマルク"
+        },
+        {
+          "position": 12,
+          "horseNumber": 4,
+          "horse": "サトノビダーヤ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 12,
+          "horse": "クラッチプレイヤー"
+        },
+        {
+          "position": 14,
+          "horseNumber": 13,
+          "horse": "ビゾー"
+        },
+        {
+          "position": 15,
+          "horseNumber": 6,
+          "horse": "オーレアミスト"
+        },
+        {
+          "position": 16,
+          "horseNumber": 8,
+          "horse": "ウインヘリオドール"
+        }
+      ]
+    },
+    {
+      "raceId": 32,
+      "netKeibaRaceId": "202609030508",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 12,
+          "horse": "ショウナンバンライ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "アスクチャンスマン"
+        },
+        {
+          "position": 3,
+          "horseNumber": 13,
+          "horse": "アメリカンコール"
+        },
+        {
+          "position": 4,
+          "horseNumber": 15,
+          "horse": "ココロヅヨサ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "サントルドパリ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "ロードヴェリタス"
+        },
+        {
+          "position": 7,
+          "horseNumber": 2,
+          "horse": "マテンロウミラクル"
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "レザーアンドレース"
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "ニヒトツーゼーア"
+        },
+        {
+          "position": 10,
+          "horseNumber": 7,
+          "horse": "ポイントネモ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 11,
+          "horse": "ラッキーベイ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 14,
+          "horse": "ジャスティンダラス"
+        },
+        {
+          "position": 13,
+          "horseNumber": 10,
+          "horse": "マーゴットバディ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 9,
+          "horse": "ジーティーアメリカ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 8,
+          "horse": "アグレイビューティ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 16,
+          "horse": "ユキノクラウン"
+        }
+      ]
+    },
+    {
+      "raceId": 33,
+      "netKeibaRaceId": "202609030509",
+      "raceName": "舞子特別",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 6,
+          "horse": "アヴィオン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "ロンドボス"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "モアニ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "テーオーシュタイン"
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "ワンモアスマイル"
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "メイショウカイト"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "ショウナンバルドル"
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "サヴァビアン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 4,
+          "horse": "リリーブライト"
+        }
+      ]
+    },
+    {
+      "raceId": 34,
+      "netKeibaRaceId": "202609030510",
+      "raceName": "ストークS",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 6,
+          "horse": "サクソンジェンヌ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 11,
+          "horse": "アスターブジエ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 14,
+          "horse": "ウインデイジー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "サダムオプシス"
+        },
+        {
+          "position": 5,
+          "horseNumber": 17,
+          "horse": "タイセイフェリーク"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "サークルオブジョイ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 18,
+          "horse": "ファームツエンティ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "ピンキープロミス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 15,
+          "horse": "アロンディ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 10,
+          "horse": "サトノクローク"
+        },
+        {
+          "position": 11,
+          "horseNumber": 16,
+          "horse": "キーパフォーマー"
+        },
+        {
+          "position": 12,
+          "horseNumber": 7,
+          "horse": "ドットクルー"
+        },
+        {
+          "position": 13,
+          "horseNumber": 3,
+          "horse": "シュバルツマサムネ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 12,
+          "horse": "カエルム"
+        },
+        {
+          "position": 15,
+          "horseNumber": 4,
+          "horse": "メイショウソウタ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 13,
+          "horse": "インジケーター"
+        },
+        {
+          "position": 17,
+          "horseNumber": 1,
+          "horse": "シャルクハフト"
+        },
+        {
+          "position": 18,
+          "horseNumber": 8,
+          "horse": "ナムラフッカー"
+        }
+      ]
+    },
+    {
+      "raceId": 35,
+      "netKeibaRaceId": "202609030511",
+      "raceName": "天保山S",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "ベルジュロネット"
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "アッチャゴーラ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 12,
+          "horse": "ラファル"
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "ポールセン"
+        },
+        {
+          "position": 5,
+          "horseNumber": 11,
+          "horse": "ノーブルロジャー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 14,
+          "horse": "ルークススペイ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 2,
+          "horse": "ロードアウォード"
+        },
+        {
+          "position": 8,
+          "horseNumber": 13,
+          "horse": "スマートフォルス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "タイセイブレイズ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "ハセドン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 9,
+          "horse": "サクセスローレル"
+        },
+        {
+          "position": 12,
+          "horseNumber": 5,
+          "horse": "イスラアネーロ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 15,
+          "horse": "エティエンヌ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 10,
+          "horse": "モンドプリューム"
+        },
+        {
+          "position": 15,
+          "horseNumber": 6,
+          "horse": "ケイアイアニラ"
+        }
+      ]
+    },
+    {
+      "raceId": 36,
+      "netKeibaRaceId": "202609030512",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 12,
+          "horse": "アロンソア"
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "キシャール"
+        },
+        {
+          "position": 3,
+          "horseNumber": 18,
+          "horse": "リアンマヒナ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ランスオブヒーロー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 11,
+          "horse": "パスコード"
+        },
+        {
+          "position": 6,
+          "horseNumber": 16,
+          "horse": "サーディンラン"
+        },
+        {
+          "position": 7,
+          "horseNumber": 15,
+          "horse": "リガーレ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "ムーンライトラガー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "ケイアイクウガ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 13,
+          "horse": "キュクロープス"
+        },
+        {
+          "position": 11,
+          "horseNumber": 17,
+          "horse": "メイショウトウコウ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 9,
+          "horse": "マリブオレンジ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 4,
+          "horse": "メイショウアボット"
+        },
+        {
+          "position": 14,
+          "horseNumber": 10,
+          "horse": "ベイリークロア"
+        },
+        {
+          "position": 15,
+          "horseNumber": 7,
+          "horse": "ソルオーブ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 14,
+          "horse": "スターペスショウマ"
+        },
+        {
+          "position": 17,
+          "horseNumber": 2,
+          "horse": "ギルトエッジ"
+        },
+        {
+          "position": 18,
+          "horseNumber": 6,
+          "horse": "ハノハノ"
+        }
+      ]
+    },
+    {
+      "raceId": 37,
+      "netKeibaRaceId": "202602010401",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "ファインコンダクト"
+        },
+        {
+          "position": 2,
+          "horseNumber": 11,
+          "horse": "ハルヒメ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 3,
+          "horse": "バレンタインビスタ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 16,
+          "horse": "チャーミングアイ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "ルージュフローラ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 14,
+          "horse": "ミレニアルピンク"
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "スワトウ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "エコロアビス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 2,
+          "horse": "キミノナハオリョウ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 13,
+          "horse": "トリアングルレディ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 6,
+          "horse": "クリーンブーケ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 12,
+          "horse": "ノーブルマドンナ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 1,
+          "horse": "ソルトアイリス"
+        },
+        {
+          "position": 14,
+          "horseNumber": 15,
+          "horse": "ブリリアンブルーム"
+        },
+        {
+          "position": 15,
+          "horseNumber": 10,
+          "horse": "スプリングドリーム"
+        },
+        {
+          "position": 16,
+          "horseNumber": 5,
+          "horse": "エビスディアーナ"
+        }
+      ]
+    },
+    {
+      "raceId": 38,
+      "netKeibaRaceId": "202602010402",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "ハイドパーク"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ポップアップ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "ジャストグレース"
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "マーゴットデウス"
+        },
+        {
+          "position": 5,
+          "horseNumber": 8,
+          "horse": "ロードステラート"
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "フクチャンブラック"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "トーセンアミューズ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "ラヴィニアパーク"
+        },
+        {
+          "position": 9,
+          "horseNumber": 3,
+          "horse": "ウインモンクール"
+        },
+        {
+          "position": 10,
+          "horseNumber": 4,
+          "horse": "キヨタリート"
+        }
+      ]
+    },
+    {
+      "raceId": 39,
+      "netKeibaRaceId": "202602010403",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "コウユーネロガ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 7,
+          "horse": "カッサンドラ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 12,
+          "horse": "グレイトソン"
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "マーマレードスカイ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "ライトオブジアース"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "シェイプオブユー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 1,
+          "horse": "ステキサプライズ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "エコロデュラン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "ラブデウザ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 10,
+          "horse": "ワイドアルバ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 2,
+          "horse": "ユーベルジーク"
+        },
+        {
+          "position": 12,
+          "horseNumber": 5,
+          "horse": "ソパデアホ"
+        }
+      ]
+    },
+    {
+      "raceId": 40,
+      "netKeibaRaceId": "202602010404",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "ベアサナエチャン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 12,
+          "horse": "アーデルブリックス"
+        },
+        {
+          "position": 3,
+          "horseNumber": 3,
+          "horse": "コスモクラシック"
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "エイシンインアウト"
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "ワダツミ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "ヘクセンハウス"
+        },
+        {
+          "position": 7,
+          "horseNumber": 16,
+          "horse": "コワンニシタガウ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "ヒシナスキロ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "コンティ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "パンキー"
+        },
+        {
+          "position": 11,
+          "horseNumber": 14,
+          "horse": "レジーナレガリア"
+        },
+        {
+          "position": 12,
+          "horseNumber": 13,
+          "horse": "グランフルス"
+        },
+        {
+          "position": 13,
+          "horseNumber": 7,
+          "horse": "トルークマクト"
+        },
+        {
+          "position": 14,
+          "horseNumber": 10,
+          "horse": "マイネルディザイア"
+        },
+        {
+          "position": 15,
+          "horseNumber": 15,
+          "horse": "デルマノリクラ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 5,
+          "horse": "チリンドリ"
+        }
+      ]
+    },
+    {
+      "raceId": 41,
+      "netKeibaRaceId": "202602010405",
+      "raceName": "2歳新馬",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "フェリチタ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "コックニー"
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "キチロクタワー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "クリアストライク"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "トーセンルルド"
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "レインボースター"
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "ゴートゥービッツン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 7,
+          "horse": "リアルジャパン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 2,
+          "horse": "ラストモーメント"
+        },
+        {
+          "position": 10,
+          "horseNumber": 10,
+          "horse": "ブレイヴアーサー"
+        }
+      ]
+    },
+    {
+      "raceId": 42,
+      "netKeibaRaceId": "202602010406",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "ビナハイバン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "メイショウセンドウ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 10,
+          "horse": "ゴンフィンガー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "モロノカガヤキ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "チャーチルデュース"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "ウインカトリーヌ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 9,
+          "horse": "メイショウライガ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "ライヴマルガリータ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "シュヴェスター"
+        },
+        {
+          "position": 10,
+          "horseNumber": 13,
+          "horse": "ガダニーニ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 8,
+          "horse": "カタフラクト"
+        },
+        {
+          "position": 12,
+          "horseNumber": 12,
+          "horse": "アメリカンダンス"
+        },
+        {
+          "position": 13,
+          "horseNumber": 11,
+          "horse": "ヘヴンリーサイン"
+        }
+      ]
+    },
+    {
+      "raceId": 43,
+      "netKeibaRaceId": "202602010407",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "マナボニート"
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "ツルノマイハシ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "ヴェガリア"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "アイムインディ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "ダブルチャレンジ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "ファニーバニー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "ナンナンプー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "スプリングデイ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "グランテレーズ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 5,
+          "horse": "ジュジュドール"
+        },
+        {
+          "position": 11,
+          "horseNumber": 8,
+          "horse": "アルバニー"
+        }
+      ]
+    },
+    {
+      "raceId": 44,
+      "netKeibaRaceId": "202602010408",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "ナクライト"
+        },
+        {
+          "position": 2,
+          "horseNumber": 7,
+          "horse": "シーズザスローン"
+        },
+        {
+          "position": 3,
+          "horseNumber": 10,
+          "horse": "ライフイズ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "ホウオウバローロ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "アスクガンバーレ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 12,
+          "horse": "イサギ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "ディースプレマシー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "テイクオンミー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "フェニーチェドーロ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 4,
+          "horse": "パーティーガール"
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "アッシュバーグ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 8,
+          "horse": "アラクラン"
+        }
+      ]
+    },
+    {
+      "raceId": 45,
+      "netKeibaRaceId": "202602010409",
+      "raceName": "遊楽部特別",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "アストリル"
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "クリスレジーナ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "モルビド"
+        },
+        {
+          "position": 4,
+          "horseNumber": 5,
+          "horse": "メリザンド"
+        },
+        {
+          "position": 5,
+          "horseNumber": 3,
+          "horse": "アルディスティーノ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "リリーズブルーム"
+        },
+        {
+          "position": 7,
+          "horseNumber": 12,
+          "horse": "エイカイコバチ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "タイムレスキス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "ドマーネ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 11,
+          "horse": "ルージュカエラ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 10,
+          "horse": "ソングオブザバード"
+        },
+        {
+          "position": 12,
+          "horseNumber": 4,
+          "horse": "レダアトミカ"
+        }
+      ]
+    },
+    {
+      "raceId": 46,
+      "netKeibaRaceId": "202602010410",
+      "raceName": "檜山特別",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 6,
+          "horse": "チャーリー"
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "ライフゲート"
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "レッドライトニング"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ジュンラトゥール"
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "ギマール"
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "アールプロスト"
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "タイヨウフレア"
+        },
+        {
+          "position": 8,
+          "horseNumber": 7,
+          "horse": "ラマンシュ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "クリノキングマン"
+        }
+      ]
+    },
+    {
+      "raceId": 47,
+      "netKeibaRaceId": "202602010411",
+      "raceName": "UHB杯",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 14,
+          "horse": "アスティスプマンテ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "パクスロマーナ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 8,
+          "horse": "サムハンター"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "エヴァンスウィート"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "ルーフ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "シカゴスティング"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "エコロジーク"
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "ヴェサリウス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "スティールブルー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "トールキン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 12,
+          "horse": "ドゥアムール"
+        },
+        {
+          "position": 12,
+          "horseNumber": 15,
+          "horse": "ゴールドサーベル"
+        },
+        {
+          "position": 13,
+          "horseNumber": 2,
+          "horse": "メルトユアハート"
+        },
+        {
+          "position": 14,
+          "horseNumber": 7,
+          "horse": "ダークエクリプス"
+        },
+        {
+          "position": 15,
+          "horseNumber": 13,
+          "horse": "アシャカタカ"
+        }
+      ]
+    },
+    {
+      "raceId": 48,
+      "netKeibaRaceId": "202602010412",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "コッツォリーノ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "グレーヌドジョワ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "マイバラード"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ウインベラーノ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "ナイスプレーアスク"
+        },
+        {
+          "position": 6,
+          "horseNumber": 1,
+          "horse": "タイキルッジェーロ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "ネッタイヤライ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "マイネルモメンタム"
+        },
+        {
+          "position": 9,
+          "horseNumber": 4,
+          "horse": "ポタリング"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "スタードメイソン"
+        }
+      ]
+    },
+    {
+      "raceId": 49,
+      "netKeibaRaceId": "202605030601",
+      "raceName": "3歳以上障害未勝利",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "ブライトマン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 11,
+          "horse": "ゴールデンステップ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "ダスク"
+        },
+        {
+          "position": 4,
+          "horseNumber": 7,
+          "horse": "アップストローク"
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "セイウンパシュート"
+        },
+        {
+          "position": 6,
+          "horseNumber": 13,
+          "horse": "デスティネ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "プレミアブルー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 12,
+          "horse": "アルシミスト"
+        },
+        {
+          "position": 9,
+          "horseNumber": 14,
+          "horse": "ジャクソン"
+        },
+        {
+          "position": 10,
+          "horseNumber": 4,
+          "horse": "テーオーレガシー"
+        },
+        {
+          "position": 11,
+          "horseNumber": 3,
+          "horse": "グランジョルノ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 1,
+          "horse": "キャプテンシー"
+        },
+        {
+          "position": 13,
+          "horseNumber": 5,
+          "horse": "メイショウカゼマチ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 6,
+          "horse": "ヒロピアーナ"
+        }
+      ]
+    },
+    {
+      "raceId": 50,
+      "netKeibaRaceId": "202605030602",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "アクアマーズ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ダノンマスタング"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "モンスターラッシュ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 16,
+          "horse": "ファイアリービート"
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "ブルージンジャー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 13,
+          "horse": "ラッキーモア"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ライトアファイア"
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "キーチジャステン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 4,
+          "horse": "フィオリータ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 14,
+          "horse": "ニットウライズ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "ファインブライト"
+        },
+        {
+          "position": 12,
+          "horseNumber": 1,
+          "horse": "シャトーベスト"
+        },
+        {
+          "position": 13,
+          "horseNumber": 10,
+          "horse": "パチクリベスクリ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 6,
+          "horse": "モロノラピド"
+        },
+        {
+          "position": 15,
+          "horseNumber": 15,
+          "horse": "カフェタンガロア"
+        },
+        {
+          "position": 16,
+          "horseNumber": 12,
+          "horse": "デルマシラカミ"
+        }
+      ]
+    },
+    {
+      "raceId": 51,
+      "netKeibaRaceId": "202605030603",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "アスパラゴ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 13,
+          "horse": "ウインガネーシャ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "ウォーレーションズ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "クリムゾンリーフ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 3,
+          "horse": "ザンテソーロ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "マイネルシュラハト"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "ヤマメナイト"
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "ネイティヴプライド"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "ユイノサダハル"
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "フォンドルレール"
+        },
+        {
+          "position": 11,
+          "horseNumber": 12,
+          "horse": "ロードリュイール"
+        },
+        {
+          "position": 12,
+          "horseNumber": 15,
+          "horse": "エオリアンリッジ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 14,
+          "horse": "レイランディ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 16,
+          "horse": "キョウエイアート"
+        },
+        {
+          "position": 15,
+          "horseNumber": 1,
+          "horse": "ツウカイウォリアー"
+        },
+        {
+          "position": 16,
+          "horseNumber": 11,
+          "horse": "コスモラムバック"
+        }
+      ]
+    },
+    {
+      "raceId": 52,
+      "netKeibaRaceId": "202605030604",
+      "raceName": "2歳新馬",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 6,
+          "horse": "タクティシアン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 7,
+          "horse": "ミエルモーサ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 1,
+          "horse": "シュートザワークス"
+        },
+        {
+          "position": 4,
+          "horseNumber": 5,
+          "horse": "エムアイブレイズ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 8,
+          "horse": "シーズザチャンス"
+        },
+        {
+          "position": 6,
+          "horseNumber": 2,
+          "horse": "アラータス"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "コールドスリープ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "イサチルサリーレ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 4,
+          "horse": "クラウンフラッグ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 3,
+          "horse": "シャンパンアワー"
+        }
+      ]
+    },
+    {
+      "raceId": 53,
+      "netKeibaRaceId": "202605030605",
+      "raceName": "2歳新馬",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "アヴィアトーレ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "キャピタルストーン"
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "コスモシグナス"
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "トーセンマスラオ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "フルーツバスケット"
+        },
+        {
+          "position": 6,
+          "horseNumber": 12,
+          "horse": "マイネルリコルディ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "ニシノツムジカゼ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "ラガリーガ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 13,
+          "horse": "ダノンコレクト"
+        },
+        {
+          "position": 10,
+          "horseNumber": 3,
+          "horse": "ホウオウビリーヴ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 7,
+          "horse": "レイデアルマス"
+        },
+        {
+          "position": 12,
+          "horseNumber": 4,
+          "horse": "ノドゥス"
+        },
+        {
+          "position": 13,
+          "horseNumber": 11,
+          "horse": "マイネルアルディ"
+        }
+      ]
+    },
+    {
+      "raceId": 54,
+      "netKeibaRaceId": "202605030606",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "ダノンアスコルティ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ウインテラジーナ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 14,
+          "horse": "ウインドオブヘヴン"
+        },
+        {
+          "position": 4,
+          "horseNumber": 5,
+          "horse": "ブラーヴジャン"
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "サイモンナイスラン"
+        },
+        {
+          "position": 6,
+          "horseNumber": 16,
+          "horse": "シャルムグリーン"
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "ヘクトルテソーロ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 13,
+          "horse": "ジーティーヒラリ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "スカイリッチ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "セルリア"
+        },
+        {
+          "position": 11,
+          "horseNumber": 15,
+          "horse": "スチールギターラグ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 11,
+          "horse": "エヴァンスベイ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "ニシノカルラ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 6,
+          "horse": "ヴィクトリーマンボ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 3,
+          "horse": "ロックユアライフ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 7,
+          "horse": "フィレルレーヴ"
+        }
+      ]
+    },
+    {
+      "raceId": 55,
+      "netKeibaRaceId": "202605030607",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "ファンシーズ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "ヴンダーバール"
+        },
+        {
+          "position": 3,
+          "horseNumber": 8,
+          "horse": "ディペンダブル"
+        },
+        {
+          "position": 4,
+          "horseNumber": 9,
+          "horse": "ブルーサーマル"
+        },
+        {
+          "position": 5,
+          "horseNumber": 16,
+          "horse": "エイミームーン"
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "クラリネットソナタ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 13,
+          "horse": "リケアマカロニ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "シオンダンサー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 15,
+          "horse": "ルージュミレネール"
+        },
+        {
+          "position": 10,
+          "horseNumber": 3,
+          "horse": "ラルガメンテ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "カサビセンス"
+        },
+        {
+          "position": 12,
+          "horseNumber": 2,
+          "horse": "ハニーオーケストラ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 12,
+          "horse": "ジュエルハウス"
+        },
+        {
+          "position": 14,
+          "horseNumber": 1,
+          "horse": "ローズブーケ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 7,
+          "horse": "テルケンユミクイン"
+        },
+        {
+          "position": 16,
+          "horseNumber": 14,
+          "horse": "ジューンミレニアム"
+        }
+      ]
+    },
+    {
+      "raceId": 56,
+      "netKeibaRaceId": "202605030608",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "ラベルセーヌ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 10,
+          "horse": "タイセイアストロ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 14,
+          "horse": "マツリダイコ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "ライネリーベ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "ポッドロルフ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 12,
+          "horse": "モートンアイランド"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "スマイルカーブ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "スワローシチー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "フェーダーローター"
+        },
+        {
+          "position": 10,
+          "horseNumber": 5,
+          "horse": "アトリウムチャペル"
+        },
+        {
+          "position": 11,
+          "horseNumber": 15,
+          "horse": "オルグジェシダ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 13,
+          "horse": "タイキバルドル"
+        },
+        {
+          "position": 13,
+          "horseNumber": 4,
+          "horse": "スターチスブーケ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 8,
+          "horse": "マニス"
+        },
+        {
+          "position": 15,
+          "horseNumber": 9,
+          "horse": "サンデースマッシュ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 16,
+          "horse": "パーリーブラック"
+        }
+      ]
+    },
+    {
+      "raceId": 57,
+      "netKeibaRaceId": "202605030609",
+      "raceName": "甲州街道特別",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 15,
+          "horse": "キョウエイカンセ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "マジッククッキー"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "フィドルファドル"
+        },
+        {
+          "position": 4,
+          "horseNumber": 16,
+          "horse": "ゴールデンカイト"
+        },
+        {
+          "position": 5,
+          "horseNumber": 8,
+          "horse": "タカスタカスタカス"
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "フォースミラクル"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ワーズワース"
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "ライトオブヌカタ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 13,
+          "horse": "シュレン"
+        },
+        {
+          "position": 10,
+          "horseNumber": 14,
+          "horse": "ライジンマル"
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "シホノペルフェット"
+        },
+        {
+          "position": 12,
+          "horseNumber": 6,
+          "horse": "アクアマリーナ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 1,
+          "horse": "ドントゥザムーン"
+        },
+        {
+          "position": 14,
+          "horseNumber": 2,
+          "horse": "ポッドドンナー"
+        },
+        {
+          "position": 15,
+          "horseNumber": 5,
+          "horse": "モンシェリ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 12,
+          "horse": "サザンウォリアー"
+        }
+      ]
+    },
+    {
+      "raceId": 58,
+      "netKeibaRaceId": "202605030610",
+      "raceName": "多摩川S",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "ラーンザロープス"
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "レッドキングリー"
+        },
+        {
+          "position": 3,
+          "horseNumber": 14,
+          "horse": "スマイルアップ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "モンドデラモーレ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 8,
+          "horse": "フライングブレード"
+        },
+        {
+          "position": 6,
+          "horseNumber": 1,
+          "horse": "モンシュマン"
+        },
+        {
+          "position": 7,
+          "horseNumber": 12,
+          "horse": "マテンロウブラボー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "エフォートレス"
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "マックアルイーン"
+        },
+        {
+          "position": 10,
+          "horseNumber": 4,
+          "horse": "グーテンベルク"
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "ユハンヌス"
+        },
+        {
+          "position": 12,
+          "horseNumber": 13,
+          "horse": "セシリエプラージュ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 7,
+          "horse": "サトノヴィレ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 16,
+          "horse": "ウインオーディン"
+        },
+        {
+          "position": 15,
+          "horseNumber": 15,
+          "horse": "ウナギノボリ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 6,
+          "horse": "ダノンエンブレム"
+        }
+      ]
+    },
+    {
+      "raceId": 59,
+      "netKeibaRaceId": "202605030611",
+      "raceName": "府中牝馬S",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "セキトバイースト"
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ウイントワイライト"
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "ミアネーロ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "マカナ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 12,
+          "horse": "コガネノソラ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 10,
+          "horse": "ホールネス"
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ブラウンラチェット"
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "エストゥペンダ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 14,
+          "horse": "パラディレーヌ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "ニシノティアモ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "ビップデイジー"
+        },
+        {
+          "position": 12,
+          "horseNumber": 15,
+          "horse": "ルージュソリテール"
+        },
+        {
+          "position": 13,
+          "horseNumber": 16,
+          "horse": "セントメモリーズ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 6,
+          "horse": "ヴァルキリーバース"
+        },
+        {
+          "position": 15,
+          "horseNumber": 11,
+          "horse": "テレサ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 9,
+          "horse": "テリオスララ"
+        }
+      ]
+    },
+    {
+      "raceId": 60,
+      "netKeibaRaceId": "202605030612",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 15,
+          "horse": "タイキブリッツェン"
+        },
+        {
+          "position": 2,
+          "horseNumber": 12,
+          "horse": "レイズテンペスト"
+        },
+        {
+          "position": 3,
+          "horseNumber": 10,
+          "horse": "スタームーンナイト"
+        },
+        {
+          "position": 4,
+          "horseNumber": 9,
+          "horse": "アルプスオジョー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "アンティミスト"
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "カンレイスター"
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "タリスマン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "エフエイト"
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "シャオシンユン"
+        },
+        {
+          "position": 10,
+          "horseNumber": 6,
+          "horse": "ツマヤ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "タヤスロレンヌ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 14,
+          "horse": "グランドフォレスト"
+        },
+        {
+          "position": 13,
+          "horseNumber": 16,
+          "horse": "ロードトライデント"
+        },
+        {
+          "position": 14,
+          "horseNumber": 3,
+          "horse": "アイスブレイカー"
+        },
+        {
+          "position": 15,
+          "horseNumber": 11,
+          "horse": "ペロ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 2,
+          "horse": "ディクシーヴォーグ"
+        }
+      ]
+    },
+    {
+      "raceId": 61,
+      "netKeibaRaceId": "202609030601",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "メイショウナナユキ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "ムソウテンセイ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 16,
+          "horse": "オアシスアラン"
+        },
+        {
+          "position": 4,
+          "horseNumber": 14,
+          "horse": "マイベスティー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "ペコリズム"
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "ゴールドアーチ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 11,
+          "horse": "サンライズフリード"
+        },
+        {
+          "position": 8,
+          "horseNumber": 7,
+          "horse": "アイアン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "ベストレイク"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "サクライロマウコロ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 10,
+          "horse": "モチモチチャン"
+        },
+        {
+          "position": 12,
+          "horseNumber": 15,
+          "horse": "シャンジュマン"
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "コラカオ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 9,
+          "horse": "テーオーシーザー"
+        }
+      ]
+    },
+    {
+      "raceId": 62,
+      "netKeibaRaceId": "202609030602",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 17,
+          "horse": "スマートティアナ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "セルヴァジオ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "オレンジフィールド"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "ムーンライトダイヤ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "ジーティーメティオ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "スリーロンドン"
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "ビタールート"
+        },
+        {
+          "position": 8,
+          "horseNumber": 15,
+          "horse": "タイセイアビオン"
+        },
+        {
+          "position": 9,
+          "horseNumber": 18,
+          "horse": "クリスタルタワー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 10,
+          "horse": "ローズラフィネ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "メイショウバルキア"
+        },
+        {
+          "position": 12,
+          "horseNumber": 3,
+          "horse": "パノラマステージ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 1,
+          "horse": "バトルセレーネ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 7,
+          "horse": "ブライトエンジェル"
+        },
+        {
+          "position": 15,
+          "horseNumber": 12,
+          "horse": "フォルストランキル"
+        },
+        {
+          "position": 16,
+          "horseNumber": 14,
+          "horse": "ロンポワン"
+        },
+        {
+          "position": 17,
+          "horseNumber": 16,
+          "horse": "ミスティパープル"
+        },
+        {
+          "position": 18,
+          "horseNumber": 4,
+          "horse": "リアライズブルーム"
+        }
+      ]
+    },
+    {
+      "raceId": 63,
+      "netKeibaRaceId": "202609030603",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 15,
+          "horse": "ボーントゥウォリア"
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "ジャスティンゴッホ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "ウルトラハート"
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "タイキジュビリー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "マイカラー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "ピースビート"
+        },
+        {
+          "position": 7,
+          "horseNumber": 13,
+          "horse": "ハナコトバ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "カフジマリボー"
+        },
+        {
+          "position": 9,
+          "horseNumber": 14,
+          "horse": "ワンダーシャッフル"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "ハオカノア"
+        },
+        {
+          "position": 11,
+          "horseNumber": 10,
+          "horse": "キタノシリウス"
+        },
+        {
+          "position": 12,
+          "horseNumber": 16,
+          "horse": "ニミッツハイウェイ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 7,
+          "horse": "アングランパ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 12,
+          "horse": "ゴルトミュンツェ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 2,
+          "horse": "カフラー"
+        },
+        {
+          "position": 16,
+          "horseNumber": 9,
+          "horse": "ギフテッドスペック"
+        }
+      ]
+    },
+    {
+      "raceId": 64,
+      "netKeibaRaceId": "202609030604",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 15,
+          "horse": "バディ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "シャンドラファール"
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "ナムラヴンダー"
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "ルクスディグニティ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 17,
+          "horse": "フィエールシャンテ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 13,
+          "horse": "ラッキーシグネチャ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 16,
+          "horse": "ワンダースアン"
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "レーヴドリュヌ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 3,
+          "horse": "トライアンドエラー"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "キービート"
+        },
+        {
+          "position": 11,
+          "horseNumber": 10,
+          "horse": "ボッチョ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 18,
+          "horse": "ベルドゥニュイ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "ボールドペイト"
+        },
+        {
+          "position": 14,
+          "horseNumber": 7,
+          "horse": "ハギノデュア"
+        },
+        {
+          "position": 15,
+          "horseNumber": 4,
+          "horse": "レッドフレーザー"
+        },
+        {
+          "position": 16,
+          "horseNumber": 14,
+          "horse": "ジュンクロノシップ"
+        },
+        {
+          "position": 17,
+          "horseNumber": 11,
+          "horse": "マヤノイマジン"
+        },
+        {
+          "position": 18,
+          "horseNumber": 12,
+          "horse": "ラピス"
+        }
+      ]
+    },
+    {
+      "raceId": 65,
+      "netKeibaRaceId": "202609030605",
+      "raceName": "2歳新馬",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 5,
+          "horse": "トップチェッカー"
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "マーゴットマシェリ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "ヴィヴェローネ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ブレイクガール"
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "ドラゴンドール"
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "バクソウシャチョウ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "メイケイリチャード"
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "フランヴィア"
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "ジーティーキャメル"
+        }
+      ]
+    },
+    {
+      "raceId": 66,
+      "netKeibaRaceId": "202609030606",
+      "raceName": "3歳未勝利",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "ルージュスプリヤ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 16,
+          "horse": "カルロット"
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "アラビアンジョイ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "ネッカーズルム"
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "リントゥラウル"
+        },
+        {
+          "position": 6,
+          "horseNumber": 17,
+          "horse": "マティンデ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 18,
+          "horse": "プペアンビスキュイ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 14,
+          "horse": "ケイアイブラック"
+        },
+        {
+          "position": 9,
+          "horseNumber": 4,
+          "horse": "アステリアート"
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "オーケーエレガンス"
+        },
+        {
+          "position": 11,
+          "horseNumber": 7,
+          "horse": "レジーナテンペスタ"
+        },
+        {
+          "position": 12,
+          "horseNumber": 3,
+          "horse": "レイノルズナンバー"
+        },
+        {
+          "position": 13,
+          "horseNumber": 12,
+          "horse": "サカトクフェイス"
+        },
+        {
+          "position": 14,
+          "horseNumber": 11,
+          "horse": "ウォーターブビンガ"
+        },
+        {
+          "position": 15,
+          "horseNumber": 10,
+          "horse": "グランピアン"
+        },
+        {
+          "position": 16,
+          "horseNumber": 15,
+          "horse": "トゥスコラーナ"
+        },
+        {
+          "position": 17,
+          "horseNumber": 13,
+          "horse": "エクスプロウド"
+        },
+        {
+          "position": 18,
+          "horseNumber": 5,
+          "horse": "ラルス"
+        }
+      ]
+    },
+    {
+      "raceId": 67,
+      "netKeibaRaceId": "202609030607",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "ハッコウイチウ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 12,
+          "horse": "エイシンマールス"
+        },
+        {
+          "position": 3,
+          "horseNumber": 10,
+          "horse": "ビスケットアソート"
+        },
+        {
+          "position": 4,
+          "horseNumber": 5,
+          "horse": "シュテルンビルト"
+        },
+        {
+          "position": 5,
+          "horseNumber": 16,
+          "horse": "グディンナ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "アパレイユ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 15,
+          "horse": "エブリデイ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "タイセイレグノ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "インピッシュ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 3,
+          "horse": "ジューンアゲイン"
+        },
+        {
+          "position": 11,
+          "horseNumber": 7,
+          "horse": "アレーティア"
+        },
+        {
+          "position": 12,
+          "horseNumber": 11,
+          "horse": "キアヌ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 6,
+          "horse": "シンギタイ"
+        },
+        {
+          "position": 14,
+          "horseNumber": 8,
+          "horse": "ドレアンティア"
+        },
+        {
+          "position": 15,
+          "horseNumber": 14,
+          "horse": "ゴッドカインド"
+        },
+        {
+          "position": 16,
+          "horseNumber": 13,
+          "horse": "ラッキーバック"
+        }
+      ]
+    },
+    {
+      "raceId": 68,
+      "netKeibaRaceId": "202609030608",
+      "raceName": "3歳以上1勝クラス",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "アーリーハーベスト"
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "メイショウピリカ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "コニーアイランド"
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "ベルシュヴァル"
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "エイシンウィスパー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "リオンプライム"
+        },
+        {
+          "position": 7,
+          "horseNumber": 2,
+          "horse": "サリーチェ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "ジェルソミーノ"
+        }
+      ]
+    },
+    {
+      "raceId": 69,
+      "netKeibaRaceId": "202609030609",
+      "raceName": "高砂特別",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "ロードガレリア"
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "ステラクラウン"
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "カリーニョ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ダノンカゼルタ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "ミカエルパシャ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "エコテーラー"
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "ラーテル"
+        }
+      ]
+    },
+    {
+      "raceId": 70,
+      "netKeibaRaceId": "202609030610",
+      "raceName": "姫路S",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 13,
+          "horse": "ペイシャモノノフ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "パシアンジャン"
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "タマモキャリコ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "ルクスフレンジー"
+        },
+        {
+          "position": 5,
+          "horseNumber": 10,
+          "horse": "ロフティストーリー"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "アカデミア"
+        },
+        {
+          "position": 7,
+          "horseNumber": 14,
+          "horse": "レヴァンテシチー"
+        },
+        {
+          "position": 8,
+          "horseNumber": 15,
+          "horse": "ロカヒ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 2,
+          "horse": "メイショウシナノ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 11,
+          "horse": "ルクスビッグスター"
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "トウカイポワール"
+        },
+        {
+          "position": 12,
+          "horseNumber": 16,
+          "horse": "ウィンターダフネ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 3,
+          "horse": "アークドール"
+        },
+        {
+          "position": 14,
+          "horseNumber": 5,
+          "horse": "ヒロノラメール"
+        },
+        {
+          "position": 15,
+          "horseNumber": 12,
+          "horse": "キュールエフウジン"
+        },
+        {
+          "position": 16,
+          "horseNumber": 4,
+          "horse": "ティンティンデオ"
+        }
+      ]
+    },
+    {
+      "raceId": 71,
+      "netKeibaRaceId": "202609030611",
+      "raceName": "しらさぎS",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "エルトンバローズ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 7,
+          "horse": "キープカルム"
+        },
+        {
+          "position": 3,
+          "horseNumber": 11,
+          "horse": "エコロアルバ"
+        },
+        {
+          "position": 4,
+          "horseNumber": 9,
+          "horse": "ファンダム"
+        },
+        {
+          "position": 5,
+          "horseNumber": 17,
+          "horse": "スイープアワーズ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 14,
+          "horse": "ミニトランザット"
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "ブエナオンダ"
+        },
+        {
+          "position": 8,
+          "horseNumber": 12,
+          "horse": "カズミクラーシュ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "ファーヴェント"
+        },
+        {
+          "position": 10,
+          "horseNumber": 13,
+          "horse": "メタルスピード"
+        },
+        {
+          "position": 11,
+          "horseNumber": 2,
+          "horse": "ファインライン"
+        },
+        {
+          "position": 12,
+          "horseNumber": 18,
+          "horse": "タガノエルピーダ"
+        },
+        {
+          "position": 13,
+          "horseNumber": 16,
+          "horse": "スリールミニョン"
+        },
+        {
+          "position": 14,
+          "horseNumber": 8,
+          "horse": "サイルーン"
+        },
+        {
+          "position": 15,
+          "horseNumber": 15,
+          "horse": "ショウナンアデイブ"
+        },
+        {
+          "position": 16,
+          "horseNumber": 1,
+          "horse": "スマートワイス"
+        },
+        {
+          "position": 17,
+          "horseNumber": 6,
+          "horse": "シンフォーエバー"
+        },
+        {
+          "position": 18,
+          "horseNumber": 3,
+          "horse": "メイショウシンタケ"
+        }
+      ]
+    },
+    {
+      "raceId": 72,
+      "netKeibaRaceId": "202609030612",
+      "raceName": "3歳以上2勝クラス",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 12,
+          "horse": "タガノアバンドーネ"
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "ソウルアンドジャズ"
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "クロノスバレット"
+        },
+        {
+          "position": 4,
+          "horseNumber": 5,
+          "horse": "ジーニアスバローズ"
+        },
+        {
+          "position": 5,
+          "horseNumber": 13,
+          "horse": "レッドリベルタ"
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "エンマ"
+        },
+        {
+          "position": 7,
+          "horseNumber": 8,
+          "horse": "フラッシング"
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "ダディーズトリップ"
+        },
+        {
+          "position": 9,
+          "horseNumber": 2,
+          "horse": "クリノフィガロ"
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "キングロコマイカイ"
+        },
+        {
+          "position": 11,
+          "horseNumber": 6,
+          "horse": "エリカヴェネチア"
+        },
+        {
+          "position": 12,
+          "horseNumber": 7,
+          "horse": "メイショウマントル"
+        },
+        {
+          "position": 13,
+          "horseNumber": 11,
+          "horse": "ハッピーダンチャン"
+        }
+      ]
+    }
+  ]
+}
