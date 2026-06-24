@@ -71,7 +71,16 @@ export async function GET() {
     const resultEntry = resultsCache.results.find((r) => r.raceId === race.id);
     if (!resultEntry || resultEntry.finishers.length === 0) continue;
 
-    const horsesWithOdds = race.horses.filter((h) => h.odds != null && h.odds > 0);
+    // races-cache の odds が null の場合は results-cache の確定オッズを補完
+    const finisherOddsMap = new Map<string, number>();
+    for (const f of resultEntry.finishers) {
+      if (f.odds != null && f.odds > 0) finisherOddsMap.set(f.horse, f.odds);
+    }
+
+    const horsesWithOdds = race.horses
+      .map((h) => ({ ...h, odds: h.odds ?? finisherOddsMap.get(h.horse) ?? null }))
+      .filter((h): h is typeof h & { odds: number } => h.odds != null && h.odds > 0);
+
     if (horsesWithOdds.length === 0) continue;
 
     const DEFAULT = 65;
@@ -84,7 +93,7 @@ export async function GET() {
         pedigreeScore: (cached?.pedigreeScore ?? DEFAULT) / 100,
         trainingScore: (cached?.trainingScore ?? DEFAULT) / 100,
         jockeyScore: (cached?.jockeyScore ?? DEFAULT) / 100,
-        odds: h.odds!,
+        odds: h.odds,
       };
     });
 
@@ -104,11 +113,13 @@ export async function GET() {
         return wNum != null && hEntry?.horseNumber === wNum;
       });
 
+    // 1着馬のオッズ: races-cache → results-cache の順で取得
     const winnerOdds = (() => {
       const w = horsesWithOdds.find(
         (e) => e.horse === winnerName || e.horseNumber === winner?.horseNumber
       );
-      return w?.odds ?? null;
+      if (w?.odds) return w.odds;
+      return winner?.odds ?? null;
     })();
 
     const investedUnits = evPositiveHorses.length;

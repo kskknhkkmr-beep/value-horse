@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-24T02:30:45.775Z",
+  "fetchedAt": "2026-06-24T02:58:04.719Z",
   "results": [
     {
       "raceId": 1,
@@ -11,82 +11,98 @@
         {
           "position": 1,
           "horseNumber": 13,
-          "horse": "グランフィエルテ"
+          "horse": "グランフィエルテ",
+          "odds": 31.8
         },
         {
           "position": 2,
           "horseNumber": 8,
-          "horse": "ブラックジャック"
+          "horse": "ブラックジャック",
+          "odds": 12.5
         },
         {
           "position": 3,
           "horseNumber": 16,
-          "horse": "ブルーエ"
+          "horse": "ブルーエ",
+          "odds": 4.7
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "ミルトメロディー"
+          "horse": "ミルトメロディー",
+          "odds": 20.7
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "クリオロゴールド"
+          "horse": "クリオロゴールド",
+          "odds": 4.4
         },
         {
           "position": 6,
           "horseNumber": 4,
-          "horse": "ハッピーローヴァー"
+          "horse": "ハッピーローヴァー",
+          "odds": 3.3
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "テイクマイハート"
+          "horse": "テイクマイハート",
+          "odds": 36.9
         },
         {
           "position": 8,
           "horseNumber": 12,
-          "horse": "ブレッティレディ"
+          "horse": "ブレッティレディ",
+          "odds": 71.4
         },
         {
           "position": 9,
           "horseNumber": 7,
-          "horse": "メーテルリンク"
+          "horse": "メーテルリンク",
+          "odds": 63.3
         },
         {
           "position": 10,
           "horseNumber": 14,
-          "horse": "ミスチヴマリアンヌ"
+          "horse": "ミスチヴマリアンヌ",
+          "odds": 45.9
         },
         {
           "position": 11,
           "horseNumber": 5,
-          "horse": "ブルーハーツ"
+          "horse": "ブルーハーツ",
+          "odds": 89.8
         },
         {
           "position": 12,
           "horseNumber": 15,
-          "horse": "ウインドトリック"
+          "horse": "ウインドトリック",
+          "odds": 43.2
         },
         {
           "position": 13,
           "horseNumber": 2,
-          "horse": "チョウブク"
+          "horse": "チョウブク",
+          "odds": 26.9
         },
         {
           "position": 14,
           "horseNumber": 11,
-          "horse": "テリオスルミ"
+          "horse": "テリオスルミ",
+          "odds": 84
         },
         {
           "position": 15,
           "horseNumber": 10,
-          "horse": "カンフージョン"
+          "horse": "カンフージョン",
+          "odds": 140.1
         },
         {
           "position": 16,
           "horseNumber": 1,
-          "horse": "ナオミニオールイン"
+          "horse": "ナオミニオールイン",
+          "odds": 5.1
         }
       ]
     },
@@ -100,72 +116,86 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "コイタマチャン"
+          "horse": "コイタマチャン",
+          "odds": 3
         },
         {
           "position": 2,
           "horseNumber": 11,
-          "horse": "マーゴットクリュグ"
+          "horse": "マーゴットクリュグ",
+          "odds": 36
         },
         {
           "position": 3,
           "horseNumber": 1,
-          "horse": "ウォータースパウト"
+          "horse": "ウォータースパウト",
+          "odds": 27.7
         },
         {
           "position": 4,
           "horseNumber": 8,
-          "horse": "ギンケイ"
+          "horse": "ギンケイ",
+          "odds": 2.8
         },
         {
           "position": 5,
           "horseNumber": 12,
-          "horse": "サラサチャチャチャ"
+          "horse": "サラサチャチャチャ",
+          "odds": 4.5
         },
         {
           "position": 6,
           "horseNumber": 10,
-          "horse": "ストリートクイーン"
+          "horse": "ストリートクイーン",
+          "odds": 11.6
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "アンミックス"
+          "horse": "アンミックス",
+          "odds": 10.5
         },
         {
           "position": 8,
           "horseNumber": 2,
-          "horse": "ティナンヴァランタ"
+          "horse": "ティナンヴァランタ",
+          "odds": 30
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "ダリアフレイバー"
+          "horse": "ダリアフレイバー",
+          "odds": 85
         },
         {
           "position": 10,
           "horseNumber": 6,
-          "horse": "エーデルハイ"
+          "horse": "エーデルハイ",
+          "odds": 191.2
         },
         {
           "position": 11,
           "horseNumber": 13,
-          "horse": "ソルトバーン"
+          "horse": "ソルトバーン",
+          "odds": 442.5
         },
         {
           "position": 12,
           "horseNumber": 14,
-          "horse": "フローレスカラーズ"
+          "horse": "フローレスカラーズ",
+          "odds": 29
         },
         {
           "position": 13,
           "horseNumber": 9,
-          "horse": "キトゥンズラスター"
+          "horse": "キトゥンズラスター",
+          "odds": 77
         },
         {
           "position": 14,
           "horseNumber": 4,
-          "horse": "サチノブーケ"
+          "horse": "サチノブーケ",
+          "odds": 383.7
         }
       ]
     },
@@ -179,82 +209,98 @@
         {
           "position": 1,
           "horseNumber": 10,
-          "horse": "ジャケットポケット"
+          "horse": "ジャケットポケット",
+          "odds": 6.6
         },
         {
           "position": 2,
           "horseNumber": 1,
-          "horse": "ギオンバヤシ"
+          "horse": "ギオンバヤシ",
+          "odds": 5.7
         },
         {
           "position": 3,
           "horseNumber": 7,
-          "horse": "ゴコウコイコイ"
+          "horse": "ゴコウコイコイ",
+          "odds": 52
         },
         {
           "position": 4,
           "horseNumber": 14,
-          "horse": "マコトアディントン"
+          "horse": "マコトアディントン",
+          "odds": 6
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "デイズインザサン"
+          "horse": "デイズインザサン",
+          "odds": 103.6
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "スチョウプリンセス"
+          "horse": "スチョウプリンセス",
+          "odds": 219.3
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "ヒルノボローニャ"
+          "horse": "ヒルノボローニャ",
+          "odds": 17.1
         },
         {
           "position": 8,
           "horseNumber": 2,
-          "horse": "メイショウノヴァス"
+          "horse": "メイショウノヴァス",
+          "odds": 10.7
         },
         {
           "position": 9,
           "horseNumber": 16,
-          "horse": "ウインポーシャ"
+          "horse": "ウインポーシャ",
+          "odds": 14.3
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "インタノン"
+          "horse": "インタノン",
+          "odds": 3.5
         },
         {
           "position": 11,
           "horseNumber": 13,
-          "horse": "スリールーディカ"
+          "horse": "スリールーディカ",
+          "odds": 223.9
         },
         {
           "position": 12,
           "horseNumber": 4,
-          "horse": "アームアンフルール"
+          "horse": "アームアンフルール",
+          "odds": 112.6
         },
         {
           "position": 13,
           "horseNumber": 6,
-          "horse": "ハヤブサブロー"
+          "horse": "ハヤブサブロー",
+          "odds": 26.8
         },
         {
           "position": 14,
           "horseNumber": 12,
-          "horse": "ヤクジョ"
+          "horse": "ヤクジョ",
+          "odds": 9.3
         },
         {
           "position": 15,
           "horseNumber": 15,
-          "horse": "ラインクインビー"
+          "horse": "ラインクインビー",
+          "odds": 199.9
         },
         {
           "position": 16,
           "horseNumber": 11,
-          "horse": "ザタイムハズカム"
+          "horse": "ザタイムハズカム",
+          "odds": 17.3
         }
       ]
     },
@@ -268,72 +314,86 @@
         {
           "position": 1,
           "horseNumber": 3,
-          "horse": "ミリオンアップ"
+          "horse": "ミリオンアップ",
+          "odds": 17.5
         },
         {
           "position": 2,
           "horseNumber": 9,
-          "horse": "ゴールデンダガー"
+          "horse": "ゴールデンダガー",
+          "odds": 7.1
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "ブレイズランナー"
+          "horse": "ブレイズランナー",
+          "odds": 8.6
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "ニシノモリミチ"
+          "horse": "ニシノモリミチ",
+          "odds": 4.2
         },
         {
           "position": 5,
           "horseNumber": 13,
-          "horse": "タガノシルフィー"
+          "horse": "タガノシルフィー",
+          "odds": 3.3
         },
         {
           "position": 6,
           "horseNumber": 8,
-          "horse": "タイセイルビー"
+          "horse": "タイセイルビー",
+          "odds": 16.8
         },
         {
           "position": 7,
           "horseNumber": 12,
-          "horse": "ガーディアンテイル"
+          "horse": "ガーディアンテイル",
+          "odds": 5.8
         },
         {
           "position": 8,
           "horseNumber": 6,
-          "horse": "ブリスフルイヤー"
+          "horse": "ブリスフルイヤー",
+          "odds": 14
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "テリオスリコ"
+          "horse": "テリオスリコ",
+          "odds": 236.6
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "クッカユフラ"
+          "horse": "クッカユフラ",
+          "odds": 28.5
         },
         {
           "position": 11,
           "horseNumber": 7,
-          "horse": "セイカユウヒ"
+          "horse": "セイカユウヒ",
+          "odds": 68.8
         },
         {
           "position": 12,
           "horseNumber": 10,
-          "horse": "マツリダシリウス"
+          "horse": "マツリダシリウス",
+          "odds": 62.9
         },
         {
           "position": 13,
           "horseNumber": 14,
-          "horse": "リベンジャー"
+          "horse": "リベンジャー",
+          "odds": 31.8
         },
         {
           "position": 14,
           "horseNumber": 4,
-          "horse": "シバノパージャン"
+          "horse": "シバノパージャン",
+          "odds": 162.7
         }
       ]
     },
@@ -347,52 +407,62 @@
         {
           "position": 1,
           "horseNumber": 2,
-          "horse": "イモージェン"
+          "horse": "イモージェン",
+          "odds": 3.6
         },
         {
           "position": 2,
           "horseNumber": 6,
-          "horse": "ソニックアイル"
+          "horse": "ソニックアイル",
+          "odds": 3.6
         },
         {
           "position": 3,
           "horseNumber": 4,
-          "horse": "ラピッドテソーロ"
+          "horse": "ラピッドテソーロ",
+          "odds": 3.3
         },
         {
           "position": 4,
           "horseNumber": 10,
-          "horse": "チカバリエンテ"
+          "horse": "チカバリエンテ",
+          "odds": 18.1
         },
         {
           "position": 5,
           "horseNumber": 3,
-          "horse": "ファサ"
+          "horse": "ファサ",
+          "odds": 6.6
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "スノーウィスパー"
+          "horse": "スノーウィスパー",
+          "odds": 7.6
         },
         {
           "position": 7,
           "horseNumber": 8,
-          "horse": "ショコラリーヴ"
+          "horse": "ショコラリーヴ",
+          "odds": 88.2
         },
         {
           "position": 8,
           "horseNumber": 7,
-          "horse": "タイガーストリート"
+          "horse": "タイガーストリート",
+          "odds": 48.8
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "セイウンコハルタ"
+          "horse": "セイウンコハルタ",
+          "odds": 67.2
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "ワイプユアアイズ"
+          "horse": "ワイプユアアイズ",
+          "odds": 48.9
         }
       ]
     },
@@ -406,57 +476,68 @@
         {
           "position": 1,
           "horseNumber": 4,
-          "horse": "ノリヤンモーニン"
+          "horse": "ノリヤンモーニン",
+          "odds": 6.5
         },
         {
           "position": 2,
           "horseNumber": 1,
-          "horse": "クラウスーラ"
+          "horse": "クラウスーラ",
+          "odds": 3.3
         },
         {
           "position": 3,
           "horseNumber": 10,
-          "horse": "ワイドウィンザー"
+          "horse": "ワイドウィンザー",
+          "odds": 20.2
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "アースグリッパー"
+          "horse": "アースグリッパー",
+          "odds": 3.8
         },
         {
           "position": 5,
           "horseNumber": 7,
-          "horse": "サンクレセント"
+          "horse": "サンクレセント",
+          "odds": 4.7
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "ベイビーブラザー"
+          "horse": "ベイビーブラザー",
+          "odds": 22.3
         },
         {
           "position": 7,
           "horseNumber": 5,
-          "horse": "イチゴワタアメ"
+          "horse": "イチゴワタアメ",
+          "odds": 8.3
         },
         {
           "position": 8,
           "horseNumber": 8,
-          "horse": "アークレオン"
+          "horse": "アークレオン",
+          "odds": 86.7
         },
         {
           "position": 9,
           "horseNumber": 11,
-          "horse": "カクシンゴールド"
+          "horse": "カクシンゴールド",
+          "odds": 12.2
         },
         {
           "position": 10,
           "horseNumber": 9,
-          "horse": "ノヴァフォルス"
+          "horse": "ノヴァフォルス",
+          "odds": 177.7
         },
         {
           "position": 11,
           "horseNumber": 2,
-          "horse": "デスティネーション"
+          "horse": "デスティネーション",
+          "odds": 52.6
         }
       ]
     },
@@ -470,82 +551,98 @@
         {
           "position": 1,
           "horseNumber": 2,
-          "horse": "ダーリンダーリン"
+          "horse": "ダーリンダーリン",
+          "odds": 12.5
         },
         {
           "position": 2,
           "horseNumber": 14,
-          "horse": "メイショウローゼ"
+          "horse": "メイショウローゼ",
+          "odds": 8.1
         },
         {
           "position": 3,
           "horseNumber": 8,
-          "horse": "ルナティックブルー"
+          "horse": "ルナティックブルー",
+          "odds": 34.4
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "アンビエントポップ"
+          "horse": "アンビエントポップ",
+          "odds": 1.7
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "ジュラトリー"
+          "horse": "ジュラトリー",
+          "odds": 8
         },
         {
           "position": 6,
           "horseNumber": 16,
-          "horse": "ベネディクション"
+          "horse": "ベネディクション",
+          "odds": 26.1
         },
         {
           "position": 7,
           "horseNumber": 6,
-          "horse": "サウンドファミリエ"
+          "horse": "サウンドファミリエ",
+          "odds": 82.3
         },
         {
           "position": 8,
           "horseNumber": 13,
-          "horse": "ドルマバフチェ"
+          "horse": "ドルマバフチェ",
+          "odds": 37.4
         },
         {
           "position": 9,
           "horseNumber": 7,
-          "horse": "シンデレラカラー"
+          "horse": "シンデレラカラー",
+          "odds": 126.4
         },
         {
           "position": 10,
           "horseNumber": 4,
-          "horse": "モーリア"
+          "horse": "モーリア",
+          "odds": 55.2
         },
         {
           "position": 11,
           "horseNumber": 1,
-          "horse": "ヴィンテール"
+          "horse": "ヴィンテール",
+          "odds": 81.8
         },
         {
           "position": 12,
           "horseNumber": 10,
-          "horse": "メメボス"
+          "horse": "メメボス",
+          "odds": 17.6
         },
         {
           "position": 13,
           "horseNumber": 9,
-          "horse": "アトリ"
+          "horse": "アトリ",
+          "odds": 22.4
         },
         {
           "position": 14,
           "horseNumber": 15,
-          "horse": "ギルランダ"
+          "horse": "ギルランダ",
+          "odds": 12.2
         },
         {
           "position": 15,
           "horseNumber": 11,
-          "horse": "アーミル"
+          "horse": "アーミル",
+          "odds": 50
         },
         {
           "position": 16,
           "horseNumber": 12,
-          "horse": "グランマズドリーム"
+          "horse": "グランマズドリーム",
+          "odds": 62.3
         }
       ]
     },
@@ -559,62 +656,74 @@
         {
           "position": 1,
           "horseNumber": 10,
-          "horse": "クロナ"
+          "horse": "クロナ",
+          "odds": 2
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "ムーンブランシュ"
+          "horse": "ムーンブランシュ",
+          "odds": 9
         },
         {
           "position": 3,
           "horseNumber": 4,
-          "horse": "キャンドルマス"
+          "horse": "キャンドルマス",
+          "odds": 15.6
         },
         {
           "position": 4,
           "horseNumber": 7,
-          "horse": "クイーンレグナント"
+          "horse": "クイーンレグナント",
+          "odds": 11.2
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "タイセイブルーム"
+          "horse": "タイセイブルーム",
+          "odds": 6.6
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "グッバイウェーブ"
+          "horse": "グッバイウェーブ",
+          "odds": 44.1
         },
         {
           "position": 7,
           "horseNumber": 11,
-          "horse": "ワイルドゴーア"
+          "horse": "ワイルドゴーア",
+          "odds": 31.7
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "セイルロケット"
+          "horse": "セイルロケット",
+          "odds": 30.6
         },
         {
           "position": 9,
           "horseNumber": 12,
-          "horse": "サイコウダネ"
+          "horse": "サイコウダネ",
+          "odds": 178.2
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "カップッチョ"
+          "horse": "カップッチョ",
+          "odds": 263.6
         },
         {
           "position": 11,
           "horseNumber": 1,
-          "horse": "フクシマコウヨウ"
+          "horse": "フクシマコウヨウ",
+          "odds": 165.8
         },
         {
           "position": 12,
           "horseNumber": 2,
-          "horse": "エムフォー"
+          "horse": "エムフォー",
+          "odds": 3.9
         }
       ]
     },
@@ -628,62 +737,74 @@
         {
           "position": 1,
           "horseNumber": 9,
-          "horse": "スミッコディスコ"
+          "horse": "スミッコディスコ",
+          "odds": 4.1
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "デルマリシリ"
+          "horse": "デルマリシリ",
+          "odds": 2.2
         },
         {
           "position": 3,
           "horseNumber": 1,
-          "horse": "メイショウハッケイ"
+          "horse": "メイショウハッケイ",
+          "odds": 7.4
         },
         {
           "position": 4,
           "horseNumber": 4,
-          "horse": "コモンスナイプ"
+          "horse": "コモンスナイプ",
+          "odds": 187.7
         },
         {
           "position": 5,
           "horseNumber": 11,
-          "horse": "ロンドンオービタル"
+          "horse": "ロンドンオービタル",
+          "odds": 15.4
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "プリンセスモコ"
+          "horse": "プリンセスモコ",
+          "odds": 3.6
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "ウォーターサグラダ"
+          "horse": "ウォーターサグラダ",
+          "odds": 23.9
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "フレンドモナコ"
+          "horse": "フレンドモナコ",
+          "odds": 264.4
         },
         {
           "position": 9,
           "horseNumber": 12,
-          "horse": "アヤサンジョリーン"
+          "horse": "アヤサンジョリーン",
+          "odds": 200.5
         },
         {
           "position": 10,
           "horseNumber": 10,
-          "horse": "トーアサジタリウス"
+          "horse": "トーアサジタリウス",
+          "odds": 285
         },
         {
           "position": 11,
           "horseNumber": 8,
-          "horse": "マイオウンウェイ"
+          "horse": "マイオウンウェイ",
+          "odds": 152.8
         },
         {
           "position": 12,
           "horseNumber": 5,
-          "horse": "プルヴォワール"
+          "horse": "プルヴォワール",
+          "odds": 33.9
         }
       ]
     },
@@ -697,42 +818,50 @@
         {
           "position": 1,
           "horseNumber": 4,
-          "horse": "ゴールデンパゴーダ"
+          "horse": "ゴールデンパゴーダ",
+          "odds": 3.4
         },
         {
           "position": 2,
           "horseNumber": 6,
-          "horse": "バズアップビート"
+          "horse": "バズアップビート",
+          "odds": 4.4
         },
         {
           "position": 3,
           "horseNumber": 5,
-          "horse": "ペリプルス"
+          "horse": "ペリプルス",
+          "odds": 25.1
         },
         {
           "position": 4,
           "horseNumber": 8,
-          "horse": "マイネルゼウス"
+          "horse": "マイネルゼウス",
+          "odds": 3.7
         },
         {
           "position": 5,
           "horseNumber": 1,
-          "horse": "シャインバオバブ"
+          "horse": "シャインバオバブ",
+          "odds": 15.1
         },
         {
           "position": 6,
           "horseNumber": 2,
-          "horse": "ローレルオーブ"
+          "horse": "ローレルオーブ",
+          "odds": 5.3
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "サイモンイロハニー"
+          "horse": "サイモンイロハニー",
+          "odds": 124.5
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "アスクファイアモア"
+          "horse": "アスクファイアモア",
+          "odds": 5.9
         }
       ]
     },
@@ -746,82 +875,98 @@
         {
           "position": 1,
           "horseNumber": 10,
-          "horse": "アンジュプロミス"
+          "horse": "アンジュプロミス",
+          "odds": 7.3
         },
         {
           "position": 2,
           "horseNumber": 3,
-          "horse": "ピコアーガイル"
+          "horse": "ピコアーガイル",
+          "odds": 16
         },
         {
           "position": 3,
           "horseNumber": 6,
-          "horse": "レザンノワール"
+          "horse": "レザンノワール",
+          "odds": 15
         },
         {
           "position": 4,
           "horseNumber": 15,
-          "horse": "モズアンタレス"
+          "horse": "モズアンタレス",
+          "odds": 53.4
         },
         {
           "position": 5,
           "horseNumber": 16,
-          "horse": "ラパンチュール"
+          "horse": "ラパンチュール",
+          "odds": 3.7
         },
         {
           "position": 6,
           "horseNumber": 1,
-          "horse": "キープサインオン"
+          "horse": "キープサインオン",
+          "odds": 48
         },
         {
           "position": 7,
           "horseNumber": 4,
-          "horse": "マジカルフェアリー"
+          "horse": "マジカルフェアリー",
+          "odds": 20.9
         },
         {
           "position": 8,
           "horseNumber": 9,
-          "horse": "スムースベルベット"
+          "horse": "スムースベルベット",
+          "odds": 33.8
         },
         {
           "position": 9,
           "horseNumber": 14,
-          "horse": "トウカイエルデ"
+          "horse": "トウカイエルデ",
+          "odds": 16.6
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "フードマン"
+          "horse": "フードマン",
+          "odds": 4.3
         },
         {
           "position": 11,
           "horseNumber": 11,
-          "horse": "ビーコング"
+          "horse": "ビーコング",
+          "odds": 113.9
         },
         {
           "position": 12,
           "horseNumber": 12,
-          "horse": "モンサンゴールデン"
+          "horse": "モンサンゴールデン",
+          "odds": 5.4
         },
         {
           "position": 13,
           "horseNumber": 2,
-          "horse": "バンブルビー"
+          "horse": "バンブルビー",
+          "odds": 15
         },
         {
           "position": 14,
           "horseNumber": 7,
-          "horse": "ニシノラヴァンダ"
+          "horse": "ニシノラヴァンダ",
+          "odds": 41.1
         },
         {
           "position": 15,
           "horseNumber": 5,
-          "horse": "スイミーユニバンス"
+          "horse": "スイミーユニバンス",
+          "odds": 69.2
         },
         {
           "position": 16,
           "horseNumber": 13,
-          "horse": "ブルーサンセット"
+          "horse": "ブルーサンセット",
+          "odds": 69.1
         }
       ]
     },
@@ -835,57 +980,68 @@
         {
           "position": 1,
           "horseNumber": 4,
-          "horse": "ディナン"
+          "horse": "ディナン",
+          "odds": 2.7
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "リュウカルネ"
+          "horse": "リュウカルネ",
+          "odds": 4.9
         },
         {
           "position": 3,
           "horseNumber": 7,
-          "horse": "ゴールドブレイズ"
+          "horse": "ゴールドブレイズ",
+          "odds": 3.2
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "マーベリックシチー"
+          "horse": "マーベリックシチー",
+          "odds": 23.9
         },
         {
           "position": 5,
           "horseNumber": 2,
-          "horse": "ブレイジングスター"
+          "horse": "ブレイジングスター",
+          "odds": 81.5
         },
         {
           "position": 6,
           "horseNumber": 11,
-          "horse": "ラッキーヤース"
+          "horse": "ラッキーヤース",
+          "odds": 79.5
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "エンダードラゴン"
+          "horse": "エンダードラゴン",
+          "odds": 5.9
         },
         {
           "position": 8,
           "horseNumber": 6,
-          "horse": "ノリノドラゴン"
+          "horse": "ノリノドラゴン",
+          "odds": 15.8
         },
         {
           "position": 9,
           "horseNumber": 8,
-          "horse": "カージオイド"
+          "horse": "カージオイド",
+          "odds": 50.5
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "コムルヴァン"
+          "horse": "コムルヴァン",
+          "odds": 181.1
         },
         {
           "position": 11,
           "horseNumber": 9,
-          "horse": "ブライトビギニング"
+          "horse": "ブライトビギニング",
+          "odds": 19.1
         }
       ]
     },
@@ -899,82 +1055,98 @@
         {
           "position": 1,
           "horseNumber": 14,
-          "horse": "ダノンプレサージュ"
+          "horse": "ダノンプレサージュ",
+          "odds": 1.5
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "フェスティヴハート"
+          "horse": "フェスティヴハート",
+          "odds": 22.1
         },
         {
           "position": 3,
           "horseNumber": 10,
-          "horse": "ユニバーサルラヴ"
+          "horse": "ユニバーサルラヴ",
+          "odds": 100
         },
         {
           "position": 4,
           "horseNumber": 13,
-          "horse": "フジサン"
+          "horse": "フジサン",
+          "odds": 15.5
         },
         {
           "position": 5,
           "horseNumber": 16,
-          "horse": "ゴールドビリーヴ"
+          "horse": "ゴールドビリーヴ",
+          "odds": 8.3
         },
         {
           "position": 6,
           "horseNumber": 3,
-          "horse": "ホウオウロレンシア"
+          "horse": "ホウオウロレンシア",
+          "odds": 4.2
         },
         {
           "position": 7,
           "horseNumber": 4,
-          "horse": "オウケンサクラコ"
+          "horse": "オウケンサクラコ",
+          "odds": 59.2
         },
         {
           "position": 8,
           "horseNumber": 8,
-          "horse": "サマースプラッシュ"
+          "horse": "サマースプラッシュ",
+          "odds": 133.3
         },
         {
           "position": 9,
           "horseNumber": 12,
-          "horse": "アーティラリー"
+          "horse": "アーティラリー",
+          "odds": 47.6
         },
         {
           "position": 10,
           "horseNumber": 9,
-          "horse": "ノーブルブロウ"
+          "horse": "ノーブルブロウ",
+          "odds": 178.9
         },
         {
           "position": 11,
           "horseNumber": 7,
-          "horse": "ホワイトオパール"
+          "horse": "ホワイトオパール",
+          "odds": 237
         },
         {
           "position": 12,
           "horseNumber": 2,
-          "horse": "アンチェーン"
+          "horse": "アンチェーン",
+          "odds": 37.5
         },
         {
           "position": 13,
           "horseNumber": 15,
-          "horse": "マッドヘッドラブ"
+          "horse": "マッドヘッドラブ",
+          "odds": 90.5
         },
         {
           "position": 14,
           "horseNumber": 6,
-          "horse": "ベッラモレーン"
+          "horse": "ベッラモレーン",
+          "odds": 51
         },
         {
           "position": 15,
           "horseNumber": 11,
-          "horse": "カキュウ"
+          "horse": "カキュウ",
+          "odds": 213.2
         },
         {
           "position": 16,
           "horseNumber": 1,
-          "horse": "リコラピッド"
+          "horse": "リコラピッド",
+          "odds": 150.6
         }
       ]
     },
@@ -988,82 +1160,98 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "ブルーミーティア"
+          "horse": "ブルーミーティア",
+          "odds": 4.4
         },
         {
           "position": 2,
           "horseNumber": 1,
-          "horse": "サクラドール"
+          "horse": "サクラドール",
+          "odds": 2.2
         },
         {
           "position": 3,
           "horseNumber": 14,
-          "horse": "レイズレガシー"
+          "horse": "レイズレガシー",
+          "odds": 3.5
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "ヴェントベローチェ"
+          "horse": "ヴェントベローチェ",
+          "odds": 45.8
         },
         {
           "position": 5,
           "horseNumber": 10,
-          "horse": "ショウナンタヅナ"
+          "horse": "ショウナンタヅナ",
+          "odds": 12.8
         },
         {
           "position": 6,
           "horseNumber": 11,
-          "horse": "キイチムーブメント"
+          "horse": "キイチムーブメント",
+          "odds": 22
         },
         {
           "position": 7,
           "horseNumber": 12,
-          "horse": "ブレイブシュガー"
+          "horse": "ブレイブシュガー",
+          "odds": 55.9
         },
         {
           "position": 8,
           "horseNumber": 6,
-          "horse": "エッジランナー"
+          "horse": "エッジランナー",
+          "odds": 294.7
         },
         {
           "position": 9,
           "horseNumber": 16,
-          "horse": "トゥントゥントゥン"
+          "horse": "トゥントゥントゥン",
+          "odds": 102.2
         },
         {
           "position": 10,
           "horseNumber": 5,
-          "horse": "スウィートラキ"
+          "horse": "スウィートラキ",
+          "odds": 219.2
         },
         {
           "position": 11,
           "horseNumber": 15,
-          "horse": "ガヤーズベース"
+          "horse": "ガヤーズベース",
+          "odds": 59.8
         },
         {
           "position": 12,
           "horseNumber": 9,
-          "horse": "ソーマッチ"
+          "horse": "ソーマッチ",
+          "odds": 474.8
         },
         {
           "position": 13,
           "horseNumber": 13,
-          "horse": "ステラゲイル"
+          "horse": "ステラゲイル",
+          "odds": 370.4
         },
         {
           "position": 14,
           "horseNumber": 8,
-          "horse": "セキテイロックス"
+          "horse": "セキテイロックス",
+          "odds": 12.1
         },
         {
           "position": 15,
           "horseNumber": 4,
-          "horse": "リオダプラタ"
+          "horse": "リオダプラタ",
+          "odds": 164.8
         },
         {
           "position": 16,
           "horseNumber": 3,
-          "horse": "パッサージュワイズ"
+          "horse": "パッサージュワイズ",
+          "odds": 348.9
         }
       ]
     },
@@ -1077,82 +1265,98 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "ジュナベーラ"
+          "horse": "ジュナベーラ",
+          "odds": 2.2
         },
         {
           "position": 2,
           "horseNumber": 9,
-          "horse": "ペプチドドリーム"
+          "horse": "ペプチドドリーム",
+          "odds": 20.9
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "ムーングレイル"
+          "horse": "ムーングレイル",
+          "odds": 7.4
         },
         {
           "position": 4,
           "horseNumber": 13,
-          "horse": "ウインアプローチ"
+          "horse": "ウインアプローチ",
+          "odds": 11.9
         },
         {
           "position": 5,
           "horseNumber": 10,
-          "horse": "クレアノア"
+          "horse": "クレアノア",
+          "odds": 5.8
         },
         {
           "position": 6,
           "horseNumber": 5,
-          "horse": "シルフィー"
+          "horse": "シルフィー",
+          "odds": 29.3
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "セキテイリノ"
+          "horse": "セキテイリノ",
+          "odds": 3.9
         },
         {
           "position": 8,
           "horseNumber": 12,
-          "horse": "チャチャット"
+          "horse": "チャチャット",
+          "odds": 56.9
         },
         {
           "position": 9,
           "horseNumber": 6,
-          "horse": "カドドゥディエ"
+          "horse": "カドドゥディエ",
+          "odds": 23.9
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "コスモヘリアンサス"
+          "horse": "コスモヘリアンサス",
+          "odds": 229
         },
         {
           "position": 11,
           "horseNumber": 16,
-          "horse": "フュチュール"
+          "horse": "フュチュール",
+          "odds": 564.7
         },
         {
           "position": 12,
           "horseNumber": 1,
-          "horse": "ルミナスレイナ"
+          "horse": "ルミナスレイナ",
+          "odds": 374.5
         },
         {
           "position": 13,
           "horseNumber": 4,
-          "horse": "ジュンヴィヴァン"
+          "horse": "ジュンヴィヴァン",
+          "odds": 82.8
         },
         {
           "position": 14,
           "horseNumber": 2,
-          "horse": "ブレイブキトゥン"
+          "horse": "ブレイブキトゥン",
+          "odds": 401.5
         },
         {
           "position": 15,
           "horseNumber": 14,
-          "horse": "タケショウカイザー"
+          "horse": "タケショウカイザー",
+          "odds": 160.1
         },
         {
           "position": 16,
           "horseNumber": 15,
-          "horse": "タイセイネクサス"
+          "horse": "タイセイネクサス",
+          "odds": 366
         }
       ]
     },
@@ -1166,57 +1370,68 @@
         {
           "position": 1,
           "horseNumber": 2,
-          "horse": "ルークウォーム"
+          "horse": "ルークウォーム",
+          "odds": 2.7
         },
         {
           "position": 2,
           "horseNumber": 1,
-          "horse": "インサイドエッジ"
+          "horse": "インサイドエッジ",
+          "odds": 38.1
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "ユリア"
+          "horse": "ユリア",
+          "odds": 15.6
         },
         {
           "position": 4,
           "horseNumber": 10,
-          "horse": "ゴールデンハニビー"
+          "horse": "ゴールデンハニビー",
+          "odds": 4.8
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "ニクスルーナ"
+          "horse": "ニクスルーナ",
+          "odds": 3.2
         },
         {
           "position": 6,
           "horseNumber": 8,
-          "horse": "スターリーデー"
+          "horse": "スターリーデー",
+          "odds": 11.7
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "パストザクラウン"
+          "horse": "パストザクラウン",
+          "odds": 75.5
         },
         {
           "position": 8,
           "horseNumber": 5,
-          "horse": "ソプラノクイーン"
+          "horse": "ソプラノクイーン",
+          "odds": 8.1
         },
         {
           "position": 9,
           "horseNumber": 3,
-          "horse": "アフィーリア"
+          "horse": "アフィーリア",
+          "odds": 33.9
         },
         {
           "position": 10,
           "horseNumber": 6,
-          "horse": "エルシオン"
+          "horse": "エルシオン",
+          "odds": 58.2
         },
         {
           "position": 11,
           "horseNumber": 4,
-          "horse": "オーケーマドンナ"
+          "horse": "オーケーマドンナ",
+          "odds": 86.2
         }
       ]
     },
@@ -1230,52 +1445,62 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "レッチュベルク"
+          "horse": "レッチュベルク",
+          "odds": 4
         },
         {
           "position": 2,
           "horseNumber": 6,
-          "horse": "ペアスターロード"
+          "horse": "ペアスターロード",
+          "odds": 12.7
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "コナパームス"
+          "horse": "コナパームス",
+          "odds": 1.8
         },
         {
           "position": 4,
           "horseNumber": 10,
-          "horse": "ジーティーフクジ"
+          "horse": "ジーティーフクジ",
+          "odds": 143.8
         },
         {
           "position": 5,
           "horseNumber": 7,
-          "horse": "ウィールズアップ"
+          "horse": "ウィールズアップ",
+          "odds": 10.8
         },
         {
           "position": 6,
           "horseNumber": 2,
-          "horse": "コンクレデンツァ"
+          "horse": "コンクレデンツァ",
+          "odds": 159.8
         },
         {
           "position": 7,
           "horseNumber": 5,
-          "horse": "ホワイトフレアー"
+          "horse": "ホワイトフレアー",
+          "odds": 16.8
         },
         {
           "position": 8,
           "horseNumber": 4,
-          "horse": "マーズエクレール"
+          "horse": "マーズエクレール",
+          "odds": 5.4
         },
         {
           "position": 9,
           "horseNumber": 8,
-          "horse": "ナナレイ"
+          "horse": "ナナレイ",
+          "odds": 140.9
         },
         {
           "position": 10,
           "horseNumber": 3,
-          "horse": "ニシノアイオーン"
+          "horse": "ニシノアイオーン",
+          "odds": 66.9
         }
       ]
     },
@@ -1289,82 +1514,98 @@
         {
           "position": 1,
           "horseNumber": 2,
-          "horse": "ロングミックス"
+          "horse": "ロングミックス",
+          "odds": 2.8
         },
         {
           "position": 2,
           "horseNumber": 3,
-          "horse": "ビンバラ"
+          "horse": "ビンバラ",
+          "odds": 13
         },
         {
           "position": 3,
           "horseNumber": 14,
-          "horse": "ウェスケンジントン"
+          "horse": "ウェスケンジントン",
+          "odds": 11
         },
         {
           "position": 4,
           "horseNumber": 7,
-          "horse": "ゴットタレント"
+          "horse": "ゴットタレント",
+          "odds": 71.7
         },
         {
           "position": 5,
           "horseNumber": 8,
-          "horse": "ロイヤルタイム"
+          "horse": "ロイヤルタイム",
+          "odds": 171
         },
         {
           "position": 6,
           "horseNumber": 5,
-          "horse": "トルネードアイル"
+          "horse": "トルネードアイル",
+          "odds": 2.6
         },
         {
           "position": 7,
           "horseNumber": 15,
-          "horse": "ティブロン"
+          "horse": "ティブロン",
+          "odds": 85.1
         },
         {
           "position": 8,
           "horseNumber": 11,
-          "horse": "ミッキーサウザンド"
+          "horse": "ミッキーサウザンド",
+          "odds": 4.6
         },
         {
           "position": 9,
           "horseNumber": 6,
-          "horse": "ソフィアプルーマ"
+          "horse": "ソフィアプルーマ",
+          "odds": 176.4
         },
         {
           "position": 10,
           "horseNumber": 9,
-          "horse": "ニシノトップダノン"
+          "horse": "ニシノトップダノン",
+          "odds": 43.4
         },
         {
           "position": 11,
           "horseNumber": 4,
-          "horse": "ベンガルボダイジュ"
+          "horse": "ベンガルボダイジュ",
+          "odds": 517.2
         },
         {
           "position": 12,
           "horseNumber": 13,
-          "horse": "ウインエンブレム"
+          "horse": "ウインエンブレム",
+          "odds": 387.9
         },
         {
           "position": 13,
           "horseNumber": 12,
-          "horse": "ベアブルージュ"
+          "horse": "ベアブルージュ",
+          "odds": 144.4
         },
         {
           "position": 14,
           "horseNumber": 1,
-          "horse": "タマモブレイキン"
+          "horse": "タマモブレイキン",
+          "odds": 26.9
         },
         {
           "position": 15,
           "horseNumber": 16,
-          "horse": "ピクシーゲイル"
+          "horse": "ピクシーゲイル",
+          "odds": 663.7
         },
         {
           "position": 16,
           "horseNumber": 10,
-          "horse": "ヴェイルドハート"
+          "horse": "ヴェイルドハート",
+          "odds": 39.5
         }
       ]
     },
@@ -1378,82 +1619,98 @@
         {
           "position": 1,
           "horseNumber": 2,
-          "horse": "アンジェラス"
+          "horse": "アンジェラス",
+          "odds": 17.1
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "ニシノスフィンクス"
+          "horse": "ニシノスフィンクス",
+          "odds": 46.9
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "ハングローズ"
+          "horse": "ハングローズ",
+          "odds": 1.8
         },
         {
           "position": 4,
           "horseNumber": 7,
-          "horse": "ジャメビュ"
+          "horse": "ジャメビュ",
+          "odds": 13.5
         },
         {
           "position": 5,
           "horseNumber": 15,
-          "horse": "ロンバスブレス"
+          "horse": "ロンバスブレス",
+          "odds": 7
         },
         {
           "position": 6,
           "horseNumber": 10,
-          "horse": "タカラエイティ"
+          "horse": "タカラエイティ",
+          "odds": 22.3
         },
         {
           "position": 7,
           "horseNumber": 6,
-          "horse": "アルデバローズ"
+          "horse": "アルデバローズ",
+          "odds": 21
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "ユキノサイエンス"
+          "horse": "ユキノサイエンス",
+          "odds": 8.5
         },
         {
           "position": 9,
           "horseNumber": 14,
-          "horse": "アルペンローゼ"
+          "horse": "アルペンローゼ",
+          "odds": 48.1
         },
         {
           "position": 10,
           "horseNumber": 16,
-          "horse": "ノアレジェンド"
+          "horse": "ノアレジェンド",
+          "odds": 206.6
         },
         {
           "position": 11,
           "horseNumber": 4,
-          "horse": "ミウ"
+          "horse": "ミウ",
+          "odds": 85.1
         },
         {
           "position": 12,
           "horseNumber": 12,
-          "horse": "ダノンケリー"
+          "horse": "ダノンケリー",
+          "odds": 14.2
         },
         {
           "position": 13,
           "horseNumber": 13,
-          "horse": "バターショコラ"
+          "horse": "バターショコラ",
+          "odds": 13.5
         },
         {
           "position": 14,
           "horseNumber": 1,
-          "horse": "ノヴェルピアーチェ"
+          "horse": "ノヴェルピアーチェ",
+          "odds": 106.8
         },
         {
           "position": 15,
           "horseNumber": 8,
-          "horse": "ミスエベレスト"
+          "horse": "ミスエベレスト",
+          "odds": 254.6
         },
         {
           "position": 16,
           "horseNumber": 11,
-          "horse": "ハクシンスマイル"
+          "horse": "ハクシンスマイル",
+          "odds": 376.4
         }
       ]
     },
@@ -1467,82 +1724,98 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "タイセイプランセス"
+          "horse": "タイセイプランセス",
+          "odds": 35.6
         },
         {
           "position": 2,
           "horseNumber": 3,
-          "horse": "ダノンファンスター"
+          "horse": "ダノンファンスター",
+          "odds": 1.8
         },
         {
           "position": 3,
           "horseNumber": 5,
-          "horse": "タッセルノット"
+          "horse": "タッセルノット",
+          "odds": 6.5
         },
         {
           "position": 4,
           "horseNumber": 10,
-          "horse": "アドミラルシップ"
+          "horse": "アドミラルシップ",
+          "odds": 30.8
         },
         {
           "position": 5,
           "horseNumber": 16,
-          "horse": "オルフセン"
+          "horse": "オルフセン",
+          "odds": 8.7
         },
         {
           "position": 6,
           "horseNumber": 4,
-          "horse": "ウインドラート"
+          "horse": "ウインドラート",
+          "odds": 105.4
         },
         {
           "position": 7,
           "horseNumber": 11,
-          "horse": "ダーリングハースト"
+          "horse": "ダーリングハースト",
+          "odds": 8
         },
         {
           "position": 8,
           "horseNumber": 15,
-          "horse": "ショウナンダイン"
+          "horse": "ショウナンダイン",
+          "odds": 306.7
         },
         {
           "position": 9,
           "horseNumber": 12,
-          "horse": "アナザーフェイス"
+          "horse": "アナザーフェイス",
+          "odds": 6.8
         },
         {
           "position": 10,
           "horseNumber": 2,
-          "horse": "スペードギニー"
+          "horse": "スペードギニー",
+          "odds": 65.6
         },
         {
           "position": 11,
           "horseNumber": 6,
-          "horse": "コスモグラニット"
+          "horse": "コスモグラニット",
+          "odds": 73.7
         },
         {
           "position": 12,
           "horseNumber": 7,
-          "horse": "ワールドブレイヴ"
+          "horse": "ワールドブレイヴ",
+          "odds": 109.7
         },
         {
           "position": 13,
           "horseNumber": 8,
-          "horse": "シークレットイスラ"
+          "horse": "シークレットイスラ",
+          "odds": 314.4
         },
         {
           "position": 14,
           "horseNumber": 14,
-          "horse": "コスモエルヴァル"
+          "horse": "コスモエルヴァル",
+          "odds": 75.8
         },
         {
           "position": 15,
           "horseNumber": 9,
-          "horse": "エテルニータ"
+          "horse": "エテルニータ",
+          "odds": 36.9
         },
         {
           "position": 16,
           "horseNumber": 13,
-          "horse": "オメガディコン"
+          "horse": "オメガディコン",
+          "odds": 31.2
         }
       ]
     },
@@ -1556,52 +1829,62 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "チャリングクロス"
+          "horse": "チャリングクロス",
+          "odds": 2.1
         },
         {
           "position": 2,
           "horseNumber": 8,
-          "horse": "レーヴドロペラ"
+          "horse": "レーヴドロペラ",
+          "odds": 9.6
         },
         {
           "position": 3,
           "horseNumber": 5,
-          "horse": "オウケンボルト"
+          "horse": "オウケンボルト",
+          "odds": 52.2
         },
         {
           "position": 4,
           "horseNumber": 6,
-          "horse": "ランツフート"
+          "horse": "ランツフート",
+          "odds": 17
         },
         {
           "position": 5,
           "horseNumber": 3,
-          "horse": "ピックデムッシュ"
+          "horse": "ピックデムッシュ",
+          "odds": 2
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "クリフハンガー"
+          "horse": "クリフハンガー",
+          "odds": 37.7
         },
         {
           "position": 7,
           "horseNumber": 1,
-          "horse": "フルレゾン"
+          "horse": "フルレゾン",
+          "odds": 19.3
         },
         {
           "position": 8,
           "horseNumber": 4,
-          "horse": "バンフィエルド"
+          "horse": "バンフィエルド",
+          "odds": 163.7
         },
         {
           "position": 9,
           "horseNumber": 10,
-          "horse": "シテフローラル"
+          "horse": "シテフローラル",
+          "odds": 45
         },
         {
           "position": 10,
           "horseNumber": 2,
-          "horse": "サイモンルモンド"
+          "horse": "サイモンルモンド",
+          "odds": 248.2
         }
       ]
     },
@@ -1615,72 +1898,86 @@
         {
           "position": 1,
           "horseNumber": 14,
-          "horse": "ラージギャラリー"
+          "horse": "ラージギャラリー",
+          "odds": 16.9
         },
         {
           "position": 2,
           "horseNumber": 3,
-          "horse": "ダガーリング"
+          "horse": "ダガーリング",
+          "odds": 4.8
         },
         {
           "position": 3,
           "horseNumber": 2,
-          "horse": "レイククレセント"
+          "horse": "レイククレセント",
+          "odds": 54.3
         },
         {
           "position": 4,
           "horseNumber": 9,
-          "horse": "アスミル"
+          "horse": "アスミル",
+          "odds": 12.8
         },
         {
           "position": 5,
           "horseNumber": 7,
-          "horse": "クレパスキュラー"
+          "horse": "クレパスキュラー",
+          "odds": 1.7
         },
         {
           "position": 6,
           "horseNumber": 11,
-          "horse": "ビービーエフォート"
+          "horse": "ビービーエフォート",
+          "odds": 69.1
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "キョウエイボニータ"
+          "horse": "キョウエイボニータ",
+          "odds": 126.2
         },
         {
           "position": 8,
           "horseNumber": 8,
-          "horse": "チムグクル"
+          "horse": "チムグクル",
+          "odds": 7.1
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "ギフテッド"
+          "horse": "ギフテッド",
+          "odds": 95.4
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "メランジェ"
+          "horse": "メランジェ",
+          "odds": 21.6
         },
         {
           "position": 11,
           "horseNumber": 4,
-          "horse": "カラヴァジェスティ"
+          "horse": "カラヴァジェスティ",
+          "odds": 85.1
         },
         {
           "position": 12,
           "horseNumber": 6,
-          "horse": "サクセスカラー"
+          "horse": "サクセスカラー",
+          "odds": 32.9
         },
         {
           "position": 13,
           "horseNumber": 13,
-          "horse": "コンテネレッツア"
+          "horse": "コンテネレッツア",
+          "odds": 31.9
         },
         {
           "position": 14,
           "horseNumber": 12,
-          "horse": "ユキノエミリオ"
+          "horse": "ユキノエミリオ",
+          "odds": 103.7
         }
       ]
     },
@@ -1694,77 +1991,92 @@
         {
           "position": 1,
           "horseNumber": 10,
-          "horse": "リアレスト"
+          "horse": "リアレスト",
+          "odds": 31.5
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "クールミラボー"
+          "horse": "クールミラボー",
+          "odds": 5.4
         },
         {
           "position": 3,
           "horseNumber": 4,
-          "horse": "ロードプレジール"
+          "horse": "ロードプレジール",
+          "odds": 55.6
         },
         {
           "position": 4,
           "horseNumber": 6,
-          "horse": "タガノバビロン"
+          "horse": "タガノバビロン",
+          "odds": 3.7
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "スナークラファエロ"
+          "horse": "スナークラファエロ",
+          "odds": 28
         },
         {
           "position": 6,
           "horseNumber": 3,
-          "horse": "レヴォントゥレット"
+          "horse": "レヴォントゥレット",
+          "odds": 20.2
         },
         {
           "position": 7,
           "horseNumber": 5,
-          "horse": "フタイテンロック"
+          "horse": "フタイテンロック",
+          "odds": 215.8
         },
         {
           "position": 8,
           "horseNumber": 14,
-          "horse": "レッドプロフェシー"
+          "horse": "レッドプロフェシー",
+          "odds": 8
         },
         {
           "position": 9,
           "horseNumber": 7,
-          "horse": "ハナウマビーチ"
+          "horse": "ハナウマビーチ",
+          "odds": 75.4
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "タイセイドレフォン"
+          "horse": "タイセイドレフォン",
+          "odds": 184.6
         },
         {
           "position": 11,
           "horseNumber": 13,
-          "horse": "ルヴァンユニベール"
+          "horse": "ルヴァンユニベール",
+          "odds": 5
         },
         {
           "position": 12,
           "horseNumber": 11,
-          "horse": "ピカピカサンダー"
+          "horse": "ピカピカサンダー",
+          "odds": 6.3
         },
         {
           "position": 13,
           "horseNumber": 15,
-          "horse": "アムールドパリ"
+          "horse": "アムールドパリ",
+          "odds": 7.9
         },
         {
           "position": 14,
           "horseNumber": 12,
-          "horse": "ミッキークレスト"
+          "horse": "ミッキークレスト",
+          "odds": 54.2
         },
         {
           "position": 15,
           "horseNumber": 1,
-          "horse": "マリオロード"
+          "horse": "マリオロード",
+          "odds": 67.8
         }
       ]
     },
@@ -1778,82 +2090,98 @@
         {
           "position": 1,
           "horseNumber": 12,
-          "horse": "オクトーバーナイン"
+          "horse": "オクトーバーナイン",
+          "odds": 5.2
         },
         {
           "position": 2,
           "horseNumber": 1,
-          "horse": "サンデーパーティー"
+          "horse": "サンデーパーティー",
+          "odds": 47.9
         },
         {
           "position": 3,
           "horseNumber": 2,
-          "horse": "コスモシェルベット"
+          "horse": "コスモシェルベット",
+          "odds": 49.7
         },
         {
           "position": 4,
           "horseNumber": 10,
-          "horse": "アトミックブレス"
+          "horse": "アトミックブレス",
+          "odds": 8.4
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "ヤングアメリカンズ"
+          "horse": "ヤングアメリカンズ",
+          "odds": 13.7
         },
         {
           "position": 6,
           "horseNumber": 13,
-          "horse": "カーマンライン"
+          "horse": "カーマンライン",
+          "odds": 116.3
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "ティアップドライブ"
+          "horse": "ティアップドライブ",
+          "odds": 137
         },
         {
           "position": 8,
           "horseNumber": 14,
-          "horse": "ニャンタロウ"
+          "horse": "ニャンタロウ",
+          "odds": 30.6
         },
         {
           "position": 9,
           "horseNumber": 16,
-          "horse": "サムワンライクユー"
+          "horse": "サムワンライクユー",
+          "odds": 95.8
         },
         {
           "position": 10,
           "horseNumber": 15,
-          "horse": "メトロポリターナ"
+          "horse": "メトロポリターナ",
+          "odds": 71.9
         },
         {
           "position": 11,
           "horseNumber": 8,
-          "horse": "ヘルメスギャング"
+          "horse": "ヘルメスギャング",
+          "odds": 47.4
         },
         {
           "position": 12,
           "horseNumber": 11,
-          "horse": "カルネヴァーレ"
+          "horse": "カルネヴァーレ",
+          "odds": 24.3
         },
         {
           "position": 13,
           "horseNumber": 9,
-          "horse": "パラダイスフェイス"
+          "horse": "パラダイスフェイス",
+          "odds": 2.1
         },
         {
           "position": 14,
           "horseNumber": 6,
-          "horse": "ツァガーンサル"
+          "horse": "ツァガーンサル",
+          "odds": 21.4
         },
         {
           "position": 15,
           "horseNumber": 4,
-          "horse": "アイランドピーク"
+          "horse": "アイランドピーク",
+          "odds": 364.7
         },
         {
           "position": 16,
           "horseNumber": 3,
-          "horse": "フルミネブル"
+          "horse": "フルミネブル",
+          "odds": 5.4
         }
       ]
     },
@@ -1867,37 +2195,44 @@
         {
           "position": 1,
           "horseNumber": 8,
-          "horse": "ロードリベラシオン"
+          "horse": "ロードリベラシオン",
+          "odds": 3.9
         },
         {
           "position": 2,
           "horseNumber": 4,
-          "horse": "オオキニ"
+          "horse": "オオキニ",
+          "odds": 2.2
         },
         {
           "position": 3,
           "horseNumber": 7,
-          "horse": "ネイチャーシップ"
+          "horse": "ネイチャーシップ",
+          "odds": 4.6
         },
         {
           "position": 4,
           "horseNumber": 1,
-          "horse": "ライツフォル"
+          "horse": "ライツフォル",
+          "odds": 9.8
         },
         {
           "position": 5,
           "horseNumber": 2,
-          "horse": "グラニットピーク"
+          "horse": "グラニットピーク",
+          "odds": 64.3
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "シャンデルナゴル"
+          "horse": "シャンデルナゴル",
+          "odds": 8.7
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "テイエムエメラルド"
+          "horse": "テイエムエメラルド",
+          "odds": 67.1
         }
       ]
     },
@@ -1911,82 +2246,98 @@
         {
           "position": 1,
           "horseNumber": 12,
-          "horse": "マリリンバローズ"
+          "horse": "マリリンバローズ",
+          "odds": 1.8
         },
         {
           "position": 2,
           "horseNumber": 8,
-          "horse": "キャッチアシーフ"
+          "horse": "キャッチアシーフ",
+          "odds": 9.5
         },
         {
           "position": 3,
           "horseNumber": 6,
-          "horse": "クロカミジョウ"
+          "horse": "クロカミジョウ",
+          "odds": 5.5
         },
         {
           "position": 4,
           "horseNumber": 1,
-          "horse": "サンライズロイ"
+          "horse": "サンライズロイ",
+          "odds": 16.2
         },
         {
           "position": 5,
           "horseNumber": 2,
-          "horse": "シャインゴーツ"
+          "horse": "シャインゴーツ",
+          "odds": 8.2
         },
         {
           "position": 6,
           "horseNumber": 5,
-          "horse": "シビルガード"
+          "horse": "シビルガード",
+          "odds": 223.6
         },
         {
           "position": 7,
           "horseNumber": 11,
-          "horse": "ジャストアダッシュ"
+          "horse": "ジャストアダッシュ",
+          "odds": 24.7
         },
         {
           "position": 8,
           "horseNumber": 13,
-          "horse": "ココロザスノ"
+          "horse": "ココロザスノ",
+          "odds": 15.6
         },
         {
           "position": 9,
           "horseNumber": 4,
-          "horse": "イズジョーアザヤカ"
+          "horse": "イズジョーアザヤカ",
+          "odds": 104.9
         },
         {
           "position": 10,
           "horseNumber": 14,
-          "horse": "ルクスドリーム"
+          "horse": "ルクスドリーム",
+          "odds": 17.1
         },
         {
           "position": 11,
           "horseNumber": 15,
-          "horse": "サウンドジュテ"
+          "horse": "サウンドジュテ",
+          "odds": 54.5
         },
         {
           "position": 12,
           "horseNumber": 3,
-          "horse": "エナクローム"
+          "horse": "エナクローム",
+          "odds": 641.4
         },
         {
           "position": 13,
           "horseNumber": 16,
-          "horse": "レッドジルベスター"
+          "horse": "レッドジルベスター",
+          "odds": 412
         },
         {
           "position": 14,
           "horseNumber": 10,
-          "horse": "マスターストーン"
+          "horse": "マスターストーン",
+          "odds": 36.1
         },
         {
           "position": 15,
           "horseNumber": 9,
-          "horse": "キタノガイヤール"
+          "horse": "キタノガイヤール",
+          "odds": 422.6
         },
         {
           "position": 16,
           "horseNumber": 7,
-          "horse": "テイエムオオアラシ"
+          "horse": "テイエムオオアラシ",
+          "odds": 255.8
         }
       ]
     },
@@ -2000,82 +2351,98 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "マクノス"
+          "horse": "マクノス",
+          "odds": 11.6
         },
         {
           "position": 2,
           "horseNumber": 14,
-          "horse": "マーゴットガイア"
+          "horse": "マーゴットガイア",
+          "odds": 3.9
         },
         {
           "position": 3,
           "horseNumber": 6,
-          "horse": "ウンナターシャ"
+          "horse": "ウンナターシャ",
+          "odds": 4.4
         },
         {
           "position": 4,
           "horseNumber": 11,
-          "horse": "アキノビューティー"
+          "horse": "アキノビューティー",
+          "odds": 7.5
         },
         {
           "position": 5,
           "horseNumber": 10,
-          "horse": "エレーデサンライズ"
+          "horse": "エレーデサンライズ",
+          "odds": 15.1
         },
         {
           "position": 6,
           "horseNumber": 16,
-          "horse": "コズミックフレア"
+          "horse": "コズミックフレア",
+          "odds": 62.3
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "アティラン"
+          "horse": "アティラン",
+          "odds": 536.5
         },
         {
           "position": 8,
           "horseNumber": 2,
-          "horse": "フローマジック"
+          "horse": "フローマジック",
+          "odds": 7
         },
         {
           "position": 9,
           "horseNumber": 15,
-          "horse": "ルージュエピック"
+          "horse": "ルージュエピック",
+          "odds": 29.1
         },
         {
           "position": 10,
           "horseNumber": 12,
-          "horse": "マリノエステーラ"
+          "horse": "マリノエステーラ",
+          "odds": 36.8
         },
         {
           "position": 11,
           "horseNumber": 4,
-          "horse": "ファーヴニル"
+          "horse": "ファーヴニル",
+          "odds": 530.6
         },
         {
           "position": 12,
           "horseNumber": 5,
-          "horse": "アウラニ"
+          "horse": "アウラニ",
+          "odds": 114.8
         },
         {
           "position": 13,
           "horseNumber": 13,
-          "horse": "エアリアルグレース"
+          "horse": "エアリアルグレース",
+          "odds": 376.7
         },
         {
           "position": 14,
           "horseNumber": 9,
-          "horse": "ロサドラーダ"
+          "horse": "ロサドラーダ",
+          "odds": 4.2
         },
         {
           "position": 15,
           "horseNumber": 8,
-          "horse": "ミーンアロット"
+          "horse": "ミーンアロット",
+          "odds": 175.1
         },
         {
           "position": 16,
           "horseNumber": 7,
-          "horse": "ローレルアイビー"
+          "horse": "ローレルアイビー",
+          "odds": 73.5
         }
       ]
     },
@@ -2089,82 +2456,98 @@
         {
           "position": 1,
           "horseNumber": 6,
-          "horse": "オンザ"
+          "horse": "オンザ",
+          "odds": 6.8
         },
         {
           "position": 2,
           "horseNumber": 13,
-          "horse": "スパルタンエックス"
+          "horse": "スパルタンエックス",
+          "odds": 3.1
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "リバーソニック"
+          "horse": "リバーソニック",
+          "odds": 4.1
         },
         {
           "position": 4,
           "horseNumber": 12,
-          "horse": "キングズテイル"
+          "horse": "キングズテイル",
+          "odds": 4.6
         },
         {
           "position": 5,
           "horseNumber": 2,
-          "horse": "タガノランパート"
+          "horse": "タガノランパート",
+          "odds": 68.2
         },
         {
           "position": 6,
           "horseNumber": 3,
-          "horse": "グロートカイザー"
+          "horse": "グロートカイザー",
+          "odds": 102.5
         },
         {
           "position": 7,
           "horseNumber": 11,
-          "horse": "サトノディヴァイン"
+          "horse": "サトノディヴァイン",
+          "odds": 154.2
         },
         {
           "position": 8,
           "horseNumber": 14,
-          "horse": "ビーウィナー"
+          "horse": "ビーウィナー",
+          "odds": 166.2
         },
         {
           "position": 9,
           "horseNumber": 15,
-          "horse": "コンテナヒーロー"
+          "horse": "コンテナヒーロー",
+          "odds": 106.3
         },
         {
           "position": 10,
           "horseNumber": 4,
-          "horse": "リノルアナ"
+          "horse": "リノルアナ",
+          "odds": 8.6
         },
         {
           "position": 11,
           "horseNumber": 1,
-          "horse": "リリークリスタル"
+          "horse": "リリークリスタル",
+          "odds": 122.2
         },
         {
           "position": 12,
           "horseNumber": 8,
-          "horse": "ギレイ"
+          "horse": "ギレイ",
+          "odds": 14.9
         },
         {
           "position": 13,
           "horseNumber": 16,
-          "horse": "リードアクター"
+          "horse": "リードアクター",
+          "odds": 52.2
         },
         {
           "position": 14,
           "horseNumber": 10,
-          "horse": "ソルトダイヤモンド"
+          "horse": "ソルトダイヤモンド",
+          "odds": 227.3
         },
         {
           "position": 15,
           "horseNumber": 5,
-          "horse": "ペイシャマイデイズ"
+          "horse": "ペイシャマイデイズ",
+          "odds": 19.8
         },
         {
           "position": 16,
           "horseNumber": 7,
-          "horse": "アウトリュコス"
+          "horse": "アウトリュコス",
+          "odds": 37.3
         }
       ]
     },
@@ -2178,47 +2561,56 @@
         {
           "position": 1,
           "horseNumber": 9,
-          "horse": "リュウトウコヤク"
+          "horse": "リュウトウコヤク",
+          "odds": 17.9
         },
         {
           "position": 2,
           "horseNumber": 8,
-          "horse": "ブラックミューズ"
+          "horse": "ブラックミューズ",
+          "odds": 2.9
         },
         {
           "position": 3,
           "horseNumber": 2,
-          "horse": "ルースソラール"
+          "horse": "ルースソラール",
+          "odds": 32.8
         },
         {
           "position": 4,
           "horseNumber": 6,
-          "horse": "クールタロウ"
+          "horse": "クールタロウ",
+          "odds": 9.2
         },
         {
           "position": 5,
           "horseNumber": 4,
-          "horse": "カツダルマ"
+          "horse": "カツダルマ",
+          "odds": 8.3
         },
         {
           "position": 6,
           "horseNumber": 1,
-          "horse": "サンタンジェロ"
+          "horse": "サンタンジェロ",
+          "odds": 3.5
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "ティンタアマレラ"
+          "horse": "ティンタアマレラ",
+          "odds": 4.6
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "ハロナ"
+          "horse": "ハロナ",
+          "odds": 14.4
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "ダノンヴェルサイユ"
+          "horse": "ダノンヴェルサイユ",
+          "odds": 32.1
         }
       ]
     },
@@ -2232,87 +2624,104 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "メイショウショカツ"
+          "horse": "メイショウショカツ",
+          "odds": 2.9
         },
         {
           "position": 2,
           "horseNumber": 4,
-          "horse": "ホウオウモチーヴ"
+          "horse": "ホウオウモチーヴ",
+          "odds": 5.6
         },
         {
           "position": 3,
           "horseNumber": 16,
-          "horse": "レッドパラジウム"
+          "horse": "レッドパラジウム",
+          "odds": 5.4
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "ダンツウルス"
+          "horse": "ダンツウルス",
+          "odds": 6.8
         },
         {
           "position": 5,
           "horseNumber": 17,
-          "horse": "タケルフォーカス"
+          "horse": "タケルフォーカス",
+          "odds": 13.6
         },
         {
           "position": 6,
           "horseNumber": 14,
-          "horse": "アイルドゥレーヴェ"
+          "horse": "アイルドゥレーヴェ",
+          "odds": 18.2
         },
         {
           "position": 7,
           "horseNumber": 2,
-          "horse": "ライフイズカラフル"
+          "horse": "ライフイズカラフル",
+          "odds": 30.7
         },
         {
           "position": 8,
           "horseNumber": 18,
-          "horse": "チュオンソン"
+          "horse": "チュオンソン",
+          "odds": 109.7
         },
         {
           "position": 9,
           "horseNumber": 6,
-          "horse": "アージュドール"
+          "horse": "アージュドール",
+          "odds": 79.7
         },
         {
           "position": 10,
           "horseNumber": 15,
-          "horse": "グローリーバローズ"
+          "horse": "グローリーバローズ",
+          "odds": 41.7
         },
         {
           "position": 11,
           "horseNumber": 5,
-          "horse": "ゴリョウセイ"
+          "horse": "ゴリョウセイ",
+          "odds": 94.8
         },
         {
           "position": 12,
           "horseNumber": 1,
-          "horse": "シャイニングスター"
+          "horse": "シャイニングスター",
+          "odds": 35.7
         },
         {
           "position": 13,
           "horseNumber": 13,
-          "horse": "プロスト"
+          "horse": "プロスト",
+          "odds": 65.3
         },
         {
           "position": 14,
           "horseNumber": 9,
-          "horse": "レヴロード"
+          "horse": "レヴロード",
+          "odds": 407.4
         },
         {
           "position": 15,
           "horseNumber": 8,
-          "horse": "ノチェブエナ"
+          "horse": "ノチェブエナ",
+          "odds": 21.4
         },
         {
           "position": 16,
           "horseNumber": 10,
-          "horse": "ビジュアライズ"
+          "horse": "ビジュアライズ",
+          "odds": 10.3
         },
         {
           "position": 17,
           "horseNumber": 11,
-          "horse": "ホウオウスカイハイ"
+          "horse": "ホウオウスカイハイ",
+          "odds": 217.1
         }
       ]
     },
@@ -2326,82 +2735,98 @@
         {
           "position": 1,
           "horseNumber": 5,
-          "horse": "サガルマータ"
+          "horse": "サガルマータ",
+          "odds": 2.3
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "シートゥサミット"
+          "horse": "シートゥサミット",
+          "odds": 8
         },
         {
           "position": 3,
           "horseNumber": 3,
-          "horse": "パウンドフォーワン"
+          "horse": "パウンドフォーワン",
+          "odds": 13.6
         },
         {
           "position": 4,
           "horseNumber": 11,
-          "horse": "タガノアルトゥーラ"
+          "horse": "タガノアルトゥーラ",
+          "odds": 15.1
         },
         {
           "position": 5,
           "horseNumber": 15,
-          "horse": "テイクザクラウン"
+          "horse": "テイクザクラウン",
+          "odds": 39.2
         },
         {
           "position": 6,
           "horseNumber": 7,
-          "horse": "ガウディ"
+          "horse": "ガウディ",
+          "odds": 3.8
         },
         {
           "position": 7,
           "horseNumber": 14,
-          "horse": "シルバーリム"
+          "horse": "シルバーリム",
+          "odds": 51.4
         },
         {
           "position": 8,
           "horseNumber": 10,
-          "horse": "ヤマカツレオン"
+          "horse": "ヤマカツレオン",
+          "odds": 429.7
         },
         {
           "position": 9,
           "horseNumber": 9,
-          "horse": "フララナキラ"
+          "horse": "フララナキラ",
+          "odds": 46
         },
         {
           "position": 10,
           "horseNumber": 16,
-          "horse": "ロードスタニング"
+          "horse": "ロードスタニング",
+          "odds": 6.8
         },
         {
           "position": 11,
           "horseNumber": 1,
-          "horse": "マイネルビスマルク"
+          "horse": "マイネルビスマルク",
+          "odds": 38.9
         },
         {
           "position": 12,
           "horseNumber": 4,
-          "horse": "サトノビダーヤ"
+          "horse": "サトノビダーヤ",
+          "odds": 71.7
         },
         {
           "position": 13,
           "horseNumber": 12,
-          "horse": "クラッチプレイヤー"
+          "horse": "クラッチプレイヤー",
+          "odds": 85.9
         },
         {
           "position": 14,
           "horseNumber": 13,
-          "horse": "ビゾー"
+          "horse": "ビゾー",
+          "odds": 165.4
         },
         {
           "position": 15,
           "horseNumber": 6,
-          "horse": "オーレアミスト"
+          "horse": "オーレアミスト",
+          "odds": 68.5
         },
         {
           "position": 16,
           "horseNumber": 8,
-          "horse": "ウインヘリオドール"
+          "horse": "ウインヘリオドール",
+          "odds": 115.3
         }
       ]
     },
@@ -2415,82 +2840,98 @@
         {
           "position": 1,
           "horseNumber": 12,
-          "horse": "ショウナンバンライ"
+          "horse": "ショウナンバンライ",
+          "odds": 9.3
         },
         {
           "position": 2,
           "horseNumber": 4,
-          "horse": "アスクチャンスマン"
+          "horse": "アスクチャンスマン",
+          "odds": 4.3
         },
         {
           "position": 3,
           "horseNumber": 13,
-          "horse": "アメリカンコール"
+          "horse": "アメリカンコール",
+          "odds": 8.8
         },
         {
           "position": 4,
           "horseNumber": 15,
-          "horse": "ココロヅヨサ"
+          "horse": "ココロヅヨサ",
+          "odds": 6.4
         },
         {
           "position": 5,
           "horseNumber": 6,
-          "horse": "サントルドパリ"
+          "horse": "サントルドパリ",
+          "odds": 17.8
         },
         {
           "position": 6,
           "horseNumber": 3,
-          "horse": "ロードヴェリタス"
+          "horse": "ロードヴェリタス",
+          "odds": 17
         },
         {
           "position": 7,
           "horseNumber": 2,
-          "horse": "マテンロウミラクル"
+          "horse": "マテンロウミラクル",
+          "odds": 92.5
         },
         {
           "position": 8,
           "horseNumber": 5,
-          "horse": "レザーアンドレース"
+          "horse": "レザーアンドレース",
+          "odds": 42
         },
         {
           "position": 9,
           "horseNumber": 1,
-          "horse": "ニヒトツーゼーア"
+          "horse": "ニヒトツーゼーア",
+          "odds": 30.1
         },
         {
           "position": 10,
           "horseNumber": 7,
-          "horse": "ポイントネモ"
+          "horse": "ポイントネモ",
+          "odds": 8.1
         },
         {
           "position": 11,
           "horseNumber": 11,
-          "horse": "ラッキーベイ"
+          "horse": "ラッキーベイ",
+          "odds": 296.5
         },
         {
           "position": 12,
           "horseNumber": 14,
-          "horse": "ジャスティンダラス"
+          "horse": "ジャスティンダラス",
+          "odds": 7.3
         },
         {
           "position": 13,
           "horseNumber": 10,
-          "horse": "マーゴットバディ"
+          "horse": "マーゴットバディ",
+          "odds": 16.6
         },
         {
           "position": 14,
           "horseNumber": 9,
-          "horse": "ジーティーアメリカ"
+          "horse": "ジーティーアメリカ",
+          "odds": 18
         },
         {
           "position": 15,
           "horseNumber": 8,
-          "horse": "アグレイビューティ"
+          "horse": "アグレイビューティ",
+          "odds": 24.6
         },
         {
           "position": 16,
           "horseNumber": 16,
-          "horse": "ユキノクラウン"
+          "horse": "ユキノクラウン",
+          "odds": 22.4
         }
       ]
     },
@@ -2504,47 +2945,56 @@
         {
           "position": 1,
           "horseNumber": 6,
-          "horse": "アヴィオン"
+          "horse": "アヴィオン",
+          "odds": 1.3
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "ロンドボス"
+          "horse": "ロンドボス",
+          "odds": 7.2
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "モアニ"
+          "horse": "モアニ",
+          "odds": 44.6
         },
         {
           "position": 4,
           "horseNumber": 8,
-          "horse": "テーオーシュタイン"
+          "horse": "テーオーシュタイン",
+          "odds": 15.9
         },
         {
           "position": 5,
           "horseNumber": 1,
-          "horse": "ワンモアスマイル"
+          "horse": "ワンモアスマイル",
+          "odds": 29.1
         },
         {
           "position": 6,
           "horseNumber": 3,
-          "horse": "メイショウカイト"
+          "horse": "メイショウカイト",
+          "odds": 27.2
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "ショウナンバルドル"
+          "horse": "ショウナンバルドル",
+          "odds": 4.7
         },
         {
           "position": 8,
           "horseNumber": 2,
-          "horse": "サヴァビアン"
+          "horse": "サヴァビアン",
+          "odds": 203.5
         },
         {
           "position": 9,
           "horseNumber": 4,
-          "horse": "リリーブライト"
+          "horse": "リリーブライト",
+          "odds": 116.7
         }
       ]
     },
@@ -2558,92 +3008,110 @@
         {
           "position": 1,
           "horseNumber": 6,
-          "horse": "サクソンジェンヌ"
+          "horse": "サクソンジェンヌ",
+          "odds": 5.3
         },
         {
           "position": 2,
           "horseNumber": 11,
-          "horse": "アスターブジエ"
+          "horse": "アスターブジエ",
+          "odds": 37.7
         },
         {
           "position": 3,
           "horseNumber": 14,
-          "horse": "ウインデイジー"
+          "horse": "ウインデイジー",
+          "odds": 13.4
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "サダムオプシス"
+          "horse": "サダムオプシス",
+          "odds": 12.3
         },
         {
           "position": 5,
           "horseNumber": 17,
-          "horse": "タイセイフェリーク"
+          "horse": "タイセイフェリーク",
+          "odds": 36.1
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "サークルオブジョイ"
+          "horse": "サークルオブジョイ",
+          "odds": 9.5
         },
         {
           "position": 7,
           "horseNumber": 18,
-          "horse": "ファームツエンティ"
+          "horse": "ファームツエンティ",
+          "odds": 6.7
         },
         {
           "position": 8,
           "horseNumber": 5,
-          "horse": "ピンキープロミス"
+          "horse": "ピンキープロミス",
+          "odds": 49.1
         },
         {
           "position": 9,
           "horseNumber": 15,
-          "horse": "アロンディ"
+          "horse": "アロンディ",
+          "odds": 13
         },
         {
           "position": 10,
           "horseNumber": 10,
-          "horse": "サトノクローク"
+          "horse": "サトノクローク",
+          "odds": 20.9
         },
         {
           "position": 11,
           "horseNumber": 16,
-          "horse": "キーパフォーマー"
+          "horse": "キーパフォーマー",
+          "odds": 15.3
         },
         {
           "position": 12,
           "horseNumber": 7,
-          "horse": "ドットクルー"
+          "horse": "ドットクルー",
+          "odds": 80.5
         },
         {
           "position": 13,
           "horseNumber": 3,
-          "horse": "シュバルツマサムネ"
+          "horse": "シュバルツマサムネ",
+          "odds": 11.4
         },
         {
           "position": 14,
           "horseNumber": 12,
-          "horse": "カエルム"
+          "horse": "カエルム",
+          "odds": 4.8
         },
         {
           "position": 15,
           "horseNumber": 4,
-          "horse": "メイショウソウタ"
+          "horse": "メイショウソウタ",
+          "odds": 35.1
         },
         {
           "position": 16,
           "horseNumber": 13,
-          "horse": "インジケーター"
+          "horse": "インジケーター",
+          "odds": 75.7
         },
         {
           "position": 17,
           "horseNumber": 1,
-          "horse": "シャルクハフト"
+          "horse": "シャルクハフト",
+          "odds": 105.1
         },
         {
           "position": 18,
           "horseNumber": 8,
-          "horse": "ナムラフッカー"
+          "horse": "ナムラフッカー",
+          "odds": 30.9
         }
       ]
     },
@@ -2657,77 +3125,92 @@
         {
           "position": 1,
           "horseNumber": 3,
-          "horse": "ベルジュロネット"
+          "horse": "ベルジュロネット",
+          "odds": 2.5
         },
         {
           "position": 2,
           "horseNumber": 4,
-          "horse": "アッチャゴーラ"
+          "horse": "アッチャゴーラ",
+          "odds": 84.6
         },
         {
           "position": 3,
           "horseNumber": 12,
-          "horse": "ラファル"
+          "horse": "ラファル",
+          "odds": 7.1
         },
         {
           "position": 4,
           "horseNumber": 8,
-          "horse": "ポールセン"
+          "horse": "ポールセン",
+          "odds": 5.7
         },
         {
           "position": 5,
           "horseNumber": 11,
-          "horse": "ノーブルロジャー"
+          "horse": "ノーブルロジャー",
+          "odds": 15.3
         },
         {
           "position": 6,
           "horseNumber": 14,
-          "horse": "ルークススペイ"
+          "horse": "ルークススペイ",
+          "odds": 3.9
         },
         {
           "position": 7,
           "horseNumber": 2,
-          "horse": "ロードアウォード"
+          "horse": "ロードアウォード",
+          "odds": 14.3
         },
         {
           "position": 8,
           "horseNumber": 13,
-          "horse": "スマートフォルス"
+          "horse": "スマートフォルス",
+          "odds": 13.6
         },
         {
           "position": 9,
           "horseNumber": 7,
-          "horse": "タイセイブレイズ"
+          "horse": "タイセイブレイズ",
+          "odds": 118.2
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "ハセドン"
+          "horse": "ハセドン",
+          "odds": 106.6
         },
         {
           "position": 11,
           "horseNumber": 9,
-          "horse": "サクセスローレル"
+          "horse": "サクセスローレル",
+          "odds": 300.8
         },
         {
           "position": 12,
           "horseNumber": 5,
-          "horse": "イスラアネーロ"
+          "horse": "イスラアネーロ",
+          "odds": 259.4
         },
         {
           "position": 13,
           "horseNumber": 15,
-          "horse": "エティエンヌ"
+          "horse": "エティエンヌ",
+          "odds": 116.2
         },
         {
           "position": 14,
           "horseNumber": 10,
-          "horse": "モンドプリューム"
+          "horse": "モンドプリューム",
+          "odds": 40.9
         },
         {
           "position": 15,
           "horseNumber": 6,
-          "horse": "ケイアイアニラ"
+          "horse": "ケイアイアニラ",
+          "odds": 74.3
         }
       ]
     },
@@ -2741,92 +3224,110 @@
         {
           "position": 1,
           "horseNumber": 12,
-          "horse": "アロンソア"
+          "horse": "アロンソア",
+          "odds": 67
         },
         {
           "position": 2,
           "horseNumber": 8,
-          "horse": "キシャール"
+          "horse": "キシャール",
+          "odds": 40.8
         },
         {
           "position": 3,
           "horseNumber": 18,
-          "horse": "リアンマヒナ"
+          "horse": "リアンマヒナ",
+          "odds": 5.7
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "ランスオブヒーロー"
+          "horse": "ランスオブヒーロー",
+          "odds": 4.9
         },
         {
           "position": 5,
           "horseNumber": 11,
-          "horse": "パスコード"
+          "horse": "パスコード",
+          "odds": 8.5
         },
         {
           "position": 6,
           "horseNumber": 16,
-          "horse": "サーディンラン"
+          "horse": "サーディンラン",
+          "odds": 4.7
         },
         {
           "position": 7,
           "horseNumber": 15,
-          "horse": "リガーレ"
+          "horse": "リガーレ",
+          "odds": 19.5
         },
         {
           "position": 8,
           "horseNumber": 5,
-          "horse": "ムーンライトラガー"
+          "horse": "ムーンライトラガー",
+          "odds": 12.6
         },
         {
           "position": 9,
           "horseNumber": 1,
-          "horse": "ケイアイクウガ"
+          "horse": "ケイアイクウガ",
+          "odds": 17.3
         },
         {
           "position": 10,
           "horseNumber": 13,
-          "horse": "キュクロープス"
+          "horse": "キュクロープス",
+          "odds": 38.4
         },
         {
           "position": 11,
           "horseNumber": 17,
-          "horse": "メイショウトウコウ"
+          "horse": "メイショウトウコウ",
+          "odds": 19.7
         },
         {
           "position": 12,
           "horseNumber": 9,
-          "horse": "マリブオレンジ"
+          "horse": "マリブオレンジ",
+          "odds": 77.3
         },
         {
           "position": 13,
           "horseNumber": 4,
-          "horse": "メイショウアボット"
+          "horse": "メイショウアボット",
+          "odds": 7
         },
         {
           "position": 14,
           "horseNumber": 10,
-          "horse": "ベイリークロア"
+          "horse": "ベイリークロア",
+          "odds": 22.4
         },
         {
           "position": 15,
           "horseNumber": 7,
-          "horse": "ソルオーブ"
+          "horse": "ソルオーブ",
+          "odds": 171.7
         },
         {
           "position": 16,
           "horseNumber": 14,
-          "horse": "スターペスショウマ"
+          "horse": "スターペスショウマ",
+          "odds": 316.2
         },
         {
           "position": 17,
           "horseNumber": 2,
-          "horse": "ギルトエッジ"
+          "horse": "ギルトエッジ",
+          "odds": 176.1
         },
         {
           "position": 18,
           "horseNumber": 6,
-          "horse": "ハノハノ"
+          "horse": "ハノハノ",
+          "odds": 41.1
         }
       ]
     },
@@ -2840,82 +3341,98 @@
         {
           "position": 1,
           "horseNumber": 8,
-          "horse": "ファインコンダクト"
+          "horse": "ファインコンダクト",
+          "odds": 8.4
         },
         {
           "position": 2,
           "horseNumber": 11,
-          "horse": "ハルヒメ"
+          "horse": "ハルヒメ",
+          "odds": 6.6
         },
         {
           "position": 3,
           "horseNumber": 3,
-          "horse": "バレンタインビスタ"
+          "horse": "バレンタインビスタ",
+          "odds": 3.3
         },
         {
           "position": 4,
           "horseNumber": 16,
-          "horse": "チャーミングアイ"
+          "horse": "チャーミングアイ",
+          "odds": 87.1
         },
         {
           "position": 5,
           "horseNumber": 7,
-          "horse": "ルージュフローラ"
+          "horse": "ルージュフローラ",
+          "odds": 32.5
         },
         {
           "position": 6,
           "horseNumber": 14,
-          "horse": "ミレニアルピンク"
+          "horse": "ミレニアルピンク",
+          "odds": 58.7
         },
         {
           "position": 7,
           "horseNumber": 4,
-          "horse": "スワトウ"
+          "horse": "スワトウ",
+          "odds": 30.7
         },
         {
           "position": 8,
           "horseNumber": 9,
-          "horse": "エコロアビス"
+          "horse": "エコロアビス",
+          "odds": 16.2
         },
         {
           "position": 9,
           "horseNumber": 2,
-          "horse": "キミノナハオリョウ"
+          "horse": "キミノナハオリョウ",
+          "odds": 56.7
         },
         {
           "position": 10,
           "horseNumber": 13,
-          "horse": "トリアングルレディ"
+          "horse": "トリアングルレディ",
+          "odds": 78.3
         },
         {
           "position": 11,
           "horseNumber": 6,
-          "horse": "クリーンブーケ"
+          "horse": "クリーンブーケ",
+          "odds": 113.1
         },
         {
           "position": 12,
           "horseNumber": 12,
-          "horse": "ノーブルマドンナ"
+          "horse": "ノーブルマドンナ",
+          "odds": 203.6
         },
         {
           "position": 13,
           "horseNumber": 1,
-          "horse": "ソルトアイリス"
+          "horse": "ソルトアイリス",
+          "odds": 2.4
         },
         {
           "position": 14,
           "horseNumber": 15,
-          "horse": "ブリリアンブルーム"
+          "horse": "ブリリアンブルーム",
+          "odds": 87.4
         },
         {
           "position": 15,
           "horseNumber": 10,
-          "horse": "スプリングドリーム"
+          "horse": "スプリングドリーム",
+          "odds": 15.4
         },
         {
           "position": 16,
           "horseNumber": 5,
-          "horse": "エビスディアーナ"
+          "horse": "エビスディアーナ",
+          "odds": 325.4
         }
       ]
     },
@@ -2929,52 +3446,62 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "ハイドパーク"
+          "horse": "ハイドパーク",
+          "odds": 6.1
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "ポップアップ"
+          "horse": "ポップアップ",
+          "odds": 4.4
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "ジャストグレース"
+          "horse": "ジャストグレース",
+          "odds": 25.1
         },
         {
           "position": 4,
           "horseNumber": 6,
-          "horse": "マーゴットデウス"
+          "horse": "マーゴットデウス",
+          "odds": 56.7
         },
         {
           "position": 5,
           "horseNumber": 8,
-          "horse": "ロードステラート"
+          "horse": "ロードステラート",
+          "odds": 3
         },
         {
           "position": 6,
           "horseNumber": 11,
-          "horse": "フクチャンブラック"
+          "horse": "フクチャンブラック",
+          "odds": 22.4
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "トーセンアミューズ"
+          "horse": "トーセンアミューズ",
+          "odds": 134.4
         },
         {
           "position": 8,
           "horseNumber": 5,
-          "horse": "ラヴィニアパーク"
+          "horse": "ラヴィニアパーク",
+          "odds": 17.9
         },
         {
           "position": 9,
           "horseNumber": 3,
-          "horse": "ウインモンクール"
+          "horse": "ウインモンクール",
+          "odds": 6.3
         },
         {
           "position": 10,
           "horseNumber": 4,
-          "horse": "キヨタリート"
+          "horse": "キヨタリート",
+          "odds": 5.1
         }
       ]
     },
@@ -2988,62 +3515,74 @@
         {
           "position": 1,
           "horseNumber": 8,
-          "horse": "コウユーネロガ"
+          "horse": "コウユーネロガ",
+          "odds": 8.6
         },
         {
           "position": 2,
           "horseNumber": 7,
-          "horse": "カッサンドラ"
+          "horse": "カッサンドラ",
+          "odds": 62.7
         },
         {
           "position": 3,
           "horseNumber": 12,
-          "horse": "グレイトソン"
+          "horse": "グレイトソン",
+          "odds": 1.5
         },
         {
           "position": 4,
           "horseNumber": 4,
-          "horse": "マーマレードスカイ"
+          "horse": "マーマレードスカイ",
+          "odds": 6.2
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "ライトオブジアース"
+          "horse": "ライトオブジアース",
+          "odds": 17.9
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "シェイプオブユー"
+          "horse": "シェイプオブユー",
+          "odds": 6.3
         },
         {
           "position": 7,
           "horseNumber": 1,
-          "horse": "ステキサプライズ"
+          "horse": "ステキサプライズ",
+          "odds": 151.4
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "エコロデュラン"
+          "horse": "エコロデュラン",
+          "odds": 21.4
         },
         {
           "position": 9,
           "horseNumber": 11,
-          "horse": "ラブデウザ"
+          "horse": "ラブデウザ",
+          "odds": 160.1
         },
         {
           "position": 10,
           "horseNumber": 10,
-          "horse": "ワイドアルバ"
+          "horse": "ワイドアルバ",
+          "odds": 76
         },
         {
           "position": 11,
           "horseNumber": 2,
-          "horse": "ユーベルジーク"
+          "horse": "ユーベルジーク",
+          "odds": 114.9
         },
         {
           "position": 12,
           "horseNumber": 5,
-          "horse": "ソパデアホ"
+          "horse": "ソパデアホ",
+          "odds": 196.6
         }
       ]
     },
@@ -3057,82 +3596,98 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "ベアサナエチャン"
+          "horse": "ベアサナエチャン",
+          "odds": 4.3
         },
         {
           "position": 2,
           "horseNumber": 12,
-          "horse": "アーデルブリックス"
+          "horse": "アーデルブリックス",
+          "odds": 16.3
         },
         {
           "position": 3,
           "horseNumber": 3,
-          "horse": "コスモクラシック"
+          "horse": "コスモクラシック",
+          "odds": 37.5
         },
         {
           "position": 4,
           "horseNumber": 4,
-          "horse": "エイシンインアウト"
+          "horse": "エイシンインアウト",
+          "odds": 7.8
         },
         {
           "position": 5,
           "horseNumber": 2,
-          "horse": "ワダツミ"
+          "horse": "ワダツミ",
+          "odds": 42.2
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "ヘクセンハウス"
+          "horse": "ヘクセンハウス",
+          "odds": 16.1
         },
         {
           "position": 7,
           "horseNumber": 16,
-          "horse": "コワンニシタガウ"
+          "horse": "コワンニシタガウ",
+          "odds": 13.3
         },
         {
           "position": 8,
           "horseNumber": 11,
-          "horse": "ヒシナスキロ"
+          "horse": "ヒシナスキロ",
+          "odds": 3.3
         },
         {
           "position": 9,
           "horseNumber": 6,
-          "horse": "コンティ"
+          "horse": "コンティ",
+          "odds": 8.3
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "パンキー"
+          "horse": "パンキー",
+          "odds": 5.9
         },
         {
           "position": 11,
           "horseNumber": 14,
-          "horse": "レジーナレガリア"
+          "horse": "レジーナレガリア",
+          "odds": 70.6
         },
         {
           "position": 12,
           "horseNumber": 13,
-          "horse": "グランフルス"
+          "horse": "グランフルス",
+          "odds": 137.6
         },
         {
           "position": 13,
           "horseNumber": 7,
-          "horse": "トルークマクト"
+          "horse": "トルークマクト",
+          "odds": 54.8
         },
         {
           "position": 14,
           "horseNumber": 10,
-          "horse": "マイネルディザイア"
+          "horse": "マイネルディザイア",
+          "odds": 117.8
         },
         {
           "position": 15,
           "horseNumber": 15,
-          "horse": "デルマノリクラ"
+          "horse": "デルマノリクラ",
+          "odds": 706.6
         },
         {
           "position": 16,
           "horseNumber": 5,
-          "horse": "チリンドリ"
+          "horse": "チリンドリ",
+          "odds": 122.5
         }
       ]
     },
@@ -3146,52 +3701,62 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "フェリチタ"
+          "horse": "フェリチタ",
+          "odds": 5.8
         },
         {
           "position": 2,
           "horseNumber": 3,
-          "horse": "コックニー"
+          "horse": "コックニー",
+          "odds": 1.8
         },
         {
           "position": 3,
           "horseNumber": 6,
-          "horse": "キチロクタワー"
+          "horse": "キチロクタワー",
+          "odds": 55.8
         },
         {
           "position": 4,
           "horseNumber": 8,
-          "horse": "クリアストライク"
+          "horse": "クリアストライク",
+          "odds": 3.2
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "トーセンルルド"
+          "horse": "トーセンルルド",
+          "odds": 25.5
         },
         {
           "position": 6,
           "horseNumber": 4,
-          "horse": "レインボースター"
+          "horse": "レインボースター",
+          "odds": 20
         },
         {
           "position": 7,
           "horseNumber": 5,
-          "horse": "ゴートゥービッツン"
+          "horse": "ゴートゥービッツン",
+          "odds": 137.5
         },
         {
           "position": 8,
           "horseNumber": 7,
-          "horse": "リアルジャパン"
+          "horse": "リアルジャパン",
+          "odds": 24.8
         },
         {
           "position": 9,
           "horseNumber": 2,
-          "horse": "ラストモーメント"
+          "horse": "ラストモーメント",
+          "odds": 55.5
         },
         {
           "position": 10,
           "horseNumber": 10,
-          "horse": "ブレイヴアーサー"
+          "horse": "ブレイヴアーサー",
+          "odds": 17.1
         }
       ]
     },
@@ -3205,67 +3770,80 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "ビナハイバン"
+          "horse": "ビナハイバン",
+          "odds": 16.8
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "メイショウセンドウ"
+          "horse": "メイショウセンドウ",
+          "odds": 14.1
         },
         {
           "position": 3,
           "horseNumber": 10,
-          "horse": "ゴンフィンガー"
+          "horse": "ゴンフィンガー",
+          "odds": 13.9
         },
         {
           "position": 4,
           "horseNumber": 4,
-          "horse": "モロノカガヤキ"
+          "horse": "モロノカガヤキ",
+          "odds": 3.1
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "チャーチルデュース"
+          "horse": "チャーチルデュース",
+          "odds": 6.7
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "ウインカトリーヌ"
+          "horse": "ウインカトリーヌ",
+          "odds": 13.1
         },
         {
           "position": 7,
           "horseNumber": 9,
-          "horse": "メイショウライガ"
+          "horse": "メイショウライガ",
+          "odds": 43.3
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "ライヴマルガリータ"
+          "horse": "ライヴマルガリータ",
+          "odds": 134.5
         },
         {
           "position": 9,
           "horseNumber": 7,
-          "horse": "シュヴェスター"
+          "horse": "シュヴェスター",
+          "odds": 4.8
         },
         {
           "position": 10,
           "horseNumber": 13,
-          "horse": "ガダニーニ"
+          "horse": "ガダニーニ",
+          "odds": 9.4
         },
         {
           "position": 11,
           "horseNumber": 8,
-          "horse": "カタフラクト"
+          "horse": "カタフラクト",
+          "odds": 18.9
         },
         {
           "position": 12,
           "horseNumber": 12,
-          "horse": "アメリカンダンス"
+          "horse": "アメリカンダンス",
+          "odds": 9.7
         },
         {
           "position": 13,
           "horseNumber": 11,
-          "horse": "ヘヴンリーサイン"
+          "horse": "ヘヴンリーサイン",
+          "odds": 390.5
         }
       ]
     },
@@ -3279,57 +3857,68 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "マナボニート"
+          "horse": "マナボニート",
+          "odds": 2.9
         },
         {
           "position": 2,
           "horseNumber": 6,
-          "horse": "ツルノマイハシ"
+          "horse": "ツルノマイハシ",
+          "odds": 14.2
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "ヴェガリア"
+          "horse": "ヴェガリア",
+          "odds": 15.8
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "アイムインディ"
+          "horse": "アイムインディ",
+          "odds": 3.2
         },
         {
           "position": 5,
           "horseNumber": 4,
-          "horse": "ダブルチャレンジ"
+          "horse": "ダブルチャレンジ",
+          "odds": 30.6
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "ファニーバニー"
+          "horse": "ファニーバニー",
+          "odds": 3.6
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "ナンナンプー"
+          "horse": "ナンナンプー",
+          "odds": 34.2
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "スプリングデイ"
+          "horse": "スプリングデイ",
+          "odds": 75.9
         },
         {
           "position": 9,
           "horseNumber": 1,
-          "horse": "グランテレーズ"
+          "horse": "グランテレーズ",
+          "odds": 13.1
         },
         {
           "position": 10,
           "horseNumber": 5,
-          "horse": "ジュジュドール"
+          "horse": "ジュジュドール",
+          "odds": 130
         },
         {
           "position": 11,
           "horseNumber": 8,
-          "horse": "アルバニー"
+          "horse": "アルバニー",
+          "odds": 36.4
         }
       ]
     },
@@ -3343,62 +3932,74 @@
         {
           "position": 1,
           "horseNumber": 9,
-          "horse": "ナクライト"
+          "horse": "ナクライト",
+          "odds": 8.5
         },
         {
           "position": 2,
           "horseNumber": 7,
-          "horse": "シーズザスローン"
+          "horse": "シーズザスローン",
+          "odds": 2.7
         },
         {
           "position": 3,
           "horseNumber": 10,
-          "horse": "ライフイズ"
+          "horse": "ライフイズ",
+          "odds": 166.8
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "ホウオウバローロ"
+          "horse": "ホウオウバローロ",
+          "odds": 9.4
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "アスクガンバーレ"
+          "horse": "アスクガンバーレ",
+          "odds": 4.2
         },
         {
           "position": 6,
           "horseNumber": 12,
-          "horse": "イサギ"
+          "horse": "イサギ",
+          "odds": 29.9
         },
         {
           "position": 7,
           "horseNumber": 6,
-          "horse": "ディースプレマシー"
+          "horse": "ディースプレマシー",
+          "odds": 34.9
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "テイクオンミー"
+          "horse": "テイクオンミー",
+          "odds": 6.7
         },
         {
           "position": 9,
           "horseNumber": 11,
-          "horse": "フェニーチェドーロ"
+          "horse": "フェニーチェドーロ",
+          "odds": 22.9
         },
         {
           "position": 10,
           "horseNumber": 4,
-          "horse": "パーティーガール"
+          "horse": "パーティーガール",
+          "odds": 289.9
         },
         {
           "position": 11,
           "horseNumber": 1,
-          "horse": "アッシュバーグ"
+          "horse": "アッシュバーグ",
+          "odds": 85.9
         },
         {
           "position": 12,
           "horseNumber": 8,
-          "horse": "アラクラン"
+          "horse": "アラクラン",
+          "odds": 6.6
         }
       ]
     },
@@ -3412,62 +4013,74 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "アストリル"
+          "horse": "アストリル",
+          "odds": 6.1
         },
         {
           "position": 2,
           "horseNumber": 6,
-          "horse": "クリスレジーナ"
+          "horse": "クリスレジーナ",
+          "odds": 6.8
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "モルビド"
+          "horse": "モルビド",
+          "odds": 73.4
         },
         {
           "position": 4,
           "horseNumber": 5,
-          "horse": "メリザンド"
+          "horse": "メリザンド",
+          "odds": 12.6
         },
         {
           "position": 5,
           "horseNumber": 3,
-          "horse": "アルディスティーノ"
+          "horse": "アルディスティーノ",
+          "odds": 16.5
         },
         {
           "position": 6,
           "horseNumber": 8,
-          "horse": "リリーズブルーム"
+          "horse": "リリーズブルーム",
+          "odds": 241.3
         },
         {
           "position": 7,
           "horseNumber": 12,
-          "horse": "エイカイコバチ"
+          "horse": "エイカイコバチ",
+          "odds": 18.8
         },
         {
           "position": 8,
           "horseNumber": 2,
-          "horse": "タイムレスキス"
+          "horse": "タイムレスキス",
+          "odds": 3.7
         },
         {
           "position": 9,
           "horseNumber": 1,
-          "horse": "ドマーネ"
+          "horse": "ドマーネ",
+          "odds": 35.1
         },
         {
           "position": 10,
           "horseNumber": 11,
-          "horse": "ルージュカエラ"
+          "horse": "ルージュカエラ",
+          "odds": 240.3
         },
         {
           "position": 11,
           "horseNumber": 10,
-          "horse": "ソングオブザバード"
+          "horse": "ソングオブザバード",
+          "odds": 4.4
         },
         {
           "position": 12,
           "horseNumber": 4,
-          "horse": "レダアトミカ"
+          "horse": "レダアトミカ",
+          "odds": 4.8
         }
       ]
     },
@@ -3481,47 +4094,56 @@
         {
           "position": 1,
           "horseNumber": 6,
-          "horse": "チャーリー"
+          "horse": "チャーリー",
+          "odds": 1.3
         },
         {
           "position": 2,
           "horseNumber": 9,
-          "horse": "ライフゲート"
+          "horse": "ライフゲート",
+          "odds": 6.4
         },
         {
           "position": 3,
           "horseNumber": 2,
-          "horse": "レッドライトニング"
+          "horse": "レッドライトニング",
+          "odds": 10.2
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "ジュンラトゥール"
+          "horse": "ジュンラトゥール",
+          "odds": 12.1
         },
         {
           "position": 5,
           "horseNumber": 1,
-          "horse": "ギマール"
+          "horse": "ギマール",
+          "odds": 10.9
         },
         {
           "position": 6,
           "horseNumber": 8,
-          "horse": "アールプロスト"
+          "horse": "アールプロスト",
+          "odds": 42.8
         },
         {
           "position": 7,
           "horseNumber": 4,
-          "horse": "タイヨウフレア"
+          "horse": "タイヨウフレア",
+          "odds": 138.2
         },
         {
           "position": 8,
           "horseNumber": 7,
-          "horse": "ラマンシュ"
+          "horse": "ラマンシュ",
+          "odds": 62.1
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "クリノキングマン"
+          "horse": "クリノキングマン",
+          "odds": 33.9
         }
       ]
     },
@@ -3535,77 +4157,92 @@
         {
           "position": 1,
           "horseNumber": 14,
-          "horse": "アスティスプマンテ"
+          "horse": "アスティスプマンテ",
+          "odds": 9.3
         },
         {
           "position": 2,
           "horseNumber": 4,
-          "horse": "パクスロマーナ"
+          "horse": "パクスロマーナ",
+          "odds": 17.3
         },
         {
           "position": 3,
           "horseNumber": 8,
-          "horse": "サムハンター"
+          "horse": "サムハンター",
+          "odds": 34.7
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "エヴァンスウィート"
+          "horse": "エヴァンスウィート",
+          "odds": 8
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "ルーフ"
+          "horse": "ルーフ",
+          "odds": 18.4
         },
         {
           "position": 6,
           "horseNumber": 6,
-          "horse": "シカゴスティング"
+          "horse": "シカゴスティング",
+          "odds": 7.3
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "エコロジーク"
+          "horse": "エコロジーク",
+          "odds": 17.7
         },
         {
           "position": 8,
           "horseNumber": 11,
-          "horse": "ヴェサリウス"
+          "horse": "ヴェサリウス",
+          "odds": 7
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "スティールブルー"
+          "horse": "スティールブルー",
+          "odds": 14.3
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "トールキン"
+          "horse": "トールキン",
+          "odds": 75.9
         },
         {
           "position": 11,
           "horseNumber": 12,
-          "horse": "ドゥアムール"
+          "horse": "ドゥアムール",
+          "odds": 4.3
         },
         {
           "position": 12,
           "horseNumber": 15,
-          "horse": "ゴールドサーベル"
+          "horse": "ゴールドサーベル",
+          "odds": 21.6
         },
         {
           "position": 13,
           "horseNumber": 2,
-          "horse": "メルトユアハート"
+          "horse": "メルトユアハート",
+          "odds": 9.4
         },
         {
           "position": 14,
           "horseNumber": 7,
-          "horse": "ダークエクリプス"
+          "horse": "ダークエクリプス",
+          "odds": 50.6
         },
         {
           "position": 15,
           "horseNumber": 13,
-          "horse": "アシャカタカ"
+          "horse": "アシャカタカ",
+          "odds": 16.8
         }
       ]
     },
@@ -3619,52 +4256,62 @@
         {
           "position": 1,
           "horseNumber": 2,
-          "horse": "コッツォリーノ"
+          "horse": "コッツォリーノ",
+          "odds": 1.8
         },
         {
           "position": 2,
           "horseNumber": 6,
-          "horse": "グレーヌドジョワ"
+          "horse": "グレーヌドジョワ",
+          "odds": 40
         },
         {
           "position": 3,
           "horseNumber": 7,
-          "horse": "マイバラード"
+          "horse": "マイバラード",
+          "odds": 70.5
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "ウインベラーノ"
+          "horse": "ウインベラーノ",
+          "odds": 9.2
         },
         {
           "position": 5,
           "horseNumber": 9,
-          "horse": "ナイスプレーアスク"
+          "horse": "ナイスプレーアスク",
+          "odds": 11.2
         },
         {
           "position": 6,
           "horseNumber": 1,
-          "horse": "タイキルッジェーロ"
+          "horse": "タイキルッジェーロ",
+          "odds": 6.2
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "ネッタイヤライ"
+          "horse": "ネッタイヤライ",
+          "odds": 5.2
         },
         {
           "position": 8,
           "horseNumber": 5,
-          "horse": "マイネルモメンタム"
+          "horse": "マイネルモメンタム",
+          "odds": 14.1
         },
         {
           "position": 9,
           "horseNumber": 4,
-          "horse": "ポタリング"
+          "horse": "ポタリング",
+          "odds": 34.2
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "スタードメイソン"
+          "horse": "スタードメイソン",
+          "odds": 98.5
         }
       ]
     },
@@ -3678,72 +4325,86 @@
         {
           "position": 1,
           "horseNumber": 8,
-          "horse": "ブライトマン"
+          "horse": "ブライトマン",
+          "odds": 5
         },
         {
           "position": 2,
           "horseNumber": 11,
-          "horse": "ゴールデンステップ"
+          "horse": "ゴールデンステップ",
+          "odds": 2.9
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "ダスク"
+          "horse": "ダスク",
+          "odds": 4
         },
         {
           "position": 4,
           "horseNumber": 7,
-          "horse": "アップストローク"
+          "horse": "アップストローク",
+          "odds": 87.8
         },
         {
           "position": 5,
           "horseNumber": 2,
-          "horse": "セイウンパシュート"
+          "horse": "セイウンパシュート",
+          "odds": 14.1
         },
         {
           "position": 6,
           "horseNumber": 13,
-          "horse": "デスティネ"
+          "horse": "デスティネ",
+          "odds": 43.3
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "プレミアブルー"
+          "horse": "プレミアブルー",
+          "odds": 21
         },
         {
           "position": 8,
           "horseNumber": 12,
-          "horse": "アルシミスト"
+          "horse": "アルシミスト",
+          "odds": 47.2
         },
         {
           "position": 9,
           "horseNumber": 14,
-          "horse": "ジャクソン"
+          "horse": "ジャクソン",
+          "odds": 41.8
         },
         {
           "position": 10,
           "horseNumber": 4,
-          "horse": "テーオーレガシー"
+          "horse": "テーオーレガシー",
+          "odds": 67.9
         },
         {
           "position": 11,
           "horseNumber": 3,
-          "horse": "グランジョルノ"
+          "horse": "グランジョルノ",
+          "odds": 7.5
         },
         {
           "position": 12,
           "horseNumber": 1,
-          "horse": "キャプテンシー"
+          "horse": "キャプテンシー",
+          "odds": 16.2
         },
         {
           "position": 13,
           "horseNumber": 5,
-          "horse": "メイショウカゼマチ"
+          "horse": "メイショウカゼマチ",
+          "odds": 18.6
         },
         {
           "position": 14,
           "horseNumber": 6,
-          "horse": "ヒロピアーナ"
+          "horse": "ヒロピアーナ",
+          "odds": 215.1
         }
       ]
     },
@@ -3757,82 +4418,98 @@
         {
           "position": 1,
           "horseNumber": 8,
-          "horse": "アクアマーズ"
+          "horse": "アクアマーズ",
+          "odds": 4.9
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "ダノンマスタング"
+          "horse": "ダノンマスタング",
+          "odds": 2.2
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "モンスターラッシュ"
+          "horse": "モンスターラッシュ",
+          "odds": 4.4
         },
         {
           "position": 4,
           "horseNumber": 16,
-          "horse": "ファイアリービート"
+          "horse": "ファイアリービート",
+          "odds": 8
         },
         {
           "position": 5,
           "horseNumber": 7,
-          "horse": "ブルージンジャー"
+          "horse": "ブルージンジャー",
+          "odds": 72.4
         },
         {
           "position": 6,
           "horseNumber": 13,
-          "horse": "ラッキーモア"
+          "horse": "ラッキーモア",
+          "odds": 11.7
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "ライトアファイア"
+          "horse": "ライトアファイア",
+          "odds": 22.3
         },
         {
           "position": 8,
           "horseNumber": 9,
-          "horse": "キーチジャステン"
+          "horse": "キーチジャステン",
+          "odds": 32.6
         },
         {
           "position": 9,
           "horseNumber": 4,
-          "horse": "フィオリータ"
+          "horse": "フィオリータ",
+          "odds": 263.5
         },
         {
           "position": 10,
           "horseNumber": 14,
-          "horse": "ニットウライズ"
+          "horse": "ニットウライズ",
+          "odds": 287.6
         },
         {
           "position": 11,
           "horseNumber": 5,
-          "horse": "ファインブライト"
+          "horse": "ファインブライト",
+          "odds": 38.8
         },
         {
           "position": 12,
           "horseNumber": 1,
-          "horse": "シャトーベスト"
+          "horse": "シャトーベスト",
+          "odds": 405.7
         },
         {
           "position": 13,
           "horseNumber": 10,
-          "horse": "パチクリベスクリ"
+          "horse": "パチクリベスクリ",
+          "odds": 167.7
         },
         {
           "position": 14,
           "horseNumber": 6,
-          "horse": "モロノラピド"
+          "horse": "モロノラピド",
+          "odds": 266.1
         },
         {
           "position": 15,
           "horseNumber": 15,
-          "horse": "カフェタンガロア"
+          "horse": "カフェタンガロア",
+          "odds": 29.3
         },
         {
           "position": 16,
           "horseNumber": 12,
-          "horse": "デルマシラカミ"
+          "horse": "デルマシラカミ",
+          "odds": 541.1
         }
       ]
     },
@@ -3846,82 +4523,98 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "アスパラゴ"
+          "horse": "アスパラゴ",
+          "odds": 50.8
         },
         {
           "position": 2,
           "horseNumber": 13,
-          "horse": "ウインガネーシャ"
+          "horse": "ウインガネーシャ",
+          "odds": 10.7
         },
         {
           "position": 3,
           "horseNumber": 2,
-          "horse": "ウォーレーションズ"
+          "horse": "ウォーレーションズ",
+          "odds": 12.5
         },
         {
           "position": 4,
           "horseNumber": 4,
-          "horse": "クリムゾンリーフ"
+          "horse": "クリムゾンリーフ",
+          "odds": 2.2
         },
         {
           "position": 5,
           "horseNumber": 3,
-          "horse": "ザンテソーロ"
+          "horse": "ザンテソーロ",
+          "odds": 6.2
         },
         {
           "position": 6,
           "horseNumber": 8,
-          "horse": "マイネルシュラハト"
+          "horse": "マイネルシュラハト",
+          "odds": 27
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "ヤマメナイト"
+          "horse": "ヤマメナイト",
+          "odds": 77.5
         },
         {
           "position": 8,
           "horseNumber": 6,
-          "horse": "ネイティヴプライド"
+          "horse": "ネイティヴプライド",
+          "odds": 15.7
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "ユイノサダハル"
+          "horse": "ユイノサダハル",
+          "odds": 13.1
         },
         {
           "position": 10,
           "horseNumber": 9,
-          "horse": "フォンドルレール"
+          "horse": "フォンドルレール",
+          "odds": 4.9
         },
         {
           "position": 11,
           "horseNumber": 12,
-          "horse": "ロードリュイール"
+          "horse": "ロードリュイール",
+          "odds": 137.5
         },
         {
           "position": 12,
           "horseNumber": 15,
-          "horse": "エオリアンリッジ"
+          "horse": "エオリアンリッジ",
+          "odds": 60.8
         },
         {
           "position": 13,
           "horseNumber": 14,
-          "horse": "レイランディ"
+          "horse": "レイランディ",
+          "odds": 110.3
         },
         {
           "position": 14,
           "horseNumber": 16,
-          "horse": "キョウエイアート"
+          "horse": "キョウエイアート",
+          "odds": 223.5
         },
         {
           "position": 15,
           "horseNumber": 1,
-          "horse": "ツウカイウォリアー"
+          "horse": "ツウカイウォリアー",
+          "odds": 356.3
         },
         {
           "position": 16,
           "horseNumber": 11,
-          "horse": "コスモラムバック"
+          "horse": "コスモラムバック",
+          "odds": 55.1
         }
       ]
     },
@@ -3935,52 +4628,62 @@
         {
           "position": 1,
           "horseNumber": 6,
-          "horse": "タクティシアン"
+          "horse": "タクティシアン",
+          "odds": 2
         },
         {
           "position": 2,
           "horseNumber": 7,
-          "horse": "ミエルモーサ"
+          "horse": "ミエルモーサ",
+          "odds": 3.6
         },
         {
           "position": 3,
           "horseNumber": 1,
-          "horse": "シュートザワークス"
+          "horse": "シュートザワークス",
+          "odds": 4.1
         },
         {
           "position": 4,
           "horseNumber": 5,
-          "horse": "エムアイブレイズ"
+          "horse": "エムアイブレイズ",
+          "odds": 31.7
         },
         {
           "position": 5,
           "horseNumber": 8,
-          "horse": "シーズザチャンス"
+          "horse": "シーズザチャンス",
+          "odds": 58.7
         },
         {
           "position": 6,
           "horseNumber": 2,
-          "horse": "アラータス"
+          "horse": "アラータス",
+          "odds": 73.1
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "コールドスリープ"
+          "horse": "コールドスリープ",
+          "odds": 84.1
         },
         {
           "position": 8,
           "horseNumber": 9,
-          "horse": "イサチルサリーレ"
+          "horse": "イサチルサリーレ",
+          "odds": 10.1
         },
         {
           "position": 9,
           "horseNumber": 4,
-          "horse": "クラウンフラッグ"
+          "horse": "クラウンフラッグ",
+          "odds": 132.3
         },
         {
           "position": 10,
           "horseNumber": 3,
-          "horse": "シャンパンアワー"
+          "horse": "シャンパンアワー",
+          "odds": 16.9
         }
       ]
     },
@@ -3994,67 +4697,80 @@
         {
           "position": 1,
           "horseNumber": 8,
-          "horse": "アヴィアトーレ"
+          "horse": "アヴィアトーレ",
+          "odds": 17.9
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "キャピタルストーン"
+          "horse": "キャピタルストーン",
+          "odds": 11.8
         },
         {
           "position": 3,
           "horseNumber": 6,
-          "horse": "コスモシグナス"
+          "horse": "コスモシグナス",
+          "odds": 34
         },
         {
           "position": 4,
           "horseNumber": 1,
-          "horse": "トーセンマスラオ"
+          "horse": "トーセンマスラオ",
+          "odds": 54.9
         },
         {
           "position": 5,
           "horseNumber": 2,
-          "horse": "フルーツバスケット"
+          "horse": "フルーツバスケット",
+          "odds": 42.8
         },
         {
           "position": 6,
           "horseNumber": 12,
-          "horse": "マイネルリコルディ"
+          "horse": "マイネルリコルディ",
+          "odds": 20
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "ニシノツムジカゼ"
+          "horse": "ニシノツムジカゼ",
+          "odds": 173.8
         },
         {
           "position": 8,
           "horseNumber": 9,
-          "horse": "ラガリーガ"
+          "horse": "ラガリーガ",
+          "odds": 1.9
         },
         {
           "position": 9,
           "horseNumber": 13,
-          "horse": "ダノンコレクト"
+          "horse": "ダノンコレクト",
+          "odds": 13.5
         },
         {
           "position": 10,
           "horseNumber": 3,
-          "horse": "ホウオウビリーヴ"
+          "horse": "ホウオウビリーヴ",
+          "odds": 9.5
         },
         {
           "position": 11,
           "horseNumber": 7,
-          "horse": "レイデアルマス"
+          "horse": "レイデアルマス",
+          "odds": 9
         },
         {
           "position": 12,
           "horseNumber": 4,
-          "horse": "ノドゥス"
+          "horse": "ノドゥス",
+          "odds": 5.3
         },
         {
           "position": 13,
           "horseNumber": 11,
-          "horse": "マイネルアルディ"
+          "horse": "マイネルアルディ",
+          "odds": 180.7
         }
       ]
     },
@@ -4068,82 +4784,98 @@
         {
           "position": 1,
           "horseNumber": 8,
-          "horse": "ダノンアスコルティ"
+          "horse": "ダノンアスコルティ",
+          "odds": 2.7
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "ウインテラジーナ"
+          "horse": "ウインテラジーナ",
+          "odds": 6.7
         },
         {
           "position": 3,
           "horseNumber": 14,
-          "horse": "ウインドオブヘヴン"
+          "horse": "ウインドオブヘヴン",
+          "odds": 34.6
         },
         {
           "position": 4,
           "horseNumber": 5,
-          "horse": "ブラーヴジャン"
+          "horse": "ブラーヴジャン",
+          "odds": 15.8
         },
         {
           "position": 5,
           "horseNumber": 4,
-          "horse": "サイモンナイスラン"
+          "horse": "サイモンナイスラン",
+          "odds": 169.5
         },
         {
           "position": 6,
           "horseNumber": 16,
-          "horse": "シャルムグリーン"
+          "horse": "シャルムグリーン",
+          "odds": 3.4
         },
         {
           "position": 7,
           "horseNumber": 10,
-          "horse": "ヘクトルテソーロ"
+          "horse": "ヘクトルテソーロ",
+          "odds": 33.2
         },
         {
           "position": 8,
           "horseNumber": 13,
-          "horse": "ジーティーヒラリ"
+          "horse": "ジーティーヒラリ",
+          "odds": 263.4
         },
         {
           "position": 9,
           "horseNumber": 12,
-          "horse": "スカイリッチ"
+          "horse": "スカイリッチ",
+          "odds": 12.8
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "セルリア"
+          "horse": "セルリア",
+          "odds": 82.5
         },
         {
           "position": 11,
           "horseNumber": 15,
-          "horse": "スチールギターラグ"
+          "horse": "スチールギターラグ",
+          "odds": 11.8
         },
         {
           "position": 12,
           "horseNumber": 11,
-          "horse": "エヴァンスベイ"
+          "horse": "エヴァンスベイ",
+          "odds": 10.6
         },
         {
           "position": 13,
           "horseNumber": 9,
-          "horse": "ニシノカルラ"
+          "horse": "ニシノカルラ",
+          "odds": 282.4
         },
         {
           "position": 14,
           "horseNumber": 6,
-          "horse": "ヴィクトリーマンボ"
+          "horse": "ヴィクトリーマンボ",
+          "odds": 91.1
         },
         {
           "position": 15,
           "horseNumber": 3,
-          "horse": "ロックユアライフ"
+          "horse": "ロックユアライフ",
+          "odds": 38
         },
         {
           "position": 16,
           "horseNumber": 7,
-          "horse": "フィレルレーヴ"
+          "horse": "フィレルレーヴ",
+          "odds": 252.1
         }
       ]
     },
@@ -4157,82 +4889,98 @@
         {
           "position": 1,
           "horseNumber": 10,
-          "horse": "ファンシーズ"
+          "horse": "ファンシーズ",
+          "odds": 4.5
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "ヴンダーバール"
+          "horse": "ヴンダーバール",
+          "odds": 1.8
         },
         {
           "position": 3,
           "horseNumber": 8,
-          "horse": "ディペンダブル"
+          "horse": "ディペンダブル",
+          "odds": 17.5
         },
         {
           "position": 4,
           "horseNumber": 9,
-          "horse": "ブルーサーマル"
+          "horse": "ブルーサーマル",
+          "odds": 25.7
         },
         {
           "position": 5,
           "horseNumber": 16,
-          "horse": "エイミームーン"
+          "horse": "エイミームーン",
+          "odds": 95.5
         },
         {
           "position": 6,
           "horseNumber": 11,
-          "horse": "クラリネットソナタ"
+          "horse": "クラリネットソナタ",
+          "odds": 8.9
         },
         {
           "position": 7,
           "horseNumber": 13,
-          "horse": "リケアマカロニ"
+          "horse": "リケアマカロニ",
+          "odds": 39.3
         },
         {
           "position": 8,
           "horseNumber": 6,
-          "horse": "シオンダンサー"
+          "horse": "シオンダンサー",
+          "odds": 12.5
         },
         {
           "position": 9,
           "horseNumber": 15,
-          "horse": "ルージュミレネール"
+          "horse": "ルージュミレネール",
+          "odds": 189.8
         },
         {
           "position": 10,
           "horseNumber": 3,
-          "horse": "ラルガメンテ"
+          "horse": "ラルガメンテ",
+          "odds": 41.6
         },
         {
           "position": 11,
           "horseNumber": 4,
-          "horse": "カサビセンス"
+          "horse": "カサビセンス",
+          "odds": 228.6
         },
         {
           "position": 12,
           "horseNumber": 2,
-          "horse": "ハニーオーケストラ"
+          "horse": "ハニーオーケストラ",
+          "odds": 189.8
         },
         {
           "position": 13,
           "horseNumber": 12,
-          "horse": "ジュエルハウス"
+          "horse": "ジュエルハウス",
+          "odds": 113
         },
         {
           "position": 14,
           "horseNumber": 1,
-          "horse": "ローズブーケ"
+          "horse": "ローズブーケ",
+          "odds": 15.2
         },
         {
           "position": 15,
           "horseNumber": 7,
-          "horse": "テルケンユミクイン"
+          "horse": "テルケンユミクイン",
+          "odds": 22.1
         },
         {
           "position": 16,
           "horseNumber": 14,
-          "horse": "ジューンミレニアム"
+          "horse": "ジューンミレニアム",
+          "odds": 593.5
         }
       ]
     },
@@ -4246,82 +4994,98 @@
         {
           "position": 1,
           "horseNumber": 3,
-          "horse": "ラベルセーヌ"
+          "horse": "ラベルセーヌ",
+          "odds": 2.8
         },
         {
           "position": 2,
           "horseNumber": 10,
-          "horse": "タイセイアストロ"
+          "horse": "タイセイアストロ",
+          "odds": 14.2
         },
         {
           "position": 3,
           "horseNumber": 14,
-          "horse": "マツリダイコ"
+          "horse": "マツリダイコ",
+          "odds": 9.2
         },
         {
           "position": 4,
           "horseNumber": 6,
-          "horse": "ライネリーベ"
+          "horse": "ライネリーベ",
+          "odds": 17.9
         },
         {
           "position": 5,
           "horseNumber": 1,
-          "horse": "ポッドロルフ"
+          "horse": "ポッドロルフ",
+          "odds": 43.8
         },
         {
           "position": 6,
           "horseNumber": 12,
-          "horse": "モートンアイランド"
+          "horse": "モートンアイランド",
+          "odds": 3.4
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "スマイルカーブ"
+          "horse": "スマイルカーブ",
+          "odds": 48.8
         },
         {
           "position": 8,
           "horseNumber": 2,
-          "horse": "スワローシチー"
+          "horse": "スワローシチー",
+          "odds": 20.1
         },
         {
           "position": 9,
           "horseNumber": 11,
-          "horse": "フェーダーローター"
+          "horse": "フェーダーローター",
+          "odds": 123
         },
         {
           "position": 10,
           "horseNumber": 5,
-          "horse": "アトリウムチャペル"
+          "horse": "アトリウムチャペル",
+          "odds": 42.9
         },
         {
           "position": 11,
           "horseNumber": 15,
-          "horse": "オルグジェシダ"
+          "horse": "オルグジェシダ",
+          "odds": 4.4
         },
         {
           "position": 12,
           "horseNumber": 13,
-          "horse": "タイキバルドル"
+          "horse": "タイキバルドル",
+          "odds": 207.4
         },
         {
           "position": 13,
           "horseNumber": 4,
-          "horse": "スターチスブーケ"
+          "horse": "スターチスブーケ",
+          "odds": 256.1
         },
         {
           "position": 14,
           "horseNumber": 8,
-          "horse": "マニス"
+          "horse": "マニス",
+          "odds": 452.3
         },
         {
           "position": 15,
           "horseNumber": 9,
-          "horse": "サンデースマッシュ"
+          "horse": "サンデースマッシュ",
+          "odds": 59.1
         },
         {
           "position": 16,
           "horseNumber": 16,
-          "horse": "パーリーブラック"
+          "horse": "パーリーブラック",
+          "odds": 411.6
         }
       ]
     },
@@ -4335,82 +5099,98 @@
         {
           "position": 1,
           "horseNumber": 15,
-          "horse": "キョウエイカンセ"
+          "horse": "キョウエイカンセ",
+          "odds": 27.3
         },
         {
           "position": 2,
           "horseNumber": 9,
-          "horse": "マジッククッキー"
+          "horse": "マジッククッキー",
+          "odds": 2.9
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "フィドルファドル"
+          "horse": "フィドルファドル",
+          "odds": 6.7
         },
         {
           "position": 4,
           "horseNumber": 16,
-          "horse": "ゴールデンカイト"
+          "horse": "ゴールデンカイト",
+          "odds": 15
         },
         {
           "position": 5,
           "horseNumber": 8,
-          "horse": "タカスタカスタカス"
+          "horse": "タカスタカスタカス",
+          "odds": 2.3
         },
         {
           "position": 6,
           "horseNumber": 7,
-          "horse": "フォースミラクル"
+          "horse": "フォースミラクル",
+          "odds": 24.7
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "ワーズワース"
+          "horse": "ワーズワース",
+          "odds": 124.4
         },
         {
           "position": 8,
           "horseNumber": 10,
-          "horse": "ライトオブヌカタ"
+          "horse": "ライトオブヌカタ",
+          "odds": 74.4
         },
         {
           "position": 9,
           "horseNumber": 13,
-          "horse": "シュレン"
+          "horse": "シュレン",
+          "odds": 57.6
         },
         {
           "position": 10,
           "horseNumber": 14,
-          "horse": "ライジンマル"
+          "horse": "ライジンマル",
+          "odds": 71.7
         },
         {
           "position": 11,
           "horseNumber": 4,
-          "horse": "シホノペルフェット"
+          "horse": "シホノペルフェット",
+          "odds": 51.5
         },
         {
           "position": 12,
           "horseNumber": 6,
-          "horse": "アクアマリーナ"
+          "horse": "アクアマリーナ",
+          "odds": 22.9
         },
         {
           "position": 13,
           "horseNumber": 1,
-          "horse": "ドントゥザムーン"
+          "horse": "ドントゥザムーン",
+          "odds": 19.6
         },
         {
           "position": 14,
           "horseNumber": 2,
-          "horse": "ポッドドンナー"
+          "horse": "ポッドドンナー",
+          "odds": 48.2
         },
         {
           "position": 15,
           "horseNumber": 5,
-          "horse": "モンシェリ"
+          "horse": "モンシェリ",
+          "odds": 289.9
         },
         {
           "position": 16,
           "horseNumber": 12,
-          "horse": "サザンウォリアー"
+          "horse": "サザンウォリアー",
+          "odds": 449.8
         }
       ]
     },
@@ -4424,82 +5204,98 @@
         {
           "position": 1,
           "horseNumber": 10,
-          "horse": "ラーンザロープス"
+          "horse": "ラーンザロープス",
+          "odds": 4.3
         },
         {
           "position": 2,
           "horseNumber": 9,
-          "horse": "レッドキングリー"
+          "horse": "レッドキングリー",
+          "odds": 2.9
         },
         {
           "position": 3,
           "horseNumber": 14,
-          "horse": "スマイルアップ"
+          "horse": "スマイルアップ",
+          "odds": 326.1
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "モンドデラモーレ"
+          "horse": "モンドデラモーレ",
+          "odds": 4.6
         },
         {
           "position": 5,
           "horseNumber": 8,
-          "horse": "フライングブレード"
+          "horse": "フライングブレード",
+          "odds": 174.3
         },
         {
           "position": 6,
           "horseNumber": 1,
-          "horse": "モンシュマン"
+          "horse": "モンシュマン",
+          "odds": 25.4
         },
         {
           "position": 7,
           "horseNumber": 12,
-          "horse": "マテンロウブラボー"
+          "horse": "マテンロウブラボー",
+          "odds": 12.5
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "エフォートレス"
+          "horse": "エフォートレス",
+          "odds": 21.7
         },
         {
           "position": 9,
           "horseNumber": 11,
-          "horse": "マックアルイーン"
+          "horse": "マックアルイーン",
+          "odds": 71.2
         },
         {
           "position": 10,
           "horseNumber": 4,
-          "horse": "グーテンベルク"
+          "horse": "グーテンベルク",
+          "odds": 6.6
         },
         {
           "position": 11,
           "horseNumber": 5,
-          "horse": "ユハンヌス"
+          "horse": "ユハンヌス",
+          "odds": 40.6
         },
         {
           "position": 12,
           "horseNumber": 13,
-          "horse": "セシリエプラージュ"
+          "horse": "セシリエプラージュ",
+          "odds": 102.9
         },
         {
           "position": 13,
           "horseNumber": 7,
-          "horse": "サトノヴィレ"
+          "horse": "サトノヴィレ",
+          "odds": 200
         },
         {
           "position": 14,
           "horseNumber": 16,
-          "horse": "ウインオーディン"
+          "horse": "ウインオーディン",
+          "odds": 78.5
         },
         {
           "position": 15,
           "horseNumber": 15,
-          "horse": "ウナギノボリ"
+          "horse": "ウナギノボリ",
+          "odds": 133
         },
         {
           "position": 16,
           "horseNumber": 6,
-          "horse": "ダノンエンブレム"
+          "horse": "ダノンエンブレム",
+          "odds": 14
         }
       ]
     },
@@ -4513,82 +5309,98 @@
         {
           "position": 1,
           "horseNumber": 7,
-          "horse": "セキトバイースト"
+          "horse": "セキトバイースト",
+          "odds": 9.4
         },
         {
           "position": 2,
           "horseNumber": 2,
-          "horse": "ウイントワイライト"
+          "horse": "ウイントワイライト",
+          "odds": 22.7
         },
         {
           "position": 3,
           "horseNumber": 4,
-          "horse": "ミアネーロ"
+          "horse": "ミアネーロ",
+          "odds": 94.6
         },
         {
           "position": 4,
           "horseNumber": 1,
-          "horse": "マカナ"
+          "horse": "マカナ",
+          "odds": 24.6
         },
         {
           "position": 5,
           "horseNumber": 12,
-          "horse": "コガネノソラ"
+          "horse": "コガネノソラ",
+          "odds": 8.1
         },
         {
           "position": 6,
           "horseNumber": 10,
-          "horse": "ホールネス"
+          "horse": "ホールネス",
+          "odds": 38.7
         },
         {
           "position": 7,
           "horseNumber": 3,
-          "horse": "ブラウンラチェット"
+          "horse": "ブラウンラチェット",
+          "odds": 140.7
         },
         {
           "position": 8,
           "horseNumber": 5,
-          "horse": "エストゥペンダ"
+          "horse": "エストゥペンダ",
+          "odds": 8.7
         },
         {
           "position": 9,
           "horseNumber": 14,
-          "horse": "パラディレーヌ"
+          "horse": "パラディレーヌ",
+          "odds": 20
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "ニシノティアモ"
+          "horse": "ニシノティアモ",
+          "odds": 5
         },
         {
           "position": 11,
           "horseNumber": 13,
-          "horse": "ビップデイジー"
+          "horse": "ビップデイジー",
+          "odds": 54.5
         },
         {
           "position": 12,
           "horseNumber": 15,
-          "horse": "ルージュソリテール"
+          "horse": "ルージュソリテール",
+          "odds": 9.9
         },
         {
           "position": 13,
           "horseNumber": 16,
-          "horse": "セントメモリーズ"
+          "horse": "セントメモリーズ",
+          "odds": 215.2
         },
         {
           "position": 14,
           "horseNumber": 6,
-          "horse": "ヴァルキリーバース"
+          "horse": "ヴァルキリーバース",
+          "odds": 3.3
         },
         {
           "position": 15,
           "horseNumber": 11,
-          "horse": "テレサ"
+          "horse": "テレサ",
+          "odds": 25
         },
         {
           "position": 16,
           "horseNumber": 9,
-          "horse": "テリオスララ"
+          "horse": "テリオスララ",
+          "odds": 15
         }
       ]
     },
@@ -4602,82 +5414,98 @@
         {
           "position": 1,
           "horseNumber": 15,
-          "horse": "タイキブリッツェン"
+          "horse": "タイキブリッツェン",
+          "odds": 4.4
         },
         {
           "position": 2,
           "horseNumber": 12,
-          "horse": "レイズテンペスト"
+          "horse": "レイズテンペスト",
+          "odds": 7.2
         },
         {
           "position": 3,
           "horseNumber": 10,
-          "horse": "スタームーンナイト"
+          "horse": "スタームーンナイト",
+          "odds": 2.7
         },
         {
           "position": 4,
           "horseNumber": 9,
-          "horse": "アルプスオジョー"
+          "horse": "アルプスオジョー",
+          "odds": 37.5
         },
         {
           "position": 5,
           "horseNumber": 1,
-          "horse": "アンティミスト"
+          "horse": "アンティミスト",
+          "odds": 13.3
         },
         {
           "position": 6,
           "horseNumber": 5,
-          "horse": "カンレイスター"
+          "horse": "カンレイスター",
+          "odds": 8.5
         },
         {
           "position": 7,
           "horseNumber": 4,
-          "horse": "タリスマン"
+          "horse": "タリスマン",
+          "odds": 126.1
         },
         {
           "position": 8,
           "horseNumber": 8,
-          "horse": "エフエイト"
+          "horse": "エフエイト",
+          "odds": 79.8
         },
         {
           "position": 9,
           "horseNumber": 7,
-          "horse": "シャオシンユン"
+          "horse": "シャオシンユン",
+          "odds": 135.2
         },
         {
           "position": 10,
           "horseNumber": 6,
-          "horse": "ツマヤ"
+          "horse": "ツマヤ",
+          "odds": 192.7
         },
         {
           "position": 11,
           "horseNumber": 13,
-          "horse": "タヤスロレンヌ"
+          "horse": "タヤスロレンヌ",
+          "odds": 29.9
         },
         {
           "position": 12,
           "horseNumber": 14,
-          "horse": "グランドフォレスト"
+          "horse": "グランドフォレスト",
+          "odds": 297.4
         },
         {
           "position": 13,
           "horseNumber": 16,
-          "horse": "ロードトライデント"
+          "horse": "ロードトライデント",
+          "odds": 6.8
         },
         {
           "position": 14,
           "horseNumber": 3,
-          "horse": "アイスブレイカー"
+          "horse": "アイスブレイカー",
+          "odds": 310.7
         },
         {
           "position": 15,
           "horseNumber": 11,
-          "horse": "ペロ"
+          "horse": "ペロ",
+          "odds": 12.7
         },
         {
           "position": 16,
           "horseNumber": 2,
-          "horse": "ディクシーヴォーグ"
+          "horse": "ディクシーヴォーグ",
+          "odds": 193.5
         }
       ]
     },
@@ -4691,72 +5519,86 @@
         {
           "position": 1,
           "horseNumber": 1,
-          "horse": "メイショウナナユキ"
+          "horse": "メイショウナナユキ",
+          "odds": 2.5
         },
         {
           "position": 2,
           "horseNumber": 4,
-          "horse": "ムソウテンセイ"
+          "horse": "ムソウテンセイ",
+          "odds": 166.4
         },
         {
           "position": 3,
           "horseNumber": 16,
-          "horse": "オアシスアラン"
+          "horse": "オアシスアラン",
+          "odds": 8.9
         },
         {
           "position": 4,
           "horseNumber": 14,
-          "horse": "マイベスティー"
+          "horse": "マイベスティー",
+          "odds": 10
         },
         {
           "position": 5,
           "horseNumber": 6,
-          "horse": "ペコリズム"
+          "horse": "ペコリズム",
+          "odds": 123.6
         },
         {
           "position": 6,
           "horseNumber": 3,
-          "horse": "ゴールドアーチ"
+          "horse": "ゴールドアーチ",
+          "odds": 3.3
         },
         {
           "position": 7,
           "horseNumber": 11,
-          "horse": "サンライズフリード"
+          "horse": "サンライズフリード",
+          "odds": 9.5
         },
         {
           "position": 8,
           "horseNumber": 7,
-          "horse": "アイアン"
+          "horse": "アイアン",
+          "odds": 47.2
         },
         {
           "position": 9,
           "horseNumber": 12,
-          "horse": "ベストレイク"
+          "horse": "ベストレイク",
+          "odds": 7.8
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "サクライロマウコロ"
+          "horse": "サクライロマウコロ",
+          "odds": 159
         },
         {
           "position": 11,
           "horseNumber": 10,
-          "horse": "モチモチチャン"
+          "horse": "モチモチチャン",
+          "odds": 53
         },
         {
           "position": 12,
           "horseNumber": 15,
-          "horse": "シャンジュマン"
+          "horse": "シャンジュマン",
+          "odds": 176.5
         },
         {
           "position": 13,
           "horseNumber": 13,
-          "horse": "コラカオ"
+          "horse": "コラカオ",
+          "odds": 88.9
         },
         {
           "position": 14,
           "horseNumber": 9,
-          "horse": "テーオーシーザー"
+          "horse": "テーオーシーザー",
+          "odds": 188.6
         }
       ]
     },
@@ -4770,92 +5612,110 @@
         {
           "position": 1,
           "horseNumber": 17,
-          "horse": "スマートティアナ"
+          "horse": "スマートティアナ",
+          "odds": 5.7
         },
         {
           "position": 2,
           "horseNumber": 8,
-          "horse": "セルヴァジオ"
+          "horse": "セルヴァジオ",
+          "odds": 10.3
         },
         {
           "position": 3,
           "horseNumber": 9,
-          "horse": "オレンジフィールド"
+          "horse": "オレンジフィールド",
+          "odds": 14
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "ムーンライトダイヤ"
+          "horse": "ムーンライトダイヤ",
+          "odds": 9.9
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "ジーティーメティオ"
+          "horse": "ジーティーメティオ",
+          "odds": 3.1
         },
         {
           "position": 6,
           "horseNumber": 11,
-          "horse": "スリーロンドン"
+          "horse": "スリーロンドン",
+          "odds": 73.1
         },
         {
           "position": 7,
           "horseNumber": 6,
-          "horse": "ビタールート"
+          "horse": "ビタールート",
+          "odds": 27.5
         },
         {
           "position": 8,
           "horseNumber": 15,
-          "horse": "タイセイアビオン"
+          "horse": "タイセイアビオン",
+          "odds": 122.9
         },
         {
           "position": 9,
           "horseNumber": 18,
-          "horse": "クリスタルタワー"
+          "horse": "クリスタルタワー",
+          "odds": 95.8
         },
         {
           "position": 10,
           "horseNumber": 10,
-          "horse": "ローズラフィネ"
+          "horse": "ローズラフィネ",
+          "odds": 9.7
         },
         {
           "position": 11,
           "horseNumber": 13,
-          "horse": "メイショウバルキア"
+          "horse": "メイショウバルキア",
+          "odds": 295
         },
         {
           "position": 12,
           "horseNumber": 3,
-          "horse": "パノラマステージ"
+          "horse": "パノラマステージ",
+          "odds": 172.6
         },
         {
           "position": 13,
           "horseNumber": 1,
-          "horse": "バトルセレーネ"
+          "horse": "バトルセレーネ",
+          "odds": 164.5
         },
         {
           "position": 14,
           "horseNumber": 7,
-          "horse": "ブライトエンジェル"
+          "horse": "ブライトエンジェル",
+          "odds": 22.6
         },
         {
           "position": 15,
           "horseNumber": 12,
-          "horse": "フォルストランキル"
+          "horse": "フォルストランキル",
+          "odds": 4.8
         },
         {
           "position": 16,
           "horseNumber": 14,
-          "horse": "ロンポワン"
+          "horse": "ロンポワン",
+          "odds": 58.5
         },
         {
           "position": 17,
           "horseNumber": 16,
-          "horse": "ミスティパープル"
+          "horse": "ミスティパープル",
+          "odds": 243.4
         },
         {
           "position": 18,
           "horseNumber": 4,
-          "horse": "リアライズブルーム"
+          "horse": "リアライズブルーム",
+          "odds": 33.4
         }
       ]
     },
@@ -4869,82 +5729,98 @@
         {
           "position": 1,
           "horseNumber": 15,
-          "horse": "ボーントゥウォリア"
+          "horse": "ボーントゥウォリア",
+          "odds": 4.7
         },
         {
           "position": 2,
           "horseNumber": 1,
-          "horse": "ジャスティンゴッホ"
+          "horse": "ジャスティンゴッホ",
+          "odds": 9.8
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "ウルトラハート"
+          "horse": "ウルトラハート",
+          "odds": 2.9
         },
         {
           "position": 4,
           "horseNumber": 6,
-          "horse": "タイキジュビリー"
+          "horse": "タイキジュビリー",
+          "odds": 25.3
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "マイカラー"
+          "horse": "マイカラー",
+          "odds": 4.5
         },
         {
           "position": 6,
           "horseNumber": 4,
-          "horse": "ピースビート"
+          "horse": "ピースビート",
+          "odds": 105.4
         },
         {
           "position": 7,
           "horseNumber": 13,
-          "horse": "ハナコトバ"
+          "horse": "ハナコトバ",
+          "odds": 9.2
         },
         {
           "position": 8,
           "horseNumber": 3,
-          "horse": "カフジマリボー"
+          "horse": "カフジマリボー",
+          "odds": 180.7
         },
         {
           "position": 9,
           "horseNumber": 14,
-          "horse": "ワンダーシャッフル"
+          "horse": "ワンダーシャッフル",
+          "odds": 9.6
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "ハオカノア"
+          "horse": "ハオカノア",
+          "odds": 23.3
         },
         {
           "position": 11,
           "horseNumber": 10,
-          "horse": "キタノシリウス"
+          "horse": "キタノシリウス",
+          "odds": 317.5
         },
         {
           "position": 12,
           "horseNumber": 16,
-          "horse": "ニミッツハイウェイ"
+          "horse": "ニミッツハイウェイ",
+          "odds": 371.5
         },
         {
           "position": 13,
           "horseNumber": 7,
-          "horse": "アングランパ"
+          "horse": "アングランパ",
+          "odds": 121
         },
         {
           "position": 14,
           "horseNumber": 12,
-          "horse": "ゴルトミュンツェ"
+          "horse": "ゴルトミュンツェ",
+          "odds": 159.1
         },
         {
           "position": 15,
           "horseNumber": 2,
-          "horse": "カフラー"
+          "horse": "カフラー",
+          "odds": 28.4
         },
         {
           "position": 16,
           "horseNumber": 9,
-          "horse": "ギフテッドスペック"
+          "horse": "ギフテッドスペック",
+          "odds": 86
         }
       ]
     },
@@ -4958,92 +5834,110 @@
         {
           "position": 1,
           "horseNumber": 15,
-          "horse": "バディ"
+          "horse": "バディ",
+          "odds": 17.1
         },
         {
           "position": 2,
           "horseNumber": 5,
-          "horse": "シャンドラファール"
+          "horse": "シャンドラファール",
+          "odds": 2.3
         },
         {
           "position": 3,
           "horseNumber": 6,
-          "horse": "ナムラヴンダー"
+          "horse": "ナムラヴンダー",
+          "odds": 3.4
         },
         {
           "position": 4,
           "horseNumber": 2,
-          "horse": "ルクスディグニティ"
+          "horse": "ルクスディグニティ",
+          "odds": 10
         },
         {
           "position": 5,
           "horseNumber": 17,
-          "horse": "フィエールシャンテ"
+          "horse": "フィエールシャンテ",
+          "odds": 23.8
         },
         {
           "position": 6,
           "horseNumber": 13,
-          "horse": "ラッキーシグネチャ"
+          "horse": "ラッキーシグネチャ",
+          "odds": 91.5
         },
         {
           "position": 7,
           "horseNumber": 16,
-          "horse": "ワンダースアン"
+          "horse": "ワンダースアン",
+          "odds": 145.9
         },
         {
           "position": 8,
           "horseNumber": 1,
-          "horse": "レーヴドリュヌ"
+          "horse": "レーヴドリュヌ",
+          "odds": 10.8
         },
         {
           "position": 9,
           "horseNumber": 3,
-          "horse": "トライアンドエラー"
+          "horse": "トライアンドエラー",
+          "odds": 31.7
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "キービート"
+          "horse": "キービート",
+          "odds": 32.3
         },
         {
           "position": 11,
           "horseNumber": 10,
-          "horse": "ボッチョ"
+          "horse": "ボッチョ",
+          "odds": 167.1
         },
         {
           "position": 12,
           "horseNumber": 18,
-          "horse": "ベルドゥニュイ"
+          "horse": "ベルドゥニュイ",
+          "odds": 317.4
         },
         {
           "position": 13,
           "horseNumber": 9,
-          "horse": "ボールドペイト"
+          "horse": "ボールドペイト",
+          "odds": 268.5
         },
         {
           "position": 14,
           "horseNumber": 7,
-          "horse": "ハギノデュア"
+          "horse": "ハギノデュア",
+          "odds": 369.9
         },
         {
           "position": 15,
           "horseNumber": 4,
-          "horse": "レッドフレーザー"
+          "horse": "レッドフレーザー",
+          "odds": 13.4
         },
         {
           "position": 16,
           "horseNumber": 14,
-          "horse": "ジュンクロノシップ"
+          "horse": "ジュンクロノシップ",
+          "odds": 255
         },
         {
           "position": 17,
           "horseNumber": 11,
-          "horse": "マヤノイマジン"
+          "horse": "マヤノイマジン",
+          "odds": 112.2
         },
         {
           "position": 18,
           "horseNumber": 12,
-          "horse": "ラピス"
+          "horse": "ラピス",
+          "odds": 16.1
         }
       ]
     },
@@ -5057,47 +5951,56 @@
         {
           "position": 1,
           "horseNumber": 5,
-          "horse": "トップチェッカー"
+          "horse": "トップチェッカー",
+          "odds": 2.4
         },
         {
           "position": 2,
           "horseNumber": 6,
-          "horse": "マーゴットマシェリ"
+          "horse": "マーゴットマシェリ",
+          "odds": 15.7
         },
         {
           "position": 3,
           "horseNumber": 2,
-          "horse": "ヴィヴェローネ"
+          "horse": "ヴィヴェローネ",
+          "odds": 5.7
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "ブレイクガール"
+          "horse": "ブレイクガール",
+          "odds": 3.2
         },
         {
           "position": 5,
           "horseNumber": 4,
-          "horse": "ドラゴンドール"
+          "horse": "ドラゴンドール",
+          "odds": 11.8
         },
         {
           "position": 6,
           "horseNumber": 8,
-          "horse": "バクソウシャチョウ"
+          "horse": "バクソウシャチョウ",
+          "odds": 8.1
         },
         {
           "position": 7,
           "horseNumber": 7,
-          "horse": "メイケイリチャード"
+          "horse": "メイケイリチャード",
+          "odds": 35.7
         },
         {
           "position": 8,
           "horseNumber": 9,
-          "horse": "フランヴィア"
+          "horse": "フランヴィア",
+          "odds": 66.7
         },
         {
           "position": 9,
           "horseNumber": 1,
-          "horse": "ジーティーキャメル"
+          "horse": "ジーティーキャメル",
+          "odds": 21
         }
       ]
     },
@@ -5111,92 +6014,110 @@
         {
           "position": 1,
           "horseNumber": 9,
-          "horse": "ルージュスプリヤ"
+          "horse": "ルージュスプリヤ",
+          "odds": 3.3
         },
         {
           "position": 2,
           "horseNumber": 16,
-          "horse": "カルロット"
+          "horse": "カルロット",
+          "odds": 3.5
         },
         {
           "position": 3,
           "horseNumber": 2,
-          "horse": "アラビアンジョイ"
+          "horse": "アラビアンジョイ",
+          "odds": 4
         },
         {
           "position": 4,
           "horseNumber": 1,
-          "horse": "ネッカーズルム"
+          "horse": "ネッカーズルム",
+          "odds": 6.8
         },
         {
           "position": 5,
           "horseNumber": 6,
-          "horse": "リントゥラウル"
+          "horse": "リントゥラウル",
+          "odds": 61.6
         },
         {
           "position": 6,
           "horseNumber": 17,
-          "horse": "マティンデ"
+          "horse": "マティンデ",
+          "odds": 11.2
         },
         {
           "position": 7,
           "horseNumber": 18,
-          "horse": "プペアンビスキュイ"
+          "horse": "プペアンビスキュイ",
+          "odds": 33.9
         },
         {
           "position": 8,
           "horseNumber": 14,
-          "horse": "ケイアイブラック"
+          "horse": "ケイアイブラック",
+          "odds": 93.1
         },
         {
           "position": 9,
           "horseNumber": 4,
-          "horse": "アステリアート"
+          "horse": "アステリアート",
+          "odds": 60.1
         },
         {
           "position": 10,
           "horseNumber": 8,
-          "horse": "オーケーエレガンス"
+          "horse": "オーケーエレガンス",
+          "odds": 94.9
         },
         {
           "position": 11,
           "horseNumber": 7,
-          "horse": "レジーナテンペスタ"
+          "horse": "レジーナテンペスタ",
+          "odds": 96.7
         },
         {
           "position": 12,
           "horseNumber": 3,
-          "horse": "レイノルズナンバー"
+          "horse": "レイノルズナンバー",
+          "odds": 48.4
         },
         {
           "position": 13,
           "horseNumber": 12,
-          "horse": "サカトクフェイス"
+          "horse": "サカトクフェイス",
+          "odds": 164.9
         },
         {
           "position": 14,
           "horseNumber": 11,
-          "horse": "ウォーターブビンガ"
+          "horse": "ウォーターブビンガ",
+          "odds": 109.9
         },
         {
           "position": 15,
           "horseNumber": 10,
-          "horse": "グランピアン"
+          "horse": "グランピアン",
+          "odds": 115.6
         },
         {
           "position": 16,
           "horseNumber": 15,
-          "horse": "トゥスコラーナ"
+          "horse": "トゥスコラーナ",
+          "odds": 35
         },
         {
           "position": 17,
           "horseNumber": 13,
-          "horse": "エクスプロウド"
+          "horse": "エクスプロウド",
+          "odds": 425.5
         },
         {
           "position": 18,
           "horseNumber": 5,
-          "horse": "ラルス"
+          "horse": "ラルス",
+          "odds": 56.6
         }
       ]
     },
@@ -5210,82 +6131,98 @@
         {
           "position": 1,
           "horseNumber": 4,
-          "horse": "ハッコウイチウ"
+          "horse": "ハッコウイチウ",
+          "odds": 10.9
         },
         {
           "position": 2,
           "horseNumber": 12,
-          "horse": "エイシンマールス"
+          "horse": "エイシンマールス",
+          "odds": 9.9
         },
         {
           "position": 3,
           "horseNumber": 10,
-          "horse": "ビスケットアソート"
+          "horse": "ビスケットアソート",
+          "odds": 17.1
         },
         {
           "position": 4,
           "horseNumber": 5,
-          "horse": "シュテルンビルト"
+          "horse": "シュテルンビルト",
+          "odds": 12
         },
         {
           "position": 5,
           "horseNumber": 16,
-          "horse": "グディンナ"
+          "horse": "グディンナ",
+          "odds": 32.6
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "アパレイユ"
+          "horse": "アパレイユ",
+          "odds": 2.5
         },
         {
           "position": 7,
           "horseNumber": 15,
-          "horse": "エブリデイ"
+          "horse": "エブリデイ",
+          "odds": 9
         },
         {
           "position": 8,
           "horseNumber": 2,
-          "horse": "タイセイレグノ"
+          "horse": "タイセイレグノ",
+          "odds": 62
         },
         {
           "position": 9,
           "horseNumber": 1,
-          "horse": "インピッシュ"
+          "horse": "インピッシュ",
+          "odds": 86.3
         },
         {
           "position": 10,
           "horseNumber": 3,
-          "horse": "ジューンアゲイン"
+          "horse": "ジューンアゲイン",
+          "odds": 3.5
         },
         {
           "position": 11,
           "horseNumber": 7,
-          "horse": "アレーティア"
+          "horse": "アレーティア",
+          "odds": 120.2
         },
         {
           "position": 12,
           "horseNumber": 11,
-          "horse": "キアヌ"
+          "horse": "キアヌ",
+          "odds": 278
         },
         {
           "position": 13,
           "horseNumber": 6,
-          "horse": "シンギタイ"
+          "horse": "シンギタイ",
+          "odds": 143.1
         },
         {
           "position": 14,
           "horseNumber": 8,
-          "horse": "ドレアンティア"
+          "horse": "ドレアンティア",
+          "odds": 161.3
         },
         {
           "position": 15,
           "horseNumber": 14,
-          "horse": "ゴッドカインド"
+          "horse": "ゴッドカインド",
+          "odds": 171.5
         },
         {
           "position": 16,
           "horseNumber": 13,
-          "horse": "ラッキーバック"
+          "horse": "ラッキーバック",
+          "odds": 21.8
         }
       ]
     },
@@ -5299,42 +6236,50 @@
         {
           "position": 1,
           "horseNumber": 3,
-          "horse": "アーリーハーベスト"
+          "horse": "アーリーハーベスト",
+          "odds": 3.8
         },
         {
           "position": 2,
           "horseNumber": 4,
-          "horse": "メイショウピリカ"
+          "horse": "メイショウピリカ",
+          "odds": 22.7
         },
         {
           "position": 3,
           "horseNumber": 6,
-          "horse": "コニーアイランド"
+          "horse": "コニーアイランド",
+          "odds": 2.6
         },
         {
           "position": 4,
           "horseNumber": 8,
-          "horse": "ベルシュヴァル"
+          "horse": "ベルシュヴァル",
+          "odds": 7.8
         },
         {
           "position": 5,
           "horseNumber": 5,
-          "horse": "エイシンウィスパー"
+          "horse": "エイシンウィスパー",
+          "odds": 2.6
         },
         {
           "position": 6,
           "horseNumber": 7,
-          "horse": "リオンプライム"
+          "horse": "リオンプライム",
+          "odds": 34.7
         },
         {
           "position": 7,
           "horseNumber": 2,
-          "horse": "サリーチェ"
+          "horse": "サリーチェ",
+          "odds": 41.9
         },
         {
           "position": 8,
           "horseNumber": 1,
-          "horse": "ジェルソミーノ"
+          "horse": "ジェルソミーノ",
+          "odds": 209.6
         }
       ]
     },
@@ -5348,37 +6293,44 @@
         {
           "position": 1,
           "horseNumber": 2,
-          "horse": "ロードガレリア"
+          "horse": "ロードガレリア",
+          "odds": 3.5
         },
         {
           "position": 2,
           "horseNumber": 1,
-          "horse": "ステラクラウン"
+          "horse": "ステラクラウン",
+          "odds": 3.2
         },
         {
           "position": 3,
           "horseNumber": 5,
-          "horse": "カリーニョ"
+          "horse": "カリーニョ",
+          "odds": 2.6
         },
         {
           "position": 4,
           "horseNumber": 3,
-          "horse": "ダノンカゼルタ"
+          "horse": "ダノンカゼルタ",
+          "odds": 12.2
         },
         {
           "position": 5,
           "horseNumber": 4,
-          "horse": "ミカエルパシャ"
+          "horse": "ミカエルパシャ",
+          "odds": 15.7
         },
         {
           "position": 6,
           "horseNumber": 7,
-          "horse": "エコテーラー"
+          "horse": "エコテーラー",
+          "odds": 7.3
         },
         {
           "position": 7,
           "horseNumber": 6,
-          "horse": "ラーテル"
+          "horse": "ラーテル",
+          "odds": 155.9
         }
       ]
     },
@@ -5392,82 +6344,98 @@
         {
           "position": 1,
           "horseNumber": 13,
-          "horse": "ペイシャモノノフ"
+          "horse": "ペイシャモノノフ",
+          "odds": 90.4
         },
         {
           "position": 2,
           "horseNumber": 8,
-          "horse": "パシアンジャン"
+          "horse": "パシアンジャン",
+          "odds": 5.3
         },
         {
           "position": 3,
           "horseNumber": 7,
-          "horse": "タマモキャリコ"
+          "horse": "タマモキャリコ",
+          "odds": 40.4
         },
         {
           "position": 4,
           "horseNumber": 6,
-          "horse": "ルクスフレンジー"
+          "horse": "ルクスフレンジー",
+          "odds": 5.2
         },
         {
           "position": 5,
           "horseNumber": 10,
-          "horse": "ロフティストーリー"
+          "horse": "ロフティストーリー",
+          "odds": 34
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "アカデミア"
+          "horse": "アカデミア",
+          "odds": 3.2
         },
         {
           "position": 7,
           "horseNumber": 14,
-          "horse": "レヴァンテシチー"
+          "horse": "レヴァンテシチー",
+          "odds": 4.5
         },
         {
           "position": 8,
           "horseNumber": 15,
-          "horse": "ロカヒ"
+          "horse": "ロカヒ",
+          "odds": 7.5
         },
         {
           "position": 9,
           "horseNumber": 2,
-          "horse": "メイショウシナノ"
+          "horse": "メイショウシナノ",
+          "odds": 52.1
         },
         {
           "position": 10,
           "horseNumber": 11,
-          "horse": "ルクスビッグスター"
+          "horse": "ルクスビッグスター",
+          "odds": 80.9
         },
         {
           "position": 11,
           "horseNumber": 1,
-          "horse": "トウカイポワール"
+          "horse": "トウカイポワール",
+          "odds": 133.8
         },
         {
           "position": 12,
           "horseNumber": 16,
-          "horse": "ウィンターダフネ"
+          "horse": "ウィンターダフネ",
+          "odds": 47.3
         },
         {
           "position": 13,
           "horseNumber": 3,
-          "horse": "アークドール"
+          "horse": "アークドール",
+          "odds": 26.4
         },
         {
           "position": 14,
           "horseNumber": 5,
-          "horse": "ヒロノラメール"
+          "horse": "ヒロノラメール",
+          "odds": 32.4
         },
         {
           "position": 15,
           "horseNumber": 12,
-          "horse": "キュールエフウジン"
+          "horse": "キュールエフウジン",
+          "odds": 174.7
         },
         {
           "position": 16,
           "horseNumber": 4,
-          "horse": "ティンティンデオ"
+          "horse": "ティンティンデオ",
+          "odds": 91.9
         }
       ]
     },
@@ -5481,92 +6449,110 @@
         {
           "position": 1,
           "horseNumber": 10,
-          "horse": "エルトンバローズ"
+          "horse": "エルトンバローズ",
+          "odds": 12.9
         },
         {
           "position": 2,
           "horseNumber": 7,
-          "horse": "キープカルム"
+          "horse": "キープカルム",
+          "odds": 12.5
         },
         {
           "position": 3,
           "horseNumber": 11,
-          "horse": "エコロアルバ"
+          "horse": "エコロアルバ",
+          "odds": 3.1
         },
         {
           "position": 4,
           "horseNumber": 9,
-          "horse": "ファンダム"
+          "horse": "ファンダム",
+          "odds": 12.3
         },
         {
           "position": 5,
           "horseNumber": 17,
-          "horse": "スイープアワーズ"
+          "horse": "スイープアワーズ",
+          "odds": 16.3
         },
         {
           "position": 6,
           "horseNumber": 14,
-          "horse": "ミニトランザット"
+          "horse": "ミニトランザット",
+          "odds": 6.3
         },
         {
           "position": 7,
           "horseNumber": 4,
-          "horse": "ブエナオンダ"
+          "horse": "ブエナオンダ",
+          "odds": 52.8
         },
         {
           "position": 8,
           "horseNumber": 12,
-          "horse": "カズミクラーシュ"
+          "horse": "カズミクラーシュ",
+          "odds": 21.6
         },
         {
           "position": 9,
           "horseNumber": 5,
-          "horse": "ファーヴェント"
+          "horse": "ファーヴェント",
+          "odds": 6.3
         },
         {
           "position": 10,
           "horseNumber": 13,
-          "horse": "メタルスピード"
+          "horse": "メタルスピード",
+          "odds": 74
         },
         {
           "position": 11,
           "horseNumber": 2,
-          "horse": "ファインライン"
+          "horse": "ファインライン",
+          "odds": 100.2
         },
         {
           "position": 12,
           "horseNumber": 18,
-          "horse": "タガノエルピーダ"
+          "horse": "タガノエルピーダ",
+          "odds": 37
         },
         {
           "position": 13,
           "horseNumber": 16,
-          "horse": "スリールミニョン"
+          "horse": "スリールミニョン",
+          "odds": 96
         },
         {
           "position": 14,
           "horseNumber": 8,
-          "horse": "サイルーン"
+          "horse": "サイルーン",
+          "odds": 11.8
         },
         {
           "position": 15,
           "horseNumber": 15,
-          "horse": "ショウナンアデイブ"
+          "horse": "ショウナンアデイブ",
+          "odds": 31.9
         },
         {
           "position": 16,
           "horseNumber": 1,
-          "horse": "スマートワイス"
+          "horse": "スマートワイス",
+          "odds": 13.9
         },
         {
           "position": 17,
           "horseNumber": 6,
-          "horse": "シンフォーエバー"
+          "horse": "シンフォーエバー",
+          "odds": 226.3
         },
         {
           "position": 18,
           "horseNumber": 3,
-          "horse": "メイショウシンタケ"
+          "horse": "メイショウシンタケ",
+          "odds": 195.4
         }
       ]
     },
@@ -5580,67 +6566,80 @@
         {
           "position": 1,
           "horseNumber": 12,
-          "horse": "タガノアバンドーネ"
+          "horse": "タガノアバンドーネ",
+          "odds": 1.5
         },
         {
           "position": 2,
           "horseNumber": 3,
-          "horse": "ソウルアンドジャズ"
+          "horse": "ソウルアンドジャズ",
+          "odds": 17.5
         },
         {
           "position": 3,
           "horseNumber": 4,
-          "horse": "クロノスバレット"
+          "horse": "クロノスバレット",
+          "odds": 6.2
         },
         {
           "position": 4,
           "horseNumber": 5,
-          "horse": "ジーニアスバローズ"
+          "horse": "ジーニアスバローズ",
+          "odds": 45.3
         },
         {
           "position": 5,
           "horseNumber": 13,
-          "horse": "レッドリベルタ"
+          "horse": "レッドリベルタ",
+          "odds": 13.2
         },
         {
           "position": 6,
           "horseNumber": 9,
-          "horse": "エンマ"
+          "horse": "エンマ",
+          "odds": 26.3
         },
         {
           "position": 7,
           "horseNumber": 8,
-          "horse": "フラッシング"
+          "horse": "フラッシング",
+          "odds": 43.3
         },
         {
           "position": 8,
           "horseNumber": 10,
-          "horse": "ダディーズトリップ"
+          "horse": "ダディーズトリップ",
+          "odds": 37.1
         },
         {
           "position": 9,
           "horseNumber": 2,
-          "horse": "クリノフィガロ"
+          "horse": "クリノフィガロ",
+          "odds": 8
         },
         {
           "position": 10,
           "horseNumber": 1,
-          "horse": "キングロコマイカイ"
+          "horse": "キングロコマイカイ",
+          "odds": 147.5
         },
         {
           "position": 11,
           "horseNumber": 6,
-          "horse": "エリカヴェネチア"
+          "horse": "エリカヴェネチア",
+          "odds": 89
         },
         {
           "position": 12,
           "horseNumber": 7,
-          "horse": "メイショウマントル"
+          "horse": "メイショウマントル",
+          "odds": 111.4
         },
         {
           "position": 13,
           "horseNumber": 11,
-          "horse": "ハッピーダンチャン"
+          "horse": "ハッピーダンチャン",
+          "odds": 24.8
         }
       ]
     }

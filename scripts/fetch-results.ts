@@ -9,7 +9,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-import { fetchRaceResult } from "../lib/scraper";
+import { fetchRaceResult, type RaceFinishResult } from "../lib/scraper";
 import type { RacesCache } from "./fetch-races";
 
 export type RaceResultEntry = {
@@ -18,7 +18,7 @@ export type RaceResultEntry = {
   raceName: string;
   date: string;
   venue: string;
-  finishers: { position: number; horseNumber: number; horse: string }[];
+  finishers: RaceFinishResult[];
 };
 
 export type ResultsCache = {

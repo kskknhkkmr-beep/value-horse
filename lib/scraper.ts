@@ -312,6 +312,7 @@ export type RaceFinishResult = {
   position: number;
   horseNumber: number;
   horse: string;
+  odds: number | null; // 確定単勝オッズ（db.netkeiba 結果ページから）
 };
 
 /**
@@ -354,7 +355,20 @@ function parseFinishOrder(html: string): RaceFinishResult[] {
     const horse = cells[3].trim();
     if (!horse || horse.length < 2) continue;
 
-    results.push({ position: pos, horseNumber: horseNum, horse });
+    // 単勝オッズ: 列 16 (標準位置)、なければ 14-18 の小数値から取得
+    // col18 = 馬体重(整数)、col17 = 人気(整数)、col16 = オッズ(小数)
+    let odds: number | null = null;
+    const tryCol = (ci: number) => {
+      if (ci >= cells.length) return;
+      const raw = cells[ci];
+      if (!raw.includes(".")) return; // オッズは必ず小数点あり
+      const v = parseFloat(raw.replace(/[^\d.]/g, ""));
+      if (!isNaN(v) && v >= 1.0 && v <= 999.9) odds = v;
+    };
+    tryCol(16); // 標準位置
+    if (odds === null) { tryCol(15); tryCol(14); tryCol(17); }
+
+    results.push({ position: pos, horseNumber: horseNum, horse, odds });
   }
 
   return results.sort((a, b) => a.position - b.position);
