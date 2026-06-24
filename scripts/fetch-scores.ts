@@ -18,6 +18,8 @@ import {
   fetchHorseIdMap,
   fetchHorseResults,
   fetchJockeyStats,
+  fetchJockeyId,
+  fetchTrainingScores,
   JOCKEY_IDS,
 } from "../lib/scraper";
 import {
@@ -61,6 +63,8 @@ async function main() {
 
   const scores: Record<number, HorseScores> = {};
   const jockeyCache = new Map<string, { wins: number; rides: number; places: number } | null>();
+  // セッション内で解決済みの騎手ID（JOCKEY_IDS にない騎手を自動検索した結果）
+  const resolvedJockeyIds = new Map<string, string | null>(Object.entries(JOCKEY_IDS));
 
   // ── races-cache.json がある場合 ───────────────────────────────────────────
   if (usingCache && racesCache) {
@@ -68,6 +72,11 @@ async function main() {
 
     for (const race of racesCache.races) {
       console.log(`\n━━ Race ${race.id}: ${race.raceName} (${race.venue} ${race.surface}${race.distance}m) ━━`);
+
+      // 追い切り評価: レース単位で一括取得
+      console.log(`  追い切り取得中...`);
+      const trainingMap = await fetchTrainingScores(race.netKeibaRaceId);
+      console.log(`  追い切り評価取得: ${trainingMap.size}頭`);
 
       for (const horse of race.horses) {
         const jockeyName = horse.jockey ?? "";
@@ -91,14 +100,21 @@ async function main() {
           }
         }
 
-        // 騎手成績
+        // 騎手成績（IDが未解決の場合は自動検索）
         let jockeyScore = DEFAULT_SCORE;
         if (jockeyName && !jockeyCache.has(jockeyName)) {
-          const jId = JOCKEY_IDS[jockeyName];
+          let jId = resolvedJockeyIds.get(jockeyName) ?? null;
+          if (jId === undefined) {
+            // JOCKEY_IDS にも resolvedJockeyIds にもない → 自動検索
+            console.log(`     騎手ID自動検索: "${jockeyName}"`);
+            jId = await fetchJockeyId(jockeyName);
+            resolvedJockeyIds.set(jockeyName, jId);
+            if (jId) console.log(`     → ID発見: ${jId}`);
+            else console.log(`     → 未発見`);
+          }
           if (jId) {
             jockeyCache.set(jockeyName, await fetchJockeyStats(jId));
           } else {
-            console.log(`     騎手ID未登録: "${jockeyName}"`);
             jockeyCache.set(jockeyName, null);
           }
         }
@@ -109,8 +125,11 @@ async function main() {
           console.log(`     騎手 ${jStats.wins}勝/${jStats.rides}戦 (勝率${wr}%) → jockeyScore=${jockeyScore}`);
         }
 
-        console.log(`     ✓ form=${formScore} pedigree=${pedigreeScore} jockey=${jockeyScore} training=${DEFAULT_SCORE}`);
-        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore: DEFAULT_SCORE };
+        // 追い切り評価
+        const trainingScore = trainingMap.get(horse.horse) ?? DEFAULT_SCORE;
+        const trainingSrc = trainingMap.has(horse.horse) ? "取得" : `デフォルト(${DEFAULT_SCORE})`;
+        console.log(`     ✓ form=${formScore} pedigree=${pedigreeScore} jockey=${jockeyScore} training=${trainingScore}(${trainingSrc})`);
+        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore };
       }
     }
   } else {

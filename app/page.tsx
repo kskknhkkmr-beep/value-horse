@@ -21,6 +21,29 @@ type HorseScore = {
   valueRating: number;
 };
 
+type BacktestRaceRecord = {
+  raceId: number;
+  raceName: string;
+  date: string;
+  venue: string;
+  evPositive: string[];
+  winner: string | null;
+  hit: boolean;
+  investedUnits: number;
+  returnUnits: number;
+};
+
+type BacktestResponse = {
+  totalRaces: number;
+  racesWithResult: number;
+  racesWithEvPositive: number;
+  totalBets: number;
+  totalReturn: number;
+  roi: number;
+  hitRate: number;
+  records: BacktestRaceRecord[];
+};
+
 type ScoreResponse = {
   raceId: number;
   raceName: string;
@@ -43,6 +66,8 @@ export default function Home() {
   const [selectedRaceId, setSelectedRaceId] = useState(1);
   const [score, setScore] = useState<ScoreResponse | null>(null);
   const [unitAmount, setUnitAmount] = useState(1000);
+  const [backtest, setBacktest] = useState<BacktestResponse | null>(null);
+  const [showBacktest, setShowBacktest] = useState(false);
 
   useEffect(() => {
     fetch("/api/races")
@@ -55,6 +80,14 @@ export default function Home() {
       .then((r) => r.json())
       .then((data: ScoreResponse) => setScore(data));
   }, [selectedRaceId]);
+
+  useEffect(() => {
+    if (!showBacktest || backtest) return;
+    fetch("/api/backtest")
+      .then((r) => r.json())
+      .then((data: BacktestResponse) => setBacktest(data))
+      .catch(() => {});
+  }, [showBacktest, backtest]);
 
   // EV正の馬フィルター（3条件すべて満たす馬のみ）
   // EV_MIN:   期待値10%以上（投資額の1.10倍以上のリターンを期待）
@@ -304,6 +337,92 @@ export default function Home() {
             )}
           </>
         )}
+        {/* ── バックテスト ── */}
+        <section>
+          <button
+            onClick={() => setShowBacktest((v) => !v)}
+            className="w-full flex items-center justify-between py-2 text-[10px] tracking-[0.2em] text-gray-400 uppercase border-t border-gray-100"
+          >
+            <span>実績</span>
+            <span>{showBacktest ? "▲" : "▼"}</span>
+          </button>
+
+          {showBacktest && (
+            <div className="mt-2">
+              {!backtest ? (
+                <div className="text-center py-8 text-gray-300 text-xs tracking-widest">
+                  LOADING...
+                </div>
+              ) : backtest.racesWithResult === 0 ? (
+                <div className="border border-gray-200 px-4 py-8 text-center text-xs text-gray-400 space-y-1">
+                  <div>結果データなし</div>
+                  <div className="text-gray-300">npm run fetch-results を実行してください</div>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {/* サマリー */}
+                  <div className="border border-gray-200 grid grid-cols-3 divide-x divide-gray-100">
+                    <div className="px-3 py-3 text-center">
+                      <div className="text-[10px] text-gray-400 mb-1">ROI</div>
+                      <div className={`text-lg font-bold tabular-nums ${backtest.roi >= 0 ? "text-blue-600" : "text-red-400"}`}>
+                        {backtest.roi >= 0 ? "+" : ""}{backtest.roi.toFixed(1)}%
+                      </div>
+                    </div>
+                    <div className="px-3 py-3 text-center">
+                      <div className="text-[10px] text-gray-400 mb-1">的中率</div>
+                      <div className="text-lg font-bold tabular-nums text-gray-900">
+                        {backtest.hitRate.toFixed(0)}%
+                      </div>
+                    </div>
+                    <div className="px-3 py-3 text-center">
+                      <div className="text-[10px] text-gray-400 mb-1">対象</div>
+                      <div className="text-lg font-bold tabular-nums text-gray-900">
+                        {backtest.racesWithEvPositive}<span className="text-xs font-normal text-gray-400">R</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* レース別 */}
+                  <div className="border border-gray-200">
+                    <div className="grid grid-cols-[1fr_auto_auto] px-4 py-2 border-b border-gray-100 text-[10px] text-gray-400 tracking-wider">
+                      <span>レース</span>
+                      <span className="text-right mr-4">EV+</span>
+                      <span className="text-right">結果</span>
+                    </div>
+                    {backtest.records.map((r) => (
+                      <div
+                        key={r.raceId}
+                        className="grid grid-cols-[1fr_auto_auto] px-4 py-2.5 border-b border-gray-50 last:border-0 text-xs"
+                      >
+                        <div>
+                          <span className="text-gray-500 mr-2">{r.date.slice(5)}</span>
+                          <span className="text-gray-900">{r.raceName}</span>
+                        </div>
+                        <div className="text-right mr-4 text-gray-400 tabular-nums">
+                          {r.investedUnits > 0 ? `${r.investedUnits}頭` : "─"}
+                        </div>
+                        <div className="text-right tabular-nums">
+                          {r.investedUnits === 0 ? (
+                            <span className="text-gray-300">─</span>
+                          ) : r.hit ? (
+                            <span className="font-bold text-blue-600">+{fmt(Math.round((r.returnUnits - r.investedUnits) * unitAmount))}円</span>
+                          ) : (
+                            <span className="text-red-400">−{fmt(r.investedUnits * unitAmount)}円</span>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="text-[10px] text-gray-300 text-right">
+                    {backtest.totalBets}点 投資 / 払戻 {fmt(Math.round(backtest.totalReturn * unitAmount))}円 合計
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </section>
+
       </div>
     </main>
   );

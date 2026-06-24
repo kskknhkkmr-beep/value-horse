@@ -129,6 +129,29 @@ export const JOCKEY_IDS: Record<string, string> = {
 };
 
 /**
+ * 騎手名から netkeiba 騎手 ID を検索して返す。
+ * URL: https://db.netkeiba.com/?pid=jockey_search_detail&match=1&name=[encodedName]
+ * 見つからない場合は null。
+ */
+export async function fetchJockeyId(jockeyName: string): Promise<string | null> {
+  await sleep(1000);
+  // EUC-JP でエンコードが必要だが fetch 経由では難しいので、
+  // 騎手一覧から名前で照合する方法を使う
+  const url = `https://db.netkeiba.com/?pid=jockey_list`;
+  try {
+    const html = await fetchEuc(url);
+    // パターン: /jockey/01088/ のような形式に続いて騎手名が現れる
+    const re = /\/jockey\/(\d{5})\/"[^>]*>([^<]{2,10})<\/a>/g;
+    for (const m of html.matchAll(re)) {
+      if (m[2].trim() === jockeyName) return m[1];
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * 騎手の近走成績（直近約100走）から勝利数・連対数・騎乗数を集計して返す。
  * URL: https://db.netkeiba.com/jockey/result/recent/[jockeyId]/
  *
@@ -223,6 +246,118 @@ function parseJockeyRaceRows(html: string): JockeyStats | null {
   }
 
   return rides > 0 ? { wins, rides, places } : null;
+}
+
+// ─── 追い切り評価 → trainingScore ────────────────────────────────────────────
+
+// S=95, A=85, B=72, C=60, D=48 に対応
+const TRAINING_RANK_SCORE: Record<string, number> = {
+  S: 95, "◎": 95,
+  A: 85, "○": 85,
+  B: 72, "△": 72,
+  C: 60, "▲": 60,
+  D: 48, "×": 48,
+};
+
+/**
+ * SP 追い切りページから「馬名 → trainingScore (0-100)」のマップを返す。
+ * URL: https://race.sp.netkeiba.com/race/oikiri.html?race_id=[raceId]
+ *
+ * 評価記号（Rank クラス等）が見つからない馬は null。
+ */
+export async function fetchTrainingScores(netKeibaRaceId: string): Promise<Map<string, number>> {
+  await sleep(1000);
+  const url = `https://race.sp.netkeiba.com/race/oikiri.html?race_id=${netKeibaRaceId}`;
+  try {
+    const html = await fetchUtf8(url);
+    return parseTrainingScores(html);
+  } catch (e) {
+    console.warn(`  [scraper] fetchTrainingScores failed (${netKeibaRaceId}):`, (e as Error).message);
+    return new Map();
+  }
+}
+
+function parseTrainingScores(html: string): Map<string, number> {
+  const map = new Map<string, number>();
+
+  // 各馬ブロック: id="db_XXXXX" の周辺セグメントに評価記号がある
+  const horseRe = /id="db_(\d+)"[^>]*><span>([^の]+)のデータベース<\/span>/g;
+  const horseMatches = [...html.matchAll(horseRe)];
+
+  for (let i = 0; i < horseMatches.length; i++) {
+    const m = horseMatches[i];
+    const horseName = m[2].trim();
+    const start = m.index ?? 0;
+    const end = horseMatches[i + 1]?.index ?? html.length;
+    const segment = html.substring(start, end);
+
+    // Rank クラスから評価取得
+    const rankM =
+      segment.match(/class="[^"]*Rank[^"]*"[^>]*>\s*([SABCD◎○△▲×])\s*</) ??
+      segment.match(/>\s*([SABCD])\s*<\/[^>]+>\s*<\/[^>]*Rank/i) ??
+      segment.match(/追い切り評価[^>]*>\s*([SABCD◎○△▲×])/);
+
+    if (rankM) {
+      const score = TRAINING_RANK_SCORE[rankM[1].trim()];
+      if (score !== undefined) map.set(horseName, score);
+    }
+  }
+
+  return map;
+}
+
+// ─── レース確定結果（着順） ───────────────────────────────────────────────────
+
+export type RaceFinishResult = {
+  position: number;
+  horseNumber: number;
+  horse: string;
+};
+
+/**
+ * db.netkeiba.com のレース結果ページから着順リストを返す。
+ * URL: https://db.netkeiba.com/race/[12桁ID]/
+ * テーブル列（0始まり）: 着順, 枠番, 馬番, 馬名, ...
+ */
+export async function fetchRaceResult(netKeibaRaceId: string): Promise<RaceFinishResult[]> {
+  await sleep(1200);
+  const url = `https://db.netkeiba.com/race/${netKeibaRaceId}/`;
+  try {
+    const html = await fetchEuc(url);
+    return parseFinishOrder(html);
+  } catch (e) {
+    console.warn(`  [scraper] fetchRaceResult failed (${netKeibaRaceId}):`, (e as Error).message);
+    return [];
+  }
+}
+
+function parseFinishOrder(html: string): RaceFinishResult[] {
+  const results: RaceFinishResult[] = [];
+  const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+  let m: RegExpExecArray | null;
+
+  while ((m = rowRe.exec(html)) !== null) {
+    const cells: string[] = [];
+    const cellRe = /<td[^>]*>([\s\S]*?)<\/td>/gi;
+    let cm: RegExpExecArray | null;
+    while ((cm = cellRe.exec(m[1])) !== null) {
+      cells.push(stripTags(cm[1]));
+    }
+    if (cells.length < 4) continue;
+
+    const pos = parseInt(cells[0], 10);
+    if (isNaN(pos) || pos < 1 || pos > 18) continue;
+
+    const horseNum = parseInt(cells[2], 10);
+    if (isNaN(horseNum) || horseNum < 1 || horseNum > 18) continue;
+
+    const horse = cells[3].trim();
+    if (!horse || horse.length < 2) continue;
+
+    results.push({ position: pos, horseNumber: horseNum, horse });
+  }
+
+  return results.sort((a, b) => a.position - b.position);
 }
 
 // ─── 週末レース一覧取得 ───────────────────────────────────────────────────────
