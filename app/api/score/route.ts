@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 import { NextResponse } from "next/server";
 import { calculateScore } from "@/lib/engine";
+import { calcComboBets } from "@/lib/combination-ev";
 import { races, horses, horseFeatures, marketOdds } from "@/lib/mockData";
 import type { HorseScores } from "@/lib/scorer";
 import type { RacesCache, CachedRace } from "@/scripts/fetch-races";
@@ -46,14 +47,14 @@ export async function GET(request: Request) {
 
   // races-cache.json があれば優先使用
   let race: { id: number; raceName: string; date: string; venue: string; raceNumber: number; postTime: string } | undefined;
-  let raceHorses: Array<{ id: number; horse: string; odds: number | null; jockey?: string }> = [];
+  let raceHorses: Array<{ id: number; horse: string; horseNumber: number; odds: number | null; jockey?: string }> = [];
   let usingRacesCache = false;
 
   if (racesCache) {
     const cr: CachedRace | undefined = racesCache.races.find((r) => r.id === raceId);
     if (cr) {
       race = { id: cr.id, raceName: cr.raceName, date: cr.date, venue: cr.venue, raceNumber: cr.raceNumber, postTime: cr.postTime };
-      raceHorses = cr.horses.map((h) => ({ id: h.id, horse: h.horse, odds: h.odds, jockey: h.jockey }));
+      raceHorses = cr.horses.map((h) => ({ id: h.id, horse: h.horse, horseNumber: h.horseNumber, odds: h.odds, jockey: h.jockey }));
       usingRacesCache = true;
     }
   }
@@ -65,7 +66,7 @@ export async function GET(request: Request) {
     race = mr;
     raceHorses = horses
       .filter((h) => h.raceId === raceId)
-      .map((h) => ({ id: h.id, horse: h.horse, odds: marketOdds.find((o) => o.horseId === h.id)?.odds ?? null }));
+      .map((h, i) => ({ id: h.id, horse: h.horse, horseNumber: (h as { horseNumber?: number }).horseNumber ?? (i + 1), odds: marketOdds.find((o) => o.horseId === h.id)?.odds ?? null }));
   }
 
   const usingScoresCache = Object.keys(scoresCache).length > 0;
@@ -128,10 +129,13 @@ export async function GET(request: Request) {
     })
   );
 
+  const horseNumberById = new Map(horsesWithOdds.map((h) => [h.id, h.horseNumber]));
+
   const toShape = (h: (typeof result.finalScores)[number]) => {
     const f = featuresById.get(h.id);
     return {
       horse: h.name,
+      horseNumber: horseNumberById.get(h.id) ?? 0,
       odds: h.odds,
       pTrue: h.probability,
       p_market: h.marketProb,
@@ -141,6 +145,14 @@ export async function GET(request: Request) {
       features: f ? { form: f.formScore, pedigree: f.pedigreeScore, training: f.trainingScore, jockey: f.jockeyScore } : null,
     };
   };
+
+  const harvilleInputs = result.finalScores.map((h) => ({
+    name: h.name,
+    horseNumber: horseNumberById.get(h.id) ?? 0,
+    probability: h.probability,
+    marketProb: h.marketProb,
+  }));
+  const comboBets = calcComboBets(harvilleInputs);
 
   const dataSource = usingRacesCache
     ? usingScoresCache ? "netkeiba（実データ）" : "netkeiba 出馬表（スコアはデフォルト値）"
@@ -159,5 +171,6 @@ export async function GET(request: Request) {
     valueRanking: result.valueRanking.map(toShape),
     evRanking: result.evRanking.map(toShape),
     edgeRanking: result.edgeRanking.map(toShape),
+    comboBets,
   });
 }
