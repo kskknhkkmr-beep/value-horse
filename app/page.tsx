@@ -21,13 +21,20 @@ type HorseScore = {
   valueRating: number;
 };
 
+type BacktestHorse = {
+  horse: string;
+  odds: number;
+  hit: boolean;
+  returnUnits: number;
+};
+
 type BacktestRaceRecord = {
   raceId: number;
   raceName: string;
   date: string;
   venue: string;
-  evPositive: string[];
   winner: string | null;
+  horses: BacktestHorse[];
   hit: boolean;
   investedUnits: number;
   returnUnits: number;
@@ -383,39 +390,73 @@ export default function Home() {
                   </div>
 
                   {/* レース別 */}
-                  <div className="border border-gray-200">
-                    <div className="grid grid-cols-[1fr_auto_auto] px-4 py-2 border-b border-gray-100 text-[10px] text-gray-400 tracking-wider">
-                      <span>レース</span>
-                      <span className="text-right mr-4">EV+</span>
-                      <span className="text-right">結果</span>
-                    </div>
-                    {backtest.records.map((r) => (
-                      <div
-                        key={r.raceId}
-                        className="grid grid-cols-[1fr_auto_auto] px-4 py-2.5 border-b border-gray-50 last:border-0 text-xs"
-                      >
-                        <div>
-                          <span className="text-gray-500 mr-2">{r.date.slice(5)}</span>
-                          <span className="text-gray-900">{r.raceName}</span>
+                  <div className="border border-gray-200 divide-y divide-gray-100">
+                    {backtest.records.filter((r) => r.investedUnits > 0).map((r) => {
+                      const netYen = Math.round((r.returnUnits - r.investedUnits) * unitAmount);
+                      return (
+                        <div key={r.raceId}>
+                          {/* レースヘッダー */}
+                          <div className="flex items-center justify-between px-4 py-2 bg-gray-50">
+                            <div className="flex items-center gap-2 text-xs">
+                              <span className={`font-bold ${r.hit ? "text-blue-600" : "text-gray-300"}`}>
+                                {r.hit ? "○" : "✗"}
+                              </span>
+                              <span className="text-gray-400">{r.date.slice(5)}</span>
+                              <span className="text-gray-500">{r.venue}</span>
+                              <span className="font-bold text-gray-900">{r.raceName}</span>
+                            </div>
+                            <div className={`text-xs font-bold tabular-nums ${netYen >= 0 ? "text-blue-600" : "text-red-400"}`}>
+                              {netYen >= 0 ? "+" : ""}{fmt(netYen)}円
+                            </div>
+                          </div>
+
+                          {/* 馬ヘッダー */}
+                          <div className="grid grid-cols-[1fr_4rem_5rem_3rem_6rem] px-4 py-1.5 text-[10px] text-gray-400 tracking-wider border-b border-gray-50">
+                            <span>馬名</span>
+                            <span className="text-right">オッズ</span>
+                            <span className="text-right">賭け金</span>
+                            <span className="text-center">結果</span>
+                            <span className="text-right">払戻</span>
+                          </div>
+
+                          {/* 馬ごと */}
+                          {r.horses.map((h) => {
+                            const betYen = unitAmount;
+                            const payYen = Math.round(h.returnUnits * unitAmount);
+                            return (
+                              <div
+                                key={h.horse}
+                                className={`grid grid-cols-[1fr_4rem_5rem_3rem_6rem] px-4 py-2 text-xs border-b border-gray-50 last:border-0 ${h.hit ? "bg-blue-50" : ""}`}
+                              >
+                                <span className={`font-bold truncate pr-2 ${h.hit ? "text-blue-700" : "text-gray-700"}`}>
+                                  {h.horse}
+                                </span>
+                                <span className="text-right text-gray-500 tabular-nums">{h.odds}倍</span>
+                                <span className="text-right text-gray-500 tabular-nums">{fmt(betYen)}円</span>
+                                <span className={`text-center font-bold ${h.hit ? "text-blue-600" : "text-gray-300"}`}>
+                                  {h.hit ? "○" : "✗"}
+                                </span>
+                                <span className={`text-right font-bold tabular-nums ${h.hit ? "text-blue-600" : "text-red-400"}`}>
+                                  {h.hit ? `+${fmt(payYen - betYen)}円` : `−${fmt(betYen)}円`}
+                                </span>
+                              </div>
+                            );
+                          })}
+
+                          {/* レース小計 */}
+                          <div className="grid grid-cols-[1fr_auto] px-4 py-2 text-[10px] text-gray-400 tabular-nums border-t border-gray-100">
+                            <span>{r.investedUnits}点 / 投資 {fmt(r.investedUnits * unitAmount)}円 / 払戻 {fmt(Math.round(r.returnUnits * unitAmount))}円</span>
+                            <span className={`font-bold ${netYen >= 0 ? "text-blue-600" : "text-red-400"}`}>
+                              {netYen >= 0 ? "+" : ""}{fmt(netYen)}円
+                            </span>
+                          </div>
                         </div>
-                        <div className="text-right mr-4 text-gray-400 tabular-nums">
-                          {r.investedUnits > 0 ? `${r.investedUnits}頭` : "─"}
-                        </div>
-                        <div className="text-right tabular-nums">
-                          {r.investedUnits === 0 ? (
-                            <span className="text-gray-300">─</span>
-                          ) : r.hit ? (
-                            <span className="font-bold text-blue-600">+{fmt(Math.round((r.returnUnits - r.investedUnits) * unitAmount))}円</span>
-                          ) : (
-                            <span className="text-red-400">−{fmt(r.investedUnits * unitAmount)}円</span>
-                          )}
-                        </div>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
 
                   <div className="text-[10px] text-gray-300 text-right">
-                    {backtest.totalBets}点 投資 / 払戻 {fmt(Math.round(backtest.totalReturn * unitAmount))}円 合計
+                    {backtest.totalBets}点 / 投資 {fmt(backtest.totalBets * unitAmount)}円 / 払戻 {fmt(Math.round(backtest.totalReturn * unitAmount))}円
                   </div>
                 </div>
               )}

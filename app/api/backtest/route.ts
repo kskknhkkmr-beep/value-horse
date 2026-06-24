@@ -23,16 +23,23 @@ function loadJSON<T>(filename: string): T | null {
   }
 }
 
+export type BacktestHorse = {
+  horse: string;
+  odds: number;
+  hit: boolean;
+  returnUnits: number; // 的中時 = odds, 外れ時 = 0
+};
+
 export type BacktestRaceRecord = {
   raceId: number;
   raceName: string;
   date: string;
   venue: string;
-  evPositive: string[];        // EV+と判定した馬名リスト
-  winner: string | null;       // 実際の1着馬名
-  hit: boolean;                // EV+馬が1着に入ったか
-  investedUnits: number;       // 投じた単位数（EV+馬の頭数）
-  returnUnits: number;         // 実際の払い戻し（単位）
+  winner: string | null;
+  horses: BacktestHorse[];  // EV+と判定した馬の詳細
+  hit: boolean;             // いずれかの馬が的中
+  investedUnits: number;
+  returnUnits: number;
 };
 
 export type BacktestResponse = {
@@ -105,33 +112,25 @@ export async function GET() {
     const winner = resultEntry.finishers.find((f) => f.position === 1);
     const winnerName = winner?.horse ?? null;
 
-    const hit = evPositiveHorses.some((h) => h.name === winnerName) ||
-      evPositiveHorses.some((h) => {
-        // 馬番でも照合（名前の表記揺れ対策）
-        const wNum = winner?.horseNumber;
-        const hEntry = horsesWithOdds.find((e) => e.horse === h.name);
-        return wNum != null && hEntry?.horseNumber === wNum;
-      });
+    const horsesDetail: BacktestHorse[] = evPositiveHorses.map((h) => {
+      const hEntry = horsesWithOdds.find((e) => e.horse === h.name);
+      const isHit =
+        h.name === winnerName ||
+        (winner?.horseNumber != null && hEntry?.horseNumber === winner.horseNumber);
+      return { horse: h.name, odds: h.odds, hit: isHit, returnUnits: isHit ? h.odds : 0 };
+    });
 
-    // 1着馬のオッズ: races-cache → results-cache の順で取得
-    const winnerOdds = (() => {
-      const w = horsesWithOdds.find(
-        (e) => e.horse === winnerName || e.horseNumber === winner?.horseNumber
-      );
-      if (w?.odds) return w.odds;
-      return winner?.odds ?? null;
-    })();
-
-    const investedUnits = evPositiveHorses.length;
-    const returnUnits = hit && winnerOdds != null ? winnerOdds : 0;
+    const hit = horsesDetail.some((h) => h.hit);
+    const investedUnits = horsesDetail.length;
+    const returnUnits = horsesDetail.reduce((s, h) => s + h.returnUnits, 0);
 
     records.push({
       raceId: race.id,
       raceName: race.raceName,
       date: race.date,
       venue: race.venue,
-      evPositive: evPositiveHorses.map((h) => h.name),
       winner: winnerName,
+      horses: horsesDetail,
       hit,
       investedUnits,
       returnUnits,
