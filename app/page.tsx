@@ -58,6 +58,7 @@ type BacktestResponse = {
   totalReturn: number;
   roi: number;
   hitRate: number;
+  realDataOnly: boolean;
   records: BacktestRaceRecord[];
 };
 
@@ -85,7 +86,7 @@ const COMBO_LABELS: Record<string, string> = {
 
 const EV_MIN = 0.10;
 const EDGE_MIN = 0.02;
-const ODDS_MAX = 30;
+const ODDS_MAX = 50;
 
 function fmt(n: number) {
   return n.toLocaleString("ja-JP");
@@ -98,6 +99,7 @@ export default function Home() {
   const [unitAmount, setUnitAmount] = useState(1000);
   const [backtest, setBacktest] = useState<BacktestResponse | null>(null);
   const [showBacktest, setShowBacktest] = useState(false);
+  const [realDataOnly, setRealDataOnly] = useState(false);
 
   useEffect(() => {
     fetch("/api/races")
@@ -113,12 +115,13 @@ export default function Home() {
   }, [selectedRaceId]);
 
   useEffect(() => {
-    if (!showBacktest || backtest) return;
-    fetch("/api/backtest")
+    if (!showBacktest) return;
+    setBacktest(null);
+    fetch(`/api/backtest${realDataOnly ? "?realDataOnly=1" : ""}`)
       .then((r) => r.json())
       .then((data: BacktestResponse) => setBacktest(data))
       .catch(() => {});
-  }, [showBacktest, backtest]);
+  }, [showBacktest, realDataOnly]);
 
   const evPositive = (score?.evRanking ?? []).filter(
     (h) => h.ev > EV_MIN && h.edge > EDGE_MIN && h.odds <= ODDS_MAX
@@ -307,13 +310,25 @@ export default function Home() {
 
         {/* ── バックテスト ── */}
         <section>
-          <button
-            onClick={() => setShowBacktest((v) => !v)}
-            className="w-full flex items-center justify-between py-2 text-[10px] tracking-[0.2em] text-gray-400 uppercase border-t border-gray-100"
-          >
-            <span>実績</span>
-            <span>{showBacktest ? "▲" : "▼"}</span>
-          </button>
+          <div className="flex items-center justify-between py-2 border-t border-gray-100">
+            <button
+              onClick={() => setShowBacktest((v) => !v)}
+              className="text-[10px] tracking-[0.2em] text-gray-400 uppercase"
+            >
+              実績 {showBacktest ? "▲" : "▼"}
+            </button>
+            {showBacktest && (
+              <label className="flex items-center gap-1.5 cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={realDataOnly}
+                  onChange={(e) => setRealDataOnly(e.target.checked)}
+                  className="w-3 h-3 accent-gray-500"
+                />
+                <span className="text-[10px] text-gray-400">form実データのみ</span>
+              </label>
+            )}
+          </div>
 
           {showBacktest && (
             <div className="mt-2">

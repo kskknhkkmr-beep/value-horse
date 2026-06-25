@@ -9,7 +9,7 @@ import type { HorseScores } from "@/lib/scorer";
 
 const EV_MIN = 0.10;
 const EDGE_MIN = 0.02;
-const ODDS_MAX = 30;
+const ODDS_MAX = 50;
 
 type ScoresCache = Record<number, HorseScores>;
 
@@ -48,12 +48,16 @@ export type BacktestResponse = {
   racesWithEvPositive: number;
   totalBets: number;
   totalReturn: number;
-  roi: number;                 // (totalReturn - totalBets) / totalBets * 100
-  hitRate: number;             // 1着的中率（EV+馬が1着に入ったレース / EV+馬がいたレース）
+  roi: number;
+  hitRate: number;
+  realDataOnly: boolean;
   records: BacktestRaceRecord[];
 };
 
-export async function GET() {
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const realDataOnly = searchParams.get("realDataOnly") === "1";
+
   const racesCache = loadJSON<RacesCache>("races-cache.json");
   const scoresCache = loadJSON<{ scores?: Record<string, HorseScores> }>("scores-cache.json");
   const resultsCache = loadJSON<ResultsCache>("results-cache.json");
@@ -74,6 +78,15 @@ export async function GET() {
 
   for (const race of racesCache.races) {
     if (race.entriesPending || race.horses.length === 0) continue;
+
+    // realDataOnly: formScore・pedigreeScore が全頭実データ（≠65）のレースに限定
+    if (realDataOnly) {
+      const allReal = race.horses.every((h) => {
+        const s = scoresById[h.id];
+        return s && s.formScore !== 65 && s.pedigreeScore !== 65;
+      });
+      if (!allReal) continue;
+    }
 
     const resultEntry = resultsCache.results.find((r) => r.raceId === race.id);
     if (!resultEntry || resultEntry.finishers.length === 0) continue;
@@ -146,13 +159,16 @@ export async function GET() {
   const hitRate = racesWithEvPositive > 0 ? (hitRaceCount / racesWithEvPositive) * 100 : 0;
 
   return NextResponse.json({
-    totalRaces: racesCache.races.length,
+    totalRaces: realDataOnly
+      ? records.length  // フィルタ後レース数
+      : racesCache.races.length,
     racesWithResult,
     racesWithEvPositive,
     totalBets,
     totalReturn,
     roi,
     hitRate,
+    realDataOnly,
     records,
   } satisfies BacktestResponse);
 }
