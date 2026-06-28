@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T07:14:30.226Z",
+  "fetchedAt": "2026-06-28T07:23:03.922Z",
   "results": [
     {
       "raceId": 25,
@@ -8493,7 +8493,92 @@
       "raceNumber": 12,
       "date": "2026-06-28",
       "venue": "函館",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 12,
+          "horse": "クリエープキー",
+          "odds": 16
+        },
+        {
+          "position": 2,
+          "horseNumber": 14,
+          "horse": "ホワイトドラゴン",
+          "odds": 3.9
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "ビーコング",
+          "odds": 118.6
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "シーグルロス",
+          "odds": 8.4
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "エクストラバック",
+          "odds": 9.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "ヴィヴァクラウン",
+          "odds": 8.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "サンドロナイト",
+          "odds": 15.7
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "フェアリーライズ",
+          "odds": 40.6
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "ライツユーアップ",
+          "odds": 71.1
+        },
+        {
+          "position": 10,
+          "horseNumber": 5,
+          "horse": "キープサインオン",
+          "odds": 25.5
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "ウチュウノセカイ",
+          "odds": 3.7
+        },
+        {
+          "position": 12,
+          "horseNumber": 1,
+          "horse": "ガットネロ",
+          "odds": 34.3
+        },
+        {
+          "position": 13,
+          "horseNumber": 2,
+          "horse": "エルサトアナ",
+          "odds": 6.8
+        },
+        {
+          "position": 14,
+          "horseNumber": 13,
+          "horse": "ゴキゲンサン",
+          "odds": 83.3
+        }
+      ]
     },
     {
       "raceId": 25,
@@ -9388,6 +9473,72 @@
           "horseNumber": 10,
           "horse": "ガリレア",
           "odds": 151.8
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "サイモンシャリオ",
+          "odds": 59.5
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ジーネキング",
+          "odds": 11.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "コルテオソレイユ",
+          "odds": 7.8
+        },
+        {
+          "position": 9,
+          "horseNumber": 2,
+          "horse": "クカイリモク",
+          "odds": 18.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "ルージュボヤージュ",
+          "odds": 9
+        },
+        {
+          "position": 11,
+          "horseNumber": 12,
+          "horse": "ローベルクランツ",
+          "odds": 6.3
+        },
+        {
+          "position": 12,
+          "horseNumber": 7,
+          "horse": "ショウナンガルフ",
+          "odds": 79.2
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "キンググローリー",
+          "odds": 18.6
+        },
+        {
+          "position": 14,
+          "horseNumber": 16,
+          "horse": "スペルーチェ",
+          "odds": 21.7
+        },
+        {
+          "position": 15,
+          "horseNumber": 11,
+          "horse": "コロナドブリッジ",
+          "odds": 27.2
+        },
+        {
+          "position": 16,
+          "horseNumber": 14,
+          "horse": "スカイスプレンダー",
+          "odds": 13.8
         }
       ]
     },
