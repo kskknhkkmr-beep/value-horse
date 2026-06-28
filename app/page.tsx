@@ -106,6 +106,8 @@ export default function Home() {
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   // レースアコーディオン
   const [openRaces, setOpenRaces] = useState<Set<number>>(new Set());
+  // 買い目券種アコーディオン（モバイルでデフォルト折りたたみ）
+  const [openBetTypes, setOpenBetTypes] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     fetch("/api/races")
@@ -169,6 +171,15 @@ export default function Home() {
     setSelectedMonth(null);
     setSelectedDate(null);
     setOpenRaces(new Set());
+  }
+
+  function toggleBetType(type: string) {
+    setOpenBetTypes((prev) => {
+      const next = new Set(prev);
+      if (next.has(type)) next.delete(type);
+      else next.add(type);
+      return next;
+    });
   }
 
   function toggleRace(raceId: number) {
@@ -318,37 +329,54 @@ export default function Home() {
                       </div>
                     )}
 
-                    {/* 複合券種 */}
+                    {/* 複合券種（モバイルでデフォルト折りたたみ） */}
                     {(["umaren", "umatan", "wide", "sanrenpuku", "sanrentan"] as const).map((type) => {
                       const bets = comboBets.filter((b) => b.type === type);
                       if (bets.length === 0) return null;
+                      const isTypeOpen = openBetTypes.has(type);
+                      const maxEv = Math.max(...bets.map((b) => b.ev));
                       return (
                         <div key={type}>
-                          <div className="px-4 py-2 bg-gray-50">
+                          {/* 見出し：モバイルでタップ開閉、デスクトップは装飾のみ */}
+                          <button
+                            className="w-full px-4 py-2 bg-gray-50 flex items-center justify-between text-left"
+                            onClick={() => toggleBetType(type)}
+                          >
                             <span className="text-xs font-bold text-gray-700 tracking-wider">
                               {COMBO_LABELS[type]}
+                              {!isTypeOpen && (
+                                <span className="lg:hidden text-[10px] font-normal text-gray-400 ml-2 tabular-nums">
+                                  {bets.length}件 最大EV+{maxEv.toFixed(2)}
+                                </span>
+                              )}
                             </span>
+                            <span className="lg:hidden text-gray-300 text-[10px]">
+                              {isTypeOpen ? "▾" : "▸"}
+                            </span>
+                          </button>
+                          {/* コンテンツ：モバイルは開閉、デスクトップは常時表示 */}
+                          <div className={`${isTypeOpen ? "" : "hidden"} lg:block`}>
+                            <div className="grid grid-cols-[1fr_4rem_4rem_6rem] px-4 py-1.5 text-[10px] text-gray-400 tracking-wider border-b border-gray-50">
+                              <span>組み合わせ</span>
+                              <span className="text-right">推定</span>
+                              <span className="text-right">EV</span>
+                              <span className="text-right">想定利益</span>
+                            </div>
+                            {bets.map((bet) => {
+                              const profit = Math.round(bet.ev * unitAmount);
+                              return (
+                                <div
+                                  key={bet.label}
+                                  className="grid grid-cols-[1fr_4rem_4rem_6rem] items-center px-4 py-2.5 text-xs border-t border-gray-50"
+                                >
+                                  <span className="font-bold text-gray-900 tabular-nums">{bet.label}</span>
+                                  <span className="text-right text-gray-500 tabular-nums">{bet.estOdds.toFixed(1)}倍</span>
+                                  <span className="text-right font-bold text-blue-600 tabular-nums">+{bet.ev.toFixed(2)}</span>
+                                  <span className="text-right font-bold text-blue-600 tabular-nums">+{fmt(profit)}円</span>
+                                </div>
+                              );
+                            })}
                           </div>
-                          <div className="grid grid-cols-[1fr_4rem_4rem_6rem] px-4 py-1.5 text-[10px] text-gray-400 tracking-wider border-b border-gray-50">
-                            <span>組み合わせ</span>
-                            <span className="text-right">推定</span>
-                            <span className="text-right">EV</span>
-                            <span className="text-right">想定利益</span>
-                          </div>
-                          {bets.map((bet) => {
-                            const profit = Math.round(bet.ev * unitAmount);
-                            return (
-                              <div
-                                key={bet.label}
-                                className="grid grid-cols-[1fr_4rem_4rem_6rem] items-center px-4 py-2.5 text-xs border-t border-gray-50"
-                              >
-                                <span className="font-bold text-gray-900 tabular-nums">{bet.label}</span>
-                                <span className="text-right text-gray-500 tabular-nums">{bet.estOdds.toFixed(1)}倍</span>
-                                <span className="text-right font-bold text-blue-600 tabular-nums">+{bet.ev.toFixed(2)}</span>
-                                <span className="text-right font-bold text-blue-600 tabular-nums">+{fmt(profit)}円</span>
-                              </div>
-                            );
-                          })}
                         </div>
                       );
                     })}
@@ -572,9 +600,9 @@ export default function Home() {
                                     return (
                                       <div key={h.horse} className="flex items-center gap-2 text-xs py-1.5 bg-blue-50 px-2 -mx-2">
                                         <span className="shrink-0 font-bold text-blue-500 w-3">◎</span>
-                                        <span className="flex-1 font-bold text-blue-700">{h.horse}</span>
+                                        <span className="flex-1 min-w-0 font-bold text-blue-700 break-all">{h.horse}</span>
                                         <span className="shrink-0 text-gray-400 tabular-nums">{h.odds}倍</span>
-                                        <span className="shrink-0 font-bold text-blue-600 tabular-nums">
+                                        <span className="shrink-0 font-bold text-blue-600 tabular-nums w-[5.5rem] text-right">
                                           +{fmt(payYen - unitAmount)}円
                                         </span>
                                       </div>
@@ -584,7 +612,7 @@ export default function Home() {
                                     <div className="flex items-center gap-2 text-xs py-1 text-gray-400">
                                       <span className="shrink-0 w-3"></span>
                                       <span className="flex-1">外れ {missCount}点</span>
-                                      <span className="tabular-nums">−{fmt(missCount * unitAmount)}円</span>
+                                      <span className="tabular-nums w-[5.5rem] text-right">−{fmt(missCount * unitAmount)}円</span>
                                     </div>
                                   )}
                                   <div className="text-[10px] text-gray-300 text-right pt-1 border-t border-gray-50 tabular-nums">
