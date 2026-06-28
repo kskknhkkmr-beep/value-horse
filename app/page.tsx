@@ -132,7 +132,7 @@ export default function Home() {
     (h) => h.ev > EV_MIN && h.edge > EDGE_MIN && h.odds <= ODDS_MAX
   );
 
-  const topHorse = score?.evRanking?.[0] ?? null;
+  const topHorse = evPositive[0] ?? null;
   const comboBets = score?.comboBets ?? [];
   const hasBets = evPositive.length > 0 || comboBets.length > 0;
 
