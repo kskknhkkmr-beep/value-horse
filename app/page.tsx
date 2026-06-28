@@ -138,8 +138,10 @@ export default function Home() {
   const comboBets = score?.comboBets ?? [];
   const hasBets = evPositive.length > 0 || comboBets.length > 0;
 
-  // 過去実績の階層ナビ用データ
+  // 過去実績: EV+レースのみ（ナビ用カウント・統計）
   const activeRecords = (backtest?.records ?? []).filter((r) => r.investedUnits > 0);
+  // 全レース（見送り含む）— レース一覧表示に使用
+  const allRecords = backtest?.records ?? [];
 
   const years = [...new Set(activeRecords.map((r) => r.date.slice(0, 4)))].sort().reverse();
 
@@ -160,8 +162,9 @@ export default function Home() {
         )].sort().reverse()
       : [];
 
+  // ナビ用カウントは activeRecords（EV+のみ）、表示は allRecords（見送り含む全件）
   const recordsForDate = selectedDate
-    ? activeRecords.filter((r) => r.date === selectedDate)
+    ? allRecords.filter((r) => r.date === selectedDate)
     : [];
 
   const venuesForDate = [...new Set(recordsForDate.map((r) => r.venue))];
@@ -565,12 +568,24 @@ export default function Home() {
                         </div>
 
                         {venueRecords.map((r) => {
+                          const isMissPass = r.investedUnits === 0;
                           const netYen = Math.round(
                             (r.returnUnits - r.investedUnits) * unitAmount
                           );
                           const isOpen = openRaces.has(r.raceId);
-                          const hitHorses = r.horses.filter((h) => h.hit);
-                          const missCount = r.horses.filter((h) => !h.hit).length;
+
+                          // 見送りレース（EV+の馬なし）
+                          if (isMissPass) {
+                            return (
+                              <div key={r.raceId} className="border-t border-gray-100 flex items-center gap-2 px-4 py-2.5 text-xs">
+                                <span className="shrink-0 font-bold text-gray-200 w-3">−</span>
+                                <span className="shrink-0 text-gray-300 tabular-nums w-6">{r.raceNumber}R</span>
+                                <span className="flex-1 text-gray-300 truncate">{r.raceName}</span>
+                                <span className="shrink-0 text-[10px] text-gray-300 border border-gray-200 rounded px-1">見送り</span>
+                                <span className="shrink-0 w-3"></span>
+                              </div>
+                            );
+                          }
 
                           return (
                             <div key={r.raceId} className="border-t border-gray-100">
@@ -592,29 +607,28 @@ export default function Home() {
                                 </span>
                               </button>
 
-                              {/* 展開時：的中馬 + 外れ集約 */}
+                              {/* 展開時：全馬個別表示（的中・外れ問わず） */}
                               {isOpen && (
                                 <div className="px-4 pb-3 space-y-1 border-t border-gray-50">
-                                  {hitHorses.map((h) => {
-                                    const payYen = Math.round(h.returnUnits * unitAmount);
+                                  {r.horses.map((h) => {
+                                    const horseNet = h.hit
+                                      ? Math.round((h.returnUnits - 1) * unitAmount)
+                                      : -unitAmount;
                                     return (
-                                      <div key={h.horse} className="flex items-center gap-2 text-xs py-1.5 bg-blue-50 px-2 -mx-2">
-                                        <span className="shrink-0 font-bold text-blue-500 w-3">◎</span>
-                                        <span className="flex-1 min-w-0 font-bold text-blue-700 break-all">{h.horse}</span>
+                                      <div key={h.horse} className={`flex items-center gap-2 text-xs py-1.5 px-2 -mx-2 ${h.hit ? "bg-blue-50" : ""}`}>
+                                        <span className={`shrink-0 font-bold w-3 ${h.hit ? "text-blue-500" : "text-gray-300"}`}>
+                                          {h.hit ? "◎" : "✗"}
+                                        </span>
+                                        <span className={`flex-1 min-w-0 font-bold break-all ${h.hit ? "text-blue-700" : "text-gray-600"}`}>
+                                          {h.horse}
+                                        </span>
                                         <span className="shrink-0 text-gray-400 tabular-nums">{h.odds}倍</span>
-                                        <span className="shrink-0 font-bold text-blue-600 tabular-nums w-[5.5rem] text-right">
-                                          +{fmt(payYen - unitAmount)}円
+                                        <span className={`shrink-0 font-bold tabular-nums w-[5.5rem] text-right ${h.hit ? "text-blue-600" : "text-gray-400"}`}>
+                                          {h.hit ? `+${fmt(horseNet)}` : `−${fmt(unitAmount)}`}円
                                         </span>
                                       </div>
                                     );
                                   })}
-                                  {missCount > 0 && (
-                                    <div className="flex items-center gap-2 text-xs py-1 text-gray-400">
-                                      <span className="shrink-0 w-3"></span>
-                                      <span className="flex-1">外れ {missCount}点</span>
-                                      <span className="tabular-nums w-[5.5rem] text-right">−{fmt(missCount * unitAmount)}円</span>
-                                    </div>
-                                  )}
                                   <div className="text-[10px] text-gray-300 text-right pt-1 border-t border-gray-50 tabular-nums">
                                     {r.investedUnits}点 / 投資 {fmt(r.investedUnits * unitAmount)}円 / 払戻 {fmt(Math.round(r.returnUnits * unitAmount))}円
                                   </div>
