@@ -32,6 +32,7 @@ export type BacktestHorse = {
 
 export type BacktestRaceRecord = {
   raceId: number;
+  raceNumber: number;
   raceName: string;
   date: string;
   venue: string;
@@ -88,7 +89,7 @@ export async function GET(request: Request) {
       if (!allReal) continue;
     }
 
-    const resultEntry = resultsCache.results.find((r) => r.raceId === race.id);
+    const resultEntry = resultsCache.results.find((r) => r.netKeibaRaceId === race.netKeibaRaceId);
     if (!resultEntry || resultEntry.finishers.length === 0) continue;
 
     // races-cache の odds が null の場合は results-cache の確定オッズを補完
@@ -139,6 +140,7 @@ export async function GET(request: Request) {
 
     records.push({
       raceId: race.id,
+      raceNumber: race.raceNumber,
       raceName: race.raceName,
       date: race.date,
       venue: race.venue,
