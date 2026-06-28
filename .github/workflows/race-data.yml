@@ -1,0 +1,91 @@
+name: Race Data Auto-Update
+
+# ─── トリガー ──────────────────────────────────────────────────────────────────
+#
+#  ① 朝 7:00 JST（土・日）— 出馬表 + スコア フル取得
+#       土曜 7:00 JST = 金曜 22:00 UTC → cron: '0 22 * * 5'
+#       日曜 7:00 JST = 土曜 22:00 UTC → cron: '0 22 * * 6'
+#
+#  ② 9:00〜16:45 JST を 15 分ごと（土・日）— オッズのみ更新
+#       9:00〜16:45 JST = 0:00〜7:45 UTC の土（6）・日（0）
+#       → cron: '*/15 0-7 * * 0,6'
+#
+#  推定コスト（月）:
+#    朝フル取得  : ~30 分 × 2 日 × 4 週 = 240 分
+#    オッズ更新  : ~2 分 × 32 回 × 2 日 × 4 週 = 512 分（CI 起動含む ~4 分 × 32 × 2 × 4 = 1,024 分）
+#    合計 < 1,300 分 → 無料枠 2,000 分以内
+#
+#  ※ 平日開催（祝日レース等）は workflow_dispatch で手動実行してください。
+#
+on:
+  schedule:
+    - cron: '0 22 * * 5'     # 土曜 7:00 JST (金曜 22:00 UTC)
+    - cron: '0 22 * * 6'     # 日曜 7:00 JST (土曜 22:00 UTC)
+    - cron: '*/15 0-7 * * 0,6'  # 9:00〜16:45 JST を 15 分ごと（土・日）
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'フェッチモード: all=出馬表+スコア全取得 / odds=オッズのみ更新'
+        required: true
+        default: 'odds'
+        type: choice
+        options:
+          - all
+          - odds
+
+# ─── 同時実行制御 ─────────────────────────────────────────────────────────────
+# 同じグループの実行が重なった場合はキューイング（キャンセルしない）
+concurrency:
+  group: race-data
+  cancel-in-progress: false
+
+# ─── ジョブ ───────────────────────────────────────────────────────────────────
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 依存関係インストール
+        run: npm ci
+
+      # UTC 22:00 = 朝フル取得、それ以外 = オッズ更新
+      - name: モード判定
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "$(date -u +%H)" = "22" ]; then
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=odds" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 全データ取得（出馬表 + スコア）
+        if: steps.mode.outputs.mode == 'all'
+        run: npm run fetch-all
+
+      - name: オッズ更新（発走前直前）
+        if: steps.mode.outputs.mode == 'odds'
+        run: npm run fetch-odds
+
+      - name: 変更をコミット & プッシュ
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add lib/races-cache.json lib/scores-cache.json
+          if git diff --cached --quiet; then
+            echo "変更なし — スキップ"
+          else
+            git commit -m "data: auto-update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

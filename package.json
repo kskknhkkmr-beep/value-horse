@@ -10,6 +10,7 @@
     "fetch-races": "tsx scripts/fetch-races.ts",
     "fetch-scores": "tsx scripts/fetch-scores.ts",
     "fetch-results": "tsx scripts/fetch-results.ts",
+    "fetch-odds": "tsx scripts/fetch-odds.ts",
     "fetch-all": "npm run fetch-races && npm run fetch-scores"
   },
   "dependencies": {
