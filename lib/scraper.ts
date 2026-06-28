@@ -353,20 +353,75 @@ export type RaceFinishResult = {
 };
 
 /**
- * db.netkeiba.com のレース結果ページから着順リストを返す。
- * URL: https://db.netkeiba.com/race/[12桁ID]/
- * テーブル列（0始まり）: 着順, 枠番, 馬番, 馬名, ...
+ * race.netkeiba.com の結果ページから着順リストを返す（当日結果はこちらが速い）。
+ * db.netkeiba.com は結果反映が数時間遅れる場合がある。
+ * URL: https://race.netkeiba.com/race/result.html?race_id=[12桁ID]
  */
 export async function fetchRaceResult(netKeibaRaceId: string): Promise<RaceFinishResult[]> {
   await sleep(1200);
-  const url = `https://db.netkeiba.com/race/${netKeibaRaceId}/`;
+  // 1st try: race.netkeiba.com (当日反映が速い・PC UA で取得)
   try {
+    const url = `https://race.netkeiba.com/race/result.html?race_id=${netKeibaRaceId}`;
+    const html = await fetchEuc(url); // fetchEuc は PC UA + 自動エンコード検出
+    const results = parseFinishOrderSP(html);
+    if (results.length > 0) return results;
+  } catch {
+    // fall through to DB
+  }
+  // 2nd try: db.netkeiba.com (過去データの保険)
+  try {
+    const url = `https://db.netkeiba.com/race/${netKeibaRaceId}/`;
     const html = await fetchEuc(url);
     return parseFinishOrder(html);
   } catch (e) {
     console.warn(`  [scraper] fetchRaceResult failed (${netKeibaRaceId}):`, (e as Error).message);
     return [];
   }
+}
+
+/**
+ * race.netkeiba.com/race/result.html の HTML をパース。
+ * 構造: <tr class="HorseList"> 内に
+ *   .Result_Num > .Rank   → 着順
+ *   .Num.Txt_C > div       → 馬番（2列目の Num）
+ *   .HorseNameSpan         → 馬名
+ *   .Odds.Txt_R > span     → 単勝オッズ
+ */
+function parseFinishOrderSP(html: string): RaceFinishResult[] {
+  const results: RaceFinishResult[] = [];
+  // HorseList 行を抽出（FirstDisplay HorseList または HorseList）
+  const rowRe = /<tr[^>]+HorseList[^>]*>([\s\S]*?)<\/tr>/gi;
+  let m: RegExpExecArray | null;
+
+  while ((m = rowRe.exec(html)) !== null) {
+    const row = m[1];
+
+    // 着順
+    const rankM = row.match(/<div[^>]*class="Rank"[^>]*>(\d+)<\/div>/);
+    if (!rankM) continue;
+    const pos = parseInt(rankM[1], 10);
+    if (isNaN(pos) || pos < 1 || pos > 18) continue;
+
+    // 馬番: class="Num Txt_C" の <div> 内
+    const horseNumM = row.match(/<td[^>]*class="Num Txt_C"[^>]*>\s*<div>\s*(\d+)\s*<\/div>/);
+    if (!horseNumM) continue;
+    const horseNumber = parseInt(horseNumM[1], 10);
+    if (isNaN(horseNumber) || horseNumber < 1 || horseNumber > 18) continue;
+
+    // 馬名
+    const horseM = row.match(/<span[^>]*class="HorseNameSpan"[^>]*>\s*([^<]+)\s*<\/span>/);
+    if (!horseM) continue;
+    const horse = horseM[1].trim();
+    if (!horse || horse.length < 2) continue;
+
+    // 単勝オッズ: class="Odds Txt_R" の <span>
+    const oddsM = row.match(/<td[^>]*class="Odds Txt_R"[^>]*>\s*<span[^>]*>\s*([\d.]+)\s*<\/span>/);
+    const odds = oddsM ? parseFloat(oddsM[1]) : null;
+
+    results.push({ position: pos, horseNumber, horse, odds: odds && odds >= 1 ? odds : null });
+  }
+
+  return results.sort((a, b) => a.position - b.position);
 }
 
 function parseFinishOrder(html: string): RaceFinishResult[] {
@@ -393,16 +448,15 @@ function parseFinishOrder(html: string): RaceFinishResult[] {
     if (!horse || horse.length < 2) continue;
 
     // 単勝オッズ: 列 16 (標準位置)、なければ 14-18 の小数値から取得
-    // col18 = 馬体重(整数)、col17 = 人気(整数)、col16 = オッズ(小数)
     let odds: number | null = null;
     const tryCol = (ci: number) => {
       if (ci >= cells.length) return;
       const raw = cells[ci];
-      if (!raw.includes(".")) return; // オッズは必ず小数点あり
+      if (!raw.includes(".")) return;
       const v = parseFloat(raw.replace(/[^\d.]/g, ""));
       if (!isNaN(v) && v >= 1.0 && v <= 999.9) odds = v;
     };
-    tryCol(16); // 標準位置
+    tryCol(16);
     if (odds === null) { tryCol(15); tryCol(14); tryCol(17); }
 
     results.push({ position: pos, horseNumber: horseNum, horse, odds });
