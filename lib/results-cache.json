@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T07:23:03.922Z",
+  "fetchedAt": "2026-06-28T07:46:36.632Z",
   "results": [
     {
       "raceId": 25,
@@ -7600,7 +7600,104 @@
       "raceNumber": 12,
       "date": "2026-06-28",
       "venue": "小倉",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "ニシノジェダイ",
+          "odds": 5.5
+        },
+        {
+          "position": 2,
+          "horseNumber": 13,
+          "horse": "モズプリヴェール",
+          "odds": 19.4
+        },
+        {
+          "position": 3,
+          "horseNumber": 12,
+          "horse": "ブラックレジェンド",
+          "odds": 3.2
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "ミランド",
+          "odds": 10.1
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "チャチャピンク",
+          "odds": 37.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "アンティーム",
+          "odds": 4.3
+        },
+        {
+          "position": 7,
+          "horseNumber": 14,
+          "horse": "ライラックデューン",
+          "odds": 200
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "ミッションルース",
+          "odds": 67.7
+        },
+        {
+          "position": 9,
+          "horseNumber": 15,
+          "horse": "ロードシュヴァリエ",
+          "odds": 36.1
+        },
+        {
+          "position": 10,
+          "horseNumber": 11,
+          "horse": "バトゥカーダ",
+          "odds": 9.6
+        },
+        {
+          "position": 11,
+          "horseNumber": 16,
+          "horse": "ルシャリオ",
+          "odds": 62.2
+        },
+        {
+          "position": 12,
+          "horseNumber": 4,
+          "horse": "ブルーカミング",
+          "odds": 233.5
+        },
+        {
+          "position": 13,
+          "horseNumber": 10,
+          "horse": "クイノールト",
+          "odds": 30.2
+        },
+        {
+          "position": 14,
+          "horseNumber": 9,
+          "horse": "ポルトドール",
+          "odds": 52.8
+        },
+        {
+          "position": 15,
+          "horseNumber": 8,
+          "horse": "セルジュバローズ",
+          "odds": 10.2
+        },
+        {
+          "position": 16,
+          "horseNumber": 2,
+          "horse": "バロニアル",
+          "odds": 25.5
+        }
+      ]
     },
     {
       "raceId": 13,
@@ -9549,7 +9646,92 @@
       "raceNumber": 12,
       "date": "2026-06-28",
       "venue": "福島",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "スターランウェイ",
+          "odds": 11.2
+        },
+        {
+          "position": 2,
+          "horseNumber": 7,
+          "horse": "ソニックブレイカー",
+          "odds": 4.4
+        },
+        {
+          "position": 3,
+          "horseNumber": 1,
+          "horse": "ロイヤルスパイア",
+          "odds": 9.1
+        },
+        {
+          "position": 4,
+          "horseNumber": 5,
+          "horse": "クアロアランチ",
+          "odds": 13
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "モズタンケ",
+          "odds": 5.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "フクチャンヒメ",
+          "odds": 67.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "カツノテンス",
+          "odds": 138.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 4,
+          "horse": "ミルトハーバー",
+          "odds": 7.2
+        },
+        {
+          "position": 9,
+          "horseNumber": 13,
+          "horse": "ブーケドリス",
+          "odds": 3.1
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "アルニラム",
+          "odds": 117.8
+        },
+        {
+          "position": 11,
+          "horseNumber": 12,
+          "horse": "タッカーバレット",
+          "odds": 52.6
+        },
+        {
+          "position": 12,
+          "horseNumber": 14,
+          "horse": "ジャスフォール",
+          "odds": 14.8
+        },
+        {
+          "position": 13,
+          "horseNumber": 10,
+          "horse": "ゴルトレオパルト",
+          "odds": 390.2
+        },
+        {
+          "position": 14,
+          "horseNumber": 3,
+          "horse": "マーシャルアン",
+          "odds": 177.6
+        }
+      ]
     }
   ]
 }
