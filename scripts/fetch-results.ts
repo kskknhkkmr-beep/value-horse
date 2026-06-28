@@ -80,8 +80,19 @@ async function main() {
   const resultMap = loadExistingResults(outPath);
   console.log(`既存データ: ${resultMap.size} レース`);
 
-  // 出走登録済みで entriesPending でないレースのみ対象
-  const targets = racesCache.races.filter((r) => !r.entriesPending && r.horses.length > 0);
+  const today = new Date().toISOString().slice(0, 10);
+
+  // 取得対象:
+  //   - 今日のレース → 常に再取得（レース途中でも随時更新）
+  //   - 過去のレース → results-cache に結果未登録のもののみ
+  //   - 未来のレース → スキップ
+  const targets = racesCache.races.filter((r) => {
+    if (r.entriesPending || r.horses.length === 0) return false;
+    if (r.date > today) return false; // 未来のレースはスキップ
+    if (r.date === today) return true; // 今日は常に取得
+    const existing = resultMap.get(r.netKeibaRaceId);
+    return !existing || existing.finishers.length === 0; // 過去は未取得のみ
+  });
   console.log(`今回取得対象: ${targets.length} / ${racesCache.races.length} レース`);
 
   let fetchedCount = 0;

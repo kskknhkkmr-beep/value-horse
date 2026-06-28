@@ -95,7 +95,7 @@ function fmt(n: number) {
 
 export default function Home() {
   const [races, setRaces] = useState<Race[]>([]);
-  const [selectedRaceId, setSelectedRaceId] = useState(1);
+  const [selectedRaceId, setSelectedRaceId] = useState(0);
   const [score, setScore] = useState<ScoreResponse | null>(null);
   const [unitAmount, setUnitAmount] = useState(1000);
   const [backtest, setBacktest] = useState<BacktestResponse | null>(null);
@@ -112,7 +112,10 @@ export default function Home() {
   useEffect(() => {
     fetch("/api/races")
       .then((r) => r.json())
-      .then((data: Race[]) => setRaces(data));
+      .then((data: Race[]) => {
+        setRaces(data);
+        if (data.length > 0) setSelectedRaceId((prev) => prev === 0 ? data[0].id : prev);
+      });
   }, []);
 
   useEffect(() => {

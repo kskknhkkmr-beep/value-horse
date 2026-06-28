@@ -1,12 +1,11 @@
 {
   "fetchedAt": "2026-06-28T00:53:24.740Z",
   "dates": [
-    "20260627",
-    "20260628"
+    "2026-06-28"
   ],
   "races": [
     {
-      "id": 1,
+      "id": 10020201,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 1,
@@ -18,8 +17,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 1001,
-          "raceId": 1,
+          "id": 1002020101,
+          "raceId": 10020201,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ホーリーステップ",
@@ -28,8 +27,8 @@
           "odds": 14.1
         },
         {
-          "id": 1002,
-          "raceId": 1,
+          "id": 1002020102,
+          "raceId": 10020201,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "ハイソリア",
@@ -38,8 +37,8 @@
           "odds": 58
         },
         {
-          "id": 1003,
-          "raceId": 1,
+          "id": 1002020103,
+          "raceId": 10020201,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "ランスオブラヴ",
@@ -48,8 +47,8 @@
           "odds": 40
         },
         {
-          "id": 1004,
-          "raceId": 1,
+          "id": 1002020104,
+          "raceId": 10020201,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "ベルセクレト",
@@ -58,8 +57,8 @@
           "odds": 88.7
         },
         {
-          "id": 1005,
-          "raceId": 1,
+          "id": 1002020105,
+          "raceId": 10020201,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "ジョービスコッティ",
@@ -68,8 +67,8 @@
           "odds": 2.8
         },
         {
-          "id": 1006,
-          "raceId": 1,
+          "id": 1002020106,
+          "raceId": 10020201,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "キャッチミークライ",
@@ -78,8 +77,8 @@
           "odds": 101.2
         },
         {
-          "id": 1007,
-          "raceId": 1,
+          "id": 1002020107,
+          "raceId": 10020201,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "ディオレガーロ",
@@ -88,8 +87,8 @@
           "odds": 27.1
         },
         {
-          "id": 1008,
-          "raceId": 1,
+          "id": 1002020108,
+          "raceId": 10020201,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "セレブトーチ",
@@ -98,8 +97,8 @@
           "odds": 17.9
         },
         {
-          "id": 1009,
-          "raceId": 1,
+          "id": 1002020109,
+          "raceId": 10020201,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "アンガーザガール",
@@ -108,8 +107,8 @@
           "odds": 2.1
         },
         {
-          "id": 1010,
-          "raceId": 1,
+          "id": 1002020110,
+          "raceId": 10020201,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "サンシャインビーチ",
@@ -118,8 +117,8 @@
           "odds": 67.3
         },
         {
-          "id": 1011,
-          "raceId": 1,
+          "id": 1002020111,
+          "raceId": 10020201,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "エンブルーシャ",
@@ -128,8 +127,8 @@
           "odds": 32.3
         },
         {
-          "id": 1012,
-          "raceId": 1,
+          "id": 1002020112,
+          "raceId": 10020201,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "ヴィーラー",
@@ -138,8 +137,8 @@
           "odds": 53.6
         },
         {
-          "id": 1013,
-          "raceId": 1,
+          "id": 1002020113,
+          "raceId": 10020201,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "メイショウピュルテ",
@@ -148,8 +147,8 @@
           "odds": 16.5
         },
         {
-          "id": 1014,
-          "raceId": 1,
+          "id": 1002020114,
+          "raceId": 10020201,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "ザムーン",
@@ -158,8 +157,8 @@
           "odds": 25.4
         },
         {
-          "id": 1015,
-          "raceId": 1,
+          "id": 1002020115,
+          "raceId": 10020201,
           "frameNumber": 7,
           "horseNumber": 15,
           "horse": "テイエムリチャード",
@@ -168,8 +167,8 @@
           "odds": 193.5
         },
         {
-          "id": 1016,
-          "raceId": 1,
+          "id": 1002020116,
+          "raceId": 10020201,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "リーガルスプレンダ",
@@ -178,8 +177,8 @@
           "odds": 58.6
         },
         {
-          "id": 1017,
-          "raceId": 1,
+          "id": 1002020117,
+          "raceId": 10020201,
           "frameNumber": 8,
           "horseNumber": 17,
           "horse": "フルーツベイビー",
@@ -188,8 +187,8 @@
           "odds": 178.4
         },
         {
-          "id": 1018,
-          "raceId": 1,
+          "id": 1002020118,
+          "raceId": 10020201,
           "frameNumber": 8,
           "horseNumber": 18,
           "horse": "チェラブ",
@@ -200,7 +199,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 10020202,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 2,
@@ -212,8 +211,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 2001,
-          "raceId": 2,
+          "id": 1002020201,
+          "raceId": 10020202,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ブランチアウト",
@@ -222,8 +221,8 @@
           "odds": 4.3
         },
         {
-          "id": 2002,
-          "raceId": 2,
+          "id": 1002020202,
+          "raceId": 10020202,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "マサハヤルージュ",
@@ -232,8 +231,8 @@
           "odds": 22
         },
         {
-          "id": 2003,
-          "raceId": 2,
+          "id": 1002020203,
+          "raceId": 10020202,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "エリカアズーラ",
@@ -242,8 +241,8 @@
           "odds": 72.7
         },
         {
-          "id": 2004,
-          "raceId": 2,
+          "id": 1002020204,
+          "raceId": 10020202,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "リュネヴィル",
@@ -252,8 +251,8 @@
           "odds": 87.8
         },
         {
-          "id": 2005,
-          "raceId": 2,
+          "id": 1002020205,
+          "raceId": 10020202,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "モンロワイヤル",
@@ -262,8 +261,8 @@
           "odds": 4.9
         },
         {
-          "id": 2006,
-          "raceId": 2,
+          "id": 1002020206,
+          "raceId": 10020202,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "グリミスティ",
@@ -272,8 +271,8 @@
           "odds": 38.4
         },
         {
-          "id": 2007,
-          "raceId": 2,
+          "id": 1002020207,
+          "raceId": 10020202,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "チヨ",
@@ -282,8 +281,8 @@
           "odds": 17
         },
         {
-          "id": 2008,
-          "raceId": 2,
+          "id": 1002020208,
+          "raceId": 10020202,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "エングルマン",
@@ -292,8 +291,8 @@
           "odds": 11.9
         },
         {
-          "id": 2009,
-          "raceId": 2,
+          "id": 1002020209,
+          "raceId": 10020202,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "サンダーバード",
@@ -302,8 +301,8 @@
           "odds": 3.4
         },
         {
-          "id": 2010,
-          "raceId": 2,
+          "id": 1002020210,
+          "raceId": 10020202,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "メイショウユウゲン",
@@ -312,8 +311,8 @@
           "odds": 79.5
         },
         {
-          "id": 2011,
-          "raceId": 2,
+          "id": 1002020211,
+          "raceId": 10020202,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "ワンダーエイド",
@@ -322,8 +321,8 @@
           "odds": 64.2
         },
         {
-          "id": 2012,
-          "raceId": 2,
+          "id": 1002020212,
+          "raceId": 10020202,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "アリュウ",
@@ -332,8 +331,8 @@
           "odds": 26.2
         },
         {
-          "id": 2013,
-          "raceId": 2,
+          "id": 1002020213,
+          "raceId": 10020202,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "オーマイラッキーン",
@@ -342,8 +341,8 @@
           "odds": 8.5
         },
         {
-          "id": 2014,
-          "raceId": 2,
+          "id": 1002020214,
+          "raceId": 10020202,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "ダノンプレリュード",
@@ -352,8 +351,8 @@
           "odds": 37.6
         },
         {
-          "id": 2015,
-          "raceId": 2,
+          "id": 1002020215,
+          "raceId": 10020202,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "パラフローラ",
@@ -362,8 +361,8 @@
           "odds": 23.7
         },
         {
-          "id": 2016,
-          "raceId": 2,
+          "id": 1002020216,
+          "raceId": 10020202,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "シャロン",
@@ -374,7 +373,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 10020203,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 3,
@@ -386,8 +385,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 3001,
-          "raceId": 3,
+          "id": 1002020301,
+          "raceId": 10020203,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ショウナンライラ",
@@ -396,8 +395,8 @@
           "odds": 78.3
         },
         {
-          "id": 3002,
-          "raceId": 3,
+          "id": 1002020302,
+          "raceId": 10020203,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "マテンロウノア",
@@ -406,8 +405,8 @@
           "odds": 65.2
         },
         {
-          "id": 3003,
-          "raceId": 3,
+          "id": 1002020303,
+          "raceId": 10020203,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "イクヒロ",
@@ -416,8 +415,8 @@
           "odds": 41.8
         },
         {
-          "id": 3004,
-          "raceId": 3,
+          "id": 1002020304,
+          "raceId": 10020203,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "チュウワメロディー",
@@ -426,8 +425,8 @@
           "odds": 2.9
         },
         {
-          "id": 3005,
-          "raceId": 3,
+          "id": 1002020305,
+          "raceId": 10020203,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "タイガーロード",
@@ -436,8 +435,8 @@
           "odds": 12.9
         },
         {
-          "id": 3006,
-          "raceId": 3,
+          "id": 1002020306,
+          "raceId": 10020203,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "ドラムメジャー",
@@ -446,8 +445,8 @@
           "odds": 5.6
         },
         {
-          "id": 3007,
-          "raceId": 3,
+          "id": 1002020307,
+          "raceId": 10020203,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "ヴェネラブル",
@@ -456,8 +455,8 @@
           "odds": 50.2
         },
         {
-          "id": 3008,
-          "raceId": 3,
+          "id": 1002020308,
+          "raceId": 10020203,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "ルナフィオーレ",
@@ -466,8 +465,8 @@
           "odds": 5.4
         },
         {
-          "id": 3009,
-          "raceId": 3,
+          "id": 1002020309,
+          "raceId": 10020203,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "チョウダントツ",
@@ -476,8 +475,8 @@
           "odds": 155.5
         },
         {
-          "id": 3010,
-          "raceId": 3,
+          "id": 1002020310,
+          "raceId": 10020203,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "ヤマトチャージ",
@@ -486,8 +485,8 @@
           "odds": 81
         },
         {
-          "id": 3011,
-          "raceId": 3,
+          "id": 1002020311,
+          "raceId": 10020203,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "スイートポメロ",
@@ -496,8 +495,8 @@
           "odds": 11.6
         },
         {
-          "id": 3012,
-          "raceId": 3,
+          "id": 1002020312,
+          "raceId": 10020203,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "アドバンスモダン",
@@ -506,8 +505,8 @@
           "odds": 38
         },
         {
-          "id": 3013,
-          "raceId": 3,
+          "id": 1002020313,
+          "raceId": 10020203,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "モズヴイ",
@@ -516,8 +515,8 @@
           "odds": 7.1
         },
         {
-          "id": 3014,
-          "raceId": 3,
+          "id": 1002020314,
+          "raceId": 10020203,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "ジャスティンカレラ",
@@ -526,8 +525,8 @@
           "odds": 95.9
         },
         {
-          "id": 3015,
-          "raceId": 3,
+          "id": 1002020315,
+          "raceId": 10020203,
           "frameNumber": 7,
           "horseNumber": 15,
           "horse": "メテオロイド",
@@ -536,8 +535,8 @@
           "odds": 13.5
         },
         {
-          "id": 3016,
-          "raceId": 3,
+          "id": 1002020316,
+          "raceId": 10020203,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "モズナツノジン",
@@ -546,8 +545,8 @@
           "odds": 111.6
         },
         {
-          "id": 3017,
-          "raceId": 3,
+          "id": 1002020317,
+          "raceId": 10020203,
           "frameNumber": 8,
           "horseNumber": 17,
           "horse": "ワイドカクゲン",
@@ -556,8 +555,8 @@
           "odds": 36.1
         },
         {
-          "id": 3018,
-          "raceId": 3,
+          "id": 1002020318,
+          "raceId": 10020203,
           "frameNumber": 8,
           "horseNumber": 18,
           "horse": "レジーナテンペスタ",
@@ -568,7 +567,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 10020204,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 4,
@@ -580,8 +579,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 4001,
-          "raceId": 4,
+          "id": 1002020401,
+          "raceId": 10020204,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ブラックアイロン",
@@ -590,8 +589,8 @@
           "odds": 69.7
         },
         {
-          "id": 4002,
-          "raceId": 4,
+          "id": 1002020402,
+          "raceId": 10020204,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "レッドピアレス",
@@ -600,8 +599,8 @@
           "odds": 8.7
         },
         {
-          "id": 4003,
-          "raceId": 4,
+          "id": 1002020403,
+          "raceId": 10020204,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "キミガスキダ",
@@ -610,8 +609,8 @@
           "odds": 55.8
         },
         {
-          "id": 4004,
-          "raceId": 4,
+          "id": 1002020404,
+          "raceId": 10020204,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "ジュピターバローズ",
@@ -620,8 +619,8 @@
           "odds": 20.3
         },
         {
-          "id": 4005,
-          "raceId": 4,
+          "id": 1002020405,
+          "raceId": 10020204,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "トモジャカトゥーラ",
@@ -630,8 +629,8 @@
           "odds": 80.9
         },
         {
-          "id": 4006,
-          "raceId": 4,
+          "id": 1002020406,
+          "raceId": 10020204,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "グリーンゴー",
@@ -640,8 +639,8 @@
           "odds": 2.2
         },
         {
-          "id": 4007,
-          "raceId": 4,
+          "id": 1002020407,
+          "raceId": 10020204,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "ゴールデンボブ",
@@ -650,8 +649,8 @@
           "odds": 27.2
         },
         {
-          "id": 4008,
-          "raceId": 4,
+          "id": 1002020408,
+          "raceId": 10020204,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "グーフィー",
@@ -660,8 +659,8 @@
           "odds": 16
         },
         {
-          "id": 4009,
-          "raceId": 4,
+          "id": 1002020409,
+          "raceId": 10020204,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "リアライズステラ",
@@ -670,8 +669,8 @@
           "odds": 33.5
         },
         {
-          "id": 4010,
-          "raceId": 4,
+          "id": 1002020410,
+          "raceId": 10020204,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "メンデレーエフ",
@@ -680,8 +679,8 @@
           "odds": 6.5
         },
         {
-          "id": 4011,
-          "raceId": 4,
+          "id": 1002020411,
+          "raceId": 10020204,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "ホッコームジカ",
@@ -690,8 +689,8 @@
           "odds": 27.4
         },
         {
-          "id": 4012,
-          "raceId": 4,
+          "id": 1002020412,
+          "raceId": 10020204,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "バンダムソレール",
@@ -700,8 +699,8 @@
           "odds": 15
         },
         {
-          "id": 4013,
-          "raceId": 4,
+          "id": 1002020413,
+          "raceId": 10020204,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "ゴールデンドラゴン",
@@ -710,8 +709,8 @@
           "odds": 17.9
         },
         {
-          "id": 4014,
-          "raceId": 4,
+          "id": 1002020414,
+          "raceId": 10020204,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "ジューンマーチ",
@@ -720,8 +719,8 @@
           "odds": 8.3
         },
         {
-          "id": 4015,
-          "raceId": 4,
+          "id": 1002020415,
+          "raceId": 10020204,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "ハイビッグゴールド",
@@ -730,8 +729,8 @@
           "odds": 58.4
         },
         {
-          "id": 4016,
-          "raceId": 4,
+          "id": 1002020416,
+          "raceId": 10020204,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "パスリヤージュ",
@@ -742,7 +741,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 10020205,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 5,
@@ -754,8 +753,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 5001,
-          "raceId": 5,
+          "id": 1002020501,
+          "raceId": 10020205,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ワールドエンジェル",
@@ -764,8 +763,8 @@
           "odds": 4.5
         },
         {
-          "id": 5002,
-          "raceId": 5,
+          "id": 1002020502,
+          "raceId": 10020205,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "メイショウペルル",
@@ -774,8 +773,8 @@
           "odds": 33.2
         },
         {
-          "id": 5003,
-          "raceId": 5,
+          "id": 1002020503,
+          "raceId": 10020205,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "スマートエスコート",
@@ -784,8 +783,8 @@
           "odds": 27.5
         },
         {
-          "id": 5004,
-          "raceId": 5,
+          "id": 1002020504,
+          "raceId": 10020205,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "シャインロード",
@@ -794,8 +793,8 @@
           "odds": 17.7
         },
         {
-          "id": 5005,
-          "raceId": 5,
+          "id": 1002020505,
+          "raceId": 10020205,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "ヒルノアラゴン",
@@ -804,8 +803,8 @@
           "odds": 17.9
         },
         {
-          "id": 5006,
-          "raceId": 5,
+          "id": 1002020506,
+          "raceId": 10020205,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "スマートポーション",
@@ -814,8 +813,8 @@
           "odds": 43.4
         },
         {
-          "id": 5007,
-          "raceId": 5,
+          "id": 1002020507,
+          "raceId": 10020205,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "エルダークローネ",
@@ -824,8 +823,8 @@
           "odds": 4.3
         },
         {
-          "id": 5008,
-          "raceId": 5,
+          "id": 1002020508,
+          "raceId": 10020205,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "クイーンズアイ",
@@ -834,8 +833,8 @@
           "odds": 31.7
         },
         {
-          "id": 5009,
-          "raceId": 5,
+          "id": 1002020509,
+          "raceId": 10020205,
           "frameNumber": 8,
           "horseNumber": 9,
           "horse": "キムケンシーサー",
@@ -844,8 +843,8 @@
           "odds": 7.7
         },
         {
-          "id": 5010,
-          "raceId": 5,
+          "id": 1002020510,
+          "raceId": 10020205,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "インディジャズ",
@@ -856,7 +855,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 10020206,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 6,
@@ -868,8 +867,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 6001,
-          "raceId": 6,
+          "id": 1002020601,
+          "raceId": 10020206,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "トシミチ",
@@ -878,8 +877,8 @@
           "odds": 2.3
         },
         {
-          "id": 6002,
-          "raceId": 6,
+          "id": 1002020602,
+          "raceId": 10020206,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "グレートキリシマ",
@@ -888,8 +887,8 @@
           "odds": 14.7
         },
         {
-          "id": 6003,
-          "raceId": 6,
+          "id": 1002020603,
+          "raceId": 10020206,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "スイトーヨ",
@@ -898,8 +897,8 @@
           "odds": 4
         },
         {
-          "id": 6004,
-          "raceId": 6,
+          "id": 1002020604,
+          "raceId": 10020206,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "ユイノジカンカセギ",
@@ -908,8 +907,8 @@
           "odds": 11.5
         },
         {
-          "id": 6005,
-          "raceId": 6,
+          "id": 1002020605,
+          "raceId": 10020206,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "ラブマイティー",
@@ -918,8 +917,8 @@
           "odds": 28.6
         },
         {
-          "id": 6006,
-          "raceId": 6,
+          "id": 1002020606,
+          "raceId": 10020206,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "カシノヴィタ",
@@ -928,8 +927,8 @@
           "odds": 52.4
         },
         {
-          "id": 6007,
-          "raceId": 6,
+          "id": 1002020607,
+          "raceId": 10020206,
           "frameNumber": 6,
           "horseNumber": 7,
           "horse": "カゴシマ",
@@ -938,8 +937,8 @@
           "odds": 17.3
         },
         {
-          "id": 6008,
-          "raceId": 6,
+          "id": 1002020608,
+          "raceId": 10020206,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "ユイパルティ",
@@ -948,8 +947,8 @@
           "odds": 12
         },
         {
-          "id": 6009,
-          "raceId": 6,
+          "id": 1002020609,
+          "raceId": 10020206,
           "frameNumber": 7,
           "horseNumber": 9,
           "horse": "プッシュザリミット",
@@ -958,8 +957,8 @@
           "odds": 20.2
         },
         {
-          "id": 6010,
-          "raceId": 6,
+          "id": 1002020610,
+          "raceId": 10020206,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "ニシノマティーニ",
@@ -968,8 +967,8 @@
           "odds": 5.9
         },
         {
-          "id": 6011,
-          "raceId": 6,
+          "id": 1002020611,
+          "raceId": 10020206,
           "frameNumber": 8,
           "horseNumber": 11,
           "horse": "カシノカゲマル",
@@ -980,7 +979,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 10020207,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 7,
@@ -992,8 +991,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 7001,
-          "raceId": 7,
+          "id": 1002020701,
+          "raceId": 10020207,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ナンヨークリスタル",
@@ -1002,8 +1001,8 @@
           "odds": 24
         },
         {
-          "id": 7002,
-          "raceId": 7,
+          "id": 1002020702,
+          "raceId": 10020207,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ゴールデンバランス",
@@ -1012,8 +1011,8 @@
           "odds": 2.7
         },
         {
-          "id": 7003,
-          "raceId": 7,
+          "id": 1002020703,
+          "raceId": 10020207,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ルディシャ",
@@ -1022,8 +1021,8 @@
           "odds": 62.2
         },
         {
-          "id": 7004,
-          "raceId": 7,
+          "id": 1002020704,
+          "raceId": 10020207,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "アイカンアズーラ",
@@ -1032,8 +1031,8 @@
           "odds": 8.2
         },
         {
-          "id": 7005,
-          "raceId": 7,
+          "id": 1002020705,
+          "raceId": 10020207,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "パドゼフィール",
@@ -1042,8 +1041,8 @@
           "odds": 7.7
         },
         {
-          "id": 7006,
-          "raceId": 7,
+          "id": 1002020706,
+          "raceId": 10020207,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "リアルアルバ",
@@ -1052,8 +1051,8 @@
           "odds": 18.1
         },
         {
-          "id": 7007,
-          "raceId": 7,
+          "id": 1002020707,
+          "raceId": 10020207,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "イイデカンタロウ",
@@ -1062,8 +1061,8 @@
           "odds": 19.2
         },
         {
-          "id": 7008,
-          "raceId": 7,
+          "id": 1002020708,
+          "raceId": 10020207,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "ヨドノゴールド",
@@ -1072,8 +1071,8 @@
           "odds": 10.2
         },
         {
-          "id": 7009,
-          "raceId": 7,
+          "id": 1002020709,
+          "raceId": 10020207,
           "frameNumber": 8,
           "horseNumber": 9,
           "horse": "ミライハーモニー",
@@ -1082,8 +1081,8 @@
           "odds": 3.4
         },
         {
-          "id": 7010,
-          "raceId": 7,
+          "id": 1002020710,
+          "raceId": 10020207,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "ペルセポネ",
@@ -1094,7 +1093,7 @@
       ]
     },
     {
-      "id": 8,
+      "id": 10020208,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 8,
@@ -1106,8 +1105,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 8001,
-          "raceId": 8,
+          "id": 1002020801,
+          "raceId": 10020208,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "グランドオーパス",
@@ -1116,8 +1115,8 @@
           "odds": 3.6
         },
         {
-          "id": 8002,
-          "raceId": 8,
+          "id": 1002020802,
+          "raceId": 10020208,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "カモメガトンダ",
@@ -1126,8 +1125,8 @@
           "odds": 9.5
         },
         {
-          "id": 8003,
-          "raceId": 8,
+          "id": 1002020803,
+          "raceId": 10020208,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "メイショウピリカ",
@@ -1136,8 +1135,8 @@
           "odds": 5.6
         },
         {
-          "id": 8004,
-          "raceId": 8,
+          "id": 1002020804,
+          "raceId": 10020208,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "エンベッカ",
@@ -1146,8 +1145,8 @@
           "odds": 12
         },
         {
-          "id": 8005,
-          "raceId": 8,
+          "id": 1002020805,
+          "raceId": 10020208,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "ヴィーナスバブル",
@@ -1156,8 +1155,8 @@
           "odds": 15.3
         },
         {
-          "id": 8006,
-          "raceId": 8,
+          "id": 1002020806,
+          "raceId": 10020208,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "エレガンシア",
@@ -1166,8 +1165,8 @@
           "odds": 9.6
         },
         {
-          "id": 8007,
-          "raceId": 8,
+          "id": 1002020807,
+          "raceId": 10020208,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "レーヌマロン",
@@ -1176,8 +1175,8 @@
           "odds": 18.6
         },
         {
-          "id": 8008,
-          "raceId": 8,
+          "id": 1002020808,
+          "raceId": 10020208,
           "frameNumber": 8,
           "horseNumber": 8,
           "horse": "コンバットペスカ",
@@ -1186,8 +1185,8 @@
           "odds": 27.4
         },
         {
-          "id": 8009,
-          "raceId": 8,
+          "id": 1002020809,
+          "raceId": 10020208,
           "frameNumber": 8,
           "horseNumber": 9,
           "horse": "サリエンテ",
@@ -1198,7 +1197,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": 10020209,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 9,
@@ -1210,8 +1209,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 9001,
-          "raceId": 9,
+          "id": 1002020901,
+          "raceId": 10020209,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ビッグベルーガ",
@@ -1220,8 +1219,8 @@
           "odds": 28.6
         },
         {
-          "id": 9002,
-          "raceId": 9,
+          "id": 1002020902,
+          "raceId": 10020209,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "サトノスカイターフ",
@@ -1230,8 +1229,8 @@
           "odds": 18.1
         },
         {
-          "id": 9003,
-          "raceId": 9,
+          "id": 1002020903,
+          "raceId": 10020209,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ショウナンガチ",
@@ -1240,8 +1239,8 @@
           "odds": 5.1
         },
         {
-          "id": 9004,
-          "raceId": 9,
+          "id": 1002020904,
+          "raceId": 10020209,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "ボンドロア",
@@ -1250,8 +1249,8 @@
           "odds": 8.5
         },
         {
-          "id": 9005,
-          "raceId": 9,
+          "id": 1002020905,
+          "raceId": 10020209,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "サラトガチップス",
@@ -1260,8 +1259,8 @@
           "odds": 5.7
         },
         {
-          "id": 9006,
-          "raceId": 9,
+          "id": 1002020906,
+          "raceId": 10020209,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "ニュークレド",
@@ -1270,8 +1269,8 @@
           "odds": 8.9
         },
         {
-          "id": 9007,
-          "raceId": 9,
+          "id": 1002020907,
+          "raceId": 10020209,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "ナリタエスペランサ",
@@ -1280,8 +1279,8 @@
           "odds": 2.4
         },
         {
-          "id": 9008,
-          "raceId": 9,
+          "id": 1002020908,
+          "raceId": 10020209,
           "frameNumber": 8,
           "horseNumber": 8,
           "horse": "マテンロウシルビア",
@@ -1292,7 +1291,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 10020210,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 10,
@@ -1304,8 +1303,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 10001,
-          "raceId": 10,
+          "id": 1002021001,
+          "raceId": 10020210,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "シンコーナホチャン",
@@ -1314,8 +1313,8 @@
           "odds": 16.5
         },
         {
-          "id": 10002,
-          "raceId": 10,
+          "id": 1002021002,
+          "raceId": 10020210,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "メイショウジェンマ",
@@ -1324,8 +1323,8 @@
           "odds": 18.7
         },
         {
-          "id": 10003,
-          "raceId": 10,
+          "id": 1002021003,
+          "raceId": 10020210,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "レーティッシュ",
@@ -1334,8 +1333,8 @@
           "odds": 4.4
         },
         {
-          "id": 10004,
-          "raceId": 10,
+          "id": 1002021004,
+          "raceId": 10020210,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "メイショウクーガー",
@@ -1344,8 +1343,8 @@
           "odds": 11.4
         },
         {
-          "id": 10005,
-          "raceId": 10,
+          "id": 1002021005,
+          "raceId": 10020210,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "コウジョリョウゾク",
@@ -1354,8 +1353,8 @@
           "odds": 76.2
         },
         {
-          "id": 10006,
-          "raceId": 10,
+          "id": 1002021006,
+          "raceId": 10020210,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "サンライズプルート",
@@ -1364,8 +1363,8 @@
           "odds": 39
         },
         {
-          "id": 10007,
-          "raceId": 10,
+          "id": 1002021007,
+          "raceId": 10020210,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "テーオーライマン",
@@ -1374,8 +1373,8 @@
           "odds": 6.9
         },
         {
-          "id": 10008,
-          "raceId": 10,
+          "id": 1002021008,
+          "raceId": 10020210,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "メイショウヘール",
@@ -1384,8 +1383,8 @@
           "odds": 37.2
         },
         {
-          "id": 10009,
-          "raceId": 10,
+          "id": 1002021009,
+          "raceId": 10020210,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "カルパ",
@@ -1394,8 +1393,8 @@
           "odds": 8.9
         },
         {
-          "id": 10010,
-          "raceId": 10,
+          "id": 1002021010,
+          "raceId": 10020210,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "マハートマーベル",
@@ -1404,8 +1403,8 @@
           "odds": 16
         },
         {
-          "id": 10011,
-          "raceId": 10,
+          "id": 1002021011,
+          "raceId": 10020210,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "アラナコア",
@@ -1414,8 +1413,8 @@
           "odds": 9.4
         },
         {
-          "id": 10012,
-          "raceId": 10,
+          "id": 1002021012,
+          "raceId": 10020210,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "カウンティフェア",
@@ -1424,8 +1423,8 @@
           "odds": 26.9
         },
         {
-          "id": 10013,
-          "raceId": 10,
+          "id": 1002021013,
+          "raceId": 10020210,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "コスモストーム",
@@ -1434,8 +1433,8 @@
           "odds": 8.7
         },
         {
-          "id": 10014,
-          "raceId": 10,
+          "id": 1002021014,
+          "raceId": 10020210,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "グレイスオブゴッド",
@@ -1444,8 +1443,8 @@
           "odds": 34.3
         },
         {
-          "id": 10015,
-          "raceId": 10,
+          "id": 1002021015,
+          "raceId": 10020210,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "ズバットマサムネ",
@@ -1454,8 +1453,8 @@
           "odds": 12.6
         },
         {
-          "id": 10016,
-          "raceId": 10,
+          "id": 1002021016,
+          "raceId": 10020210,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "スマートプレシャス",
@@ -1466,7 +1465,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10020211,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 11,
@@ -1478,8 +1477,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 11001,
-          "raceId": 11,
+          "id": 1002021101,
+          "raceId": 10020211,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "リチャードバローズ",
@@ -1488,8 +1487,8 @@
           "odds": 18.5
         },
         {
-          "id": 11002,
-          "raceId": 11,
+          "id": 1002021102,
+          "raceId": 10020211,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ベイビーキッス",
@@ -1498,8 +1497,8 @@
           "odds": 12.3
         },
         {
-          "id": 11003,
-          "raceId": 11,
+          "id": 1002021103,
+          "raceId": 10020211,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ジュンヴァンケット",
@@ -1508,8 +1507,8 @@
           "odds": 9.6
         },
         {
-          "id": 11004,
-          "raceId": 11,
+          "id": 1002021104,
+          "raceId": 10020211,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "ロードトレイル",
@@ -1518,8 +1517,8 @@
           "odds": 9.1
         },
         {
-          "id": 11005,
-          "raceId": 11,
+          "id": 1002021105,
+          "raceId": 10020211,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "テーオーダヴィンチ",
@@ -1528,8 +1527,8 @@
           "odds": 22
         },
         {
-          "id": 11006,
-          "raceId": 11,
+          "id": 1002021106,
+          "raceId": 10020211,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "アサクサグレース",
@@ -1538,8 +1537,8 @@
           "odds": 1.9
         },
         {
-          "id": 11007,
-          "raceId": 11,
+          "id": 1002021107,
+          "raceId": 10020211,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "ブラックケリー",
@@ -1548,8 +1547,8 @@
           "odds": 11.4
         },
         {
-          "id": 11008,
-          "raceId": 11,
+          "id": 1002021108,
+          "raceId": 10020211,
           "frameNumber": 8,
           "horseNumber": 8,
           "horse": "スカイハイ",
@@ -1560,7 +1559,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 10020212,
       "date": "2026-06-28",
       "venue": "小倉",
       "raceNumber": 12,
@@ -1572,8 +1571,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 12001,
-          "raceId": 12,
+          "id": 1002021201,
+          "raceId": 10020212,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ミランド",
@@ -1582,8 +1581,8 @@
           "odds": 6.8
         },
         {
-          "id": 12002,
-          "raceId": 12,
+          "id": 1002021202,
+          "raceId": 10020212,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "バロニアル",
@@ -1592,8 +1591,8 @@
           "odds": 14.7
         },
         {
-          "id": 12003,
-          "raceId": 12,
+          "id": 1002021203,
+          "raceId": 10020212,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "アンティーム",
@@ -1602,8 +1601,8 @@
           "odds": 4.3
         },
         {
-          "id": 12004,
-          "raceId": 12,
+          "id": 1002021204,
+          "raceId": 10020212,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "ブルーカミング",
@@ -1612,8 +1611,8 @@
           "odds": 85.8
         },
         {
-          "id": 12005,
-          "raceId": 12,
+          "id": 1002021205,
+          "raceId": 10020212,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "ミッションルース",
@@ -1622,8 +1621,8 @@
           "odds": 28.1
         },
         {
-          "id": 12006,
-          "raceId": 12,
+          "id": 1002021206,
+          "raceId": 10020212,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "チャチャピンク",
@@ -1632,8 +1631,8 @@
           "odds": 38.4
         },
         {
-          "id": 12007,
-          "raceId": 12,
+          "id": 1002021207,
+          "raceId": 10020212,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "ニシノジェダイ",
@@ -1642,8 +1641,8 @@
           "odds": 5.7
         },
         {
-          "id": 12008,
-          "raceId": 12,
+          "id": 1002021208,
+          "raceId": 10020212,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "セルジュバローズ",
@@ -1652,8 +1651,8 @@
           "odds": 16.7
         },
         {
-          "id": 12009,
-          "raceId": 12,
+          "id": 1002021209,
+          "raceId": 10020212,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "ポルトドール",
@@ -1662,8 +1661,8 @@
           "odds": 31.4
         },
         {
-          "id": 12010,
-          "raceId": 12,
+          "id": 1002021210,
+          "raceId": 10020212,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "クイノールト",
@@ -1672,8 +1671,8 @@
           "odds": 24
         },
         {
-          "id": 12011,
-          "raceId": 12,
+          "id": 1002021211,
+          "raceId": 10020212,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "バトゥカーダ",
@@ -1682,8 +1681,8 @@
           "odds": 16.5
         },
         {
-          "id": 12012,
-          "raceId": 12,
+          "id": 1002021212,
+          "raceId": 10020212,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "ブラックレジェンド",
@@ -1692,8 +1691,8 @@
           "odds": 5.3
         },
         {
-          "id": 12013,
-          "raceId": 12,
+          "id": 1002021213,
+          "raceId": 10020212,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "モズプリヴェール",
@@ -1702,8 +1701,8 @@
           "odds": 20.1
         },
         {
-          "id": 12014,
-          "raceId": 12,
+          "id": 1002021214,
+          "raceId": 10020212,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "ライラックデューン",
@@ -1712,8 +1711,8 @@
           "odds": 73.9
         },
         {
-          "id": 12015,
-          "raceId": 12,
+          "id": 1002021215,
+          "raceId": 10020212,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "ロードシュヴァリエ",
@@ -1722,8 +1721,8 @@
           "odds": 11.6
         },
         {
-          "id": 12016,
-          "raceId": 12,
+          "id": 1002021216,
+          "raceId": 10020212,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "ルシャリオ",
@@ -1734,7 +1733,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 2010601,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 1,
@@ -1746,8 +1745,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 13001,
-          "raceId": 13,
+          "id": 201060101,
+          "raceId": 2010601,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "チカバリエンテ",
@@ -1756,8 +1755,8 @@
           "odds": 8.1
         },
         {
-          "id": 13002,
-          "raceId": 13,
+          "id": 201060102,
+          "raceId": 2010601,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "パンジャケリー",
@@ -1766,8 +1765,8 @@
           "odds": 5.2
         },
         {
-          "id": 13003,
-          "raceId": 13,
+          "id": 201060103,
+          "raceId": 2010601,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ウィルレーヴィア",
@@ -1776,8 +1775,8 @@
           "odds": 75.9
         },
         {
-          "id": 13004,
-          "raceId": 13,
+          "id": 201060104,
+          "raceId": 2010601,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "キセキノユニコーン",
@@ -1786,8 +1785,8 @@
           "odds": 3.8
         },
         {
-          "id": 13005,
-          "raceId": 13,
+          "id": 201060105,
+          "raceId": 2010601,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "シークレットタワー",
@@ -1796,8 +1795,8 @@
           "odds": 4.8
         },
         {
-          "id": 13006,
-          "raceId": 13,
+          "id": 201060106,
+          "raceId": 2010601,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "ガーシュウィン",
@@ -1806,8 +1805,8 @@
           "odds": 81.5
         },
         {
-          "id": 13007,
-          "raceId": 13,
+          "id": 201060107,
+          "raceId": 2010601,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "ダイシンドラゴン",
@@ -1816,8 +1815,8 @@
           "odds": 2.3
         },
         {
-          "id": 13008,
-          "raceId": 13,
+          "id": 201060108,
+          "raceId": 2010601,
           "frameNumber": 8,
           "horseNumber": 8,
           "horse": "アイルドフルール",
@@ -1828,7 +1827,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 2010602,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 2,
@@ -1840,8 +1839,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 14001,
-          "raceId": 14,
+          "id": 201060201,
+          "raceId": 2010602,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "メイショウタイザン",
@@ -1850,8 +1849,8 @@
           "odds": 8.8
         },
         {
-          "id": 14002,
-          "raceId": 14,
+          "id": 201060202,
+          "raceId": 2010602,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ロジクリスエス",
@@ -1860,8 +1859,8 @@
           "odds": 22
         },
         {
-          "id": 14003,
-          "raceId": 14,
+          "id": 201060203,
+          "raceId": 2010602,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ライカ",
@@ -1870,8 +1869,8 @@
           "odds": 4.3
         },
         {
-          "id": 14004,
-          "raceId": 14,
+          "id": 201060204,
+          "raceId": 2010602,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "テリコス",
@@ -1880,8 +1879,8 @@
           "odds": 14.7
         },
         {
-          "id": 14005,
-          "raceId": 14,
+          "id": 201060205,
+          "raceId": 2010602,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "テンレッドサン",
@@ -1890,8 +1889,8 @@
           "odds": 3.7
         },
         {
-          "id": 14006,
-          "raceId": 14,
+          "id": 201060206,
+          "raceId": 2010602,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "アドフランマム",
@@ -1900,8 +1899,8 @@
           "odds": 30.1
         },
         {
-          "id": 14007,
-          "raceId": 14,
+          "id": 201060207,
+          "raceId": 2010602,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "マルシュボヌール",
@@ -1910,8 +1909,8 @@
           "odds": 11.9
         },
         {
-          "id": 14008,
-          "raceId": 14,
+          "id": 201060208,
+          "raceId": 2010602,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "サンオブザサン",
@@ -1920,8 +1919,8 @@
           "odds": 43.7
         },
         {
-          "id": 14009,
-          "raceId": 14,
+          "id": 201060209,
+          "raceId": 2010602,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "スマートイデアル",
@@ -1930,8 +1929,8 @@
           "odds": 51.7
         },
         {
-          "id": 14010,
-          "raceId": 14,
+          "id": 201060210,
+          "raceId": 2010602,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "ヒルノボローニャ",
@@ -1940,8 +1939,8 @@
           "odds": 4.6
         },
         {
-          "id": 14011,
-          "raceId": 14,
+          "id": 201060211,
+          "raceId": 2010602,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "モノノケ",
@@ -1950,8 +1949,8 @@
           "odds": 85.5
         },
         {
-          "id": 14012,
-          "raceId": 14,
+          "id": 201060212,
+          "raceId": 2010602,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "ロスニーニョス",
@@ -1960,8 +1959,8 @@
           "odds": 27.1
         },
         {
-          "id": 14013,
-          "raceId": 14,
+          "id": 201060213,
+          "raceId": 2010602,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "ルナノーヴァ",
@@ -1970,8 +1969,8 @@
           "odds": 36.1
         },
         {
-          "id": 14014,
-          "raceId": 14,
+          "id": 201060214,
+          "raceId": 2010602,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "ヤマメイッカ",
@@ -1982,7 +1981,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 2010603,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 3,
@@ -1994,8 +1993,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 15001,
-          "raceId": 15,
+          "id": 201060301,
+          "raceId": 2010603,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "エコロセレナ",
@@ -2004,8 +2003,8 @@
           "odds": 8.1
         },
         {
-          "id": 15002,
-          "raceId": 15,
+          "id": 201060302,
+          "raceId": 2010603,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "アジーザム",
@@ -2014,8 +2013,8 @@
           "odds": 50.2
         },
         {
-          "id": 15003,
-          "raceId": 15,
+          "id": 201060303,
+          "raceId": 2010603,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ビップアリス",
@@ -2024,8 +2023,8 @@
           "odds": 47.1
         },
         {
-          "id": 15004,
-          "raceId": 15,
+          "id": 201060304,
+          "raceId": 2010603,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "ブザービーター",
@@ -2034,8 +2033,8 @@
           "odds": 28.3
         },
         {
-          "id": 15005,
-          "raceId": 15,
+          "id": 201060305,
+          "raceId": 2010603,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "ホワイトラバーズ",
@@ -2044,8 +2043,8 @@
           "odds": 64
         },
         {
-          "id": 15006,
-          "raceId": 15,
+          "id": 201060306,
+          "raceId": 2010603,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "ハナイロマヒナ",
@@ -2054,8 +2053,8 @@
           "odds": 23.2
         },
         {
-          "id": 15007,
-          "raceId": 15,
+          "id": 201060307,
+          "raceId": 2010603,
           "frameNumber": 6,
           "horseNumber": 7,
           "horse": "イングラム",
@@ -2064,8 +2063,8 @@
           "odds": 1.7
         },
         {
-          "id": 15008,
-          "raceId": 15,
+          "id": 201060308,
+          "raceId": 2010603,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "ビタミンドロップ",
@@ -2074,8 +2073,8 @@
           "odds": 7.5
         },
         {
-          "id": 15009,
-          "raceId": 15,
+          "id": 201060309,
+          "raceId": 2010603,
           "frameNumber": 7,
           "horseNumber": 9,
           "horse": "ウィズアツインクル",
@@ -2084,8 +2083,8 @@
           "odds": 999.9
         },
         {
-          "id": 15010,
-          "raceId": 15,
+          "id": 201060310,
+          "raceId": 2010603,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "コシタンタン",
@@ -2094,8 +2093,8 @@
           "odds": 10.8
         },
         {
-          "id": 15011,
-          "raceId": 15,
+          "id": 201060311,
+          "raceId": 2010603,
           "frameNumber": 8,
           "horseNumber": 11,
           "horse": "ヴェンデボヌール",
@@ -2106,7 +2105,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 2010604,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 4,
@@ -2118,8 +2117,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 16001,
-          "raceId": 16,
+          "id": 201060401,
+          "raceId": 2010604,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ミカレオス",
@@ -2128,8 +2127,8 @@
           "odds": 74.8
         },
         {
-          "id": 16002,
-          "raceId": 16,
+          "id": 201060402,
+          "raceId": 2010604,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "ブリックアブラック",
@@ -2138,8 +2137,8 @@
           "odds": 56.1
         },
         {
-          "id": 16003,
-          "raceId": 16,
+          "id": 201060403,
+          "raceId": 2010604,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "フォーチュンローズ",
@@ -2148,8 +2147,8 @@
           "odds": 7
         },
         {
-          "id": 16004,
-          "raceId": 16,
+          "id": 201060404,
+          "raceId": 2010604,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "ウインブリザード",
@@ -2158,8 +2157,8 @@
           "odds": 17.6
         },
         {
-          "id": 16005,
-          "raceId": 16,
+          "id": 201060405,
+          "raceId": 2010604,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "ブッチギレ",
@@ -2168,8 +2167,8 @@
           "odds": 56.8
         },
         {
-          "id": 16006,
-          "raceId": 16,
+          "id": 201060406,
+          "raceId": 2010604,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "アルタティール",
@@ -2178,8 +2177,8 @@
           "odds": 34.7
         },
         {
-          "id": 16007,
-          "raceId": 16,
+          "id": 201060407,
+          "raceId": 2010604,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "カノープス",
@@ -2188,8 +2187,8 @@
           "odds": 60
         },
         {
-          "id": 16008,
-          "raceId": 16,
+          "id": 201060408,
+          "raceId": 2010604,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "ソルトハッピー",
@@ -2198,8 +2197,8 @@
           "odds": 9.1
         },
         {
-          "id": 16009,
-          "raceId": 16,
+          "id": 201060409,
+          "raceId": 2010604,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "ウインアトム",
@@ -2208,8 +2207,8 @@
           "odds": 20.4
         },
         {
-          "id": 16010,
-          "raceId": 16,
+          "id": 201060410,
+          "raceId": 2010604,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "ホウオウファミリー",
@@ -2218,8 +2217,8 @@
           "odds": 4.1
         },
         {
-          "id": 16011,
-          "raceId": 16,
+          "id": 201060411,
+          "raceId": 2010604,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "ヴィラジョヴィス",
@@ -2228,8 +2227,8 @@
           "odds": 7.3
         },
         {
-          "id": 16012,
-          "raceId": 16,
+          "id": 201060412,
+          "raceId": 2010604,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "タビニュ",
@@ -2238,8 +2237,8 @@
           "odds": 9.3
         },
         {
-          "id": 16013,
-          "raceId": 16,
+          "id": 201060413,
+          "raceId": 2010604,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "ジングアップ",
@@ -2248,8 +2247,8 @@
           "odds": 7.2
         },
         {
-          "id": 16014,
-          "raceId": 16,
+          "id": 201060414,
+          "raceId": 2010604,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "ノリマル",
@@ -2258,8 +2257,8 @@
           "odds": 11.6
         },
         {
-          "id": 16015,
-          "raceId": 16,
+          "id": 201060415,
+          "raceId": 2010604,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "ティラユール",
@@ -2268,8 +2267,8 @@
           "odds": 103.2
         },
         {
-          "id": 16016,
-          "raceId": 16,
+          "id": 201060416,
+          "raceId": 2010604,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "ダイナソーコー",
@@ -2280,7 +2279,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 2010605,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 5,
@@ -2292,8 +2291,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 17001,
-          "raceId": 17,
+          "id": 201060501,
+          "raceId": 2010605,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ショパンコンクール",
@@ -2302,8 +2301,8 @@
           "odds": 6.1
         },
         {
-          "id": 17002,
-          "raceId": 17,
+          "id": 201060502,
+          "raceId": 2010605,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "シグレ",
@@ -2312,8 +2311,8 @@
           "odds": 1.2
         },
         {
-          "id": 17003,
-          "raceId": 17,
+          "id": 201060503,
+          "raceId": 2010605,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ウメヒナタ",
@@ -2322,8 +2321,8 @@
           "odds": 13
         },
         {
-          "id": 17004,
-          "raceId": 17,
+          "id": 201060504,
+          "raceId": 2010605,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "ソウカイファミリア",
@@ -2332,8 +2331,8 @@
           "odds": 9.2
         },
         {
-          "id": 17005,
-          "raceId": 17,
+          "id": 201060505,
+          "raceId": 2010605,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "アズライトティアラ",
@@ -2342,8 +2341,8 @@
           "odds": 22.7
         },
         {
-          "id": 17006,
-          "raceId": 17,
+          "id": 201060506,
+          "raceId": 2010605,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "ルミナスジェム",
@@ -2354,7 +2353,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 2010606,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 6,
@@ -2366,8 +2365,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 18001,
-          "raceId": 18,
+          "id": 201060601,
+          "raceId": 2010606,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "アルペングロー",
@@ -2376,8 +2375,8 @@
           "odds": 9.3
         },
         {
-          "id": 18002,
-          "raceId": 18,
+          "id": 201060602,
+          "raceId": 2010606,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "エクラドット",
@@ -2386,8 +2385,8 @@
           "odds": 26
         },
         {
-          "id": 18003,
-          "raceId": 18,
+          "id": 201060603,
+          "raceId": 2010606,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "セイントクーヤ",
@@ -2396,8 +2395,8 @@
           "odds": 88
         },
         {
-          "id": 18004,
-          "raceId": 18,
+          "id": 201060604,
+          "raceId": 2010606,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "ショウナンアワード",
@@ -2406,8 +2405,8 @@
           "odds": 27.9
         },
         {
-          "id": 18005,
-          "raceId": 18,
+          "id": 201060605,
+          "raceId": 2010606,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "ビップジョワ",
@@ -2416,8 +2415,8 @@
           "odds": 39.4
         },
         {
-          "id": 18006,
-          "raceId": 18,
+          "id": 201060606,
+          "raceId": 2010606,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "ロッサコメータ",
@@ -2426,8 +2425,8 @@
           "odds": 12.4
         },
         {
-          "id": 18007,
-          "raceId": 18,
+          "id": 201060607,
+          "raceId": 2010606,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "フローレンスフーガ",
@@ -2436,8 +2435,8 @@
           "odds": 14.1
         },
         {
-          "id": 18008,
-          "raceId": 18,
+          "id": 201060608,
+          "raceId": 2010606,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "コティノス",
@@ -2446,8 +2445,8 @@
           "odds": 18
         },
         {
-          "id": 18009,
-          "raceId": 18,
+          "id": 201060609,
+          "raceId": 2010606,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "テンレディーゴー",
@@ -2456,8 +2455,8 @@
           "odds": 117
         },
         {
-          "id": 18010,
-          "raceId": 18,
+          "id": 201060610,
+          "raceId": 2010606,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "ベネディクション",
@@ -2466,8 +2465,8 @@
           "odds": 23.9
         },
         {
-          "id": 18011,
-          "raceId": 18,
+          "id": 201060611,
+          "raceId": 2010606,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "シーガルワールド",
@@ -2476,8 +2475,8 @@
           "odds": 6.4
         },
         {
-          "id": 18012,
-          "raceId": 18,
+          "id": 201060612,
+          "raceId": 2010606,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "アート",
@@ -2486,8 +2485,8 @@
           "odds": 26.3
         },
         {
-          "id": 18013,
-          "raceId": 18,
+          "id": 201060613,
+          "raceId": 2010606,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "マジックファイヤー",
@@ -2496,8 +2495,8 @@
           "odds": 21.1
         },
         {
-          "id": 18014,
-          "raceId": 18,
+          "id": 201060614,
+          "raceId": 2010606,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "マテンロウオリジン",
@@ -2506,8 +2505,8 @@
           "odds": 2.2
         },
         {
-          "id": 18015,
-          "raceId": 18,
+          "id": 201060615,
+          "raceId": 2010606,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "ハルノアメ",
@@ -2516,8 +2515,8 @@
           "odds": 15.3
         },
         {
-          "id": 18016,
-          "raceId": 18,
+          "id": 201060616,
+          "raceId": 2010606,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "ブランニューホーム",
@@ -2528,7 +2527,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 2010607,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 7,
@@ -2540,8 +2539,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 19001,
-          "raceId": 19,
+          "id": 201060701,
+          "raceId": 2010607,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ウィンターガーデン",
@@ -2550,8 +2549,8 @@
           "odds": 15.3
         },
         {
-          "id": 19002,
-          "raceId": 19,
+          "id": 201060702,
+          "raceId": 2010607,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ビーチイン",
@@ -2560,8 +2559,8 @@
           "odds": 8.1
         },
         {
-          "id": 19003,
-          "raceId": 19,
+          "id": 201060703,
+          "raceId": 2010607,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "キタノサリスカ",
@@ -2570,8 +2569,8 @@
           "odds": 30.5
         },
         {
-          "id": 19004,
-          "raceId": 19,
+          "id": 201060704,
+          "raceId": 2010607,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "キャットテイル",
@@ -2580,8 +2579,8 @@
           "odds": 3.6
         },
         {
-          "id": 19005,
-          "raceId": 19,
+          "id": 201060705,
+          "raceId": 2010607,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "アリストクラシア",
@@ -2590,8 +2589,8 @@
           "odds": 5.3
         },
         {
-          "id": 19006,
-          "raceId": 19,
+          "id": 201060706,
+          "raceId": 2010607,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "ガーネットフレア",
@@ -2600,8 +2599,8 @@
           "odds": 6.8
         },
         {
-          "id": 19007,
-          "raceId": 19,
+          "id": 201060707,
+          "raceId": 2010607,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "ヒミノエトワール",
@@ -2610,8 +2609,8 @@
           "odds": 5.1
         },
         {
-          "id": 19008,
-          "raceId": 19,
+          "id": 201060708,
+          "raceId": 2010607,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "サウンドルーチェ",
@@ -2620,8 +2619,8 @@
           "odds": 7.7
         },
         {
-          "id": 19009,
-          "raceId": 19,
+          "id": 201060709,
+          "raceId": 2010607,
           "frameNumber": 8,
           "horseNumber": 9,
           "horse": "ゴールドヴィーナス",
@@ -2630,8 +2629,8 @@
           "odds": 29.2
         },
         {
-          "id": 19010,
-          "raceId": 19,
+          "id": 201060710,
+          "raceId": 2010607,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "シャンデヴィーニュ",
@@ -2642,7 +2641,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 2010608,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 8,
@@ -2654,8 +2653,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 20001,
-          "raceId": 20,
+          "id": 201060801,
+          "raceId": 2010608,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "アートフォーム",
@@ -2664,8 +2663,8 @@
           "odds": 48.2
         },
         {
-          "id": 20002,
-          "raceId": 20,
+          "id": 201060802,
+          "raceId": 2010608,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ストレイトアスク",
@@ -2674,8 +2673,8 @@
           "odds": 12.3
         },
         {
-          "id": 20003,
-          "raceId": 20,
+          "id": 201060803,
+          "raceId": 2010608,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "メーゼ",
@@ -2684,8 +2683,8 @@
           "odds": 23.7
         },
         {
-          "id": 20004,
-          "raceId": 20,
+          "id": 201060804,
+          "raceId": 2010608,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "クレセントウイング",
@@ -2694,8 +2693,8 @@
           "odds": 10.2
         },
         {
-          "id": 20005,
-          "raceId": 20,
+          "id": 201060805,
+          "raceId": 2010608,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "マグネシアブリック",
@@ -2704,8 +2703,8 @@
           "odds": 22
         },
         {
-          "id": 20006,
-          "raceId": 20,
+          "id": 201060806,
+          "raceId": 2010608,
           "frameNumber": 5,
           "horseNumber": 6,
           "horse": "ディーズメンフィス",
@@ -2714,8 +2713,8 @@
           "odds": 11
         },
         {
-          "id": 20007,
-          "raceId": 20,
+          "id": 201060807,
+          "raceId": 2010608,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "グリフォン",
@@ -2724,8 +2723,8 @@
           "odds": 29.7
         },
         {
-          "id": 20008,
-          "raceId": 20,
+          "id": 201060808,
+          "raceId": 2010608,
           "frameNumber": 6,
           "horseNumber": 8,
           "horse": "マイケルバローズ",
@@ -2734,8 +2733,8 @@
           "odds": 5.2
         },
         {
-          "id": 20009,
-          "raceId": 20,
+          "id": 201060809,
+          "raceId": 2010608,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "レオアジャイル",
@@ -2744,8 +2743,8 @@
           "odds": 6.7
         },
         {
-          "id": 20010,
-          "raceId": 20,
+          "id": 201060810,
+          "raceId": 2010608,
           "frameNumber": 7,
           "horseNumber": 10,
           "horse": "ソードマスター",
@@ -2754,8 +2753,8 @@
           "odds": 33.2
         },
         {
-          "id": 20011,
-          "raceId": 20,
+          "id": 201060811,
+          "raceId": 2010608,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "ナクソス",
@@ -2764,8 +2763,8 @@
           "odds": 44.5
         },
         {
-          "id": 20012,
-          "raceId": 20,
+          "id": 201060812,
+          "raceId": 2010608,
           "frameNumber": 8,
           "horseNumber": 12,
           "horse": "ニルマーネル",
@@ -2774,8 +2773,8 @@
           "odds": 3.1
         },
         {
-          "id": 20013,
-          "raceId": 20,
+          "id": 201060813,
+          "raceId": 2010608,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "コスモレッド",
@@ -2786,7 +2785,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 2010609,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 9,
@@ -2798,8 +2797,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 21001,
-          "raceId": 21,
+          "id": 201060901,
+          "raceId": 2010609,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "カムアップローゼス",
@@ -2808,8 +2807,8 @@
           "odds": 2
         },
         {
-          "id": 21002,
-          "raceId": 21,
+          "id": 201060902,
+          "raceId": 2010609,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ナムラヒナギク",
@@ -2818,8 +2817,8 @@
           "odds": 10.9
         },
         {
-          "id": 21003,
-          "raceId": 21,
+          "id": 201060903,
+          "raceId": 2010609,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ゴーゴータカシ",
@@ -2828,8 +2827,8 @@
           "odds": 6.4
         },
         {
-          "id": 21004,
-          "raceId": 21,
+          "id": 201060904,
+          "raceId": 2010609,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "ドッグウッド",
@@ -2838,8 +2837,8 @@
           "odds": 6.6
         },
         {
-          "id": 21005,
-          "raceId": 21,
+          "id": 201060905,
+          "raceId": 2010609,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "ネッタイヤライ",
@@ -2848,8 +2847,8 @@
           "odds": 9
         },
         {
-          "id": 21006,
-          "raceId": 21,
+          "id": 201060906,
+          "raceId": 2010609,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "ゼアズノープレイス",
@@ -2858,8 +2857,8 @@
           "odds": 70.7
         },
         {
-          "id": 21007,
-          "raceId": 21,
+          "id": 201060907,
+          "raceId": 2010609,
           "frameNumber": 7,
           "horseNumber": 7,
           "horse": "ハルフロンティア",
@@ -2868,8 +2867,8 @@
           "odds": 8.2
         },
         {
-          "id": 21008,
-          "raceId": 21,
+          "id": 201060908,
+          "raceId": 2010609,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "ハミルトン",
@@ -2878,8 +2877,8 @@
           "odds": 20.1
         },
         {
-          "id": 21009,
-          "raceId": 21,
+          "id": 201060909,
+          "raceId": 2010609,
           "frameNumber": 8,
           "horseNumber": 9,
           "horse": "マイネルイグザルト",
@@ -2888,8 +2887,8 @@
           "odds": 26.5
         },
         {
-          "id": 21010,
-          "raceId": 21,
+          "id": 201060910,
+          "raceId": 2010609,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "ピティロディア",
@@ -2900,7 +2899,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 2010610,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 10,
@@ -2912,8 +2911,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 22001,
-          "raceId": 22,
+          "id": 201061001,
+          "raceId": 2010610,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "プリンセッサ",
@@ -2922,8 +2921,8 @@
           "odds": 3.5
         },
         {
-          "id": 22002,
-          "raceId": 22,
+          "id": 201061002,
+          "raceId": 2010610,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "コパノエビータ",
@@ -2932,8 +2931,8 @@
           "odds": 28.1
         },
         {
-          "id": 22003,
-          "raceId": 22,
+          "id": 201061003,
+          "raceId": 2010610,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ネクストダンサー",
@@ -2942,8 +2941,8 @@
           "odds": 56.2
         },
         {
-          "id": 22004,
-          "raceId": 22,
+          "id": 201061004,
+          "raceId": 2010610,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "コンティオ",
@@ -2952,8 +2951,8 @@
           "odds": 5.4
         },
         {
-          "id": 22005,
-          "raceId": 22,
+          "id": 201061005,
+          "raceId": 2010610,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "ブラックルビー",
@@ -2962,8 +2961,8 @@
           "odds": 17.3
         },
         {
-          "id": 22006,
-          "raceId": 22,
+          "id": 201061006,
+          "raceId": 2010610,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "ユージュアーナ",
@@ -2972,8 +2971,8 @@
           "odds": 6.7
         },
         {
-          "id": 22007,
-          "raceId": 22,
+          "id": 201061007,
+          "raceId": 2010610,
           "frameNumber": 6,
           "horseNumber": 7,
           "horse": "ルージュマローネ",
@@ -2982,8 +2981,8 @@
           "odds": 24.2
         },
         {
-          "id": 22008,
-          "raceId": 22,
+          "id": 201061008,
+          "raceId": 2010610,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "ニシノラヴァンダ",
@@ -2992,8 +2991,8 @@
           "odds": 37.1
         },
         {
-          "id": 22009,
-          "raceId": 22,
+          "id": 201061009,
+          "raceId": 2010610,
           "frameNumber": 7,
           "horseNumber": 9,
           "horse": "タマモカンパネラ",
@@ -3002,8 +3001,8 @@
           "odds": 4
         },
         {
-          "id": 22010,
-          "raceId": 22,
+          "id": 201061010,
+          "raceId": 2010610,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "ウインシャーガス",
@@ -3012,8 +3011,8 @@
           "odds": 5.3
         },
         {
-          "id": 22011,
-          "raceId": 22,
+          "id": 201061011,
+          "raceId": 2010610,
           "frameNumber": 8,
           "horseNumber": 11,
           "horse": "ドーンコーラス",
@@ -3024,7 +3023,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 2010611,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 11,
@@ -3036,8 +3035,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 23001,
-          "raceId": 23,
+          "id": 201061101,
+          "raceId": 2010611,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "バルナバ",
@@ -3046,8 +3045,8 @@
           "odds": 23.2
         },
         {
-          "id": 23002,
-          "raceId": 23,
+          "id": 201061102,
+          "raceId": 2010611,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ファウストラーゼン",
@@ -3056,8 +3055,8 @@
           "odds": 9.8
         },
         {
-          "id": 23003,
-          "raceId": 23,
+          "id": 201061103,
+          "raceId": 2010611,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "ピースワンデュック",
@@ -3066,8 +3065,8 @@
           "odds": 18.3
         },
         {
-          "id": 23004,
-          "raceId": 23,
+          "id": 201061104,
+          "raceId": 2010611,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "マジックサンズ",
@@ -3076,8 +3075,8 @@
           "odds": 7.9
         },
         {
-          "id": 23005,
-          "raceId": 23,
+          "id": 201061105,
+          "raceId": 2010611,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "イガッチ",
@@ -3086,8 +3085,8 @@
           "odds": 6.6
         },
         {
-          "id": 23006,
-          "raceId": 23,
+          "id": 201061106,
+          "raceId": 2010611,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "サンストックトン",
@@ -3096,8 +3095,8 @@
           "odds": 28.5
         },
         {
-          "id": 23007,
-          "raceId": 23,
+          "id": 201061107,
+          "raceId": 2010611,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "チャックネイト",
@@ -3106,8 +3105,8 @@
           "odds": 43.5
         },
         {
-          "id": 23008,
-          "raceId": 23,
+          "id": 201061108,
+          "raceId": 2010611,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "ケイアイセナ",
@@ -3116,8 +3115,8 @@
           "odds": 8.4
         },
         {
-          "id": 23009,
-          "raceId": 23,
+          "id": 201061109,
+          "raceId": 2010611,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "オニャンコポン",
@@ -3126,8 +3125,8 @@
           "odds": 42.3
         },
         {
-          "id": 23010,
-          "raceId": 23,
+          "id": 201061110,
+          "raceId": 2010611,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "ケリフレッドアスク",
@@ -3136,8 +3135,8 @@
           "odds": 17.1
         },
         {
-          "id": 23011,
-          "raceId": 23,
+          "id": 201061111,
+          "raceId": 2010611,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "ジュタ",
@@ -3146,8 +3145,8 @@
           "odds": 9.6
         },
         {
-          "id": 23012,
-          "raceId": 23,
+          "id": 201061112,
+          "raceId": 2010611,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "エコロディノス",
@@ -3156,8 +3155,8 @@
           "odds": 7.7
         },
         {
-          "id": 23013,
-          "raceId": 23,
+          "id": 201061113,
+          "raceId": 2010611,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "アラタ",
@@ -3166,8 +3165,8 @@
           "odds": 18
         },
         {
-          "id": 23014,
-          "raceId": 23,
+          "id": 201061114,
+          "raceId": 2010611,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "フィーリウス",
@@ -3176,8 +3175,8 @@
           "odds": 6.9
         },
         {
-          "id": 23015,
-          "raceId": 23,
+          "id": 201061115,
+          "raceId": 2010611,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "デビットバローズ",
@@ -3188,7 +3187,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 2010612,
       "date": "2026-06-28",
       "venue": "函館",
       "raceNumber": 12,
@@ -3200,8 +3199,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 24001,
-          "raceId": 24,
+          "id": 201061201,
+          "raceId": 2010612,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ガットネロ",
@@ -3210,8 +3209,8 @@
           "odds": 19.4
         },
         {
-          "id": 24002,
-          "raceId": 24,
+          "id": 201061202,
+          "raceId": 2010612,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "エルサトアナ",
@@ -3220,8 +3219,8 @@
           "odds": 11.1
         },
         {
-          "id": 24003,
-          "raceId": 24,
+          "id": 201061203,
+          "raceId": 2010612,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "サンドロナイト",
@@ -3230,8 +3229,8 @@
           "odds": 16.6
         },
         {
-          "id": 24004,
-          "raceId": 24,
+          "id": 201061204,
+          "raceId": 2010612,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "ウチュウノセカイ",
@@ -3240,8 +3239,8 @@
           "odds": 5
         },
         {
-          "id": 24005,
-          "raceId": 24,
+          "id": 201061205,
+          "raceId": 2010612,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "キープサインオン",
@@ -3250,8 +3249,8 @@
           "odds": 11.2
         },
         {
-          "id": 24006,
-          "raceId": 24,
+          "id": 201061206,
+          "raceId": 2010612,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "ヴィヴァクラウン",
@@ -3260,8 +3259,8 @@
           "odds": 9.1
         },
         {
-          "id": 24007,
-          "raceId": 24,
+          "id": 201061207,
+          "raceId": 2010612,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "ビーコング",
@@ -3270,8 +3269,8 @@
           "odds": 53.5
         },
         {
-          "id": 24008,
-          "raceId": 24,
+          "id": 201061208,
+          "raceId": 2010612,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "フェアリーライズ",
@@ -3280,8 +3279,8 @@
           "odds": 28.7
         },
         {
-          "id": 24009,
-          "raceId": 24,
+          "id": 201061209,
+          "raceId": 2010612,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "エクストラバック",
@@ -3290,8 +3289,8 @@
           "odds": 7.9
         },
         {
-          "id": 24010,
-          "raceId": 24,
+          "id": 201061210,
+          "raceId": 2010612,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "シーグルロス",
@@ -3300,8 +3299,8 @@
           "odds": 7.3
         },
         {
-          "id": 24011,
-          "raceId": 24,
+          "id": 201061211,
+          "raceId": 2010612,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "ライツユーアップ",
@@ -3310,8 +3309,8 @@
           "odds": 21.3
         },
         {
-          "id": 24012,
-          "raceId": 24,
+          "id": 201061212,
+          "raceId": 2010612,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "クリエープキー",
@@ -3320,8 +3319,8 @@
           "odds": 17.4
         },
         {
-          "id": 24013,
-          "raceId": 24,
+          "id": 201061213,
+          "raceId": 2010612,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "ゴキゲンサン",
@@ -3330,8 +3329,8 @@
           "odds": 33.1
         },
         {
-          "id": 24014,
-          "raceId": 24,
+          "id": 201061214,
+          "raceId": 2010612,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "ホワイトドラゴン",
@@ -3342,7 +3341,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 3020201,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 1,
@@ -3354,8 +3353,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 25001,
-          "raceId": 25,
+          "id": 302020101,
+          "raceId": 3020201,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "フレイムジョーカー",
@@ -3364,8 +3363,8 @@
           "odds": 10.8
         },
         {
-          "id": 25002,
-          "raceId": 25,
+          "id": 302020102,
+          "raceId": 3020201,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "アウスヴァール",
@@ -3374,8 +3373,8 @@
           "odds": 3.5
         },
         {
-          "id": 25003,
-          "raceId": 25,
+          "id": 302020103,
+          "raceId": 3020201,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "シュハリ",
@@ -3384,8 +3383,8 @@
           "odds": 44
         },
         {
-          "id": 25004,
-          "raceId": 25,
+          "id": 302020104,
+          "raceId": 3020201,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "ポワンキュルミナン",
@@ -3394,8 +3393,8 @@
           "odds": 8
         },
         {
-          "id": 25005,
-          "raceId": 25,
+          "id": 302020105,
+          "raceId": 3020201,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "ブランフォルテ",
@@ -3404,8 +3403,8 @@
           "odds": 30.4
         },
         {
-          "id": 25006,
-          "raceId": 25,
+          "id": 302020106,
+          "raceId": 3020201,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "グロッシェン",
@@ -3414,8 +3413,8 @@
           "odds": 14.8
         },
         {
-          "id": 25007,
-          "raceId": 25,
+          "id": 302020107,
+          "raceId": 3020201,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "ラパンラピッド",
@@ -3424,8 +3423,8 @@
           "odds": 3.9
         },
         {
-          "id": 25008,
-          "raceId": 25,
+          "id": 302020108,
+          "raceId": 3020201,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "ヴォンヌヴォー",
@@ -3434,8 +3433,8 @@
           "odds": 66
         },
         {
-          "id": 25009,
-          "raceId": 25,
+          "id": 302020109,
+          "raceId": 3020201,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "トーアマリシテン",
@@ -3444,8 +3443,8 @@
           "odds": 4.9
         },
         {
-          "id": 25010,
-          "raceId": 25,
+          "id": 302020110,
+          "raceId": 3020201,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "ブライトライツ",
@@ -3454,8 +3453,8 @@
           "odds": 82.4
         },
         {
-          "id": 25011,
-          "raceId": 25,
+          "id": 302020111,
+          "raceId": 3020201,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "モズクルードラゴン",
@@ -3464,8 +3463,8 @@
           "odds": 100.6
         },
         {
-          "id": 25012,
-          "raceId": 25,
+          "id": 302020112,
+          "raceId": 3020201,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "ニシノインヴィクタ",
@@ -3474,8 +3473,8 @@
           "odds": 43.5
         },
         {
-          "id": 25013,
-          "raceId": 25,
+          "id": 302020113,
+          "raceId": 3020201,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "ロワゾブルー",
@@ -3484,8 +3483,8 @@
           "odds": 107.2
         },
         {
-          "id": 25014,
-          "raceId": 25,
+          "id": 302020114,
+          "raceId": 3020201,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "サマーアゲイン",
@@ -3496,7 +3495,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": 3020202,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 2,
@@ -3508,8 +3507,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 26001,
-          "raceId": 26,
+          "id": 302020201,
+          "raceId": 3020202,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ゴールドフリーダム",
@@ -3518,8 +3517,8 @@
           "odds": 27.3
         },
         {
-          "id": 26002,
-          "raceId": 26,
+          "id": 302020202,
+          "raceId": 3020202,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "カラクリスピリッツ",
@@ -3528,8 +3527,8 @@
           "odds": 26.3
         },
         {
-          "id": 26003,
-          "raceId": 26,
+          "id": 302020203,
+          "raceId": 3020202,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "カミノテイオー",
@@ -3538,8 +3537,8 @@
           "odds": 92.3
         },
         {
-          "id": 26004,
-          "raceId": 26,
+          "id": 302020204,
+          "raceId": 3020202,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "オセアフェアモント",
@@ -3548,8 +3547,8 @@
           "odds": 62
         },
         {
-          "id": 26005,
-          "raceId": 26,
+          "id": 302020205,
+          "raceId": 3020202,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "イトシサ",
@@ -3558,8 +3557,8 @@
           "odds": 6.1
         },
         {
-          "id": 26006,
-          "raceId": 26,
+          "id": 302020206,
+          "raceId": 3020202,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "プロミスライン",
@@ -3568,8 +3567,8 @@
           "odds": 24.1
         },
         {
-          "id": 26007,
-          "raceId": 26,
+          "id": 302020207,
+          "raceId": 3020202,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "チェイサー",
@@ -3578,8 +3577,8 @@
           "odds": 21.9
         },
         {
-          "id": 26008,
-          "raceId": 26,
+          "id": 302020208,
+          "raceId": 3020202,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "サイモングリーマン",
@@ -3588,8 +3587,8 @@
           "odds": 155.1
         },
         {
-          "id": 26009,
-          "raceId": 26,
+          "id": 302020209,
+          "raceId": 3020202,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "ロジキセキ",
@@ -3598,8 +3597,8 @@
           "odds": 32.9
         },
         {
-          "id": 26010,
-          "raceId": 26,
+          "id": 302020210,
+          "raceId": 3020202,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "アシタバスピリッツ",
@@ -3608,8 +3607,8 @@
           "odds": 29.9
         },
         {
-          "id": 26011,
-          "raceId": 26,
+          "id": 302020211,
+          "raceId": 3020202,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "ゴーントゥファー",
@@ -3618,8 +3617,8 @@
           "odds": 20.9
         },
         {
-          "id": 26012,
-          "raceId": 26,
+          "id": 302020212,
+          "raceId": 3020202,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "ウインビギニング",
@@ -3628,8 +3627,8 @@
           "odds": 1.5
         },
         {
-          "id": 26013,
-          "raceId": 26,
+          "id": 302020213,
+          "raceId": 3020202,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "カシマライフウ",
@@ -3638,8 +3637,8 @@
           "odds": 9.1
         },
         {
-          "id": 26014,
-          "raceId": 26,
+          "id": 302020214,
+          "raceId": 3020202,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "ロココ",
@@ -3648,8 +3647,8 @@
           "odds": 51.3
         },
         {
-          "id": 26015,
-          "raceId": 26,
+          "id": 302020215,
+          "raceId": 3020202,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "テンカラットレター",
@@ -3660,7 +3659,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": 3020203,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 3,
@@ -3672,8 +3671,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 27001,
-          "raceId": 27,
+          "id": 302020301,
+          "raceId": 3020203,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ドルチェテソーロ",
@@ -3682,8 +3681,8 @@
           "odds": 7.7
         },
         {
-          "id": 27002,
-          "raceId": 27,
+          "id": 302020302,
+          "raceId": 3020203,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "アイファーラピッド",
@@ -3692,8 +3691,8 @@
           "odds": 7.9
         },
         {
-          "id": 27003,
-          "raceId": 27,
+          "id": 302020303,
+          "raceId": 3020203,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ベアアミーチ",
@@ -3702,8 +3701,8 @@
           "odds": 12.3
         },
         {
-          "id": 27004,
-          "raceId": 27,
+          "id": 302020304,
+          "raceId": 3020203,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "ユイノヘラクレス",
@@ -3712,8 +3711,8 @@
           "odds": 16.3
         },
         {
-          "id": 27005,
-          "raceId": 27,
+          "id": 302020305,
+          "raceId": 3020203,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "オオセイケイ",
@@ -3724,7 +3723,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 3020204,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 4,
@@ -3736,8 +3735,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 28001,
-          "raceId": 28,
+          "id": 302020401,
+          "raceId": 3020204,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "マーズワース",
@@ -3746,8 +3745,8 @@
           "odds": 21.4
         },
         {
-          "id": 28002,
-          "raceId": 28,
+          "id": 302020402,
+          "raceId": 3020204,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ティアラスピリット",
@@ -3756,8 +3755,8 @@
           "odds": 25.7
         },
         {
-          "id": 28003,
-          "raceId": 28,
+          "id": 302020403,
+          "raceId": 3020204,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ノヴェルアレイア",
@@ -3766,8 +3765,8 @@
           "odds": 40.6
         },
         {
-          "id": 28004,
-          "raceId": 28,
+          "id": 302020404,
+          "raceId": 3020204,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "ドナビッグベン",
@@ -3776,8 +3775,8 @@
           "odds": 13.3
         },
         {
-          "id": 28005,
-          "raceId": 28,
+          "id": 302020405,
+          "raceId": 3020204,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "ピリナカピリナ",
@@ -3786,8 +3785,8 @@
           "odds": 12.4
         },
         {
-          "id": 28006,
-          "raceId": 28,
+          "id": 302020406,
+          "raceId": 3020204,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "プリンセスロッティ",
@@ -3796,8 +3795,8 @@
           "odds": 8.4
         },
         {
-          "id": 28007,
-          "raceId": 28,
+          "id": 302020407,
+          "raceId": 3020204,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "スペシャルサンクス",
@@ -3806,8 +3805,8 @@
           "odds": 29.5
         },
         {
-          "id": 28008,
-          "raceId": 28,
+          "id": 302020408,
+          "raceId": 3020204,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "ジーティーマイカ",
@@ -3816,8 +3815,8 @@
           "odds": 2.1
         },
         {
-          "id": 28009,
-          "raceId": 28,
+          "id": 302020409,
+          "raceId": 3020204,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "サリードゥ",
@@ -3826,8 +3825,8 @@
           "odds": 5
         },
         {
-          "id": 28010,
-          "raceId": 28,
+          "id": 302020410,
+          "raceId": 3020204,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "リケアチャチャチャ",
@@ -3836,8 +3835,8 @@
           "odds": 30.8
         },
         {
-          "id": 28011,
-          "raceId": 28,
+          "id": 302020411,
+          "raceId": 3020204,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "マリノシークレット",
@@ -3846,8 +3845,8 @@
           "odds": 51.8
         },
         {
-          "id": 28012,
-          "raceId": 28,
+          "id": 302020412,
+          "raceId": 3020204,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "ミッドナイトドア",
@@ -3856,8 +3855,8 @@
           "odds": 36.2
         },
         {
-          "id": 28013,
-          "raceId": 28,
+          "id": 302020413,
+          "raceId": 3020204,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "ウインリスノアール",
@@ -3866,8 +3865,8 @@
           "odds": 20.9
         },
         {
-          "id": 28014,
-          "raceId": 28,
+          "id": 302020414,
+          "raceId": 3020204,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "ヤマニンアルセド",
@@ -3878,7 +3877,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 3020205,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 5,
@@ -3890,8 +3889,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 29001,
-          "raceId": 29,
+          "id": 302020501,
+          "raceId": 3020205,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ウィナーズチェック",
@@ -3900,8 +3899,8 @@
           "odds": 28.2
         },
         {
-          "id": 29002,
-          "raceId": 29,
+          "id": 302020502,
+          "raceId": 3020205,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "マルガリート",
@@ -3910,8 +3909,8 @@
           "odds": 42.2
         },
         {
-          "id": 29003,
-          "raceId": 29,
+          "id": 302020503,
+          "raceId": 3020205,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ラッキースパークル",
@@ -3920,8 +3919,8 @@
           "odds": 2.7
         },
         {
-          "id": 29004,
-          "raceId": 29,
+          "id": 302020504,
+          "raceId": 3020205,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "ビップヴィーナス",
@@ -3930,8 +3929,8 @@
           "odds": 12.4
         },
         {
-          "id": 29005,
-          "raceId": 29,
+          "id": 302020505,
+          "raceId": 3020205,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "アルアンダルス",
@@ -3940,8 +3939,8 @@
           "odds": 49
         },
         {
-          "id": 29006,
-          "raceId": 29,
+          "id": 302020506,
+          "raceId": 3020205,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "プリメラエストレラ",
@@ -3950,8 +3949,8 @@
           "odds": 46.1
         },
         {
-          "id": 29007,
-          "raceId": 29,
+          "id": 302020507,
+          "raceId": 3020205,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "センターアイランド",
@@ -3960,8 +3959,8 @@
           "odds": 6.4
         },
         {
-          "id": 29008,
-          "raceId": 29,
+          "id": 302020508,
+          "raceId": 3020205,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "レッジェランツァ",
@@ -3970,8 +3969,8 @@
           "odds": 3.4
         },
         {
-          "id": 29009,
-          "raceId": 29,
+          "id": 302020509,
+          "raceId": 3020205,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "マーゴットパラディ",
@@ -3980,8 +3979,8 @@
           "odds": 14.7
         },
         {
-          "id": 29010,
-          "raceId": 29,
+          "id": 302020510,
+          "raceId": 3020205,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "モンドドゥアムール",
@@ -3990,8 +3989,8 @@
           "odds": 52.2
         },
         {
-          "id": 29011,
-          "raceId": 29,
+          "id": 302020511,
+          "raceId": 3020205,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "トリプティーク",
@@ -4000,8 +3999,8 @@
           "odds": 83.2
         },
         {
-          "id": 29012,
-          "raceId": 29,
+          "id": 302020512,
+          "raceId": 3020205,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "アルデアーク",
@@ -4010,8 +4009,8 @@
           "odds": 36.3
         },
         {
-          "id": 29013,
-          "raceId": 29,
+          "id": 302020513,
+          "raceId": 3020205,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "ウインワーグナー",
@@ -4020,8 +4019,8 @@
           "odds": 8.6
         },
         {
-          "id": 29014,
-          "raceId": 29,
+          "id": 302020514,
+          "raceId": 3020205,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "カペラテソーロ",
@@ -4032,7 +4031,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 3020206,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 6,
@@ -4044,8 +4043,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 30001,
-          "raceId": 30,
+          "id": 302020601,
+          "raceId": 3020206,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "オレンジリバー",
@@ -4054,8 +4053,8 @@
           "odds": 14.8
         },
         {
-          "id": 30002,
-          "raceId": 30,
+          "id": 302020602,
+          "raceId": 3020206,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "リアアーテシアン",
@@ -4064,8 +4063,8 @@
           "odds": 6.5
         },
         {
-          "id": 30003,
-          "raceId": 30,
+          "id": 302020603,
+          "raceId": 3020206,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "ペイシャラム",
@@ -4074,8 +4073,8 @@
           "odds": 59.9
         },
         {
-          "id": 30004,
-          "raceId": 30,
+          "id": 302020604,
+          "raceId": 3020206,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "スカット",
@@ -4084,8 +4083,8 @@
           "odds": 9.8
         },
         {
-          "id": 30005,
-          "raceId": 30,
+          "id": 302020605,
+          "raceId": 3020206,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "リバージュエル",
@@ -4094,8 +4093,8 @@
           "odds": 35.4
         },
         {
-          "id": 30006,
-          "raceId": 30,
+          "id": 302020606,
+          "raceId": 3020206,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "サトノワーグナー",
@@ -4104,8 +4103,8 @@
           "odds": 5
         },
         {
-          "id": 30007,
-          "raceId": 30,
+          "id": 302020607,
+          "raceId": 3020206,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "イイクニパッション",
@@ -4114,8 +4113,8 @@
           "odds": 3.9
         },
         {
-          "id": 30008,
-          "raceId": 30,
+          "id": 302020608,
+          "raceId": 3020206,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "ハクサンスオーノ",
@@ -4124,8 +4123,8 @@
           "odds": 30.6
         },
         {
-          "id": 30009,
-          "raceId": 30,
+          "id": 302020609,
+          "raceId": 3020206,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "モリガン",
@@ -4134,8 +4133,8 @@
           "odds": 55.4
         },
         {
-          "id": 30010,
-          "raceId": 30,
+          "id": 302020610,
+          "raceId": 3020206,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "ハクサンレイホウ",
@@ -4144,8 +4143,8 @@
           "odds": 88.5
         },
         {
-          "id": 30011,
-          "raceId": 30,
+          "id": 302020611,
+          "raceId": 3020206,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "ミラビリオン",
@@ -4154,8 +4153,8 @@
           "odds": 7.2
         },
         {
-          "id": 30012,
-          "raceId": 30,
+          "id": 302020612,
+          "raceId": 3020206,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "ロジシーザ",
@@ -4164,8 +4163,8 @@
           "odds": 19.8
         },
         {
-          "id": 30013,
-          "raceId": 30,
+          "id": 302020613,
+          "raceId": 3020206,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "カーニバルウェイ",
@@ -4174,8 +4173,8 @@
           "odds": 72.2
         },
         {
-          "id": 30014,
-          "raceId": 30,
+          "id": 302020614,
+          "raceId": 3020206,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "ハミングディスト",
@@ -4184,8 +4183,8 @@
           "odds": 101.8
         },
         {
-          "id": 30015,
-          "raceId": 30,
+          "id": 302020615,
+          "raceId": 3020206,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "アリアーネ",
@@ -4194,8 +4193,8 @@
           "odds": 105.7
         },
         {
-          "id": 30016,
-          "raceId": 30,
+          "id": 302020616,
+          "raceId": 3020206,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "オレンジキャンパス",
@@ -4206,7 +4205,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 3020207,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 7,
@@ -4218,8 +4217,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 31001,
-          "raceId": 31,
+          "id": 302020701,
+          "raceId": 3020207,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ニチヤヲツイデ",
@@ -4228,8 +4227,8 @@
           "odds": 43.7
         },
         {
-          "id": 31002,
-          "raceId": 31,
+          "id": 302020702,
+          "raceId": 3020207,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "オドラタス",
@@ -4238,8 +4237,8 @@
           "odds": 8.7
         },
         {
-          "id": 31003,
-          "raceId": 31,
+          "id": 302020703,
+          "raceId": 3020207,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "ウインディナナコ",
@@ -4248,8 +4247,8 @@
           "odds": 25.7
         },
         {
-          "id": 31004,
-          "raceId": 31,
+          "id": 302020704,
+          "raceId": 3020207,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "ニットウエース",
@@ -4258,8 +4257,8 @@
           "odds": 55.6
         },
         {
-          "id": 31005,
-          "raceId": 31,
+          "id": 302020705,
+          "raceId": 3020207,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "ノーブルラホーヤ",
@@ -4268,8 +4267,8 @@
           "odds": 11.9
         },
         {
-          "id": 31006,
-          "raceId": 31,
+          "id": 302020706,
+          "raceId": 3020207,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "スーホ",
@@ -4278,8 +4277,8 @@
           "odds": 6.4
         },
         {
-          "id": 31007,
-          "raceId": 31,
+          "id": 302020707,
+          "raceId": 3020207,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "キッショウダラニ",
@@ -4288,8 +4287,8 @@
           "odds": 4.1
         },
         {
-          "id": 31008,
-          "raceId": 31,
+          "id": 302020708,
+          "raceId": 3020207,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "ミサトレジーナ",
@@ -4298,8 +4297,8 @@
           "odds": 82.9
         },
         {
-          "id": 31009,
-          "raceId": 31,
+          "id": 302020709,
+          "raceId": 3020207,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "スコアレジーナ",
@@ -4308,8 +4307,8 @@
           "odds": 17.9
         },
         {
-          "id": 31010,
-          "raceId": 31,
+          "id": 302020710,
+          "raceId": 3020207,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "ベンテンカグラ",
@@ -4318,8 +4317,8 @@
           "odds": 24.6
         },
         {
-          "id": 31011,
-          "raceId": 31,
+          "id": 302020711,
+          "raceId": 3020207,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "ホットジュピター",
@@ -4328,8 +4327,8 @@
           "odds": 70
         },
         {
-          "id": 31012,
-          "raceId": 31,
+          "id": 302020712,
+          "raceId": 3020207,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "ザウシャルト",
@@ -4338,8 +4337,8 @@
           "odds": 92.6
         },
         {
-          "id": 31013,
-          "raceId": 31,
+          "id": 302020713,
+          "raceId": 3020207,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "カゼノハゴロモ",
@@ -4348,8 +4347,8 @@
           "odds": 88.5
         },
         {
-          "id": 31014,
-          "raceId": 31,
+          "id": 302020714,
+          "raceId": 3020207,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "アイアンパイク",
@@ -4358,8 +4357,8 @@
           "odds": 3.6
         },
         {
-          "id": 31015,
-          "raceId": 31,
+          "id": 302020715,
+          "raceId": 3020207,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "マイネルヴェーゼン",
@@ -4368,8 +4367,8 @@
           "odds": 7.2
         },
         {
-          "id": 31016,
-          "raceId": 31,
+          "id": 302020716,
+          "raceId": 3020207,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "アンパシオンス",
@@ -4380,7 +4379,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 3020208,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 8,
@@ -4392,8 +4391,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 32001,
-          "raceId": 32,
+          "id": 302020801,
+          "raceId": 3020208,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ゲンジ",
@@ -4402,8 +4401,8 @@
           "odds": 7
         },
         {
-          "id": 32002,
-          "raceId": 32,
+          "id": 302020802,
+          "raceId": 3020208,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "エクセルクラウン",
@@ -4412,8 +4411,8 @@
           "odds": 19.7
         },
         {
-          "id": 32003,
-          "raceId": 32,
+          "id": 302020803,
+          "raceId": 3020208,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ヤマニンヘルシェ",
@@ -4422,8 +4421,8 @@
           "odds": 6.6
         },
         {
-          "id": 32004,
-          "raceId": 32,
+          "id": 302020804,
+          "raceId": 3020208,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "リリエンフェルト",
@@ -4432,8 +4431,8 @@
           "odds": 58.5
         },
         {
-          "id": 32005,
-          "raceId": 32,
+          "id": 302020805,
+          "raceId": 3020208,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "ニホンピロロジャー",
@@ -4442,8 +4441,8 @@
           "odds": 3.6
         },
         {
-          "id": 32006,
-          "raceId": 32,
+          "id": 302020806,
+          "raceId": 3020208,
           "frameNumber": 5,
           "horseNumber": 6,
           "horse": "テイキットイージー",
@@ -4452,8 +4451,8 @@
           "odds": 28.1
         },
         {
-          "id": 32007,
-          "raceId": 32,
+          "id": 302020807,
+          "raceId": 3020208,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "ストレートブラック",
@@ -4462,8 +4461,8 @@
           "odds": 12.3
         },
         {
-          "id": 32008,
-          "raceId": 32,
+          "id": 302020808,
+          "raceId": 3020208,
           "frameNumber": 6,
           "horseNumber": 8,
           "horse": "キロノヴァ",
@@ -4472,8 +4471,8 @@
           "odds": 33.9
         },
         {
-          "id": 32009,
-          "raceId": 32,
+          "id": 302020809,
+          "raceId": 3020208,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "リュクスパトロール",
@@ -4482,8 +4481,8 @@
           "odds": 8.8
         },
         {
-          "id": 32010,
-          "raceId": 32,
+          "id": 302020810,
+          "raceId": 3020208,
           "frameNumber": 7,
           "horseNumber": 10,
           "horse": "エースフライト",
@@ -4492,8 +4491,8 @@
           "odds": 3.3
         },
         {
-          "id": 32011,
-          "raceId": 32,
+          "id": 302020811,
+          "raceId": 3020208,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "オメガストリーム",
@@ -4502,8 +4501,8 @@
           "odds": 29
         },
         {
-          "id": 32012,
-          "raceId": 32,
+          "id": 302020812,
+          "raceId": 3020208,
           "frameNumber": 8,
           "horseNumber": 12,
           "horse": "ジャスティンライズ",
@@ -4512,8 +4511,8 @@
           "odds": 57.3
         },
         {
-          "id": 32013,
-          "raceId": 32,
+          "id": 302020813,
+          "raceId": 3020208,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "グランドフォレスト",
@@ -4524,7 +4523,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 3020209,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 9,
@@ -4536,8 +4535,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 33001,
-          "raceId": 33,
+          "id": 302020901,
+          "raceId": 3020209,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "アリスメティーク",
@@ -4546,8 +4545,8 @@
           "odds": 8.2
         },
         {
-          "id": 33002,
-          "raceId": 33,
+          "id": 302020902,
+          "raceId": 3020209,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "ウインルピナス",
@@ -4556,8 +4555,8 @@
           "odds": 23.7
         },
         {
-          "id": 33003,
-          "raceId": 33,
+          "id": 302020903,
+          "raceId": 3020209,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "ラビットアイ",
@@ -4566,8 +4565,8 @@
           "odds": 8.6
         },
         {
-          "id": 33004,
-          "raceId": 33,
+          "id": 302020904,
+          "raceId": 3020209,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "レッセパッセ",
@@ -4576,8 +4575,8 @@
           "odds": 36.8
         },
         {
-          "id": 33005,
-          "raceId": 33,
+          "id": 302020905,
+          "raceId": 3020209,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "エーデル",
@@ -4586,8 +4585,8 @@
           "odds": 49.9
         },
         {
-          "id": 33006,
-          "raceId": 33,
+          "id": 302020906,
+          "raceId": 3020209,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "ボウウィンドウ",
@@ -4596,8 +4595,8 @@
           "odds": 3.4
         },
         {
-          "id": 33007,
-          "raceId": 33,
+          "id": 302020907,
+          "raceId": 3020209,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "コスモイシュタル",
@@ -4606,8 +4605,8 @@
           "odds": 10.9
         },
         {
-          "id": 33008,
-          "raceId": 33,
+          "id": 302020908,
+          "raceId": 3020209,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "オデット",
@@ -4616,8 +4615,8 @@
           "odds": 54.3
         },
         {
-          "id": 33009,
-          "raceId": 33,
+          "id": 302020909,
+          "raceId": 3020209,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "エバーグルーヴ",
@@ -4626,8 +4625,8 @@
           "odds": 6.4
         },
         {
-          "id": 33010,
-          "raceId": 33,
+          "id": 302020910,
+          "raceId": 3020209,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "ホウオウシンデレラ",
@@ -4636,8 +4635,8 @@
           "odds": 18.5
         },
         {
-          "id": 33011,
-          "raceId": 33,
+          "id": 302020911,
+          "raceId": 3020209,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "クロシェットノエル",
@@ -4646,8 +4645,8 @@
           "odds": 26.5
         },
         {
-          "id": 33012,
-          "raceId": 33,
+          "id": 302020912,
+          "raceId": 3020209,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "ノビリシマビジョン",
@@ -4656,8 +4655,8 @@
           "odds": 4.2
         },
         {
-          "id": 33013,
-          "raceId": 33,
+          "id": 302020913,
+          "raceId": 3020209,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "オルノア",
@@ -4666,8 +4665,8 @@
           "odds": 38.9
         },
         {
-          "id": 33014,
-          "raceId": 33,
+          "id": 302020914,
+          "raceId": 3020209,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "レイピカケ",
@@ -4678,7 +4677,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 3020210,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 10,
@@ -4690,8 +4689,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 34001,
-          "raceId": 34,
+          "id": 302021001,
+          "raceId": 3020210,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "オリーブグリーン",
@@ -4700,8 +4699,8 @@
           "odds": 8.8
         },
         {
-          "id": 34002,
-          "raceId": 34,
+          "id": 302021002,
+          "raceId": 3020210,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "メイショウフウドウ",
@@ -4710,8 +4709,8 @@
           "odds": 32.4
         },
         {
-          "id": 34003,
-          "raceId": 34,
+          "id": 302021003,
+          "raceId": 3020210,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "バギーウィップ",
@@ -4720,8 +4719,8 @@
           "odds": 13.6
         },
         {
-          "id": 34004,
-          "raceId": 34,
+          "id": 302021004,
+          "raceId": 3020210,
           "frameNumber": 4,
           "horseNumber": 4,
           "horse": "エクリプスルバン",
@@ -4730,8 +4729,8 @@
           "odds": 1.5
         },
         {
-          "id": 34005,
-          "raceId": 34,
+          "id": 302021005,
+          "raceId": 3020210,
           "frameNumber": 5,
           "horseNumber": 5,
           "horse": "ヴァナルガンド",
@@ -4740,8 +4739,8 @@
           "odds": 20.1
         },
         {
-          "id": 34006,
-          "raceId": 34,
+          "id": 302021006,
+          "raceId": 3020210,
           "frameNumber": 6,
           "horseNumber": 6,
           "horse": "タイセイミッション",
@@ -4750,8 +4749,8 @@
           "odds": 17.4
         },
         {
-          "id": 34007,
-          "raceId": 34,
+          "id": 302021007,
+          "raceId": 3020210,
           "frameNumber": 6,
           "horseNumber": 7,
           "horse": "ラフエイジアン",
@@ -4760,8 +4759,8 @@
           "odds": 20.3
         },
         {
-          "id": 34008,
-          "raceId": 34,
+          "id": 302021008,
+          "raceId": 3020210,
           "frameNumber": 7,
           "horseNumber": 8,
           "horse": "アイウィル",
@@ -4770,8 +4769,8 @@
           "odds": 27.2
         },
         {
-          "id": 34009,
-          "raceId": 34,
+          "id": 302021009,
+          "raceId": 3020210,
           "frameNumber": 7,
           "horseNumber": 9,
           "horse": "ドバイブルース",
@@ -4780,8 +4779,8 @@
           "odds": 9.7
         },
         {
-          "id": 34010,
-          "raceId": 34,
+          "id": 302021010,
+          "raceId": 3020210,
           "frameNumber": 8,
           "horseNumber": 10,
           "horse": "ゴールドアローン",
@@ -4790,8 +4789,8 @@
           "odds": 28.8
         },
         {
-          "id": 34011,
-          "raceId": 34,
+          "id": 302021011,
+          "raceId": 3020210,
           "frameNumber": 8,
           "horseNumber": 11,
           "horse": "クロースコンバット",
@@ -4802,7 +4801,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 3020211,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 11,
@@ -4814,8 +4813,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 35001,
-          "raceId": 35,
+          "id": 302021101,
+          "raceId": 3020211,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ルージュボヤージュ",
@@ -4824,8 +4823,8 @@
           "odds": 11.5
         },
         {
-          "id": 35002,
-          "raceId": 35,
+          "id": 302021102,
+          "raceId": 3020211,
           "frameNumber": 1,
           "horseNumber": 2,
           "horse": "クカイリモク",
@@ -4834,8 +4833,8 @@
           "odds": 13
         },
         {
-          "id": 35003,
-          "raceId": 35,
+          "id": 302021103,
+          "raceId": 3020211,
           "frameNumber": 2,
           "horseNumber": 3,
           "horse": "ジーネキング",
@@ -4844,8 +4843,8 @@
           "odds": 11.3
         },
         {
-          "id": 35004,
-          "raceId": 35,
+          "id": 302021104,
+          "raceId": 3020211,
           "frameNumber": 2,
           "horseNumber": 4,
           "horse": "サイモンシャリオ",
@@ -4854,8 +4853,8 @@
           "odds": 59.9
         },
         {
-          "id": 35005,
-          "raceId": 35,
+          "id": 302021105,
+          "raceId": 3020211,
           "frameNumber": 3,
           "horseNumber": 5,
           "horse": "リッツパーティー",
@@ -4864,8 +4863,8 @@
           "odds": 5.5
         },
         {
-          "id": 35006,
-          "raceId": 35,
+          "id": 302021106,
+          "raceId": 3020211,
           "frameNumber": 3,
           "horseNumber": 6,
           "horse": "コルテオソレイユ",
@@ -4874,8 +4873,8 @@
           "odds": 7.2
         },
         {
-          "id": 35007,
-          "raceId": 35,
+          "id": 302021107,
+          "raceId": 3020211,
           "frameNumber": 4,
           "horseNumber": 7,
           "horse": "ショウナンガルフ",
@@ -4884,8 +4883,8 @@
           "odds": 57
         },
         {
-          "id": 35008,
-          "raceId": 35,
+          "id": 302021108,
+          "raceId": 3020211,
           "frameNumber": 4,
           "horseNumber": 8,
           "horse": "ディールメーカー",
@@ -4894,8 +4893,8 @@
           "odds": 15.6
         },
         {
-          "id": 35009,
-          "raceId": 35,
+          "id": 302021109,
+          "raceId": 3020211,
           "frameNumber": 5,
           "horseNumber": 9,
           "horse": "キンググローリー",
@@ -4904,8 +4903,8 @@
           "odds": 16.6
         },
         {
-          "id": 35010,
-          "raceId": 35,
+          "id": 302021110,
+          "raceId": 3020211,
           "frameNumber": 5,
           "horseNumber": 10,
           "horse": "ガリレア",
@@ -4914,8 +4913,8 @@
           "odds": 86.1
         },
         {
-          "id": 35011,
-          "raceId": 35,
+          "id": 302021111,
+          "raceId": 3020211,
           "frameNumber": 6,
           "horseNumber": 11,
           "horse": "コロナドブリッジ",
@@ -4924,8 +4923,8 @@
           "odds": 39.2
         },
         {
-          "id": 35012,
-          "raceId": 35,
+          "id": 302021112,
+          "raceId": 3020211,
           "frameNumber": 6,
           "horseNumber": 12,
           "horse": "ローベルクランツ",
@@ -4934,8 +4933,8 @@
           "odds": 6.9
         },
         {
-          "id": 35013,
-          "raceId": 35,
+          "id": 302021113,
+          "raceId": 3020211,
           "frameNumber": 7,
           "horseNumber": 13,
           "horse": "サノノグレーター",
@@ -4944,8 +4943,8 @@
           "odds": 7.4
         },
         {
-          "id": 35014,
-          "raceId": 35,
+          "id": 302021114,
+          "raceId": 3020211,
           "frameNumber": 7,
           "horseNumber": 14,
           "horse": "スカイスプレンダー",
@@ -4954,8 +4953,8 @@
           "odds": 9
         },
         {
-          "id": 35015,
-          "raceId": 35,
+          "id": 302021115,
+          "raceId": 3020211,
           "frameNumber": 8,
           "horseNumber": 15,
           "horse": "バドリナート",
@@ -4964,8 +4963,8 @@
           "odds": 25.8
         },
         {
-          "id": 35016,
-          "raceId": 35,
+          "id": 302021116,
+          "raceId": 3020211,
           "frameNumber": 8,
           "horseNumber": 16,
           "horse": "スペルーチェ",
@@ -4976,7 +4975,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 3020212,
       "date": "2026-06-28",
       "venue": "福島",
       "raceNumber": 12,
@@ -4988,8 +4987,8 @@
       "entriesPending": false,
       "horses": [
         {
-          "id": 36001,
-          "raceId": 36,
+          "id": 302021201,
+          "raceId": 3020212,
           "frameNumber": 1,
           "horseNumber": 1,
           "horse": "ロイヤルスパイア",
@@ -4998,8 +4997,8 @@
           "odds": 4.6
         },
         {
-          "id": 36002,
-          "raceId": 36,
+          "id": 302021202,
+          "raceId": 3020212,
           "frameNumber": 2,
           "horseNumber": 2,
           "horse": "モズタンケ",
@@ -5008,8 +5007,8 @@
           "odds": 11.3
         },
         {
-          "id": 36003,
-          "raceId": 36,
+          "id": 302021203,
+          "raceId": 3020212,
           "frameNumber": 3,
           "horseNumber": 3,
           "horse": "マーシャルアン",
@@ -5018,8 +5017,8 @@
           "odds": 102.7
         },
         {
-          "id": 36004,
-          "raceId": 36,
+          "id": 302021204,
+          "raceId": 3020212,
           "frameNumber": 3,
           "horseNumber": 4,
           "horse": "ミルトハーバー",
@@ -5028,8 +5027,8 @@
           "odds": 7.1
         },
         {
-          "id": 36005,
-          "raceId": 36,
+          "id": 302021205,
+          "raceId": 3020212,
           "frameNumber": 4,
           "horseNumber": 5,
           "horse": "クアロアランチ",
@@ -5038,8 +5037,8 @@
           "odds": 6.5
         },
         {
-          "id": 36006,
-          "raceId": 36,
+          "id": 302021206,
+          "raceId": 3020212,
           "frameNumber": 4,
           "horseNumber": 6,
           "horse": "カツノテンス",
@@ -5048,8 +5047,8 @@
           "odds": 61.5
         },
         {
-          "id": 36007,
-          "raceId": 36,
+          "id": 302021207,
+          "raceId": 3020212,
           "frameNumber": 5,
           "horseNumber": 7,
           "horse": "ソニックブレイカー",
@@ -5058,8 +5057,8 @@
           "odds": 5.1
         },
         {
-          "id": 36008,
-          "raceId": 36,
+          "id": 302021208,
+          "raceId": 3020212,
           "frameNumber": 5,
           "horseNumber": 8,
           "horse": "スターランウェイ",
@@ -5068,8 +5067,8 @@
           "odds": 6.1
         },
         {
-          "id": 36009,
-          "raceId": 36,
+          "id": 302021209,
+          "raceId": 3020212,
           "frameNumber": 6,
           "horseNumber": 9,
           "horse": "アルニラム",
@@ -5078,8 +5077,8 @@
           "odds": 65.5
         },
         {
-          "id": 36010,
-          "raceId": 36,
+          "id": 302021210,
+          "raceId": 3020212,
           "frameNumber": 6,
           "horseNumber": 10,
           "horse": "ゴルトレオパルト",
@@ -5088,8 +5087,8 @@
           "odds": 144.7
         },
         {
-          "id": 36011,
-          "raceId": 36,
+          "id": 302021211,
+          "raceId": 3020212,
           "frameNumber": 7,
           "horseNumber": 11,
           "horse": "フクチャンヒメ",
@@ -5098,8 +5097,8 @@
           "odds": 70.9
         },
         {
-          "id": 36012,
-          "raceId": 36,
+          "id": 302021212,
+          "raceId": 3020212,
           "frameNumber": 7,
           "horseNumber": 12,
           "horse": "タッカーバレット",
@@ -5108,8 +5107,8 @@
           "odds": 36.2
         },
         {
-          "id": 36013,
-          "raceId": 36,
+          "id": 302021213,
+          "raceId": 3020212,
           "frameNumber": 8,
           "horseNumber": 13,
           "horse": "ブーケドリス",
@@ -5118,8 +5117,8 @@
           "odds": 6.5
         },
         {
-          "id": 36014,
-          "raceId": 36,
+          "id": 302021214,
+          "raceId": 3020212,
           "frameNumber": 8,
           "horseNumber": 14,
           "horse": "ジャスフォール",
@@ -5129,5 +5128,8 @@
         }
       ]
     }
+  ],
+  "latestDates": [
+    "2026-06-28"
   ]
 }

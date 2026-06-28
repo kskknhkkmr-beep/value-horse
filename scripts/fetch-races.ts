@@ -1,5 +1,10 @@
 /**
- * netkeiba SP から週末の出馬表を取得して lib/races-cache.json に書き出す。
+ * netkeiba SP から週末の出馬表を取得して lib/races-cache.json に累積追記する。
+ *
+ * - 既存データは netKeibaRaceId でキーを建て、upsert する
+ * - race.id は netKeibaRaceId 下 8 桁を安定 ID として使用（週をまたいでも不変）
+ * - latestDates: 今回取得した日付一覧（API・スコア取得のスコープ絞り込みに使用）
+ * - 直近 RETENTION_MONTHS ヶ月より古いデータは自動削除
  *
  * 使い方:
  *   npm run fetch-races              # 次の土日を自動検出
@@ -7,9 +12,11 @@
  *   npm run fetch-races 20260620 20260621
  */
 
-import { writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fetchRaceIdsByDate, fetchRaceEntry, fetchWinOdds } from "../lib/scraper";
+
+const RETENTION_MONTHS = 3;
 
 // ── 型定義 ────────────────────────────────────────────────────────────────────
 
@@ -40,7 +47,8 @@ export type CachedRace = {
 
 export type RacesCache = {
   fetchedAt: string;
-  dates: string[];
+  dates: string[];        // キャッシュ内の全日付（累積）
+  latestDates: string[];  // 直近に取得した日付（= 今週末）
   races: CachedRace[];
 };
 
@@ -70,6 +78,35 @@ function thisWeekend(): string[] {
   );
 }
 
+/**
+ * netKeibaRaceId の下 8 桁を整数に変換して安定 ID を生成。
+ * 例: "202610020201" → parseInt("10020201") = 10020201
+ * 同じ race は常に同じ ID になるため、週をまたいでも衝突しない。
+ */
+function stableRaceId(netKeibaRaceId: string): number {
+  return parseInt(netKeibaRaceId.slice(4), 10);
+}
+
+function retentionCutoff(): string {
+  const d = new Date();
+  d.setMonth(d.getMonth() - RETENTION_MONTHS);
+  return d.toISOString().slice(0, 10);
+}
+
+function loadExistingRaces(outPath: string): Map<string, CachedRace> {
+  const map = new Map<string, CachedRace>();
+  if (!existsSync(outPath)) return map;
+  try {
+    const raw = JSON.parse(readFileSync(outPath, "utf-8")) as RacesCache;
+    for (const race of raw.races ?? []) {
+      map.set(race.netKeibaRaceId, race);
+    }
+  } catch {
+    // 壊れたキャッシュは無視
+  }
+  return map;
+}
+
 // ── メイン ────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -79,10 +116,15 @@ async function main() {
   console.log("=== VALUE HORSE race fetcher ===");
   console.log(`対象日: ${dates.map(toISODate).join(", ")}`);
 
-  const races: CachedRace[] = [];
+  const outPath = join(process.cwd(), "lib", "races-cache.json");
+  const raceMap = loadExistingRaces(outPath);
+  console.log(`既存データ: ${raceMap.size} レース`);
+
+  const fetchedDates: string[] = [];
 
   for (const yyyymmdd of dates) {
     const isoDate = toISODate(yyyymmdd);
+    fetchedDates.push(isoDate);
     console.log(`\n━━ ${isoDate} ━━`);
 
     const raceIds = await fetchRaceIdsByDate(yyyymmdd);
@@ -97,12 +139,11 @@ async function main() {
         continue;
       }
 
-      // 単勝オッズを JSON API から取得
       const winOddsMap = info.entriesPending ? new Map<number, number>() : await fetchWinOdds(raceId);
+      const rid = stableRaceId(raceId);
 
-      const raceSeq = races.length + 1;
       const race: CachedRace = {
-        id: raceSeq,
+        id: rid,
         date: isoDate,
         venue: info.venue,
         raceNumber: info.raceNumber,
@@ -113,8 +154,8 @@ async function main() {
         netKeibaRaceId: raceId,
         entriesPending: info.entriesPending,
         horses: info.horses.map((h, i) => ({
-          id: raceSeq * 1000 + (i + 1),
-          raceId: raceSeq,
+          id: rid * 100 + i + 1,
+          raceId: rid,
           frameNumber: h.frameNumber,
           horseNumber: h.horseNumber,
           horse: h.horse,
@@ -130,38 +171,44 @@ async function main() {
         ` ✓ ${race.raceName} ${info.surface || "?"}${info.distance || "?"}m ` +
         `${status} ${info.postTime ?? "時刻不明"} (オッズ${oddsCount}頭)`
       );
-      races.push(race);
+      raceMap.set(raceId, race);
     }
   }
 
-  // 日付 → 発走時刻でソートして ID を振り直し
-  races.sort((a, b) => {
+  // 保持期限より古いエントリを除外
+  const cutoff = retentionCutoff();
+  let pruned = 0;
+  for (const [id, race] of raceMap) {
+    if (race.date < cutoff) {
+      raceMap.delete(id);
+      pruned++;
+    }
+  }
+  if (pruned > 0) console.log(`\n保持期限切れ削除: ${pruned} レース（${cutoff} より前）`);
+
+  // date → venue → raceNumber でソート
+  const merged = Array.from(raceMap.values()).sort((a, b) => {
     const d = a.date.localeCompare(b.date);
     if (d !== 0) return d;
-    const va = a.venue; const vb = b.venue;
-    if (va !== vb) return va.localeCompare(vb);
+    const v = a.venue.localeCompare(b.venue);
+    if (v !== 0) return v;
     return a.raceNumber - b.raceNumber;
   });
-  races.forEach((r, i) => {
-    r.id = i + 1;
-    r.horses.forEach((h, j) => {
-      h.id = (i + 1) * 1000 + j + 1;
-      h.raceId = i + 1;
-    });
-  });
+
+  const allDates = [...new Set(merged.map((r) => r.date))].sort();
 
   const output: RacesCache = {
     fetchedAt: new Date().toISOString(),
-    dates,
-    races,
+    dates: allDates,
+    latestDates: fetchedDates.sort(),
+    races: merged,
   };
 
-  const outPath = join(process.cwd(), "lib", "races-cache.json");
   writeFileSync(outPath, JSON.stringify(output, null, 2), "utf-8");
 
-  const totalHorses = races.reduce((s, r) => s + r.horses.length, 0);
+  const totalHorses = merged.reduce((s, r) => s + r.horses.length, 0);
   console.log(`\n✓ 書き出し完了: ${outPath}`);
-  console.log(`  レース数: ${races.length}　馬数: ${totalHorses}`);
+  console.log(`  累積: ${merged.length} レース / 今回取得: ${fetchedDates.join(", ")} / 馬数: ${totalHorses}`);
 }
 
 main().catch((err) => {

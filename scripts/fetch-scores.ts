@@ -68,9 +68,12 @@ async function main() {
 
   // ── races-cache.json がある場合 ───────────────────────────────────────────
   if (usingCache && racesCache) {
-    console.log(`対象レース数: ${racesCache.races.length}`);
+    // latestDates のレースのみ対象（累積キャッシュでも今週分だけスコア取得）
+    const latestDates = racesCache.latestDates ?? racesCache.dates.slice(-2);
+    const targetRaces = racesCache.races.filter((r) => latestDates.includes(r.date));
+    console.log(`対象レース数: ${targetRaces.length} (latestDates: ${latestDates.join(", ")})`);
 
-    for (const race of racesCache.races) {
+    for (const race of targetRaces) {
       console.log(`\n━━ Race ${race.id}: ${race.raceName} (${race.venue} ${race.surface}${race.distance}m) ━━`);
 
       // 追い切り評価: レース単位で一括取得
