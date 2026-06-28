@@ -1,5 +1,5 @@
 /**
- * races-cache.json の本日レースのオッズを更新する。
+ * races-cache.json の本日レースの単勝オッズを更新する。
  * fetch-all より軽量で、発走前の直前オッズ取得（GitHub Actions）に使用する。
  *
  * 使い方:
@@ -8,7 +8,7 @@
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { fetchRaceEntry } from "../lib/scraper";
+import { fetchWinOdds } from "../lib/scraper";
 import type { RacesCache } from "./fetch-races";
 
 function jstNow(): Date {
@@ -52,22 +52,21 @@ async function main() {
     process.stdout.write(
       `  [${String(race.id).padStart(2)}] ${race.raceName} (${race.venue} ${race.postTime}) ... `
     );
-    const entry = await fetchRaceEntry(race.netKeibaRaceId);
-    if (!entry) {
-      console.log("取得失敗");
+    const oddsMap = await fetchWinOdds(race.netKeibaRaceId);
+    if (oddsMap.size === 0) {
+      console.log("オッズ未公開");
       continue;
     }
     let changed = 0;
     for (const h of race.horses) {
-      const fresh = entry.horses.find((fh) => fh.horse === h.horse);
-      if (fresh !== undefined && fresh.odds !== h.odds) {
-        h.odds = fresh.odds;
+      const newOdds = oddsMap.get(h.horseNumber) ?? null;
+      if (newOdds !== h.odds) {
+        h.odds = newOdds;
         changed++;
       }
     }
     totalUpdated += changed;
-    const withOdds = entry.horses.filter((h) => h.odds !== null).length;
-    console.log(`✓ (オッズあり ${withOdds}頭, 変更 ${changed}件)`);
+    console.log(`✓ (${oddsMap.size}頭, 変更 ${changed}件)`);
   }
 
   cache.fetchedAt = new Date().toISOString();

@@ -9,7 +9,7 @@
 
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { fetchRaceIdsByDate, fetchRaceEntry } from "../lib/scraper";
+import { fetchRaceIdsByDate, fetchRaceEntry, fetchWinOdds } from "../lib/scraper";
 
 // ── 型定義 ────────────────────────────────────────────────────────────────────
 
@@ -97,6 +97,9 @@ async function main() {
         continue;
       }
 
+      // 単勝オッズを JSON API から取得
+      const winOddsMap = info.entriesPending ? new Map<number, number>() : await fetchWinOdds(raceId);
+
       const raceSeq = races.length + 1;
       const race: CachedRace = {
         id: raceSeq,
@@ -117,14 +120,15 @@ async function main() {
           horse: h.horse,
           netKeibaHorseId: h.netKeibaHorseId,
           jockey: h.jockey,
-          odds: h.odds,
+          odds: winOddsMap.get(h.horseNumber) ?? null,
         })),
       };
 
+      const oddsCount = race.horses.filter((h) => h.odds !== null).length;
       const status = info.entriesPending ? "エントリー未発表" : `${race.horses.length}頭`;
       console.log(
         ` ✓ ${race.raceName} ${info.surface || "?"}${info.distance || "?"}m ` +
-        `${status} ${info.postTime ?? "時刻不明"}`
+        `${status} ${info.postTime ?? "時刻不明"} (オッズ${oddsCount}頭)`
       );
       races.push(race);
     }

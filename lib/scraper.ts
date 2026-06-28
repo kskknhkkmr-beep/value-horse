@@ -51,6 +51,43 @@ function toInt(s: string): number {
   return parseInt(s.replace(/[^\d]/g, ""), 10);
 }
 
+// ─── 単勝オッズ取得（PC版 JSON API） ──────────────────────────────────────────
+
+/**
+ * race.netkeiba.com の単勝オッズ JSON API から「馬番 → 単勝オッズ」を返す。
+ * URL: https://race.netkeiba.com/api/api_get_jra_odds.html?race_id=XXX&type=1&action=update
+ * レスポンス: { data: { odds: { "1": { "01": ["2.9","","2"], ... } } } }
+ */
+export async function fetchWinOdds(netKeibaRaceId: string): Promise<Map<number, number>> {
+  await sleep(800);
+  const url = `https://race.netkeiba.com/api/api_get_jra_odds.html?race_id=${netKeibaRaceId}&type=1&action=update`;
+  try {
+    const res = await fetch(url, {
+      headers: { ...PC_HEADERS, Referer: `https://race.netkeiba.com/race/shutuba.html?race_id=${netKeibaRaceId}` },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = (await res.json()) as {
+      status: string;
+      data: { odds?: Record<string, Record<string, [string, string, string]>> } | string;
+    };
+    if (typeof json.data !== "object" || !json.data?.odds) return new Map();
+    const winOdds = json.data.odds["1"];
+    if (!winOdds) return new Map();
+    const map = new Map<number, number>();
+    for (const [padded, values] of Object.entries(winOdds)) {
+      const horseNum = parseInt(padded, 10);
+      const oddsVal = parseFloat(values[0]);
+      if (!isNaN(horseNum) && !isNaN(oddsVal) && oddsVal > 0) {
+        map.set(horseNum, oddsVal);
+      }
+    }
+    return map;
+  } catch (e) {
+    console.warn(`  [scraper] fetchWinOdds failed (${netKeibaRaceId}):`, (e as Error).message);
+    return new Map();
+  }
+}
+
 // ─── 出馬表から馬名→IDマップを取得 ──────────────────────────────────────────
 
 /**
