@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T00:20:31.197Z",
+  "fetchedAt": "2026-06-28T00:53:24.740Z",
   "dates": [
     "20260627",
     "20260628"
@@ -25,7 +25,7 @@
           "horse": "ホーリーステップ",
           "netKeibaHorseId": "2023102145",
           "jockey": "",
-          "odds": null
+          "odds": 14.1
         },
         {
           "id": 1002,
@@ -35,7 +35,7 @@
           "horse": "ハイソリア",
           "netKeibaHorseId": "2023101400",
           "jockey": "",
-          "odds": null
+          "odds": 58
         },
         {
           "id": 1003,
@@ -45,7 +45,7 @@
           "horse": "ランスオブラヴ",
           "netKeibaHorseId": "2023102639",
           "jockey": "",
-          "odds": null
+          "odds": 40
         },
         {
           "id": 1004,
@@ -55,7 +55,7 @@
           "horse": "ベルセクレト",
           "netKeibaHorseId": "2023109072",
           "jockey": "",
-          "odds": null
+          "odds": 88.7
         },
         {
           "id": 1005,
@@ -65,7 +65,7 @@
           "horse": "ジョービスコッティ",
           "netKeibaHorseId": "2023100429",
           "jockey": "",
-          "odds": null
+          "odds": 2.8
         },
         {
           "id": 1006,
@@ -75,7 +75,7 @@
           "horse": "キャッチミークライ",
           "netKeibaHorseId": "2023101877",
           "jockey": "",
-          "odds": null
+          "odds": 101.2
         },
         {
           "id": 1007,
@@ -85,7 +85,7 @@
           "horse": "ディオレガーロ",
           "netKeibaHorseId": "2023107038",
           "jockey": "",
-          "odds": null
+          "odds": 27.1
         },
         {
           "id": 1008,
@@ -95,7 +95,7 @@
           "horse": "セレブトーチ",
           "netKeibaHorseId": "2023105833",
           "jockey": "",
-          "odds": null
+          "odds": 17.9
         },
         {
           "id": 1009,
@@ -105,7 +105,7 @@
           "horse": "アンガーザガール",
           "netKeibaHorseId": "2023106856",
           "jockey": "",
-          "odds": null
+          "odds": 2.1
         },
         {
           "id": 1010,
@@ -115,7 +115,7 @@
           "horse": "サンシャインビーチ",
           "netKeibaHorseId": "2023101738",
           "jockey": "",
-          "odds": null
+          "odds": 67.3
         },
         {
           "id": 1011,
@@ -125,7 +125,7 @@
           "horse": "エンブルーシャ",
           "netKeibaHorseId": "2023100144",
           "jockey": "",
-          "odds": null
+          "odds": 32.3
         },
         {
           "id": 1012,
@@ -135,7 +135,7 @@
           "horse": "ヴィーラー",
           "netKeibaHorseId": "2023103081",
           "jockey": "",
-          "odds": null
+          "odds": 53.6
         },
         {
           "id": 1013,
@@ -145,7 +145,7 @@
           "horse": "メイショウピュルテ",
           "netKeibaHorseId": "2023104818",
           "jockey": "",
-          "odds": null
+          "odds": 16.5
         },
         {
           "id": 1014,
@@ -155,7 +155,7 @@
           "horse": "ザムーン",
           "netKeibaHorseId": "2023101170",
           "jockey": "",
-          "odds": null
+          "odds": 25.4
         },
         {
           "id": 1015,
@@ -165,7 +165,7 @@
           "horse": "テイエムリチャード",
           "netKeibaHorseId": "2023105623",
           "jockey": "",
-          "odds": null
+          "odds": 193.5
         },
         {
           "id": 1016,
@@ -175,7 +175,7 @@
           "horse": "リーガルスプレンダ",
           "netKeibaHorseId": "2023103685",
           "jockey": "",
-          "odds": null
+          "odds": 58.6
         },
         {
           "id": 1017,
@@ -185,7 +185,7 @@
           "horse": "フルーツベイビー",
           "netKeibaHorseId": "2023101884",
           "jockey": "",
-          "odds": null
+          "odds": 178.4
         },
         {
           "id": 1018,
@@ -195,7 +195,7 @@
           "horse": "チェラブ",
           "netKeibaHorseId": "2023101263",
           "jockey": "",
-          "odds": null
+          "odds": 205.5
         }
       ]
     },
@@ -219,7 +219,7 @@
           "horse": "ブランチアウト",
           "netKeibaHorseId": "2023102357",
           "jockey": "",
-          "odds": null
+          "odds": 4.3
         },
         {
           "id": 2002,
@@ -229,7 +229,7 @@
           "horse": "マサハヤルージュ",
           "netKeibaHorseId": "2023103357",
           "jockey": "",
-          "odds": null
+          "odds": 22
         },
         {
           "id": 2003,
@@ -239,7 +239,7 @@
           "horse": "エリカアズーラ",
           "netKeibaHorseId": "2023102622",
           "jockey": "",
-          "odds": null
+          "odds": 72.7
         },
         {
           "id": 2004,
@@ -249,7 +249,7 @@
           "horse": "リュネヴィル",
           "netKeibaHorseId": "2023103775",
           "jockey": "",
-          "odds": null
+          "odds": 87.8
         },
         {
           "id": 2005,
@@ -259,7 +259,7 @@
           "horse": "モンロワイヤル",
           "netKeibaHorseId": "2023100926",
           "jockey": "",
-          "odds": null
+          "odds": 4.9
         },
         {
           "id": 2006,
@@ -269,7 +269,7 @@
           "horse": "グリミスティ",
           "netKeibaHorseId": "2023101308",
           "jockey": "",
-          "odds": null
+          "odds": 38.4
         },
         {
           "id": 2007,
@@ -279,7 +279,7 @@
           "horse": "チヨ",
           "netKeibaHorseId": "2023107543",
           "jockey": "",
-          "odds": null
+          "odds": 17
         },
         {
           "id": 2008,
@@ -289,7 +289,7 @@
           "horse": "エングルマン",
           "netKeibaHorseId": "2023110077",
           "jockey": "",
-          "odds": null
+          "odds": 11.9
         },
         {
           "id": 2009,
@@ -299,7 +299,7 @@
           "horse": "サンダーバード",
           "netKeibaHorseId": "2023105292",
           "jockey": "",
-          "odds": null
+          "odds": 3.4
         },
         {
           "id": 2010,
@@ -309,7 +309,7 @@
           "horse": "メイショウユウゲン",
           "netKeibaHorseId": "2023101282",
           "jockey": "",
-          "odds": null
+          "odds": 79.5
         },
         {
           "id": 2011,
@@ -319,7 +319,7 @@
           "horse": "ワンダーエイド",
           "netKeibaHorseId": "2023100457",
           "jockey": "",
-          "odds": null
+          "odds": 64.2
         },
         {
           "id": 2012,
@@ -329,7 +329,7 @@
           "horse": "アリュウ",
           "netKeibaHorseId": "2023104938",
           "jockey": "",
-          "odds": null
+          "odds": 26.2
         },
         {
           "id": 2013,
@@ -339,7 +339,7 @@
           "horse": "オーマイラッキーン",
           "netKeibaHorseId": "2023102060",
           "jockey": "",
-          "odds": null
+          "odds": 8.5
         },
         {
           "id": 2014,
@@ -349,7 +349,7 @@
           "horse": "ダノンプレリュード",
           "netKeibaHorseId": "2023107239",
           "jockey": "",
-          "odds": null
+          "odds": 37.6
         },
         {
           "id": 2015,
@@ -359,7 +359,7 @@
           "horse": "パラフローラ",
           "netKeibaHorseId": "2023105646",
           "jockey": "",
-          "odds": null
+          "odds": 23.7
         },
         {
           "id": 2016,
@@ -369,7 +369,7 @@
           "horse": "シャロン",
           "netKeibaHorseId": "2023105372",
           "jockey": "",
-          "odds": null
+          "odds": 30.7
         }
       ]
     },
@@ -393,7 +393,7 @@
           "horse": "ショウナンライラ",
           "netKeibaHorseId": "2023100277",
           "jockey": "",
-          "odds": null
+          "odds": 78.3
         },
         {
           "id": 3002,
@@ -403,7 +403,7 @@
           "horse": "マテンロウノア",
           "netKeibaHorseId": "2023102237",
           "jockey": "",
-          "odds": null
+          "odds": 65.2
         },
         {
           "id": 3003,
@@ -413,7 +413,7 @@
           "horse": "イクヒロ",
           "netKeibaHorseId": "2023102290",
           "jockey": "",
-          "odds": null
+          "odds": 41.8
         },
         {
           "id": 3004,
@@ -423,7 +423,7 @@
           "horse": "チュウワメロディー",
           "netKeibaHorseId": "2023106766",
           "jockey": "",
-          "odds": null
+          "odds": 2.9
         },
         {
           "id": 3005,
@@ -433,7 +433,7 @@
           "horse": "タイガーロード",
           "netKeibaHorseId": "2023102989",
           "jockey": "",
-          "odds": null
+          "odds": 12.9
         },
         {
           "id": 3006,
@@ -443,7 +443,7 @@
           "horse": "ドラムメジャー",
           "netKeibaHorseId": "2023102185",
           "jockey": "",
-          "odds": null
+          "odds": 5.6
         },
         {
           "id": 3007,
@@ -453,7 +453,7 @@
           "horse": "ヴェネラブル",
           "netKeibaHorseId": "2023102421",
           "jockey": "",
-          "odds": null
+          "odds": 50.2
         },
         {
           "id": 3008,
@@ -463,7 +463,7 @@
           "horse": "ルナフィオーレ",
           "netKeibaHorseId": "2023104520",
           "jockey": "",
-          "odds": null
+          "odds": 5.4
         },
         {
           "id": 3009,
@@ -473,7 +473,7 @@
           "horse": "チョウダントツ",
           "netKeibaHorseId": "2023101782",
           "jockey": "",
-          "odds": null
+          "odds": 155.5
         },
         {
           "id": 3010,
@@ -483,7 +483,7 @@
           "horse": "ヤマトチャージ",
           "netKeibaHorseId": "2023103054",
           "jockey": "",
-          "odds": null
+          "odds": 81
         },
         {
           "id": 3011,
@@ -493,7 +493,7 @@
           "horse": "スイートポメロ",
           "netKeibaHorseId": "2023102133",
           "jockey": "",
-          "odds": null
+          "odds": 11.6
         },
         {
           "id": 3012,
@@ -503,7 +503,7 @@
           "horse": "アドバンスモダン",
           "netKeibaHorseId": "2023110089",
           "jockey": "",
-          "odds": null
+          "odds": 38
         },
         {
           "id": 3013,
@@ -513,7 +513,7 @@
           "horse": "モズヴイ",
           "netKeibaHorseId": "2023105739",
           "jockey": "",
-          "odds": null
+          "odds": 7.1
         },
         {
           "id": 3014,
@@ -523,7 +523,7 @@
           "horse": "ジャスティンカレラ",
           "netKeibaHorseId": "2023102563",
           "jockey": "",
-          "odds": null
+          "odds": 95.9
         },
         {
           "id": 3015,
@@ -533,7 +533,7 @@
           "horse": "メテオロイド",
           "netKeibaHorseId": "2023104173",
           "jockey": "",
-          "odds": null
+          "odds": 13.5
         },
         {
           "id": 3016,
@@ -543,7 +543,7 @@
           "horse": "モズナツノジン",
           "netKeibaHorseId": "2023105740",
           "jockey": "",
-          "odds": null
+          "odds": 111.6
         },
         {
           "id": 3017,
@@ -553,7 +553,7 @@
           "horse": "ワイドカクゲン",
           "netKeibaHorseId": "2023106320",
           "jockey": "",
-          "odds": null
+          "odds": 36.1
         },
         {
           "id": 3018,
@@ -563,7 +563,7 @@
           "horse": "レジーナテンペスタ",
           "netKeibaHorseId": "2023100392",
           "jockey": "",
-          "odds": null
+          "odds": 100.2
         }
       ]
     },
@@ -587,7 +587,7 @@
           "horse": "ブラックアイロン",
           "netKeibaHorseId": "2023101487",
           "jockey": "",
-          "odds": null
+          "odds": 69.7
         },
         {
           "id": 4002,
@@ -597,7 +597,7 @@
           "horse": "レッドピアレス",
           "netKeibaHorseId": "2023107341",
           "jockey": "",
-          "odds": null
+          "odds": 8.7
         },
         {
           "id": 4003,
@@ -607,7 +607,7 @@
           "horse": "キミガスキダ",
           "netKeibaHorseId": "2023100605",
           "jockey": "",
-          "odds": null
+          "odds": 55.8
         },
         {
           "id": 4004,
@@ -617,7 +617,7 @@
           "horse": "ジュピターバローズ",
           "netKeibaHorseId": "2023106961",
           "jockey": "",
-          "odds": null
+          "odds": 20.3
         },
         {
           "id": 4005,
@@ -627,7 +627,7 @@
           "horse": "トモジャカトゥーラ",
           "netKeibaHorseId": "2023103067",
           "jockey": "",
-          "odds": null
+          "odds": 80.9
         },
         {
           "id": 4006,
@@ -637,7 +637,7 @@
           "horse": "グリーンゴー",
           "netKeibaHorseId": "2023105294",
           "jockey": "",
-          "odds": null
+          "odds": 2.2
         },
         {
           "id": 4007,
@@ -647,7 +647,7 @@
           "horse": "ゴールデンボブ",
           "netKeibaHorseId": "2023105044",
           "jockey": "",
-          "odds": null
+          "odds": 27.2
         },
         {
           "id": 4008,
@@ -657,7 +657,7 @@
           "horse": "グーフィー",
           "netKeibaHorseId": "2023106134",
           "jockey": "",
-          "odds": null
+          "odds": 16
         },
         {
           "id": 4009,
@@ -667,7 +667,7 @@
           "horse": "リアライズステラ",
           "netKeibaHorseId": "2023103706",
           "jockey": "",
-          "odds": null
+          "odds": 33.5
         },
         {
           "id": 4010,
@@ -677,7 +677,7 @@
           "horse": "メンデレーエフ",
           "netKeibaHorseId": "2023101111",
           "jockey": "",
-          "odds": null
+          "odds": 6.5
         },
         {
           "id": 4011,
@@ -687,7 +687,7 @@
           "horse": "ホッコームジカ",
           "netKeibaHorseId": "2023101743",
           "jockey": "",
-          "odds": null
+          "odds": 27.4
         },
         {
           "id": 4012,
@@ -697,7 +697,7 @@
           "horse": "バンダムソレール",
           "netKeibaHorseId": "2023102317",
           "jockey": "",
-          "odds": null
+          "odds": 15
         },
         {
           "id": 4013,
@@ -707,7 +707,7 @@
           "horse": "ゴールデンドラゴン",
           "netKeibaHorseId": "2023104872",
           "jockey": "",
-          "odds": null
+          "odds": 17.9
         },
         {
           "id": 4014,
@@ -717,7 +717,7 @@
           "horse": "ジューンマーチ",
           "netKeibaHorseId": "2023101848",
           "jockey": "",
-          "odds": null
+          "odds": 8.3
         },
         {
           "id": 4015,
@@ -727,7 +727,7 @@
           "horse": "ハイビッグゴールド",
           "netKeibaHorseId": "2023102773",
           "jockey": "",
-          "odds": null
+          "odds": 58.4
         },
         {
           "id": 4016,
@@ -737,7 +737,7 @@
           "horse": "パスリヤージュ",
           "netKeibaHorseId": "2023103339",
           "jockey": "",
-          "odds": null
+          "odds": 57.4
         }
       ]
     },
@@ -761,7 +761,7 @@
           "horse": "ワールドエンジェル",
           "netKeibaHorseId": "2024107239",
           "jockey": "",
-          "odds": null
+          "odds": 4.5
         },
         {
           "id": 5002,
@@ -771,7 +771,7 @@
           "horse": "メイショウペルル",
           "netKeibaHorseId": "2024105611",
           "jockey": "",
-          "odds": null
+          "odds": 33.2
         },
         {
           "id": 5003,
@@ -781,7 +781,7 @@
           "horse": "スマートエスコート",
           "netKeibaHorseId": "2024101049",
           "jockey": "",
-          "odds": null
+          "odds": 27.5
         },
         {
           "id": 5004,
@@ -791,7 +791,7 @@
           "horse": "シャインロード",
           "netKeibaHorseId": "2024107339",
           "jockey": "",
-          "odds": null
+          "odds": 17.7
         },
         {
           "id": 5005,
@@ -801,7 +801,7 @@
           "horse": "ヒルノアラゴン",
           "netKeibaHorseId": "2024103913",
           "jockey": "",
-          "odds": null
+          "odds": 17.9
         },
         {
           "id": 5006,
@@ -811,7 +811,7 @@
           "horse": "スマートポーション",
           "netKeibaHorseId": "2024101076",
           "jockey": "",
-          "odds": null
+          "odds": 43.4
         },
         {
           "id": 5007,
@@ -821,7 +821,7 @@
           "horse": "エルダークローネ",
           "netKeibaHorseId": "2024102930",
           "jockey": "",
-          "odds": null
+          "odds": 4.3
         },
         {
           "id": 5008,
@@ -831,7 +831,7 @@
           "horse": "クイーンズアイ",
           "netKeibaHorseId": "2024101015",
           "jockey": "",
-          "odds": null
+          "odds": 31.7
         },
         {
           "id": 5009,
@@ -841,7 +841,7 @@
           "horse": "キムケンシーサー",
           "netKeibaHorseId": "2024101140",
           "jockey": "",
-          "odds": null
+          "odds": 7.7
         },
         {
           "id": 5010,
@@ -851,7 +851,7 @@
           "horse": "インディジャズ",
           "netKeibaHorseId": "2024106383",
           "jockey": "",
-          "odds": null
+          "odds": 2.2
         }
       ]
     },
@@ -875,7 +875,7 @@
           "horse": "トシミチ",
           "netKeibaHorseId": "2024108115",
           "jockey": "",
-          "odds": null
+          "odds": 2.3
         },
         {
           "id": 6002,
@@ -885,7 +885,7 @@
           "horse": "グレートキリシマ",
           "netKeibaHorseId": "2024108085",
           "jockey": "",
-          "odds": null
+          "odds": 14.7
         },
         {
           "id": 6003,
@@ -895,7 +895,7 @@
           "horse": "スイトーヨ",
           "netKeibaHorseId": "2024108118",
           "jockey": "",
-          "odds": null
+          "odds": 4
         },
         {
           "id": 6004,
@@ -905,7 +905,7 @@
           "horse": "ユイノジカンカセギ",
           "netKeibaHorseId": "2024108117",
           "jockey": "",
-          "odds": null
+          "odds": 11.5
         },
         {
           "id": 6005,
@@ -915,7 +915,7 @@
           "horse": "ラブマイティー",
           "netKeibaHorseId": "2024108061",
           "jockey": "",
-          "odds": null
+          "odds": 28.6
         },
         {
           "id": 6006,
@@ -925,7 +925,7 @@
           "horse": "カシノヴィタ",
           "netKeibaHorseId": "2024108106",
           "jockey": "",
-          "odds": null
+          "odds": 52.4
         },
         {
           "id": 6007,
@@ -935,7 +935,7 @@
           "horse": "カゴシマ",
           "netKeibaHorseId": "2024108110",
           "jockey": "",
-          "odds": null
+          "odds": 17.3
         },
         {
           "id": 6008,
@@ -945,7 +945,7 @@
           "horse": "ユイパルティ",
           "netKeibaHorseId": "2024108111",
           "jockey": "",
-          "odds": null
+          "odds": 12
         },
         {
           "id": 6009,
@@ -955,7 +955,7 @@
           "horse": "プッシュザリミット",
           "netKeibaHorseId": "2024108113",
           "jockey": "",
-          "odds": null
+          "odds": 20.2
         },
         {
           "id": 6010,
@@ -965,7 +965,7 @@
           "horse": "ニシノマティーニ",
           "netKeibaHorseId": "2024108087",
           "jockey": "",
-          "odds": null
+          "odds": 5.9
         },
         {
           "id": 6011,
@@ -975,7 +975,7 @@
           "horse": "カシノカゲマル",
           "netKeibaHorseId": "2024108091",
           "jockey": "",
-          "odds": null
+          "odds": 59.2
         }
       ]
     },
@@ -999,7 +999,7 @@
           "horse": "ナンヨークリスタル",
           "netKeibaHorseId": "2020103513",
           "jockey": "",
-          "odds": null
+          "odds": 24
         },
         {
           "id": 7002,
@@ -1009,7 +1009,7 @@
           "horse": "ゴールデンバランス",
           "netKeibaHorseId": "2023105367",
           "jockey": "",
-          "odds": null
+          "odds": 2.7
         },
         {
           "id": 7003,
@@ -1019,7 +1019,7 @@
           "horse": "ルディシャ",
           "netKeibaHorseId": "2022107091",
           "jockey": "",
-          "odds": null
+          "odds": 62.2
         },
         {
           "id": 7004,
@@ -1029,7 +1029,7 @@
           "horse": "アイカンアズーラ",
           "netKeibaHorseId": "2023102036",
           "jockey": "",
-          "odds": null
+          "odds": 8.2
         },
         {
           "id": 7005,
@@ -1039,7 +1039,7 @@
           "horse": "パドゼフィール",
           "netKeibaHorseId": "2023103699",
           "jockey": "",
-          "odds": null
+          "odds": 7.7
         },
         {
           "id": 7006,
@@ -1049,7 +1049,7 @@
           "horse": "リアルアルバ",
           "netKeibaHorseId": "2023101065",
           "jockey": "",
-          "odds": null
+          "odds": 18.1
         },
         {
           "id": 7007,
@@ -1059,7 +1059,7 @@
           "horse": "イイデカンタロウ",
           "netKeibaHorseId": "2021107123",
           "jockey": "",
-          "odds": null
+          "odds": 19.2
         },
         {
           "id": 7008,
@@ -1069,7 +1069,7 @@
           "horse": "ヨドノゴールド",
           "netKeibaHorseId": "2018103293",
           "jockey": "",
-          "odds": null
+          "odds": 10.2
         },
         {
           "id": 7009,
@@ -1079,7 +1079,7 @@
           "horse": "ミライハーモニー",
           "netKeibaHorseId": "2021104671",
           "jockey": "",
-          "odds": null
+          "odds": 3.4
         },
         {
           "id": 7010,
@@ -1089,7 +1089,7 @@
           "horse": "ペルセポネ",
           "netKeibaHorseId": "2023104596",
           "jockey": "",
-          "odds": null
+          "odds": 10.9
         }
       ]
     },
@@ -1113,7 +1113,7 @@
           "horse": "グランドオーパス",
           "netKeibaHorseId": "2023104373",
           "jockey": "",
-          "odds": null
+          "odds": 3.6
         },
         {
           "id": 8002,
@@ -1123,7 +1123,7 @@
           "horse": "カモメガトンダ",
           "netKeibaHorseId": "2023103611",
           "jockey": "",
-          "odds": null
+          "odds": 9.5
         },
         {
           "id": 8003,
@@ -1133,7 +1133,7 @@
           "horse": "メイショウピリカ",
           "netKeibaHorseId": "2022102550",
           "jockey": "",
-          "odds": null
+          "odds": 5.6
         },
         {
           "id": 8004,
@@ -1143,7 +1143,7 @@
           "horse": "エンベッカ",
           "netKeibaHorseId": "2022104824",
           "jockey": "",
-          "odds": null
+          "odds": 12
         },
         {
           "id": 8005,
@@ -1153,7 +1153,7 @@
           "horse": "ヴィーナスバブル",
           "netKeibaHorseId": "2022102957",
           "jockey": "",
-          "odds": null
+          "odds": 15.3
         },
         {
           "id": 8006,
@@ -1163,7 +1163,7 @@
           "horse": "エレガンシア",
           "netKeibaHorseId": "2022103705",
           "jockey": "",
-          "odds": null
+          "odds": 9.6
         },
         {
           "id": 8007,
@@ -1173,7 +1173,7 @@
           "horse": "レーヌマロン",
           "netKeibaHorseId": "2022100655",
           "jockey": "",
-          "odds": null
+          "odds": 18.6
         },
         {
           "id": 8008,
@@ -1183,7 +1183,7 @@
           "horse": "コンバットペスカ",
           "netKeibaHorseId": "2021103236",
           "jockey": "",
-          "odds": null
+          "odds": 27.4
         },
         {
           "id": 8009,
@@ -1193,7 +1193,7 @@
           "horse": "サリエンテ",
           "netKeibaHorseId": "2023107016",
           "jockey": "",
-          "odds": null
+          "odds": 2.8
         }
       ]
     },
@@ -1217,7 +1217,7 @@
           "horse": "ビッグベルーガ",
           "netKeibaHorseId": "2020102760",
           "jockey": "",
-          "odds": null
+          "odds": 28.6
         },
         {
           "id": 9002,
@@ -1227,7 +1227,7 @@
           "horse": "サトノスカイターフ",
           "netKeibaHorseId": "2018105073",
           "jockey": "",
-          "odds": null
+          "odds": 18.1
         },
         {
           "id": 9003,
@@ -1237,7 +1237,7 @@
           "horse": "ショウナンガチ",
           "netKeibaHorseId": "2021105434",
           "jockey": "",
-          "odds": null
+          "odds": 5.1
         },
         {
           "id": 9004,
@@ -1247,7 +1247,7 @@
           "horse": "ボンドロア",
           "netKeibaHorseId": "2022105485",
           "jockey": "",
-          "odds": null
+          "odds": 8.5
         },
         {
           "id": 9005,
@@ -1257,7 +1257,7 @@
           "horse": "サラトガチップス",
           "netKeibaHorseId": "2021105002",
           "jockey": "",
-          "odds": null
+          "odds": 5.7
         },
         {
           "id": 9006,
@@ -1267,7 +1267,7 @@
           "horse": "ニュークレド",
           "netKeibaHorseId": "2022101601",
           "jockey": "",
-          "odds": null
+          "odds": 8.9
         },
         {
           "id": 9007,
@@ -1277,7 +1277,7 @@
           "horse": "ナリタエスペランサ",
           "netKeibaHorseId": "2023105046",
           "jockey": "",
-          "odds": null
+          "odds": 2.4
         },
         {
           "id": 9008,
@@ -1287,7 +1287,7 @@
           "horse": "マテンロウシルビア",
           "netKeibaHorseId": "2022104963",
           "jockey": "",
-          "odds": null
+          "odds": 6.1
         }
       ]
     },
@@ -1311,7 +1311,7 @@
           "horse": "シンコーナホチャン",
           "netKeibaHorseId": "2021100471",
           "jockey": "",
-          "odds": null
+          "odds": 16.5
         },
         {
           "id": 10002,
@@ -1321,7 +1321,7 @@
           "horse": "メイショウジェンマ",
           "netKeibaHorseId": "2020106491",
           "jockey": "",
-          "odds": null
+          "odds": 18.7
         },
         {
           "id": 10003,
@@ -1331,7 +1331,7 @@
           "horse": "レーティッシュ",
           "netKeibaHorseId": "2022110152",
           "jockey": "",
-          "odds": null
+          "odds": 4.4
         },
         {
           "id": 10004,
@@ -1341,7 +1341,7 @@
           "horse": "メイショウクーガー",
           "netKeibaHorseId": "2020106205",
           "jockey": "",
-          "odds": null
+          "odds": 11.4
         },
         {
           "id": 10005,
@@ -1351,7 +1351,7 @@
           "horse": "コウジョリョウゾク",
           "netKeibaHorseId": "2022103135",
           "jockey": "",
-          "odds": null
+          "odds": 76.2
         },
         {
           "id": 10006,
@@ -1361,7 +1361,7 @@
           "horse": "サンライズプルート",
           "netKeibaHorseId": "2020102326",
           "jockey": "",
-          "odds": null
+          "odds": 39
         },
         {
           "id": 10007,
@@ -1371,7 +1371,7 @@
           "horse": "テーオーライマン",
           "netKeibaHorseId": "2022103186",
           "jockey": "",
-          "odds": null
+          "odds": 6.9
         },
         {
           "id": 10008,
@@ -1381,7 +1381,7 @@
           "horse": "メイショウヘール",
           "netKeibaHorseId": "2021104622",
           "jockey": "",
-          "odds": null
+          "odds": 37.2
         },
         {
           "id": 10009,
@@ -1391,7 +1391,7 @@
           "horse": "カルパ",
           "netKeibaHorseId": "2021105736",
           "jockey": "",
-          "odds": null
+          "odds": 8.9
         },
         {
           "id": 10010,
@@ -1401,7 +1401,7 @@
           "horse": "マハートマーベル",
           "netKeibaHorseId": "2022104413",
           "jockey": "",
-          "odds": null
+          "odds": 16
         },
         {
           "id": 10011,
@@ -1411,7 +1411,7 @@
           "horse": "アラナコア",
           "netKeibaHorseId": "2021103002",
           "jockey": "",
-          "odds": null
+          "odds": 9.4
         },
         {
           "id": 10012,
@@ -1421,7 +1421,7 @@
           "horse": "カウンティフェア",
           "netKeibaHorseId": "2022104121",
           "jockey": "",
-          "odds": null
+          "odds": 26.9
         },
         {
           "id": 10013,
@@ -1431,7 +1431,7 @@
           "horse": "コスモストーム",
           "netKeibaHorseId": "2022104120",
           "jockey": "",
-          "odds": null
+          "odds": 8.7
         },
         {
           "id": 10014,
@@ -1441,7 +1441,7 @@
           "horse": "グレイスオブゴッド",
           "netKeibaHorseId": "2020103967",
           "jockey": "",
-          "odds": null
+          "odds": 34.3
         },
         {
           "id": 10015,
@@ -1451,7 +1451,7 @@
           "horse": "ズバットマサムネ",
           "netKeibaHorseId": "2021105711",
           "jockey": "",
-          "odds": null
+          "odds": 12.6
         },
         {
           "id": 10016,
@@ -1461,7 +1461,7 @@
           "horse": "スマートプレシャス",
           "netKeibaHorseId": "2021103939",
           "jockey": "",
-          "odds": null
+          "odds": 13.1
         }
       ]
     },
@@ -1485,7 +1485,7 @@
           "horse": "リチャードバローズ",
           "netKeibaHorseId": "2021103977",
           "jockey": "",
-          "odds": null
+          "odds": 18.5
         },
         {
           "id": 11002,
@@ -1495,7 +1495,7 @@
           "horse": "ベイビーキッス",
           "netKeibaHorseId": "2022102514",
           "jockey": "",
-          "odds": null
+          "odds": 12.3
         },
         {
           "id": 11003,
@@ -1505,7 +1505,7 @@
           "horse": "ジュンヴァンケット",
           "netKeibaHorseId": "2021107180",
           "jockey": "",
-          "odds": null
+          "odds": 9.6
         },
         {
           "id": 11004,
@@ -1515,7 +1515,7 @@
           "horse": "ロードトレイル",
           "netKeibaHorseId": "2021100157",
           "jockey": "",
-          "odds": null
+          "odds": 9.1
         },
         {
           "id": 11005,
@@ -1525,7 +1525,7 @@
           "horse": "テーオーダヴィンチ",
           "netKeibaHorseId": "2018104633",
           "jockey": "",
-          "odds": null
+          "odds": 22
         },
         {
           "id": 11006,
@@ -1535,7 +1535,7 @@
           "horse": "アサクサグレース",
           "netKeibaHorseId": "2022100547",
           "jockey": "",
-          "odds": null
+          "odds": 1.9
         },
         {
           "id": 11007,
@@ -1545,7 +1545,7 @@
           "horse": "ブラックケリー",
           "netKeibaHorseId": "2022100791",
           "jockey": "",
-          "odds": null
+          "odds": 11.4
         },
         {
           "id": 11008,
@@ -1555,7 +1555,7 @@
           "horse": "スカイハイ",
           "netKeibaHorseId": "2021101412",
           "jockey": "",
-          "odds": null
+          "odds": 3.9
         }
       ]
     },
@@ -1579,7 +1579,7 @@
           "horse": "ミランド",
           "netKeibaHorseId": "2023102836",
           "jockey": "",
-          "odds": null
+          "odds": 6.8
         },
         {
           "id": 12002,
@@ -1589,7 +1589,7 @@
           "horse": "バロニアル",
           "netKeibaHorseId": "2023103213",
           "jockey": "",
-          "odds": null
+          "odds": 14.7
         },
         {
           "id": 12003,
@@ -1599,7 +1599,7 @@
           "horse": "アンティーム",
           "netKeibaHorseId": "2023106788",
           "jockey": "",
-          "odds": null
+          "odds": 4.3
         },
         {
           "id": 12004,
@@ -1609,7 +1609,7 @@
           "horse": "ブルーカミング",
           "netKeibaHorseId": "2022104205",
           "jockey": "",
-          "odds": null
+          "odds": 85.8
         },
         {
           "id": 12005,
@@ -1619,7 +1619,7 @@
           "horse": "ミッションルース",
           "netKeibaHorseId": "2021101464",
           "jockey": "",
-          "odds": null
+          "odds": 28.1
         },
         {
           "id": 12006,
@@ -1629,7 +1629,7 @@
           "horse": "チャチャピンク",
           "netKeibaHorseId": "2022104176",
           "jockey": "",
-          "odds": null
+          "odds": 38.4
         },
         {
           "id": 12007,
@@ -1639,7 +1639,7 @@
           "horse": "ニシノジェダイ",
           "netKeibaHorseId": "2022106998",
           "jockey": "",
-          "odds": null
+          "odds": 5.7
         },
         {
           "id": 12008,
@@ -1649,7 +1649,7 @@
           "horse": "セルジュバローズ",
           "netKeibaHorseId": "2023103092",
           "jockey": "",
-          "odds": null
+          "odds": 16.7
         },
         {
           "id": 12009,
@@ -1659,7 +1659,7 @@
           "horse": "ポルトドール",
           "netKeibaHorseId": "2020102728",
           "jockey": "",
-          "odds": null
+          "odds": 31.4
         },
         {
           "id": 12010,
@@ -1669,7 +1669,7 @@
           "horse": "クイノールト",
           "netKeibaHorseId": "2023107371",
           "jockey": "",
-          "odds": null
+          "odds": 24
         },
         {
           "id": 12011,
@@ -1679,7 +1679,7 @@
           "horse": "バトゥカーダ",
           "netKeibaHorseId": "2023105708",
           "jockey": "",
-          "odds": null
+          "odds": 16.5
         },
         {
           "id": 12012,
@@ -1689,7 +1689,7 @@
           "horse": "ブラックレジェンド",
           "netKeibaHorseId": "2023100297",
           "jockey": "",
-          "odds": null
+          "odds": 5.3
         },
         {
           "id": 12013,
@@ -1699,7 +1699,7 @@
           "horse": "モズプリヴェール",
           "netKeibaHorseId": "2022102916",
           "jockey": "",
-          "odds": null
+          "odds": 20.1
         },
         {
           "id": 12014,
@@ -1709,7 +1709,7 @@
           "horse": "ライラックデューン",
           "netKeibaHorseId": "2022101473",
           "jockey": "",
-          "odds": null
+          "odds": 73.9
         },
         {
           "id": 12015,
@@ -1719,7 +1719,7 @@
           "horse": "ロードシュヴァリエ",
           "netKeibaHorseId": "2022102639",
           "jockey": "",
-          "odds": null
+          "odds": 11.6
         },
         {
           "id": 12016,
@@ -1729,7 +1729,7 @@
           "horse": "ルシャリオ",
           "netKeibaHorseId": "2022107248",
           "jockey": "",
-          "odds": null
+          "odds": 33.1
         }
       ]
     },
@@ -1753,7 +1753,7 @@
           "horse": "チカバリエンテ",
           "netKeibaHorseId": "2024104976",
           "jockey": "",
-          "odds": null
+          "odds": 8.1
         },
         {
           "id": 13002,
@@ -1763,7 +1763,7 @@
           "horse": "パンジャケリー",
           "netKeibaHorseId": "2024105339",
           "jockey": "",
-          "odds": null
+          "odds": 5.2
         },
         {
           "id": 13003,
@@ -1773,7 +1773,7 @@
           "horse": "ウィルレーヴィア",
           "netKeibaHorseId": "2024106849",
           "jockey": "",
-          "odds": null
+          "odds": 75.9
         },
         {
           "id": 13004,
@@ -1783,7 +1783,7 @@
           "horse": "キセキノユニコーン",
           "netKeibaHorseId": "2024102398",
           "jockey": "",
-          "odds": null
+          "odds": 3.8
         },
         {
           "id": 13005,
@@ -1793,7 +1793,7 @@
           "horse": "シークレットタワー",
           "netKeibaHorseId": "2024102983",
           "jockey": "",
-          "odds": null
+          "odds": 4.8
         },
         {
           "id": 13006,
@@ -1803,7 +1803,7 @@
           "horse": "ガーシュウィン",
           "netKeibaHorseId": "2024100352",
           "jockey": "",
-          "odds": null
+          "odds": 81.5
         },
         {
           "id": 13007,
@@ -1813,7 +1813,7 @@
           "horse": "ダイシンドラゴン",
           "netKeibaHorseId": "2024103288",
           "jockey": "",
-          "odds": null
+          "odds": 2.3
         },
         {
           "id": 13008,
@@ -1823,7 +1823,7 @@
           "horse": "アイルドフルール",
           "netKeibaHorseId": "2024100607",
           "jockey": "",
-          "odds": null
+          "odds": 39.3
         }
       ]
     },
@@ -1847,7 +1847,7 @@
           "horse": "メイショウタイザン",
           "netKeibaHorseId": "2023106570",
           "jockey": "",
-          "odds": null
+          "odds": 8.8
         },
         {
           "id": 14002,
@@ -1857,7 +1857,7 @@
           "horse": "ロジクリスエス",
           "netKeibaHorseId": "2023104684",
           "jockey": "",
-          "odds": null
+          "odds": 22
         },
         {
           "id": 14003,
@@ -1867,7 +1867,7 @@
           "horse": "ライカ",
           "netKeibaHorseId": "2023104042",
           "jockey": "",
-          "odds": null
+          "odds": 4.3
         },
         {
           "id": 14004,
@@ -1877,7 +1877,7 @@
           "horse": "テリコス",
           "netKeibaHorseId": "2023101035",
           "jockey": "",
-          "odds": null
+          "odds": 14.7
         },
         {
           "id": 14005,
@@ -1887,7 +1887,7 @@
           "horse": "テンレッドサン",
           "netKeibaHorseId": "2023104101",
           "jockey": "",
-          "odds": null
+          "odds": 3.7
         },
         {
           "id": 14006,
@@ -1897,7 +1897,7 @@
           "horse": "アドフランマム",
           "netKeibaHorseId": "2023105187",
           "jockey": "",
-          "odds": null
+          "odds": 30.1
         },
         {
           "id": 14007,
@@ -1907,7 +1907,7 @@
           "horse": "マルシュボヌール",
           "netKeibaHorseId": "2023107245",
           "jockey": "",
-          "odds": null
+          "odds": 11.9
         },
         {
           "id": 14008,
@@ -1917,7 +1917,7 @@
           "horse": "サンオブザサン",
           "netKeibaHorseId": "2023101979",
           "jockey": "",
-          "odds": null
+          "odds": 43.7
         },
         {
           "id": 14009,
@@ -1927,7 +1927,7 @@
           "horse": "スマートイデアル",
           "netKeibaHorseId": "2023101236",
           "jockey": "",
-          "odds": null
+          "odds": 51.7
         },
         {
           "id": 14010,
@@ -1937,7 +1937,7 @@
           "horse": "ヒルノボローニャ",
           "netKeibaHorseId": "2023104474",
           "jockey": "",
-          "odds": null
+          "odds": 4.6
         },
         {
           "id": 14011,
@@ -1947,7 +1947,7 @@
           "horse": "モノノケ",
           "netKeibaHorseId": "2023100695",
           "jockey": "",
-          "odds": null
+          "odds": 85.5
         },
         {
           "id": 14012,
@@ -1957,7 +1957,7 @@
           "horse": "ロスニーニョス",
           "netKeibaHorseId": "2023103280",
           "jockey": "",
-          "odds": null
+          "odds": 27.1
         },
         {
           "id": 14013,
@@ -1967,7 +1967,7 @@
           "horse": "ルナノーヴァ",
           "netKeibaHorseId": "2023102435",
           "jockey": "",
-          "odds": null
+          "odds": 36.1
         },
         {
           "id": 14014,
@@ -1977,7 +1977,7 @@
           "horse": "ヤマメイッカ",
           "netKeibaHorseId": "2023103360",
           "jockey": "",
-          "odds": null
+          "odds": 13.3
         }
       ]
     },
@@ -2001,7 +2001,7 @@
           "horse": "エコロセレナ",
           "netKeibaHorseId": "2023107403",
           "jockey": "",
-          "odds": null
+          "odds": 8.1
         },
         {
           "id": 15002,
@@ -2011,7 +2011,7 @@
           "horse": "アジーザム",
           "netKeibaHorseId": "2023102951",
           "jockey": "",
-          "odds": null
+          "odds": 50.2
         },
         {
           "id": 15003,
@@ -2021,7 +2021,7 @@
           "horse": "ビップアリス",
           "netKeibaHorseId": "2023106975",
           "jockey": "",
-          "odds": null
+          "odds": 47.1
         },
         {
           "id": 15004,
@@ -2031,7 +2031,7 @@
           "horse": "ブザービーター",
           "netKeibaHorseId": "2023105382",
           "jockey": "",
-          "odds": null
+          "odds": 28.3
         },
         {
           "id": 15005,
@@ -2041,7 +2041,7 @@
           "horse": "ホワイトラバーズ",
           "netKeibaHorseId": "2023101742",
           "jockey": "",
-          "odds": null
+          "odds": 64
         },
         {
           "id": 15006,
@@ -2051,7 +2051,7 @@
           "horse": "ハナイロマヒナ",
           "netKeibaHorseId": "2023104093",
           "jockey": "",
-          "odds": null
+          "odds": 23.2
         },
         {
           "id": 15007,
@@ -2061,7 +2061,7 @@
           "horse": "イングラム",
           "netKeibaHorseId": "2023102427",
           "jockey": "",
-          "odds": null
+          "odds": 1.7
         },
         {
           "id": 15008,
@@ -2071,7 +2071,7 @@
           "horse": "ビタミンドロップ",
           "netKeibaHorseId": "2023105630",
           "jockey": "遠藤 54.0",
-          "odds": null
+          "odds": 7.5
         },
         {
           "id": 15009,
@@ -2081,7 +2081,7 @@
           "horse": "ウィズアツインクル",
           "netKeibaHorseId": "2023102388",
           "jockey": "",
-          "odds": null
+          "odds": 999.9
         },
         {
           "id": 15010,
@@ -2091,7 +2091,7 @@
           "horse": "コシタンタン",
           "netKeibaHorseId": "2023100977",
           "jockey": "",
-          "odds": null
+          "odds": 10.8
         },
         {
           "id": 15011,
@@ -2101,7 +2101,7 @@
           "horse": "ヴェンデボヌール",
           "netKeibaHorseId": "2023100276",
           "jockey": "",
-          "odds": null
+          "odds": 27.8
         }
       ]
     },
@@ -2125,7 +2125,7 @@
           "horse": "ミカレオス",
           "netKeibaHorseId": "2023103767",
           "jockey": "",
-          "odds": null
+          "odds": 74.8
         },
         {
           "id": 16002,
@@ -2135,7 +2135,7 @@
           "horse": "ブリックアブラック",
           "netKeibaHorseId": "2023102410",
           "jockey": "",
-          "odds": null
+          "odds": 56.1
         },
         {
           "id": 16003,
@@ -2145,7 +2145,7 @@
           "horse": "フォーチュンローズ",
           "netKeibaHorseId": "2023103522",
           "jockey": "",
-          "odds": null
+          "odds": 7
         },
         {
           "id": 16004,
@@ -2155,7 +2155,7 @@
           "horse": "ウインブリザード",
           "netKeibaHorseId": "2023105874",
           "jockey": "",
-          "odds": null
+          "odds": 17.6
         },
         {
           "id": 16005,
@@ -2165,7 +2165,7 @@
           "horse": "ブッチギレ",
           "netKeibaHorseId": "2023104671",
           "jockey": "",
-          "odds": null
+          "odds": 56.8
         },
         {
           "id": 16006,
@@ -2175,7 +2175,7 @@
           "horse": "アルタティール",
           "netKeibaHorseId": "2023104926",
           "jockey": "",
-          "odds": null
+          "odds": 34.7
         },
         {
           "id": 16007,
@@ -2185,7 +2185,7 @@
           "horse": "カノープス",
           "netKeibaHorseId": "2023104855",
           "jockey": "",
-          "odds": null
+          "odds": 60
         },
         {
           "id": 16008,
@@ -2195,7 +2195,7 @@
           "horse": "ソルトハッピー",
           "netKeibaHorseId": "2023100217",
           "jockey": "",
-          "odds": null
+          "odds": 9.1
         },
         {
           "id": 16009,
@@ -2205,7 +2205,7 @@
           "horse": "ウインアトム",
           "netKeibaHorseId": "2023105881",
           "jockey": "",
-          "odds": null
+          "odds": 20.4
         },
         {
           "id": 16010,
@@ -2215,7 +2215,7 @@
           "horse": "ホウオウファミリー",
           "netKeibaHorseId": "2023105322",
           "jockey": "",
-          "odds": null
+          "odds": 4.1
         },
         {
           "id": 16011,
@@ -2225,7 +2225,7 @@
           "horse": "ヴィラジョヴィス",
           "netKeibaHorseId": "2023103901",
           "jockey": "",
-          "odds": null
+          "odds": 7.3
         },
         {
           "id": 16012,
@@ -2235,7 +2235,7 @@
           "horse": "タビニュ",
           "netKeibaHorseId": "2023101168",
           "jockey": "",
-          "odds": null
+          "odds": 9.3
         },
         {
           "id": 16013,
@@ -2245,7 +2245,7 @@
           "horse": "ジングアップ",
           "netKeibaHorseId": "2023103461",
           "jockey": "",
-          "odds": null
+          "odds": 7.2
         },
         {
           "id": 16014,
@@ -2255,7 +2255,7 @@
           "horse": "ノリマル",
           "netKeibaHorseId": "2023106079",
           "jockey": "",
-          "odds": null
+          "odds": 11.6
         },
         {
           "id": 16015,
@@ -2265,7 +2265,7 @@
           "horse": "ティラユール",
           "netKeibaHorseId": "2023100622",
           "jockey": "",
-          "odds": null
+          "odds": 103.2
         },
         {
           "id": 16016,
@@ -2275,7 +2275,7 @@
           "horse": "ダイナソーコー",
           "netKeibaHorseId": "2023103548",
           "jockey": "",
-          "odds": null
+          "odds": 12.5
         }
       ]
     },
@@ -2299,7 +2299,7 @@
           "horse": "ショパンコンクール",
           "netKeibaHorseId": "2024100176",
           "jockey": "",
-          "odds": null
+          "odds": 6.1
         },
         {
           "id": 17002,
@@ -2309,7 +2309,7 @@
           "horse": "シグレ",
           "netKeibaHorseId": "2024108226",
           "jockey": "",
-          "odds": null
+          "odds": 1.2
         },
         {
           "id": 17003,
@@ -2319,7 +2319,7 @@
           "horse": "ウメヒナタ",
           "netKeibaHorseId": "2024104575",
           "jockey": "",
-          "odds": null
+          "odds": 13
         },
         {
           "id": 17004,
@@ -2329,7 +2329,7 @@
           "horse": "ソウカイファミリア",
           "netKeibaHorseId": "2024101600",
           "jockey": "",
-          "odds": null
+          "odds": 9.2
         },
         {
           "id": 17005,
@@ -2339,7 +2339,7 @@
           "horse": "アズライトティアラ",
           "netKeibaHorseId": "2024106919",
           "jockey": "",
-          "odds": null
+          "odds": 22.7
         },
         {
           "id": 17006,
@@ -2349,7 +2349,7 @@
           "horse": "ルミナスジェム",
           "netKeibaHorseId": "2024106897",
           "jockey": "",
-          "odds": null
+          "odds": 11.4
         }
       ]
     },
@@ -2373,7 +2373,7 @@
           "horse": "アルペングロー",
           "netKeibaHorseId": "2023106817",
           "jockey": "",
-          "odds": null
+          "odds": 9.3
         },
         {
           "id": 18002,
@@ -2383,7 +2383,7 @@
           "horse": "エクラドット",
           "netKeibaHorseId": "2023107035",
           "jockey": "",
-          "odds": null
+          "odds": 26
         },
         {
           "id": 18003,
@@ -2393,7 +2393,7 @@
           "horse": "セイントクーヤ",
           "netKeibaHorseId": "2023103175",
           "jockey": "",
-          "odds": null
+          "odds": 88
         },
         {
           "id": 18004,
@@ -2403,7 +2403,7 @@
           "horse": "ショウナンアワード",
           "netKeibaHorseId": "2023100604",
           "jockey": "",
-          "odds": null
+          "odds": 27.9
         },
         {
           "id": 18005,
@@ -2413,7 +2413,7 @@
           "horse": "ビップジョワ",
           "netKeibaHorseId": "2023102511",
           "jockey": "",
-          "odds": null
+          "odds": 39.4
         },
         {
           "id": 18006,
@@ -2423,7 +2423,7 @@
           "horse": "ロッサコメータ",
           "netKeibaHorseId": "2023103607",
           "jockey": "",
-          "odds": null
+          "odds": 12.4
         },
         {
           "id": 18007,
@@ -2433,7 +2433,7 @@
           "horse": "フローレンスフーガ",
           "netKeibaHorseId": "2023101000",
           "jockey": "",
-          "odds": null
+          "odds": 14.1
         },
         {
           "id": 18008,
@@ -2443,7 +2443,7 @@
           "horse": "コティノス",
           "netKeibaHorseId": "2023106800",
           "jockey": "",
-          "odds": null
+          "odds": 18
         },
         {
           "id": 18009,
@@ -2453,7 +2453,7 @@
           "horse": "テンレディーゴー",
           "netKeibaHorseId": "2023102915",
           "jockey": "",
-          "odds": null
+          "odds": 117
         },
         {
           "id": 18010,
@@ -2463,7 +2463,7 @@
           "horse": "ベネディクション",
           "netKeibaHorseId": "2023106380",
           "jockey": "",
-          "odds": null
+          "odds": 23.9
         },
         {
           "id": 18011,
@@ -2473,7 +2473,7 @@
           "horse": "シーガルワールド",
           "netKeibaHorseId": "2023102424",
           "jockey": "",
-          "odds": null
+          "odds": 6.4
         },
         {
           "id": 18012,
@@ -2483,7 +2483,7 @@
           "horse": "アート",
           "netKeibaHorseId": "2023103867",
           "jockey": "",
-          "odds": null
+          "odds": 26.3
         },
         {
           "id": 18013,
@@ -2493,7 +2493,7 @@
           "horse": "マジックファイヤー",
           "netKeibaHorseId": "2023100771",
           "jockey": "",
-          "odds": null
+          "odds": 21.1
         },
         {
           "id": 18014,
@@ -2503,7 +2503,7 @@
           "horse": "マテンロウオリジン",
           "netKeibaHorseId": "2023101375",
           "jockey": "",
-          "odds": null
+          "odds": 2.2
         },
         {
           "id": 18015,
@@ -2513,7 +2513,7 @@
           "horse": "ハルノアメ",
           "netKeibaHorseId": "2023104002",
           "jockey": "",
-          "odds": null
+          "odds": 15.3
         },
         {
           "id": 18016,
@@ -2523,7 +2523,7 @@
           "horse": "ブランニューホーム",
           "netKeibaHorseId": "2023106607",
           "jockey": "",
-          "odds": null
+          "odds": 37
         }
       ]
     },
@@ -2547,7 +2547,7 @@
           "horse": "ウィンターガーデン",
           "netKeibaHorseId": "2021105857",
           "jockey": "",
-          "odds": null
+          "odds": 15.3
         },
         {
           "id": 19002,
@@ -2557,7 +2557,7 @@
           "horse": "ビーチイン",
           "netKeibaHorseId": "2023105830",
           "jockey": "",
-          "odds": null
+          "odds": 8.1
         },
         {
           "id": 19003,
@@ -2567,7 +2567,7 @@
           "horse": "キタノサリスカ",
           "netKeibaHorseId": "2023105977",
           "jockey": "",
-          "odds": null
+          "odds": 30.5
         },
         {
           "id": 19004,
@@ -2577,7 +2577,7 @@
           "horse": "キャットテイル",
           "netKeibaHorseId": "2022101678",
           "jockey": "",
-          "odds": null
+          "odds": 3.6
         },
         {
           "id": 19005,
@@ -2587,7 +2587,7 @@
           "horse": "アリストクラシア",
           "netKeibaHorseId": "2021105238",
           "jockey": "",
-          "odds": null
+          "odds": 5.3
         },
         {
           "id": 19006,
@@ -2597,7 +2597,7 @@
           "horse": "ガーネットフレア",
           "netKeibaHorseId": "2023107075",
           "jockey": "",
-          "odds": null
+          "odds": 6.8
         },
         {
           "id": 19007,
@@ -2607,7 +2607,7 @@
           "horse": "ヒミノエトワール",
           "netKeibaHorseId": "2022102388",
           "jockey": "",
-          "odds": null
+          "odds": 5.1
         },
         {
           "id": 19008,
@@ -2617,7 +2617,7 @@
           "horse": "サウンドルーチェ",
           "netKeibaHorseId": "2022105267",
           "jockey": "",
-          "odds": null
+          "odds": 7.7
         },
         {
           "id": 19009,
@@ -2627,7 +2627,7 @@
           "horse": "ゴールドヴィーナス",
           "netKeibaHorseId": "2023105672",
           "jockey": "",
-          "odds": null
+          "odds": 29.2
         },
         {
           "id": 19010,
@@ -2637,7 +2637,7 @@
           "horse": "シャンデヴィーニュ",
           "netKeibaHorseId": "2023107384",
           "jockey": "",
-          "odds": null
+          "odds": 16.6
         }
       ]
     },
@@ -2661,7 +2661,7 @@
           "horse": "アートフォーム",
           "netKeibaHorseId": "2021102433",
           "jockey": "",
-          "odds": null
+          "odds": 48.2
         },
         {
           "id": 20002,
@@ -2671,7 +2671,7 @@
           "horse": "ストレイトアスク",
           "netKeibaHorseId": "2021102312",
           "jockey": "",
-          "odds": null
+          "odds": 12.3
         },
         {
           "id": 20003,
@@ -2681,7 +2681,7 @@
           "horse": "メーゼ",
           "netKeibaHorseId": "2023106176",
           "jockey": "",
-          "odds": null
+          "odds": 23.7
         },
         {
           "id": 20004,
@@ -2691,7 +2691,7 @@
           "horse": "クレセントウイング",
           "netKeibaHorseId": "2020100707",
           "jockey": "",
-          "odds": null
+          "odds": 10.2
         },
         {
           "id": 20005,
@@ -2701,7 +2701,7 @@
           "horse": "マグネシアブリック",
           "netKeibaHorseId": "2022101920",
           "jockey": "",
-          "odds": null
+          "odds": 22
         },
         {
           "id": 20006,
@@ -2711,7 +2711,7 @@
           "horse": "ディーズメンフィス",
           "netKeibaHorseId": "2023102812",
           "jockey": "",
-          "odds": null
+          "odds": 11
         },
         {
           "id": 20007,
@@ -2721,7 +2721,7 @@
           "horse": "グリフォン",
           "netKeibaHorseId": "2022103899",
           "jockey": "",
-          "odds": null
+          "odds": 29.7
         },
         {
           "id": 20008,
@@ -2731,7 +2731,7 @@
           "horse": "マイケルバローズ",
           "netKeibaHorseId": "2023104856",
           "jockey": "",
-          "odds": null
+          "odds": 5.2
         },
         {
           "id": 20009,
@@ -2741,7 +2741,7 @@
           "horse": "レオアジャイル",
           "netKeibaHorseId": "2023104909",
           "jockey": "",
-          "odds": null
+          "odds": 6.7
         },
         {
           "id": 20010,
@@ -2751,7 +2751,7 @@
           "horse": "ソードマスター",
           "netKeibaHorseId": "2022105415",
           "jockey": "",
-          "odds": null
+          "odds": 33.2
         },
         {
           "id": 20011,
@@ -2761,7 +2761,7 @@
           "horse": "ナクソス",
           "netKeibaHorseId": "2023105868",
           "jockey": "",
-          "odds": null
+          "odds": 44.5
         },
         {
           "id": 20012,
@@ -2771,7 +2771,7 @@
           "horse": "ニルマーネル",
           "netKeibaHorseId": "2023107231",
           "jockey": "",
-          "odds": null
+          "odds": 3.1
         },
         {
           "id": 20013,
@@ -2781,7 +2781,7 @@
           "horse": "コスモレッド",
           "netKeibaHorseId": "2023102475",
           "jockey": "",
-          "odds": null
+          "odds": 7.8
         }
       ]
     },
@@ -2805,7 +2805,7 @@
           "horse": "カムアップローゼス",
           "netKeibaHorseId": "2023104386",
           "jockey": "",
-          "odds": null
+          "odds": 2
         },
         {
           "id": 21002,
@@ -2815,7 +2815,7 @@
           "horse": "ナムラヒナギク",
           "netKeibaHorseId": "2023106226",
           "jockey": "",
-          "odds": null
+          "odds": 10.9
         },
         {
           "id": 21003,
@@ -2825,7 +2825,7 @@
           "horse": "ゴーゴータカシ",
           "netKeibaHorseId": "2022102135",
           "jockey": "",
-          "odds": null
+          "odds": 6.4
         },
         {
           "id": 21004,
@@ -2835,7 +2835,7 @@
           "horse": "ドッグウッド",
           "netKeibaHorseId": "2023101382",
           "jockey": "",
-          "odds": null
+          "odds": 6.6
         },
         {
           "id": 21005,
@@ -2845,7 +2845,7 @@
           "horse": "ネッタイヤライ",
           "netKeibaHorseId": "2023104690",
           "jockey": "",
-          "odds": null
+          "odds": 9
         },
         {
           "id": 21006,
@@ -2855,7 +2855,7 @@
           "horse": "ゼアズノープレイス",
           "netKeibaHorseId": "2019100907",
           "jockey": "",
-          "odds": null
+          "odds": 70.7
         },
         {
           "id": 21007,
@@ -2865,7 +2865,7 @@
           "horse": "ハルフロンティア",
           "netKeibaHorseId": "2022104724",
           "jockey": "",
-          "odds": null
+          "odds": 8.2
         },
         {
           "id": 21008,
@@ -2875,7 +2875,7 @@
           "horse": "ハミルトン",
           "netKeibaHorseId": "2022102896",
           "jockey": "",
-          "odds": null
+          "odds": 20.1
         },
         {
           "id": 21009,
@@ -2885,7 +2885,7 @@
           "horse": "マイネルイグザルト",
           "netKeibaHorseId": "2022106807",
           "jockey": "",
-          "odds": null
+          "odds": 26.5
         },
         {
           "id": 21010,
@@ -2895,7 +2895,7 @@
           "horse": "ピティロディア",
           "netKeibaHorseId": "2022105400",
           "jockey": "",
-          "odds": null
+          "odds": 28.3
         }
       ]
     },
@@ -2919,7 +2919,7 @@
           "horse": "プリンセッサ",
           "netKeibaHorseId": "2022102138",
           "jockey": "",
-          "odds": null
+          "odds": 3.5
         },
         {
           "id": 22002,
@@ -2929,7 +2929,7 @@
           "horse": "コパノエビータ",
           "netKeibaHorseId": "2021102219",
           "jockey": "",
-          "odds": null
+          "odds": 28.1
         },
         {
           "id": 22003,
@@ -2939,7 +2939,7 @@
           "horse": "ネクストダンサー",
           "netKeibaHorseId": "2022103753",
           "jockey": "",
-          "odds": null
+          "odds": 56.2
         },
         {
           "id": 22004,
@@ -2949,7 +2949,7 @@
           "horse": "コンティオ",
           "netKeibaHorseId": "2022100629",
           "jockey": "",
-          "odds": null
+          "odds": 5.4
         },
         {
           "id": 22005,
@@ -2959,7 +2959,7 @@
           "horse": "ブラックルビー",
           "netKeibaHorseId": "2022105981",
           "jockey": "",
-          "odds": null
+          "odds": 17.3
         },
         {
           "id": 22006,
@@ -2969,7 +2969,7 @@
           "horse": "ユージュアーナ",
           "netKeibaHorseId": "2022102952",
           "jockey": "",
-          "odds": null
+          "odds": 6.7
         },
         {
           "id": 22007,
@@ -2979,7 +2979,7 @@
           "horse": "ルージュマローネ",
           "netKeibaHorseId": "2022105569",
           "jockey": "",
-          "odds": null
+          "odds": 24.2
         },
         {
           "id": 22008,
@@ -2989,7 +2989,7 @@
           "horse": "ニシノラヴァンダ",
           "netKeibaHorseId": "2022102220",
           "jockey": "",
-          "odds": null
+          "odds": 37.1
         },
         {
           "id": 22009,
@@ -2999,7 +2999,7 @@
           "horse": "タマモカンパネラ",
           "netKeibaHorseId": "2022104512",
           "jockey": "",
-          "odds": null
+          "odds": 4
         },
         {
           "id": 22010,
@@ -3009,7 +3009,7 @@
           "horse": "ウインシャーガス",
           "netKeibaHorseId": "2022106209",
           "jockey": "",
-          "odds": null
+          "odds": 5.3
         },
         {
           "id": 22011,
@@ -3019,7 +3019,7 @@
           "horse": "ドーンコーラス",
           "netKeibaHorseId": "2021105415",
           "jockey": "",
-          "odds": null
+          "odds": 40.9
         }
       ]
     },
@@ -3043,7 +3043,7 @@
           "horse": "バルナバ",
           "netKeibaHorseId": "2022106633",
           "jockey": "",
-          "odds": null
+          "odds": 23.2
         },
         {
           "id": 23002,
@@ -3053,7 +3053,7 @@
           "horse": "ファウストラーゼン",
           "netKeibaHorseId": "2022104218",
           "jockey": "",
-          "odds": null
+          "odds": 9.8
         },
         {
           "id": 23003,
@@ -3063,7 +3063,7 @@
           "horse": "ピースワンデュック",
           "netKeibaHorseId": "2021101134",
           "jockey": "",
-          "odds": null
+          "odds": 18.3
         },
         {
           "id": 23004,
@@ -3073,7 +3073,7 @@
           "horse": "マジックサンズ",
           "netKeibaHorseId": "2022104772",
           "jockey": "",
-          "odds": null
+          "odds": 7.9
         },
         {
           "id": 23005,
@@ -3083,7 +3083,7 @@
           "horse": "イガッチ",
           "netKeibaHorseId": "2022100699",
           "jockey": "",
-          "odds": null
+          "odds": 6.6
         },
         {
           "id": 23006,
@@ -3093,7 +3093,7 @@
           "horse": "サンストックトン",
           "netKeibaHorseId": "2019101422",
           "jockey": "",
-          "odds": null
+          "odds": 28.5
         },
         {
           "id": 23007,
@@ -3103,7 +3103,7 @@
           "horse": "チャックネイト",
           "netKeibaHorseId": "2018104609",
           "jockey": "",
-          "odds": null
+          "odds": 43.5
         },
         {
           "id": 23008,
@@ -3113,7 +3113,7 @@
           "horse": "ケイアイセナ",
           "netKeibaHorseId": "2019100318",
           "jockey": "",
-          "odds": null
+          "odds": 8.4
         },
         {
           "id": 23009,
@@ -3123,7 +3123,7 @@
           "horse": "オニャンコポン",
           "netKeibaHorseId": "2019104756",
           "jockey": "",
-          "odds": null
+          "odds": 42.3
         },
         {
           "id": 23010,
@@ -3133,7 +3133,7 @@
           "horse": "ケリフレッドアスク",
           "netKeibaHorseId": "2022102296",
           "jockey": "",
-          "odds": null
+          "odds": 17.1
         },
         {
           "id": 23011,
@@ -3143,7 +3143,7 @@
           "horse": "ジュタ",
           "netKeibaHorseId": "2022104813",
           "jockey": "",
-          "odds": null
+          "odds": 9.6
         },
         {
           "id": 23012,
@@ -3153,7 +3153,7 @@
           "horse": "エコロディノス",
           "netKeibaHorseId": "2022105073",
           "jockey": "",
-          "odds": null
+          "odds": 7.7
         },
         {
           "id": 23013,
@@ -3163,7 +3163,7 @@
           "horse": "アラタ",
           "netKeibaHorseId": "2017104756",
           "jockey": "",
-          "odds": null
+          "odds": 18
         },
         {
           "id": 23014,
@@ -3173,7 +3173,7 @@
           "horse": "フィーリウス",
           "netKeibaHorseId": "2022105175",
           "jockey": "",
-          "odds": null
+          "odds": 6.9
         },
         {
           "id": 23015,
@@ -3183,7 +3183,7 @@
           "horse": "デビットバローズ",
           "netKeibaHorseId": "2019104878",
           "jockey": "",
-          "odds": null
+          "odds": 11.7
         }
       ]
     },
@@ -3207,7 +3207,7 @@
           "horse": "ガットネロ",
           "netKeibaHorseId": "2020105073",
           "jockey": "",
-          "odds": null
+          "odds": 19.4
         },
         {
           "id": 24002,
@@ -3217,7 +3217,7 @@
           "horse": "エルサトアナ",
           "netKeibaHorseId": "2022100933",
           "jockey": "",
-          "odds": null
+          "odds": 11.1
         },
         {
           "id": 24003,
@@ -3227,7 +3227,7 @@
           "horse": "サンドロナイト",
           "netKeibaHorseId": "2021110119",
           "jockey": "",
-          "odds": null
+          "odds": 16.6
         },
         {
           "id": 24004,
@@ -3237,7 +3237,7 @@
           "horse": "ウチュウノセカイ",
           "netKeibaHorseId": "2023106665",
           "jockey": "",
-          "odds": null
+          "odds": 5
         },
         {
           "id": 24005,
@@ -3247,7 +3247,7 @@
           "horse": "キープサインオン",
           "netKeibaHorseId": "2022103556",
           "jockey": "",
-          "odds": null
+          "odds": 11.2
         },
         {
           "id": 24006,
@@ -3257,7 +3257,7 @@
           "horse": "ヴィヴァクラウン",
           "netKeibaHorseId": "2021101595",
           "jockey": "",
-          "odds": null
+          "odds": 9.1
         },
         {
           "id": 24007,
@@ -3267,7 +3267,7 @@
           "horse": "ビーコング",
           "netKeibaHorseId": "2021103595",
           "jockey": "",
-          "odds": null
+          "odds": 53.5
         },
         {
           "id": 24008,
@@ -3277,7 +3277,7 @@
           "horse": "フェアリーライズ",
           "netKeibaHorseId": "2023102567",
           "jockey": "",
-          "odds": null
+          "odds": 28.7
         },
         {
           "id": 24009,
@@ -3287,7 +3287,7 @@
           "horse": "エクストラバック",
           "netKeibaHorseId": "2021110023",
           "jockey": "",
-          "odds": null
+          "odds": 7.9
         },
         {
           "id": 24010,
@@ -3297,7 +3297,7 @@
           "horse": "シーグルロス",
           "netKeibaHorseId": "2023100214",
           "jockey": "",
-          "odds": null
+          "odds": 7.3
         },
         {
           "id": 24011,
@@ -3307,7 +3307,7 @@
           "horse": "ライツユーアップ",
           "netKeibaHorseId": "2022103527",
           "jockey": "",
-          "odds": null
+          "odds": 21.3
         },
         {
           "id": 24012,
@@ -3317,7 +3317,7 @@
           "horse": "クリエープキー",
           "netKeibaHorseId": "2023103355",
           "jockey": "",
-          "odds": null
+          "odds": 17.4
         },
         {
           "id": 24013,
@@ -3327,7 +3327,7 @@
           "horse": "ゴキゲンサン",
           "netKeibaHorseId": "2020106623",
           "jockey": "",
-          "odds": null
+          "odds": 33.1
         },
         {
           "id": 24014,
@@ -3337,7 +3337,7 @@
           "horse": "ホワイトドラゴン",
           "netKeibaHorseId": "2023106104",
           "jockey": "",
-          "odds": null
+          "odds": 4.8
         }
       ]
     },
@@ -3361,7 +3361,7 @@
           "horse": "フレイムジョーカー",
           "netKeibaHorseId": "2019105745",
           "jockey": "",
-          "odds": null
+          "odds": 10.8
         },
         {
           "id": 25002,
@@ -3371,7 +3371,7 @@
           "horse": "アウスヴァール",
           "netKeibaHorseId": "2018101010",
           "jockey": "",
-          "odds": null
+          "odds": 3.5
         },
         {
           "id": 25003,
@@ -3381,7 +3381,7 @@
           "horse": "シュハリ",
           "netKeibaHorseId": "2020105031",
           "jockey": "江田勇亮",
-          "odds": null
+          "odds": 44
         },
         {
           "id": 25004,
@@ -3391,7 +3391,7 @@
           "horse": "ポワンキュルミナン",
           "netKeibaHorseId": "2020102955",
           "jockey": "",
-          "odds": null
+          "odds": 8
         },
         {
           "id": 25005,
@@ -3401,7 +3401,7 @@
           "horse": "ブランフォルテ",
           "netKeibaHorseId": "2022100527",
           "jockey": "",
-          "odds": null
+          "odds": 30.4
         },
         {
           "id": 25006,
@@ -3411,7 +3411,7 @@
           "horse": "グロッシェン",
           "netKeibaHorseId": "2021104844",
           "jockey": "",
-          "odds": null
+          "odds": 14.8
         },
         {
           "id": 25007,
@@ -3421,7 +3421,7 @@
           "horse": "ラパンラピッド",
           "netKeibaHorseId": "2020102648",
           "jockey": "",
-          "odds": null
+          "odds": 3.9
         },
         {
           "id": 25008,
@@ -3431,7 +3431,7 @@
           "horse": "ヴォンヌヴォー",
           "netKeibaHorseId": "2020106585",
           "jockey": "",
-          "odds": null
+          "odds": 66
         },
         {
           "id": 25009,
@@ -3441,7 +3441,7 @@
           "horse": "トーアマリシテン",
           "netKeibaHorseId": "2021105335",
           "jockey": "",
-          "odds": null
+          "odds": 4.9
         },
         {
           "id": 25010,
@@ -3451,7 +3451,7 @@
           "horse": "ブライトライツ",
           "netKeibaHorseId": "2022103504",
           "jockey": "",
-          "odds": null
+          "odds": 82.4
         },
         {
           "id": 25011,
@@ -3461,7 +3461,7 @@
           "horse": "モズクルードラゴン",
           "netKeibaHorseId": "2019103719",
           "jockey": "",
-          "odds": null
+          "odds": 100.6
         },
         {
           "id": 25012,
@@ -3471,7 +3471,7 @@
           "horse": "ニシノインヴィクタ",
           "netKeibaHorseId": "2021100190",
           "jockey": "",
-          "odds": null
+          "odds": 43.5
         },
         {
           "id": 25013,
@@ -3481,7 +3481,7 @@
           "horse": "ロワゾブルー",
           "netKeibaHorseId": "2022103559",
           "jockey": "",
-          "odds": null
+          "odds": 107.2
         },
         {
           "id": 25014,
@@ -3491,7 +3491,7 @@
           "horse": "サマーアゲイン",
           "netKeibaHorseId": "2021104669",
           "jockey": "",
-          "odds": null
+          "odds": 9.5
         }
       ]
     },
@@ -3515,7 +3515,7 @@
           "horse": "ゴールドフリーダム",
           "netKeibaHorseId": "2023104511",
           "jockey": "",
-          "odds": null
+          "odds": 27.3
         },
         {
           "id": 26002,
@@ -3525,7 +3525,7 @@
           "horse": "カラクリスピリッツ",
           "netKeibaHorseId": "2023104432",
           "jockey": "",
-          "odds": null
+          "odds": 26.3
         },
         {
           "id": 26003,
@@ -3535,7 +3535,7 @@
           "horse": "カミノテイオー",
           "netKeibaHorseId": "2023109056",
           "jockey": "",
-          "odds": null
+          "odds": 92.3
         },
         {
           "id": 26004,
@@ -3545,7 +3545,7 @@
           "horse": "オセアフェアモント",
           "netKeibaHorseId": "2023105962",
           "jockey": "",
-          "odds": null
+          "odds": 62
         },
         {
           "id": 26005,
@@ -3555,7 +3555,7 @@
           "horse": "イトシサ",
           "netKeibaHorseId": "2023106849",
           "jockey": "",
-          "odds": null
+          "odds": 6.1
         },
         {
           "id": 26006,
@@ -3565,7 +3565,7 @@
           "horse": "プロミスライン",
           "netKeibaHorseId": "2023104884",
           "jockey": "",
-          "odds": null
+          "odds": 24.1
         },
         {
           "id": 26007,
@@ -3575,7 +3575,7 @@
           "horse": "チェイサー",
           "netKeibaHorseId": "2023104603",
           "jockey": "",
-          "odds": null
+          "odds": 21.9
         },
         {
           "id": 26008,
@@ -3585,7 +3585,7 @@
           "horse": "サイモングリーマン",
           "netKeibaHorseId": "2023102050",
           "jockey": "",
-          "odds": null
+          "odds": 155.1
         },
         {
           "id": 26009,
@@ -3595,7 +3595,7 @@
           "horse": "ロジキセキ",
           "netKeibaHorseId": "2023100578",
           "jockey": "",
-          "odds": null
+          "odds": 32.9
         },
         {
           "id": 26010,
@@ -3605,7 +3605,7 @@
           "horse": "アシタバスピリッツ",
           "netKeibaHorseId": "2023106290",
           "jockey": "",
-          "odds": null
+          "odds": 29.9
         },
         {
           "id": 26011,
@@ -3615,7 +3615,7 @@
           "horse": "ゴーントゥファー",
           "netKeibaHorseId": "2023106531",
           "jockey": "",
-          "odds": null
+          "odds": 20.9
         },
         {
           "id": 26012,
@@ -3625,7 +3625,7 @@
           "horse": "ウインビギニング",
           "netKeibaHorseId": "2023100291",
           "jockey": "",
-          "odds": null
+          "odds": 1.5
         },
         {
           "id": 26013,
@@ -3635,7 +3635,7 @@
           "horse": "カシマライフウ",
           "netKeibaHorseId": "2023105439",
           "jockey": "",
-          "odds": null
+          "odds": 9.1
         },
         {
           "id": 26014,
@@ -3645,7 +3645,7 @@
           "horse": "ロココ",
           "netKeibaHorseId": "2023103288",
           "jockey": "",
-          "odds": null
+          "odds": 51.3
         },
         {
           "id": 26015,
@@ -3655,7 +3655,7 @@
           "horse": "テンカラットレター",
           "netKeibaHorseId": "2023104554",
           "jockey": "",
-          "odds": null
+          "odds": 43.6
         }
       ]
     },
@@ -3679,7 +3679,7 @@
           "horse": "ドルチェテソーロ",
           "netKeibaHorseId": "2024101281",
           "jockey": "",
-          "odds": null
+          "odds": 7.7
         },
         {
           "id": 27002,
@@ -3689,7 +3689,7 @@
           "horse": "アイファーラピッド",
           "netKeibaHorseId": "2024108275",
           "jockey": "",
-          "odds": null
+          "odds": 7.9
         },
         {
           "id": 27003,
@@ -3699,7 +3699,7 @@
           "horse": "ベアアミーチ",
           "netKeibaHorseId": "2024101604",
           "jockey": "",
-          "odds": null
+          "odds": 12.3
         },
         {
           "id": 27004,
@@ -3709,7 +3709,7 @@
           "horse": "ユイノヘラクレス",
           "netKeibaHorseId": "2024105474",
           "jockey": "",
-          "odds": null
+          "odds": 16.3
         },
         {
           "id": 27005,
@@ -3719,7 +3719,7 @@
           "horse": "オオセイケイ",
           "netKeibaHorseId": "2024100482",
           "jockey": "",
-          "odds": null
+          "odds": 1.1
         }
       ]
     },
@@ -3743,7 +3743,7 @@
           "horse": "マーズワース",
           "netKeibaHorseId": "2024102809",
           "jockey": "",
-          "odds": null
+          "odds": 21.4
         },
         {
           "id": 28002,
@@ -3753,7 +3753,7 @@
           "horse": "ティアラスピリット",
           "netKeibaHorseId": "2024107256",
           "jockey": "",
-          "odds": null
+          "odds": 25.7
         },
         {
           "id": 28003,
@@ -3763,7 +3763,7 @@
           "horse": "ノヴェルアレイア",
           "netKeibaHorseId": "2024102025",
           "jockey": "",
-          "odds": null
+          "odds": 40.6
         },
         {
           "id": 28004,
@@ -3773,7 +3773,7 @@
           "horse": "ドナビッグベン",
           "netKeibaHorseId": "2024101341",
           "jockey": "",
-          "odds": null
+          "odds": 13.3
         },
         {
           "id": 28005,
@@ -3783,7 +3783,7 @@
           "horse": "ピリナカピリナ",
           "netKeibaHorseId": "2024105555",
           "jockey": "",
-          "odds": null
+          "odds": 12.4
         },
         {
           "id": 28006,
@@ -3793,7 +3793,7 @@
           "horse": "プリンセスロッティ",
           "netKeibaHorseId": "2024107347",
           "jockey": "",
-          "odds": null
+          "odds": 8.4
         },
         {
           "id": 28007,
@@ -3803,7 +3803,7 @@
           "horse": "スペシャルサンクス",
           "netKeibaHorseId": "2024102846",
           "jockey": "",
-          "odds": null
+          "odds": 29.5
         },
         {
           "id": 28008,
@@ -3813,7 +3813,7 @@
           "horse": "ジーティーマイカ",
           "netKeibaHorseId": "2024107165",
           "jockey": "",
-          "odds": null
+          "odds": 2.1
         },
         {
           "id": 28009,
@@ -3823,7 +3823,7 @@
           "horse": "サリードゥ",
           "netKeibaHorseId": "2024100265",
           "jockey": "",
-          "odds": null
+          "odds": 5
         },
         {
           "id": 28010,
@@ -3833,7 +3833,7 @@
           "horse": "リケアチャチャチャ",
           "netKeibaHorseId": "2024105243",
           "jockey": "",
-          "odds": null
+          "odds": 30.8
         },
         {
           "id": 28011,
@@ -3843,7 +3843,7 @@
           "horse": "マリノシークレット",
           "netKeibaHorseId": "2024100286",
           "jockey": "",
-          "odds": null
+          "odds": 51.8
         },
         {
           "id": 28012,
@@ -3853,7 +3853,7 @@
           "horse": "ミッドナイトドア",
           "netKeibaHorseId": "2024102836",
           "jockey": "",
-          "odds": null
+          "odds": 36.2
         },
         {
           "id": 28013,
@@ -3863,7 +3863,7 @@
           "horse": "ウインリスノアール",
           "netKeibaHorseId": "2024107129",
           "jockey": "",
-          "odds": null
+          "odds": 20.9
         },
         {
           "id": 28014,
@@ -3873,7 +3873,7 @@
           "horse": "ヤマニンアルセド",
           "netKeibaHorseId": "2024103425",
           "jockey": "",
-          "odds": null
+          "odds": 23.5
         }
       ]
     },
@@ -3897,7 +3897,7 @@
           "horse": "ウィナーズチェック",
           "netKeibaHorseId": "2024104102",
           "jockey": "",
-          "odds": null
+          "odds": 28.2
         },
         {
           "id": 29002,
@@ -3907,7 +3907,7 @@
           "horse": "マルガリート",
           "netKeibaHorseId": "2024105550",
           "jockey": "",
-          "odds": null
+          "odds": 42.2
         },
         {
           "id": 29003,
@@ -3917,7 +3917,7 @@
           "horse": "ラッキースパークル",
           "netKeibaHorseId": "2024106675",
           "jockey": "",
-          "odds": null
+          "odds": 2.7
         },
         {
           "id": 29004,
@@ -3927,7 +3927,7 @@
           "horse": "ビップヴィーナス",
           "netKeibaHorseId": "2024106124",
           "jockey": "",
-          "odds": null
+          "odds": 12.4
         },
         {
           "id": 29005,
@@ -3937,7 +3937,7 @@
           "horse": "アルアンダルス",
           "netKeibaHorseId": "2024100316",
           "jockey": "",
-          "odds": null
+          "odds": 49
         },
         {
           "id": 29006,
@@ -3947,7 +3947,7 @@
           "horse": "プリメラエストレラ",
           "netKeibaHorseId": "2024103554",
           "jockey": "",
-          "odds": null
+          "odds": 46.1
         },
         {
           "id": 29007,
@@ -3957,7 +3957,7 @@
           "horse": "センターアイランド",
           "netKeibaHorseId": "2024100561",
           "jockey": "",
-          "odds": null
+          "odds": 6.4
         },
         {
           "id": 29008,
@@ -3967,7 +3967,7 @@
           "horse": "レッジェランツァ",
           "netKeibaHorseId": "2024106982",
           "jockey": "",
-          "odds": null
+          "odds": 3.4
         },
         {
           "id": 29009,
@@ -3977,7 +3977,7 @@
           "horse": "マーゴットパラディ",
           "netKeibaHorseId": "2024101971",
           "jockey": "",
-          "odds": null
+          "odds": 14.7
         },
         {
           "id": 29010,
@@ -3987,7 +3987,7 @@
           "horse": "モンドドゥアムール",
           "netKeibaHorseId": "2024107115",
           "jockey": "",
-          "odds": null
+          "odds": 52.2
         },
         {
           "id": 29011,
@@ -3997,7 +3997,7 @@
           "horse": "トリプティーク",
           "netKeibaHorseId": "2024101755",
           "jockey": "",
-          "odds": null
+          "odds": 83.2
         },
         {
           "id": 29012,
@@ -4007,7 +4007,7 @@
           "horse": "アルデアーク",
           "netKeibaHorseId": "2024102506",
           "jockey": "",
-          "odds": null
+          "odds": 36.3
         },
         {
           "id": 29013,
@@ -4017,7 +4017,7 @@
           "horse": "ウインワーグナー",
           "netKeibaHorseId": "2024103053",
           "jockey": "",
-          "odds": null
+          "odds": 8.6
         },
         {
           "id": 29014,
@@ -4027,7 +4027,7 @@
           "horse": "カペラテソーロ",
           "netKeibaHorseId": "2024101268",
           "jockey": "",
-          "odds": null
+          "odds": 52.9
         }
       ]
     },
@@ -4051,7 +4051,7 @@
           "horse": "オレンジリバー",
           "netKeibaHorseId": "2023103727",
           "jockey": "",
-          "odds": null
+          "odds": 14.8
         },
         {
           "id": 30002,
@@ -4061,7 +4061,7 @@
           "horse": "リアアーテシアン",
           "netKeibaHorseId": "2023103702",
           "jockey": "",
-          "odds": null
+          "odds": 6.5
         },
         {
           "id": 30003,
@@ -4071,7 +4071,7 @@
           "horse": "ペイシャラム",
           "netKeibaHorseId": "2023106132",
           "jockey": "",
-          "odds": null
+          "odds": 59.9
         },
         {
           "id": 30004,
@@ -4081,7 +4081,7 @@
           "horse": "スカット",
           "netKeibaHorseId": "2023104590",
           "jockey": "",
-          "odds": null
+          "odds": 9.8
         },
         {
           "id": 30005,
@@ -4091,7 +4091,7 @@
           "horse": "リバージュエル",
           "netKeibaHorseId": "2023102560",
           "jockey": "",
-          "odds": null
+          "odds": 35.4
         },
         {
           "id": 30006,
@@ -4101,7 +4101,7 @@
           "horse": "サトノワーグナー",
           "netKeibaHorseId": "2023100925",
           "jockey": "",
-          "odds": null
+          "odds": 5
         },
         {
           "id": 30007,
@@ -4111,7 +4111,7 @@
           "horse": "イイクニパッション",
           "netKeibaHorseId": "2023100102",
           "jockey": "",
-          "odds": null
+          "odds": 3.9
         },
         {
           "id": 30008,
@@ -4121,7 +4121,7 @@
           "horse": "ハクサンスオーノ",
           "netKeibaHorseId": "2023101772",
           "jockey": "",
-          "odds": null
+          "odds": 30.6
         },
         {
           "id": 30009,
@@ -4131,7 +4131,7 @@
           "horse": "モリガン",
           "netKeibaHorseId": "2023102254",
           "jockey": "",
-          "odds": null
+          "odds": 55.4
         },
         {
           "id": 30010,
@@ -4141,7 +4141,7 @@
           "horse": "ハクサンレイホウ",
           "netKeibaHorseId": "2023105694",
           "jockey": "",
-          "odds": null
+          "odds": 88.5
         },
         {
           "id": 30011,
@@ -4151,7 +4151,7 @@
           "horse": "ミラビリオン",
           "netKeibaHorseId": "2023102422",
           "jockey": "",
-          "odds": null
+          "odds": 7.2
         },
         {
           "id": 30012,
@@ -4161,7 +4161,7 @@
           "horse": "ロジシーザ",
           "netKeibaHorseId": "2023102319",
           "jockey": "",
-          "odds": null
+          "odds": 19.8
         },
         {
           "id": 30013,
@@ -4171,7 +4171,7 @@
           "horse": "カーニバルウェイ",
           "netKeibaHorseId": "2023103662",
           "jockey": "",
-          "odds": null
+          "odds": 72.2
         },
         {
           "id": 30014,
@@ -4181,7 +4181,7 @@
           "horse": "ハミングディスト",
           "netKeibaHorseId": "2023102924",
           "jockey": "",
-          "odds": null
+          "odds": 101.8
         },
         {
           "id": 30015,
@@ -4191,7 +4191,7 @@
           "horse": "アリアーネ",
           "netKeibaHorseId": "2023100856",
           "jockey": "",
-          "odds": null
+          "odds": 105.7
         },
         {
           "id": 30016,
@@ -4201,7 +4201,7 @@
           "horse": "オレンジキャンパス",
           "netKeibaHorseId": "2023104392",
           "jockey": "",
-          "odds": null
+          "odds": 6.6
         }
       ]
     },
@@ -4225,7 +4225,7 @@
           "horse": "ニチヤヲツイデ",
           "netKeibaHorseId": "2023101348",
           "jockey": "",
-          "odds": null
+          "odds": 43.7
         },
         {
           "id": 31002,
@@ -4235,7 +4235,7 @@
           "horse": "オドラタス",
           "netKeibaHorseId": "2023103816",
           "jockey": "",
-          "odds": null
+          "odds": 8.7
         },
         {
           "id": 31003,
@@ -4245,7 +4245,7 @@
           "horse": "ウインディナナコ",
           "netKeibaHorseId": "2023100321",
           "jockey": "",
-          "odds": null
+          "odds": 25.7
         },
         {
           "id": 31004,
@@ -4255,7 +4255,7 @@
           "horse": "ニットウエース",
           "netKeibaHorseId": "2023104977",
           "jockey": "",
-          "odds": null
+          "odds": 55.6
         },
         {
           "id": 31005,
@@ -4265,7 +4265,7 @@
           "horse": "ノーブルラホーヤ",
           "netKeibaHorseId": "2023103195",
           "jockey": "",
-          "odds": null
+          "odds": 11.9
         },
         {
           "id": 31006,
@@ -4275,7 +4275,7 @@
           "horse": "スーホ",
           "netKeibaHorseId": "2023107249",
           "jockey": "",
-          "odds": null
+          "odds": 6.4
         },
         {
           "id": 31007,
@@ -4285,7 +4285,7 @@
           "horse": "キッショウダラニ",
           "netKeibaHorseId": "2023106095",
           "jockey": "",
-          "odds": null
+          "odds": 4.1
         },
         {
           "id": 31008,
@@ -4295,7 +4295,7 @@
           "horse": "ミサトレジーナ",
           "netKeibaHorseId": "2023106178",
           "jockey": "",
-          "odds": null
+          "odds": 82.9
         },
         {
           "id": 31009,
@@ -4305,7 +4305,7 @@
           "horse": "スコアレジーナ",
           "netKeibaHorseId": "2023101925",
           "jockey": "",
-          "odds": null
+          "odds": 17.9
         },
         {
           "id": 31010,
@@ -4315,7 +4315,7 @@
           "horse": "ベンテンカグラ",
           "netKeibaHorseId": "2023107419",
           "jockey": "",
-          "odds": null
+          "odds": 24.6
         },
         {
           "id": 31011,
@@ -4325,7 +4325,7 @@
           "horse": "ホットジュピター",
           "netKeibaHorseId": "2023101396",
           "jockey": "",
-          "odds": null
+          "odds": 70
         },
         {
           "id": 31012,
@@ -4335,7 +4335,7 @@
           "horse": "ザウシャルト",
           "netKeibaHorseId": "2023106851",
           "jockey": "",
-          "odds": null
+          "odds": 92.6
         },
         {
           "id": 31013,
@@ -4345,7 +4345,7 @@
           "horse": "カゼノハゴロモ",
           "netKeibaHorseId": "2023103073",
           "jockey": "",
-          "odds": null
+          "odds": 88.5
         },
         {
           "id": 31014,
@@ -4355,7 +4355,7 @@
           "horse": "アイアンパイク",
           "netKeibaHorseId": "2023102633",
           "jockey": "",
-          "odds": null
+          "odds": 3.6
         },
         {
           "id": 31015,
@@ -4365,7 +4365,7 @@
           "horse": "マイネルヴェーゼン",
           "netKeibaHorseId": "2023106471",
           "jockey": "",
-          "odds": null
+          "odds": 7.2
         },
         {
           "id": 31016,
@@ -4375,7 +4375,7 @@
           "horse": "アンパシオンス",
           "netKeibaHorseId": "2023106055",
           "jockey": "",
-          "odds": null
+          "odds": 61.5
         }
       ]
     },
@@ -4399,7 +4399,7 @@
           "horse": "ゲンジ",
           "netKeibaHorseId": "2022105597",
           "jockey": "",
-          "odds": null
+          "odds": 7
         },
         {
           "id": 32002,
@@ -4409,7 +4409,7 @@
           "horse": "エクセルクラウン",
           "netKeibaHorseId": "2023106177",
           "jockey": "",
-          "odds": null
+          "odds": 19.7
         },
         {
           "id": 32003,
@@ -4419,7 +4419,7 @@
           "horse": "ヤマニンヘルシェ",
           "netKeibaHorseId": "2023104361",
           "jockey": "",
-          "odds": null
+          "odds": 6.6
         },
         {
           "id": 32004,
@@ -4429,7 +4429,7 @@
           "horse": "リリエンフェルト",
           "netKeibaHorseId": "2021104927",
           "jockey": "",
-          "odds": null
+          "odds": 58.5
         },
         {
           "id": 32005,
@@ -4439,7 +4439,7 @@
           "horse": "ニホンピロロジャー",
           "netKeibaHorseId": "2023102994",
           "jockey": "",
-          "odds": null
+          "odds": 3.6
         },
         {
           "id": 32006,
@@ -4449,7 +4449,7 @@
           "horse": "テイキットイージー",
           "netKeibaHorseId": "2021101088",
           "jockey": "",
-          "odds": null
+          "odds": 28.1
         },
         {
           "id": 32007,
@@ -4459,7 +4459,7 @@
           "horse": "ストレートブラック",
           "netKeibaHorseId": "2022103353",
           "jockey": "",
-          "odds": null
+          "odds": 12.3
         },
         {
           "id": 32008,
@@ -4469,7 +4469,7 @@
           "horse": "キロノヴァ",
           "netKeibaHorseId": "2022105289",
           "jockey": "",
-          "odds": null
+          "odds": 33.9
         },
         {
           "id": 32009,
@@ -4479,7 +4479,7 @@
           "horse": "リュクスパトロール",
           "netKeibaHorseId": "2023105259",
           "jockey": "",
-          "odds": null
+          "odds": 8.8
         },
         {
           "id": 32010,
@@ -4489,7 +4489,7 @@
           "horse": "エースフライト",
           "netKeibaHorseId": "2023103287",
           "jockey": "",
-          "odds": null
+          "odds": 3.3
         },
         {
           "id": 32011,
@@ -4499,7 +4499,7 @@
           "horse": "オメガストリーム",
           "netKeibaHorseId": "2022105292",
           "jockey": "",
-          "odds": null
+          "odds": 29
         },
         {
           "id": 32012,
@@ -4509,7 +4509,7 @@
           "horse": "ジャスティンライズ",
           "netKeibaHorseId": "2021103237",
           "jockey": "",
-          "odds": null
+          "odds": 57.3
         },
         {
           "id": 32013,
@@ -4519,7 +4519,7 @@
           "horse": "グランドフォレスト",
           "netKeibaHorseId": "2021103651",
           "jockey": "",
-          "odds": null
+          "odds": 131.6
         }
       ]
     },
@@ -4543,7 +4543,7 @@
           "horse": "アリスメティーク",
           "netKeibaHorseId": "2022105796",
           "jockey": "",
-          "odds": null
+          "odds": 8.2
         },
         {
           "id": 33002,
@@ -4553,7 +4553,7 @@
           "horse": "ウインルピナス",
           "netKeibaHorseId": "2020105183",
           "jockey": "",
-          "odds": null
+          "odds": 23.7
         },
         {
           "id": 33003,
@@ -4563,7 +4563,7 @@
           "horse": "ラビットアイ",
           "netKeibaHorseId": "2021102597",
           "jockey": "",
-          "odds": null
+          "odds": 8.6
         },
         {
           "id": 33004,
@@ -4573,7 +4573,7 @@
           "horse": "レッセパッセ",
           "netKeibaHorseId": "2021106826",
           "jockey": "",
-          "odds": null
+          "odds": 36.8
         },
         {
           "id": 33005,
@@ -4583,7 +4583,7 @@
           "horse": "エーデル",
           "netKeibaHorseId": "2021105321",
           "jockey": "",
-          "odds": null
+          "odds": 49.9
         },
         {
           "id": 33006,
@@ -4593,7 +4593,7 @@
           "horse": "ボウウィンドウ",
           "netKeibaHorseId": "2022105002",
           "jockey": "",
-          "odds": null
+          "odds": 3.4
         },
         {
           "id": 33007,
@@ -4603,7 +4603,7 @@
           "horse": "コスモイシュタル",
           "netKeibaHorseId": "2022106825",
           "jockey": "",
-          "odds": null
+          "odds": 10.9
         },
         {
           "id": 33008,
@@ -4613,7 +4613,7 @@
           "horse": "オデット",
           "netKeibaHorseId": "2022101925",
           "jockey": "",
-          "odds": null
+          "odds": 54.3
         },
         {
           "id": 33009,
@@ -4623,7 +4623,7 @@
           "horse": "エバーグルーヴ",
           "netKeibaHorseId": "2022105032",
           "jockey": "",
-          "odds": null
+          "odds": 6.4
         },
         {
           "id": 33010,
@@ -4633,7 +4633,7 @@
           "horse": "ホウオウシンデレラ",
           "netKeibaHorseId": "2021103533",
           "jockey": "",
-          "odds": null
+          "odds": 18.5
         },
         {
           "id": 33011,
@@ -4643,7 +4643,7 @@
           "horse": "クロシェットノエル",
           "netKeibaHorseId": "2021101068",
           "jockey": "",
-          "odds": null
+          "odds": 26.5
         },
         {
           "id": 33012,
@@ -4653,7 +4653,7 @@
           "horse": "ノビリシマビジョン",
           "netKeibaHorseId": "2022105057",
           "jockey": "",
-          "odds": null
+          "odds": 4.2
         },
         {
           "id": 33013,
@@ -4663,7 +4663,7 @@
           "horse": "オルノア",
           "netKeibaHorseId": "2020103929",
           "jockey": "",
-          "odds": null
+          "odds": 38.9
         },
         {
           "id": 33014,
@@ -4673,7 +4673,7 @@
           "horse": "レイピカケ",
           "netKeibaHorseId": "2021106904",
           "jockey": "",
-          "odds": null
+          "odds": 60.9
         }
       ]
     },
@@ -4697,7 +4697,7 @@
           "horse": "オリーブグリーン",
           "netKeibaHorseId": "2022105694",
           "jockey": "",
-          "odds": null
+          "odds": 8.8
         },
         {
           "id": 34002,
@@ -4707,7 +4707,7 @@
           "horse": "メイショウフウドウ",
           "netKeibaHorseId": "2021104445",
           "jockey": "",
-          "odds": null
+          "odds": 32.4
         },
         {
           "id": 34003,
@@ -4717,7 +4717,7 @@
           "horse": "バギーウィップ",
           "netKeibaHorseId": "2022102987",
           "jockey": "",
-          "odds": null
+          "odds": 13.6
         },
         {
           "id": 34004,
@@ -4727,7 +4727,7 @@
           "horse": "エクリプスルバン",
           "netKeibaHorseId": "2021106623",
           "jockey": "",
-          "odds": null
+          "odds": 1.5
         },
         {
           "id": 34005,
@@ -4737,7 +4737,7 @@
           "horse": "ヴァナルガンド",
           "netKeibaHorseId": "2020104567",
           "jockey": "",
-          "odds": null
+          "odds": 20.1
         },
         {
           "id": 34006,
@@ -4747,7 +4747,7 @@
           "horse": "タイセイミッション",
           "netKeibaHorseId": "2021101045",
           "jockey": "",
-          "odds": null
+          "odds": 17.4
         },
         {
           "id": 34007,
@@ -4757,7 +4757,7 @@
           "horse": "ラフエイジアン",
           "netKeibaHorseId": "2020104738",
           "jockey": "",
-          "odds": null
+          "odds": 20.3
         },
         {
           "id": 34008,
@@ -4767,7 +4767,7 @@
           "horse": "アイウィル",
           "netKeibaHorseId": "2021103502",
           "jockey": "",
-          "odds": null
+          "odds": 27.2
         },
         {
           "id": 34009,
@@ -4777,7 +4777,7 @@
           "horse": "ドバイブルース",
           "netKeibaHorseId": "2021105182",
           "jockey": "",
-          "odds": null
+          "odds": 9.7
         },
         {
           "id": 34010,
@@ -4787,7 +4787,7 @@
           "horse": "ゴールドアローン",
           "netKeibaHorseId": "2021106874",
           "jockey": "",
-          "odds": null
+          "odds": 28.8
         },
         {
           "id": 34011,
@@ -4797,7 +4797,7 @@
           "horse": "クロースコンバット",
           "netKeibaHorseId": "2019105188",
           "jockey": "",
-          "odds": null
+          "odds": 17
         }
       ]
     },
@@ -4821,7 +4821,7 @@
           "horse": "ルージュボヤージュ",
           "netKeibaHorseId": "2023103386",
           "jockey": "",
-          "odds": null
+          "odds": 11.5
         },
         {
           "id": 35002,
@@ -4831,7 +4831,7 @@
           "horse": "クカイリモク",
           "netKeibaHorseId": "2023105684",
           "jockey": "",
-          "odds": null
+          "odds": 13
         },
         {
           "id": 35003,
@@ -4841,7 +4841,7 @@
           "horse": "ジーネキング",
           "netKeibaHorseId": "2023104885",
           "jockey": "",
-          "odds": null
+          "odds": 11.3
         },
         {
           "id": 35004,
@@ -4851,7 +4851,7 @@
           "horse": "サイモンシャリオ",
           "netKeibaHorseId": "2023101569",
           "jockey": "",
-          "odds": null
+          "odds": 59.9
         },
         {
           "id": 35005,
@@ -4861,7 +4861,7 @@
           "horse": "リッツパーティー",
           "netKeibaHorseId": "2023104224",
           "jockey": "",
-          "odds": null
+          "odds": 5.5
         },
         {
           "id": 35006,
@@ -4871,7 +4871,7 @@
           "horse": "コルテオソレイユ",
           "netKeibaHorseId": "2023105084",
           "jockey": "",
-          "odds": null
+          "odds": 7.2
         },
         {
           "id": 35007,
@@ -4881,7 +4881,7 @@
           "horse": "ショウナンガルフ",
           "netKeibaHorseId": "2023105332",
           "jockey": "",
-          "odds": null
+          "odds": 57
         },
         {
           "id": 35008,
@@ -4891,7 +4891,7 @@
           "horse": "ディールメーカー",
           "netKeibaHorseId": "2023103326",
           "jockey": "",
-          "odds": null
+          "odds": 15.6
         },
         {
           "id": 35009,
@@ -4901,7 +4901,7 @@
           "horse": "キンググローリー",
           "netKeibaHorseId": "2023100021",
           "jockey": "",
-          "odds": null
+          "odds": 16.6
         },
         {
           "id": 35010,
@@ -4911,7 +4911,7 @@
           "horse": "ガリレア",
           "netKeibaHorseId": "2023100681",
           "jockey": "",
-          "odds": null
+          "odds": 86.1
         },
         {
           "id": 35011,
@@ -4921,7 +4921,7 @@
           "horse": "コロナドブリッジ",
           "netKeibaHorseId": "2023107368",
           "jockey": "",
-          "odds": null
+          "odds": 39.2
         },
         {
           "id": 35012,
@@ -4931,7 +4931,7 @@
           "horse": "ローベルクランツ",
           "netKeibaHorseId": "2023107199",
           "jockey": "",
-          "odds": null
+          "odds": 6.9
         },
         {
           "id": 35013,
@@ -4941,7 +4941,7 @@
           "horse": "サノノグレーター",
           "netKeibaHorseId": "2023100724",
           "jockey": "",
-          "odds": null
+          "odds": 7.4
         },
         {
           "id": 35014,
@@ -4951,7 +4951,7 @@
           "horse": "スカイスプレンダー",
           "netKeibaHorseId": "2023103907",
           "jockey": "",
-          "odds": null
+          "odds": 9
         },
         {
           "id": 35015,
@@ -4961,7 +4961,7 @@
           "horse": "バドリナート",
           "netKeibaHorseId": "2023107278",
           "jockey": "",
-          "odds": null
+          "odds": 25.8
         },
         {
           "id": 35016,
@@ -4971,7 +4971,7 @@
           "horse": "スペルーチェ",
           "netKeibaHorseId": "2023107352",
           "jockey": "",
-          "odds": null
+          "odds": 17.7
         }
       ]
     },
@@ -4995,7 +4995,7 @@
           "horse": "ロイヤルスパイア",
           "netKeibaHorseId": "2023101112",
           "jockey": "",
-          "odds": null
+          "odds": 4.6
         },
         {
           "id": 36002,
@@ -5005,7 +5005,7 @@
           "horse": "モズタンケ",
           "netKeibaHorseId": "2023101516",
           "jockey": "",
-          "odds": null
+          "odds": 11.3
         },
         {
           "id": 36003,
@@ -5015,7 +5015,7 @@
           "horse": "マーシャルアン",
           "netKeibaHorseId": "2023102819",
           "jockey": "",
-          "odds": null
+          "odds": 102.7
         },
         {
           "id": 36004,
@@ -5025,7 +5025,7 @@
           "horse": "ミルトハーバー",
           "netKeibaHorseId": "2023102545",
           "jockey": "",
-          "odds": null
+          "odds": 7.1
         },
         {
           "id": 36005,
@@ -5035,7 +5035,7 @@
           "horse": "クアロアランチ",
           "netKeibaHorseId": "2023107095",
           "jockey": "",
-          "odds": null
+          "odds": 6.5
         },
         {
           "id": 36006,
@@ -5045,7 +5045,7 @@
           "horse": "カツノテンス",
           "netKeibaHorseId": "2020105525",
           "jockey": "",
-          "odds": null
+          "odds": 61.5
         },
         {
           "id": 36007,
@@ -5055,7 +5055,7 @@
           "horse": "ソニックブレイカー",
           "netKeibaHorseId": "2023100955",
           "jockey": "",
-          "odds": null
+          "odds": 5.1
         },
         {
           "id": 36008,
@@ -5065,7 +5065,7 @@
           "horse": "スターランウェイ",
           "netKeibaHorseId": "2022106686",
           "jockey": "",
-          "odds": null
+          "odds": 6.1
         },
         {
           "id": 36009,
@@ -5075,7 +5075,7 @@
           "horse": "アルニラム",
           "netKeibaHorseId": "2021109088",
           "jockey": "",
-          "odds": null
+          "odds": 65.5
         },
         {
           "id": 36010,
@@ -5085,7 +5085,7 @@
           "horse": "ゴルトレオパルト",
           "netKeibaHorseId": "2020106004",
           "jockey": "",
-          "odds": null
+          "odds": 144.7
         },
         {
           "id": 36011,
@@ -5095,7 +5095,7 @@
           "horse": "フクチャンヒメ",
           "netKeibaHorseId": "2022105494",
           "jockey": "",
-          "odds": null
+          "odds": 70.9
         },
         {
           "id": 36012,
@@ -5105,7 +5105,7 @@
           "horse": "タッカーバレット",
           "netKeibaHorseId": "2021103994",
           "jockey": "",
-          "odds": null
+          "odds": 36.2
         },
         {
           "id": 36013,
@@ -5115,7 +5115,7 @@
           "horse": "ブーケドリス",
           "netKeibaHorseId": "2023103802",
           "jockey": "",
-          "odds": null
+          "odds": 6.5
         },
         {
           "id": 36014,
@@ -5125,7 +5125,7 @@
           "horse": "ジャスフォール",
           "netKeibaHorseId": "2023101792",
           "jockey": "",
-          "odds": null
+          "odds": 16.9
         }
       ]
     }
