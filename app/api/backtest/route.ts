@@ -10,6 +10,7 @@ import type { HorseScores } from "@/lib/scorer";
 const EV_MIN = 0.10;
 const EDGE_MIN = 0.02;
 const ODDS_MAX = 50;
+const DEFAULT = 65;
 
 type ScoresCache = Record<number, HorseScores>;
 
@@ -76,7 +77,9 @@ export async function GET(request: Request) {
   }
 
   const records: BacktestRaceRecord[] = [];
+  const processedNetIds = new Set<string>();
 
+  // ── Pass 1: races-cache に存在するレース（スコアあり・現行週）──
   for (const race of racesCache.races) {
     if (race.entriesPending || race.horses.length === 0) continue;
 
@@ -84,13 +87,17 @@ export async function GET(request: Request) {
     if (realDataOnly) {
       const allReal = race.horses.every((h) => {
         const s = scoresById[h.id];
-        return s && s.formScore !== 65 && s.pedigreeScore !== 65;
+        return s && s.formScore !== DEFAULT && s.pedigreeScore !== DEFAULT;
       });
       if (!allReal) continue;
     }
 
-    const resultEntry = resultsCache.results.find((r) => r.netKeibaRaceId === race.netKeibaRaceId);
+    const resultEntry = resultsCache.results.find(
+      (r) => r.netKeibaRaceId === race.netKeibaRaceId
+    );
     if (!resultEntry || resultEntry.finishers.length === 0) continue;
+
+    processedNetIds.add(race.netKeibaRaceId);
 
     // races-cache の odds が null の場合は results-cache の確定オッズを補完
     const finisherOddsMap = new Map<string, number>();
@@ -104,7 +111,6 @@ export async function GET(request: Request) {
 
     if (horsesWithOdds.length === 0) continue;
 
-    const DEFAULT = 65;
     const inputs = horsesWithOdds.map((h) => {
       const cached = scoresById[h.id];
       return {
@@ -134,10 +140,6 @@ export async function GET(request: Request) {
       return { horse: h.name, odds: h.odds, hit: isHit, returnUnits: isHit ? h.odds : 0 };
     });
 
-    const hit = horsesDetail.some((h) => h.hit);
-    const investedUnits = horsesDetail.length;
-    const returnUnits = horsesDetail.reduce((s, h) => s + h.returnUnits, 0);
-
     records.push({
       raceId: race.id,
       raceNumber: race.raceNumber,
@@ -146,11 +148,83 @@ export async function GET(request: Request) {
       venue: race.venue,
       winner: winnerName,
       horses: horsesDetail,
-      hit,
-      investedUnits,
-      returnUnits,
+      hit: horsesDetail.some((h) => h.hit),
+      investedUnits: horsesDetail.length,
+      returnUnits: horsesDetail.reduce((s, h) => s + h.returnUnits, 0),
     });
   }
+
+  // ── Pass 2: results-cache のみに存在する過去週データ（デフォルトスコア）──
+  // realDataOnly 時はスコア実データが存在しないため過去データをスキップ
+  if (!realDataOnly) {
+    for (const resultEntry of resultsCache.results) {
+      if (processedNetIds.has(resultEntry.netKeibaRaceId)) continue;
+      if (resultEntry.finishers.length === 0) continue;
+
+      // netKeibaRaceId 末尾2桁がレース番号（例: 202602010301 → 01 → 1R）
+      const raceNumber =
+        (resultEntry as { raceNumber?: number }).raceNumber ??
+        parseInt(resultEntry.netKeibaRaceId.slice(-2), 10);
+
+      const horsesWithOdds = resultEntry.finishers
+        .filter((f) => f.odds != null && f.odds > 0)
+        .map((f) => ({
+          horse: f.horse,
+          horseNumber: f.horseNumber,
+          odds: f.odds as number,
+        }));
+
+      if (horsesWithOdds.length === 0) continue;
+
+      const inputs = horsesWithOdds.map((h) => ({
+        id: 0,
+        name: h.horse,
+        formScore: DEFAULT / 100,
+        pedigreeScore: DEFAULT / 100,
+        trainingScore: DEFAULT / 100,
+        jockeyScore: DEFAULT / 100,
+        odds: h.odds,
+      }));
+
+      const { evRanking } = calculateScore(inputs);
+      const evPositiveHorses = evRanking.filter(
+        (h) => h.ev > EV_MIN && h.edge > EDGE_MIN && h.odds <= ODDS_MAX
+      );
+
+      const winner = resultEntry.finishers.find((f) => f.position === 1);
+      const winnerName = winner?.horse ?? null;
+
+      const horsesDetail: BacktestHorse[] = evPositiveHorses.map((h) => {
+        const hFinisher = horsesWithOdds.find((e) => e.horse === h.name);
+        const isHit =
+          h.name === winnerName ||
+          (winner?.horseNumber != null && hFinisher?.horseNumber === winner.horseNumber);
+        return { horse: h.name, odds: h.odds, hit: isHit, returnUnits: isHit ? h.odds : 0 };
+      });
+
+      records.push({
+        raceId: resultEntry.raceId,
+        raceNumber,
+        raceName: resultEntry.raceName,
+        date: resultEntry.date,
+        venue: resultEntry.venue,
+        winner: winnerName,
+        horses: horsesDetail,
+        hit: horsesDetail.some((h) => h.hit),
+        investedUnits: horsesDetail.length,
+        returnUnits: horsesDetail.reduce((s, h) => s + h.returnUnits, 0),
+      });
+    }
+  }
+
+  // date → venue → raceNumber でソート
+  records.sort((a, b) => {
+    const d = a.date.localeCompare(b.date);
+    if (d !== 0) return d;
+    const v = a.venue.localeCompare(b.venue);
+    if (v !== 0) return v;
+    return a.raceNumber - b.raceNumber;
+  });
 
   const racesWithResult = records.length;
   const racesWithEvPositive = records.filter((r) => r.investedUnits > 0).length;
@@ -161,9 +235,7 @@ export async function GET(request: Request) {
   const hitRate = racesWithEvPositive > 0 ? (hitRaceCount / racesWithEvPositive) * 100 : 0;
 
   return NextResponse.json({
-    totalRaces: realDataOnly
-      ? records.length  // フィルタ後レース数
-      : racesCache.races.length,
+    totalRaces: records.length,
     racesWithResult,
     racesWithEvPositive,
     totalBets,

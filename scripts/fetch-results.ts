@@ -16,6 +16,7 @@ export type RaceResultEntry = {
   raceId: number;
   netKeibaRaceId: string;
   raceName: string;
+  raceNumber: number;
   date: string;
   venue: string;
   finishers: RaceFinishResult[];
@@ -66,6 +67,7 @@ async function main() {
       raceId: race.id,
       netKeibaRaceId: race.netKeibaRaceId,
       raceName: race.raceName,
+      raceNumber: race.raceNumber,
       date: race.date,
       venue: race.venue,
       finishers,
