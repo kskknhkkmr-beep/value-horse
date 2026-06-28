@@ -105,6 +105,8 @@ export default function Home() {
   const [selectedYear, setSelectedYear] = useState<string | null>(null);
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  // レースアコーディオン
+  const [openRaces, setOpenRaces] = useState<Set<number>>(new Set());
 
   useEffect(() => {
     fetch("/api/races")
@@ -168,6 +170,16 @@ export default function Home() {
     setSelectedYear(null);
     setSelectedMonth(null);
     setSelectedDate(null);
+    setOpenRaces(new Set());
+  }
+
+  function toggleRace(raceId: number) {
+    setOpenRaces((prev) => {
+      const next = new Set(prev);
+      if (next.has(raceId)) next.delete(raceId);
+      else next.add(raceId);
+      return next;
+    });
   }
 
   return (
@@ -387,26 +399,26 @@ export default function Home() {
               ) : (
                 <div className="space-y-3">
 
-                  {/* サマリー */}
-                  <div className="border border-gray-200 grid grid-cols-3 divide-x divide-gray-100">
-                    <div className="px-3 py-3 text-center">
-                      <div className="text-[10px] text-gray-400 mb-1">ROI</div>
-                      <div className={`text-lg font-bold tabular-nums ${backtest.roi >= 0 ? "text-blue-600" : "text-red-400"}`}>
+                  {/* サマリー（1行） */}
+                  <div className="flex items-center gap-4 px-1 py-1 text-xs text-gray-500 border-b border-gray-100">
+                    <span>
+                      ROI{" "}
+                      <span className={`font-bold tabular-nums ${backtest.roi >= 0 ? "text-blue-600" : "text-red-400"}`}>
                         {backtest.roi >= 0 ? "+" : ""}{backtest.roi.toFixed(1)}%
-                      </div>
-                    </div>
-                    <div className="px-3 py-3 text-center">
-                      <div className="text-[10px] text-gray-400 mb-1">的中率</div>
-                      <div className="text-lg font-bold tabular-nums text-gray-900">
+                      </span>
+                    </span>
+                    <span>
+                      的中率{" "}
+                      <span className="font-bold text-gray-900 tabular-nums">
                         {backtest.hitRate.toFixed(0)}%
-                      </div>
-                    </div>
-                    <div className="px-3 py-3 text-center">
-                      <div className="text-[10px] text-gray-400 mb-1">対象</div>
-                      <div className="text-lg font-bold tabular-nums text-gray-900">
-                        {backtest.racesWithEvPositive}<span className="text-xs font-normal text-gray-400">R</span>
-                      </div>
-                    </div>
+                      </span>
+                    </span>
+                    <span>
+                      対象{" "}
+                      <span className="font-bold text-gray-900 tabular-nums">
+                        {backtest.racesWithEvPositive}R
+                      </span>
+                    </span>
                   </div>
 
                   {/* パンくずリスト */}
@@ -521,78 +533,74 @@ export default function Home() {
                     </div>
                   )}
 
-                  {/* ── 開催場所 → レース一覧 ── */}
+                  {/* ── 開催場所 → レース一覧（アコーディオン）── */}
                   {selectedDate && (
-                    <div className="space-y-3">
+                    <div className="space-y-2">
                       {venuesForDate.map((venue) => {
                         const venueRecords = recordsForDate.filter((r) => r.venue === venue);
                         return (
                           <div key={venue} className="border border-gray-200">
-                            <div className="px-4 py-2 bg-gray-50 text-xs font-bold text-gray-700">
+                            {/* 会場バー */}
+                            <div className="px-4 py-1.5 bg-gray-50 text-[10px] font-bold text-gray-500 tracking-widest uppercase">
                               {venue}
                             </div>
+
                             {venueRecords.map((r) => {
                               const netYen = Math.round(
                                 (r.returnUnits - r.investedUnits) * unitAmount
                               );
+                              const isOpen = openRaces.has(r.raceId);
+                              const hitHorses = r.horses.filter((h) => h.hit);
+                              const missCount = r.horses.filter((h) => !h.hit).length;
+
                               return (
-                                <div key={r.raceId}>
-                                  {/* レースヘッダー */}
-                                  <div className="flex items-center justify-between px-4 py-2 border-t border-gray-100">
-                                    <div className="flex items-center gap-2 text-xs">
-                                      <span className={`font-bold ${r.hit ? "text-blue-600" : "text-gray-300"}`}>
-                                        {r.hit ? "○" : "✗"}
-                                      </span>
-                                      <span className="text-gray-400 tabular-nums">{r.raceNumber}R</span>
-                                      <span className="font-bold text-gray-900">{r.raceName}</span>
-                                    </div>
-                                    <div className={`text-xs font-bold tabular-nums ${netYen >= 0 ? "text-blue-600" : "text-red-400"}`}>
+                                <div key={r.raceId} className="border-t border-gray-100">
+                                  {/* サマリー行（常時表示・タップで開閉） */}
+                                  <button
+                                    onClick={() => toggleRace(r.raceId)}
+                                    className="w-full flex items-center gap-2 px-4 py-2.5 text-xs text-left hover:bg-gray-50"
+                                  >
+                                    <span className={`shrink-0 font-bold w-3 ${r.hit ? "text-blue-600" : "text-gray-300"}`}>
+                                      {r.hit ? "○" : "✗"}
+                                    </span>
+                                    <span className="shrink-0 text-gray-400 tabular-nums w-6">{r.raceNumber}R</span>
+                                    <span className="flex-1 font-bold text-gray-900 truncate">{r.raceName}</span>
+                                    <span className={`shrink-0 font-bold tabular-nums ${netYen >= 0 ? "text-blue-600" : "text-red-400"}`}>
                                       {netYen >= 0 ? "+" : ""}{fmt(netYen)}円
-                                    </div>
-                                  </div>
+                                    </span>
+                                    <span className="shrink-0 text-gray-300 text-[9px] w-3">
+                                      {isOpen ? "▾" : "▸"}
+                                    </span>
+                                  </button>
 
-                                  {/* 馬ヘッダー */}
-                                  <div className="grid grid-cols-[1fr_4rem_5rem_3rem_6rem] px-4 py-1.5 text-[10px] text-gray-400 tracking-wider border-t border-gray-50">
-                                    <span>馬名</span>
-                                    <span className="text-right">オッズ</span>
-                                    <span className="text-right">賭け金</span>
-                                    <span className="text-center">結果</span>
-                                    <span className="text-right">払戻</span>
-                                  </div>
-
-                                  {/* 馬ごと */}
-                                  {r.horses.map((h) => {
-                                    const betYen = unitAmount;
-                                    const payYen = Math.round(h.returnUnits * unitAmount);
-                                    return (
-                                      <div
-                                        key={h.horse}
-                                        className={`grid grid-cols-[1fr_4rem_5rem_3rem_6rem] px-4 py-2 text-xs border-t border-gray-50 last:border-0 ${h.hit ? "bg-blue-50" : ""}`}
-                                      >
-                                        <span className={`font-bold truncate pr-2 ${h.hit ? "text-blue-700" : "text-gray-700"}`}>
-                                          {h.horse}
-                                        </span>
-                                        <span className="text-right text-gray-500 tabular-nums">{h.odds}倍</span>
-                                        <span className="text-right text-gray-500 tabular-nums">{fmt(betYen)}円</span>
-                                        <span className={`text-center font-bold ${h.hit ? "text-blue-600" : "text-gray-300"}`}>
-                                          {h.hit ? "○" : "✗"}
-                                        </span>
-                                        <span className={`text-right font-bold tabular-nums ${h.hit ? "text-blue-600" : "text-red-400"}`}>
-                                          {h.hit ? `+${fmt(payYen - betYen)}円` : `−${fmt(betYen)}円`}
-                                        </span>
+                                  {/* 展開時：的中馬 + 外れ集約 */}
+                                  {isOpen && (
+                                    <div className="px-4 pb-3 space-y-1 border-t border-gray-50">
+                                      {hitHorses.map((h) => {
+                                        const payYen = Math.round(h.returnUnits * unitAmount);
+                                        return (
+                                          <div key={h.horse} className="flex items-center gap-2 text-xs py-1.5 bg-blue-50 px-2 -mx-2">
+                                            <span className="shrink-0 font-bold text-blue-500 w-3">◎</span>
+                                            <span className="flex-1 font-bold text-blue-700">{h.horse}</span>
+                                            <span className="shrink-0 text-gray-400 tabular-nums">{h.odds}倍</span>
+                                            <span className="shrink-0 font-bold text-blue-600 tabular-nums">
+                                              +{fmt(payYen - unitAmount)}円
+                                            </span>
+                                          </div>
+                                        );
+                                      })}
+                                      {missCount > 0 && (
+                                        <div className="flex items-center gap-2 text-xs py-1 text-gray-400">
+                                          <span className="shrink-0 w-3"></span>
+                                          <span className="flex-1">外れ {missCount}点</span>
+                                          <span className="tabular-nums">−{fmt(missCount * unitAmount)}円</span>
+                                        </div>
+                                      )}
+                                      <div className="text-[10px] text-gray-300 text-right pt-1 border-t border-gray-50 tabular-nums">
+                                        {r.investedUnits}点 / 投資 {fmt(r.investedUnits * unitAmount)}円 / 払戻 {fmt(Math.round(r.returnUnits * unitAmount))}円
                                       </div>
-                                    );
-                                  })}
-
-                                  {/* レース小計 */}
-                                  <div className="grid grid-cols-[1fr_auto] px-4 py-2 text-[10px] text-gray-400 tabular-nums border-t border-gray-100">
-                                    <span>
-                                      {r.investedUnits}点 / 投資 {fmt(r.investedUnits * unitAmount)}円 / 払戻 {fmt(Math.round(r.returnUnits * unitAmount))}円
-                                    </span>
-                                    <span className={`font-bold ${netYen >= 0 ? "text-blue-600" : "text-red-400"}`}>
-                                      {netYen >= 0 ? "+" : ""}{fmt(netYen)}円
-                                    </span>
-                                  </div>
+                                    </div>
+                                  )}
                                 </div>
                               );
                             })}
@@ -601,7 +609,7 @@ export default function Home() {
                       })}
 
                       {/* 日付合計 */}
-                      <div className="text-[10px] text-gray-300 text-right">
+                      <div className="text-[10px] text-gray-300 text-right tabular-nums">
                         {recordsForDate.reduce((s, r) => s + r.investedUnits, 0)}点 /
                         {" "}投資 {fmt(recordsForDate.reduce((s, r) => s + r.investedUnits, 0) * unitAmount)}円 /
                         {" "}払戻 {fmt(Math.round(recordsForDate.reduce((s, r) => s + r.returnUnits, 0) * unitAmount))}円
