@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T07:46:36.632Z",
+  "fetchedAt": "2026-06-28T08:02:17.172Z",
   "results": [
     {
       "raceId": 25,
@@ -6640,6 +6640,3030 @@
           "horseNumber": 8,
           "horse": "スタードメイソン",
           "odds": 98.5
+        }
+      ]
+    },
+    {
+      "raceId": 13,
+      "netKeibaRaceId": "202610020101",
+      "raceName": "2歳未勝利",
+      "raceNumber": 1,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "シスキンブルーム",
+          "odds": 1.1
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "スマートメモリー",
+          "odds": 17.7
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "クリコキアナ",
+          "odds": 11.3
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ペプチドニンバス",
+          "odds": 40.9
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "ニドヅケキンシ",
+          "odds": 34
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "イザベル",
+          "odds": 22.4
+        }
+      ]
+    },
+    {
+      "raceId": 14,
+      "netKeibaRaceId": "202610020102",
+      "raceName": "3歳未勝利",
+      "raceNumber": 2,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 14,
+          "horse": "スマッシング",
+          "odds": 2.9
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "メイショウマドンナ",
+          "odds": 73
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "メイワキラリ",
+          "odds": 99.3
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "モズタイシソウシ",
+          "odds": 15.1
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "アルムアポジェ",
+          "odds": 5.7
+        },
+        {
+          "position": 6,
+          "horseNumber": 1,
+          "horse": "クリコファルコン",
+          "odds": 22.2
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "モズエムブイピー",
+          "odds": 12.5
+        },
+        {
+          "position": 8,
+          "horseNumber": 13,
+          "horse": "コパノルーカス",
+          "odds": 102.5
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "マユナイト",
+          "odds": 47.4
+        },
+        {
+          "position": 10,
+          "horseNumber": 6,
+          "horse": "サンライズキース",
+          "odds": 465.1
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "メイショウテンジン",
+          "odds": 7
+        },
+        {
+          "position": 12,
+          "horseNumber": 2,
+          "horse": "ヴォーゲ",
+          "odds": 241.4
+        },
+        {
+          "position": 13,
+          "horseNumber": 11,
+          "horse": "ショーライトイヤー",
+          "odds": 214.9
+        },
+        {
+          "position": 14,
+          "horseNumber": 10,
+          "horse": "ジャスパーブレイズ",
+          "odds": 2.9
+        }
+      ]
+    },
+    {
+      "raceId": 15,
+      "netKeibaRaceId": "202610020103",
+      "raceName": "3歳未勝利",
+      "raceNumber": 3,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "ミリタリータトゥー",
+          "odds": 17.9
+        },
+        {
+          "position": 2,
+          "horseNumber": 3,
+          "horse": "ゴールデンテティス",
+          "odds": 24.7
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "ジリアート",
+          "odds": 25.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "エイシンミスリル",
+          "odds": 35.5
+        },
+        {
+          "position": 5,
+          "horseNumber": 14,
+          "horse": "ミッキーテネシー",
+          "odds": 5.8
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "アロハ",
+          "odds": 5.4
+        },
+        {
+          "position": 7,
+          "horseNumber": 10,
+          "horse": "オーロラボレアリス",
+          "odds": 8.5
+        },
+        {
+          "position": 8,
+          "horseNumber": 16,
+          "horse": "バロッカネーラ",
+          "odds": 2.6
+        },
+        {
+          "position": 9,
+          "horseNumber": 15,
+          "horse": "エコロゼルダ",
+          "odds": 94.9
+        },
+        {
+          "position": 10,
+          "horseNumber": 5,
+          "horse": "メイショウツキヨ",
+          "odds": 258.1
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "スズノボンライミー",
+          "odds": 67.4
+        },
+        {
+          "position": 12,
+          "horseNumber": 11,
+          "horse": "ミスマリーゴールド",
+          "odds": 370.6
+        },
+        {
+          "position": 13,
+          "horseNumber": 8,
+          "horse": "ライツェントライゼ",
+          "odds": 6
+        },
+        {
+          "position": 14,
+          "horseNumber": 9,
+          "horse": "クィーンズウィンク",
+          "odds": 93.4
+        },
+        {
+          "position": 15,
+          "horseNumber": 6,
+          "horse": "ヴァーティゴー",
+          "odds": 101.8
+        },
+        {
+          "position": 16,
+          "horseNumber": 12,
+          "horse": "ビサイレント",
+          "odds": 81.1
+        }
+      ]
+    },
+    {
+      "raceId": 16,
+      "netKeibaRaceId": "202610020104",
+      "raceName": "3歳未勝利",
+      "raceNumber": 4,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "タマモスカイ",
+          "odds": 9.5
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "アイランド",
+          "odds": 2.9
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "ソルアモール",
+          "odds": 26.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 13,
+          "horse": "ラッキーヴォーグ",
+          "odds": 8.8
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "セイウンダイフク",
+          "odds": 73.7
+        },
+        {
+          "position": 6,
+          "horseNumber": 10,
+          "horse": "ディープシャロー",
+          "odds": 15.1
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "シャンパンスター",
+          "odds": 4.6
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "サカトクフェイス",
+          "odds": 135.1
+        },
+        {
+          "position": 9,
+          "horseNumber": 15,
+          "horse": "グレートアゲイン",
+          "odds": 320.7
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "オセアスターライト",
+          "odds": 285.3
+        },
+        {
+          "position": 11,
+          "horseNumber": 12,
+          "horse": "テイエムロングダン",
+          "odds": 299.6
+        },
+        {
+          "position": 12,
+          "horseNumber": 3,
+          "horse": "シンゼンコジロウ",
+          "odds": 70.2
+        },
+        {
+          "position": 13,
+          "horseNumber": 16,
+          "horse": "ルージュエテルナ",
+          "odds": 6.5
+        },
+        {
+          "position": 14,
+          "horseNumber": 7,
+          "horse": "シャドウクライ",
+          "odds": 36.6
+        },
+        {
+          "position": 15,
+          "horseNumber": 14,
+          "horse": "アップターンデイ",
+          "odds": 7.6
+        },
+        {
+          "position": 16,
+          "horseNumber": 11,
+          "horse": "ルヴレアール",
+          "odds": 73.8
+        }
+      ]
+    },
+    {
+      "raceId": 17,
+      "netKeibaRaceId": "202610020105",
+      "raceName": "2歳新馬",
+      "raceNumber": 5,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 6,
+          "horse": "カエリールークス",
+          "odds": 2.4
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "リエーヴェ",
+          "odds": 3.8
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "ヘキレキ",
+          "odds": 28.4
+        },
+        {
+          "position": 4,
+          "horseNumber": 9,
+          "horse": "タカモリ",
+          "odds": 4.1
+        },
+        {
+          "position": 5,
+          "horseNumber": 10,
+          "horse": "ソゲソゲスマイル",
+          "odds": 90.1
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "カシノクロサイト",
+          "odds": 26.8
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ニシノキヅイタラ",
+          "odds": 9.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "ルーストカール",
+          "odds": 57.3
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "ワッザイカ",
+          "odds": 17.3
+        },
+        {
+          "position": 10,
+          "horseNumber": 7,
+          "horse": "クリノパッション",
+          "odds": 12.4
+        }
+      ]
+    },
+    {
+      "raceId": 18,
+      "netKeibaRaceId": "202610020106",
+      "raceName": "3歳未勝利",
+      "raceNumber": 6,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "ビップヴォルフ",
+          "odds": 4.2
+        },
+        {
+          "position": 2,
+          "horseNumber": 16,
+          "horse": "トラカイキャッスル",
+          "odds": 34
+        },
+        {
+          "position": 3,
+          "horseNumber": 8,
+          "horse": "クロスボーダー",
+          "odds": 3.7
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "フレアオブセンス",
+          "odds": 3.2
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "グレイイメル",
+          "odds": 125
+        },
+        {
+          "position": 6,
+          "horseNumber": 2,
+          "horse": "スクランプシャス",
+          "odds": 9
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "タガノミトゥンドゥ",
+          "odds": 36
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "ルクスユアン",
+          "odds": 70.2
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "ゴナビーオーライト",
+          "odds": 191.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 14,
+          "horse": "ゼンノゾンターク",
+          "odds": 31
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "マスターストーン",
+          "odds": 188.8
+        },
+        {
+          "position": 12,
+          "horseNumber": 10,
+          "horse": "ヴェロシア",
+          "odds": 29.2
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "スフィダンテ",
+          "odds": 17.2
+        },
+        {
+          "position": 14,
+          "horseNumber": 7,
+          "horse": "シャマレル",
+          "odds": 250.3
+        },
+        {
+          "position": 15,
+          "horseNumber": 6,
+          "horse": "クリスタルタワー",
+          "odds": 67.7
+        },
+        {
+          "position": 16,
+          "horseNumber": 15,
+          "horse": "ブライトキングダム",
+          "odds": 10.1
+        }
+      ]
+    },
+    {
+      "raceId": 19,
+      "netKeibaRaceId": "202610020107",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 7,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 13,
+          "horse": "ホウショウルクス",
+          "odds": 5.4
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ジョアン",
+          "odds": 7.7
+        },
+        {
+          "position": 3,
+          "horseNumber": 12,
+          "horse": "ショコラプリン",
+          "odds": 2.3
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "ベルメサイア",
+          "odds": 24.9
+        },
+        {
+          "position": 5,
+          "horseNumber": 8,
+          "horse": "デュアルロール",
+          "odds": 258.4
+        },
+        {
+          "position": 6,
+          "horseNumber": 15,
+          "horse": "アンリーベイビー",
+          "odds": 10.5
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "ショウナンラウール",
+          "odds": 20.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "メイショウウメゴチ",
+          "odds": 59
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "ザラタン",
+          "odds": 7.2
+        },
+        {
+          "position": 10,
+          "horseNumber": 14,
+          "horse": "ポムドール",
+          "odds": 355.5
+        },
+        {
+          "position": 11,
+          "horseNumber": 16,
+          "horse": "ビジュードネージュ",
+          "odds": 293.1
+        },
+        {
+          "position": 12,
+          "horseNumber": 1,
+          "horse": "クインズセレネ",
+          "odds": 64.8
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "クロユキ",
+          "odds": 189
+        },
+        {
+          "position": 14,
+          "horseNumber": 10,
+          "horse": "クイーンズホリデー",
+          "odds": 8.7
+        },
+        {
+          "position": 15,
+          "horseNumber": 6,
+          "horse": "ニホンピロマリンバ",
+          "odds": 74.6
+        },
+        {
+          "position": 16,
+          "horseNumber": 7,
+          "horse": "アンピュルシオン",
+          "odds": 248.1
+        }
+      ]
+    },
+    {
+      "raceId": 20,
+      "netKeibaRaceId": "202610020108",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 8,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "メローネ",
+          "odds": 2.7
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "ドルチェミスト",
+          "odds": 4.6
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "ブルズアイプリンス",
+          "odds": 12
+        },
+        {
+          "position": 4,
+          "horseNumber": 9,
+          "horse": "ビーグラッド",
+          "odds": 10
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "ベネメレンティ",
+          "odds": 8.2
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "メイショウハボマイ",
+          "odds": 48.5
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "テーオーミリカン",
+          "odds": 25.9
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "レオナルドスター",
+          "odds": 3.2
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "パレットフレイバー",
+          "odds": 103.4
+        }
+      ]
+    },
+    {
+      "raceId": 21,
+      "netKeibaRaceId": "202610020109",
+      "raceName": "八代特別",
+      "raceNumber": 9,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "サヴォアフェール",
+          "odds": 1.3
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ノンブルドール",
+          "odds": 8.1
+        },
+        {
+          "position": 3,
+          "horseNumber": 3,
+          "horse": "デルシエロ",
+          "odds": 90.7
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "ダノンアトラス",
+          "odds": 8.3
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "パイオニアスクエア",
+          "odds": 23.8
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "ゼンノインヴォーク",
+          "odds": 7.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 8,
+          "horse": "サンライズグラシア",
+          "odds": 14.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "ウィテカービート",
+          "odds": 81.5
+        }
+      ]
+    },
+    {
+      "raceId": 22,
+      "netKeibaRaceId": "202610020110",
+      "raceName": "宗像特別",
+      "raceNumber": 10,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "ジェニファー",
+          "odds": 10.1
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "ロードトレゾール",
+          "odds": 5.9
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "スネーフリンガ",
+          "odds": 10.6
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "ホーリーブラッサム",
+          "odds": 4.6
+        },
+        {
+          "position": 5,
+          "horseNumber": 13,
+          "horse": "シュブロンレーヴル",
+          "odds": 17.5
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "サディーク",
+          "odds": 3
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "オオナミコナミ",
+          "odds": 11.8
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "ミキノバカラ",
+          "odds": 78.1
+        },
+        {
+          "position": 9,
+          "horseNumber": 3,
+          "horse": "メイショウミリオレ",
+          "odds": 22.7
+        },
+        {
+          "position": 10,
+          "horseNumber": 6,
+          "horse": "ヤマニンレセディ",
+          "odds": 67.1
+        },
+        {
+          "position": 11,
+          "horseNumber": 12,
+          "horse": "クォーツァイト",
+          "odds": 22.2
+        },
+        {
+          "position": 12,
+          "horseNumber": 10,
+          "horse": "ルージュサウダージ",
+          "odds": 11.7
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "ブリーズオンチーク",
+          "odds": 344.1
+        }
+      ]
+    },
+    {
+      "raceId": 23,
+      "netKeibaRaceId": "202610020111",
+      "raceName": "薩摩S",
+      "raceNumber": 11,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "ゴッドブルービー",
+          "odds": 5.6
+        },
+        {
+          "position": 2,
+          "horseNumber": 13,
+          "horse": "シンビリーブ",
+          "odds": 5.1
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "ジューンエオス",
+          "odds": 6.4
+        },
+        {
+          "position": 4,
+          "horseNumber": 12,
+          "horse": "アレナパラシオ",
+          "odds": 9.3
+        },
+        {
+          "position": 5,
+          "horseNumber": 11,
+          "horse": "ストップヤーニング",
+          "odds": 4.6
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "テーオールビー",
+          "odds": 68.5
+        },
+        {
+          "position": 7,
+          "horseNumber": 14,
+          "horse": "メイショウコガシラ",
+          "odds": 112.9
+        },
+        {
+          "position": 8,
+          "horseNumber": 15,
+          "horse": "パフ",
+          "odds": 9.2
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "ケイアイメキラ",
+          "odds": 71.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "プロミシングスター",
+          "odds": 24.6
+        },
+        {
+          "position": 11,
+          "horseNumber": 6,
+          "horse": "メイショウミカワ",
+          "odds": 63.1
+        },
+        {
+          "position": 12,
+          "horseNumber": 5,
+          "horse": "グランキングオー",
+          "odds": 30.3
+        },
+        {
+          "position": 13,
+          "horseNumber": 4,
+          "horse": "ハリーケーン",
+          "odds": 12.8
+        },
+        {
+          "position": 14,
+          "horseNumber": 7,
+          "horse": "カネトシゴウト",
+          "odds": 21.9
+        },
+        {
+          "position": 15,
+          "horseNumber": 10,
+          "horse": "マッシャーブルム",
+          "odds": 21.5
+        }
+      ]
+    },
+    {
+      "raceId": 24,
+      "netKeibaRaceId": "202610020112",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 12,
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 8,
+          "horse": "タナスーペルノーバ",
+          "odds": 2.1
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ピアストイヤーズ",
+          "odds": 2.9
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "リピ",
+          "odds": 4.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "レインオンミー",
+          "odds": 27
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "ルブリアン",
+          "odds": 8.1
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "スレッドザニードル",
+          "odds": 26.7
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "メイショウオオミネ",
+          "odds": 79
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "ノリノリソックス",
+          "odds": 28.3
+        }
+      ]
+    },
+    {
+      "raceId": 1,
+      "netKeibaRaceId": "202602010501",
+      "raceName": "3歳未勝利",
+      "raceNumber": 1,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 15,
+          "horse": "スイープセレニティ",
+          "odds": 5
+        },
+        {
+          "position": 2,
+          "horseNumber": 10,
+          "horse": "ニシノオールワン",
+          "odds": 7.5
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "アルサック",
+          "odds": 2.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "スノーガーネット",
+          "odds": 20.7
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "リネアベルタ",
+          "odds": 7.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 14,
+          "horse": "アリアス",
+          "odds": 15.7
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "フォークスアップ",
+          "odds": 204.5
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "レースクイーン",
+          "odds": 147.3
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "エフティヴェント",
+          "odds": 181.1
+        },
+        {
+          "position": 10,
+          "horseNumber": 7,
+          "horse": "フリーダムスタイル",
+          "odds": 18.3
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "ビアーレ",
+          "odds": 28.7
+        },
+        {
+          "position": 12,
+          "horseNumber": 4,
+          "horse": "グリニッジローズ",
+          "odds": 60.4
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "スーパーチャイルド",
+          "odds": 130
+        },
+        {
+          "position": 14,
+          "horseNumber": 16,
+          "horse": "ルージュアストレア",
+          "odds": 5.6
+        },
+        {
+          "position": 15,
+          "horseNumber": 12,
+          "horse": "ラブソング",
+          "odds": 77.2
+        },
+        {
+          "position": 16,
+          "horseNumber": 11,
+          "horse": "サンアイディール",
+          "odds": 99.5
+        }
+      ]
+    },
+    {
+      "raceId": 2,
+      "netKeibaRaceId": "202602010502",
+      "raceName": "3歳未勝利",
+      "raceNumber": 2,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "マリブサーフ",
+          "odds": 3.1
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "スイーヴル",
+          "odds": 4.1
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "ドリームガッサン",
+          "odds": 5.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "シルフ",
+          "odds": 93.8
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "チュラヴェール",
+          "odds": 66.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "ロングフルスペック",
+          "odds": 36.4
+        },
+        {
+          "position": 7,
+          "horseNumber": 1,
+          "horse": "サンタクローチェ",
+          "odds": 29.5
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "クインズスズラン",
+          "odds": 8.2
+        },
+        {
+          "position": 9,
+          "horseNumber": 8,
+          "horse": "カレンココナ",
+          "odds": 13
+        },
+        {
+          "position": 10,
+          "horseNumber": 12,
+          "horse": "セラサイト",
+          "odds": 19.5
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "アイビーミャーオ",
+          "odds": 6.8
+        },
+        {
+          "position": 12,
+          "horseNumber": 11,
+          "horse": "アドバンスジェンヌ",
+          "odds": 24.1
+        }
+      ]
+    },
+    {
+      "raceId": 3,
+      "netKeibaRaceId": "202602010503",
+      "raceName": "3歳未勝利",
+      "raceNumber": 3,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "コイオステソーロ",
+          "odds": 1.1
+        },
+        {
+          "position": 2,
+          "horseNumber": 10,
+          "horse": "チリンドリ",
+          "odds": 42.6
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "ホウオウファラオ",
+          "odds": 40.3
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ハイランダー",
+          "odds": 57.4
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "キセログラフィカ",
+          "odds": 9.3
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "ミスチヴマリアンヌ",
+          "odds": 103
+        },
+        {
+          "position": 7,
+          "horseNumber": 12,
+          "horse": "シンエンドーツダ",
+          "odds": 11.5
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "トーレス",
+          "odds": 211.8
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "エコロアビス",
+          "odds": 24.1
+        },
+        {
+          "position": 10,
+          "horseNumber": 2,
+          "horse": "サクセスブルー",
+          "odds": 45.4
+        },
+        {
+          "position": 11,
+          "horseNumber": 11,
+          "horse": "ホウオウバトラー",
+          "odds": 208.9
+        },
+        {
+          "position": 12,
+          "horseNumber": 8,
+          "horse": "ルージュアイラ",
+          "odds": 77.9
+        }
+      ]
+    },
+    {
+      "raceId": 4,
+      "netKeibaRaceId": "202602010504",
+      "raceName": "3歳未勝利",
+      "raceNumber": 4,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 14,
+          "horse": "アイムイン",
+          "odds": 5.8
+        },
+        {
+          "position": 2,
+          "horseNumber": 13,
+          "horse": "ケナゲ",
+          "odds": 123.3
+        },
+        {
+          "position": 3,
+          "horseNumber": 8,
+          "horse": "マンサニージャ",
+          "odds": 6.7
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "インフィオラータ",
+          "odds": 11.1
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "エグジスタンス",
+          "odds": 10
+        },
+        {
+          "position": 6,
+          "horseNumber": 10,
+          "horse": "アルケミラモリス",
+          "odds": 41.7
+        },
+        {
+          "position": 7,
+          "horseNumber": 11,
+          "horse": "エアヴァイブス",
+          "odds": 4.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 16,
+          "horse": "ダンツアラーム",
+          "odds": 60.3
+        },
+        {
+          "position": 9,
+          "horseNumber": 2,
+          "horse": "ララニューディー",
+          "odds": 5.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "ラウターユーベル",
+          "odds": 94.9
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "クールフィデル",
+          "odds": 9.1
+        },
+        {
+          "position": 12,
+          "horseNumber": 6,
+          "horse": "ヘイマー",
+          "odds": 254.7
+        },
+        {
+          "position": 13,
+          "horseNumber": 7,
+          "horse": "ゲフィオン",
+          "odds": 17.3
+        },
+        {
+          "position": 14,
+          "horseNumber": 12,
+          "horse": "ウインラファーガ",
+          "odds": 28
+        },
+        {
+          "position": 15,
+          "horseNumber": 15,
+          "horse": "ラップトップ",
+          "odds": 15.2
+        },
+        {
+          "position": 16,
+          "horseNumber": 3,
+          "horse": "オケアノステソーロ",
+          "odds": 251.6
+        }
+      ]
+    },
+    {
+      "raceId": 5,
+      "netKeibaRaceId": "202602010505",
+      "raceName": "2歳新馬",
+      "raceNumber": 5,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 5,
+          "horse": "アゴルディーノ",
+          "odds": 3.7
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "ステラトップガン",
+          "odds": 2.1
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "ヌーンベルク",
+          "odds": 3.9
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "ライーリーアース",
+          "odds": 36.7
+        },
+        {
+          "position": 5,
+          "horseNumber": 8,
+          "horse": "マナベラ",
+          "odds": 30.4
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "ルギッドドランジュ",
+          "odds": 20.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 2,
+          "horse": "ミハテヌユメ",
+          "odds": 6.9
+        },
+        {
+          "position": 8,
+          "horseNumber": 4,
+          "horse": "サウンドエフォート",
+          "odds": 54.6
+        }
+      ]
+    },
+    {
+      "raceId": 6,
+      "netKeibaRaceId": "202602010506",
+      "raceName": "3歳未勝利",
+      "raceNumber": 6,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 5,
+          "horse": "プリンセスアツコ",
+          "odds": 2
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "プルーフリーディン",
+          "odds": 15.7
+        },
+        {
+          "position": 3,
+          "horseNumber": 8,
+          "horse": "ワンダーアスク",
+          "odds": 42
+        },
+        {
+          "position": 4,
+          "horseNumber": 3,
+          "horse": "エリカビアリッツ",
+          "odds": 2.7
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "サンエンジェルス",
+          "odds": 13.4
+        },
+        {
+          "position": 6,
+          "horseNumber": 6,
+          "horse": "コウソクユノ",
+          "odds": 9.1
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "コーリンクレア",
+          "odds": 35.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "コサージュ",
+          "odds": 25.5
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "ファントムグレース",
+          "odds": 231.2
+        },
+        {
+          "position": 10,
+          "horseNumber": 2,
+          "horse": "リアル",
+          "odds": 38.1
+        },
+        {
+          "position": 11,
+          "horseNumber": 10,
+          "horse": "ドンレミラピュセル",
+          "odds": 28.9
+        }
+      ]
+    },
+    {
+      "raceId": 7,
+      "netKeibaRaceId": "202602010507",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 7,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 11,
+          "horse": "ドウアドバンテージ",
+          "odds": 2.7
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "アイドクレース",
+          "odds": 17.4
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "ディーリライズ",
+          "odds": 18.9
+        },
+        {
+          "position": 4,
+          "horseNumber": 7,
+          "horse": "サウンドサンライズ",
+          "odds": 19.4
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "メイショウテンク",
+          "odds": 2.3
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "グランアルト",
+          "odds": 41.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 1,
+          "horse": "ブランヴァンダイク",
+          "odds": 25.7
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "ゴガツノアマノガワ",
+          "odds": 190.3
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "マカナアネラ",
+          "odds": 6.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "エオアリイ",
+          "odds": 50.5
+        },
+        {
+          "position": 11,
+          "horseNumber": 2,
+          "horse": "コスモナエマ",
+          "odds": 16.5
+        }
+      ]
+    },
+    {
+      "raceId": 8,
+      "netKeibaRaceId": "202602010508",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 8,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 1,
+          "horse": "マメタンク",
+          "odds": 2.4
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "ミサビスケッツ",
+          "odds": 13.3
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "フレンズプラス",
+          "odds": 11.2
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "スパークルジョイ",
+          "odds": 14.2
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "カッタッパ",
+          "odds": 3.3
+        },
+        {
+          "position": 6,
+          "horseNumber": 10,
+          "horse": "マジェステラ",
+          "odds": 10
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "サツキレジーナ",
+          "odds": 26.2
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "テーオーナタリー",
+          "odds": 7.6
+        },
+        {
+          "position": 9,
+          "horseNumber": 9,
+          "horse": "ジュウオウ",
+          "odds": 34.5
+        },
+        {
+          "position": 10,
+          "horseNumber": 8,
+          "horse": "セイルロケット",
+          "odds": 85.2
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "ブラックトルネード",
+          "odds": 253.1
+        }
+      ]
+    },
+    {
+      "raceId": 9,
+      "netKeibaRaceId": "202602010509",
+      "raceName": "長万部特別",
+      "raceNumber": 9,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "ドリーミングアップ",
+          "odds": 3.4
+        },
+        {
+          "position": 2,
+          "horseNumber": 4,
+          "horse": "ララバニュルス",
+          "odds": 2.5
+        },
+        {
+          "position": 3,
+          "horseNumber": 3,
+          "horse": "ナオミライトニング",
+          "odds": 9.4
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "シュークリーム",
+          "odds": 4.3
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "クワイエットアイ",
+          "odds": 18.1
+        },
+        {
+          "position": 6,
+          "horseNumber": 2,
+          "horse": "ブライアーヒル",
+          "odds": 76
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "トップオンザヒル",
+          "odds": 111.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 6,
+          "horse": "ファニーバニー",
+          "odds": 7.5
+        },
+        {
+          "position": 9,
+          "horseNumber": 9,
+          "horse": "ナンナンプー",
+          "odds": 59.2
+        }
+      ]
+    },
+    {
+      "raceId": 10,
+      "netKeibaRaceId": "202602010510",
+      "raceName": "洞爺湖特別",
+      "raceNumber": 10,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "ヨヒーン",
+          "odds": 6
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ラブリーリディア",
+          "odds": 14.8
+        },
+        {
+          "position": 3,
+          "horseNumber": 8,
+          "horse": "バルティカ",
+          "odds": 8.2
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "ウィルサヴァイブ",
+          "odds": 4.1
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "ロードマンハイム",
+          "odds": 9.7
+        },
+        {
+          "position": 6,
+          "horseNumber": 10,
+          "horse": "アメジストブラック",
+          "odds": 20.1
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "レイヤードレッド",
+          "odds": 12.5
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "ハートメテオ",
+          "odds": 3.1
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "ドッビアーコ",
+          "odds": 37.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "ウインアクトゥール",
+          "odds": 13.8
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "リッチブラック",
+          "odds": 134.9
+        }
+      ]
+    },
+    {
+      "raceId": 11,
+      "netKeibaRaceId": "202602010511",
+      "raceName": "青函S",
+      "raceNumber": 11,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "ブラックチャリス",
+          "odds": 3.8
+        },
+        {
+          "position": 2,
+          "horseNumber": 11,
+          "horse": "ナムラクララ",
+          "odds": 5.3
+        },
+        {
+          "position": 3,
+          "horseNumber": 12,
+          "horse": "アメリカンステージ",
+          "odds": 5.1
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "ナムラローズマリー",
+          "odds": 26.3
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "ティニア",
+          "odds": 10.1
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "ジョーメッドヴィン",
+          "odds": 13.8
+        },
+        {
+          "position": 7,
+          "horseNumber": 8,
+          "horse": "サウザンサニー",
+          "odds": 25.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 13,
+          "horse": "ロードフォアエース",
+          "odds": 9.1
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "クファシル",
+          "odds": 47.2
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "ダンツエラン",
+          "odds": 82.9
+        },
+        {
+          "position": 11,
+          "horseNumber": 4,
+          "horse": "ステークホルダー",
+          "odds": 134.9
+        },
+        {
+          "position": 12,
+          "horseNumber": 14,
+          "horse": "ルージュラナキラ",
+          "odds": 7.4
+        },
+        {
+          "position": 13,
+          "horseNumber": 7,
+          "horse": "マイネルレノン",
+          "odds": 47.5
+        },
+        {
+          "position": 14,
+          "horseNumber": 9,
+          "horse": "モリノドリーム",
+          "odds": 18.2
+        }
+      ]
+    },
+    {
+      "raceId": 12,
+      "netKeibaRaceId": "202602010512",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 12,
+      "date": "2026-06-27",
+      "venue": "函館",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "テイエムゴッホ",
+          "odds": 1.8
+        },
+        {
+          "position": 2,
+          "horseNumber": 5,
+          "horse": "グレイスフルマーチ",
+          "odds": 9.3
+        },
+        {
+          "position": 3,
+          "horseNumber": 6,
+          "horse": "アイファーシャドー",
+          "odds": 105.4
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "ストロングボーイ",
+          "odds": 4.5
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "パシーヴ",
+          "odds": 22.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 1,
+          "horse": "マーベリックシチー",
+          "odds": 17.8
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ビナハイバン",
+          "odds": 44.5
+        },
+        {
+          "position": 8,
+          "horseNumber": 8,
+          "horse": "ベイビールビオ",
+          "odds": 66.5
+        },
+        {
+          "position": 9,
+          "horseNumber": 10,
+          "horse": "メイショウソラリス",
+          "odds": 5.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "フロウアンドライム",
+          "odds": 20.1
+        }
+      ]
+    },
+    {
+      "raceId": 25,
+      "netKeibaRaceId": "202603020101",
+      "raceName": "3歳以上障害未勝利",
+      "raceNumber": 1,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 5,
+          "horse": "ディベルティスマン",
+          "odds": 5.4
+        },
+        {
+          "position": 2,
+          "horseNumber": 10,
+          "horse": "ブライテストドーン",
+          "odds": 129.5
+        },
+        {
+          "position": 3,
+          "horseNumber": 12,
+          "horse": "オーサムストローク",
+          "odds": 4.7
+        },
+        {
+          "position": 4,
+          "horseNumber": 9,
+          "horse": "キュピドン",
+          "odds": 5.2
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "バラジ",
+          "odds": 3.5
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "エンジョイドライブ",
+          "odds": 39.6
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "セキテイオー",
+          "odds": 9.6
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "グラヴィテ",
+          "odds": 24.5
+        },
+        {
+          "position": 9,
+          "horseNumber": 14,
+          "horse": "フォルガイル",
+          "odds": 18.3
+        },
+        {
+          "position": 10,
+          "horseNumber": 2,
+          "horse": "ナチュラルリバー",
+          "odds": 45.8
+        },
+        {
+          "position": 11,
+          "horseNumber": 7,
+          "horse": "クロライナ",
+          "odds": 38.3
+        },
+        {
+          "position": 12,
+          "horseNumber": 3,
+          "horse": "ワールドシリーズ",
+          "odds": 128.1
+        }
+      ]
+    },
+    {
+      "raceId": 26,
+      "netKeibaRaceId": "202603020102",
+      "raceName": "3歳未勝利",
+      "raceNumber": 2,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 15,
+          "horse": "スターツトゥデイ",
+          "odds": 3.3
+        },
+        {
+          "position": 2,
+          "horseNumber": 14,
+          "horse": "テンオンスゴールド",
+          "odds": 2.9
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "アーティキュレート",
+          "odds": 48.1
+        },
+        {
+          "position": 4,
+          "horseNumber": 8,
+          "horse": "スクイーズアウト",
+          "odds": 11.9
+        },
+        {
+          "position": 5,
+          "horseNumber": 3,
+          "horse": "アオイミズホ",
+          "odds": 3.3
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "コパノミラノ",
+          "odds": 16.2
+        },
+        {
+          "position": 7,
+          "horseNumber": 9,
+          "horse": "フロムドーン",
+          "odds": 13.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "マーゴットライズ",
+          "odds": 105.9
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "ナツミカンチャン",
+          "odds": 25.2
+        },
+        {
+          "position": 10,
+          "horseNumber": 6,
+          "horse": "タイセイジェンマ",
+          "odds": 182.2
+        },
+        {
+          "position": 11,
+          "horseNumber": 1,
+          "horse": "ルプルミエラムール",
+          "odds": 249.1
+        },
+        {
+          "position": 12,
+          "horseNumber": 12,
+          "horse": "キタノタイキ",
+          "odds": 371.1
+        },
+        {
+          "position": 13,
+          "horseNumber": 5,
+          "horse": "カンフーヒーロー",
+          "odds": 461.5
+        },
+        {
+          "position": 14,
+          "horseNumber": 13,
+          "horse": "リゼクールグレー",
+          "odds": 109.4
+        },
+        {
+          "position": 15,
+          "horseNumber": 2,
+          "horse": "リマーカブル",
+          "odds": 517.9
+        }
+      ]
+    },
+    {
+      "raceId": 27,
+      "netKeibaRaceId": "202603020103",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 3,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 10,
+          "horse": "ショウナンパトス",
+          "odds": 2.6
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "サムシングニュー",
+          "odds": 20.2
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "ナリノシャーウッド",
+          "odds": 12.2
+        },
+        {
+          "position": 4,
+          "horseNumber": 14,
+          "horse": "コパノエイダン",
+          "odds": 20.4
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "タイセツナヒ",
+          "odds": 55.5
+        },
+        {
+          "position": 6,
+          "horseNumber": 2,
+          "horse": "ラフレードピエル",
+          "odds": 35.8
+        },
+        {
+          "position": 7,
+          "horseNumber": 3,
+          "horse": "ジェネラスキング",
+          "odds": 6.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 1,
+          "horse": "コウユーニポポニコ",
+          "odds": 26.2
+        },
+        {
+          "position": 9,
+          "horseNumber": 11,
+          "horse": "キタノブレイク",
+          "odds": 253.9
+        },
+        {
+          "position": 10,
+          "horseNumber": 12,
+          "horse": "ラルフテソーロ",
+          "odds": 7
+        },
+        {
+          "position": 11,
+          "horseNumber": 7,
+          "horse": "ブルーユンチェリー",
+          "odds": 246.2
+        },
+        {
+          "position": 12,
+          "horseNumber": 8,
+          "horse": "ガムラスタン",
+          "odds": 15.1
+        },
+        {
+          "position": 13,
+          "horseNumber": 9,
+          "horse": "プロスペクトパーク",
+          "odds": 5.1
+        },
+        {
+          "position": 14,
+          "horseNumber": 15,
+          "horse": "パータリプトラ",
+          "odds": 26.8
+        },
+        {
+          "position": 15,
+          "horseNumber": 13,
+          "horse": "クラウンフリード",
+          "odds": 397.3
+        }
+      ]
+    },
+    {
+      "raceId": 28,
+      "netKeibaRaceId": "202603020104",
+      "raceName": "3歳以上障害OP",
+      "raceNumber": 4,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "ミレニアムヒロイン",
+          "odds": 11.3
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "ヴェールランス",
+          "odds": 10.3
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "ブラックバラード",
+          "odds": 2.6
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "ローンウルフ",
+          "odds": 88.5
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "アメリカンピース",
+          "odds": 58.2
+        },
+        {
+          "position": 6,
+          "horseNumber": 4,
+          "horse": "ゴールドブリーズ",
+          "odds": 18.6
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "コンバスチョン",
+          "odds": 5.2
+        },
+        {
+          "position": 8,
+          "horseNumber": 7,
+          "horse": "ウォーターリーダー",
+          "odds": 3
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "シャンドゥレール",
+          "odds": 20.8
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "トモジャシック",
+          "odds": 27.3
+        }
+      ]
+    },
+    {
+      "raceId": 29,
+      "netKeibaRaceId": "202603020105",
+      "raceName": "2歳新馬",
+      "raceNumber": 5,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "アンムート",
+          "odds": 1.9
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "エーアイクワイ",
+          "odds": 4
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "ショウナンハーヴェ",
+          "odds": 4.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 7,
+          "horse": "シャインフォード",
+          "odds": 19.3
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "スウィット",
+          "odds": 20.1
+        },
+        {
+          "position": 6,
+          "horseNumber": 11,
+          "horse": "セイウントレジャ",
+          "odds": 130.3
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "アイデアルカット",
+          "odds": 37.6
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "モーモーゼロ",
+          "odds": 102.5
+        },
+        {
+          "position": 9,
+          "horseNumber": 8,
+          "horse": "ブラックナザレ",
+          "odds": 73.6
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "エバーメテオ",
+          "odds": 7.9
+        },
+        {
+          "position": 11,
+          "horseNumber": 2,
+          "horse": "エニシングゴース",
+          "odds": 179.2
+        }
+      ]
+    },
+    {
+      "raceId": 30,
+      "netKeibaRaceId": "202603020106",
+      "raceName": "2歳新馬",
+      "raceNumber": 6,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "エランヴィータ",
+          "odds": 4.6
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "ムーンベリル",
+          "odds": 1.5
+        },
+        {
+          "position": 3,
+          "horseNumber": 5,
+          "horse": "エコロメジャー",
+          "odds": 6.6
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "マリノエスプレッソ",
+          "odds": 62
+        },
+        {
+          "position": 5,
+          "horseNumber": 7,
+          "horse": "セイウンガジュマル",
+          "odds": 11.3
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "ソラティオ",
+          "odds": 84.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "パレスラン",
+          "odds": 21.4
+        },
+        {
+          "position": 8,
+          "horseNumber": 3,
+          "horse": "ラヴァブルロマン",
+          "odds": 30.7
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "レオライジング",
+          "odds": 50.7
+        },
+        {
+          "position": 10,
+          "horseNumber": 6,
+          "horse": "オルッス",
+          "odds": 147.5
+        }
+      ]
+    },
+    {
+      "raceId": 31,
+      "netKeibaRaceId": "202603020107",
+      "raceName": "3歳未勝利",
+      "raceNumber": 7,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "アッパーウォーター",
+          "odds": 2.3
+        },
+        {
+          "position": 2,
+          "horseNumber": 16,
+          "horse": "ポポラヴィスタ",
+          "odds": 92.2
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "グレイスルーラー",
+          "odds": 63.7
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "アースヴィンチ",
+          "odds": 6.2
+        },
+        {
+          "position": 5,
+          "horseNumber": 11,
+          "horse": "レイナデルアイレ",
+          "odds": 129.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 7,
+          "horse": "ラグアイリータ",
+          "odds": 9.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 2,
+          "horse": "モーブプリエール",
+          "odds": 47.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 5,
+          "horse": "エバーシャンティ",
+          "odds": 2.4
+        },
+        {
+          "position": 9,
+          "horseNumber": 6,
+          "horse": "イバラヒメ",
+          "odds": 141.3
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "ミダレセツゲツカ",
+          "odds": 217.4
+        },
+        {
+          "position": 11,
+          "horseNumber": 8,
+          "horse": "フォセットジェンヌ",
+          "odds": 181.8
+        },
+        {
+          "position": 12,
+          "horseNumber": 15,
+          "horse": "ラングロワブリッジ",
+          "odds": 60.2
+        },
+        {
+          "position": 13,
+          "horseNumber": 13,
+          "horse": "エリオステモン",
+          "odds": 126.6
+        },
+        {
+          "position": 14,
+          "horseNumber": 14,
+          "horse": "フロリメル",
+          "odds": 23.3
+        },
+        {
+          "position": 15,
+          "horseNumber": 12,
+          "horse": "セルレーヴ",
+          "odds": 65
+        },
+        {
+          "position": 16,
+          "horseNumber": 10,
+          "horse": "ウインスフェーン",
+          "odds": 89.5
+        }
+      ]
+    },
+    {
+      "raceId": 32,
+      "netKeibaRaceId": "202603020108",
+      "raceName": "3歳未勝利",
+      "raceNumber": 8,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 2,
+          "horse": "ウインマニフィーク",
+          "odds": 3
+        },
+        {
+          "position": 2,
+          "horseNumber": 9,
+          "horse": "クリスタルドレス",
+          "odds": 13
+        },
+        {
+          "position": 3,
+          "horseNumber": 13,
+          "horse": "ベアダイヤモンド",
+          "odds": 2.7
+        },
+        {
+          "position": 4,
+          "horseNumber": 10,
+          "horse": "マイネルオラクル",
+          "odds": 193.5
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "シーサンタナ",
+          "odds": 90.3
+        },
+        {
+          "position": 6,
+          "horseNumber": 8,
+          "horse": "サトノリアファル",
+          "odds": 38.8
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "コールリッジ",
+          "odds": 19.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "シンショク",
+          "odds": 8
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "コスモアミュレット",
+          "odds": 14
+        },
+        {
+          "position": 10,
+          "horseNumber": 1,
+          "horse": "ベイツリー",
+          "odds": 27.2
+        },
+        {
+          "position": 11,
+          "horseNumber": 14,
+          "horse": "オートカリテ",
+          "odds": 8
+        },
+        {
+          "position": 12,
+          "horseNumber": 6,
+          "horse": "テンノルーキー",
+          "odds": 283.3
+        },
+        {
+          "position": 13,
+          "horseNumber": 5,
+          "horse": "ホープフルワールド",
+          "odds": 43.9
+        },
+        {
+          "position": 14,
+          "horseNumber": 16,
+          "horse": "マイチバイ",
+          "odds": 322.6
+        },
+        {
+          "position": 15,
+          "horseNumber": 15,
+          "horse": "サツキジュエル",
+          "odds": 274.4
+        },
+        {
+          "position": 16,
+          "horseNumber": 3,
+          "horse": "モロノディアマンテ",
+          "odds": 304.4
+        }
+      ]
+    },
+    {
+      "raceId": 33,
+      "netKeibaRaceId": "202603020109",
+      "raceName": "さくらんぼ特別",
+      "raceNumber": 9,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 9,
+          "horse": "アメリカンチケット",
+          "odds": 61.6
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "エコロシード",
+          "odds": 1.8
+        },
+        {
+          "position": 3,
+          "horseNumber": 14,
+          "horse": "モリノセピア",
+          "odds": 21.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 12,
+          "horse": "タッカージーティー",
+          "odds": 21.7
+        },
+        {
+          "position": 5,
+          "horseNumber": 2,
+          "horse": "カワキタマナレア",
+          "odds": 17.7
+        },
+        {
+          "position": 6,
+          "horseNumber": 15,
+          "horse": "ルクスレイモンド",
+          "odds": 5.2
+        },
+        {
+          "position": 7,
+          "horseNumber": 4,
+          "horse": "タケルハーロック",
+          "odds": 24
+        },
+        {
+          "position": 8,
+          "horseNumber": 7,
+          "horse": "ケブランリ",
+          "odds": 8.1
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "イノキ",
+          "odds": 24.9
+        },
+        {
+          "position": 10,
+          "horseNumber": 10,
+          "horse": "ヒラボクカレラ",
+          "odds": 9.9
+        },
+        {
+          "position": 11,
+          "horseNumber": 16,
+          "horse": "シアター",
+          "odds": 51.7
+        },
+        {
+          "position": 12,
+          "horseNumber": 13,
+          "horse": "サードウインド",
+          "odds": 95.6
+        },
+        {
+          "position": 13,
+          "horseNumber": 11,
+          "horse": "グラスブランシュ",
+          "odds": 253.2
+        },
+        {
+          "position": 14,
+          "horseNumber": 3,
+          "horse": "ゴルトリッチ",
+          "odds": 158.5
+        },
+        {
+          "position": 15,
+          "horseNumber": 8,
+          "horse": "オセアエクスプレス",
+          "odds": 83.3
+        },
+        {
+          "position": 16,
+          "horseNumber": 1,
+          "horse": "ゲクウ",
+          "odds": 328.3
+        }
+      ]
+    },
+    {
+      "raceId": 34,
+      "netKeibaRaceId": "202603020110",
+      "raceName": "いわき特別",
+      "raceNumber": 10,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "リフレックス",
+          "odds": 4.9
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "ハイクオリティ",
+          "odds": 4
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "ドゥマーヴェリック",
+          "odds": 2.3
+        },
+        {
+          "position": 4,
+          "horseNumber": 2,
+          "horse": "ラストレガシー",
+          "odds": 8.8
+        },
+        {
+          "position": 5,
+          "horseNumber": 11,
+          "horse": "オーケーマヒナ",
+          "odds": 31.2
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "ショウナンヤッホー",
+          "odds": 60
+        },
+        {
+          "position": 7,
+          "horseNumber": 8,
+          "horse": "ゲンパチルーナ",
+          "odds": 54.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 7,
+          "horse": "コスモマルーン",
+          "odds": 45.9
+        },
+        {
+          "position": 9,
+          "horseNumber": 10,
+          "horse": "ルクスメンデス",
+          "odds": 136.4
+        },
+        {
+          "position": 10,
+          "horseNumber": 4,
+          "horse": "ホウオウフロイト",
+          "odds": 137.3
+        }
+      ]
+    },
+    {
+      "raceId": 35,
+      "netKeibaRaceId": "202603020111",
+      "raceName": "バーデンバーデンC",
+      "raceNumber": 11,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "マリアイリダータ",
+          "odds": 1.7
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "フィオレストラーダ",
+          "odds": 5.6
+        },
+        {
+          "position": 3,
+          "horseNumber": 3,
+          "horse": "ハニーコム",
+          "odds": 8.7
+        },
+        {
+          "position": 4,
+          "horseNumber": 1,
+          "horse": "テーオーダグラス",
+          "odds": 20.8
+        },
+        {
+          "position": 5,
+          "horseNumber": 6,
+          "horse": "ホルトバージ",
+          "odds": 80.8
+        },
+        {
+          "position": 6,
+          "horseNumber": 9,
+          "horse": "アマイ",
+          "odds": 27
+        },
+        {
+          "position": 7,
+          "horseNumber": 5,
+          "horse": "ホウオウスーペリア",
+          "odds": 13.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "ノーランサンライズ",
+          "odds": 17.4
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "リーティアコナル",
+          "odds": 6.1
+        }
+      ]
+    },
+    {
+      "raceId": 36,
+      "netKeibaRaceId": "202603020112",
+      "raceName": "3歳以上1勝クラス",
+      "raceNumber": 12,
+      "date": "2026-06-27",
+      "venue": "福島",
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 6,
+          "horse": "デアリングエア",
+          "odds": 15.5
+        },
+        {
+          "position": 2,
+          "horseNumber": 2,
+          "horse": "ルシェロアズーリ",
+          "odds": 17.1
+        },
+        {
+          "position": 3,
+          "horseNumber": 7,
+          "horse": "ラブリーガール",
+          "odds": 15
+        },
+        {
+          "position": 4,
+          "horseNumber": 16,
+          "horse": "コックオーヴァン",
+          "odds": 58.6
+        },
+        {
+          "position": 5,
+          "horseNumber": 9,
+          "horse": "サムハラ",
+          "odds": 5.4
+        },
+        {
+          "position": 6,
+          "horseNumber": 12,
+          "horse": "ビッグフラワー",
+          "odds": 12.2
+        },
+        {
+          "position": 7,
+          "horseNumber": 13,
+          "horse": "ステートオブロック",
+          "odds": 15.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "エバーラスト",
+          "odds": 6.9
+        },
+        {
+          "position": 9,
+          "horseNumber": 4,
+          "horse": "テルケンレンスキー",
+          "odds": 13.4
+        },
+        {
+          "position": 10,
+          "horseNumber": 5,
+          "horse": "テンプーシャオン",
+          "odds": 33.8
+        },
+        {
+          "position": 11,
+          "horseNumber": 8,
+          "horse": "ココボロ",
+          "odds": 165.8
+        },
+        {
+          "position": 12,
+          "horseNumber": 15,
+          "horse": "ファインサマーデイ",
+          "odds": 2.3
+        },
+        {
+          "position": 13,
+          "horseNumber": 3,
+          "horse": "クリノゴッホ",
+          "odds": 83
+        },
+        {
+          "position": 14,
+          "horseNumber": 14,
+          "horse": "ルクスコロン",
+          "odds": 118.3
+        },
+        {
+          "position": 15,
+          "horseNumber": 10,
+          "horse": "ジェイエルライナー",
+          "odds": 211.2
+        },
+        {
+          "position": 16,
+          "horseNumber": 1,
+          "horse": "オレイア",
+          "odds": 364.2
         }
       ]
     },
