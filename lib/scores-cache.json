@@ -1,2776 +1,5656 @@
 {
-  "fetchedAt": "2026-06-28T00:07:51.749Z",
+  "fetchedAt": "2026-07-03T16:38:06.471Z",
   "source": "netkeiba db.netkeiba.com / race.sp.netkeiba.com",
   "scores": {
-    "201060101": {
-      "formScore": 67,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060102": {
-      "formScore": 57,
-      "pedigreeScore": 57,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060103": {
-      "formScore": 9,
-      "pedigreeScore": 9,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060104": {
-      "formScore": 82,
-      "pedigreeScore": 82,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060105": {
-      "formScore": 71,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060106": {
-      "formScore": 0,
-      "pedigreeScore": 0,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060107": {
-      "formScore": 64,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060108": {
-      "formScore": 36,
-      "pedigreeScore": 36,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060201": {
-      "formScore": 74,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060202": {
-      "formScore": 36,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060203": {
-      "formScore": 80,
-      "pedigreeScore": 70,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060204": {
-      "formScore": 40,
-      "pedigreeScore": 45,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060205": {
-      "formScore": 80,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060206": {
-      "formScore": 44,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060207": {
-      "formScore": 57,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060208": {
-      "formScore": 56,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060209": {
-      "formScore": 40,
-      "pedigreeScore": 47,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060210": {
-      "formScore": 55,
-      "pedigreeScore": 54,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060211": {
-      "formScore": 39,
-      "pedigreeScore": 42,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060212": {
-      "formScore": 57,
-      "pedigreeScore": 49,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060213": {
-      "formScore": 36,
-      "pedigreeScore": 39,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060214": {
-      "formScore": 42,
-      "pedigreeScore": 52,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060301": {
-      "formScore": 70,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060302": {
-      "formScore": 45,
-      "pedigreeScore": 44,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060303": {
-      "formScore": 12,
-      "pedigreeScore": 13,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060304": {
-      "formScore": 37,
-      "pedigreeScore": 34,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060305": {
-      "formScore": 26,
-      "pedigreeScore": 27,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060306": {
-      "formScore": 56,
-      "pedigreeScore": 62,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060307": {
-      "formScore": 59,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060308": {
-      "formScore": 77,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060309": {
-      "formScore": 47,
-      "pedigreeScore": 61,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060310": {
-      "formScore": 56,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060311": {
-      "formScore": 54,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060401": {
-      "formScore": 18,
-      "pedigreeScore": 26,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060402": {
+    "201070101": {
       "formScore": 43,
-      "pedigreeScore": 40,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060403": {
-      "formScore": 78,
-      "pedigreeScore": 82,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060404": {
-      "formScore": 43,
-      "pedigreeScore": 45,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060405": {
-      "formScore": 32,
-      "pedigreeScore": 40,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060406": {
-      "formScore": 34,
-      "pedigreeScore": 31,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060407": {
-      "formScore": 13,
-      "pedigreeScore": 13,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060408": {
-      "formScore": 71,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060409": {
-      "formScore": 52,
-      "pedigreeScore": 48,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060410": {
-      "formScore": 85,
-      "pedigreeScore": 84,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060411": {
-      "formScore": 67,
-      "pedigreeScore": 74,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060412": {
-      "formScore": 62,
-      "pedigreeScore": 68,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060413": {
-      "formScore": 66,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060414": {
-      "formScore": 83,
-      "pedigreeScore": 83,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060415": {
-      "formScore": 47,
-      "pedigreeScore": 46,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060416": {
-      "formScore": 49,
-      "pedigreeScore": 55,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060501": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060502": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060503": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060504": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060505": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060506": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060601": {
-      "formScore": 43,
-      "pedigreeScore": 66,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060602": {
-      "formScore": 47,
-      "pedigreeScore": 38,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060603": {
-      "formScore": 49,
-      "pedigreeScore": 57,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060604": {
-      "formScore": 49,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060605": {
-      "formScore": 53,
-      "pedigreeScore": 56,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060606": {
-      "formScore": 59,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060607": {
-      "formScore": 68,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060608": {
-      "formScore": 45,
-      "pedigreeScore": 47,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060609": {
-      "formScore": 32,
       "pedigreeScore": 43,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "201060610": {
-      "formScore": 55,
-      "pedigreeScore": 69,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060611": {
-      "formScore": 73,
-      "pedigreeScore": 73,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060612": {
-      "formScore": 64,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060613": {
-      "formScore": 55,
-      "pedigreeScore": 61,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060614": {
+    "201070102": {
       "formScore": 91,
-      "pedigreeScore": 89,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060615": {
-      "formScore": 66,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060616": {
-      "formScore": 69,
-      "pedigreeScore": 57,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060701": {
-      "formScore": 47,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060702": {
-      "formScore": 89,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060703": {
-      "formScore": 51,
-      "pedigreeScore": 62,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060704": {
-      "formScore": 68,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060705": {
-      "formScore": 72,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060706": {
-      "formScore": 65,
-      "pedigreeScore": 73,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060707": {
-      "formScore": 61,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060708": {
-      "formScore": 58,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060709": {
-      "formScore": 18,
-      "pedigreeScore": 43,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060710": {
-      "formScore": 37,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060801": {
-      "formScore": 36,
-      "pedigreeScore": 46,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060802": {
-      "formScore": 40,
-      "pedigreeScore": 49,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060803": {
-      "formScore": 19,
-      "pedigreeScore": 33,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060804": {
-      "formScore": 48,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060805": {
-      "formScore": 52,
-      "pedigreeScore": 69,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060806": {
-      "formScore": 77,
-      "pedigreeScore": 70,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060807": {
-      "formScore": 48,
-      "pedigreeScore": 74,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060808": {
-      "formScore": 48,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060809": {
-      "formScore": 62,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060810": {
-      "formScore": 58,
-      "pedigreeScore": 51,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060811": {
-      "formScore": 50,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060812": {
-      "formScore": 83,
-      "pedigreeScore": 87,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060813": {
-      "formScore": 56,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060901": {
-      "formScore": 66,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060902": {
-      "formScore": 67,
-      "pedigreeScore": 68,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060903": {
-      "formScore": 76,
-      "pedigreeScore": 51,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060904": {
-      "formScore": 86,
-      "pedigreeScore": 84,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060905": {
-      "formScore": 57,
-      "pedigreeScore": 68,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060906": {
-      "formScore": 32,
-      "pedigreeScore": 43,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060907": {
-      "formScore": 74,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060908": {
-      "formScore": 54,
-      "pedigreeScore": 68,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060909": {
-      "formScore": 25,
-      "pedigreeScore": 39,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201060910": {
-      "formScore": 55,
-      "pedigreeScore": 60,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061001": {
-      "formScore": 49,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061002": {
-      "formScore": 25,
-      "pedigreeScore": 41,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061003": {
-      "formScore": 28,
-      "pedigreeScore": 56,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061004": {
-      "formScore": 66,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061005": {
-      "formScore": 30,
-      "pedigreeScore": 52,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061006": {
-      "formScore": 80,
-      "pedigreeScore": 82,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061007": {
-      "formScore": 42,
-      "pedigreeScore": 40,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061008": {
-      "formScore": 21,
-      "pedigreeScore": 42,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061009": {
-      "formScore": 67,
-      "pedigreeScore": 69,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061010": {
-      "formScore": 86,
-      "pedigreeScore": 82,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061011": {
-      "formScore": 26,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061101": {
-      "formScore": 71,
-      "pedigreeScore": 80,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061102": {
-      "formScore": 11,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061103": {
-      "formScore": 39,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061104": {
-      "formScore": 61,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061105": {
-      "formScore": 88,
-      "pedigreeScore": 78,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061106": {
-      "formScore": 36,
-      "pedigreeScore": 48,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061107": {
-      "formScore": 50,
-      "pedigreeScore": 54,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061108": {
-      "formScore": 58,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061109": {
-      "formScore": 22,
-      "pedigreeScore": 42,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061110": {
-      "formScore": 42,
-      "pedigreeScore": 66,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061111": {
-      "formScore": 65,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061112": {
-      "formScore": 53,
-      "pedigreeScore": 76,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061113": {
-      "formScore": 36,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061114": {
-      "formScore": 90,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061115": {
-      "formScore": 70,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061201": {
-      "formScore": 54,
-      "pedigreeScore": 48,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061202": {
-      "formScore": 29,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061203": {
-      "formScore": 44,
-      "pedigreeScore": 68,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061204": {
-      "formScore": 68,
-      "pedigreeScore": 76,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061205": {
-      "formScore": 47,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061206": {
-      "formScore": 67,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061207": {
-      "formScore": 46,
-      "pedigreeScore": 42,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061208": {
-      "formScore": 53,
-      "pedigreeScore": 70,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061209": {
-      "formScore": 49,
-      "pedigreeScore": 55,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061210": {
-      "formScore": 68,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061211": {
-      "formScore": 42,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061212": {
-      "formScore": 34,
-      "pedigreeScore": 57,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061213": {
-      "formScore": 23,
-      "pedigreeScore": 46,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "201061214": {
-      "formScore": 67,
-      "pedigreeScore": 54,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020101": {
-      "formScore": 39,
-      "pedigreeScore": 47,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020102": {
-      "formScore": 45,
-      "pedigreeScore": 27,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020103": {
-      "formScore": 45,
-      "pedigreeScore": 44,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020104": {
-      "formScore": 47,
-      "pedigreeScore": 48,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020105": {
-      "formScore": 41,
-      "pedigreeScore": 36,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020106": {
-      "formScore": 41,
-      "pedigreeScore": 55,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020107": {
-      "formScore": 66,
-      "pedigreeScore": 74,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020108": {
-      "formScore": 45,
-      "pedigreeScore": 28,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020109": {
-      "formScore": 67,
-      "pedigreeScore": 66,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020110": {
-      "formScore": 19,
-      "pedigreeScore": 21,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020111": {
-      "formScore": 16,
-      "pedigreeScore": 18,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020112": {
-      "formScore": 24,
-      "pedigreeScore": 45,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020113": {
-      "formScore": 19,
-      "pedigreeScore": 21,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020114": {
-      "formScore": 57,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020201": {
-      "formScore": 52,
-      "pedigreeScore": 48,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020202": {
-      "formScore": 46,
-      "pedigreeScore": 49,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020203": {
-      "formScore": 29,
-      "pedigreeScore": 27,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020204": {
-      "formScore": 32,
-      "pedigreeScore": 29,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020205": {
-      "formScore": 71,
-      "pedigreeScore": 79,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020206": {
-      "formScore": 43,
-      "pedigreeScore": 46,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020207": {
-      "formScore": 48,
-      "pedigreeScore": 61,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020208": {
-      "formScore": 15,
-      "pedigreeScore": 11,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020209": {
-      "formScore": 33,
-      "pedigreeScore": 54,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020210": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020211": {
-      "formScore": 13,
-      "pedigreeScore": 13,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020212": {
-      "formScore": 93,
-      "pedigreeScore": 90,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020213": {
-      "formScore": 70,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020214": {
-      "formScore": 77,
-      "pedigreeScore": 66,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020215": {
-      "formScore": 51,
-      "pedigreeScore": 40,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020301": {
-      "formScore": 17,
-      "pedigreeScore": 17,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020302": {
-      "formScore": 20,
-      "pedigreeScore": 20,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020303": {
-      "formScore": 33,
-      "pedigreeScore": 33,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020304": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020305": {
-      "formScore": 67,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020401": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020402": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020403": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020404": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020405": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020406": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020407": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020408": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020409": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020410": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020411": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020412": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020413": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020414": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020501": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020502": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020503": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020504": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020505": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020506": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020507": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020508": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020509": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020510": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020511": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020512": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020513": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020514": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020601": {
-      "formScore": 64,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020602": {
-      "formScore": 68,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020603": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020604": {
-      "formScore": 70,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020605": {
-      "formScore": 29,
-      "pedigreeScore": 30,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020606": {
-      "formScore": 77,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020607": {
-      "formScore": 79,
       "pedigreeScore": 91,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020608": {
-      "formScore": 0,
-      "pedigreeScore": 0,
+    "201070103": {
+      "formScore": 71,
+      "pedigreeScore": 71,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020609": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020610": {
-      "formScore": 13,
-      "pedigreeScore": 13,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020611": {
-      "formScore": 75,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020612": {
-      "formScore": 57,
-      "pedigreeScore": 51,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020613": {
-      "formScore": 7,
-      "pedigreeScore": 7,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020614": {
-      "formScore": 15,
-      "pedigreeScore": 18,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020615": {
+    "201070104": {
       "formScore": 40,
       "pedigreeScore": 40,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020616": {
-      "formScore": 60,
-      "pedigreeScore": 60,
+    "201070105": {
+      "formScore": 56,
+      "pedigreeScore": 56,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020701": {
-      "formScore": 5,
-      "pedigreeScore": 7,
+    "201070106": {
+      "formScore": 40,
+      "pedigreeScore": 40,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020702": {
-      "formScore": 21,
-      "pedigreeScore": 25,
+    "201070107": {
+      "formScore": 55,
+      "pedigreeScore": 55,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020703": {
+    "201070108": {
       "formScore": 33,
       "pedigreeScore": 33,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020704": {
-      "formScore": 0,
-      "pedigreeScore": 0,
+    "201070109": {
+      "formScore": 14,
+      "pedigreeScore": 14,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020705": {
+    "201070201": {
+      "formScore": 66,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070202": {
+      "formScore": 59,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070203": {
+      "formScore": 89,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070204": {
+      "formScore": 28,
+      "pedigreeScore": 35,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070205": {
+      "formScore": 67,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070206": {
+      "formScore": 41,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070207": {
+      "formScore": 53,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070208": {
+      "formScore": 32,
+      "pedigreeScore": 46,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070209": {
+      "formScore": 30,
+      "pedigreeScore": 41,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070210": {
+      "formScore": 58,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070211": {
+      "formScore": 67,
+      "pedigreeScore": 42,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070212": {
+      "formScore": 75,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070213": {
+      "formScore": 72,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070214": {
       "formScore": 50,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070215": {
+      "formScore": 52,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070216": {
+      "formScore": 70,
       "pedigreeScore": 58,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020706": {
-      "formScore": 52,
+    "201070301": {
+      "formScore": 26,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070302": {
+      "formScore": 61,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070303": {
+      "formScore": 36,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070304": {
+      "formScore": 82,
+      "pedigreeScore": 81,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070305": {
+      "formScore": 82,
+      "pedigreeScore": 90,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070306": {
+      "formScore": 64,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070307": {
+      "formScore": 51,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070308": {
+      "formScore": 53,
       "pedigreeScore": 53,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020707": {
-      "formScore": 90,
-      "pedigreeScore": 93,
+    "201070309": {
+      "formScore": 82,
+      "pedigreeScore": 87,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020708": {
+    "201070310": {
+      "formScore": 64,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070311": {
+      "formScore": 59,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070312": {
+      "formScore": 38,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070401": {
       "formScore": 65,
       "pedigreeScore": 65,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020709": {
-      "formScore": 0,
-      "pedigreeScore": 0,
+    "201070402": {
+      "formScore": 65,
+      "pedigreeScore": 65,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020710": {
-      "formScore": 29,
-      "pedigreeScore": 31,
+    "201070403": {
+      "formScore": 44,
+      "pedigreeScore": 51,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020711": {
-      "formScore": 6,
-      "pedigreeScore": 6,
+    "201070404": {
+      "formScore": 59,
+      "pedigreeScore": 41,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020712": {
-      "formScore": 13,
-      "pedigreeScore": 13,
+    "201070405": {
+      "formScore": 55,
+      "pedigreeScore": 61,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020713": {
-      "formScore": 22,
-      "pedigreeScore": 34,
+    "201070406": {
+      "formScore": 27,
+      "pedigreeScore": 38,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020714": {
-      "formScore": 88,
-      "pedigreeScore": 87,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020715": {
-      "formScore": 54,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020716": {
-      "formScore": 0,
-      "pedigreeScore": 0,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020801": {
-      "formScore": 71,
-      "pedigreeScore": 73,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020802": {
-      "formScore": 61,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020803": {
-      "formScore": 72,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020804": {
-      "formScore": 53,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020805": {
-      "formScore": 76,
-      "pedigreeScore": 82,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020806": {
-      "formScore": 49,
-      "pedigreeScore": 42,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020807": {
-      "formScore": 69,
-      "pedigreeScore": 80,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020808": {
-      "formScore": 52,
-      "pedigreeScore": 56,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020809": {
+    "201070407": {
       "formScore": 28,
-      "pedigreeScore": 40,
+      "pedigreeScore": 33,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020810": {
-      "formScore": 82,
-      "pedigreeScore": 78,
+    "201070408": {
+      "formScore": 47,
+      "pedigreeScore": 53,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020811": {
-      "formScore": 20,
-      "pedigreeScore": 44,
+    "201070409": {
+      "formScore": 58,
+      "pedigreeScore": 28,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020812": {
-      "formScore": 15,
-      "pedigreeScore": 36,
+    "201070410": {
+      "formScore": 32,
+      "pedigreeScore": 25,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020813": {
-      "formScore": 33,
-      "pedigreeScore": 63,
+    "201070411": {
+      "formScore": 78,
+      "pedigreeScore": 79,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020901": {
-      "formScore": 92,
-      "pedigreeScore": 86,
+    "201070412": {
+      "formScore": 37,
+      "pedigreeScore": 33,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020902": {
-      "formScore": 46,
-      "pedigreeScore": 40,
+    "201070413": {
+      "formScore": 51,
+      "pedigreeScore": 61,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020903": {
-      "formScore": 48,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302020904": {
-      "formScore": 29,
+    "201070414": {
+      "formScore": 42,
       "pedigreeScore": 37,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020905": {
-      "formScore": 39,
-      "pedigreeScore": 55,
+    "201070415": {
+      "formScore": 79,
+      "pedigreeScore": 80,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020906": {
-      "formScore": 88,
-      "pedigreeScore": 87,
+    "201070416": {
+      "formScore": 60,
+      "pedigreeScore": 59,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020907": {
-      "formScore": 76,
-      "pedigreeScore": 69,
+    "201070501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020908": {
-      "formScore": 25,
-      "pedigreeScore": 47,
+    "201070502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020909": {
+    "201070503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070601": {
+      "formScore": 77,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070602": {
+      "formScore": 78,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070603": {
       "formScore": 50,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070604": {
+      "formScore": 39,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070605": {
+      "formScore": 86,
+      "pedigreeScore": 82,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070606": {
+      "formScore": 46,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070607": {
+      "formScore": 39,
+      "pedigreeScore": 37,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070608": {
+      "formScore": 62,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070609": {
+      "formScore": 41,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070610": {
+      "formScore": 47,
       "pedigreeScore": 63,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020910": {
-      "formScore": 80,
+    "201070611": {
+      "formScore": 64,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070612": {
+      "formScore": 59,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070613": {
+      "formScore": 66,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070614": {
+      "formScore": 33,
+      "pedigreeScore": 42,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070701": {
+      "formScore": 79,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070702": {
+      "formScore": 51,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070703": {
+      "formScore": 92,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070704": {
+      "formScore": 22,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070705": {
+      "formScore": 73,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070706": {
+      "formScore": 35,
+      "pedigreeScore": 28,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070707": {
+      "formScore": 69,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070708": {
+      "formScore": 14,
+      "pedigreeScore": 28,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070709": {
+      "formScore": 52,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070710": {
+      "formScore": 51,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070801": {
+      "formScore": 42,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070802": {
+      "formScore": 20,
+      "pedigreeScore": 16,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070803": {
+      "formScore": 66,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070804": {
+      "formScore": 41,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070805": {
+      "formScore": 44,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070806": {
+      "formScore": 70,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070807": {
+      "formScore": 55,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070901": {
+      "formScore": 74,
       "pedigreeScore": 68,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020911": {
-      "formScore": 65,
-      "pedigreeScore": 74,
+    "201070902": {
+      "formScore": 60,
+      "pedigreeScore": 56,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020912": {
+    "201070903": {
       "formScore": 76,
-      "pedigreeScore": 78,
+      "pedigreeScore": 57,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020913": {
+    "201070904": {
+      "formScore": 47,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070905": {
+      "formScore": 57,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070906": {
+      "formScore": 50,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070907": {
+      "formScore": 56,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070908": {
+      "formScore": 23,
+      "pedigreeScore": 29,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201070909": {
+      "formScore": 16,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071001": {
+      "formScore": 92,
+      "pedigreeScore": 90,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071002": {
+      "formScore": 84,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071003": {
+      "formScore": 74,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071004": {
+      "formScore": 32,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071005": {
+      "formScore": 68,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071006": {
+      "formScore": 39,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071007": {
+      "formScore": 45,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071008": {
+      "formScore": 78,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071009": {
+      "formScore": 79,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071010": {
+      "formScore": 87,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071011": {
+      "formScore": 60,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071012": {
       "formScore": 31,
       "pedigreeScore": 47,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302020914": {
-      "formScore": 11,
-      "pedigreeScore": 46,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021001": {
-      "formScore": 77,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021002": {
-      "formScore": 16,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021003": {
-      "formScore": 54,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021004": {
-      "formScore": 90,
-      "pedigreeScore": 85,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021005": {
-      "formScore": 51,
-      "pedigreeScore": 76,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021006": {
-      "formScore": 69,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021007": {
-      "formScore": 62,
+    "201071013": {
+      "formScore": 67,
       "pedigreeScore": 70,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302021008": {
-      "formScore": 69,
-      "pedigreeScore": 71,
+    "201071014": {
+      "formScore": 86,
+      "pedigreeScore": 89,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302021009": {
-      "formScore": 72,
-      "pedigreeScore": 82,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021010": {
-      "formScore": 64,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021011": {
-      "formScore": 42,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021101": {
-      "formScore": 89,
-      "pedigreeScore": 88,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021102": {
-      "formScore": 98,
-      "pedigreeScore": 97,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021103": {
+    "201071101": {
       "formScore": 44,
-      "pedigreeScore": 62,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021104": {
-      "formScore": 67,
-      "pedigreeScore": 73,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021105": {
-      "formScore": 84,
-      "pedigreeScore": 83,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021106": {
-      "formScore": 79,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021107": {
-      "formScore": 24,
       "pedigreeScore": 53,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302021108": {
+    "201071102": {
+      "formScore": 34,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071103": {
+      "formScore": 52,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071104": {
+      "formScore": 38,
+      "pedigreeScore": 46,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071105": {
+      "formScore": 80,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071106": {
+      "formScore": 63,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071107": {
+      "formScore": 79,
+      "pedigreeScore": 83,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071108": {
+      "formScore": 70,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071109": {
+      "formScore": 54,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071110": {
+      "formScore": 41,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071111": {
+      "formScore": 47,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071112": {
+      "formScore": 25,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071113": {
+      "formScore": 39,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071114": {
+      "formScore": 60,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071115": {
+      "formScore": 25,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071116": {
+      "formScore": 27,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071201": {
+      "formScore": 45,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071202": {
+      "formScore": 55,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071203": {
+      "formScore": 72,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071204": {
+      "formScore": 65,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071205": {
+      "formScore": 71,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071206": {
+      "formScore": 55,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201071207": {
+      "formScore": 56,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080101": {
+      "formScore": 32,
+      "pedigreeScore": 32,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080102": {
+      "formScore": 78,
+      "pedigreeScore": 78,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080103": {
+      "formScore": 67,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080104": {
+      "formScore": 89,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080105": {
+      "formScore": 78,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080106": {
+      "formScore": 43,
+      "pedigreeScore": 43,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080107": {
+      "formScore": 57,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080108": {
+      "formScore": 22,
+      "pedigreeScore": 22,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080109": {
+      "formScore": 44,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080201": {
+      "formScore": 38,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080202": {
+      "formScore": 71,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080203": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080204": {
+      "formScore": 52,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080205": {
+      "formScore": 87,
+      "pedigreeScore": 86,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080206": {
+      "formScore": 46,
+      "pedigreeScore": 41,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080207": {
+      "formScore": 26,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080208": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080209": {
+      "formScore": 27,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080210": {
+      "formScore": 58,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080211": {
+      "formScore": 35,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080212": {
+      "formScore": 50,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080301": {
+      "formScore": 23,
+      "pedigreeScore": 27,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080302": {
+      "formScore": 25,
+      "pedigreeScore": 25,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080303": {
+      "formScore": 14,
+      "pedigreeScore": 18,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080304": {
+      "formScore": 66,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080305": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080306": {
+      "formScore": 54,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080307": {
+      "formScore": 83,
+      "pedigreeScore": 83,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080308": {
+      "formScore": 58,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080309": {
+      "formScore": 65,
+      "pedigreeScore": 82,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080310": {
+      "formScore": 41,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080311": {
+      "formScore": 27,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080312": {
+      "formScore": 53,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080313": {
+      "formScore": 24,
+      "pedigreeScore": 31,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080314": {
+      "formScore": 55,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080401": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080402": {
+      "formScore": 80,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080403": {
+      "formScore": 83,
+      "pedigreeScore": 83,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080404": {
+      "formScore": 68,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080405": {
+      "formScore": 29,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080406": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080407": {
+      "formScore": 78,
+      "pedigreeScore": 82,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080408": {
+      "formScore": 30,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080409": {
+      "formScore": 58,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080410": {
+      "formScore": 78,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080411": {
+      "formScore": 16,
+      "pedigreeScore": 23,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080412": {
+      "formScore": 78,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080413": {
+      "formScore": 62,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080414": {
+      "formScore": 64,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080415": {
+      "formScore": 48,
+      "pedigreeScore": 42,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080416": {
+      "formScore": 47,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080601": {
+      "formScore": 33,
+      "pedigreeScore": 18,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080602": {
+      "formScore": 57,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080603": {
+      "formScore": 78,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080604": {
+      "formScore": 86,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080605": {
+      "formScore": 70,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080606": {
       "formScore": 89,
       "pedigreeScore": 92,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302021109": {
-      "formScore": 63,
-      "pedigreeScore": 79,
+    "201080607": {
+      "formScore": 0,
+      "pedigreeScore": 0,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "302021110": {
-      "formScore": 34,
-      "pedigreeScore": 49,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021111": {
-      "formScore": 61,
-      "pedigreeScore": 80,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021112": {
-      "formScore": 70,
-      "pedigreeScore": 69,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021113": {
-      "formScore": 61,
-      "pedigreeScore": 68,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021114": {
-      "formScore": 84,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021115": {
-      "formScore": 66,
-      "pedigreeScore": 91,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021116": {
-      "formScore": 79,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021201": {
-      "formScore": 91,
-      "pedigreeScore": 97,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021202": {
-      "formScore": 77,
-      "pedigreeScore": 96,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021203": {
-      "formScore": 22,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021204": {
-      "formScore": 75,
-      "pedigreeScore": 82,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021205": {
-      "formScore": 94,
-      "pedigreeScore": 90,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021206": {
-      "formScore": 59,
-      "pedigreeScore": 49,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021207": {
-      "formScore": 74,
-      "pedigreeScore": 87,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021208": {
-      "formScore": 62,
-      "pedigreeScore": 70,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021209": {
-      "formScore": 44,
-      "pedigreeScore": 61,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021210": {
-      "formScore": 30,
-      "pedigreeScore": 28,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021211": {
-      "formScore": 33,
-      "pedigreeScore": 37,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021212": {
-      "formScore": 69,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021213": {
-      "formScore": 87,
-      "pedigreeScore": 96,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "302021214": {
-      "formScore": 59,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020101": {
-      "formScore": 55,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020102": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020103": {
-      "formScore": 39,
-      "pedigreeScore": 37,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020104": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020105": {
-      "formScore": 84,
-      "pedigreeScore": 85,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020106": {
-      "formScore": 27,
-      "pedigreeScore": 27,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020107": {
-      "formScore": 41,
-      "pedigreeScore": 48,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020108": {
-      "formScore": 36,
-      "pedigreeScore": 47,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020109": {
-      "formScore": 82,
-      "pedigreeScore": 94,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020110": {
-      "formScore": 49,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020111": {
-      "formScore": 25,
-      "pedigreeScore": 32,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020112": {
-      "formScore": 29,
-      "pedigreeScore": 30,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020113": {
-      "formScore": 63,
-      "pedigreeScore": 80,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020114": {
-      "formScore": 50,
-      "pedigreeScore": 49,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020115": {
+    "201080608": {
       "formScore": 37,
-      "pedigreeScore": 29,
+      "pedigreeScore": 39,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002020116": {
-      "formScore": 50,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020117": {
-      "formScore": 25,
+    "201080609": {
+      "formScore": 22,
       "pedigreeScore": 23,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002020118": {
-      "formScore": 22,
-      "pedigreeScore": 20,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020201": {
-      "formScore": 82,
-      "pedigreeScore": 76,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020202": {
-      "formScore": 38,
-      "pedigreeScore": 54,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020203": {
-      "formScore": 15,
-      "pedigreeScore": 20,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020204": {
-      "formScore": 13,
-      "pedigreeScore": 13,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020205": {
-      "formScore": 75,
-      "pedigreeScore": 81,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020206": {
-      "formScore": 31,
-      "pedigreeScore": 39,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020207": {
-      "formScore": 27,
-      "pedigreeScore": 24,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020208": {
-      "formScore": 60,
-      "pedigreeScore": 60,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020209": {
-      "formScore": 58,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020210": {
-      "formScore": 21,
-      "pedigreeScore": 18,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020211": {
-      "formScore": 31,
-      "pedigreeScore": 32,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020212": {
-      "formScore": 60,
-      "pedigreeScore": 62,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020213": {
-      "formScore": 37,
-      "pedigreeScore": 54,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020214": {
-      "formScore": 29,
-      "pedigreeScore": 51,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020215": {
-      "formScore": 56,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020216": {
-      "formScore": 33,
-      "pedigreeScore": 25,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020301": {
-      "formScore": 18,
-      "pedigreeScore": 19,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020302": {
-      "formScore": 40,
-      "pedigreeScore": 40,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020303": {
-      "formScore": 13,
-      "pedigreeScore": 25,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020304": {
-      "formScore": 83,
-      "pedigreeScore": 88,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020305": {
-      "formScore": 63,
-      "pedigreeScore": 80,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020306": {
-      "formScore": 52,
-      "pedigreeScore": 61,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020307": {
-      "formScore": 29,
-      "pedigreeScore": 25,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020308": {
-      "formScore": 57,
-      "pedigreeScore": 57,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020309": {
-      "formScore": 0,
-      "pedigreeScore": 0,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020310": {
-      "formScore": 36,
-      "pedigreeScore": 42,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020311": {
-      "formScore": 65,
-      "pedigreeScore": 55,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020312": {
-      "formScore": 10,
-      "pedigreeScore": 28,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020313": {
-      "formScore": 74,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020314": {
-      "formScore": 19,
-      "pedigreeScore": 22,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020315": {
-      "formScore": 76,
-      "pedigreeScore": 72,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020316": {
-      "formScore": 0,
-      "pedigreeScore": 0,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020317": {
-      "formScore": 35,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020318": {
-      "formScore": 51,
-      "pedigreeScore": 31,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020401": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020402": {
-      "formScore": 55,
-      "pedigreeScore": 50,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020403": {
-      "formScore": 31,
-      "pedigreeScore": 29,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020404": {
-      "formScore": 40,
-      "pedigreeScore": 40,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020405": {
-      "formScore": 60,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020406": {
-      "formScore": 86,
-      "pedigreeScore": 90,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020407": {
-      "formScore": 48,
+    "201080610": {
+      "formScore": 34,
       "pedigreeScore": 43,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002020408": {
-      "formScore": 33,
-      "pedigreeScore": 33,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020409": {
-      "formScore": 0,
-      "pedigreeScore": 0,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020410": {
-      "formScore": 75,
-      "pedigreeScore": 75,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020411": {
-      "formScore": 45,
-      "pedigreeScore": 44,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020412": {
-      "formScore": 69,
-      "pedigreeScore": 52,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020413": {
-      "formScore": 62,
-      "pedigreeScore": 68,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020414": {
-      "formScore": 62,
-      "pedigreeScore": 73,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020415": {
-      "formScore": 47,
-      "pedigreeScore": 44,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020416": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020501": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020502": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020503": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020504": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020505": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020506": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020507": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020508": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020509": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020510": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020601": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020602": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020603": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020604": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020605": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020606": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020607": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020608": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020609": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020610": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020611": {
-      "formScore": 65,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020701": {
-      "formScore": 52,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020702": {
-      "formScore": 49,
-      "pedigreeScore": 41,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020703": {
-      "formScore": 70,
-      "pedigreeScore": 80,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020704": {
-      "formScore": 67,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020705": {
-      "formScore": 54,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020706": {
-      "formScore": 36,
-      "pedigreeScore": 73,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020707": {
-      "formScore": 32,
-      "pedigreeScore": 58,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020708": {
-      "formScore": 54,
-      "pedigreeScore": 74,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020709": {
-      "formScore": 82,
-      "pedigreeScore": 79,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020710": {
-      "formScore": 18,
-      "pedigreeScore": 30,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020801": {
-      "formScore": 71,
-      "pedigreeScore": 76,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020802": {
-      "formScore": 63,
-      "pedigreeScore": 49,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020803": {
-      "formScore": 62,
-      "pedigreeScore": 44,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020804": {
-      "formScore": 46,
-      "pedigreeScore": 60,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020805": {
-      "formScore": 35,
-      "pedigreeScore": 45,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020806": {
-      "formScore": 39,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020807": {
-      "formScore": 33,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020808": {
-      "formScore": 28,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020809": {
-      "formScore": 91,
-      "pedigreeScore": 87,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020901": {
-      "formScore": 39,
-      "pedigreeScore": 57,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020902": {
-      "formScore": 39,
-      "pedigreeScore": 54,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020903": {
-      "formScore": 54,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020904": {
-      "formScore": 45,
-      "pedigreeScore": 56,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020905": {
-      "formScore": 78,
-      "pedigreeScore": 81,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020906": {
+    "201080611": {
       "formScore": 64,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020907": {
-      "formScore": 72,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002020908": {
-      "formScore": 70,
-      "pedigreeScore": 59,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021001": {
-      "formScore": 69,
-      "pedigreeScore": 76,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021002": {
-      "formScore": 38,
-      "pedigreeScore": 41,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021003": {
-      "formScore": 88,
-      "pedigreeScore": 83,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021004": {
-      "formScore": 81,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021005": {
-      "formScore": 36,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021006": {
-      "formScore": 28,
-      "pedigreeScore": 41,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021007": {
-      "formScore": 58,
-      "pedigreeScore": 77,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021008": {
-      "formScore": 54,
-      "pedigreeScore": 60,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021009": {
-      "formScore": 70,
-      "pedigreeScore": 76,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021010": {
-      "formScore": 63,
-      "pedigreeScore": 60,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021011": {
-      "formScore": 73,
-      "pedigreeScore": 73,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021012": {
-      "formScore": 66,
       "pedigreeScore": 64,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021013": {
-      "formScore": 74,
-      "pedigreeScore": 71,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021014": {
-      "formScore": 62,
-      "pedigreeScore": 57,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021015": {
-      "formScore": 33,
-      "pedigreeScore": 53,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021016": {
-      "formScore": 23,
-      "pedigreeScore": 40,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021101": {
-      "formScore": 34,
-      "pedigreeScore": 63,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021102": {
-      "formScore": 42,
-      "pedigreeScore": 64,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021103": {
-      "formScore": 51,
-      "pedigreeScore": 67,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021104": {
-      "formScore": 65,
-      "pedigreeScore": 55,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021105": {
-      "formScore": 42,
-      "pedigreeScore": 65,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021106": {
-      "formScore": 87,
-      "pedigreeScore": 96,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021107": {
-      "formScore": 42,
-      "pedigreeScore": 61,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021108": {
-      "formScore": 82,
-      "pedigreeScore": 90,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021201": {
-      "formScore": 76,
-      "pedigreeScore": 69,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021202": {
-      "formScore": 74,
-      "pedigreeScore": 60,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021203": {
-      "formScore": 100,
-      "pedigreeScore": 100,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021204": {
+    "201080612": {
       "formScore": 47,
-      "pedigreeScore": 58,
+      "pedigreeScore": 77,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021205": {
-      "formScore": 46,
-      "pedigreeScore": 48,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021206": {
-      "formScore": 62,
-      "pedigreeScore": 66,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021207": {
-      "formScore": 63,
-      "pedigreeScore": 52,
-      "jockeyScore": 65,
-      "trainingScore": 65
-    },
-    "1002021208": {
-      "formScore": 56,
+    "201080613": {
+      "formScore": 75,
       "pedigreeScore": 70,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021209": {
-      "formScore": 49,
-      "pedigreeScore": 52,
+    "201080614": {
+      "formScore": 44,
+      "pedigreeScore": 57,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021210": {
-      "formScore": 27,
-      "pedigreeScore": 39,
+    "201080615": {
+      "formScore": 44,
+      "pedigreeScore": 45,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021211": {
-      "formScore": 40,
-      "pedigreeScore": 55,
+    "201080616": {
+      "formScore": 65,
+      "pedigreeScore": 81,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021212": {
-      "formScore": 74,
-      "pedigreeScore": 82,
+    "201080701": {
+      "formScore": 67,
+      "pedigreeScore": 69,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021213": {
-      "formScore": 54,
+    "201080702": {
+      "formScore": 30,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080703": {
+      "formScore": 57,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080704": {
+      "formScore": 72,
       "pedigreeScore": 68,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021214": {
+    "201080705": {
+      "formScore": 46,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080706": {
+      "formScore": 59,
+      "pedigreeScore": 90,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080707": {
+      "formScore": 23,
+      "pedigreeScore": 21,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080708": {
+      "formScore": 66,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080709": {
+      "formScore": 69,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080801": {
+      "formScore": 76,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080802": {
+      "formScore": 80,
+      "pedigreeScore": 92,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080803": {
+      "formScore": 43,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080804": {
+      "formScore": 67,
+      "pedigreeScore": 96,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080805": {
+      "formScore": 60,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080806": {
+      "formScore": 56,
+      "pedigreeScore": 46,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080807": {
+      "formScore": 74,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080808": {
+      "formScore": 19,
+      "pedigreeScore": 6,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080901": {
+      "formScore": 13,
+      "pedigreeScore": 41,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080902": {
+      "formScore": 88,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080903": {
+      "formScore": 52,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080904": {
+      "formScore": 25,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080905": {
+      "formScore": 84,
+      "pedigreeScore": 82,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080906": {
+      "formScore": 61,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080907": {
+      "formScore": 34,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080908": {
+      "formScore": 46,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080909": {
+      "formScore": 77,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080910": {
       "formScore": 53,
       "pedigreeScore": 62,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021215": {
+    "201080911": {
+      "formScore": 90,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080912": {
+      "formScore": 35,
+      "pedigreeScore": 41,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080913": {
+      "formScore": 55,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080914": {
+      "formScore": 58,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080915": {
+      "formScore": 23,
+      "pedigreeScore": 35,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201080916": {
+      "formScore": 45,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081001": {
+      "formScore": 75,
+      "pedigreeScore": 82,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081002": {
+      "formScore": 54,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081003": {
+      "formScore": 65,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081004": {
+      "formScore": 70,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081005": {
+      "formScore": 80,
+      "pedigreeScore": 78,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081006": {
+      "formScore": 74,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081007": {
+      "formScore": 26,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081008": {
+      "formScore": 36,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081009": {
+      "formScore": 70,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081010": {
+      "formScore": 70,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081011": {
+      "formScore": 38,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081101": {
+      "formScore": 53,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081102": {
+      "formScore": 51,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081103": {
+      "formScore": 86,
+      "pedigreeScore": 92,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081104": {
+      "formScore": 66,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081105": {
+      "formScore": 29,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081106": {
+      "formScore": 62,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081107": {
+      "formScore": 75,
+      "pedigreeScore": 91,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081108": {
+      "formScore": 50,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081109": {
+      "formScore": 72,
+      "pedigreeScore": 78,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081110": {
+      "formScore": 50,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081111": {
+      "formScore": 69,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081201": {
+      "formScore": 85,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081202": {
+      "formScore": 51,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081203": {
+      "formScore": 59,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081204": {
+      "formScore": 57,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081205": {
+      "formScore": 68,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081206": {
+      "formScore": 17,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081207": {
+      "formScore": 37,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081208": {
+      "formScore": 10,
+      "pedigreeScore": 32,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081209": {
+      "formScore": 24,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "201081210": {
+      "formScore": 84,
+      "pedigreeScore": 82,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030101": {
+      "formScore": 67,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030102": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030103": {
+      "formScore": 88,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030104": {
+      "formScore": 50,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030105": {
+      "formScore": 70,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030106": {
+      "formScore": 56,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030107": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030108": {
+      "formScore": 67,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030201": {
+      "formScore": 80,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030202": {
+      "formScore": 62,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030203": {
+      "formScore": 82,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030204": {
+      "formScore": 67,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030205": {
+      "formScore": 34,
+      "pedigreeScore": 31,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030206": {
+      "formScore": 66,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030207": {
+      "formScore": 66,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030208": {
+      "formScore": 31,
+      "pedigreeScore": 42,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030209": {
+      "formScore": 28,
+      "pedigreeScore": 31,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030210": {
+      "formScore": 20,
+      "pedigreeScore": 20,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030211": {
+      "formScore": 37,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030212": {
+      "formScore": 64,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030213": {
+      "formScore": 58,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030214": {
+      "formScore": 36,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030215": {
+      "formScore": 42,
+      "pedigreeScore": 38,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030216": {
+      "formScore": 70,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030301": {
+      "formScore": 49,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030302": {
+      "formScore": 61,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030303": {
+      "formScore": 23,
+      "pedigreeScore": 27,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030304": {
+      "formScore": 13,
+      "pedigreeScore": 13,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030305": {
+      "formScore": 7,
+      "pedigreeScore": 7,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030306": {
+      "formScore": 30,
+      "pedigreeScore": 22,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030307": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030308": {
+      "formScore": 89,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030309": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030310": {
+      "formScore": 61,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030311": {
+      "formScore": 14,
+      "pedigreeScore": 14,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030312": {
+      "formScore": 93,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030313": {
+      "formScore": 29,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030314": {
+      "formScore": 61,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030315": {
+      "formScore": 76,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030401": {
+      "formScore": 28,
+      "pedigreeScore": 31,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030402": {
+      "formScore": 52,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030403": {
+      "formScore": 60,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030404": {
+      "formScore": 71,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030405": {
+      "formScore": 27,
+      "pedigreeScore": 43,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030406": {
+      "formScore": 43,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030407": {
+      "formScore": 7,
+      "pedigreeScore": 7,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030408": {
+      "formScore": 60,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030409": {
+      "formScore": 80,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030410": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030411": {
+      "formScore": 20,
+      "pedigreeScore": 29,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030412": {
+      "formScore": 58,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030413": {
+      "formScore": 26,
+      "pedigreeScore": 29,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030414": {
+      "formScore": 21,
+      "pedigreeScore": 16,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030415": {
+      "formScore": 12,
+      "pedigreeScore": 13,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030416": {
+      "formScore": 60,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030506": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030507": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030508": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030509": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030510": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030511": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030512": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030513": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030514": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030601": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030602": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030603": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030604": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030605": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030606": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030607": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030608": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030609": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030610": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030611": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030612": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030613": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030614": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030615": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030701": {
+      "formScore": 31,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030702": {
+      "formScore": 70,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030703": {
+      "formScore": 62,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030704": {
+      "formScore": 44,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030705": {
+      "formScore": 2,
+      "pedigreeScore": 2,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030706": {
+      "formScore": 69,
+      "pedigreeScore": 81,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030707": {
+      "formScore": 69,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030708": {
+      "formScore": 41,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030709": {
+      "formScore": 62,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030710": {
+      "formScore": 54,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030711": {
+      "formScore": 32,
+      "pedigreeScore": 38,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030712": {
+      "formScore": 26,
+      "pedigreeScore": 31,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030713": {
+      "formScore": 60,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030714": {
+      "formScore": 75,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030715": {
+      "formScore": 43,
+      "pedigreeScore": 35,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030716": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030801": {
+      "formScore": 78,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030802": {
+      "formScore": 34,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030803": {
+      "formScore": 54,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030804": {
+      "formScore": 79,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030805": {
+      "formScore": 59,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030806": {
+      "formScore": 84,
+      "pedigreeScore": 84,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030807": {
+      "formScore": 54,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030808": {
+      "formScore": 75,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030809": {
+      "formScore": 50,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030810": {
+      "formScore": 14,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030811": {
+      "formScore": 24,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030812": {
+      "formScore": 77,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030813": {
+      "formScore": 68,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030814": {
+      "formScore": 83,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030815": {
+      "formScore": 50,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030901": {
+      "formScore": 16,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030902": {
+      "formScore": 35,
+      "pedigreeScore": 41,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030903": {
+      "formScore": 56,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030904": {
+      "formScore": 71,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030905": {
+      "formScore": 45,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030906": {
+      "formScore": 71,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030907": {
+      "formScore": 68,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030908": {
+      "formScore": 60,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030909": {
+      "formScore": 90,
+      "pedigreeScore": 92,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302030910": {
+      "formScore": 36,
+      "pedigreeScore": 46,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031001": {
+      "formScore": 58,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031002": {
+      "formScore": 28,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031003": {
+      "formScore": 76,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031004": {
+      "formScore": 81,
+      "pedigreeScore": 86,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031005": {
+      "formScore": 43,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031006": {
+      "formScore": 63,
+      "pedigreeScore": 78,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031007": {
+      "formScore": 40,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031008": {
+      "formScore": 67,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031009": {
+      "formScore": 51,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031010": {
+      "formScore": 30,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031101": {
+      "formScore": 49,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031102": {
+      "formScore": 43,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031103": {
+      "formScore": 52,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031104": {
+      "formScore": 40,
+      "pedigreeScore": 46,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031105": {
+      "formScore": 46,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031106": {
+      "formScore": 29,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031107": {
+      "formScore": 79,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031108": {
+      "formScore": 74,
+      "pedigreeScore": 86,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031109": {
+      "formScore": 82,
+      "pedigreeScore": 84,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031110": {
+      "formScore": 70,
+      "pedigreeScore": 83,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031201": {
+      "formScore": 8,
+      "pedigreeScore": 16,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031202": {
+      "formScore": 61,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031203": {
+      "formScore": 53,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031204": {
+      "formScore": 34,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031205": {
+      "formScore": 59,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031206": {
+      "formScore": 40,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031207": {
+      "formScore": 45,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031208": {
+      "formScore": 41,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031209": {
+      "formScore": 74,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031210": {
+      "formScore": 58,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031211": {
+      "formScore": 81,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031212": {
+      "formScore": 44,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031213": {
+      "formScore": 56,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031214": {
+      "formScore": 75,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031215": {
+      "formScore": 67,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302031216": {
+      "formScore": 51,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040101": {
+      "formScore": 13,
+      "pedigreeScore": 12,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040102": {
+      "formScore": 54,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040103": {
+      "formScore": 34,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040104": {
+      "formScore": 27,
+      "pedigreeScore": 25,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040105": {
+      "formScore": 60,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040106": {
+      "formScore": 7,
+      "pedigreeScore": 7,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040107": {
+      "formScore": 61,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040108": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040109": {
+      "formScore": 62,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040110": {
+      "formScore": 69,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040111": {
+      "formScore": 64,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040112": {
+      "formScore": 41,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040113": {
+      "formScore": 20,
+      "pedigreeScore": 20,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040114": {
+      "formScore": 46,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040115": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040201": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040202": {
+      "formScore": 25,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040203": {
+      "formScore": 67,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040204": {
+      "formScore": 73,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040205": {
+      "formScore": 50,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040206": {
+      "formScore": 45,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040207": {
+      "formScore": 24,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040208": {
+      "formScore": 50,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040209": {
+      "formScore": 58,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040210": {
+      "formScore": 32,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040211": {
+      "formScore": 22,
+      "pedigreeScore": 23,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040212": {
+      "formScore": 45,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040213": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040214": {
+      "formScore": 26,
+      "pedigreeScore": 26,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040215": {
+      "formScore": 47,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040216": {
+      "formScore": 8,
+      "pedigreeScore": 10,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040301": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040302": {
+      "formScore": 36,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040303": {
+      "formScore": 50,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040304": {
+      "formScore": 40,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040305": {
+      "formScore": 61,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040306": {
+      "formScore": 60,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040307": {
+      "formScore": 29,
+      "pedigreeScore": 38,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040308": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040309": {
+      "formScore": 43,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040310": {
+      "formScore": 62,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040311": {
+      "formScore": 61,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040312": {
+      "formScore": 87,
+      "pedigreeScore": 83,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040313": {
+      "formScore": 78,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040314": {
+      "formScore": 16,
+      "pedigreeScore": 13,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040315": {
+      "formScore": 60,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040316": {
+      "formScore": 81,
+      "pedigreeScore": 81,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040401": {
+      "formScore": 18,
+      "pedigreeScore": 24,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040402": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040403": {
+      "formScore": 75,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040404": {
+      "formScore": 86,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040405": {
+      "formScore": 52,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040406": {
+      "formScore": 40,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040407": {
+      "formScore": 68,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040408": {
+      "formScore": 58,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040409": {
+      "formScore": 56,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040410": {
+      "formScore": 1,
+      "pedigreeScore": 0,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040411": {
+      "formScore": 66,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040412": {
+      "formScore": 89,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040413": {
+      "formScore": 63,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040414": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040415": {
+      "formScore": 25,
+      "pedigreeScore": 20,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040416": {
+      "formScore": 40,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040506": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040507": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040508": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040509": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040510": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040511": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040512": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040513": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040514": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040515": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040516": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040601": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040602": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040603": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040604": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040605": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040606": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040607": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040608": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040609": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040610": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040611": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040612": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040613": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040701": {
+      "formScore": 92,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040702": {
+      "formScore": 88,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040703": {
+      "formScore": 47,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040704": {
+      "formScore": 47,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040705": {
+      "formScore": 76,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040706": {
+      "formScore": 78,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040707": {
+      "formScore": 76,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040708": {
+      "formScore": 95,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040709": {
+      "formScore": 63,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040710": {
+      "formScore": 29,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040711": {
+      "formScore": 88,
+      "pedigreeScore": 84,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040712": {
+      "formScore": 54,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040713": {
+      "formScore": 84,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040714": {
+      "formScore": 82,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040715": {
+      "formScore": 92,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040801": {
+      "formScore": 40,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040802": {
+      "formScore": 61,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040803": {
+      "formScore": 69,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040804": {
+      "formScore": 45,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040805": {
+      "formScore": 87,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040806": {
+      "formScore": 51,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040807": {
+      "formScore": 59,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040808": {
+      "formScore": 50,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040809": {
+      "formScore": 27,
+      "pedigreeScore": 43,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040810": {
+      "formScore": 33,
+      "pedigreeScore": 18,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040811": {
+      "formScore": 87,
+      "pedigreeScore": 83,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040812": {
+      "formScore": 32,
+      "pedigreeScore": 28,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040901": {
+      "formScore": 61,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040902": {
       "formScore": 52,
       "pedigreeScore": 53,
       "jockeyScore": 65,
       "trainingScore": 65
     },
-    "1002021216": {
+    "302040903": {
+      "formScore": 35,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040904": {
+      "formScore": 90,
+      "pedigreeScore": 90,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040905": {
+      "formScore": 15,
+      "pedigreeScore": 29,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040906": {
+      "formScore": 47,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040907": {
+      "formScore": 66,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040908": {
+      "formScore": 19,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040909": {
+      "formScore": 57,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040910": {
+      "formScore": 13,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040911": {
+      "formScore": 80,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040912": {
+      "formScore": 53,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040913": {
+      "formScore": 83,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040914": {
+      "formScore": 41,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040915": {
+      "formScore": 33,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302040916": {
+      "formScore": 79,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041001": {
+      "formScore": 42,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041002": {
+      "formScore": 28,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041003": {
+      "formScore": 44,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041004": {
+      "formScore": 9,
+      "pedigreeScore": 13,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041005": {
+      "formScore": 90,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041006": {
+      "formScore": 34,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041007": {
+      "formScore": 40,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041008": {
+      "formScore": 17,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041009": {
+      "formScore": 60,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041010": {
+      "formScore": 50,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041011": {
+      "formScore": 30,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041012": {
       "formScore": 55,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041101": {
+      "formScore": 71,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041102": {
+      "formScore": 51,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041103": {
+      "formScore": 37,
+      "pedigreeScore": 37,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041104": {
+      "formScore": 33,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041105": {
+      "formScore": 44,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041106": {
+      "formScore": 41,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041107": {
+      "formScore": 71,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041108": {
+      "formScore": 59,
       "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041109": {
+      "formScore": 24,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041110": {
+      "formScore": 71,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041111": {
+      "formScore": 70,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041112": {
+      "formScore": 68,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041113": {
+      "formScore": 90,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041114": {
+      "formScore": 67,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041115": {
+      "formScore": 75,
+      "pedigreeScore": 82,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041201": {
+      "formScore": 56,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041202": {
+      "formScore": 48,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041203": {
+      "formScore": 84,
+      "pedigreeScore": 95,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041204": {
+      "formScore": 36,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041205": {
+      "formScore": 58,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041206": {
+      "formScore": 38,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041207": {
+      "formScore": 77,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041208": {
+      "formScore": 33,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041209": {
+      "formScore": 87,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041210": {
+      "formScore": 64,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041211": {
+      "formScore": 44,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041212": {
+      "formScore": 85,
+      "pedigreeScore": 84,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041213": {
+      "formScore": 34,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041214": {
+      "formScore": 42,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "302041215": {
+      "formScore": 46,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030101": {
+      "formScore": 21,
+      "pedigreeScore": 8,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030102": {
+      "formScore": 62,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030103": {
+      "formScore": 45,
+      "pedigreeScore": 17,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030104": {
+      "formScore": 84,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030105": {
+      "formScore": 37,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030106": {
+      "formScore": 25,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030107": {
+      "formScore": 60,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030108": {
+      "formScore": 47,
+      "pedigreeScore": 43,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030109": {
+      "formScore": 21,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030110": {
+      "formScore": 31,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030111": {
+      "formScore": 34,
+      "pedigreeScore": 38,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030112": {
+      "formScore": 27,
+      "pedigreeScore": 38,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030201": {
+      "formScore": 26,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030202": {
+      "formScore": 51,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030203": {
+      "formScore": 8,
+      "pedigreeScore": 12,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030204": {
+      "formScore": 46,
+      "pedigreeScore": 32,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030205": {
+      "formScore": 8,
+      "pedigreeScore": 11,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030206": {
+      "formScore": 65,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030207": {
+      "formScore": 7,
+      "pedigreeScore": 7,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030208": {
+      "formScore": 32,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030209": {
+      "formScore": 57,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030210": {
+      "formScore": 24,
+      "pedigreeScore": 20,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030211": {
+      "formScore": 21,
+      "pedigreeScore": 24,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030212": {
+      "formScore": 40,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030213": {
+      "formScore": 48,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030214": {
+      "formScore": 33,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030215": {
+      "formScore": 61,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030216": {
+      "formScore": 36,
+      "pedigreeScore": 37,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030217": {
+      "formScore": 37,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030218": {
+      "formScore": 33,
+      "pedigreeScore": 24,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030301": {
+      "formScore": 37,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030302": {
+      "formScore": 28,
+      "pedigreeScore": 25,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030303": {
+      "formScore": 3,
+      "pedigreeScore": 4,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030304": {
+      "formScore": 42,
+      "pedigreeScore": 38,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030305": {
+      "formScore": 37,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030306": {
+      "formScore": 18,
+      "pedigreeScore": 17,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030307": {
+      "formScore": 52,
+      "pedigreeScore": 46,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030308": {
+      "formScore": 76,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030309": {
+      "formScore": 52,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030310": {
+      "formScore": 29,
+      "pedigreeScore": 35,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030311": {
+      "formScore": 82,
+      "pedigreeScore": 92,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030312": {
+      "formScore": 27,
+      "pedigreeScore": 25,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030313": {
+      "formScore": 53,
+      "pedigreeScore": 29,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030314": {
+      "formScore": 57,
+      "pedigreeScore": 46,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030315": {
+      "formScore": 63,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030316": {
+      "formScore": 30,
+      "pedigreeScore": 26,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030401": {
+      "formScore": 78,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030402": {
+      "formScore": 27,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030403": {
+      "formScore": 84,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030404": {
+      "formScore": 33,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030405": {
+      "formScore": 43,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030406": {
+      "formScore": 65,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030407": {
+      "formScore": 47,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030408": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030409": {
+      "formScore": 21,
+      "pedigreeScore": 22,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030410": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030411": {
+      "formScore": 45,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030412": {
+      "formScore": 67,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030413": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030414": {
+      "formScore": 62,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030415": {
+      "formScore": 13,
+      "pedigreeScore": 13,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030416": {
+      "formScore": 59,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030506": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030507": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030508": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030509": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030510": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030511": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030512": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030513": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030601": {
+      "formScore": 48,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030602": {
+      "formScore": 51,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030603": {
+      "formScore": 16,
+      "pedigreeScore": 20,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030604": {
+      "formScore": 66,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030605": {
+      "formScore": 81,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030606": {
+      "formScore": 70,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030607": {
+      "formScore": 11,
+      "pedigreeScore": 11,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030608": {
+      "formScore": 33,
+      "pedigreeScore": 43,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030609": {
+      "formScore": 81,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030610": {
+      "formScore": 70,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030611": {
+      "formScore": 74,
+      "pedigreeScore": 72,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030612": {
+      "formScore": 43,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030613": {
+      "formScore": 39,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030614": {
+      "formScore": 74,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030615": {
+      "formScore": 76,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030616": {
+      "formScore": 40,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030701": {
+      "formScore": 32,
+      "pedigreeScore": 32,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030702": {
+      "formScore": 10,
+      "pedigreeScore": 9,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030703": {
+      "formScore": 47,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030704": {
+      "formScore": 74,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030705": {
+      "formScore": 55,
+      "pedigreeScore": 20,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030706": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030707": {
+      "formScore": 72,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030708": {
+      "formScore": 9,
+      "pedigreeScore": 11,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030709": {
+      "formScore": 67,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030710": {
+      "formScore": 77,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030711": {
+      "formScore": 57,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030712": {
+      "formScore": 59,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030713": {
+      "formScore": 83,
+      "pedigreeScore": 86,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030714": {
+      "formScore": 31,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030715": {
+      "formScore": 39,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030716": {
+      "formScore": 87,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030801": {
+      "formScore": 46,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030802": {
+      "formScore": 79,
+      "pedigreeScore": 78,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030803": {
+      "formScore": 100,
+      "pedigreeScore": 100,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030804": {
+      "formScore": 70,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030805": {
+      "formScore": 33,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030806": {
+      "formScore": 57,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030807": {
+      "formScore": 31,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030808": {
+      "formScore": 91,
+      "pedigreeScore": 93,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030809": {
+      "formScore": 77,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030810": {
+      "formScore": 32,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030811": {
+      "formScore": 70,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030812": {
+      "formScore": 13,
+      "pedigreeScore": 35,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030813": {
+      "formScore": 54,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030901": {
+      "formScore": 55,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030902": {
+      "formScore": 83,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030903": {
+      "formScore": 54,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030904": {
+      "formScore": 63,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030905": {
+      "formScore": 49,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030906": {
+      "formScore": 35,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030907": {
+      "formScore": 68,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030908": {
+      "formScore": 18,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030909": {
+      "formScore": 52,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030910": {
+      "formScore": 29,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030911": {
+      "formScore": 64,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002030912": {
+      "formScore": 32,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031001": {
+      "formScore": 20,
+      "pedigreeScore": 36,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031002": {
+      "formScore": 39,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031003": {
+      "formScore": 23,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031004": {
+      "formScore": 71,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031005": {
+      "formScore": 60,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031006": {
+      "formScore": 30,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031007": {
+      "formScore": 36,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031008": {
+      "formScore": 68,
+      "pedigreeScore": 76,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031009": {
+      "formScore": 38,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031010": {
+      "formScore": 66,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031011": {
+      "formScore": 49,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031012": {
+      "formScore": 73,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031101": {
+      "formScore": 25,
+      "pedigreeScore": 41,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031102": {
+      "formScore": 81,
+      "pedigreeScore": 79,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031103": {
+      "formScore": 93,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031104": {
+      "formScore": 79,
+      "pedigreeScore": 81,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031105": {
+      "formScore": 69,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031106": {
+      "formScore": 71,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031107": {
+      "formScore": 51,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031108": {
+      "formScore": 45,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031109": {
+      "formScore": 29,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031110": {
+      "formScore": 37,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031111": {
+      "formScore": 54,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031112": {
+      "formScore": 64,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031113": {
+      "formScore": 78,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031114": {
+      "formScore": 49,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031201": {
+      "formScore": 90,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031202": {
+      "formScore": 40,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031203": {
+      "formScore": 72,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031204": {
+      "formScore": 33,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031205": {
+      "formScore": 36,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031206": {
+      "formScore": 66,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031207": {
+      "formScore": 60,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031208": {
+      "formScore": 45,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031209": {
+      "formScore": 43,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031210": {
+      "formScore": 82,
+      "pedigreeScore": 64,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031211": {
+      "formScore": 28,
+      "pedigreeScore": 37,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002031212": {
+      "formScore": 65,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040101": {
+      "formScore": 54,
+      "pedigreeScore": 56,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040102": {
+      "formScore": 63,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040103": {
+      "formScore": 32,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040104": {
+      "formScore": 73,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040105": {
+      "formScore": 59,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040106": {
+      "formScore": 49,
+      "pedigreeScore": 58,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040107": {
+      "formScore": 42,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040108": {
+      "formScore": 58,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040109": {
+      "formScore": 26,
+      "pedigreeScore": 32,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040110": {
+      "formScore": 57,
+      "pedigreeScore": 51,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040111": {
+      "formScore": 29,
+      "pedigreeScore": 25,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040112": {
+      "formScore": 25,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040201": {
+      "formScore": 70,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040202": {
+      "formScore": 40,
+      "pedigreeScore": 40,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040203": {
+      "formScore": 44,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040204": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040205": {
+      "formScore": 38,
+      "pedigreeScore": 38,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040206": {
+      "formScore": 50,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040207": {
+      "formScore": 67,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040208": {
+      "formScore": 33,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040209": {
+      "formScore": 60,
+      "pedigreeScore": 60,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040210": {
+      "formScore": 78,
+      "pedigreeScore": 78,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040211": {
+      "formScore": 90,
+      "pedigreeScore": 90,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040212": {
+      "formScore": 30,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040213": {
+      "formScore": 10,
+      "pedigreeScore": 10,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040214": {
+      "formScore": 89,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040215": {
+      "formScore": 22,
+      "pedigreeScore": 22,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040216": {
+      "formScore": 11,
+      "pedigreeScore": 11,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040301": {
+      "formScore": 28,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040302": {
+      "formScore": 77,
+      "pedigreeScore": 78,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040303": {
+      "formScore": 56,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040304": {
+      "formScore": 84,
+      "pedigreeScore": 81,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040305": {
+      "formScore": 38,
+      "pedigreeScore": 42,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040306": {
+      "formScore": 36,
+      "pedigreeScore": 29,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040307": {
+      "formScore": 40,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040308": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040309": {
+      "formScore": 63,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040310": {
+      "formScore": 54,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040311": {
+      "formScore": 80,
+      "pedigreeScore": 88,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040312": {
+      "formScore": 36,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040313": {
+      "formScore": 62,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040314": {
+      "formScore": 22,
+      "pedigreeScore": 18,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040315": {
+      "formScore": 47,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040316": {
+      "formScore": 87,
+      "pedigreeScore": 87,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040317": {
+      "formScore": 37,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040318": {
+      "formScore": 53,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040401": {
+      "formScore": 53,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040402": {
+      "formScore": 74,
+      "pedigreeScore": 90,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040403": {
+      "formScore": 74,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040404": {
+      "formScore": 34,
+      "pedigreeScore": 35,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040405": {
+      "formScore": 67,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040406": {
+      "formScore": 47,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040407": {
+      "formScore": 48,
+      "pedigreeScore": 54,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040408": {
+      "formScore": 42,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040409": {
+      "formScore": 65,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040410": {
+      "formScore": 70,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040411": {
+      "formScore": 68,
+      "pedigreeScore": 70,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040412": {
+      "formScore": 11,
+      "pedigreeScore": 9,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040413": {
+      "formScore": 75,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040414": {
+      "formScore": 67,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040506": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040507": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040508": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040509": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040510": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040511": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040512": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040601": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040602": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040603": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040604": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040605": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040606": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040607": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040608": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040609": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040610": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040611": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040701": {
+      "formScore": 12,
+      "pedigreeScore": 12,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040702": {
+      "formScore": 24,
+      "pedigreeScore": 24,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040703": {
+      "formScore": 20,
+      "pedigreeScore": 20,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040704": {
+      "formScore": 62,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040705": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040706": {
+      "formScore": 47,
+      "pedigreeScore": 43,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040707": {
+      "formScore": 60,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040708": {
+      "formScore": 59,
+      "pedigreeScore": 62,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040709": {
+      "formScore": 55,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040710": {
+      "formScore": 73,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040711": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040712": {
+      "formScore": 36,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040713": {
+      "formScore": 28,
+      "pedigreeScore": 23,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040714": {
+      "formScore": 30,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040715": {
+      "formScore": 18,
+      "pedigreeScore": 24,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040716": {
+      "formScore": 27,
+      "pedigreeScore": 33,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040801": {
+      "formScore": 27,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040802": {
+      "formScore": 80,
+      "pedigreeScore": 74,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040803": {
+      "formScore": 58,
+      "pedigreeScore": 61,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040804": {
+      "formScore": 34,
+      "pedigreeScore": 50,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040805": {
+      "formScore": 82,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040806": {
+      "formScore": 47,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040807": {
+      "formScore": 53,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040808": {
+      "formScore": 41,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040809": {
+      "formScore": 52,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040810": {
+      "formScore": 87,
+      "pedigreeScore": 83,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040901": {
+      "formScore": 56,
+      "pedigreeScore": 73,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040902": {
+      "formScore": 37,
+      "pedigreeScore": 48,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040903": {
+      "formScore": 50,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040904": {
+      "formScore": 72,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040905": {
+      "formScore": 14,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040906": {
+      "formScore": 23,
+      "pedigreeScore": 39,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040907": {
+      "formScore": 71,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002040908": {
+      "formScore": 43,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041001": {
+      "formScore": 67,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041002": {
+      "formScore": 43,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041003": {
+      "formScore": 49,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041004": {
+      "formScore": 56,
+      "pedigreeScore": 71,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041005": {
+      "formScore": 47,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041006": {
+      "formScore": 44,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041007": {
+      "formScore": 58,
+      "pedigreeScore": 66,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041008": {
+      "formScore": 24,
+      "pedigreeScore": 37,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041009": {
+      "formScore": 82,
+      "pedigreeScore": 77,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041010": {
+      "formScore": 59,
+      "pedigreeScore": 53,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041011": {
+      "formScore": 10,
+      "pedigreeScore": 45,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041012": {
+      "formScore": 73,
+      "pedigreeScore": 81,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041013": {
+      "formScore": 82,
+      "pedigreeScore": 86,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041014": {
+      "formScore": 43,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041015": {
+      "formScore": 63,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041016": {
+      "formScore": 52,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041101": {
+      "formScore": 71,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041102": {
+      "formScore": 91,
+      "pedigreeScore": 80,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041103": {
+      "formScore": 16,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041104": {
+      "formScore": 90,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041105": {
+      "formScore": 42,
+      "pedigreeScore": 67,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041106": {
+      "formScore": 35,
+      "pedigreeScore": 34,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041107": {
+      "formScore": 91,
+      "pedigreeScore": 95,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041108": {
+      "formScore": 85,
+      "pedigreeScore": 57,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041109": {
+      "formScore": 67,
+      "pedigreeScore": 75,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041110": {
+      "formScore": 90,
+      "pedigreeScore": 85,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041111": {
+      "formScore": 61,
+      "pedigreeScore": 59,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041112": {
+      "formScore": 92,
+      "pedigreeScore": 89,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041113": {
+      "formScore": 45,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041201": {
+      "formScore": 47,
+      "pedigreeScore": 52,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041202": {
+      "formScore": 65,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041203": {
+      "formScore": 40,
+      "pedigreeScore": 49,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041204": {
+      "formScore": 52,
+      "pedigreeScore": 55,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041205": {
+      "formScore": 20,
+      "pedigreeScore": 30,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041206": {
+      "formScore": 91,
+      "pedigreeScore": 90,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041207": {
+      "formScore": 66,
+      "pedigreeScore": 63,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041208": {
+      "formScore": 28,
+      "pedigreeScore": 37,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041209": {
+      "formScore": 48,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041210": {
+      "formScore": 57,
+      "pedigreeScore": 65,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041211": {
+      "formScore": 59,
+      "pedigreeScore": 68,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041212": {
+      "formScore": 36,
+      "pedigreeScore": 41,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041213": {
+      "formScore": 37,
+      "pedigreeScore": 44,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041214": {
+      "formScore": 32,
+      "pedigreeScore": 47,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041215": {
+      "formScore": 68,
+      "pedigreeScore": 69,
+      "jockeyScore": 65,
+      "trainingScore": 65
+    },
+    "1002041216": {
+      "formScore": 60,
+      "pedigreeScore": 58,
       "jockeyScore": 65,
       "trainingScore": 65
     }
