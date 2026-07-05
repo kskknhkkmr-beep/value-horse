@@ -88,30 +88,6 @@ export async function fetchWinOdds(netKeibaRaceId: string): Promise<Map<number, 
   }
 }
 
-// ─── 出馬表から馬名→IDマップを取得 ──────────────────────────────────────────
-
-/**
- * SP 出馬表ページから「馬名 → netkeiba 馬 ID」のマップを返す。
- * URL: https://race.sp.netkeiba.com/race/shutuba.html?race_id=[raceId]
- */
-export async function fetchHorseIdMap(netKeibaRaceId: string): Promise<Map<string, string>> {
-  await sleep(1200);
-  const url = `https://race.sp.netkeiba.com/race/shutuba.html?race_id=${netKeibaRaceId}`;
-  try {
-    const html = await fetchUtf8(url);
-    const map = new Map<string, string>();
-    // パターン: id="db_2021105661"><span>レガーロデルシエロのデータベース</span>
-    const re = /id="db_(\d+)"[^>]*><span>([^の]+)のデータベース<\/span>/g;
-    for (const m of html.matchAll(re)) {
-      map.set(m[2].trim(), m[1]);
-    }
-    return map;
-  } catch (e) {
-    console.warn(`  [scraper] fetchHorseIdMap failed (${netKeibaRaceId}):`, (e as Error).message);
-    return new Map();
-  }
-}
-
 // ─── 馬近走成績 ───────────────────────────────────────────────────────────────
 
 /**
@@ -135,74 +111,27 @@ export async function fetchHorseResults(horseId: string): Promise<RaceResult[]> 
   }
 }
 
-// ─── 騎手近走成績 → JockeyStats ──────────────────────────────────────────────
+// ─── 騎手成績（年度別） → JockeyStats ────────────────────────────────────────
 
-// 各騎手の netkeiba 5桁 ID（JRA騎手コード）
-export const JOCKEY_IDS: Record<string, string> = {
-  "C.ルメール": "05339",
-  "D.レーン": "05386",
-  "M.ディー": "05576",
-  "戸崎圭太": "01088",
-  "武豊": "01019",
-  "川田将雅": "01098",
-  "横山武史": "01170",
-  "坂井瑠星": "01167",
-  "岩田望来": "01165",
-  "北村友一": "01107",
-  "松山弘平": "01145",
-  "横山典弘": "01033",
-  "西村淳也": "01148",
-  "幸英明": "01073",
-  "古川吉洋": "01085",
-  "大野拓弥": "01074",
-  "三浦皇成": "01096",
-  "原優介": "01138",
-  "石川裕紀人": "01115",
-  "津村明秀": "01077",
-  "菊沢一樹": "01106",
-  "F.ゴンサルベス": "05357",
-  "亀田温心": "01168",
-  "丸田恭介": "01083",
-};
+// 年度成績の騎乗数がこれ未満の場合、前年度分と合算してサンプルを確保する
+const MIN_RIDES_FOR_YEAR = 30;
 
 /**
- * 騎手名から netkeiba 騎手 ID を検索して返す。
- * URL: https://db.netkeiba.com/?pid=jockey_search_detail&match=1&name=[encodedName]
- * 見つからない場合は null。
- */
-export async function fetchJockeyId(jockeyName: string): Promise<string | null> {
-  await sleep(1000);
-  // EUC-JP でエンコードが必要だが fetch 経由では難しいので、
-  // 騎手一覧から名前で照合する方法を使う
-  const url = `https://db.netkeiba.com/?pid=jockey_list`;
-  try {
-    const html = await fetchEuc(url);
-    // パターン: /jockey/01088/ のような形式に続いて騎手名が現れる
-    const re = /\/jockey\/(\d{5})\/"[^>]*>([^<]{2,10})<\/a>/g;
-    for (const m of html.matchAll(re)) {
-      if (m[2].trim() === jockeyName) return m[1];
-    }
-    return null;
-  } catch {
-    return null;
-  }
-}
-
-/**
- * 騎手の近走成績（直近約100走）から勝利数・連対数・騎乗数を集計して返す。
- * URL: https://db.netkeiba.com/jockey/result/recent/[jockeyId]/
+ * 騎手の年度別成績（今年 or 直近年度、サンプル不足時は前年度と合算）から
+ * 勝利数・連対数・騎乗数を集計して返す。
+ * URL: https://db.netkeiba.com/jockey/result/[jockeyId]/
  *
- * テーブル列（EUC-JP ページ・0 始まり）:
- *   0:日付 1:開催 2:天気 3:R 4:レース名 5:映像
- *   6:頭数 7:枠番 8:馬番 9:単勝 10:人気
- *   11:着順 12:馬名 13:騎手 14:斤量 15:距離 ...
+ * テーブル列（EUC-JP ページ・0 始まり、年度別成績テーブル）:
+ *   0:年度 1:順位 2:1着 3:2着 4:3着 5:着外 6-15:重賞/特別/平場/芝/ダート(出走・勝利)
+ *   16:勝率 17:連対率 18:複勝率 19:収得賞金 20:代表馬
+ * 先頭行は「累計」（キャリア通算）、以降は新しい年度から降順。
  */
 export async function fetchJockeyStats(jockeyId: string): Promise<JockeyStats | null> {
   await sleep(1200);
-  const url = `https://db.netkeiba.com/jockey/result/recent/${jockeyId}/`;
+  const url = `https://db.netkeiba.com/jockey/result/${jockeyId}/`;
   try {
     const html = await fetchEuc(url);
-    return parseJockeyRaceRows(html);
+    return parseJockeyYearlyStats(html);
   } catch (e) {
     console.warn(`  [scraper] fetchJockeyStats failed (${jockeyId}):`, (e as Error).message);
     return null;
@@ -253,10 +182,9 @@ function parseRaceResultTable(
   return results.slice(0, 10); // 直近10走まで
 }
 
-function parseJockeyRaceRows(html: string): JockeyStats | null {
-  let wins = 0;
-  let places = 0;
-  let rides = 0;
+function parseJockeyYearlyStats(html: string): JockeyStats | null {
+  type YearRow = { label: string; wins: number; seconds: number; thirds: number; others: number };
+  const rows: YearRow[] = [];
 
   const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
   let m: RegExpExecArray | null;
@@ -268,21 +196,47 @@ function parseJockeyRaceRows(html: string): JockeyStats | null {
     while ((cm = cellRe.exec(m[1])) !== null) {
       cells.push(stripTags(cm[1]));
     }
-    if (cells.length < 12) continue;
+    if (cells.length < 6) continue;
 
-    // 日付チェック
-    if (!/^\d{4}\/\d{2}\/\d{2}$/.test(cells[0])) continue;
+    const label = cells[0];
+    if (!/^(累計|\d{4})$/.test(label)) continue; // 年度行（「累計」または西暦4桁）以外は除外
 
-    // 列 11: 着順
-    const pos = toInt(cells[11]);
-    if (isNaN(pos) || pos <= 0) continue; // 中止・除外は除く
-
-    rides++;
-    if (pos === 1) wins++;
-    if (pos <= 2) places++;
+    const n = (s: string) => {
+      const v = toInt(s);
+      return isNaN(v) ? 0 : v;
+    };
+    rows.push({ label, wins: n(cells[2]), seconds: n(cells[3]), thirds: n(cells[4]), others: n(cells[5]) });
   }
 
-  return rides > 0 ? { wins, rides, places } : null;
+  if (rows.length === 0) return null;
+
+  const toStats = (r: YearRow): JockeyStats => ({
+    wins: r.wins,
+    places: r.wins + r.seconds,
+    rides: r.wins + r.seconds + r.thirds + r.others,
+  });
+
+  const total = rows.find((r) => r.label === "累計");
+  const years = rows.filter((r) => r.label !== "累計");
+  if (years.length === 0) return total ? toStats(total) : null;
+
+  // 直近年度を優先。騎乗数が少なければ前年度分と合算してサンプルを確保する。
+  let wins = years[0].wins;
+  let seconds = years[0].seconds;
+  let thirds = years[0].thirds;
+  let others = years[0].others;
+  let rides = wins + seconds + thirds + others;
+
+  if (rides < MIN_RIDES_FOR_YEAR && years[1]) {
+    wins += years[1].wins;
+    seconds += years[1].seconds;
+    thirds += years[1].thirds;
+    others += years[1].others;
+    rides = wins + seconds + thirds + others;
+  }
+
+  if (rides === 0) return total ? toStats(total) : null;
+  return { wins, places: wins + seconds, rides };
 }
 
 // ─── 追い切り評価 → trainingScore ────────────────────────────────────────────
@@ -297,14 +251,15 @@ const TRAINING_RANK_SCORE: Record<string, number> = {
 };
 
 /**
- * SP 追い切りページから「馬名 → trainingScore (0-100)」のマップを返す。
- * URL: https://race.sp.netkeiba.com/race/oikiri.html?race_id=[raceId]
+ * SP 追い切り（調教）ページから「netkeiba 馬 ID → trainingScore (0-100)」のマップを返す。
+ * URL: https://race.sp.netkeiba.com/?pid=oikiri&race_id=[raceId]
  *
- * 評価記号（Rank クラス等）が見つからない馬は null。
+ * netkeiba 記者による追い切りコメント・評価が付いた馬のみが対象（全頭ではない）。
+ * 評価記号（Rank_S/A/B/C/D クラス）が見つからない馬は含まれない。
  */
 export async function fetchTrainingScores(netKeibaRaceId: string): Promise<Map<string, number>> {
   await sleep(1000);
-  const url = `https://race.sp.netkeiba.com/race/oikiri.html?race_id=${netKeibaRaceId}`;
+  const url = `https://race.sp.netkeiba.com/?pid=oikiri&race_id=${netKeibaRaceId}`;
   try {
     const html = await fetchUtf8(url);
     return parseTrainingScores(html);
@@ -317,27 +272,19 @@ export async function fetchTrainingScores(netKeibaRaceId: string): Promise<Map<s
 function parseTrainingScores(html: string): Map<string, number> {
   const map = new Map<string, number>();
 
-  // 各馬ブロック: id="db_XXXXX" の周辺セグメントに評価記号がある
-  const horseRe = /id="db_(\d+)"[^>]*><span>([^の]+)のデータベース<\/span>/g;
-  const horseMatches = [...html.matchAll(horseRe)];
+  // 各馬ブロック: <tr class="HorseList"> から次の HorseList 行（or 末尾）まで
+  const blockRe = /<tr[^>]*class="HorseList"[^>]*>([\s\S]*?)(?=<tr[^>]*class="HorseList"|$)/g;
 
-  for (let i = 0; i < horseMatches.length; i++) {
-    const m = horseMatches[i];
-    const horseName = m[2].trim();
-    const start = m.index ?? 0;
-    const end = horseMatches[i + 1]?.index ?? html.length;
-    const segment = html.substring(start, end);
+  for (const m of html.matchAll(blockRe)) {
+    const block = m[1];
+    // 馬 ID: <a href="https://db.sp.netkeiba.com//horse/training/2022105291/">
+    const idM = block.match(/\/horse\/training\/(\d+)\//);
+    // 評価: <span class="Rank_B">B</span>
+    const rankM = block.match(/class="Rank_([SABCD])"/);
+    if (!idM || !rankM) continue;
 
-    // Rank クラスから評価取得
-    const rankM =
-      segment.match(/class="[^"]*Rank[^"]*"[^>]*>\s*([SABCD◎○△▲×])\s*</) ??
-      segment.match(/>\s*([SABCD])\s*<\/[^>]+>\s*<\/[^>]*Rank/i) ??
-      segment.match(/追い切り評価[^>]*>\s*([SABCD◎○△▲×])/);
-
-    if (rankM) {
-      const score = TRAINING_RANK_SCORE[rankM[1].trim()];
-      if (score !== undefined) map.set(horseName, score);
-    }
+    const score = TRAINING_RANK_SCORE[rankM[1]];
+    if (score !== undefined) map.set(idM[1], score);
   }
 
   return map;
@@ -556,6 +503,7 @@ export type RaceEntryHorse = {
   horse: string;
   netKeibaHorseId: string;
   jockey: string;
+  jockeyId: string;
   odds: number | null;
 };
 
@@ -679,10 +627,17 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
       const nextPos = matches[idx + 1]?.index ?? html.length;
       const segment = html.substring(Math.max(0, pos - 300), nextPos);
 
+      // <dd class="Jockey"><a href=".../jockey/01222/?rf=shutuba">▲<em>森田</em> 52.0</a><!--01222--></dd>
       let jockey = "";
-      const jockeyM = segment.match(/href="[^"]*\/jockey\/[^"]*"[^>]*>([^<]{2,8})<\/a>/) ??
-        segment.match(/class="[^"]*Jockey[^"]*"[^>]*>(?:<[^>]+>)*([^<]{2,8})/);
-      if (jockeyM) jockey = stripTags(jockeyM[1]).trim();
+      let jockeyId = "";
+      const jockeyBlockM = segment.match(/<dd class="Jockey">([\s\S]*?)<\/dd>/);
+      if (jockeyBlockM) {
+        const block = jockeyBlockM[1];
+        const idM = block.match(/\/jockey\/(\d+)\//);
+        const nameM = block.match(/<em>([^<]+)<\/em>/);
+        if (idM) jockeyId = idM[1];
+        if (nameM) jockey = nameM[1].trim();
+      }
 
       let odds: number | null = null;
       const oddsM = segment.match(/class="[^"]*Odds[^"]*"[^>]*>\s*<[^>]+>\s*([\d.]+)/) ??
@@ -699,6 +654,7 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
         horse: horseName,
         netKeibaHorseId: horseId,
         jockey,
+        jockeyId,
         odds,
       };
     });

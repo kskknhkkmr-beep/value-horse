@@ -15,20 +15,19 @@ import { join } from "node:path";
 
 import { horses as mockHorses, races as mockRaces } from "../lib/mockData";
 import {
-  fetchHorseIdMap,
+  fetchRaceEntry,
   fetchHorseResults,
   fetchJockeyStats,
-  fetchJockeyId,
   fetchTrainingScores,
-  JOCKEY_IDS,
 } from "../lib/scraper";
+import type { JockeyStats } from "../lib/scorer";
 import {
   calcFormScore,
   calcPedigreeScore,
   calcJockeyScore,
   type HorseScores,
 } from "../lib/scorer";
-import type { RacesCache, CachedRace, CachedHorse } from "./fetch-races";
+import type { RacesCache } from "./fetch-races";
 
 // ── mockData 用レース条件（races-cache がない場合のフォールバック）────────────
 const MOCK_RACE_CONDITIONS: Record<number, { netKeibaRaceId: string; surface: "芝" | "ダ" | "障"; distance: number }> = {
@@ -62,9 +61,21 @@ async function main() {
   console.log(usingCache ? "データソース: races-cache.json" : "データソース: mockData（フォールバック）");
 
   const scores: Record<number, HorseScores> = {};
-  const jockeyCache = new Map<string, { wins: number; rides: number; places: number } | null>();
-  // セッション内で解決済みの騎手ID（JOCKEY_IDS にない騎手を自動検索した結果）
-  const resolvedJockeyIds = new Map<string, string | null>(Object.entries(JOCKEY_IDS));
+  // netkeiba 騎手ID → JockeyStats（同一レース内・レース間で使い回す）
+  const jockeyCache = new Map<string, JockeyStats | null>();
+
+  async function getJockeyScore(jockeyId: string, jockeyName: string): Promise<number> {
+    if (!jockeyId) return DEFAULT_SCORE;
+    if (!jockeyCache.has(jockeyId)) {
+      jockeyCache.set(jockeyId, await fetchJockeyStats(jockeyId));
+    }
+    const jStats = jockeyCache.get(jockeyId) ?? null;
+    if (!jStats) return DEFAULT_SCORE;
+    const score = calcJockeyScore(jStats);
+    const wr = ((jStats.wins / jStats.rides) * 100).toFixed(1);
+    console.log(`     騎手 ${jockeyName}(${jockeyId}) ${jStats.wins}勝/${jStats.rides}戦 (勝率${wr}%) → jockeyScore=${score}`);
+    return score;
+  }
 
   // ── races-cache.json がある場合 ───────────────────────────────────────────
   if (usingCache && racesCache) {
@@ -76,7 +87,7 @@ async function main() {
     for (const race of targetRaces) {
       console.log(`\n━━ Race ${race.id}: ${race.raceName} (${race.venue} ${race.surface}${race.distance}m) ━━`);
 
-      // 追い切り評価: レース単位で一括取得
+      // 追い切り評価: レース単位で一括取得（馬IDキー）
       console.log(`  追い切り取得中...`);
       const trainingMap = await fetchTrainingScores(race.netKeibaRaceId);
       console.log(`  追い切り評価取得: ${trainingMap.size}頭`);
@@ -85,7 +96,7 @@ async function main() {
         const jockeyName = horse.jockey ?? "";
         console.log(`\n  [${horse.horseNumber}] ${horse.horse} / ${jockeyName}`);
 
-        // 馬近走成績: netKeibaHorseId を直接使用（fetchHorseIdMap 不要）
+        // 馬近走成績: netKeibaHorseId を直接使用
         let formScore = DEFAULT_SCORE;
         let pedigreeScore = DEFAULT_SCORE;
 
@@ -103,34 +114,12 @@ async function main() {
           }
         }
 
-        // 騎手成績（IDが未解決の場合は自動検索）
-        let jockeyScore = DEFAULT_SCORE;
-        if (jockeyName && !jockeyCache.has(jockeyName)) {
-          let jId = resolvedJockeyIds.get(jockeyName) ?? null;
-          if (jId === undefined) {
-            // JOCKEY_IDS にも resolvedJockeyIds にもない → 自動検索
-            console.log(`     騎手ID自動検索: "${jockeyName}"`);
-            jId = await fetchJockeyId(jockeyName);
-            resolvedJockeyIds.set(jockeyName, jId);
-            if (jId) console.log(`     → ID発見: ${jId}`);
-            else console.log(`     → 未発見`);
-          }
-          if (jId) {
-            jockeyCache.set(jockeyName, await fetchJockeyStats(jId));
-          } else {
-            jockeyCache.set(jockeyName, null);
-          }
-        }
-        const jStats = jockeyName ? (jockeyCache.get(jockeyName) ?? null) : null;
-        if (jStats) {
-          jockeyScore = calcJockeyScore(jStats);
-          const wr = ((jStats.wins / jStats.rides) * 100).toFixed(1);
-          console.log(`     騎手 ${jStats.wins}勝/${jStats.rides}戦 (勝率${wr}%) → jockeyScore=${jockeyScore}`);
-        }
+        // 騎手成績: 出馬表から直接取得した netkeiba 騎手ID を使用（名前照合は行わない）
+        const jockeyScore = await getJockeyScore(horse.jockeyId ?? "", jockeyName);
 
-        // 追い切り評価
-        const trainingScore = trainingMap.get(horse.horse) ?? DEFAULT_SCORE;
-        const trainingSrc = trainingMap.has(horse.horse) ? "取得" : `デフォルト(${DEFAULT_SCORE})`;
+        // 追い切り評価: netKeibaHorseId で照合
+        const trainingScore = trainingMap.get(horse.netKeibaHorseId) ?? DEFAULT_SCORE;
+        const trainingSrc = trainingMap.has(horse.netKeibaHorseId) ? "取得" : `デフォルト(${DEFAULT_SCORE})`;
         console.log(`     ✓ form=${formScore} pedigree=${pedigreeScore} jockey=${jockeyScore} training=${trainingScore}(${trainingSrc})`);
         scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore };
       }
@@ -146,40 +135,43 @@ async function main() {
       const raceHorses = mockHorses.filter((h) => h.raceId === race.id);
       console.log(`\n━━ Race ${race.id}: ${race.raceName} (${race.venue} ${cond.surface}${cond.distance}m) ━━`);
 
-      const horseIdMap = await fetchHorseIdMap(cond.netKeibaRaceId);
-      console.log(`   馬ID取得: ${horseIdMap.size}頭`);
+      // 出馬表を実際に取得し、馬ID・騎手ID・追い切り評価を名前照合で引き当てる
+      const entry = await fetchRaceEntry(cond.netKeibaRaceId);
+      const entryByName = new Map((entry?.horses ?? []).map((h) => [h.horse, h]));
+      console.log(`   出馬表取得: ${entryByName.size}頭`);
+
+      const trainingMap = await fetchTrainingScores(cond.netKeibaRaceId);
+      console.log(`   追い切り評価取得: ${trainingMap.size}頭`);
 
       for (const horse of raceHorses) {
         const jockeyName = (horse as { jockey?: string }).jockey ?? "";
         console.log(`\n  [${horse.horseNumber ?? horse.id}] ${horse.horse} / ${jockeyName}`);
 
+        const matched = entryByName.get(horse.horse);
+
         let formScore = DEFAULT_SCORE;
         let pedigreeScore = DEFAULT_SCORE;
-        const horseId = horseIdMap.get(horse.horse);
-        if (horseId) {
-          const results = await fetchHorseResults(horseId);
+        if (matched?.netKeibaHorseId) {
+          const results = await fetchHorseResults(matched.netKeibaHorseId);
           if (results.length > 0) {
             formScore = calcFormScore(results);
             pedigreeScore = calcPedigreeScore(results, cond.surface, cond.distance);
-            const matched = results.filter(
+            const matchedCount = results.filter(
               (r) => r.surface === cond.surface && Math.abs(r.distance - cond.distance) <= 200
             ).length;
-            console.log(`     近走 ${results.length}走 (同条件 ${matched}走) → form=${formScore}, pedigree=${pedigreeScore}`);
+            console.log(`     近走 ${results.length}走 (同条件 ${matchedCount}走) → form=${formScore}, pedigree=${pedigreeScore}`);
           }
         }
 
-        let jockeyScore = DEFAULT_SCORE;
-        if (jockeyName && !jockeyCache.has(jockeyName)) {
-          const jId = JOCKEY_IDS[jockeyName];
-          jockeyCache.set(jockeyName, jId ? await fetchJockeyStats(jId) : null);
-        }
-        const jStats = jockeyName ? (jockeyCache.get(jockeyName) ?? null) : null;
-        if (jStats) {
-          jockeyScore = calcJockeyScore(jStats);
-          console.log(`     騎手 ${jStats.wins}勝/${jStats.rides}戦 → jockeyScore=${jockeyScore}`);
-        }
+        // 騎手成績: 出馬表側の実データを優先し、mockData の名前は表示用のみに使う
+        const jockeyId = matched?.jockeyId ?? "";
+        const jockeyScore = await getJockeyScore(jockeyId, matched?.jockey ?? jockeyName);
 
-        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore: DEFAULT_SCORE };
+        const trainingScore = matched?.netKeibaHorseId
+          ? (trainingMap.get(matched.netKeibaHorseId) ?? DEFAULT_SCORE)
+          : DEFAULT_SCORE;
+
+        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore };
       }
     }
   }

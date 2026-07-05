@@ -28,6 +28,7 @@ export type CachedHorse = {
   horse: string;
   netKeibaHorseId: string;
   jockey: string;
+  jockeyId: string;
   odds: number | null;
 };
 
@@ -161,6 +162,7 @@ async function main() {
           horse: h.horse,
           netKeibaHorseId: h.netKeibaHorseId,
           jockey: h.jockey,
+          jockeyId: h.jockeyId,
           odds: winOddsMap.get(h.horseNumber) ?? null,
         })),
       };
