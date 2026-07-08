@@ -6,8 +6,9 @@ type Horse = {
 
   formScore: number;
   pedigreeScore: number;
-  trainingScore: number;
-  jockeyScore: number;
+  // 追い切り・騎手は取得不能なら null（欠損）。欠損時は重みを再配分する。
+  trainingScore: number | null;
+  jockeyScore: number | null;
 
   odds: number;
 };
@@ -42,17 +43,40 @@ function formTrainingInteraction(f: number, t: number): number {
 // -----------------------
 // strength
 // -----------------------
+// ベース要素の元ウェイト。欠損 feature は式から外し、残りの重みを合計 0.85
+// （= 全ベースウェイト）へ再正規化する。全 feature が揃っていれば従来と完全一致。
+const BASE_WEIGHT = { form: 0.3, pedigree: 0.2, training: 0.2, jockey: 0.15 };
+const TOTAL_BASE_WEIGHT =
+  BASE_WEIGHT.form + BASE_WEIGHT.pedigree + BASE_WEIGHT.training + BASE_WEIGHT.jockey;
+
 export function calculateStrength(h: Horse): number {
-  const form = sigmoid(h.formScore);
-  const pedigree = Math.pow(h.pedigreeScore, 1.2);
-  const training = sigmoid(h.trainingScore * 1.1);
-  const jockey = Math.pow(h.jockeyScore, 1.3);
+  // 利用可能なベース要素のみを集める（form・pedigree は常に存在）
+  const base: Array<{ value: number; weight: number }> = [
+    { value: sigmoid(h.formScore), weight: BASE_WEIGHT.form },
+    { value: Math.pow(h.pedigreeScore, 1.2), weight: BASE_WEIGHT.pedigree },
+  ];
+  if (h.trainingScore != null) {
+    base.push({ value: sigmoid(h.trainingScore * 1.1), weight: BASE_WEIGHT.training });
+  }
+  if (h.jockeyScore != null) {
+    base.push({ value: Math.pow(h.jockeyScore, 1.3), weight: BASE_WEIGHT.jockey });
+  }
 
-  const interaction =
-    jockeyHorseInteraction(h.jockeyScore, h.pedigreeScore) * 0.1 +
-    formTrainingInteraction(h.formScore, h.trainingScore) * 0.05;
+  // 欠損ぶんの重みを残り要素へ再配分（合計ウェイトを一定に保つ）
+  const availWeight = base.reduce((s, b) => s + b.weight, 0);
+  const scale = availWeight > 0 ? TOTAL_BASE_WEIGHT / availWeight : 0;
+  const baseSum = base.reduce((s, b) => s + b.value * b.weight * scale, 0);
 
-  return form * 0.3 + pedigree * 0.2 + training * 0.2 + jockey * 0.15 + interaction;
+  // 交互作用は必要な feature が揃っている場合のみ加算
+  let interaction = 0;
+  if (h.jockeyScore != null) {
+    interaction += jockeyHorseInteraction(h.jockeyScore, h.pedigreeScore) * 0.1;
+  }
+  if (h.trainingScore != null) {
+    interaction += formTrainingInteraction(h.formScore, h.trainingScore) * 0.05;
+  }
+
+  return baseSum + interaction;
 }
 
 // -----------------------

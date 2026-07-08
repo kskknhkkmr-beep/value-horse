@@ -88,14 +88,15 @@ async function main() {
   // netkeiba 騎手ID → JockeyStats（同一レース内・レース間で使い回す）
   const jockeyCache = new Map<string, JockeyStats | null>();
 
-  async function getJockeyScore(jockeyId: string, jockeyName: string): Promise<number> {
-    if (!jockeyId) return DEFAULT_SCORE;
+  async function getJockeyScore(jockeyId: string, jockeyName: string): Promise<number | null> {
+    if (!jockeyId) return null;
     if (!jockeyCache.has(jockeyId)) {
       jockeyCache.set(jockeyId, await fetchJockeyStats(jockeyId));
     }
     const jStats = jockeyCache.get(jockeyId) ?? null;
-    if (!jStats) return DEFAULT_SCORE;
+    if (!jStats) return null;
     const score = calcJockeyScore(jStats);
+    if (score == null) return null;
     const wr = ((jStats.wins / jStats.rides) * 100).toFixed(1);
     console.log(`     騎手 ${jockeyName}(${jockeyId}) ${jStats.wins}勝/${jStats.rides}戦 (勝率${wr}%) → jockeyScore=${score}`);
     return score;
@@ -141,9 +142,9 @@ async function main() {
         // 騎手成績: 出馬表から直接取得した netkeiba 騎手ID を使用（名前照合は行わない）
         const jockeyScore = await getJockeyScore(horse.jockeyId ?? "", jockeyName);
 
-        // 追い切り評価: netKeibaHorseId で照合
-        const trainingScore = trainingMap.get(horse.netKeibaHorseId) ?? DEFAULT_SCORE;
-        const trainingSrc = trainingMap.has(horse.netKeibaHorseId) ? "取得" : `デフォルト(${DEFAULT_SCORE})`;
+        // 追い切り評価: netKeibaHorseId で照合。取得不能は null（欠損）
+        const trainingScore = trainingMap.get(horse.netKeibaHorseId) ?? null;
+        const trainingSrc = trainingMap.has(horse.netKeibaHorseId) ? "取得" : "欠損(null)";
         console.log(`     ✓ form=${formScore} pedigree=${pedigreeScore} jockey=${jockeyScore} training=${trainingScore}(${trainingSrc})`);
         scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore, modelVersion: CURRENT_MODEL_VERSION, computedAt };
       }
@@ -192,8 +193,8 @@ async function main() {
         const jockeyScore = await getJockeyScore(jockeyId, matched?.jockey ?? jockeyName);
 
         const trainingScore = matched?.netKeibaHorseId
-          ? (trainingMap.get(matched.netKeibaHorseId) ?? DEFAULT_SCORE)
-          : DEFAULT_SCORE;
+          ? (trainingMap.get(matched.netKeibaHorseId) ?? null)
+          : null;
 
         scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore, modelVersion: CURRENT_MODEL_VERSION, computedAt };
       }

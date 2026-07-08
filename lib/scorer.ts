@@ -25,8 +25,10 @@ export const CURRENT_MODEL_VERSION: ModelVersion = "v2";
 export interface HorseScores {
   formScore: number;
   pedigreeScore: number;
-  jockeyScore: number;
-  trainingScore: number;
+  /** 騎手スコア。取得不能な場合は null（「データ欠損」を「平均評価」と区別する）。 */
+  jockeyScore: number | null;
+  /** 追い切りスコア。取得不能な場合は null。 */
+  trainingScore: number | null;
   /** このスコアを算出したコードのバージョン。未設定(旧データ)は v1 とみなす。 */
   modelVersion?: ModelVersion;
   /** このスコアを算出した時刻(ISO)。 */
@@ -87,9 +89,10 @@ export function calcPedigreeScore(
 /**
  * 騎手の勝率・連対率からスコアを計算（0-100）
  * JRAトップ騎手: 勝率~20% → 約80点, 連対率~35% → 約52点
+ * 騎乗実績が無い場合は null（欠損）を返す。
  */
-export function calcJockeyScore(stats: JockeyStats): number {
-  if (stats.rides === 0) return 65;
+export function calcJockeyScore(stats: JockeyStats): number | null {
+  if (stats.rides === 0) return null;
   const winRate = stats.wins / stats.rides;
   const placeRate = stats.places / stats.rides;
   const raw = winRate * 400 + placeRate * 150;
