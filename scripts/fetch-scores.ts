@@ -25,6 +25,7 @@ import {
   calcFormScore,
   calcPedigreeScore,
   calcJockeyScore,
+  CURRENT_MODEL_VERSION,
   type HorseScores,
 } from "../lib/scorer";
 import type { RacesCache } from "./fetch-races";
@@ -51,6 +52,23 @@ function loadRacesCache(): RacesCache | null {
   }
 }
 
+// ── 既存スコア読み込み（累積 upsert 用）──────────────────────────────────────
+// fetch-scores は latestDates のレースだけ再計算するため、既存スコアを土台に
+// 読み込んでから今回分を上書き（upsert）する。これで過去週（v1 含む）の
+// スコアを破壊せず、モデルバージョンをまたいで履歴が残る。
+
+function loadExistingScores(outPath: string): Record<number, HorseScores> {
+  const result: Record<number, HorseScores> = {};
+  if (!existsSync(outPath)) return result;
+  try {
+    const raw = JSON.parse(readFileSync(outPath, "utf-8")) as { scores?: Record<string, HorseScores> };
+    for (const [k, v] of Object.entries(raw.scores ?? {})) result[Number(k)] = v;
+  } catch {
+    // 壊れたキャッシュは無視
+  }
+  return result;
+}
+
 // ── メイン ────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -60,7 +78,13 @@ async function main() {
   const usingCache = racesCache !== null;
   console.log(usingCache ? "データソース: races-cache.json" : "データソース: mockData（フォールバック）");
 
-  const scores: Record<number, HorseScores> = {};
+  const outPath = join(process.cwd(), "lib", "scores-cache.json");
+  const computedAt = new Date().toISOString();
+
+  // 既存スコアを土台に読み込み、今回算出分だけを upsert する（累積）
+  const scores: Record<number, HorseScores> = loadExistingScores(outPath);
+  const existingCount = Object.keys(scores).length;
+  console.log(`既存スコア: ${existingCount} 頭（今回算出分を upsert）`);
   // netkeiba 騎手ID → JockeyStats（同一レース内・レース間で使い回す）
   const jockeyCache = new Map<string, JockeyStats | null>();
 
@@ -121,7 +145,7 @@ async function main() {
         const trainingScore = trainingMap.get(horse.netKeibaHorseId) ?? DEFAULT_SCORE;
         const trainingSrc = trainingMap.has(horse.netKeibaHorseId) ? "取得" : `デフォルト(${DEFAULT_SCORE})`;
         console.log(`     ✓ form=${formScore} pedigree=${pedigreeScore} jockey=${jockeyScore} training=${trainingScore}(${trainingSrc})`);
-        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore };
+        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore, modelVersion: CURRENT_MODEL_VERSION, computedAt };
       }
     }
   } else {
@@ -171,22 +195,21 @@ async function main() {
           ? (trainingMap.get(matched.netKeibaHorseId) ?? DEFAULT_SCORE)
           : DEFAULT_SCORE;
 
-        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore };
+        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore, modelVersion: CURRENT_MODEL_VERSION, computedAt };
       }
     }
   }
 
   // ── 出力 ─────────────────────────────────────────────────────────────────
   const output = {
-    fetchedAt: new Date().toISOString(),
+    fetchedAt: computedAt,
     source: "netkeiba db.netkeiba.com / race.sp.netkeiba.com",
     scores,
   };
 
-  const outPath = join(process.cwd(), "lib", "scores-cache.json");
   writeFileSync(outPath, JSON.stringify(output, null, 2), "utf-8");
   console.log(`\n✓ 書き出し完了: ${outPath}`);
-  console.log(`  対象馬数: ${Object.keys(scores).length}`);
+  console.log(`  累積馬数: ${Object.keys(scores).length}（新規/更新を含む）`);
 }
 
 main().catch((err) => {

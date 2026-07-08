@@ -12,11 +12,25 @@ export interface JockeyStats {
   places: number; // 1着 + 2着の合計
 }
 
+/**
+ * モデルバージョン。算出コードの実体が変わった境界を表す。
+ *   v1: jockeyScore・trainingScore がデフォルト値(65)固定だった旧モデル（2feature相当、〜2026-07-05）
+ *   v2: jockeyScore・trainingScore を実データ化した現行モデル（4feature、be7add6 以降）
+ */
+export type ModelVersion = "v1" | "v2";
+
+/** 現行 fetch-scores が付与するモデルバージョン */
+export const CURRENT_MODEL_VERSION: ModelVersion = "v2";
+
 export interface HorseScores {
   formScore: number;
   pedigreeScore: number;
   jockeyScore: number;
   trainingScore: number;
+  /** このスコアを算出したコードのバージョン。未設定(旧データ)は v1 とみなす。 */
+  modelVersion?: ModelVersion;
+  /** このスコアを算出した時刻(ISO)。 */
+  computedAt?: string;
 }
 
 // 直近レースほど高ウェイト

@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 import { calculateScore } from "@/lib/engine";
 import type { RacesCache } from "@/scripts/fetch-races";
 import type { ResultsCache } from "@/scripts/fetch-results";
-import type { HorseScores } from "@/lib/scorer";
+import type { HorseScores, ModelVersion } from "@/lib/scorer";
 
 const EV_MIN = 0.10;
 const EDGE_MIN = 0.02;
@@ -42,6 +42,16 @@ export type BacktestRaceRecord = {
   hit: boolean;             // いずれかの馬が的中
   investedUnits: number;
   returnUnits: number;
+  modelVersion: ModelVersion; // このレースのスコアを算出したモデルのバージョン
+};
+
+export type BacktestStats = {
+  racesWithResult: number;
+  racesWithEvPositive: number;
+  totalBets: number;
+  totalReturn: number;
+  roi: number;
+  hitRate: number;
 };
 
 export type BacktestResponse = {
@@ -53,8 +63,23 @@ export type BacktestResponse = {
   roi: number;
   hitRate: number;
   realDataOnly: boolean;
+  // モデルバージョン別の分離集計（v1/v2 を混ぜて表示しないため）
+  byVersion: Record<ModelVersion, BacktestStats>;
   records: BacktestRaceRecord[];
 };
+
+/** レコード集合から集計統計を算出 */
+function computeStats(records: BacktestRaceRecord[]): BacktestStats {
+  const racesWithResult = records.length;
+  const withEv = records.filter((r) => r.investedUnits > 0);
+  const racesWithEvPositive = withEv.length;
+  const totalBets = records.reduce((s, r) => s + r.investedUnits, 0);
+  const totalReturn = records.reduce((s, r) => s + r.returnUnits, 0);
+  const roi = totalBets > 0 ? ((totalReturn - totalBets) / totalBets) * 100 : 0;
+  const hitRaceCount = withEv.filter((r) => r.hit).length;
+  const hitRate = racesWithEvPositive > 0 ? (hitRaceCount / racesWithEvPositive) * 100 : 0;
+  return { racesWithResult, racesWithEvPositive, totalBets, totalReturn, roi, hitRate };
+}
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -140,6 +165,13 @@ export async function GET(request: Request) {
       return { horse: h.name, odds: h.odds, hit: isHit, returnUnits: isHit ? h.odds : 0 };
     });
 
+    // レースのモデルバージョン: 出走馬に v2 スコアが1頭でもあれば v2、なければ v1
+    const raceVersion: ModelVersion = horsesWithOdds.some(
+      (h) => scoresById[h.id]?.modelVersion === "v2"
+    )
+      ? "v2"
+      : "v1";
+
     records.push({
       raceId: race.id,
       raceNumber: race.raceNumber,
@@ -151,6 +183,7 @@ export async function GET(request: Request) {
       hit: horsesDetail.some((h) => h.hit),
       investedUnits: horsesDetail.length,
       returnUnits: horsesDetail.reduce((s, h) => s + h.returnUnits, 0),
+      modelVersion: raceVersion,
     });
   }
 
@@ -213,6 +246,7 @@ export async function GET(request: Request) {
         hit: horsesDetail.some((h) => h.hit),
         investedUnits: horsesDetail.length,
         returnUnits: horsesDetail.reduce((s, h) => s + h.returnUnits, 0),
+        modelVersion: "v1", // 過去週データ（デフォルトスコア）は旧モデル扱い
       });
     }
   }
@@ -226,23 +260,17 @@ export async function GET(request: Request) {
     return a.raceNumber - b.raceNumber;
   });
 
-  const racesWithResult = records.length;
-  const racesWithEvPositive = records.filter((r) => r.investedUnits > 0).length;
-  const totalBets = records.reduce((s, r) => s + r.investedUnits, 0);
-  const totalReturn = records.reduce((s, r) => s + r.returnUnits, 0);
-  const roi = totalBets > 0 ? ((totalReturn - totalBets) / totalBets) * 100 : 0;
-  const hitRaceCount = records.filter((r) => r.investedUnits > 0 && r.hit).length;
-  const hitRate = racesWithEvPositive > 0 ? (hitRaceCount / racesWithEvPositive) * 100 : 0;
+  const overall = computeStats(records);
+  const byVersion: Record<ModelVersion, BacktestStats> = {
+    v1: computeStats(records.filter((r) => r.modelVersion === "v1")),
+    v2: computeStats(records.filter((r) => r.modelVersion === "v2")),
+  };
 
   return NextResponse.json({
     totalRaces: records.length,
-    racesWithResult,
-    racesWithEvPositive,
-    totalBets,
-    totalReturn,
-    roi,
-    hitRate,
+    ...overall,
     realDataOnly,
+    byVersion,
     records,
   } satisfies BacktestResponse);
 }

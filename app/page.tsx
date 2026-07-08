@@ -38,6 +38,8 @@ type BacktestHorse = {
   returnUnits: number;
 };
 
+type ModelVersion = "v1" | "v2";
+
 type BacktestRaceRecord = {
   raceId: number;
   raceNumber: number;
@@ -49,6 +51,16 @@ type BacktestRaceRecord = {
   hit: boolean;
   investedUnits: number;
   returnUnits: number;
+  modelVersion: ModelVersion;
+};
+
+type BacktestStats = {
+  racesWithResult: number;
+  racesWithEvPositive: number;
+  totalBets: number;
+  totalReturn: number;
+  roi: number;
+  hitRate: number;
 };
 
 type BacktestResponse = {
@@ -60,6 +72,7 @@ type BacktestResponse = {
   roi: number;
   hitRate: number;
   realDataOnly: boolean;
+  byVersion: Record<ModelVersion, BacktestStats>;
   records: BacktestRaceRecord[];
 };
 
@@ -100,6 +113,8 @@ export default function Home() {
   const [unitAmount, setUnitAmount] = useState(1000);
   const [backtest, setBacktest] = useState<BacktestResponse | null>(null);
   const [realDataOnly, setRealDataOnly] = useState(false);
+  // 過去実績のモデルバージョン絞り込み（v1/v2 を混ぜて表示しない）
+  const [versionFilter, setVersionFilter] = useState<"all" | ModelVersion>("all");
   // 階層ナビ
   const [selectedYear, setSelectedYear] = useState<string | null>(null);
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
@@ -141,10 +156,21 @@ export default function Home() {
   const comboBets = score?.comboBets ?? [];
   const hasBets = evPositive.length > 0 || comboBets.length > 0;
 
+  // モデルバージョンで絞り込んだレコード（all の場合は全件）
+  const versionRecords = (backtest?.records ?? []).filter(
+    (r) => versionFilter === "all" || r.modelVersion === versionFilter
+  );
+  // 表示する集計統計（all=全体, v1/v2=byVersion）
+  const displayStats: BacktestStats | null = !backtest
+    ? null
+    : versionFilter === "all"
+      ? backtest
+      : backtest.byVersion[versionFilter];
+
   // 過去実績: EV+レースのみ（ナビ用カウント・統計）
-  const activeRecords = (backtest?.records ?? []).filter((r) => r.investedUnits > 0);
+  const activeRecords = versionRecords.filter((r) => r.investedUnits > 0);
   // 全レース（見送り含む）— レース一覧表示に使用
-  const allRecords = backtest?.records ?? [];
+  const allRecords = versionRecords;
 
   const years = [...new Set(activeRecords.map((r) => r.date.slice(0, 4)))].sort().reverse();
 
@@ -416,6 +442,35 @@ export default function Home() {
             </label>
           </div>
 
+          {/* モデルバージョン切替（v1/v2 を混ぜて表示しない） */}
+          <div className="flex items-center gap-1 text-[10px]">
+            {([
+              ["all", "全体"],
+              ["v2", "v2（実データ）"],
+              ["v1", "v1（旧）"],
+            ] as const).map(([v, label]) => {
+              const count = !backtest
+                ? 0
+                : v === "all"
+                  ? backtest.racesWithResult
+                  : backtest.byVersion[v].racesWithResult;
+              return (
+                <button
+                  key={v}
+                  onClick={() => setVersionFilter(v)}
+                  className={`px-2 py-0.5 border tracking-wide transition-colors ${
+                    versionFilter === v
+                      ? "border-gray-800 bg-gray-800 text-white"
+                      : "border-gray-200 text-gray-400 hover:border-gray-400"
+                  }`}
+                >
+                  {label}
+                  <span className="ml-1 tabular-nums opacity-70">{count}R</span>
+                </button>
+              );
+            })}
+          </div>
+
           {!backtest ? (
             <div className="text-center py-8 text-gray-300 text-xs tracking-widest">
               LOADING...
@@ -427,24 +482,24 @@ export default function Home() {
             </div>
           ) : (
             <>
-              {/* サマリー（1行） */}
+              {/* サマリー（1行）— 選択中モデルバージョンの集計 */}
               <div className="flex items-center gap-4 px-1 py-1 text-xs text-gray-500 border-b border-gray-100">
                 <span>
                   ROI{" "}
-                  <span className={`font-bold tabular-nums ${backtest.roi >= 0 ? "text-blue-600" : "text-red-400"}`}>
-                    {backtest.roi >= 0 ? "+" : ""}{backtest.roi.toFixed(1)}%
+                  <span className={`font-bold tabular-nums ${(displayStats?.roi ?? 0) >= 0 ? "text-blue-600" : "text-red-400"}`}>
+                    {(displayStats?.roi ?? 0) >= 0 ? "+" : ""}{(displayStats?.roi ?? 0).toFixed(1)}%
                   </span>
                 </span>
                 <span>
                   的中率{" "}
                   <span className="font-bold text-gray-900 tabular-nums">
-                    {backtest.hitRate.toFixed(0)}%
+                    {(displayStats?.hitRate ?? 0).toFixed(0)}%
                   </span>
                 </span>
                 <span>
                   対象{" "}
                   <span className="font-bold text-gray-900 tabular-nums">
-                    {backtest.racesWithEvPositive}R
+                    {displayStats?.racesWithEvPositive ?? 0}R
                   </span>
                 </span>
               </div>
