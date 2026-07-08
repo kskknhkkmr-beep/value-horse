@@ -11,7 +11,8 @@
     "fetch-scores": "tsx scripts/fetch-scores.ts",
     "fetch-results": "tsx scripts/fetch-results.ts",
     "fetch-odds": "tsx scripts/fetch-odds.ts",
-    "fetch-all": "npm run fetch-races && npm run fetch-scores"
+    "fetch-all": "npm run fetch-races && npm run fetch-scores",
+    "snapshot": "tsx scripts/snapshot-predictions.ts"
   },
   "dependencies": {
     "next": "16.2.7",
