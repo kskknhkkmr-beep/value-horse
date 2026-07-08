@@ -9,7 +9,11 @@ import type { HorseScores, ModelVersion } from "@/lib/scorer";
 
 const EV_MIN = 0.10;
 const EDGE_MIN = 0.02;
+// 本番の買い目・records はこの上限で確定する（従来通り）。
 const ODDS_MAX = 50;
+// 並行計測する odds 上限。favorite-longshot bias 検証のため 20 を併記。
+// いずれも records（odds<=ODDS_MAX）の部分集合なので records から派生集計する。
+const ODDS_MAX_VARIANTS = [50, 20];
 const DEFAULT = 65;
 
 type ScoresCache = Record<number, HorseScores>;
@@ -54,6 +58,12 @@ export type BacktestStats = {
   hitRate: number;
 };
 
+// odds 上限ごとの集計（全体 + モデルバージョン別）
+export type OddsMaxVariant = {
+  overall: BacktestStats;
+  byVersion: Record<ModelVersion, BacktestStats>;
+};
+
 export type BacktestResponse = {
   totalRaces: number;
   racesWithResult: number;
@@ -65,6 +75,8 @@ export type BacktestResponse = {
   realDataOnly: boolean;
   // モデルバージョン別の分離集計（v1/v2 を混ぜて表示しないため）
   byVersion: Record<ModelVersion, BacktestStats>;
+  // odds 上限別（"50"=本番, "20"=引き下げ案）の並行計測結果
+  oddsMaxVariants: Record<string, OddsMaxVariant>;
   records: BacktestRaceRecord[];
 };
 
@@ -79,6 +91,31 @@ function computeStats(records: BacktestRaceRecord[]): BacktestStats {
   const hitRaceCount = withEv.filter((r) => r.hit).length;
   const hitRate = racesWithEvPositive > 0 ? (hitRaceCount / racesWithEvPositive) * 100 : 0;
   return { racesWithResult, racesWithEvPositive, totalBets, totalReturn, roi, hitRate };
+}
+
+/**
+ * odds 上限 cap で records を再フィルタして集計（全体 + バージョン別）。
+ * records は既に odds<=ODDS_MAX の馬のみを持つため、cap<=ODDS_MAX なら
+ * 各レコードの馬を odds<=cap で絞り直すだけで派生集計できる。
+ */
+function computeVariant(records: BacktestRaceRecord[], cap: number): OddsMaxVariant {
+  const adj: BacktestRaceRecord[] = records.map((r) => {
+    const horses = r.horses.filter((h) => h.odds <= cap);
+    return {
+      ...r,
+      horses,
+      hit: horses.some((h) => h.hit),
+      investedUnits: horses.length,
+      returnUnits: horses.reduce((s, h) => s + h.returnUnits, 0),
+    };
+  });
+  return {
+    overall: computeStats(adj),
+    byVersion: {
+      v1: computeStats(adj.filter((r) => r.modelVersion === "v1")),
+      v2: computeStats(adj.filter((r) => r.modelVersion === "v2")),
+    },
+  };
 }
 
 export async function GET(request: Request) {
@@ -263,17 +300,21 @@ export async function GET(request: Request) {
     return a.raceNumber - b.raceNumber;
   });
 
-  const overall = computeStats(records);
-  const byVersion: Record<ModelVersion, BacktestStats> = {
-    v1: computeStats(records.filter((r) => r.modelVersion === "v1")),
-    v2: computeStats(records.filter((r) => r.modelVersion === "v2")),
-  };
+  // odds 上限別の並行計測（"50"=本番, "20"=引き下げ案 …）
+  const oddsMaxVariants: Record<string, OddsMaxVariant> = {};
+  for (const cap of ODDS_MAX_VARIANTS) {
+    oddsMaxVariants[String(cap)] = computeVariant(records, cap);
+  }
+
+  // トップレベル・byVersion は本番 ODDS_MAX(=50) 相当（従来互換）
+  const primary = oddsMaxVariants[String(ODDS_MAX)];
 
   return NextResponse.json({
     totalRaces: records.length,
-    ...overall,
+    ...primary.overall,
     realDataOnly,
-    byVersion,
+    byVersion: primary.byVersion,
+    oddsMaxVariants,
     records,
   } satisfies BacktestResponse);
 }

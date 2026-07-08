@@ -63,6 +63,11 @@ type BacktestStats = {
   hitRate: number;
 };
 
+type OddsMaxVariant = {
+  overall: BacktestStats;
+  byVersion: Record<ModelVersion, BacktestStats>;
+};
+
 type BacktestResponse = {
   totalRaces: number;
   racesWithResult: number;
@@ -73,6 +78,7 @@ type BacktestResponse = {
   hitRate: number;
   realDataOnly: boolean;
   byVersion: Record<ModelVersion, BacktestStats>;
+  oddsMaxVariants: Record<string, OddsMaxVariant>;
   records: BacktestRaceRecord[];
 };
 
@@ -115,6 +121,8 @@ export default function Home() {
   const [realDataOnly, setRealDataOnly] = useState(false);
   // 過去実績のモデルバージョン絞り込み（v1/v2 を混ぜて表示しない）
   const [versionFilter, setVersionFilter] = useState<"all" | ModelVersion>("all");
+  // ODDS_MAX 並行計測（50 vs 20）の開閉
+  const [showOddsCompare, setShowOddsCompare] = useState(false);
   // 階層ナビ
   const [selectedYear, setSelectedYear] = useState<string | null>(null);
   const [selectedMonth, setSelectedMonth] = useState<string | null>(null);
@@ -166,6 +174,13 @@ export default function Home() {
     : versionFilter === "all"
       ? backtest
       : backtest.byVersion[versionFilter];
+
+  // ODDS_MAX 上限別スタッツ（現在の versionFilter を反映）
+  const variantStats = (key: string): BacktestStats | null => {
+    const v = backtest?.oddsMaxVariants?.[key];
+    if (!v) return null;
+    return versionFilter === "all" ? v.overall : v.byVersion[versionFilter];
+  };
 
   // 過去実績: EV+レースのみ（ナビ用カウント・統計）
   const activeRecords = versionRecords.filter((r) => r.investedUnits > 0);
@@ -503,6 +518,55 @@ export default function Home() {
                   </span>
                 </span>
               </div>
+
+              {/* ODDS_MAX 並行計測（本番=50 / 引き下げ案=20）— 折りたたみ */}
+              {backtest.oddsMaxVariants && (
+                <div className="border border-gray-100">
+                  <button
+                    onClick={() => setShowOddsCompare((v) => !v)}
+                    className="w-full flex items-center justify-between px-2 py-1 text-[10px] text-gray-400 hover:text-gray-600"
+                  >
+                    <span className="tracking-wide">ODDS上限 並行計測（50 vs 20）</span>
+                    <span>{showOddsCompare ? "−" : "+"}</span>
+                  </button>
+                  {showOddsCompare && (
+                    <div className="px-2 pb-2">
+                      <table className="w-full text-[10px] tabular-nums">
+                        <thead>
+                          <tr className="text-gray-400 border-b border-gray-100">
+                            <th className="text-left font-normal py-0.5">ODDS上限</th>
+                            <th className="text-right font-normal">ROI</th>
+                            <th className="text-right font-normal">的中率</th>
+                            <th className="text-right font-normal">対象</th>
+                            <th className="text-right font-normal">点数</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {["50", "20"].map((key) => {
+                            const s = variantStats(key);
+                            return (
+                              <tr key={key} className="border-b border-gray-50 last:border-0">
+                                <td className="py-0.5 text-gray-600">
+                                  ≤{key}{key === "50" ? "（本番）" : ""}
+                                </td>
+                                <td className={`text-right font-bold ${(s?.roi ?? 0) >= 0 ? "text-blue-600" : "text-red-400"}`}>
+                                  {(s?.roi ?? 0) >= 0 ? "+" : ""}{(s?.roi ?? 0).toFixed(1)}%
+                                </td>
+                                <td className="text-right text-gray-700">{(s?.hitRate ?? 0).toFixed(0)}%</td>
+                                <td className="text-right text-gray-700">{s?.racesWithEvPositive ?? 0}R</td>
+                                <td className="text-right text-gray-700">{s?.totalBets ?? 0}</td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                      <div className="mt-1 text-[9px] text-gray-300">
+                        本番の買い目・表示は ODDS≤50 のまま。20 は人気薄バイアス検証用の参考値。
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
 
               {/* パンくずリスト */}
               {selectedYear && (
