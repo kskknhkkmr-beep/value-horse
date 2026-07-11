@@ -79,6 +79,9 @@ type BacktestResponse = {
   realDataOnly: boolean;
   byVersion: Record<ModelVersion, BacktestStats>;
   oddsMaxVariants: Record<string, OddsMaxVariant>;
+  dataUpdatedAt: string | null;
+  latestResultDate: string | null;
+  missingResultDates: string[];
   records: BacktestRaceRecord[];
 };
 
@@ -456,6 +459,30 @@ export default function Home() {
               <span className="text-[10px] text-gray-400">form実データのみ</span>
             </label>
           </div>
+
+          {/* データ鮮度インジケータ（自動更新の欠落を目視で検知） */}
+          {backtest && (
+            <div className="text-[10px]">
+              {backtest.missingResultDates.length > 0 ? (
+                <div className="flex items-center gap-1.5 px-2 py-1 bg-amber-50 border border-amber-200 text-amber-700">
+                  <span>⚠</span>
+                  <span>
+                    {backtest.missingResultDates.join("・")} の結果が未反映です
+                    （<code>npm run fetch-results</code> で復旧）
+                  </span>
+                </div>
+              ) : (
+                <div className="text-gray-400 px-1">
+                  最新結果 <span className="text-gray-600">{backtest.latestResultDate ?? "—"}</span>
+                  {backtest.dataUpdatedAt && (
+                    <span className="text-gray-300">
+                      {" "}· 更新 {backtest.dataUpdatedAt.slice(0, 16).replace("T", " ")} UTC
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
 
           {/* モデルバージョン切替（v1/v2 を混ぜて表示しない） */}
           <div className="flex items-center gap-1 text-[10px]">

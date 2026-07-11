@@ -77,6 +77,10 @@ export type BacktestResponse = {
   byVersion: Record<ModelVersion, BacktestStats>;
   // odds 上限別（"50"=本番, "20"=引き下げ案）の並行計測結果
   oddsMaxVariants: Record<string, OddsMaxVariant>;
+  // データ鮮度（自動更新の欠落を目視で気づくため）
+  dataUpdatedAt: string | null;        // results-cache の fetchedAt
+  latestResultDate: string | null;     // 結果が確定している最新レース日
+  missingResultDates: string[];        // 終了済みなのに結果未反映の日付（stale シグナル）
   records: BacktestRaceRecord[];
 };
 
@@ -309,12 +313,47 @@ export async function GET(request: Request) {
   // トップレベル・byVersion は本番 ODDS_MAX(=50) 相当（従来互換）
   const primary = oddsMaxVariants[String(ODDS_MAX)];
 
+  // ── データ鮮度シグナル ───────────────────────────────────────────────────
+  // 「終了済みなのに結果が results-cache に無い」レース日を検出する。
+  // 当日レースは結果確定(≈08:30 UTC)後にのみ判定対象へ含める（早朝の誤検知回避）。
+  const now = new Date();
+  const todayStr = now.toISOString().slice(0, 10);
+  const yesterdayStr = new Date(now.getTime() - 86400000).toISOString().slice(0, 10);
+  const cutoff = now.getUTCHours() >= 9 ? todayStr : yesterdayStr;
+
+  const confirmedIds = new Set(
+    resultsCache.results.filter((r) => r.finishers.length > 0).map((r) => r.netKeibaRaceId)
+  );
+  const missingResultDates = [
+    ...new Set(
+      racesCache.races
+        .filter(
+          (r) =>
+            !r.entriesPending &&
+            r.horses.length > 0 &&
+            r.date <= cutoff &&
+            !confirmedIds.has(r.netKeibaRaceId)
+        )
+        .map((r) => r.date)
+    ),
+  ].sort();
+
+  const latestResultDate =
+    resultsCache.results
+      .filter((r) => r.finishers.length > 0)
+      .map((r) => r.date)
+      .sort()
+      .at(-1) ?? null;
+
   return NextResponse.json({
     totalRaces: records.length,
     ...primary.overall,
     realDataOnly,
     byVersion: primary.byVersion,
     oddsMaxVariants,
+    dataUpdatedAt: resultsCache.fetchedAt ?? null,
+    latestResultDate,
+    missingResultDates,
     records,
   } satisfies BacktestResponse);
 }

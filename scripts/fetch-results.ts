@@ -76,6 +76,11 @@ async function main() {
 
   const outPath = join(process.cwd(), "lib", "results-cache.json");
 
+  // 既存の生データ（内容差分判定・fetchedAt 継承に使用）
+  const prevRaw: ResultsCache | null = existsSync(outPath)
+    ? (JSON.parse(readFileSync(outPath, "utf-8")) as ResultsCache)
+    : null;
+
   // 既存データを Map に読み込む
   const resultMap = loadExistingResults(outPath);
   console.log(`既存データ: ${resultMap.size} レース`);
@@ -156,8 +161,13 @@ async function main() {
     return a.raceNumber - b.raceNumber;
   });
 
+  // 内容（結果配列）に差分がなければ fetchedAt を据え置き、ファイルを不変に保つ。
+  // → リトライ用の後続 results run が「タイムスタンプだけ更新」の空コミットを
+  //   量産するのを防ぐ（git diff が空になり commit されない）。
+  const contentUnchanged =
+    prevRaw != null && JSON.stringify(prevRaw.results ?? []) === JSON.stringify(merged);
   const output: ResultsCache = {
-    fetchedAt: new Date().toISOString(),
+    fetchedAt: contentUnchanged ? prevRaw!.fetchedAt : new Date().toISOString(),
     results: merged,
   };
 
@@ -167,6 +177,7 @@ async function main() {
   console.log(`\n✓ 書き出し完了: ${outPath}`);
   console.log(`  合計: ${merged.length} レース（うち結果確定 ${withResult} レース）`);
   console.log(`  今回新規取得: ${fetchedCount} レース / 既存保持: ${skippedCount} レース`);
+  if (contentUnchanged) console.log(`  内容差分なし — fetchedAt 据え置き（コミット抑止）`);
 }
 
 main().catch((err) => {

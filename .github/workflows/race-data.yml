@@ -10,15 +10,21 @@ name: Race Data Auto-Update
 #       9:00〜16:45 JST = 0:00〜7:45 UTC の土（6）・日（0）
 #       → cron: '*/15 0-7 * * 0,6'
 #
-#  ③ 17:30 JST（土・日）— レース結果取得
-#       土曜 17:30 JST = 土曜 08:30 UTC → cron: '30 8 * * 6'
-#       日曜 17:30 JST = 日曜 08:30 UTC → cron: '30 8 * * 0'
+#  ③ レース結果取得（土・日）— 1 日 3 スロットで冗長化
+#       GitHub Actions の scheduled run は時刻保証がなく、混雑時に遅延・欠落する。
+#       単発だと 1 回ドロップしただけで結果が未反映のまま残るため、
+#       夕方〜夜に 3 回（17:30 / 20:30 / 22:00 JST）results を試行する。
+#       fetch-results は冪等（今日のレースは常に再取得・過去の取得済みはスキップ、
+#       内容に差分がなければ書き込まない）なので、後続スロットは自動リトライになる。
+#         17:30 JST = 08:30 UTC → cron: '30 8 * * 0,6'
+#         20:30 JST = 11:30 UTC → cron: '30 11 * * 0,6'
+#         22:00 JST = 13:00 UTC → cron: '0 13 * * 0,6'
 #
 #  推定コスト（月）:
 #    朝フル取得  : ~30 分 × 2 日 × 4 週 = 240 分
 #    オッズ更新  : ~2 分 × 32 回 × 2 日 × 4 週 ≈ 512 分（CI 起動含む ~4 分 × 32 × 2 × 4 = 1,024 分）
-#    結果取得    : ~3 分 × 2 日 × 4 週 = 24 分
-#    合計 < 1,300 分 → 無料枠 2,000 分以内
+#    結果取得    : ~3 分 × 3 回 × 2 日 × 4 週 = 72 分
+#    合計 < 1,350 分 → 無料枠 2,000 分以内
 #
 #  ※ 平日開催（祝日レース等）は workflow_dispatch で手動実行してください。
 #
@@ -27,8 +33,9 @@ on:
     - cron: '0 22 * * 5'      # 土曜 7:00 JST (金曜 22:00 UTC)  → all
     - cron: '0 22 * * 6'      # 日曜 7:00 JST (土曜 22:00 UTC)  → all
     - cron: '*/15 0-7 * * 0,6' # 9:00〜16:45 JST を 15 分ごと   → odds
-    - cron: '30 8 * * 6'      # 土曜 17:30 JST (08:30 UTC)       → results
-    - cron: '30 8 * * 0'      # 日曜 17:30 JST (08:30 UTC)       → results
+    - cron: '30 8 * * 0,6'    # 17:30 JST (08:30 UTC)           → results
+    - cron: '30 11 * * 0,6'   # 20:30 JST (11:30 UTC) リトライ  → results
+    - cron: '0 13 * * 0,6'    # 22:00 JST (13:00 UTC) リトライ  → results
   workflow_dispatch:
     inputs:
       mode:
@@ -65,15 +72,16 @@ jobs:
       - name: 依存関係インストール
         run: npm ci
 
-      # UTC 22:xx → all / UTC 08:xx → results / それ以外 → odds
+      # UTC 22:xx → all / UTC 08,11,13:xx → results / それ以外 → odds
       - name: モード判定
         id: mode
         run: |
+          HOUR=$(date -u +%H)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [ "$(date -u +%H)" = "22" ]; then
+          elif [ "$HOUR" = "22" ]; then
             echo "mode=all" >> "$GITHUB_OUTPUT"
-          elif [ "$(date -u +%H)" = "08" ]; then
+          elif [ "$HOUR" = "08" ] || [ "$HOUR" = "11" ] || [ "$HOUR" = "13" ]; then
             echo "mode=results" >> "$GITHUB_OUTPUT"
           else
             echo "mode=odds" >> "$GITHUB_OUTPUT"
