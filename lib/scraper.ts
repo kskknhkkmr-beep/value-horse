@@ -609,55 +609,79 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
       }
     }
 
-    // 馬エントリー: id="db_XXX" パターンで馬名・馬 ID を順番に取得
-    const matches = [...html.matchAll(/id="db_(\d+)"[^>]*><span>([^の]+)のデータベース<\/span>/g)];
+    // 馬エントリー: <tr class="HorseList"> 行ごとに処理する。
+    // ⚠ 馬番は「並び順(idx)」ではなく行内の <td class="Waku{枠}">{馬番}</td> セルから
+    //   実値を読む。SP shutuba は枠順表示前などに五十音順で配信されることがあり、
+    //   idx を馬番にすると別馬のオッズ(fetch-races 側で馬番 join)が混入するため。
+    const rowChunks = html.split(/<tr class="HorseList"/).slice(1);
 
-    // 出馬表未発表の場合: レースメタ情報だけ返す
-    if (matches.length === 0) {
+    // 出馬表未発表判定用: 馬 DB リンクがページに1つも無ければメタのみ返す
+    const hasAnyHorseLink = /id="db_\d+"/.test(html) || /horse_id=\d+/.test(html);
+    if (!hasAnyHorseLink) {
       if (!raceName && !postTime) return null; // ページ自体がないか無効
       return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, horses: [] };
     }
 
-    const frameNums = calcFrameNumbers(matches.length);
+    const horses: RaceEntryHorse[] = [];
+    for (const chunk of rowChunks) {
+      // 先頭セル <td class="Waku{枠}">{馬番}</td> から枠番・実馬番を取得
+      const wakuM = chunk.match(/<td class="Waku(\d+)"[^>]*>\s*(\d{1,2})\s*<\/td>/);
+      if (!wakuM) continue; // Waku セルの無い行（テンプレ等）はスキップ
+      const frameNumber = parseInt(wakuM[1], 10);
+      const horseNumber = parseInt(wakuM[2], 10);
+      if (isNaN(horseNumber) || horseNumber < 1 || horseNumber > 18) continue;
 
-    const horses: RaceEntryHorse[] = matches.map((m, idx) => {
-      const horseId = m[1];
-      const horseName = m[2].trim();
-      const pos = m.index ?? 0;
-      const nextPos = matches[idx + 1]?.index ?? html.length;
-      const segment = html.substring(Math.max(0, pos - 300), nextPos);
+      // 馬 ID（db リンク優先、無ければ modal リンクの horse_id）
+      const idM = chunk.match(/id="db_(\d+)"/) ?? chunk.match(/horse_id=(\d+)/);
+      const horseId = idM ? idM[1] : "";
+      // 馬名（「{馬名}のデータベース」span。名前に「の」を含む馬にも対応するため非貪欲）
+      const nameM = chunk.match(/<span>([^<]+?)のデータベース<\/span>/);
+      const horseName = nameM ? nameM[1].trim() : "";
+      if (!horseId || !horseName) continue; // 必須情報欠落はスキップ
 
       // <dd class="Jockey"><a href=".../jockey/01222/?rf=shutuba">▲<em>森田</em> 52.0</a><!--01222--></dd>
       let jockey = "";
       let jockeyId = "";
-      const jockeyBlockM = segment.match(/<dd class="Jockey">([\s\S]*?)<\/dd>/);
+      const jockeyBlockM = chunk.match(/<dd class="Jockey">([\s\S]*?)<\/dd>/);
       if (jockeyBlockM) {
         const block = jockeyBlockM[1];
-        const idM = block.match(/\/jockey\/(\d+)\//);
-        const nameM = block.match(/<em>([^<]+)<\/em>/);
-        if (idM) jockeyId = idM[1];
-        if (nameM) jockey = nameM[1].trim();
+        const jIdM = block.match(/\/jockey\/(\d+)\//);
+        const jNameM = block.match(/<em>([^<]+)<\/em>/);
+        if (jIdM) jockeyId = jIdM[1];
+        if (jNameM) jockey = jNameM[1].trim();
       }
 
+      // オッズ（shutuba ページ側。fetch-races は winOddsMap で上書きするが従来通り保持）
       let odds: number | null = null;
-      const oddsM = segment.match(/class="[^"]*Odds[^"]*"[^>]*>\s*<[^>]+>\s*([\d.]+)/) ??
-        segment.match(/class="[^"]*Odds[^"]*"[^>]*>([\d.]+)/) ??
-        segment.match(/class="[^"]*OddsPoint[^"]*"[^>]*>([\d.]+)/);
+      const oddsM = chunk.match(/class="[^"]*Odds[^"]*"[^>]*>\s*<[^>]+>\s*([\d.]+)/) ??
+        chunk.match(/class="[^"]*Odds[^"]*"[^>]*>([\d.]+)/) ??
+        chunk.match(/id="odds-1_\d+"[^>]*>([\d.]+)</);
       if (oddsM) {
         const v = parseFloat(oddsM[1]);
         if (!isNaN(v) && v >= 1.0 && v <= 9999) odds = v;
       }
 
-      return {
-        frameNumber: frameNums[idx],
-        horseNumber: idx + 1,
-        horse: horseName,
-        netKeibaHorseId: horseId,
-        jockey,
-        jockeyId,
-        odds,
-      };
-    });
+      horses.push({ frameNumber, horseNumber, horse: horseName, netKeibaHorseId: horseId, jockey, jockeyId, odds });
+    }
+
+    // 有効な馬行が無い（＝出馬表未発表 or 構造変化）→ メタのみ返す
+    if (horses.length === 0) {
+      if (!raceName && !postTime) return null;
+      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, horses: [] };
+    }
+
+    // ── 再発防止ガード: 馬番の重複を検知したら誤データを出さず未発表扱いにする ──
+    // （行から実馬番を読むため並び順バグは原理的に起きないが、パース異常の安全網）
+    const nums = horses.map((h) => h.horseNumber);
+    if (new Set(nums).size !== nums.length) {
+      console.warn(
+        `  [scraper] 馬番重複を検知 (${netKeibaRaceId}): [${[...nums].sort((a, b) => a - b).join(",")}] → entriesPending 扱い`
+      );
+      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, horses: [] };
+    }
+
+    // 馬番順にソートして返す（表示・join の一貫性のため）
+    horses.sort((a, b) => a.horseNumber - b.horseNumber);
 
     return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: false, horses };
   } catch (e) {
@@ -666,24 +690,3 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
   }
 }
 
-/** JRA 標準枠番割り当て（n 頭 → 各馬の枠番配列） */
-function calcFrameNumbers(n: number): number[] {
-  if (n <= 8) return Array.from({ length: n }, (_, i) => i + 1);
-
-  // 各枠の頭数: まず全枠1頭、余りを外枠(8→1)から順に加算
-  const counts = new Array(8).fill(1);
-  let extra = n - 8;
-  let f = 7;
-  while (extra > 0) {
-    counts[f]++;
-    f = f === 0 ? 7 : f - 1;
-    extra--;
-  }
-
-  // 枠番配列生成（馬番順に枠番を割り当て）
-  const result: number[] = [];
-  for (let frame = 0; frame < 8; frame++) {
-    for (let j = 0; j < counts[frame]; j++) result.push(frame + 1);
-  }
-  return result.slice(0, n);
-}
