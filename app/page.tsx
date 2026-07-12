@@ -107,6 +107,10 @@ const COMBO_LABELS: Record<string, string> = {
   sanrentan: "三連単",
 };
 
+type BetKind = "tan" | ComboBet["type"];
+
+const DEFAULT_STAKE = 1000;
+
 const EV_MIN = 0.10;
 const EDGE_MIN = 0.02;
 const ODDS_MAX = 50;
@@ -119,6 +123,16 @@ export default function Home() {
   const [races, setRaces] = useState<Race[]>([]);
   const [selectedRaceId, setSelectedRaceId] = useState(0);
   const [score, setScore] = useState<ScoreResponse | null>(null);
+  // 券種ごとの賭け金（単勝・馬連・馬単・ワイド・三連複・三連単で個別に設定）
+  const [stakeByType, setStakeByType] = useState<Record<BetKind, number>>({
+    tan: DEFAULT_STAKE,
+    umaren: DEFAULT_STAKE,
+    umatan: DEFAULT_STAKE,
+    wide: DEFAULT_STAKE,
+    sanrenpuku: DEFAULT_STAKE,
+    sanrentan: DEFAULT_STAKE,
+  });
+  // 過去実績（バックテスト）の点数→円換算にのみ使用
   const [unitAmount, setUnitAmount] = useState(1000);
   const [backtest, setBacktest] = useState<BacktestResponse | null>(null);
   const [realDataOnly, setRealDataOnly] = useState(false);
@@ -166,6 +180,26 @@ export default function Home() {
   const topHorse = evPositive[0] ?? null;
   const comboBets = score?.comboBets ?? [];
   const hasBets = evPositive.length > 0 || comboBets.length > 0;
+
+  // 買い目サマリー: 券種ごとにEV上位3件（既にEV降順の配列の先頭3件）のみを対象に、
+  // 券種ごとの賭け金で合計投資額・的中時の払戻幅（実オッズ×賭け金）を算出。
+  // 4〜5番目の低EV・極端オッズ候補（特に三連単）を除外し、払戻幅が外れ値で
+  // 過度に広がるのを防ぐ。※「想定利益」列はEVベース（期待値）なので、
+  // ここは実際の払戻計算として別立てにする。
+  const SUMMARY_TOP_N = 3;
+  const summaryBets = [
+    ...evPositive.slice(0, SUMMARY_TOP_N).map((h) => ({ stake: stakeByType.tan, odds: h.odds })),
+    ...(["umaren", "umatan", "wide", "sanrenpuku", "sanrentan"] as const).flatMap((type) =>
+      comboBets
+        .filter((b) => b.type === type)
+        .slice(0, SUMMARY_TOP_N)
+        .map((b) => ({ stake: stakeByType[type], odds: b.estOdds }))
+    ),
+  ];
+  const totalStake = summaryBets.reduce((s, b) => s + b.stake, 0);
+  const payouts = summaryBets.map((b) => b.stake * b.odds);
+  const minPayout = payouts.length > 0 ? Math.round(Math.min(...payouts)) : 0;
+  const maxPayout = payouts.length > 0 ? Math.round(Math.max(...payouts)) : 0;
 
   // モデルバージョンで絞り込んだレコード（all の場合は全件）
   const versionRecords = (backtest?.records ?? []).filter(
@@ -317,24 +351,8 @@ export default function Home() {
 
               {/* ── ② 買い目 ── */}
               <section>
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] tracking-[0.2em] text-gray-400 uppercase">
-                    買い目
-                  </span>
-                  <div className="flex items-center gap-2">
-                    <span className="text-[10px] text-gray-400">1点</span>
-                    <input
-                      type="number"
-                      value={unitAmount}
-                      onChange={(e) =>
-                        setUnitAmount(Math.max(100, Number(e.target.value)))
-                      }
-                      step={100}
-                      min={100}
-                      className="w-24 bg-white border border-gray-300 text-right px-2 py-1 text-sm font-bold text-gray-900 tabular-nums focus:outline-none focus:border-gray-500"
-                    />
-                    <span className="text-[10px] text-gray-400">円</span>
-                  </div>
+                <div className="text-[10px] tracking-[0.2em] text-gray-400 uppercase mb-2">
+                  買い目
                 </div>
 
                 {score.oddsUnavailable ? (
@@ -351,8 +369,24 @@ export default function Home() {
                     {/* 単勝 */}
                     {evPositive.length > 0 && (
                       <div>
-                        <div className="px-4 py-2 bg-gray-50">
+                        <div className="px-4 py-2 bg-gray-50 flex items-center justify-between">
                           <span className="text-xs font-bold text-gray-700 tracking-wider">単勝</span>
+                          <div className="flex items-center gap-1">
+                            <input
+                              type="number"
+                              value={stakeByType.tan}
+                              onChange={(e) =>
+                                setStakeByType((prev) => ({
+                                  ...prev,
+                                  tan: Math.max(100, Number(e.target.value)),
+                                }))
+                              }
+                              step={100}
+                              min={100}
+                              className="w-20 bg-white border border-gray-300 text-right px-1.5 py-0.5 text-xs font-bold text-gray-900 tabular-nums focus:outline-none focus:border-gray-500"
+                            />
+                            <span className="text-[10px] text-gray-400">円/点</span>
+                          </div>
                         </div>
                         <div className="grid grid-cols-[2.5rem_1fr_4rem_4rem_6rem] px-4 py-1.5 text-[10px] text-gray-400 tracking-wider border-b border-gray-50">
                           <span></span>
@@ -362,7 +396,7 @@ export default function Home() {
                           <span className="text-right">想定利益</span>
                         </div>
                         {evPositive.map((h) => {
-                          const profit = Math.round(h.ev * unitAmount);
+                          const profit = Math.round(h.ev * stakeByType.tan);
                           return (
                             <div
                               key={h.horse}
@@ -388,22 +422,41 @@ export default function Home() {
                       return (
                         <div key={type}>
                           {/* 見出し：モバイルでタップ開閉、デスクトップは装飾のみ */}
-                          <button
-                            className="w-full px-4 py-2 bg-gray-50 flex items-center justify-between text-left"
-                            onClick={() => toggleBetType(type)}
-                          >
-                            <span className="text-xs font-bold text-gray-700 tracking-wider">
-                              {COMBO_LABELS[type]}
-                              {!isTypeOpen && (
-                                <span className="lg:hidden text-[10px] font-normal text-gray-400 ml-2 tabular-nums">
-                                  {bets.length}件 最大EV+{maxEv.toFixed(2)}
-                                </span>
-                              )}
-                            </span>
-                            <span className="lg:hidden text-gray-300 text-[10px]">
-                              {isTypeOpen ? "▾" : "▸"}
-                            </span>
-                          </button>
+                          <div className="w-full px-4 py-2 bg-gray-50 flex items-center justify-between gap-2">
+                            <button
+                              className="flex-1 min-w-0 flex items-center justify-between text-left"
+                              onClick={() => toggleBetType(type)}
+                            >
+                              <span className="text-xs font-bold text-gray-700 tracking-wider">
+                                {COMBO_LABELS[type]}
+                                {!isTypeOpen && (
+                                  <span className="lg:hidden text-[10px] font-normal text-gray-400 ml-2 tabular-nums">
+                                    {bets.length}件 最大EV+{maxEv.toFixed(2)}
+                                  </span>
+                                )}
+                              </span>
+                              <span className="lg:hidden text-gray-300 text-[10px]">
+                                {isTypeOpen ? "▾" : "▸"}
+                              </span>
+                            </button>
+                            <div className="flex items-center gap-1 shrink-0">
+                              <input
+                                type="number"
+                                value={stakeByType[type]}
+                                onClick={(e) => e.stopPropagation()}
+                                onChange={(e) =>
+                                  setStakeByType((prev) => ({
+                                    ...prev,
+                                    [type]: Math.max(100, Number(e.target.value)),
+                                  }))
+                                }
+                                step={100}
+                                min={100}
+                                className="w-20 bg-white border border-gray-300 text-right px-1.5 py-0.5 text-xs font-bold text-gray-900 tabular-nums focus:outline-none focus:border-gray-500"
+                              />
+                              <span className="text-[10px] text-gray-400">円/点</span>
+                            </div>
+                          </div>
                           {/* コンテンツ：モバイルは開閉、デスクトップは常時表示 */}
                           <div className={`${isTypeOpen ? "" : "hidden"} lg:block`}>
                             <div className="grid grid-cols-[1fr_4rem_4rem_6rem] px-4 py-1.5 text-[10px] text-gray-400 tracking-wider border-b border-gray-50">
@@ -413,7 +466,7 @@ export default function Home() {
                               <span className="text-right">想定利益</span>
                             </div>
                             {bets.map((bet) => {
-                              const profit = Math.round(bet.ev * unitAmount);
+                              const profit = Math.round(bet.ev * stakeByType[type]);
                               return (
                                 <div
                                   key={bet.label}
@@ -433,6 +486,34 @@ export default function Home() {
 
                   </div>
                 )}
+
+                {/* ── サマリー：券種ごとEV上位3件を合計するといくら賭けて、いくら返ってくるか ── */}
+                {!score.oddsUnavailable && hasBets && (
+                  <div className="mt-2 border border-gray-200 px-4 py-3 bg-gray-50">
+                    <div className="flex items-baseline justify-between">
+                      <span className="text-[10px] tracking-wider text-gray-400">
+                        本命{summaryBets.length}点の投資額
+                      </span>
+                      <span className="text-lg font-bold text-gray-900 tabular-nums">
+                        {fmt(totalStake)}円
+                      </span>
+                    </div>
+                    <div className="mt-1.5 flex items-baseline justify-between text-xs">
+                      <span className="text-gray-400">
+                        外れれば <span className="font-bold text-red-400 tabular-nums">−{fmt(totalStake)}円</span>
+                      </span>
+                      <span className="text-gray-400">
+                        当たれば{" "}
+                        <span className="font-bold text-blue-600 tabular-nums">
+                          +{fmt(minPayout)}〜+{fmt(maxPayout)}円
+                        </span>
+                      </span>
+                    </div>
+                    <div className="mt-1.5 text-[9px] text-gray-300">
+                      各券種EV上位3件までを集計（一覧表示は最大5件）
+                    </div>
+                  </div>
+                )}
               </section>
             </>
           )}
@@ -445,19 +526,35 @@ export default function Home() {
         <div className="space-y-3">
 
           {/* 右カラムヘッダー */}
-          <div className="flex items-center justify-between">
-            <div className="text-[10px] tracking-[0.2em] text-gray-400 uppercase">
+          <div className="flex items-center justify-between gap-2">
+            <div className="text-[10px] tracking-[0.2em] text-gray-400 uppercase shrink-0">
               過去実績
             </div>
-            <label className="flex items-center gap-1.5 cursor-pointer select-none">
-              <input
-                type="checkbox"
-                checked={realDataOnly}
-                onChange={(e) => setRealDataOnly(e.target.checked)}
-                className="w-3 h-3 accent-gray-500"
-              />
-              <span className="text-[10px] text-gray-400">form実データのみ</span>
-            </label>
+            <div className="flex items-center gap-3">
+              <label className="flex items-center gap-1.5 cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={realDataOnly}
+                  onChange={(e) => setRealDataOnly(e.target.checked)}
+                  className="w-3 h-3 accent-gray-500"
+                />
+                <span className="text-[10px] text-gray-400">form実データのみ</span>
+              </label>
+              <div className="flex items-center gap-1">
+                <span className="text-[10px] text-gray-400">1点</span>
+                <input
+                  type="number"
+                  value={unitAmount}
+                  onChange={(e) =>
+                    setUnitAmount(Math.max(100, Number(e.target.value)))
+                  }
+                  step={100}
+                  min={100}
+                  className="w-20 bg-white border border-gray-300 text-right px-1.5 py-0.5 text-xs font-bold text-gray-900 tabular-nums focus:outline-none focus:border-gray-500"
+                />
+                <span className="text-[10px] text-gray-400">円</span>
+              </div>
+            </div>
           </div>
 
           {/* データ鮮度インジケータ（自動更新の欠落を目視で検知） */}
