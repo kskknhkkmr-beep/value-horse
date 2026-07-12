@@ -10,21 +10,28 @@ name: Race Data Auto-Update
 #       9:00〜16:45 JST = 0:00〜7:45 UTC の土（6）・日（0）
 #       → cron: '*/15 0-7 * * 0,6'
 #
-#  ③ レース結果取得（土・日）— 1 日 3 スロットで冗長化
+#  ③ レース結果取得（土・日）— 1 日 4 スロットで冗長化
 #       GitHub Actions の scheduled run は時刻保証がなく、混雑時に遅延・欠落する。
 #       単発だと 1 回ドロップしただけで結果が未反映のまま残るため、
-#       夕方〜夜に 3 回（17:30 / 20:30 / 22:00 JST）results を試行する。
+#       夕方〜夜に 4 回（17:30 / 20:30 / 22:00 / 23:30 JST）results を試行する。
 #       fetch-results は冪等（今日のレースは常に再取得・過去の取得済みはスキップ、
 #       内容に差分がなければ書き込まない）なので、後続スロットは自動リトライになる。
 #         17:30 JST = 08:30 UTC → cron: '30 8 * * 0,6'
 #         20:30 JST = 11:30 UTC → cron: '30 11 * * 0,6'
 #         22:00 JST = 13:00 UTC → cron: '0 13 * * 0,6'
+#         23:30 JST = 14:30 UTC → cron: '30 14 * * 0,6'
+#
+#       ⚠ モード判定は「起動した cron 文字列」(github.event.schedule) で行う。
+#         実行時の実時刻 (date -u +%H) で判定すると、GitHub の遅延で results
+#         スロットが hour 9,10,12… にズレ込んだ際に odds に化けて結果が取得
+#         されない（過去に実際に発生）。cron 文字列は遅延に影響されないため、
+#         遅延しても results スロットは必ず results を実行する。
 #
 #  推定コスト（月）:
 #    朝フル取得  : ~30 分 × 2 日 × 4 週 = 240 分
 #    オッズ更新  : ~2 分 × 32 回 × 2 日 × 4 週 ≈ 512 分（CI 起動含む ~4 分 × 32 × 2 × 4 = 1,024 分）
-#    結果取得    : ~3 分 × 3 回 × 2 日 × 4 週 = 72 分
-#    合計 < 1,350 分 → 無料枠 2,000 分以内
+#    結果取得    : ~3 分 × 4 回 × 2 日 × 4 週 = 96 分
+#    合計 < 1,400 分 → 無料枠 2,000 分以内
 #
 #  ※ 平日開催（祝日レース等）は workflow_dispatch で手動実行してください。
 #
@@ -36,6 +43,7 @@ on:
     - cron: '30 8 * * 0,6'    # 17:30 JST (08:30 UTC)           → results
     - cron: '30 11 * * 0,6'   # 20:30 JST (11:30 UTC) リトライ  → results
     - cron: '0 13 * * 0,6'    # 22:00 JST (13:00 UTC) リトライ  → results
+    - cron: '30 14 * * 0,6'   # 23:30 JST (14:30 UTC) リトライ  → results
   workflow_dispatch:
     inputs:
       mode:
@@ -72,19 +80,29 @@ jobs:
       - name: 依存関係インストール
         run: npm ci
 
-      # UTC 22:xx → all / UTC 08,11,13:xx → results / それ以外 → odds
+      # モードは「起動した cron 文字列」(github.event.schedule) で判定する。
+      # 実行時の実時刻ではなく起動トリガーで決めるため、GitHub のスケジュール
+      # 遅延があっても results スロットは必ず results を実行する。
+      #   '0 22 * * 5' / '0 22 * * 6'                     → all
+      #   '30 8 * * 0,6' / '30 11 * * 0,6'
+      #     / '0 13 * * 0,6' / '30 14 * * 0,6'            → results
+      #   '*/15 0-7 * * 0,6'                              → odds
       - name: モード判定
         id: mode
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
         run: |
-          HOUR=$(date -u +%H)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [ "$HOUR" = "22" ]; then
-            echo "mode=all" >> "$GITHUB_OUTPUT"
-          elif [ "$HOUR" = "08" ] || [ "$HOUR" = "11" ] || [ "$HOUR" = "13" ]; then
-            echo "mode=results" >> "$GITHUB_OUTPUT"
           else
-            echo "mode=odds" >> "$GITHUB_OUTPUT"
+            case "$SCHEDULE" in
+              "0 22 * * 5"|"0 22 * * 6")
+                echo "mode=all" >> "$GITHUB_OUTPUT" ;;
+              "30 8 * * 0,6"|"30 11 * * 0,6"|"0 13 * * 0,6"|"30 14 * * 0,6")
+                echo "mode=results" >> "$GITHUB_OUTPUT" ;;
+              *)
+                echo "mode=odds" >> "$GITHUB_OUTPUT" ;;
+            esac
           fi
 
       - name: 全データ取得（出馬表 + スコア）
