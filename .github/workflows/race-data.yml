@@ -57,8 +57,13 @@ on:
           - results
 
 # ─── 同時実行制御 ─────────────────────────────────────────────────────────────
+#  odds（15分おき高頻度）と all/results（時刻厳守が重要）でconcurrencyグループを
+#  分離する。同一グループのままだと odds のキュー渋滞で results スロットが
+#  数時間単位で遅延・団子実行される問題が発生したため（2026-07-18/19 の実行
+#  履歴で確認）。schedule 実行は github.event.schedule で、workflow_dispatch
+#  実行は入力 mode で振り分ける。
 concurrency:
-  group: race-data
+  group: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'odds') && 'race-data-odds' || (github.event_name == 'schedule' && github.event.schedule == '*/15 0-7 * * 0,6') && 'race-data-odds' || 'race-data-critical' }}
   cancel-in-progress: false
 
 # ─── ジョブ ───────────────────────────────────────────────────────────────────
