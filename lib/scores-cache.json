@@ -1,7 +1,1055 @@
 {
-  "fetchedAt": "2026-07-19T07:20:39.449Z",
+  "fetchedAt": "2026-07-24T11:40:43.150Z",
   "source": "netkeiba db.netkeiba.com / race.sp.netkeiba.com",
   "scores": {
+    "101010101": {
+      "formScore": 61,
+      "pedigreeScore": 70,
+      "jockeyScore": 70,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010102": {
+      "formScore": 52,
+      "pedigreeScore": 55,
+      "jockeyScore": 53,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010103": {
+      "formScore": 82,
+      "pedigreeScore": 76,
+      "jockeyScore": 42,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010104": {
+      "formScore": 52,
+      "pedigreeScore": 57,
+      "jockeyScore": 63,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010105": {
+      "formScore": 46,
+      "pedigreeScore": 59,
+      "jockeyScore": 74,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010106": {
+      "formScore": 56,
+      "pedigreeScore": 57,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010107": {
+      "formScore": 54,
+      "pedigreeScore": 62,
+      "jockeyScore": 62,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010108": {
+      "formScore": 11,
+      "pedigreeScore": 13,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010201": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 74,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010202": {
+      "formScore": 73,
+      "pedigreeScore": 73,
+      "jockeyScore": 62,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010203": {
+      "formScore": 47,
+      "pedigreeScore": 46,
+      "jockeyScore": 42,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010204": {
+      "formScore": 42,
+      "pedigreeScore": 51,
+      "jockeyScore": 70,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010205": {
+      "formScore": 66,
+      "pedigreeScore": 67,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010206": {
+      "formScore": 90,
+      "pedigreeScore": 90,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010207": {
+      "formScore": 50,
+      "pedigreeScore": 50,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010208": {
+      "formScore": 68,
+      "pedigreeScore": 65,
+      "jockeyScore": 49,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010301": {
+      "formScore": 10,
+      "pedigreeScore": 11,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010302": {
+      "formScore": 34,
+      "pedigreeScore": 36,
+      "jockeyScore": 66,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010303": {
+      "formScore": 69,
+      "pedigreeScore": 63,
+      "jockeyScore": 49,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010304": {
+      "formScore": 50,
+      "pedigreeScore": 55,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010305": {
+      "formScore": 54,
+      "pedigreeScore": 78,
+      "jockeyScore": 42,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010306": {
+      "formScore": 78,
+      "pedigreeScore": 77,
+      "jockeyScore": 85,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010307": {
+      "formScore": 57,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010308": {
+      "formScore": 68,
+      "pedigreeScore": 66,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010309": {
+      "formScore": 55,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010310": {
+      "formScore": 41,
+      "pedigreeScore": 41,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010401": {
+      "formScore": 38,
+      "pedigreeScore": 29,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010402": {
+      "formScore": 64,
+      "pedigreeScore": 70,
+      "jockeyScore": 66,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010403": {
+      "formScore": 62,
+      "pedigreeScore": 65,
+      "jockeyScore": 70,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010404": {
+      "formScore": 69,
+      "pedigreeScore": 83,
+      "jockeyScore": 92,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010405": {
+      "formScore": 36,
+      "pedigreeScore": 32,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010406": {
+      "formScore": 65,
+      "pedigreeScore": 49,
+      "jockeyScore": 62,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010407": {
+      "formScore": 47,
+      "pedigreeScore": 73,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010408": {
+      "formScore": 53,
+      "pedigreeScore": 58,
+      "jockeyScore": 74,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010409": {
+      "formScore": 14,
+      "pedigreeScore": 17,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010410": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 66,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010411": {
+      "formScore": 69,
+      "pedigreeScore": 74,
+      "jockeyScore": 85,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010412": {
+      "formScore": 12,
+      "pedigreeScore": 13,
+      "jockeyScore": 42,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010413": {
+      "formScore": 40,
+      "pedigreeScore": 39,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010414": {
+      "formScore": 52,
+      "pedigreeScore": 61,
+      "jockeyScore": 49,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 85,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 74,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 92,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010506": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 42,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010601": {
+      "formScore": 77,
+      "pedigreeScore": 76,
+      "jockeyScore": 66,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010602": {
+      "formScore": 37,
+      "pedigreeScore": 61,
+      "jockeyScore": 62,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010603": {
+      "formScore": 30,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010604": {
+      "formScore": 75,
+      "pedigreeScore": 56,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010605": {
+      "formScore": 38,
+      "pedigreeScore": 42,
+      "jockeyScore": 66,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010606": {
+      "formScore": 63,
+      "pedigreeScore": 65,
+      "jockeyScore": 70,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010607": {
+      "formScore": 66,
+      "pedigreeScore": 64,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010608": {
+      "formScore": 23,
+      "pedigreeScore": 33,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010609": {
+      "formScore": 44,
+      "pedigreeScore": 50,
+      "jockeyScore": 49,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010610": {
+      "formScore": 75,
+      "pedigreeScore": 71,
+      "jockeyScore": 92,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010611": {
+      "formScore": 64,
+      "pedigreeScore": 76,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010612": {
+      "formScore": 46,
+      "pedigreeScore": 55,
+      "jockeyScore": 74,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010613": {
+      "formScore": 27,
+      "pedigreeScore": 32,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010614": {
+      "formScore": 44,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010701": {
+      "formScore": 30,
+      "pedigreeScore": 64,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010702": {
+      "formScore": 59,
+      "pedigreeScore": 81,
+      "jockeyScore": 85,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010703": {
+      "formScore": 35,
+      "pedigreeScore": 50,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010704": {
+      "formScore": 62,
+      "pedigreeScore": 63,
+      "jockeyScore": 66,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010705": {
+      "formScore": 56,
+      "pedigreeScore": 71,
+      "jockeyScore": 49,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010706": {
+      "formScore": 76,
+      "pedigreeScore": 72,
+      "jockeyScore": 74,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010707": {
+      "formScore": 57,
+      "pedigreeScore": 53,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010708": {
+      "formScore": 82,
+      "pedigreeScore": 75,
+      "jockeyScore": 61,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010709": {
+      "formScore": 70,
+      "pedigreeScore": 71,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010710": {
+      "formScore": 71,
+      "pedigreeScore": 88,
+      "jockeyScore": 92,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010711": {
+      "formScore": 48,
+      "pedigreeScore": 75,
+      "jockeyScore": 62,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010712": {
+      "formScore": 82,
+      "pedigreeScore": 85,
+      "jockeyScore": 70,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010713": {
+      "formScore": 49,
+      "pedigreeScore": 55,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010714": {
+      "formScore": 33,
+      "pedigreeScore": 74,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010715": {
+      "formScore": 53,
+      "pedigreeScore": 56,
+      "jockeyScore": 42,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010801": {
+      "formScore": 40,
+      "pedigreeScore": 70,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010802": {
+      "formScore": 63,
+      "pedigreeScore": 64,
+      "jockeyScore": 66,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010803": {
+      "formScore": 38,
+      "pedigreeScore": 69,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010804": {
+      "formScore": 65,
+      "pedigreeScore": 64,
+      "jockeyScore": 49,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010805": {
+      "formScore": 78,
+      "pedigreeScore": 84,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010806": {
+      "formScore": 58,
+      "pedigreeScore": 74,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010807": {
+      "formScore": 83,
+      "pedigreeScore": 67,
+      "jockeyScore": 85,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010808": {
+      "formScore": 33,
+      "pedigreeScore": 45,
+      "jockeyScore": 61,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010809": {
+      "formScore": 45,
+      "pedigreeScore": 50,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010810": {
+      "formScore": 62,
+      "pedigreeScore": 68,
+      "jockeyScore": 70,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010811": {
+      "formScore": 37,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010812": {
+      "formScore": 90,
+      "pedigreeScore": 78,
+      "jockeyScore": 62,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010901": {
+      "formScore": 38,
+      "pedigreeScore": 64,
+      "jockeyScore": 61,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010902": {
+      "formScore": 17,
+      "pedigreeScore": 46,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010903": {
+      "formScore": 65,
+      "pedigreeScore": 67,
+      "jockeyScore": 85,
+      "trainingScore": 85,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010904": {
+      "formScore": 81,
+      "pedigreeScore": 74,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010905": {
+      "formScore": 96,
+      "pedigreeScore": 95,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010906": {
+      "formScore": 54,
+      "pedigreeScore": 67,
+      "jockeyScore": 92,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010907": {
+      "formScore": 15,
+      "pedigreeScore": 38,
+      "jockeyScore": 66,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010908": {
+      "formScore": 84,
+      "pedigreeScore": 91,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010909": {
+      "formScore": 48,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101010910": {
+      "formScore": 59,
+      "pedigreeScore": 64,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011001": {
+      "formScore": 34,
+      "pedigreeScore": 49,
+      "jockeyScore": 40,
+      "trainingScore": 48,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011002": {
+      "formScore": 29,
+      "pedigreeScore": 51,
+      "jockeyScore": 49,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011003": {
+      "formScore": 38,
+      "pedigreeScore": 51,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011004": {
+      "formScore": 50,
+      "pedigreeScore": 64,
+      "jockeyScore": 70,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011005": {
+      "formScore": 30,
+      "pedigreeScore": 50,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011006": {
+      "formScore": 81,
+      "pedigreeScore": 81,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011007": {
+      "formScore": 73,
+      "pedigreeScore": 74,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011008": {
+      "formScore": 52,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011009": {
+      "formScore": 76,
+      "pedigreeScore": 63,
+      "jockeyScore": 66,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011010": {
+      "formScore": 19,
+      "pedigreeScore": 43,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011011": {
+      "formScore": 85,
+      "pedigreeScore": 74,
+      "jockeyScore": 85,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011101": {
+      "formScore": 49,
+      "pedigreeScore": 62,
+      "jockeyScore": 66,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011102": {
+      "formScore": 70,
+      "pedigreeScore": 64,
+      "jockeyScore": 66,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011103": {
+      "formScore": 62,
+      "pedigreeScore": 73,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011104": {
+      "formScore": 71,
+      "pedigreeScore": 71,
+      "jockeyScore": 49,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011105": {
+      "formScore": 52,
+      "pedigreeScore": 54,
+      "jockeyScore": 85,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011106": {
+      "formScore": 32,
+      "pedigreeScore": 48,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011107": {
+      "formScore": 97,
+      "pedigreeScore": 95,
+      "jockeyScore": 70,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011108": {
+      "formScore": 69,
+      "pedigreeScore": 80,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011109": {
+      "formScore": 46,
+      "pedigreeScore": 57,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011110": {
+      "formScore": 71,
+      "pedigreeScore": 59,
+      "jockeyScore": 92,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011111": {
+      "formScore": 18,
+      "pedigreeScore": 46,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011112": {
+      "formScore": 60,
+      "pedigreeScore": 56,
+      "jockeyScore": 74,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011201": {
+      "formScore": 49,
+      "pedigreeScore": 67,
+      "jockeyScore": 66,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011202": {
+      "formScore": 45,
+      "pedigreeScore": 58,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011203": {
+      "formScore": 35,
+      "pedigreeScore": 52,
+      "jockeyScore": 53,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011204": {
+      "formScore": 52,
+      "pedigreeScore": 64,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011205": {
+      "formScore": 92,
+      "pedigreeScore": 90,
+      "jockeyScore": 92,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011206": {
+      "formScore": 56,
+      "pedigreeScore": 62,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011207": {
+      "formScore": 90,
+      "pedigreeScore": 83,
+      "jockeyScore": 49,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011208": {
+      "formScore": 88,
+      "pedigreeScore": 88,
+      "jockeyScore": 85,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011209": {
+      "formScore": 57,
+      "pedigreeScore": 66,
+      "jockeyScore": 70,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011210": {
+      "formScore": 37,
+      "pedigreeScore": 61,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "101011211": {
+      "formScore": 36,
+      "pedigreeScore": 53,
+      "jockeyScore": 66,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
     "201070101": {
       "formScore": 43,
       "pedigreeScore": 43,
@@ -12697,6 +13745,2766 @@
       "trainingScore": null,
       "modelVersion": "v2",
       "computedAt": "2026-07-19T07:20:39.449Z"
+    },
+    "402010101": {
+      "formScore": 54,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010102": {
+      "formScore": 67,
+      "pedigreeScore": 67,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010103": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010104": {
+      "formScore": 69,
+      "pedigreeScore": 69,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010105": {
+      "formScore": 38,
+      "pedigreeScore": 38,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010106": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010107": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010108": {
+      "formScore": 53,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010109": {
+      "formScore": 40,
+      "pedigreeScore": 40,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010110": {
+      "formScore": 71,
+      "pedigreeScore": 71,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010201": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010202": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010203": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010204": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010205": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010206": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010207": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 54,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010208": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010209": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010210": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010211": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010212": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 73,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010213": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010214": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010301": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010302": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010303": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010304": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 84,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010305": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 59,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010306": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010307": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 54,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010308": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010401": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": 48,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010402": {
+      "formScore": 28,
+      "pedigreeScore": 31,
+      "jockeyScore": 40,
+      "trainingScore": 48,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010403": {
+      "formScore": 89,
+      "pedigreeScore": 90,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010404": {
+      "formScore": 76,
+      "pedigreeScore": 77,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010405": {
+      "formScore": 28,
+      "pedigreeScore": 31,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010406": {
+      "formScore": 60,
+      "pedigreeScore": 60,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010407": {
+      "formScore": 65,
+      "pedigreeScore": 72,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010408": {
+      "formScore": 36,
+      "pedigreeScore": 37,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010409": {
+      "formScore": 61,
+      "pedigreeScore": 61,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010410": {
+      "formScore": 38,
+      "pedigreeScore": 36,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010411": {
+      "formScore": 39,
+      "pedigreeScore": 51,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010412": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010413": {
+      "formScore": 5,
+      "pedigreeScore": 10,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010414": {
+      "formScore": 80,
+      "pedigreeScore": 76,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010415": {
+      "formScore": 74,
+      "pedigreeScore": 71,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010501": {
+      "formScore": 62,
+      "pedigreeScore": 62,
+      "jockeyScore": 59,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010502": {
+      "formScore": 40,
+      "pedigreeScore": 56,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010503": {
+      "formScore": 62,
+      "pedigreeScore": 81,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010504": {
+      "formScore": 54,
+      "pedigreeScore": 43,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010505": {
+      "formScore": 89,
+      "pedigreeScore": 91,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010506": {
+      "formScore": 56,
+      "pedigreeScore": 67,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010507": {
+      "formScore": 70,
+      "pedigreeScore": 82,
+      "jockeyScore": 54,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010508": {
+      "formScore": 36,
+      "pedigreeScore": 42,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010509": {
+      "formScore": 34,
+      "pedigreeScore": 49,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010510": {
+      "formScore": 61,
+      "pedigreeScore": 63,
+      "jockeyScore": 84,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010511": {
+      "formScore": 64,
+      "pedigreeScore": 80,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010601": {
+      "formScore": 31,
+      "pedigreeScore": 40,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010602": {
+      "formScore": 32,
+      "pedigreeScore": 45,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010603": {
+      "formScore": 48,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010604": {
+      "formScore": 34,
+      "pedigreeScore": 44,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010605": {
+      "formScore": 23,
+      "pedigreeScore": 45,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010606": {
+      "formScore": 30,
+      "pedigreeScore": 46,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010607": {
+      "formScore": 47,
+      "pedigreeScore": 52,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010608": {
+      "formScore": 68,
+      "pedigreeScore": 59,
+      "jockeyScore": 59,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010609": {
+      "formScore": 50,
+      "pedigreeScore": 70,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010610": {
+      "formScore": 59,
+      "pedigreeScore": 63,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010611": {
+      "formScore": 88,
+      "pedigreeScore": 85,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010612": {
+      "formScore": 58,
+      "pedigreeScore": 58,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010613": {
+      "formScore": 64,
+      "pedigreeScore": 61,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010614": {
+      "formScore": 93,
+      "pedigreeScore": 94,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010615": {
+      "formScore": 92,
+      "pedigreeScore": 91,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010701": {
+      "formScore": 56,
+      "pedigreeScore": 72,
+      "jockeyScore": 84,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010702": {
+      "formScore": 88,
+      "pedigreeScore": 80,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010703": {
+      "formScore": 79,
+      "pedigreeScore": 67,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010704": {
+      "formScore": 57,
+      "pedigreeScore": 81,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010705": {
+      "formScore": 47,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010706": {
+      "formScore": 69,
+      "pedigreeScore": 78,
+      "jockeyScore": 59,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010707": {
+      "formScore": 23,
+      "pedigreeScore": 48,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010708": {
+      "formScore": 80,
+      "pedigreeScore": 76,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010709": {
+      "formScore": 61,
+      "pedigreeScore": 72,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010710": {
+      "formScore": 50,
+      "pedigreeScore": 71,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010711": {
+      "formScore": 58,
+      "pedigreeScore": 62,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010712": {
+      "formScore": 15,
+      "pedigreeScore": 36,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010713": {
+      "formScore": 44,
+      "pedigreeScore": 61,
+      "jockeyScore": 73,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010714": {
+      "formScore": 21,
+      "pedigreeScore": 33,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010715": {
+      "formScore": 25,
+      "pedigreeScore": 37,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010716": {
+      "formScore": 66,
+      "pedigreeScore": 70,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010717": {
+      "formScore": 72,
+      "pedigreeScore": 78,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010718": {
+      "formScore": 57,
+      "pedigreeScore": 45,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010801": {
+      "formScore": 44,
+      "pedigreeScore": 70,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010802": {
+      "formScore": 41,
+      "pedigreeScore": 61,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010803": {
+      "formScore": 94,
+      "pedigreeScore": 73,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010804": {
+      "formScore": 50,
+      "pedigreeScore": 55,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010805": {
+      "formScore": 47,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010806": {
+      "formScore": 84,
+      "pedigreeScore": 76,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010807": {
+      "formScore": 51,
+      "pedigreeScore": 42,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010808": {
+      "formScore": 55,
+      "pedigreeScore": 60,
+      "jockeyScore": 54,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010809": {
+      "formScore": 77,
+      "pedigreeScore": 75,
+      "jockeyScore": 59,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010810": {
+      "formScore": 59,
+      "pedigreeScore": 75,
+      "jockeyScore": 84,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010811": {
+      "formScore": 81,
+      "pedigreeScore": 75,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010812": {
+      "formScore": 88,
+      "pedigreeScore": 78,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010813": {
+      "formScore": 54,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010901": {
+      "formScore": 50,
+      "pedigreeScore": 54,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010902": {
+      "formScore": 28,
+      "pedigreeScore": 73,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010903": {
+      "formScore": 78,
+      "pedigreeScore": 87,
+      "jockeyScore": 50,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010904": {
+      "formScore": 74,
+      "pedigreeScore": 92,
+      "jockeyScore": 82,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010905": {
+      "formScore": 50,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010906": {
+      "formScore": 70,
+      "pedigreeScore": 85,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010907": {
+      "formScore": 54,
+      "pedigreeScore": 85,
+      "jockeyScore": 82,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010908": {
+      "formScore": 82,
+      "pedigreeScore": 70,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010909": {
+      "formScore": 45,
+      "pedigreeScore": 55,
+      "jockeyScore": 71,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402010910": {
+      "formScore": 46,
+      "pedigreeScore": 69,
+      "jockeyScore": 68,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011001": {
+      "formScore": 52,
+      "pedigreeScore": 56,
+      "jockeyScore": 84,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011002": {
+      "formScore": 21,
+      "pedigreeScore": 17,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011003": {
+      "formScore": 48,
+      "pedigreeScore": 41,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011004": {
+      "formScore": 38,
+      "pedigreeScore": 41,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011005": {
+      "formScore": 43,
+      "pedigreeScore": 43,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011006": {
+      "formScore": 37,
+      "pedigreeScore": 40,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011007": {
+      "formScore": 44,
+      "pedigreeScore": 48,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011008": {
+      "formScore": 28,
+      "pedigreeScore": 40,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011009": {
+      "formScore": 71,
+      "pedigreeScore": 70,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011010": {
+      "formScore": 29,
+      "pedigreeScore": 29,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011011": {
+      "formScore": 43,
+      "pedigreeScore": 47,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011012": {
+      "formScore": 74,
+      "pedigreeScore": 66,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011013": {
+      "formScore": 31,
+      "pedigreeScore": 34,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011014": {
+      "formScore": 69,
+      "pedigreeScore": 63,
+      "jockeyScore": 73,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011015": {
+      "formScore": 25,
+      "pedigreeScore": 29,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011101": {
+      "formScore": 17,
+      "pedigreeScore": 11,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011102": {
+      "formScore": 34,
+      "pedigreeScore": 39,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011103": {
+      "formScore": 30,
+      "pedigreeScore": 36,
+      "jockeyScore": 64,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011104": {
+      "formScore": 51,
+      "pedigreeScore": 45,
+      "jockeyScore": 84,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011105": {
+      "formScore": 47,
+      "pedigreeScore": 57,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011106": {
+      "formScore": 28,
+      "pedigreeScore": 39,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011107": {
+      "formScore": 29,
+      "pedigreeScore": 34,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011108": {
+      "formScore": 6,
+      "pedigreeScore": 6,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011109": {
+      "formScore": 27,
+      "pedigreeScore": 28,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011110": {
+      "formScore": 65,
+      "pedigreeScore": 66,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011111": {
+      "formScore": 12,
+      "pedigreeScore": 14,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011112": {
+      "formScore": 26,
+      "pedigreeScore": 25,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011113": {
+      "formScore": 16,
+      "pedigreeScore": 40,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011114": {
+      "formScore": 33,
+      "pedigreeScore": 33,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011115": {
+      "formScore": 36,
+      "pedigreeScore": 37,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011116": {
+      "formScore": 77,
+      "pedigreeScore": 90,
+      "jockeyScore": 73,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011117": {
+      "formScore": 36,
+      "pedigreeScore": 36,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011118": {
+      "formScore": 75,
+      "pedigreeScore": 83,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011201": {
+      "formScore": 32,
+      "pedigreeScore": 49,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011202": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011203": {
+      "formScore": 83,
+      "pedigreeScore": 79,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011204": {
+      "formScore": 57,
+      "pedigreeScore": 66,
+      "jockeyScore": 84,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011205": {
+      "formScore": 60,
+      "pedigreeScore": 71,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011206": {
+      "formScore": 43,
+      "pedigreeScore": 40,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011207": {
+      "formScore": 30,
+      "pedigreeScore": 50,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011208": {
+      "formScore": 72,
+      "pedigreeScore": 61,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011209": {
+      "formScore": 49,
+      "pedigreeScore": 58,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011210": {
+      "formScore": 78,
+      "pedigreeScore": 75,
+      "jockeyScore": 54,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011211": {
+      "formScore": 72,
+      "pedigreeScore": 76,
+      "jockeyScore": 59,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011212": {
+      "formScore": 93,
+      "pedigreeScore": 84,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011213": {
+      "formScore": 58,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011214": {
+      "formScore": 80,
+      "pedigreeScore": 35,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011215": {
+      "formScore": 69,
+      "pedigreeScore": 70,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011216": {
+      "formScore": 37,
+      "pedigreeScore": 41,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402011217": {
+      "formScore": 37,
+      "pedigreeScore": 64,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020701": {
+      "formScore": 67,
+      "pedigreeScore": 77,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020702": {
+      "formScore": 44,
+      "pedigreeScore": 77,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020703": {
+      "formScore": 89,
+      "pedigreeScore": 91,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020704": {
+      "formScore": 23,
+      "pedigreeScore": 33,
+      "jockeyScore": 73,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020705": {
+      "formScore": 42,
+      "pedigreeScore": 71,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020706": {
+      "formScore": 38,
+      "pedigreeScore": 37,
+      "jockeyScore": 59,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020707": {
+      "formScore": 67,
+      "pedigreeScore": 68,
+      "jockeyScore": 78,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020708": {
+      "formScore": 81,
+      "pedigreeScore": 80,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020709": {
+      "formScore": 58,
+      "pedigreeScore": 70,
+      "jockeyScore": 54,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020710": {
+      "formScore": 45,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020711": {
+      "formScore": 38,
+      "pedigreeScore": 66,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020712": {
+      "formScore": 55,
+      "pedigreeScore": 78,
+      "jockeyScore": 45,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020713": {
+      "formScore": 53,
+      "pedigreeScore": 71,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "402020714": {
+      "formScore": 47,
+      "pedigreeScore": 54,
+      "jockeyScore": 64,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010101": {
+      "formScore": 50,
+      "pedigreeScore": 50,
+      "jockeyScore": 40,
+      "trainingScore": 85,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010102": {
+      "formScore": 50,
+      "pedigreeScore": 50,
+      "jockeyScore": 47,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010103": {
+      "formScore": 70,
+      "pedigreeScore": 70,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010104": {
+      "formScore": 22,
+      "pedigreeScore": 22,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010105": {
+      "formScore": 89,
+      "pedigreeScore": 89,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010106": {
+      "formScore": 78,
+      "pedigreeScore": 78,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010107": {
+      "formScore": 25,
+      "pedigreeScore": 25,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010108": {
+      "formScore": 44,
+      "pedigreeScore": 44,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010109": {
+      "formScore": 22,
+      "pedigreeScore": 22,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010201": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010202": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010203": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010204": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010205": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 55,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010206": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010207": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010208": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010209": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010210": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010211": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010212": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010213": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 93,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010301": {
+      "formScore": 7,
+      "pedigreeScore": 7,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010302": {
+      "formScore": 75,
+      "pedigreeScore": 84,
+      "jockeyScore": 93,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010303": {
+      "formScore": 51,
+      "pedigreeScore": 50,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010304": {
+      "formScore": 54,
+      "pedigreeScore": 35,
+      "jockeyScore": 55,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010305": {
+      "formScore": 56,
+      "pedigreeScore": 63,
+      "jockeyScore": 78,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010306": {
+      "formScore": 86,
+      "pedigreeScore": 86,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010307": {
+      "formScore": 40,
+      "pedigreeScore": 47,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010308": {
+      "formScore": 37,
+      "pedigreeScore": 47,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010309": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010310": {
+      "formScore": 84,
+      "pedigreeScore": 80,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010311": {
+      "formScore": 36,
+      "pedigreeScore": 48,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010312": {
+      "formScore": 52,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010401": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010402": {
+      "formScore": 69,
+      "pedigreeScore": 87,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010403": {
+      "formScore": 50,
+      "pedigreeScore": 46,
+      "jockeyScore": 93,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010404": {
+      "formScore": 23,
+      "pedigreeScore": 36,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010405": {
+      "formScore": 35,
+      "pedigreeScore": 33,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010406": {
+      "formScore": 59,
+      "pedigreeScore": 58,
+      "jockeyScore": 55,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010407": {
+      "formScore": 18,
+      "pedigreeScore": 18,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010408": {
+      "formScore": 69,
+      "pedigreeScore": 69,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010409": {
+      "formScore": 11,
+      "pedigreeScore": 9,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010410": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010411": {
+      "formScore": 51,
+      "pedigreeScore": 62,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010412": {
+      "formScore": 47,
+      "pedigreeScore": 50,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010413": {
+      "formScore": 61,
+      "pedigreeScore": 65,
+      "jockeyScore": 78,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010414": {
+      "formScore": 87,
+      "pedigreeScore": 82,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010415": {
+      "formScore": 31,
+      "pedigreeScore": 34,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010416": {
+      "formScore": 76,
+      "pedigreeScore": 74,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010503": {
+      "formScore": 52,
+      "pedigreeScore": 60,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010504": {
+      "formScore": 70,
+      "pedigreeScore": 69,
+      "jockeyScore": 93,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010505": {
+      "formScore": 74,
+      "pedigreeScore": 81,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010506": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010507": {
+      "formScore": 53,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010508": {
+      "formScore": 76,
+      "pedigreeScore": 73,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010509": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 78,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010510": {
+      "formScore": 44,
+      "pedigreeScore": 46,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010511": {
+      "formScore": 85,
+      "pedigreeScore": 79,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010512": {
+      "formScore": 80,
+      "pedigreeScore": 80,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010513": {
+      "formScore": 28,
+      "pedigreeScore": 20,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010514": {
+      "formScore": 32,
+      "pedigreeScore": 38,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010515": {
+      "formScore": 64,
+      "pedigreeScore": 51,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010516": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010601": {
+      "formScore": 40,
+      "pedigreeScore": 61,
+      "jockeyScore": 47,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010602": {
+      "formScore": 95,
+      "pedigreeScore": 91,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010603": {
+      "formScore": 47,
+      "pedigreeScore": 69,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010604": {
+      "formScore": 21,
+      "pedigreeScore": 48,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010605": {
+      "formScore": 52,
+      "pedigreeScore": 48,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010606": {
+      "formScore": 96,
+      "pedigreeScore": 100,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010607": {
+      "formScore": 64,
+      "pedigreeScore": 75,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010608": {
+      "formScore": 70,
+      "pedigreeScore": 69,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010609": {
+      "formScore": 80,
+      "pedigreeScore": 87,
+      "jockeyScore": 55,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010610": {
+      "formScore": 67,
+      "pedigreeScore": 78,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010611": {
+      "formScore": 82,
+      "pedigreeScore": 72,
+      "jockeyScore": 78,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010612": {
+      "formScore": 74,
+      "pedigreeScore": 81,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010613": {
+      "formScore": 87,
+      "pedigreeScore": 85,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010614": {
+      "formScore": 89,
+      "pedigreeScore": 90,
+      "jockeyScore": 93,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010615": {
+      "formScore": 50,
+      "pedigreeScore": 57,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010616": {
+      "formScore": 36,
+      "pedigreeScore": 66,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010701": {
+      "formScore": 51,
+      "pedigreeScore": 76,
+      "jockeyScore": 93,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010702": {
+      "formScore": 16,
+      "pedigreeScore": 10,
+      "jockeyScore": 57,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010703": {
+      "formScore": 35,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010704": {
+      "formScore": 65,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010705": {
+      "formScore": 67,
+      "pedigreeScore": 53,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010706": {
+      "formScore": 54,
+      "pedigreeScore": 45,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010707": {
+      "formScore": 61,
+      "pedigreeScore": 70,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010708": {
+      "formScore": 36,
+      "pedigreeScore": 54,
+      "jockeyScore": 42,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010709": {
+      "formScore": 86,
+      "pedigreeScore": 82,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010710": {
+      "formScore": 64,
+      "pedigreeScore": 65,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010711": {
+      "formScore": 29,
+      "pedigreeScore": 42,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010801": {
+      "formScore": 92,
+      "pedigreeScore": 90,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010802": {
+      "formScore": 74,
+      "pedigreeScore": 33,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010803": {
+      "formScore": 72,
+      "pedigreeScore": 76,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010804": {
+      "formScore": 39,
+      "pedigreeScore": 45,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010805": {
+      "formScore": 84,
+      "pedigreeScore": 82,
+      "jockeyScore": 78,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010806": {
+      "formScore": 81,
+      "pedigreeScore": 75,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010807": {
+      "formScore": 69,
+      "pedigreeScore": 73,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010808": {
+      "formScore": 56,
+      "pedigreeScore": 72,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010901": {
+      "formScore": 73,
+      "pedigreeScore": 81,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010902": {
+      "formScore": 85,
+      "pedigreeScore": 93,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010903": {
+      "formScore": 84,
+      "pedigreeScore": 79,
+      "jockeyScore": 78,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010904": {
+      "formScore": 46,
+      "pedigreeScore": 53,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010905": {
+      "formScore": 45,
+      "pedigreeScore": 82,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010906": {
+      "formScore": 69,
+      "pedigreeScore": 76,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010907": {
+      "formScore": 70,
+      "pedigreeScore": 71,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010908": {
+      "formScore": 25,
+      "pedigreeScore": 26,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010909": {
+      "formScore": 30,
+      "pedigreeScore": 55,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010910": {
+      "formScore": 93,
+      "pedigreeScore": 73,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010911": {
+      "formScore": 60,
+      "pedigreeScore": 63,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010912": {
+      "formScore": 66,
+      "pedigreeScore": 81,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010913": {
+      "formScore": 54,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010914": {
+      "formScore": 70,
+      "pedigreeScore": 75,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010915": {
+      "formScore": 58,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702010916": {
+      "formScore": 69,
+      "pedigreeScore": 75,
+      "jockeyScore": 93,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011001": {
+      "formScore": 78,
+      "pedigreeScore": 90,
+      "jockeyScore": 93,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011002": {
+      "formScore": 70,
+      "pedigreeScore": 76,
+      "jockeyScore": 95,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011003": {
+      "formScore": 18,
+      "pedigreeScore": 60,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011004": {
+      "formScore": 47,
+      "pedigreeScore": 58,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011005": {
+      "formScore": 66,
+      "pedigreeScore": 52,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011006": {
+      "formScore": 54,
+      "pedigreeScore": 61,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011007": {
+      "formScore": 24,
+      "pedigreeScore": 38,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011008": {
+      "formScore": 82,
+      "pedigreeScore": 85,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011009": {
+      "formScore": 43,
+      "pedigreeScore": 49,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011010": {
+      "formScore": 42,
+      "pedigreeScore": 58,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011011": {
+      "formScore": 75,
+      "pedigreeScore": 70,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011012": {
+      "formScore": 46,
+      "pedigreeScore": 39,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011101": {
+      "formScore": 63,
+      "pedigreeScore": 39,
+      "jockeyScore": 47,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011102": {
+      "formScore": 17,
+      "pedigreeScore": 67,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011103": {
+      "formScore": 93,
+      "pedigreeScore": 91,
+      "jockeyScore": 40,
+      "trainingScore": 85,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011104": {
+      "formScore": 33,
+      "pedigreeScore": 60,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011105": {
+      "formScore": 67,
+      "pedigreeScore": 46,
+      "jockeyScore": 53,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011106": {
+      "formScore": 39,
+      "pedigreeScore": 48,
+      "jockeyScore": 42,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011107": {
+      "formScore": 66,
+      "pedigreeScore": 74,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011108": {
+      "formScore": 44,
+      "pedigreeScore": 55,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011201": {
+      "formScore": 66,
+      "pedigreeScore": 62,
+      "jockeyScore": 47,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011202": {
+      "formScore": 7,
+      "pedigreeScore": 7,
+      "jockeyScore": 42,
+      "trainingScore": 60,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011203": {
+      "formScore": 80,
+      "pedigreeScore": 76,
+      "jockeyScore": 40,
+      "trainingScore": 72,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011204": {
+      "formScore": 86,
+      "pedigreeScore": 86,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011205": {
+      "formScore": 71,
+      "pedigreeScore": 64,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011206": {
+      "formScore": 22,
+      "pedigreeScore": 20,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011207": {
+      "formScore": 39,
+      "pedigreeScore": 50,
+      "jockeyScore": 57,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011208": {
+      "formScore": 85,
+      "pedigreeScore": 86,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011209": {
+      "formScore": 47,
+      "pedigreeScore": 51,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011210": {
+      "formScore": 76,
+      "pedigreeScore": 63,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011211": {
+      "formScore": 58,
+      "pedigreeScore": 53,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011212": {
+      "formScore": 24,
+      "pedigreeScore": 26,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011213": {
+      "formScore": 84,
+      "pedigreeScore": 83,
+      "jockeyScore": 55,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011214": {
+      "formScore": 40,
+      "pedigreeScore": 45,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011215": {
+      "formScore": 27,
+      "pedigreeScore": 27,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702011216": {
+      "formScore": 75,
+      "pedigreeScore": 78,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020701": {
+      "formScore": 75,
+      "pedigreeScore": 74,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020702": {
+      "formScore": 37,
+      "pedigreeScore": 51,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020703": {
+      "formScore": 54,
+      "pedigreeScore": 58,
+      "jockeyScore": 47,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020704": {
+      "formScore": 46,
+      "pedigreeScore": 73,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020705": {
+      "formScore": 93,
+      "pedigreeScore": 93,
+      "jockeyScore": 84,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020706": {
+      "formScore": 42,
+      "pedigreeScore": 54,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020707": {
+      "formScore": 94,
+      "pedigreeScore": 84,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020708": {
+      "formScore": 96,
+      "pedigreeScore": 92,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020709": {
+      "formScore": 82,
+      "pedigreeScore": 81,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020710": {
+      "formScore": 40,
+      "pedigreeScore": 51,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020711": {
+      "formScore": 97,
+      "pedigreeScore": 83,
+      "jockeyScore": 55,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020712": {
+      "formScore": 59,
+      "pedigreeScore": 58,
+      "jockeyScore": 40,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020713": {
+      "formScore": 93,
+      "pedigreeScore": 88,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
+    },
+    "702020714": {
+      "formScore": 79,
+      "pedigreeScore": 82,
+      "jockeyScore": 95,
+      "trainingScore": null,
+      "modelVersion": "v2",
+      "computedAt": "2026-07-24T11:40:43.150Z"
     },
     "1002030101": {
       "formScore": 21,
