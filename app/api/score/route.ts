@@ -7,6 +7,7 @@ import { calcComboBets } from "@/lib/combination-ev";
 import { races, horses, horseFeatures, marketOdds } from "@/lib/mockData";
 import type { HorseScores } from "@/lib/scorer";
 import type { RacesCache, CachedRace } from "@/scripts/fetch-races";
+import type { RaceGrade } from "@/lib/scraper";
 
 // ── キャッシュ読み込み ─────────────────────────────────────────────────────────
 
@@ -46,14 +47,14 @@ export async function GET(request: Request) {
   const racesCache = loadRacesCache();
 
   // races-cache.json があれば優先使用
-  let race: { id: number; raceName: string; date: string; venue: string; raceNumber: number; postTime: string } | undefined;
+  let race: { id: number; raceName: string; date: string; venue: string; raceNumber: number; postTime: string; grade: RaceGrade } | undefined;
   let raceHorses: Array<{ id: number; horse: string; horseNumber: number; odds: number | null; jockey?: string }> = [];
   let usingRacesCache = false;
 
   if (racesCache) {
     const cr: CachedRace | undefined = racesCache.races.find((r) => r.id === raceId);
     if (cr) {
-      race = { id: cr.id, raceName: cr.raceName, date: cr.date, venue: cr.venue, raceNumber: cr.raceNumber, postTime: cr.postTime };
+      race = { id: cr.id, raceName: cr.raceName, date: cr.date, venue: cr.venue, raceNumber: cr.raceNumber, postTime: cr.postTime, grade: cr.grade ?? null };
       raceHorses = cr.horses.map((h) => ({ id: h.id, horse: h.horse, horseNumber: h.horseNumber, odds: h.odds, jockey: h.jockey }));
       usingRacesCache = true;
     }
@@ -77,7 +78,7 @@ export async function GET(request: Request) {
     if (cr?.entriesPending) {
       return NextResponse.json({
         raceId: race.id, raceName: race.raceName, date: race.date, venue: race.venue,
-        raceNumber: race.raceNumber, postTime: race.postTime,
+        raceNumber: race.raceNumber, postTime: race.postTime, grade: race.grade,
         entriesPending: true, oddsUnavailable: false,
         dataSource: "出走登録前", finalScores: [], valueRanking: [], evRanking: [], edgeRanking: [],
       });
@@ -89,7 +90,7 @@ export async function GET(request: Request) {
   if (horsesWithOdds.length === 0) {
     return NextResponse.json({
       raceId: race.id, raceName: race.raceName, date: race.date, venue: race.venue,
-      raceNumber: race.raceNumber, postTime: race.postTime,
+      raceNumber: race.raceNumber, postTime: race.postTime, grade: race.grade,
       entriesPending: false, oddsUnavailable: true,
       dataSource: "出走登録済み（オッズ未確定）",
       finalScores: [], valueRanking: [], evRanking: [], edgeRanking: [],
@@ -169,6 +170,7 @@ export async function GET(request: Request) {
     venue: race.venue,
     raceNumber: race.raceNumber,
     postTime: race.postTime,
+    grade: race.grade,
     oddsUnavailable: false,
     dataSource,
     finalScores: result.finalScores.map(toShape),

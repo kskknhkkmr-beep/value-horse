@@ -18,6 +18,7 @@ export const races = [
     raceNumber: 11,
     raceName: "ジューンS（OP）",
     postTime: "15:30",
+    grade: null,
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export const races = [
     raceNumber: 11,
     raceName: "函館スプリントS（G3）",
     postTime: "15:45",
+    grade: "G3" as const,
   },
   {
     id: 3,
@@ -34,6 +36,7 @@ export const races = [
     raceNumber: 11,
     raceName: "宝塚記念（G1）",
     postTime: "15:40",
+    grade: "G1" as const,
   },
 ];
 

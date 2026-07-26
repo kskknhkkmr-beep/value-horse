@@ -507,6 +507,8 @@ export type RaceEntryHorse = {
   odds: number | null;
 };
 
+export type RaceGrade = "G1" | "G2" | "G3" | null;
+
 export type RaceEntryInfo = {
   raceName: string;
   postTime: string | null;
@@ -516,8 +518,20 @@ export type RaceEntryInfo = {
   raceNumber: number;
   netKeibaRaceId: string;
   entriesPending: boolean; // true = 出馬表未発表
+  grade: RaceGrade; // 重賞グレード（G1/G2/G3）。重賞でなければ null
   horses: RaceEntryHorse[];
 };
+
+/**
+ * shutuba ページの重賞グレード表示から grade を抽出する。
+ * 構造: <span class="Icon_GradeType Icon_GradeType{1|2|3} ...">G{I|II|III}</span>
+ * 重賞でないレースにはこの要素自体が存在しない。
+ */
+function parseGrade(html: string): RaceGrade {
+  const m = html.match(/Icon_GradeType\s+Icon_GradeType([123])\b/);
+  if (!m) return null;
+  return (`G${m[1]}` as RaceGrade);
+}
 
 /**
  * SP 出馬表ページから馬エントリーとレース情報を取得する。
@@ -552,6 +566,8 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
         .replace(/\|.*$/, "");     // パイプ以降を除去
       if (v && v.length >= 2 && v.length < 40) { raceName = v; break; }
     }
+
+    const grade = parseGrade(html);
 
     // テキスト正規化ヘルパー（タグ除去 + 全角数字・ｍ・ダート正規化）
     const toPlain = (src: string) =>
@@ -619,7 +635,7 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
     const hasAnyHorseLink = /id="db_\d+"/.test(html) || /horse_id=\d+/.test(html);
     if (!hasAnyHorseLink) {
       if (!raceName && !postTime) return null; // ページ自体がないか無効
-      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, horses: [] };
+      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, grade, horses: [] };
     }
 
     const horses: RaceEntryHorse[] = [];
@@ -667,7 +683,7 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
     // 有効な馬行が無い（＝出馬表未発表 or 構造変化）→ メタのみ返す
     if (horses.length === 0) {
       if (!raceName && !postTime) return null;
-      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, horses: [] };
+      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, grade, horses: [] };
     }
 
     // ── 再発防止ガード: 馬番の重複を検知したら誤データを出さず未発表扱いにする ──
@@ -677,13 +693,13 @@ export async function fetchRaceEntry(netKeibaRaceId: string): Promise<RaceEntryI
       console.warn(
         `  [scraper] 馬番重複を検知 (${netKeibaRaceId}): [${[...nums].sort((a, b) => a - b).join(",")}] → entriesPending 扱い`
       );
-      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, horses: [] };
+      return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: true, grade, horses: [] };
     }
 
     // 馬番順にソートして返す（表示・join の一貫性のため）
     horses.sort((a, b) => a.horseNumber - b.horseNumber);
 
-    return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: false, horses };
+    return { raceName, postTime, surface, distance, venue, raceNumber, netKeibaRaceId, entriesPending: false, grade, horses };
   } catch (e) {
     console.warn(`  [scraper] fetchRaceEntry failed (${netKeibaRaceId}):`, (e as Error).message);
     return null;

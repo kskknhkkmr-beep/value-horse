@@ -30,6 +30,7 @@ export async function GET() {
         raceNumber: r.raceNumber,
         raceName: r.raceName,
         postTime: r.postTime,
+        grade: r.grade ?? null,
       }))
     );
   }

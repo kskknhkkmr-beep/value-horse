@@ -15,6 +15,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { fetchRaceIdsByDate, fetchRaceEntry, fetchWinOdds } from "../lib/scraper";
+import type { RaceGrade } from "../lib/scraper";
 
 const RETENTION_MONTHS = 3;
 
@@ -43,6 +44,7 @@ export type CachedRace = {
   distance: number;
   netKeibaRaceId: string;
   entriesPending: boolean;
+  grade: RaceGrade;
   horses: CachedHorse[];
 };
 
@@ -154,6 +156,7 @@ async function main() {
         distance: info.distance,
         netKeibaRaceId: raceId,
         entriesPending: info.entriesPending,
+        grade: info.grade,
         horses: info.horses.map((h, i) => ({
           id: rid * 100 + i + 1,
           raceId: rid,

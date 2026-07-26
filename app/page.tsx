@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import type { RaceGrade } from "@/lib/scraper";
+import { evToStars, starFillPercents } from "@/lib/starRating";
 
 type Race = {
   id: number;
@@ -9,6 +11,7 @@ type Race = {
   venue: string;
   raceNumber: number;
   postTime: string;
+  grade?: RaceGrade;
 };
 
 type HorseScore = {
@@ -92,6 +95,7 @@ type ScoreResponse = {
   venue: string;
   raceNumber: number;
   postTime: string;
+  grade?: RaceGrade;
   entriesPending?: boolean;
   oddsUnavailable?: boolean;
   evRanking: HorseScore[];
@@ -117,6 +121,32 @@ const ODDS_MAX = 50;
 
 function fmt(n: number) {
   return n.toLocaleString("ja-JP");
+}
+
+// 重賞レース専用のEV星表示（0〜5、10%刻みで塗りつぶし、0.5刻みなら50%/100%になる）
+function StarRating({ ev, size = "normal" }: { ev: number; size?: "normal" | "compact" }) {
+  const stars = evToStars(ev);
+  const percents = starFillPercents(stars);
+  const starPx = size === "compact" ? 11 : 14;
+  return (
+    <span className="inline-flex shrink-0" aria-label={`星${stars}`} title={`EV +${ev.toFixed(2)}`}>
+      {percents.map((p, i) => (
+        <span
+          key={i}
+          className="relative inline-block leading-none shrink-0"
+          style={{ width: starPx, height: starPx, fontSize: starPx }}
+        >
+          <span className="absolute inset-0 text-gray-300">★</span>
+          <span
+            className="absolute inset-0 overflow-hidden text-amber-500"
+            style={{ width: `${p}%` }}
+          >
+            ★
+          </span>
+        </span>
+      ))}
+    </span>
+  );
 }
 
 export default function Home() {
@@ -173,11 +203,18 @@ export default function Home() {
       .catch(() => {});
   }, [realDataOnly]);
 
+  // 重賞（G1/G2/G3）は EDGE_MIN・ODDS_MAX の閾値に関わらず必ず表示する。
+  // EV_MIN のみ通常どおり適用（期待値がマイナスの馬まで強制表示はしない）。
+  const isGradedRace = score?.grade != null;
   const evPositive = (score?.evRanking ?? []).filter(
-    (h) => h.ev > EV_MIN && h.edge > EDGE_MIN && h.odds <= ODDS_MAX
+    (h) => h.ev > EV_MIN && (isGradedRace || (h.edge > EDGE_MIN && h.odds <= ODDS_MAX))
   );
 
   const topHorse = evPositive[0] ?? null;
+  // 重賞の強制表示により、本来の閾値（EDGE_MIN・ODDS_MAX）では見送り対象だった馬が
+  // 表示されている場合に true。買い目セクションへの注意書き表示に使う。
+  const topHorseIsGradeOverride =
+    isGradedRace && topHorse != null && !(topHorse.edge > EDGE_MIN && topHorse.odds <= ODDS_MAX);
   const comboBets = score?.comboBets ?? [];
   const hasBets = evPositive.length > 0 || comboBets.length > 0;
 
@@ -318,8 +355,13 @@ export default function Home() {
             <>
               {/* ── ① 本命馬 ── */}
               <section>
-                <div className="text-[10px] tracking-[0.2em] text-gray-400 uppercase mb-2">
+                <div className="text-[10px] tracking-[0.2em] text-gray-400 uppercase mb-2 flex items-center gap-1.5">
                   本命馬
+                  {score.grade && (
+                    <span className="text-[9px] tracking-normal font-bold text-white bg-gray-700 rounded px-1 py-0.5 normal-case">
+                      {score.grade}
+                    </span>
+                  )}
                 </div>
 
                 {score.oddsUnavailable ? (
@@ -327,21 +369,32 @@ export default function Home() {
                     オッズ確定後に表示されます
                   </div>
                 ) : topHorse ? (
-                  <div className="border border-gray-200 px-4 py-4 flex items-center gap-3">
-                    <span className="text-base text-gray-500 shrink-0 w-5">◎</span>
-                    <span className="text-xs text-gray-400 tabular-nums w-6 text-center shrink-0">
-                      {topHorse.horseNumber}
-                    </span>
-                    <span className="font-bold text-gray-900 flex-1 text-sm truncate">
-                      {topHorse.horse}
-                    </span>
-                    <div className="text-right shrink-0 space-y-0.5">
-                      <div className="text-xs text-gray-500 tabular-nums">{topHorse.odds}倍</div>
-                      <div className={`text-sm font-bold tabular-nums ${topHorse.ev > 0 ? "text-blue-600" : "text-gray-400"}`}>
-                        {topHorse.ev > 0 ? "+" : ""}{topHorse.ev.toFixed(3)}
+                  <>
+                    <div className="border border-gray-200 px-4 py-4 flex items-center gap-3">
+                      <span className="text-base text-gray-500 shrink-0 w-5">◎</span>
+                      <span className="text-xs text-gray-400 tabular-nums w-6 text-center shrink-0">
+                        {topHorse.horseNumber}
+                      </span>
+                      <span className="font-bold text-gray-900 flex-1 text-sm truncate">
+                        {topHorse.horse}
+                      </span>
+                      <div className="text-right shrink-0 space-y-0.5">
+                        <div className="text-xs text-gray-500 tabular-nums">{topHorse.odds}倍</div>
+                        {score.grade ? (
+                          <StarRating ev={topHorse.ev} />
+                        ) : (
+                          <div className={`text-sm font-bold tabular-nums ${topHorse.ev > 0 ? "text-blue-600" : "text-gray-400"}`}>
+                            {topHorse.ev > 0 ? "+" : ""}{topHorse.ev.toFixed(3)}
+                          </div>
+                        )}
                       </div>
                     </div>
-                  </div>
+                    {topHorseIsGradeOverride && (
+                      <div className="mt-1.5 text-[10px] text-amber-700 bg-amber-50 border border-amber-200 rounded px-2 py-1.5">
+                        通常の条件（EDGE_MIN・ODDS_MAX）では見送り推奨の馬です。重賞のため参考表示しています。
+                      </div>
+                    )}
+                  </>
                 ) : (
                   <div className="border border-gray-200 px-4 py-6 text-center text-xs text-gray-400">
                     データなし
@@ -405,7 +458,9 @@ export default function Home() {
                               <span className="text-gray-400 tabular-nums text-center">{h.horseNumber}</span>
                               <span className="font-bold text-gray-900 truncate pr-2">{h.horse}</span>
                               <span className="text-right text-gray-500 tabular-nums">{h.odds}倍</span>
-                              <span className="text-right font-bold text-blue-600 tabular-nums">+{h.ev.toFixed(2)}</span>
+                              <span className="text-right font-bold text-blue-600 tabular-nums flex justify-end">
+                                {score.grade ? <StarRating ev={h.ev} size="compact" /> : <>+{h.ev.toFixed(2)}</>}
+                              </span>
                               <span className="text-right font-bold text-blue-600 tabular-nums">+{fmt(profit)}円</span>
                             </div>
                           );
