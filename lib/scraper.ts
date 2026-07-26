@@ -326,6 +326,71 @@ export async function fetchRaceResult(netKeibaRaceId: string): Promise<RaceFinis
   }
 }
 
+// ─── 確定払戻（馬連・馬単） ───────────────────────────────────────────────────
+
+export type ComboPayout = {
+  combo: number[]; // 馬連=昇順2頭、馬単=着順(1着→2着)の2頭
+  payout: number; // 100円あたり払戻金
+};
+
+export type RacePayouts = {
+  umaren: ComboPayout[]; // 通常1件。1着同着等で複数件になる場合がある
+  umatan: ComboPayout[];
+};
+
+/**
+ * db.netkeiba.com のレース結果ページから馬連・馬単の確定払戻を取得する。
+ * URL: https://db.netkeiba.com/race/[12桁ID]/
+ */
+export async function fetchRacePayouts(netKeibaRaceId: string): Promise<RacePayouts> {
+  await sleep(1200);
+  try {
+    const url = `https://db.netkeiba.com/race/${netKeibaRaceId}/`;
+    const html = await fetchEuc(url);
+    return parsePayouts(html);
+  } catch (e) {
+    console.warn(`  [scraper] fetchRacePayouts failed (${netKeibaRaceId}):`, (e as Error).message);
+    return { umaren: [], umatan: [] };
+  }
+}
+
+/**
+ * 払戻テーブル（class="pay_table_01"）をパースする。
+ * 構造:
+ *   <tr><th class="uren">馬連</th><td>8 - 13</td><td class="txt_r">29,830</td><td class="txt_r">58</td></tr>
+ *   <tr><th class="utan">馬単</th><td>13 → 8</td><td class="txt_r">70,700</td><td class="txt_r">114</td></tr>
+ * 複数組み合わせ（同着等）は <br /> 区切りで並ぶ。
+ */
+function parsePayouts(html: string): RacePayouts {
+  function extractRow(thClass: string, sep: "-" | "→"): ComboPayout[] {
+    const rowRe = new RegExp(
+      `<th[^>]*class="${thClass}"[^>]*>[\\s\\S]*?<\\/th>\\s*<td[^>]*>([\\s\\S]*?)<\\/td>\\s*<td[^>]*class="txt_r"[^>]*>([\\s\\S]*?)<\\/td>`,
+      "i"
+    );
+    const m = html.match(rowRe);
+    if (!m) return [];
+    const combos = m[1].split(/<br\s*\/?>/i).map((s) => stripTags(s).trim()).filter(Boolean);
+    const payouts = m[2].split(/<br\s*\/?>/i).map((s) => stripTags(s).trim()).filter(Boolean);
+    const results: ComboPayout[] = [];
+    for (let i = 0; i < combos.length; i++) {
+      const nums = combos[i]
+        .split(sep === "-" ? "-" : "→")
+        .map((s) => parseInt(s.trim(), 10))
+        .filter((n) => !isNaN(n));
+      const payout = parseInt((payouts[i] ?? "").replace(/[^\d]/g, ""), 10);
+      if (nums.length === 2 && !isNaN(payout) && payout > 0) {
+        results.push({ combo: nums, payout });
+      }
+    }
+    return results;
+  }
+
+  return {
+    umaren: extractRow("uren", "-"),
+    umatan: extractRow("utan", "→"),
+  };
+}
+
 /**
  * race.netkeiba.com/race/result.html の HTML をパース。
  * 構造: <tr class="HorseList"> 内に

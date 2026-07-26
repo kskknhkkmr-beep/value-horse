@@ -1,0 +1,8981 @@
+{
+  "fetchedAt": "2026-07-26T14:22:38.761Z",
+  "payouts": [
+    {
+      "raceId": 25,
+      "netKeibaRaceId": "202609030501",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 650
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            4
+          ],
+          "payout": 1320
+        }
+      ]
+    },
+    {
+      "raceId": 26,
+      "netKeibaRaceId": "202609030502",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            12
+          ],
+          "payout": 900
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            8
+          ],
+          "payout": 1340
+        }
+      ]
+    },
+    {
+      "raceId": 27,
+      "netKeibaRaceId": "202609030503",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            14
+          ],
+          "payout": 2150
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            14
+          ],
+          "payout": 5440
+        }
+      ]
+    },
+    {
+      "raceId": 28,
+      "netKeibaRaceId": "202609030504",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            6,
+            13
+          ],
+          "payout": 1010
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            13
+          ],
+          "payout": 2550
+        }
+      ]
+    },
+    {
+      "raceId": 29,
+      "netKeibaRaceId": "202609030505",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 2580
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            8
+          ],
+          "payout": 7640
+        }
+      ]
+    },
+    {
+      "raceId": 30,
+      "netKeibaRaceId": "202609030506",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 850
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            4
+          ],
+          "payout": 1760
+        }
+      ]
+    },
+    {
+      "raceId": 31,
+      "netKeibaRaceId": "202609030507",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 1020
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            2
+          ],
+          "payout": 1430
+        }
+      ]
+    },
+    {
+      "raceId": 32,
+      "netKeibaRaceId": "202609030508",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            4,
+            12
+          ],
+          "payout": 3430
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            4
+          ],
+          "payout": 7050
+        }
+      ]
+    },
+    {
+      "raceId": 33,
+      "netKeibaRaceId": "202609030509",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 370
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            5
+          ],
+          "payout": 530
+        }
+      ]
+    },
+    {
+      "raceId": 34,
+      "netKeibaRaceId": "202609030510",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            6,
+            11
+          ],
+          "payout": 9410
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            11
+          ],
+          "payout": 14260
+        }
+      ]
+    },
+    {
+      "raceId": 35,
+      "netKeibaRaceId": "202609030511",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 5450
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 7640
+        }
+      ]
+    },
+    {
+      "raceId": 36,
+      "netKeibaRaceId": "202609030512",
+      "date": "2026-06-20",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            12
+          ],
+          "payout": 84420
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            8
+          ],
+          "payout": 201340
+        }
+      ]
+    },
+    {
+      "raceId": 13,
+      "netKeibaRaceId": "202605030501",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            5,
+            14
+          ],
+          "payout": 1360
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            5
+          ],
+          "payout": 1550
+        }
+      ]
+    },
+    {
+      "raceId": 14,
+      "netKeibaRaceId": "202605030502",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 610
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            1
+          ],
+          "payout": 1420
+        }
+      ]
+    },
+    {
+      "raceId": 15,
+      "netKeibaRaceId": "202605030503",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            7,
+            9
+          ],
+          "payout": 2660
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            9
+          ],
+          "payout": 4090
+        }
+      ]
+    },
+    {
+      "raceId": 16,
+      "netKeibaRaceId": "202605030504",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 3470
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            1
+          ],
+          "payout": 4400
+        }
+      ]
+    },
+    {
+      "raceId": 17,
+      "netKeibaRaceId": "202605030505",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            6
+          ],
+          "payout": 1950
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            6
+          ],
+          "payout": 3210
+        }
+      ]
+    },
+    {
+      "raceId": 18,
+      "netKeibaRaceId": "202605030506",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 1780
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 2900
+        }
+      ]
+    },
+    {
+      "raceId": 19,
+      "netKeibaRaceId": "202605030507",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 29870
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 52570
+        }
+      ]
+    },
+    {
+      "raceId": 20,
+      "netKeibaRaceId": "202605030508",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 3850
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 11850
+        }
+      ]
+    },
+    {
+      "raceId": 21,
+      "netKeibaRaceId": "202605030509",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 1040
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 1330
+        }
+      ]
+    },
+    {
+      "raceId": 22,
+      "netKeibaRaceId": "202605030510",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            3,
+            14
+          ],
+          "payout": 3900
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            3
+          ],
+          "payout": 8560
+        }
+      ]
+    },
+    {
+      "raceId": 23,
+      "netKeibaRaceId": "202605030511",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            10
+          ],
+          "payout": 7480
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            2
+          ],
+          "payout": 19150
+        }
+      ]
+    },
+    {
+      "raceId": 24,
+      "netKeibaRaceId": "202605030512",
+      "date": "2026-06-20",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            12
+          ],
+          "payout": 9530
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            1
+          ],
+          "payout": 15310
+        }
+      ]
+    },
+    {
+      "raceId": 1,
+      "netKeibaRaceId": "202602010301",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 29830
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            8
+          ],
+          "payout": 70700
+        }
+      ]
+    },
+    {
+      "raceId": 2,
+      "netKeibaRaceId": "202602010302",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            7,
+            11
+          ],
+          "payout": 10220
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            11
+          ],
+          "payout": 15750
+        }
+      ]
+    },
+    {
+      "raceId": 3,
+      "netKeibaRaceId": "202602010303",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 2120
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            1
+          ],
+          "payout": 3950
+        }
+      ]
+    },
+    {
+      "raceId": 4,
+      "netKeibaRaceId": "202602010304",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            3,
+            9
+          ],
+          "payout": 7220
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            9
+          ],
+          "payout": 17400
+        }
+      ]
+    },
+    {
+      "raceId": 5,
+      "netKeibaRaceId": "202602010305",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 770
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 1420
+        }
+      ]
+    },
+    {
+      "raceId": 6,
+      "netKeibaRaceId": "202602010306",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 940
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            1
+          ],
+          "payout": 2070
+        }
+      ]
+    },
+    {
+      "raceId": 7,
+      "netKeibaRaceId": "202602010307",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            14
+          ],
+          "payout": 3290
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            14
+          ],
+          "payout": 6770
+        }
+      ]
+    },
+    {
+      "raceId": 8,
+      "netKeibaRaceId": "202602010308",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            5,
+            10
+          ],
+          "payout": 930
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            5
+          ],
+          "payout": 1240
+        }
+      ]
+    },
+    {
+      "raceId": 9,
+      "netKeibaRaceId": "202602010309",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            2
+          ],
+          "payout": 1120
+        }
+      ]
+    },
+    {
+      "raceId": 10,
+      "netKeibaRaceId": "202602010310",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 900
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 1920
+        }
+      ]
+    },
+    {
+      "raceId": 11,
+      "netKeibaRaceId": "202602010311",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            3,
+            10
+          ],
+          "payout": 6070
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            3
+          ],
+          "payout": 11540
+        }
+      ]
+    },
+    {
+      "raceId": 12,
+      "netKeibaRaceId": "202602010312",
+      "date": "2026-06-20",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 1340
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 1860
+        }
+      ]
+    },
+    {
+      "raceId": 61,
+      "netKeibaRaceId": "202609030601",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 9880
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 10440
+        }
+      ]
+    },
+    {
+      "raceId": 62,
+      "netKeibaRaceId": "202609030602",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            17
+          ],
+          "payout": 4170
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            17,
+            8
+          ],
+          "payout": 7240
+        }
+      ]
+    },
+    {
+      "raceId": 63,
+      "netKeibaRaceId": "202609030603",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            15
+          ],
+          "payout": 3610
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            1
+          ],
+          "payout": 6360
+        }
+      ]
+    },
+    {
+      "raceId": 64,
+      "netKeibaRaceId": "202609030604",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            5,
+            15
+          ],
+          "payout": 2520
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            5
+          ],
+          "payout": 6680
+        }
+      ]
+    },
+    {
+      "raceId": 65,
+      "netKeibaRaceId": "202609030605",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 2270
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 3050
+        }
+      ]
+    },
+    {
+      "raceId": 66,
+      "netKeibaRaceId": "202609030606",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            9,
+            16
+          ],
+          "payout": 680
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            16
+          ],
+          "payout": 1360
+        }
+      ]
+    },
+    {
+      "raceId": 67,
+      "netKeibaRaceId": "202609030607",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            4,
+            12
+          ],
+          "payout": 3480
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            12
+          ],
+          "payout": 7710
+        }
+      ]
+    },
+    {
+      "raceId": 68,
+      "netKeibaRaceId": "202609030608",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 3370
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 4650
+        }
+      ]
+    },
+    {
+      "raceId": 69,
+      "netKeibaRaceId": "202609030609",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 500
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            1
+          ],
+          "payout": 990
+        }
+      ]
+    },
+    {
+      "raceId": 70,
+      "netKeibaRaceId": "202609030610",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 20530
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            8
+          ],
+          "payout": 60430
+        }
+      ]
+    },
+    {
+      "raceId": 71,
+      "netKeibaRaceId": "202609030611",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            7,
+            10
+          ],
+          "payout": 6400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            7
+          ],
+          "payout": 13920
+        }
+      ]
+    },
+    {
+      "raceId": 72,
+      "netKeibaRaceId": "202609030612",
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "umaren": [
+        {
+          "combo": [
+            3,
+            12
+          ],
+          "payout": 950
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            3
+          ],
+          "payout": 1170
+        }
+      ]
+    },
+    {
+      "raceId": 49,
+      "netKeibaRaceId": "202605030601",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 960
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 1960
+        }
+      ]
+    },
+    {
+      "raceId": 50,
+      "netKeibaRaceId": "202605030602",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            8
+          ],
+          "payout": 710
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            2
+          ],
+          "payout": 1610
+        }
+      ]
+    },
+    {
+      "raceId": 51,
+      "netKeibaRaceId": "202605030603",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            7,
+            13
+          ],
+          "payout": 28410
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            13
+          ],
+          "payout": 58110
+        }
+      ]
+    },
+    {
+      "raceId": 52,
+      "netKeibaRaceId": "202605030604",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            6,
+            7
+          ],
+          "payout": 280
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            7
+          ],
+          "payout": 540
+        }
+      ]
+    },
+    {
+      "raceId": 53,
+      "netKeibaRaceId": "202605030605",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            5,
+            8
+          ],
+          "payout": 6810
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            5
+          ],
+          "payout": 15250
+        }
+      ]
+    },
+    {
+      "raceId": 54,
+      "netKeibaRaceId": "202605030606",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            8
+          ],
+          "payout": 1110
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            2
+          ],
+          "payout": 1580
+        }
+      ]
+    },
+    {
+      "raceId": 55,
+      "netKeibaRaceId": "202605030607",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            5,
+            10
+          ],
+          "payout": 470
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            5
+          ],
+          "payout": 1290
+        }
+      ]
+    },
+    {
+      "raceId": 56,
+      "netKeibaRaceId": "202605030608",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            3,
+            10
+          ],
+          "payout": 1970
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            10
+          ],
+          "payout": 3450
+        }
+      ]
+    },
+    {
+      "raceId": 57,
+      "netKeibaRaceId": "202605030609",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            9,
+            15
+          ],
+          "payout": 2980
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            9
+          ],
+          "payout": 10270
+        }
+      ]
+    },
+    {
+      "raceId": 58,
+      "netKeibaRaceId": "202605030610",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            9,
+            10
+          ],
+          "payout": 1100
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            9
+          ],
+          "payout": 2280
+        }
+      ]
+    },
+    {
+      "raceId": 59,
+      "netKeibaRaceId": "202605030611",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 13070
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            2
+          ],
+          "payout": 26950
+        }
+      ]
+    },
+    {
+      "raceId": 60,
+      "netKeibaRaceId": "202605030612",
+      "date": "2026-06-21",
+      "venue": "東京",
+      "umaren": [
+        {
+          "combo": [
+            12,
+            15
+          ],
+          "payout": 1480
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            12
+          ],
+          "payout": 2700
+        }
+      ]
+    },
+    {
+      "raceId": 37,
+      "netKeibaRaceId": "202602010401",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 2200
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 4680
+        }
+      ]
+    },
+    {
+      "raceId": 38,
+      "netKeibaRaceId": "202602010402",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 1160
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 2490
+        }
+      ]
+    },
+    {
+      "raceId": 39,
+      "netKeibaRaceId": "202602010403",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 11460
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            7
+          ],
+          "payout": 21510
+        }
+      ]
+    },
+    {
+      "raceId": 40,
+      "netKeibaRaceId": "202602010404",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            12
+          ],
+          "payout": 3890
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            12
+          ],
+          "payout": 7240
+        }
+      ]
+    },
+    {
+      "raceId": 41,
+      "netKeibaRaceId": "202602010405",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 430
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 1060
+        }
+      ]
+    },
+    {
+      "raceId": 42,
+      "netKeibaRaceId": "202602010406",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 5690
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 11240
+        }
+      ]
+    },
+    {
+      "raceId": 43,
+      "netKeibaRaceId": "202602010407",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            6,
+            7
+          ],
+          "payout": 1580
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            6
+          ],
+          "payout": 2130
+        }
+      ]
+    },
+    {
+      "raceId": 44,
+      "netKeibaRaceId": "202602010408",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            7,
+            9
+          ],
+          "payout": 1250
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            7
+          ],
+          "payout": 3030
+        }
+      ]
+    },
+    {
+      "raceId": 45,
+      "netKeibaRaceId": "202602010409",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            6,
+            7
+          ],
+          "payout": 2130
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            6
+          ],
+          "payout": 4130
+        }
+      ]
+    },
+    {
+      "raceId": 46,
+      "netKeibaRaceId": "202602010410",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 320
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 480
+        }
+      ]
+    },
+    {
+      "raceId": 47,
+      "netKeibaRaceId": "202602010411",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            4,
+            14
+          ],
+          "payout": 8770
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            4
+          ],
+          "payout": 15010
+        }
+      ]
+    },
+    {
+      "raceId": 48,
+      "netKeibaRaceId": "202602010412",
+      "date": "2026-06-21",
+      "venue": "函館",
+      "umaren": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 3570
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 4830
+        }
+      ]
+    },
+    {
+      "raceId": 13,
+      "netKeibaRaceId": "202610020101",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 350
+        }
+      ]
+    },
+    {
+      "raceId": 14,
+      "netKeibaRaceId": "202610020102",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            14
+          ],
+          "payout": 11730
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            3
+          ],
+          "payout": 13410
+        }
+      ]
+    },
+    {
+      "raceId": 15,
+      "netKeibaRaceId": "202610020103",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 24380
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 41920
+        }
+      ]
+    },
+    {
+      "raceId": 16,
+      "netKeibaRaceId": "202610020104",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 1600
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 3810
+        }
+      ]
+    },
+    {
+      "raceId": 17,
+      "netKeibaRaceId": "202610020105",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 540
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            2
+          ],
+          "payout": 990
+        }
+      ]
+    },
+    {
+      "raceId": 18,
+      "netKeibaRaceId": "202610020106",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            16
+          ],
+          "payout": 6340
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            16
+          ],
+          "payout": 9270
+        }
+      ]
+    },
+    {
+      "raceId": 19,
+      "netKeibaRaceId": "202610020107",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            13
+          ],
+          "payout": 3920
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            2
+          ],
+          "payout": 6800
+        }
+      ]
+    },
+    {
+      "raceId": 20,
+      "netKeibaRaceId": "202610020108",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 640
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            1
+          ],
+          "payout": 1250
+        }
+      ]
+    },
+    {
+      "raceId": 21,
+      "netKeibaRaceId": "202610020109",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            4
+          ],
+          "payout": 360
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            2
+          ],
+          "payout": 500
+        }
+      ]
+    },
+    {
+      "raceId": 22,
+      "netKeibaRaceId": "202610020110",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 3440
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 6840
+        }
+      ]
+    },
+    {
+      "raceId": 23,
+      "netKeibaRaceId": "202610020111",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            13
+          ],
+          "payout": 1640
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            13
+          ],
+          "payout": 3800
+        }
+      ]
+    },
+    {
+      "raceId": 24,
+      "netKeibaRaceId": "202610020112",
+      "date": "2026-06-27",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            8
+          ],
+          "payout": 390
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            2
+          ],
+          "payout": 570
+        }
+      ]
+    },
+    {
+      "raceId": 1,
+      "netKeibaRaceId": "202602010501",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            15
+          ],
+          "payout": 1740
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            10
+          ],
+          "payout": 3270
+        }
+      ]
+    },
+    {
+      "raceId": 2,
+      "netKeibaRaceId": "202602010502",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            10
+          ],
+          "payout": 690
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            2
+          ],
+          "payout": 1200
+        }
+      ]
+    },
+    {
+      "raceId": 3,
+      "netKeibaRaceId": "202602010503",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            10
+          ],
+          "payout": 1440
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            10
+          ],
+          "payout": 1820
+        }
+      ]
+    },
+    {
+      "raceId": 4,
+      "netKeibaRaceId": "202602010504",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            13,
+            14
+          ],
+          "payout": 37970
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            13
+          ],
+          "payout": 44350
+        }
+      ]
+    },
+    {
+      "raceId": 5,
+      "netKeibaRaceId": "202602010505",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 410
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            1
+          ],
+          "payout": 900
+        }
+      ]
+    },
+    {
+      "raceId": 6,
+      "netKeibaRaceId": "202602010506",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            9
+          ],
+          "payout": 1010
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            9
+          ],
+          "payout": 1440
+        }
+      ]
+    },
+    {
+      "raceId": 7,
+      "netKeibaRaceId": "202602010507",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 2030
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            8
+          ],
+          "payout": 2590
+        }
+      ]
+    },
+    {
+      "raceId": 8,
+      "netKeibaRaceId": "202602010508",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 1420
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 1920
+        }
+      ]
+    },
+    {
+      "raceId": 9,
+      "netKeibaRaceId": "202602010509",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            4
+          ],
+          "payout": 900
+        }
+      ]
+    },
+    {
+      "raceId": 10,
+      "netKeibaRaceId": "202602010510",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 5410
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            2
+          ],
+          "payout": 8650
+        }
+      ]
+    },
+    {
+      "raceId": 11,
+      "netKeibaRaceId": "202602010511",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            11
+          ],
+          "payout": 1610
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            11
+          ],
+          "payout": 2950
+        }
+      ]
+    },
+    {
+      "raceId": 12,
+      "netKeibaRaceId": "202602010512",
+      "date": "2026-06-27",
+      "venue": "函館",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 1080
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 1540
+        }
+      ]
+    },
+    {
+      "raceId": 25,
+      "netKeibaRaceId": "202603020101",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            10
+          ],
+          "payout": 24200
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            10
+          ],
+          "payout": 36410
+        }
+      ]
+    },
+    {
+      "raceId": 26,
+      "netKeibaRaceId": "202603020102",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            14,
+            15
+          ],
+          "payout": 380
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            14
+          ],
+          "payout": 710
+        }
+      ]
+    },
+    {
+      "raceId": 27,
+      "netKeibaRaceId": "202603020103",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            10
+          ],
+          "payout": 1800
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            6
+          ],
+          "payout": 2180
+        }
+      ]
+    },
+    {
+      "raceId": 28,
+      "netKeibaRaceId": "202603020104",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            8
+          ],
+          "payout": 4240
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            8
+          ],
+          "payout": 8870
+        }
+      ]
+    },
+    {
+      "raceId": 29,
+      "netKeibaRaceId": "202603020105",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            6
+          ],
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            6
+          ],
+          "payout": 760
+        }
+      ]
+    },
+    {
+      "raceId": 30,
+      "netKeibaRaceId": "202603020106",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 310
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 770
+        }
+      ]
+    },
+    {
+      "raceId": 31,
+      "netKeibaRaceId": "202603020107",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            16
+          ],
+          "payout": 7430
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            16
+          ],
+          "payout": 9560
+        }
+      ]
+    },
+    {
+      "raceId": 32,
+      "netKeibaRaceId": "202603020108",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 1750
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 2560
+        }
+      ]
+    },
+    {
+      "raceId": 33,
+      "netKeibaRaceId": "202603020109",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 3730
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            6
+          ],
+          "payout": 16140
+        }
+      ]
+    },
+    {
+      "raceId": 34,
+      "netKeibaRaceId": "202603020110",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 1120
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            1
+          ],
+          "payout": 2450
+        }
+      ]
+    },
+    {
+      "raceId": 35,
+      "netKeibaRaceId": "202603020111",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 500
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 660
+        }
+      ]
+    },
+    {
+      "raceId": 36,
+      "netKeibaRaceId": "202603020112",
+      "date": "2026-06-27",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 9520
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            2
+          ],
+          "payout": 20200
+        }
+      ]
+    },
+    {
+      "raceId": 1,
+      "netKeibaRaceId": "202610020201",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            8
+          ],
+          "payout": 9010
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            1
+          ],
+          "payout": 16740
+        }
+      ]
+    },
+    {
+      "raceId": 2,
+      "netKeibaRaceId": "202610020202",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            9
+          ],
+          "payout": 810
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            1
+          ],
+          "payout": 1740
+        }
+      ]
+    },
+    {
+      "raceId": 3,
+      "netKeibaRaceId": "202610020203",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 860
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            4
+          ],
+          "payout": 2640
+        }
+      ]
+    },
+    {
+      "raceId": 4,
+      "netKeibaRaceId": "202610020204",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            13
+          ],
+          "payout": 2420
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            13
+          ],
+          "payout": 3810
+        }
+      ]
+    },
+    {
+      "raceId": 5,
+      "netKeibaRaceId": "202610020205",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 700
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 1240
+        }
+      ]
+    },
+    {
+      "raceId": 6,
+      "netKeibaRaceId": "202610020206",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 1460
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 1670
+        }
+      ]
+    },
+    {
+      "raceId": 7,
+      "netKeibaRaceId": "202610020207",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            4
+          ],
+          "payout": 830
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            4
+          ],
+          "payout": 1230
+        }
+      ]
+    },
+    {
+      "raceId": 8,
+      "netKeibaRaceId": "202610020208",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            9
+          ],
+          "payout": 990
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            3
+          ],
+          "payout": 1190
+        }
+      ]
+    },
+    {
+      "raceId": 9,
+      "netKeibaRaceId": "202610020209",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 440
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            5
+          ],
+          "payout": 650
+        }
+      ]
+    },
+    {
+      "raceId": 10,
+      "netKeibaRaceId": "202610020210",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            11
+          ],
+          "payout": 7410
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            11
+          ],
+          "payout": 16760
+        }
+      ]
+    },
+    {
+      "raceId": 11,
+      "netKeibaRaceId": "202610020211",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 10740
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            2
+          ],
+          "payout": 23230
+        }
+      ]
+    },
+    {
+      "raceId": 12,
+      "netKeibaRaceId": "202610020212",
+      "date": "2026-06-28",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            13
+          ],
+          "payout": 6310
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            13
+          ],
+          "payout": 9300
+        }
+      ]
+    },
+    {
+      "raceId": 13,
+      "netKeibaRaceId": "202602010601",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 1150
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            1
+          ],
+          "payout": 1840
+        }
+      ]
+    },
+    {
+      "raceId": 14,
+      "netKeibaRaceId": "202602010602",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            8
+          ],
+          "payout": 7660
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            8
+          ],
+          "payout": 9880
+        }
+      ]
+    },
+    {
+      "raceId": 15,
+      "netKeibaRaceId": "202602010603",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 250
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 350
+        }
+      ]
+    },
+    {
+      "raceId": 16,
+      "netKeibaRaceId": "202602010604",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            11,
+            14
+          ],
+          "payout": 4250
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            11
+          ],
+          "payout": 8270
+        }
+      ]
+    },
+    {
+      "raceId": 17,
+      "netKeibaRaceId": "202602010605",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 170
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            1
+          ],
+          "payout": 220
+        }
+      ]
+    },
+    {
+      "raceId": 18,
+      "netKeibaRaceId": "202602010606",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            14
+          ],
+          "payout": 1450
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            10
+          ],
+          "payout": 2080
+        }
+      ]
+    },
+    {
+      "raceId": 19,
+      "netKeibaRaceId": "202602010607",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            4
+          ],
+          "payout": 1760
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            2
+          ],
+          "payout": 3590
+        }
+      ]
+    },
+    {
+      "raceId": 20,
+      "netKeibaRaceId": "202602010608",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            9
+          ],
+          "payout": 13250
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            5
+          ],
+          "payout": 20570
+        }
+      ]
+    },
+    {
+      "raceId": 21,
+      "netKeibaRaceId": "202602010609",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 420
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 610
+        }
+      ]
+    },
+    {
+      "raceId": 22,
+      "netKeibaRaceId": "202602010610",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 1050
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 1720
+        }
+      ]
+    },
+    {
+      "raceId": 23,
+      "netKeibaRaceId": "202602010611",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            10
+          ],
+          "payout": 12080
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            10
+          ],
+          "payout": 20220
+        }
+      ]
+    },
+    {
+      "raceId": 24,
+      "netKeibaRaceId": "202602010612",
+      "date": "2026-06-28",
+      "venue": "函館",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            12,
+            14
+          ],
+          "payout": 5180
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            14
+          ],
+          "payout": 11210
+        }
+      ]
+    },
+    {
+      "raceId": 25,
+      "netKeibaRaceId": "202603020201",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            4
+          ],
+          "payout": 1880
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            2
+          ],
+          "payout": 4490
+        }
+      ]
+    },
+    {
+      "raceId": 26,
+      "netKeibaRaceId": "202603020202",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            12
+          ],
+          "payout": 1640
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            7
+          ],
+          "payout": 2100
+        }
+      ]
+    },
+    {
+      "raceId": 27,
+      "netKeibaRaceId": "202603020203",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 260
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            1
+          ],
+          "payout": 380
+        }
+      ]
+    },
+    {
+      "raceId": 28,
+      "netKeibaRaceId": "202603020204",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 450
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 800
+        }
+      ]
+    },
+    {
+      "raceId": 29,
+      "netKeibaRaceId": "202603020205",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            13
+          ],
+          "payout": 5820
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            4
+          ],
+          "payout": 9890
+        }
+      ]
+    },
+    {
+      "raceId": 30,
+      "netKeibaRaceId": "202603020206",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            16
+          ],
+          "payout": 1180
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            16
+          ],
+          "payout": 2160
+        }
+      ]
+    },
+    {
+      "raceId": 31,
+      "netKeibaRaceId": "202603020207",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            14
+          ],
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            7
+          ],
+          "payout": 590
+        }
+      ]
+    },
+    {
+      "raceId": 32,
+      "netKeibaRaceId": "202603020208",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 2030
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 3670
+        }
+      ]
+    },
+    {
+      "raceId": 33,
+      "netKeibaRaceId": "202603020209",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            11
+          ],
+          "payout": 5310
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            1
+          ],
+          "payout": 13620
+        }
+      ]
+    },
+    {
+      "raceId": 34,
+      "netKeibaRaceId": "202603020210",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            10
+          ],
+          "payout": 2430
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            10
+          ],
+          "payout": 3210
+        }
+      ]
+    },
+    {
+      "raceId": 35,
+      "netKeibaRaceId": "202603020211",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 4550
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            8
+          ],
+          "payout": 8360
+        }
+      ]
+    },
+    {
+      "raceId": 36,
+      "netKeibaRaceId": "202603020212",
+      "date": "2026-06-28",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 2790
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            7
+          ],
+          "payout": 6200
+        }
+      ]
+    },
+    {
+      "raceId": 10020301,
+      "netKeibaRaceId": "202610020301",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            11
+          ],
+          "payout": 6930
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            7
+          ],
+          "payout": 14420
+        }
+      ]
+    },
+    {
+      "raceId": 10020302,
+      "netKeibaRaceId": "202610020302",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 32380
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 54080
+        }
+      ]
+    },
+    {
+      "raceId": 10020303,
+      "netKeibaRaceId": "202610020303",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 320
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 600
+        }
+      ]
+    },
+    {
+      "raceId": 10020304,
+      "netKeibaRaceId": "202610020304",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            6
+          ],
+          "payout": 500
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            1
+          ],
+          "payout": 960
+        }
+      ]
+    },
+    {
+      "raceId": 10020305,
+      "netKeibaRaceId": "202610020305",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 3560
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            2
+          ],
+          "payout": 8910
+        }
+      ]
+    },
+    {
+      "raceId": 10020306,
+      "netKeibaRaceId": "202610020306",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 8560
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            2
+          ],
+          "payout": 14570
+        }
+      ]
+    },
+    {
+      "raceId": 10020307,
+      "netKeibaRaceId": "202610020307",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            10
+          ],
+          "payout": 1660
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            9
+          ],
+          "payout": 3200
+        }
+      ]
+    },
+    {
+      "raceId": 10020308,
+      "netKeibaRaceId": "202610020308",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            8
+          ],
+          "payout": 530
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            2
+          ],
+          "payout": 750
+        }
+      ]
+    },
+    {
+      "raceId": 10020309,
+      "netKeibaRaceId": "202610020309",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            11
+          ],
+          "payout": 1000
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            11
+          ],
+          "payout": 1500
+        }
+      ]
+    },
+    {
+      "raceId": 10020310,
+      "netKeibaRaceId": "202610020310",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            8
+          ],
+          "payout": 2110
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            8
+          ],
+          "payout": 3040
+        }
+      ]
+    },
+    {
+      "raceId": 10020311,
+      "netKeibaRaceId": "202610020311",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 560
+        }
+      ]
+    },
+    {
+      "raceId": 10020312,
+      "netKeibaRaceId": "202610020312",
+      "date": "2026-07-04",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            6
+          ],
+          "payout": 2540
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            1
+          ],
+          "payout": 6700
+        }
+      ]
+    },
+    {
+      "raceId": 2010701,
+      "netKeibaRaceId": "202602010701",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 490
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            2
+          ],
+          "payout": 1180
+        }
+      ]
+    },
+    {
+      "raceId": 2010702,
+      "netKeibaRaceId": "202602010702",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            16
+          ],
+          "payout": 1190
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            16,
+            3
+          ],
+          "payout": 2820
+        }
+      ]
+    },
+    {
+      "raceId": 2010703,
+      "netKeibaRaceId": "202602010703",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 4160
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            6
+          ],
+          "payout": 6450
+        }
+      ]
+    },
+    {
+      "raceId": 2010704,
+      "netKeibaRaceId": "202602010704",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            14
+          ],
+          "payout": 6250
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            2
+          ],
+          "payout": 15810
+        }
+      ]
+    },
+    {
+      "raceId": 2010705,
+      "netKeibaRaceId": "202602010705",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 2730
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            2
+          ],
+          "payout": 3710
+        }
+      ]
+    },
+    {
+      "raceId": 2010706,
+      "netKeibaRaceId": "202602010706",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            11
+          ],
+          "payout": 2070
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            11
+          ],
+          "payout": 3060
+        }
+      ]
+    },
+    {
+      "raceId": 2010707,
+      "netKeibaRaceId": "202602010707",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            10
+          ],
+          "payout": 1160
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            3
+          ],
+          "payout": 2620
+        }
+      ]
+    },
+    {
+      "raceId": 2010708,
+      "netKeibaRaceId": "202602010708",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 1300
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 1520
+        }
+      ]
+    },
+    {
+      "raceId": 2010709,
+      "netKeibaRaceId": "202602010709",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            7
+          ],
+          "payout": 1110
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            7
+          ],
+          "payout": 2480
+        }
+      ]
+    },
+    {
+      "raceId": 2010710,
+      "netKeibaRaceId": "202602010710",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 840
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            1
+          ],
+          "payout": 1200
+        }
+      ]
+    },
+    {
+      "raceId": 2010711,
+      "netKeibaRaceId": "202602010711",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            12
+          ],
+          "payout": 4400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            12
+          ],
+          "payout": 7400
+        }
+      ]
+    },
+    {
+      "raceId": 2010712,
+      "netKeibaRaceId": "202602010712",
+      "date": "2026-07-04",
+      "venue": "函館",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 1370
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            4
+          ],
+          "payout": 1750
+        }
+      ]
+    },
+    {
+      "raceId": 3020301,
+      "netKeibaRaceId": "202603020301",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 590
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 2840
+        }
+      ]
+    },
+    {
+      "raceId": 3020302,
+      "netKeibaRaceId": "202603020302",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 3820
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 10600
+        }
+      ]
+    },
+    {
+      "raceId": 3020303,
+      "netKeibaRaceId": "202603020303",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 18540
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            8
+          ],
+          "payout": 71610
+        }
+      ]
+    },
+    {
+      "raceId": 3020304,
+      "netKeibaRaceId": "202603020304",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            16
+          ],
+          "payout": 660
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            16
+          ],
+          "payout": 800
+        }
+      ]
+    },
+    {
+      "raceId": 3020305,
+      "netKeibaRaceId": "202603020305",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 1590
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 1900
+        }
+      ]
+    },
+    {
+      "raceId": 3020306,
+      "netKeibaRaceId": "202603020306",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            10
+          ],
+          "payout": 840
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            10
+          ],
+          "payout": 2380
+        }
+      ]
+    },
+    {
+      "raceId": 3020307,
+      "netKeibaRaceId": "202603020307",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            9
+          ],
+          "payout": 5390
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            9
+          ],
+          "payout": 7430
+        }
+      ]
+    },
+    {
+      "raceId": 3020308,
+      "netKeibaRaceId": "202603020308",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 3940
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 6260
+        }
+      ]
+    },
+    {
+      "raceId": 3020309,
+      "netKeibaRaceId": "202603020309",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 4630
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 9250
+        }
+      ]
+    },
+    {
+      "raceId": 3020310,
+      "netKeibaRaceId": "202603020310",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            10
+          ],
+          "payout": 1270
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            10
+          ],
+          "payout": 2250
+        }
+      ]
+    },
+    {
+      "raceId": 3020311,
+      "netKeibaRaceId": "202603020311",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 380
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            8
+          ],
+          "payout": 510
+        }
+      ]
+    },
+    {
+      "raceId": 3020312,
+      "netKeibaRaceId": "202603020312",
+      "date": "2026-07-04",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            13
+          ],
+          "payout": 8970
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            10
+          ],
+          "payout": 15900
+        }
+      ]
+    },
+    {
+      "raceId": 10020401,
+      "netKeibaRaceId": "202610020401",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            12
+          ],
+          "payout": 1770
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            3
+          ],
+          "payout": 3510
+        }
+      ]
+    },
+    {
+      "raceId": 10020402,
+      "netKeibaRaceId": "202610020402",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            10
+          ],
+          "payout": 1330
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            7
+          ],
+          "payout": 1850
+        }
+      ]
+    },
+    {
+      "raceId": 10020403,
+      "netKeibaRaceId": "202610020403",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            12
+          ],
+          "payout": 232680
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            12
+          ],
+          "payout": 322040
+        }
+      ]
+    },
+    {
+      "raceId": 10020404,
+      "netKeibaRaceId": "202610020404",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 4710
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            5
+          ],
+          "payout": 10960
+        }
+      ]
+    },
+    {
+      "raceId": 10020405,
+      "netKeibaRaceId": "202610020405",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            11
+          ],
+          "payout": 11550
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            11
+          ],
+          "payout": 28040
+        }
+      ]
+    },
+    {
+      "raceId": 10020406,
+      "netKeibaRaceId": "202610020406",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 980
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 960
+        }
+      ]
+    },
+    {
+      "raceId": 10020407,
+      "netKeibaRaceId": "202610020407",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            13
+          ],
+          "payout": 12070
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            13
+          ],
+          "payout": 16550
+        }
+      ]
+    },
+    {
+      "raceId": 10020408,
+      "netKeibaRaceId": "202610020408",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            9
+          ],
+          "payout": 6630
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            9
+          ],
+          "payout": 9250
+        }
+      ]
+    },
+    {
+      "raceId": 10020409,
+      "netKeibaRaceId": "202610020409",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 190
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            2
+          ],
+          "payout": 290
+        }
+      ]
+    },
+    {
+      "raceId": 10020410,
+      "netKeibaRaceId": "202610020410",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            14
+          ],
+          "payout": 6720
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            14
+          ],
+          "payout": 8360
+        }
+      ]
+    },
+    {
+      "raceId": 10020411,
+      "netKeibaRaceId": "202610020411",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            12
+          ],
+          "payout": 3930
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            2
+          ],
+          "payout": 5560
+        }
+      ]
+    },
+    {
+      "raceId": 10020412,
+      "netKeibaRaceId": "202610020412",
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            10
+          ],
+          "payout": 1570
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            2
+          ],
+          "payout": 2030
+        }
+      ]
+    },
+    {
+      "raceId": 2010801,
+      "netKeibaRaceId": "202602010801",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 3210
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 7120
+        }
+      ]
+    },
+    {
+      "raceId": 2010802,
+      "netKeibaRaceId": "202602010802",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            10
+          ],
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            3
+          ],
+          "payout": 710
+        }
+      ]
+    },
+    {
+      "raceId": 2010803,
+      "netKeibaRaceId": "202602010803",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            11
+          ],
+          "payout": 4830
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            1
+          ],
+          "payout": 17300
+        }
+      ]
+    },
+    {
+      "raceId": 2010804,
+      "netKeibaRaceId": "202602010804",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            16
+          ],
+          "payout": 2980
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            16,
+            2
+          ],
+          "payout": 5180
+        }
+      ]
+    },
+    {
+      "raceId": 2010805,
+      "netKeibaRaceId": "202602010805",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 370
+        }
+      ]
+    },
+    {
+      "raceId": 2010806,
+      "netKeibaRaceId": "202602010806",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            16
+          ],
+          "payout": 1400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            16
+          ],
+          "payout": 2760
+        }
+      ]
+    },
+    {
+      "raceId": 2010807,
+      "netKeibaRaceId": "202602010807",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 860
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 1330
+        }
+      ]
+    },
+    {
+      "raceId": 2010808,
+      "netKeibaRaceId": "202602010808",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            4
+          ],
+          "payout": 650
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            2
+          ],
+          "payout": 1060
+        }
+      ]
+    },
+    {
+      "raceId": 2010809,
+      "netKeibaRaceId": "202602010809",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            16
+          ],
+          "payout": 24480
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            16,
+            3
+          ],
+          "payout": 36500
+        }
+      ]
+    },
+    {
+      "raceId": 2010810,
+      "netKeibaRaceId": "202602010810",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 670
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            7
+          ],
+          "payout": 1060
+        }
+      ]
+    },
+    {
+      "raceId": 2010811,
+      "netKeibaRaceId": "202602010811",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            11
+          ],
+          "payout": 3870
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            6
+          ],
+          "payout": 7780
+        }
+      ]
+    },
+    {
+      "raceId": 2010812,
+      "netKeibaRaceId": "202602010812",
+      "date": "2026-07-05",
+      "venue": "函館",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 760
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 1100
+        }
+      ]
+    },
+    {
+      "raceId": 3020401,
+      "netKeibaRaceId": "202603020401",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            11
+          ],
+          "payout": 4360
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            11
+          ],
+          "payout": 7780
+        }
+      ]
+    },
+    {
+      "raceId": 3020402,
+      "netKeibaRaceId": "202603020402",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            8
+          ],
+          "payout": 3780
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            2
+          ],
+          "payout": 6680
+        }
+      ]
+    },
+    {
+      "raceId": 3020403,
+      "netKeibaRaceId": "202603020403",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            14
+          ],
+          "payout": 720
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            14
+          ],
+          "payout": 1240
+        }
+      ]
+    },
+    {
+      "raceId": 3020404,
+      "netKeibaRaceId": "202603020404",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            10
+          ],
+          "payout": 4030
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            8
+          ],
+          "payout": 5710
+        }
+      ]
+    },
+    {
+      "raceId": 3020405,
+      "netKeibaRaceId": "202603020405",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            12
+          ],
+          "payout": 5810
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            12
+          ],
+          "payout": 6900
+        }
+      ]
+    },
+    {
+      "raceId": 3020406,
+      "netKeibaRaceId": "202603020406",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            10
+          ],
+          "payout": 1400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            8
+          ],
+          "payout": 3430
+        }
+      ]
+    },
+    {
+      "raceId": 3020407,
+      "netKeibaRaceId": "202603020407",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            12
+          ],
+          "payout": 3230
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            12
+          ],
+          "payout": 4750
+        }
+      ]
+    },
+    {
+      "raceId": 3020408,
+      "netKeibaRaceId": "202603020408",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 2280
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            4
+          ],
+          "payout": 4500
+        }
+      ]
+    },
+    {
+      "raceId": 3020409,
+      "netKeibaRaceId": "202603020409",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            11,
+            13
+          ],
+          "payout": 3110
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            11
+          ],
+          "payout": 4960
+        }
+      ]
+    },
+    {
+      "raceId": 3020410,
+      "netKeibaRaceId": "202603020410",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 700
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            1
+          ],
+          "payout": 830
+        }
+      ]
+    },
+    {
+      "raceId": 3020411,
+      "netKeibaRaceId": "202603020411",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 6520
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            8
+          ],
+          "payout": 11380
+        }
+      ]
+    },
+    {
+      "raceId": 3020412,
+      "netKeibaRaceId": "202603020412",
+      "date": "2026-07-05",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            8
+          ],
+          "payout": 2570
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            5
+          ],
+          "payout": 6030
+        }
+      ]
+    },
+    {
+      "raceId": 10020501,
+      "netKeibaRaceId": "202610020501",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            12
+          ],
+          "payout": 1090
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            12
+          ],
+          "payout": 1520
+        }
+      ]
+    },
+    {
+      "raceId": 10020502,
+      "netKeibaRaceId": "202610020502",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 1790
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 3530
+        }
+      ]
+    },
+    {
+      "raceId": 10020503,
+      "netKeibaRaceId": "202610020503",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            14
+          ],
+          "payout": 7310
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            14
+          ],
+          "payout": 13770
+        }
+      ]
+    },
+    {
+      "raceId": 10020504,
+      "netKeibaRaceId": "202610020504",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 8110
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 16090
+        }
+      ]
+    },
+    {
+      "raceId": 10020505,
+      "netKeibaRaceId": "202610020505",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 3780
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 6220
+        }
+      ]
+    },
+    {
+      "raceId": 10020506,
+      "netKeibaRaceId": "202610020506",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            16,
+            17
+          ],
+          "payout": 630
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            16,
+            17
+          ],
+          "payout": 1340
+        }
+      ]
+    },
+    {
+      "raceId": 10020507,
+      "netKeibaRaceId": "202610020507",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 1690
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            5
+          ],
+          "payout": 2850
+        }
+      ]
+    },
+    {
+      "raceId": 10020508,
+      "netKeibaRaceId": "202610020508",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            10
+          ],
+          "payout": 4390
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            8
+          ],
+          "payout": 6110
+        }
+      ]
+    },
+    {
+      "raceId": 10020509,
+      "netKeibaRaceId": "202610020509",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 2770
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            3
+          ],
+          "payout": 6530
+        }
+      ]
+    },
+    {
+      "raceId": 10020510,
+      "netKeibaRaceId": "202610020510",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            14
+          ],
+          "payout": 69900
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            3
+          ],
+          "payout": 99330
+        }
+      ]
+    },
+    {
+      "raceId": 10020511,
+      "netKeibaRaceId": "202610020511",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 2850
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            1
+          ],
+          "payout": 4800
+        }
+      ]
+    },
+    {
+      "raceId": 10020512,
+      "netKeibaRaceId": "202610020512",
+      "date": "2026-07-11",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            11
+          ],
+          "payout": 5920
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            2
+          ],
+          "payout": 11090
+        }
+      ]
+    },
+    {
+      "raceId": 2010901,
+      "netKeibaRaceId": "202602010901",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 230
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 440
+        }
+      ]
+    },
+    {
+      "raceId": 2010902,
+      "netKeibaRaceId": "202602010902",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            7
+          ],
+          "payout": 1810
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            3
+          ],
+          "payout": 4190
+        }
+      ]
+    },
+    {
+      "raceId": 2010903,
+      "netKeibaRaceId": "202602010903",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 2630
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            5
+          ],
+          "payout": 3910
+        }
+      ]
+    },
+    {
+      "raceId": 2010904,
+      "netKeibaRaceId": "202602010904",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            14
+          ],
+          "payout": 1400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            4
+          ],
+          "payout": 2450
+        }
+      ]
+    },
+    {
+      "raceId": 2010905,
+      "netKeibaRaceId": "202602010905",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 370
+        }
+      ]
+    },
+    {
+      "raceId": 2010906,
+      "netKeibaRaceId": "202602010906",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            9
+          ],
+          "payout": 690
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            4
+          ],
+          "payout": 1110
+        }
+      ]
+    },
+    {
+      "raceId": 2010907,
+      "netKeibaRaceId": "202602010907",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 1820
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 3550
+        }
+      ]
+    },
+    {
+      "raceId": 2010908,
+      "netKeibaRaceId": "202602010908",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            8
+          ],
+          "payout": 1640
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            1
+          ],
+          "payout": 3860
+        }
+      ]
+    },
+    {
+      "raceId": 2010909,
+      "netKeibaRaceId": "202602010909",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 5980
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            8
+          ],
+          "payout": 16690
+        }
+      ]
+    },
+    {
+      "raceId": 2010910,
+      "netKeibaRaceId": "202602010910",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 580
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            2
+          ],
+          "payout": 890
+        }
+      ]
+    },
+    {
+      "raceId": 2010911,
+      "netKeibaRaceId": "202602010911",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 1110
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 2200
+        }
+      ]
+    },
+    {
+      "raceId": 2010912,
+      "netKeibaRaceId": "202602010912",
+      "date": "2026-07-11",
+      "venue": "函館",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 360
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 480
+        }
+      ]
+    },
+    {
+      "raceId": 3020501,
+      "netKeibaRaceId": "202603020501",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            6
+          ],
+          "payout": 760
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            3
+          ],
+          "payout": 1830
+        }
+      ]
+    },
+    {
+      "raceId": 3020502,
+      "netKeibaRaceId": "202603020502",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 1160
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            2
+          ],
+          "payout": 1570
+        }
+      ]
+    },
+    {
+      "raceId": 3020503,
+      "netKeibaRaceId": "202603020503",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            9
+          ],
+          "payout": 880
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            9
+          ],
+          "payout": 1470
+        }
+      ]
+    },
+    {
+      "raceId": 3020504,
+      "netKeibaRaceId": "202603020504",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            13
+          ],
+          "payout": 940
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            5
+          ],
+          "payout": 1870
+        }
+      ]
+    },
+    {
+      "raceId": 3020505,
+      "netKeibaRaceId": "202603020505",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 410
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 450
+        }
+      ]
+    },
+    {
+      "raceId": 3020506,
+      "netKeibaRaceId": "202603020506",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 7480
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            6
+          ],
+          "payout": 13960
+        }
+      ]
+    },
+    {
+      "raceId": 3020507,
+      "netKeibaRaceId": "202603020507",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 2690
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 3390
+        }
+      ]
+    },
+    {
+      "raceId": 3020508,
+      "netKeibaRaceId": "202603020508",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            12
+          ],
+          "payout": 960
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            9
+          ],
+          "payout": 1540
+        }
+      ]
+    },
+    {
+      "raceId": 3020509,
+      "netKeibaRaceId": "202603020509",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            13
+          ],
+          "payout": 1500
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            5
+          ],
+          "payout": 4230
+        }
+      ]
+    },
+    {
+      "raceId": 3020510,
+      "netKeibaRaceId": "202603020510",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 1250
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            9
+          ],
+          "payout": 1610
+        }
+      ]
+    },
+    {
+      "raceId": 3020511,
+      "netKeibaRaceId": "202603020511",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 10050
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 13940
+        }
+      ]
+    },
+    {
+      "raceId": 3020512,
+      "netKeibaRaceId": "202603020512",
+      "date": "2026-07-11",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            13
+          ],
+          "payout": 2470
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            13
+          ],
+          "payout": 5640
+        }
+      ]
+    },
+    {
+      "raceId": 10020601,
+      "netKeibaRaceId": "202610020601",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            10
+          ],
+          "payout": 8320
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            2
+          ],
+          "payout": 13250
+        }
+      ]
+    },
+    {
+      "raceId": 10020602,
+      "netKeibaRaceId": "202610020602",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            9
+          ],
+          "payout": 1630
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            6
+          ],
+          "payout": 2950
+        }
+      ]
+    },
+    {
+      "raceId": 10020603,
+      "netKeibaRaceId": "202610020603",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 370
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 760
+        }
+      ]
+    },
+    {
+      "raceId": 10020604,
+      "netKeibaRaceId": "202610020604",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            12
+          ],
+          "payout": 1450
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            12
+          ],
+          "payout": 2320
+        }
+      ]
+    },
+    {
+      "raceId": 10020605,
+      "netKeibaRaceId": "202610020605",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            7
+          ],
+          "payout": 280
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            6
+          ],
+          "payout": 360
+        }
+      ]
+    },
+    {
+      "raceId": 10020606,
+      "netKeibaRaceId": "202610020606",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 1250
+        }
+      ]
+    },
+    {
+      "raceId": 10020607,
+      "netKeibaRaceId": "202610020607",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 910
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 1750
+        }
+      ]
+    },
+    {
+      "raceId": 10020608,
+      "netKeibaRaceId": "202610020608",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 460
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 940
+        }
+      ]
+    },
+    {
+      "raceId": 10020609,
+      "netKeibaRaceId": "202610020609",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            10
+          ],
+          "payout": 290
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            10
+          ],
+          "payout": 420
+        }
+      ]
+    },
+    {
+      "raceId": 10020610,
+      "netKeibaRaceId": "202610020610",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 1430
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            1
+          ],
+          "payout": 2870
+        }
+      ]
+    },
+    {
+      "raceId": 10020611,
+      "netKeibaRaceId": "202610020611",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 5340
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            5
+          ],
+          "payout": 10850
+        }
+      ]
+    },
+    {
+      "raceId": 10020612,
+      "netKeibaRaceId": "202610020612",
+      "date": "2026-07-12",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            15
+          ],
+          "payout": 1530
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            15
+          ],
+          "payout": 2830
+        }
+      ]
+    },
+    {
+      "raceId": 2011001,
+      "netKeibaRaceId": "202602011001",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 360
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            6
+          ],
+          "payout": 890
+        }
+      ]
+    },
+    {
+      "raceId": 2011002,
+      "netKeibaRaceId": "202602011002",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            7,
+            11
+          ],
+          "payout": 3950
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            11
+          ],
+          "payout": 6320
+        }
+      ]
+    },
+    {
+      "raceId": 2011003,
+      "netKeibaRaceId": "202602011003",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            12
+          ],
+          "payout": 810
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            8
+          ],
+          "payout": 950
+        }
+      ]
+    },
+    {
+      "raceId": 2011004,
+      "netKeibaRaceId": "202602011004",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            4
+          ],
+          "payout": 2730
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            3
+          ],
+          "payout": 4980
+        }
+      ]
+    },
+    {
+      "raceId": 2011005,
+      "netKeibaRaceId": "202602011005",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 1880
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 4260
+        }
+      ]
+    },
+    {
+      "raceId": 2011006,
+      "netKeibaRaceId": "202602011006",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 2570
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 7010
+        }
+      ]
+    },
+    {
+      "raceId": 2011007,
+      "netKeibaRaceId": "202602011007",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 450
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            2
+          ],
+          "payout": 880
+        }
+      ]
+    },
+    {
+      "raceId": 2011008,
+      "netKeibaRaceId": "202602011008",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 620
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            9
+          ],
+          "payout": 1010
+        }
+      ]
+    },
+    {
+      "raceId": 2011009,
+      "netKeibaRaceId": "202602011009",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 2630
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            5
+          ],
+          "payout": 7360
+        }
+      ]
+    },
+    {
+      "raceId": 2011010,
+      "netKeibaRaceId": "202602011010",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            6
+          ],
+          "payout": 6380
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            5
+          ],
+          "payout": 11360
+        }
+      ]
+    },
+    {
+      "raceId": 2011011,
+      "netKeibaRaceId": "202602011011",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            10,
+            12
+          ],
+          "payout": 10030
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            12
+          ],
+          "payout": 17770
+        }
+      ]
+    },
+    {
+      "raceId": 2011012,
+      "netKeibaRaceId": "202602011012",
+      "date": "2026-07-12",
+      "venue": "函館",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            5
+          ],
+          "payout": 7600
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            4
+          ],
+          "payout": 17400
+        }
+      ]
+    },
+    {
+      "raceId": 3020601,
+      "netKeibaRaceId": "202603020601",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            13
+          ],
+          "payout": 8590
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            13
+          ],
+          "payout": 12600
+        }
+      ]
+    },
+    {
+      "raceId": 3020602,
+      "netKeibaRaceId": "202603020602",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            15
+          ],
+          "payout": 610
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            15
+          ],
+          "payout": 1390
+        }
+      ]
+    },
+    {
+      "raceId": 3020603,
+      "netKeibaRaceId": "202603020603",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            9,
+            13
+          ],
+          "payout": 1030
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            9,
+            13
+          ],
+          "payout": 1310
+        }
+      ]
+    },
+    {
+      "raceId": 3020604,
+      "netKeibaRaceId": "202603020604",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            8
+          ],
+          "payout": 1390
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            8
+          ],
+          "payout": 2790
+        }
+      ]
+    },
+    {
+      "raceId": 3020605,
+      "netKeibaRaceId": "202603020605",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            12
+          ],
+          "payout": 640
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            4
+          ],
+          "payout": 820
+        }
+      ]
+    },
+    {
+      "raceId": 3020606,
+      "netKeibaRaceId": "202603020606",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            12
+          ],
+          "payout": 3500
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            6
+          ],
+          "payout": 8400
+        }
+      ]
+    },
+    {
+      "raceId": 3020607,
+      "netKeibaRaceId": "202603020607",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            12
+          ],
+          "payout": 3050
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            12
+          ],
+          "payout": 5520
+        }
+      ]
+    },
+    {
+      "raceId": 3020608,
+      "netKeibaRaceId": "202603020608",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            12
+          ],
+          "payout": 500
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            6
+          ],
+          "payout": 910
+        }
+      ]
+    },
+    {
+      "raceId": 3020609,
+      "netKeibaRaceId": "202603020609",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 1730
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            4
+          ],
+          "payout": 3060
+        }
+      ]
+    },
+    {
+      "raceId": 3020610,
+      "netKeibaRaceId": "202603020610",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            11
+          ],
+          "payout": 610
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            3
+          ],
+          "payout": 1360
+        }
+      ]
+    },
+    {
+      "raceId": 3020611,
+      "netKeibaRaceId": "202603020611",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            11
+          ],
+          "payout": 3260
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            6
+          ],
+          "payout": 5750
+        }
+      ]
+    },
+    {
+      "raceId": 3020612,
+      "netKeibaRaceId": "202603020612",
+      "date": "2026-07-12",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            15
+          ],
+          "payout": 2400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            1
+          ],
+          "payout": 4670
+        }
+      ]
+    },
+    {
+      "raceId": 10020701,
+      "netKeibaRaceId": "202610020701",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 1630
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 3300
+        }
+      ]
+    },
+    {
+      "raceId": 10020702,
+      "netKeibaRaceId": "202610020702",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            10
+          ],
+          "payout": 350
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            5
+          ],
+          "payout": 1150
+        }
+      ]
+    },
+    {
+      "raceId": 10020703,
+      "netKeibaRaceId": "202610020703",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 1750
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 2730
+        }
+      ]
+    },
+    {
+      "raceId": 10020704,
+      "netKeibaRaceId": "202610020704",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 29400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 112860
+        }
+      ]
+    },
+    {
+      "raceId": 10020705,
+      "netKeibaRaceId": "202610020705",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 220
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            3
+          ],
+          "payout": 290
+        }
+      ]
+    },
+    {
+      "raceId": 10020706,
+      "netKeibaRaceId": "202610020706",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            12
+          ],
+          "payout": 400
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            12
+          ],
+          "payout": 790
+        }
+      ]
+    },
+    {
+      "raceId": 10020707,
+      "netKeibaRaceId": "202610020707",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 990
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            8
+          ],
+          "payout": 1550
+        }
+      ]
+    },
+    {
+      "raceId": 10020708,
+      "netKeibaRaceId": "202610020708",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            5
+          ],
+          "payout": 670
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            5
+          ],
+          "payout": 1090
+        }
+      ]
+    },
+    {
+      "raceId": 10020709,
+      "netKeibaRaceId": "202610020709",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            16
+          ],
+          "payout": 3710
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            16,
+            8
+          ],
+          "payout": 3890
+        }
+      ]
+    },
+    {
+      "raceId": 10020710,
+      "netKeibaRaceId": "202610020710",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            2
+          ],
+          "payout": 810
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            1
+          ],
+          "payout": 1900
+        }
+      ]
+    },
+    {
+      "raceId": 10020711,
+      "netKeibaRaceId": "202610020711",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            5
+          ],
+          "payout": 2260
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            3
+          ],
+          "payout": 3510
+        }
+      ]
+    },
+    {
+      "raceId": 10020712,
+      "netKeibaRaceId": "202610020712",
+      "date": "2026-07-18",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 550
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            5,
+            7
+          ],
+          "payout": 630
+        }
+      ]
+    },
+    {
+      "raceId": 3020701,
+      "netKeibaRaceId": "202603020701",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            12
+          ],
+          "payout": 1510
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            5
+          ],
+          "payout": 3150
+        }
+      ]
+    },
+    {
+      "raceId": 3020702,
+      "netKeibaRaceId": "202603020702",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 870
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 1350
+        }
+      ]
+    },
+    {
+      "raceId": 3020703,
+      "netKeibaRaceId": "202603020703",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            13
+          ],
+          "payout": 690
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            6
+          ],
+          "payout": 1360
+        }
+      ]
+    },
+    {
+      "raceId": 3020704,
+      "netKeibaRaceId": "202603020704",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            12
+          ],
+          "payout": 1770
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            4
+          ],
+          "payout": 2800
+        }
+      ]
+    },
+    {
+      "raceId": 3020705,
+      "netKeibaRaceId": "202603020705",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            13
+          ],
+          "payout": 1510
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            13
+          ],
+          "payout": 2240
+        }
+      ]
+    },
+    {
+      "raceId": 3020706,
+      "netKeibaRaceId": "202603020706",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            15
+          ],
+          "payout": 5010
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            15
+          ],
+          "payout": 11640
+        }
+      ]
+    },
+    {
+      "raceId": 3020707,
+      "netKeibaRaceId": "202603020707",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            11,
+            13
+          ],
+          "payout": 8160
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            13
+          ],
+          "payout": 11630
+        }
+      ]
+    },
+    {
+      "raceId": 3020708,
+      "netKeibaRaceId": "202603020708",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            11,
+            12
+          ],
+          "payout": 3430
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            11
+          ],
+          "payout": 6430
+        }
+      ]
+    },
+    {
+      "raceId": 3020709,
+      "netKeibaRaceId": "202603020709",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 2940
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            11
+          ],
+          "payout": 9200
+        }
+      ]
+    },
+    {
+      "raceId": 3020710,
+      "netKeibaRaceId": "202603020710",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            14,
+            15
+          ],
+          "payout": 12210
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            15,
+            14
+          ],
+          "payout": 26670
+        }
+      ]
+    },
+    {
+      "raceId": 3020711,
+      "netKeibaRaceId": "202603020711",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 4940
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            8
+          ],
+          "payout": 6780
+        }
+      ]
+    },
+    {
+      "raceId": 3020712,
+      "netKeibaRaceId": "202603020712",
+      "date": "2026-07-18",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            6
+          ],
+          "payout": 500
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            6,
+            2
+          ],
+          "payout": 1060
+        }
+      ]
+    },
+    {
+      "raceId": 10020801,
+      "netKeibaRaceId": "202610020801",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            5,
+            10
+          ],
+          "payout": 7480
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            10,
+            5
+          ],
+          "payout": 13060
+        }
+      ]
+    },
+    {
+      "raceId": 10020802,
+      "netKeibaRaceId": "202610020802",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 2450
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            3
+          ],
+          "payout": 3870
+        }
+      ]
+    },
+    {
+      "raceId": 10020803,
+      "netKeibaRaceId": "202610020803",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            12,
+            14
+          ],
+          "payout": 3410
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            14
+          ],
+          "payout": 6790
+        }
+      ]
+    },
+    {
+      "raceId": 10020804,
+      "netKeibaRaceId": "202610020804",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            8
+          ],
+          "payout": 810
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            3
+          ],
+          "payout": 1380
+        }
+      ]
+    },
+    {
+      "raceId": 10020805,
+      "netKeibaRaceId": "202610020805",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            7
+          ],
+          "payout": 3710
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            3
+          ],
+          "payout": 4750
+        }
+      ]
+    },
+    {
+      "raceId": 10020806,
+      "netKeibaRaceId": "202610020806",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            13
+          ],
+          "payout": 2940
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            6
+          ],
+          "payout": 5570
+        }
+      ]
+    },
+    {
+      "raceId": 10020807,
+      "netKeibaRaceId": "202610020807",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 1270
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            10
+          ],
+          "payout": 2400
+        }
+      ]
+    },
+    {
+      "raceId": 10020808,
+      "netKeibaRaceId": "202610020808",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            12,
+            14
+          ],
+          "payout": 53390
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            12,
+            14
+          ],
+          "payout": 94840
+        }
+      ]
+    },
+    {
+      "raceId": 10020809,
+      "netKeibaRaceId": "202610020809",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            7
+          ],
+          "payout": 890
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            3
+          ],
+          "payout": 1930
+        }
+      ]
+    },
+    {
+      "raceId": 10020810,
+      "netKeibaRaceId": "202610020810",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            4
+          ],
+          "payout": 5340
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            1
+          ],
+          "payout": 10760
+        }
+      ]
+    },
+    {
+      "raceId": 10020811,
+      "netKeibaRaceId": "202610020811",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            17
+          ],
+          "payout": 5650
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            17
+          ],
+          "payout": 17030
+        }
+      ]
+    },
+    {
+      "raceId": 10020812,
+      "netKeibaRaceId": "202610020812",
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 3570
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            2
+          ],
+          "payout": 4680
+        }
+      ]
+    },
+    {
+      "raceId": 3020801,
+      "netKeibaRaceId": "202603020801",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 1,
+      "umaren": [
+        {
+          "combo": [
+            1,
+            6
+          ],
+          "payout": 920
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            1,
+            6
+          ],
+          "payout": 960
+        }
+      ]
+    },
+    {
+      "raceId": 3020802,
+      "netKeibaRaceId": "202603020802",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 2,
+      "umaren": [
+        {
+          "combo": [
+            15,
+            16
+          ],
+          "payout": 1480
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            16,
+            15
+          ],
+          "payout": 2380
+        }
+      ]
+    },
+    {
+      "raceId": 3020803,
+      "netKeibaRaceId": "202603020803",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 3,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 1420
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 1990
+        }
+      ]
+    },
+    {
+      "raceId": 3020804,
+      "netKeibaRaceId": "202603020804",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 4,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 2770
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            5
+          ],
+          "payout": 6300
+        }
+      ]
+    },
+    {
+      "raceId": 3020805,
+      "netKeibaRaceId": "202603020805",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 5,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            11
+          ],
+          "payout": 1320
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            4,
+            11
+          ],
+          "payout": 1540
+        }
+      ]
+    },
+    {
+      "raceId": 3020806,
+      "netKeibaRaceId": "202603020806",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 6,
+      "umaren": [
+        {
+          "combo": [
+            6,
+            14
+          ],
+          "payout": 980
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            14,
+            6
+          ],
+          "payout": 1380
+        }
+      ]
+    },
+    {
+      "raceId": 3020807,
+      "netKeibaRaceId": "202603020807",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 7,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            7
+          ],
+          "payout": 2380
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            3,
+            7
+          ],
+          "payout": 3010
+        }
+      ]
+    },
+    {
+      "raceId": 3020808,
+      "netKeibaRaceId": "202603020808",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 8,
+      "umaren": [
+        {
+          "combo": [
+            3,
+            13
+          ],
+          "payout": 7960
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            3
+          ],
+          "payout": 16690
+        }
+      ]
+    },
+    {
+      "raceId": 3020809,
+      "netKeibaRaceId": "202603020809",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 9,
+      "umaren": [
+        {
+          "combo": [
+            8,
+            13
+          ],
+          "payout": 5210
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            13,
+            8
+          ],
+          "payout": 7040
+        }
+      ]
+    },
+    {
+      "raceId": 3020810,
+      "netKeibaRaceId": "202603020810",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 10,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            7
+          ],
+          "payout": 550
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            7,
+            4
+          ],
+          "payout": 1100
+        }
+      ]
+    },
+    {
+      "raceId": 3020811,
+      "netKeibaRaceId": "202603020811",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 11,
+      "umaren": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 11010
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            2,
+            7
+          ],
+          "payout": 21670
+        }
+      ]
+    },
+    {
+      "raceId": 3020812,
+      "netKeibaRaceId": "202603020812",
+      "date": "2026-07-19",
+      "venue": "福島",
+      "raceNumber": 12,
+      "umaren": [
+        {
+          "combo": [
+            4,
+            11
+          ],
+          "payout": 2890
+        }
+      ],
+      "umatan": [
+        {
+          "combo": [
+            11,
+            4
+          ],
+          "payout": 5490
+        }
+      ]
+    },
+    {
+      "raceId": 1010101,
+      "netKeibaRaceId": "202601010101",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 1,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010102,
+      "netKeibaRaceId": "202601010102",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 2,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010103,
+      "netKeibaRaceId": "202601010103",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 3,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010104,
+      "netKeibaRaceId": "202601010104",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 4,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010105,
+      "netKeibaRaceId": "202601010105",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 5,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010106,
+      "netKeibaRaceId": "202601010106",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 6,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010107,
+      "netKeibaRaceId": "202601010107",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 7,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010108,
+      "netKeibaRaceId": "202601010108",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 8,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010109,
+      "netKeibaRaceId": "202601010109",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 9,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010110,
+      "netKeibaRaceId": "202601010110",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 10,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010111,
+      "netKeibaRaceId": "202601010111",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 11,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010112,
+      "netKeibaRaceId": "202601010112",
+      "date": "2026-07-25",
+      "venue": "札幌",
+      "raceNumber": 12,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020101,
+      "netKeibaRaceId": "202604020101",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 1,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020102,
+      "netKeibaRaceId": "202604020102",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 2,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020103,
+      "netKeibaRaceId": "202604020103",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 3,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020104,
+      "netKeibaRaceId": "202604020104",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 4,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020105,
+      "netKeibaRaceId": "202604020105",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 5,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020106,
+      "netKeibaRaceId": "202604020106",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 6,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020107,
+      "netKeibaRaceId": "202604020107",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 7,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020108,
+      "netKeibaRaceId": "202604020108",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 8,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020109,
+      "netKeibaRaceId": "202604020109",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 9,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020110,
+      "netKeibaRaceId": "202604020110",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 10,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020111,
+      "netKeibaRaceId": "202604020111",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 11,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020112,
+      "netKeibaRaceId": "202604020112",
+      "date": "2026-07-25",
+      "venue": "新潟",
+      "raceNumber": 12,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020101,
+      "netKeibaRaceId": "202607020101",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 1,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020102,
+      "netKeibaRaceId": "202607020102",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 2,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020103,
+      "netKeibaRaceId": "202607020103",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 3,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020104,
+      "netKeibaRaceId": "202607020104",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 4,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020105,
+      "netKeibaRaceId": "202607020105",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 5,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020106,
+      "netKeibaRaceId": "202607020106",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 6,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020107,
+      "netKeibaRaceId": "202607020107",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 7,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020108,
+      "netKeibaRaceId": "202607020108",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 8,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020109,
+      "netKeibaRaceId": "202607020109",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 9,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020110,
+      "netKeibaRaceId": "202607020110",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 10,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020111,
+      "netKeibaRaceId": "202607020111",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 11,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020112,
+      "netKeibaRaceId": "202607020112",
+      "date": "2026-07-25",
+      "venue": "中京",
+      "raceNumber": 12,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010201,
+      "netKeibaRaceId": "202601010201",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 1,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010202,
+      "netKeibaRaceId": "202601010202",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 2,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010203,
+      "netKeibaRaceId": "202601010203",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 3,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010204,
+      "netKeibaRaceId": "202601010204",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 4,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010205,
+      "netKeibaRaceId": "202601010205",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 5,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010206,
+      "netKeibaRaceId": "202601010206",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 6,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010207,
+      "netKeibaRaceId": "202601010207",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 7,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010208,
+      "netKeibaRaceId": "202601010208",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 8,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010209,
+      "netKeibaRaceId": "202601010209",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 9,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010210,
+      "netKeibaRaceId": "202601010210",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 10,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010211,
+      "netKeibaRaceId": "202601010211",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 11,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 1010212,
+      "netKeibaRaceId": "202601010212",
+      "date": "2026-07-26",
+      "venue": "札幌",
+      "raceNumber": 12,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020201,
+      "netKeibaRaceId": "202604020201",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 1,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020202,
+      "netKeibaRaceId": "202604020202",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 2,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020203,
+      "netKeibaRaceId": "202604020203",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 3,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020204,
+      "netKeibaRaceId": "202604020204",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 4,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020205,
+      "netKeibaRaceId": "202604020205",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 5,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020206,
+      "netKeibaRaceId": "202604020206",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 6,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020207,
+      "netKeibaRaceId": "202604020207",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 7,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020208,
+      "netKeibaRaceId": "202604020208",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 8,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020209,
+      "netKeibaRaceId": "202604020209",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 9,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020210,
+      "netKeibaRaceId": "202604020210",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 10,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020211,
+      "netKeibaRaceId": "202604020211",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 11,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 4020212,
+      "netKeibaRaceId": "202604020212",
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "raceNumber": 12,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020201,
+      "netKeibaRaceId": "202607020201",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 1,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020202,
+      "netKeibaRaceId": "202607020202",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 2,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020203,
+      "netKeibaRaceId": "202607020203",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 3,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020204,
+      "netKeibaRaceId": "202607020204",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 4,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020205,
+      "netKeibaRaceId": "202607020205",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 5,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020206,
+      "netKeibaRaceId": "202607020206",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 6,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020207,
+      "netKeibaRaceId": "202607020207",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 7,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020208,
+      "netKeibaRaceId": "202607020208",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 8,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020209,
+      "netKeibaRaceId": "202607020209",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 9,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020210,
+      "netKeibaRaceId": "202607020210",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 10,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020211,
+      "netKeibaRaceId": "202607020211",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 11,
+      "umaren": [],
+      "umatan": []
+    },
+    {
+      "raceId": 7020212,
+      "netKeibaRaceId": "202607020212",
+      "date": "2026-07-26",
+      "venue": "中京",
+      "raceNumber": 12,
+      "umaren": [],
+      "umatan": []
+    }
+  ]
+}
