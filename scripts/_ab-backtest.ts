@@ -2,9 +2,12 @@
  * 是正案のA/B検証ハーネス（分析専用・本番ロジック非改変）。
  *
  * lib/engine.ts の calculateScore をパラメータ化して複製し、以下を個別に切り替える:
- *   - useTraining : trainingScore を strength から外すか
- *   - jockeyMode  : クランプ済み(既存) / 生スコア / パーセンタイル正規化
+ *   - jockeyMode  : scores-cache の値そのまま / jockey_raw.json から再計算した生スコア /
+ *                   パーセンタイル正規化
  *   - temp        : softmax 温度（既定 4.0）
+ *
+ * 是正案①(trainingScore除去)・②(jockeyScoreクランプ解除)は本番へ実装済み。
+ * useTraining 切り替えは①実装により意味を失ったため削除。
  *
  * 評価は AUC（純モデル strength / ブレンド後 probability）と、本番フィルタ
  * (EV>0.10, edge>0.02, odds<=50) を通した ROI の両方。
@@ -28,32 +31,29 @@ function loadJSON<T>(f: string): T | null {
 
 // ── パラメータ化したエンジン（本番と同一式・オプションのみ差し替え）──────────
 export type EngineOpts = {
-  useTraining: boolean;
-  jockeyMode: "clamp" | "raw" | "percentile";
+  jockeyMode: "cache" | "raw" | "percentile";
   temp: number;
   marketWeight: number;
 };
 export const BASELINE: EngineOpts = {
-  useTraining: true, jockeyMode: "clamp", temp: 4.0, marketWeight: 0.35,
+  jockeyMode: "cache", temp: 4.0, marketWeight: 0.35,
 };
 
 type EHorse = {
   formScore: number; pedigreeScore: number;
-  trainingScore: number | null; jockeyScore: number | null;
+  jockeyScore: number | null;
   odds: number;
 };
 
 const sigmoid = (x: number) => 1 / (1 + Math.exp(-10 * (x - 0.5)));
-const BASE_WEIGHT = { form: 0.3, pedigree: 0.2, training: 0.2, jockey: 0.15 };
-const TOTAL_BASE_WEIGHT = BASE_WEIGHT.form + BASE_WEIGHT.pedigree + BASE_WEIGHT.training + BASE_WEIGHT.jockey;
+const BASE_WEIGHT = { form: 0.3, pedigree: 0.2, jockey: 0.15 };
+const TOTAL_BASE_WEIGHT = BASE_WEIGHT.form + BASE_WEIGHT.pedigree + BASE_WEIGHT.jockey;
 
-function strengthOf(h: EHorse, o: EngineOpts): number {
+function strengthOf(h: EHorse): number {
   const base: Array<{ value: number; weight: number }> = [
     { value: sigmoid(h.formScore), weight: BASE_WEIGHT.form },
     { value: Math.pow(h.pedigreeScore, 1.2), weight: BASE_WEIGHT.pedigree },
   ];
-  const useT = o.useTraining && h.trainingScore != null;
-  if (useT) base.push({ value: sigmoid(h.trainingScore! * 1.1), weight: BASE_WEIGHT.training });
   if (h.jockeyScore != null) base.push({ value: Math.pow(h.jockeyScore, 1.3), weight: BASE_WEIGHT.jockey });
 
   // 欠損ぶんの重みを残り要素へ再配分（本番と同じ）
@@ -62,14 +62,13 @@ function strengthOf(h: EHorse, o: EngineOpts): number {
   let sum = base.reduce((s, b) => s + b.value * b.weight * scale, 0);
 
   if (h.jockeyScore != null) sum += sigmoid(h.jockeyScore * 0.6 + h.pedigreeScore * 0.4) * 0.1;
-  if (useT) sum += Math.pow(h.formScore * h.trainingScore!, 0.5) * 0.05;
   return sum;
 }
 
 export type Scored = { strength: number; prob: number; marketProb: number; edge: number; ev: number; odds: number };
 
 export function scoreRace(horses: EHorse[], o: EngineOpts): Scored[] {
-  const strengths = horses.map((h) => strengthOf(h, o));
+  const strengths = horses.map((h) => strengthOf(h));
   const overround = horses.reduce((s, h) => s + 1 / h.odds, 0);
   const fair = horses.map((h) => 1 / h.odds / overround);
 
@@ -143,14 +142,12 @@ export function buildDataset(): DRace[] {
 
     const horses: DHorse[] = withOdds.map((h) => {
       const c = scores[h.id];
-      const rawT = c ? (c.trainingScore ?? null) : DEFAULT;
       const rawJ = c ? (c.jockeyScore ?? null) : DEFAULT;
       const jid = h.jockeyId ?? "";
       const rs = rawScoreOf(jid);
       return {
         formScore: (c?.formScore ?? DEFAULT) / 100,
         pedigreeScore: (c?.pedigreeScore ?? DEFAULT) / 100,
-        trainingScore: rawT == null ? null : rawT / 100,
         jockeyScore: rawJ == null ? null : rawJ / 100,
         jockeyRaw: rs,
         jockeyPct: rs == null ? null : pctOf(rs),
@@ -172,13 +169,13 @@ export function applyJockeyMode(horses: DHorse[], mode: EngineOpts["jockeyMode"]
     const x = h as DHorse & { jockeyRaw: number | null; jockeyPct: number | null };
     let j = h.jockeyScore;
     if (mode === "raw") {
-      // clamp を外した raw をそのまま 0-1 化（40..95 の外側も潰さない）
+      // scores-cache とは独立に jockey_raw.json から再計算した raw（本番と同じ値のはず）
       j = x.jockeyRaw == null ? h.jockeyScore : x.jockeyRaw / 100;
     } else if (mode === "percentile") {
       // 全騎手の中での相対順位を 0.40..0.95 のレンジへ線形写像（尺度は既存と揃える）
       j = x.jockeyPct == null ? h.jockeyScore : 0.40 + x.jockeyPct * 0.55;
     }
-    return { formScore: h.formScore, pedigreeScore: h.pedigreeScore, trainingScore: h.trainingScore, jockeyScore: j, odds: h.odds };
+    return { formScore: h.formScore, pedigreeScore: h.pedigreeScore, jockeyScore: j, odds: h.odds };
   });
 }
 

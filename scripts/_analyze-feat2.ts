@@ -1,5 +1,6 @@
 /**
- * 調査1補足: trainingScore の実態と「横並び予想 → ロングショット過大評価」機構の確認。
+ * 調査1補足: 「横並び予想 → ロングショット過大評価」機構の確認。
+ * （trainingScore は是正案①により本番から除去済み。過去の分布ログは残置しない）
  */
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
@@ -20,21 +21,9 @@ const scoresRaw = loadJSON<{ scores?: Record<string, HorseScores> }>("scores-cac
 const scoresById: Record<number, HorseScores> = {};
 for (const [k, v] of Object.entries(scoresRaw?.scores ?? {})) scoresById[Number(k)] = v;
 
-// trainingScore の値分布（scores-cache 全体）
-console.log("════ trainingScore の値分布（scores-cache 全エントリ）════");
-const dist = new Map<string, number>();
-let total = 0;
-for (const v of Object.values(scoresRaw?.scores ?? {})) {
-  const k = v.trainingScore == null ? "null(欠損)" : String(v.trainingScore);
-  dist.set(k, (dist.get(k) ?? 0) + 1); total++;
-}
-for (const [k, n] of [...dist.entries()].sort((a, b) => b[1] - a[1])) {
-  console.log(`  ${k.padEnd(12)}: ${String(n).padStart(5)} (${((n / total) * 100).toFixed(1)}%)`);
-}
-console.log(`  合計 ${total}`);
-
-// jockeyScore の分布も参考に
-console.log("\n════ jockeyScore の値分布(上位10) ════");
+// jockeyScore の値分布
+console.log("════ jockeyScore の値分布(上位10) ════");
+const total = Object.keys(scoresRaw?.scores ?? {}).length;
 const jd = new Map<string, number>();
 for (const v of Object.values(scoresRaw?.scores ?? {})) {
   const k = v.jockeyScore == null ? "null(欠損)" : String(v.jockeyScore);
@@ -43,6 +32,7 @@ for (const v of Object.values(scoresRaw?.scores ?? {})) {
 for (const [k, n] of [...jd.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10)) {
   console.log(`  ${k.padEnd(12)}: ${String(n).padStart(5)} (${((n / total) * 100).toFixed(1)}%)`);
 }
+console.log(`  合計 ${total}`);
 
 // ── 横並び機構の確認 ──
 type R = { probs: number[]; fair: number[]; odds: number[]; won: boolean[] };
@@ -52,11 +42,10 @@ function build(hs: { id: number; horse: string; horseNumber: number; odds: numbe
   if (hs.length < 5) return;
   const st = hs.map((h) => {
     const c = scoresById[h.id];
-    const rt = c ? (c.trainingScore ?? null) : DEFAULT;
     const rj = c ? (c.jockeyScore ?? null) : DEFAULT;
     return calculateStrength({
       id: 0, name: "", formScore: (c?.formScore ?? DEFAULT) / 100, pedigreeScore: (c?.pedigreeScore ?? DEFAULT) / 100,
-      trainingScore: rt == null ? null : rt / 100, jockeyScore: rj == null ? null : rj / 100, odds: h.odds,
+      jockeyScore: rj == null ? null : rj / 100, odds: h.odds,
     });
   });
   const ex = st.map((s) => Math.exp(s * TEMP));

@@ -36,7 +36,6 @@ export type PredictionHorseSnapshot = {
   // 算出に用いたスコア内訳（0-100、欠損は null）
   formScore: number;
   pedigreeScore: number;
-  trainingScore: number | null;
   jockeyScore: number | null;
   // モデル出力
   pTrue: number;
@@ -99,17 +98,15 @@ function computeSnapshot(
   );
   if (horsesWithOdds.length === 0) return null;
 
-  // engine 入力（欠損 training/jockey は null を透過。cached 無しは DEFAULT）
+  // engine 入力（欠損 jockey は null を透過。cached 無しは DEFAULT）
   const inputs = horsesWithOdds.map((h) => {
     const cached = scoresById[h.id];
-    const rawTraining = cached ? (cached.trainingScore ?? null) : DEFAULT;
     const rawJockey = cached ? (cached.jockeyScore ?? null) : DEFAULT;
     return {
       id: h.id,
       name: h.horse,
       formScore: (cached?.formScore ?? DEFAULT) / 100,
       pedigreeScore: (cached?.pedigreeScore ?? DEFAULT) / 100,
-      trainingScore: rawTraining == null ? null : rawTraining / 100,
       jockeyScore: rawJockey == null ? null : rawJockey / 100,
       odds: h.odds,
     };
@@ -129,7 +126,6 @@ function computeSnapshot(
     const id = idByName.get(h.name)!;
     const cached = scoresById[id];
     // 記録するスコア内訳は算出に用いた生値（0-100、欠損は null）
-    const train100 = cached ? (cached.trainingScore ?? null) : DEFAULT;
     const jockey100 = cached ? (cached.jockeyScore ?? null) : DEFAULT;
     return {
       horseNumber: numberById.get(id) ?? 0,
@@ -137,7 +133,6 @@ function computeSnapshot(
       odds: h.odds,
       formScore: cached?.formScore ?? DEFAULT,
       pedigreeScore: cached?.pedigreeScore ?? DEFAULT,
-      trainingScore: train100,
       jockeyScore: jockey100,
       pTrue: h.probability,
       marketProb: h.marketProb,
@@ -166,7 +161,7 @@ function signature(s: PredictionSnapshot): string {
     v: s.modelVersion,
     h: s.horses.map((h) => [
       h.horseNumber, h.odds, h.formScore, h.pedigreeScore,
-      h.trainingScore, h.jockeyScore, round(h.pTrue), round(h.ev),
+      h.jockeyScore, round(h.pTrue), round(h.ev),
     ]),
   });
 }

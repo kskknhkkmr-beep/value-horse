@@ -1,13 +1,13 @@
 // 2026-06-13 実レースデータ
 // 東京11R ジューンS(OP) 出走馬：netkeiba (race_id=202605030311) / スポーツナビ 2ソース一致確認済み
 // 単勝オッズ：netkeiba / スポーツナビ（2026-06-13 取得）
-// formScore/pedigreeScore/trainingScore：市場オッズから推定
+// formScore/pedigreeScore：市場オッズから推定
 // jockeyScore：騎手実績ベース推定値
 //
 // 2026-06-14 実レースデータ
 // 阪神11R 宝塚記念(G1) 出走馬：netkeiba (race_id=202609030411) / umanity 2ソース一致確認済み
 // 単勝オッズ：umanity（2026-06-14 取得）
-// formScore/pedigreeScore/trainingScore：市場オッズから推定
+// formScore/pedigreeScore：市場オッズから推定
 // jockeyScore：騎手実績ベース推定値
 
 export const races = [
@@ -95,53 +95,53 @@ export const horses = [
 //                  幸=74, ゴンサルベス=75, 古川吉=72, 石川=73, 三浦=72, 津村=72, 亀田=72,
 //                  菊沢=70, 原=70, 丹内=70, 高杉=65, 吉村誠=65, 松本大=68, 丸田=68
 export const horseFeatures = [
-  // 阪神11R 宝塚記念(G1) — formScore/pedigreeScore/trainingScore はオッズ逆相関で推定
-  { horseId: 301, formScore: 76, pedigreeScore: 75, trainingScore: 75, jockeyScore: 84 }, // ダノンデサイル 戸崎 7.0倍
-  { horseId: 302, formScore: 76, pedigreeScore: 74, trainingScore: 75, jockeyScore: 90 }, // ミュージアムマイル レーン 7.1倍
-  { horseId: 303, formScore: 39, pedigreeScore: 38, trainingScore: 39, jockeyScore: 65 }, // シュガークン 吉村誠之助 250.2倍
-  { horseId: 304, formScore: 55, pedigreeScore: 54, trainingScore: 55, jockeyScore: 70 }, // ミクニインスパイア 丹内 56.1倍
-  { horseId: 305, formScore: 88, pedigreeScore: 86, trainingScore: 87, jockeyScore: 80 }, // クロワデュノール 北村友一 2.5倍
-  { horseId: 306, formScore: 62, pedigreeScore: 60, trainingScore: 61, jockeyScore: 76 }, // ビザンチンドリーム 西村淳也 29.6倍
-  { horseId: 307, formScore: 37, pedigreeScore: 36, trainingScore: 37, jockeyScore: 74 }, // ファミリータイム 幸 287.4倍
-  { horseId: 308, formScore: 55, pedigreeScore: 53, trainingScore: 54, jockeyScore: 65 }, // タガノデュード 高杉 58.8倍
-  { horseId: 309, formScore: 59, pedigreeScore: 57, trainingScore: 58, jockeyScore: 84 }, // コスモキュランダ 横山武史 41.6倍
-  { horseId: 310, formScore: 40, pedigreeScore: 39, trainingScore: 40, jockeyScore: 80 }, // ジューンテイク 松山 222.6倍
-  { horseId: 311, formScore: 51, pedigreeScore: 49, trainingScore: 50, jockeyScore: 82 }, // シンエンペラー 坂井 85.0倍
-  { horseId: 312, formScore: 46, pedigreeScore: 45, trainingScore: 46, jockeyScore: 88 }, // マイネルエンペラー 川田 121.0倍
-  { horseId: 313, formScore: 51, pedigreeScore: 50, trainingScore: 51, jockeyScore: 72 }, // シェイクユアハート 古川吉 84.0倍
-  { horseId: 314, formScore: 44, pedigreeScore: 42, trainingScore: 43, jockeyScore: 80 }, // スティンガーグラス 岩田望来 151.6倍
-  { horseId: 315, formScore: 67, pedigreeScore: 65, trainingScore: 66, jockeyScore: 78 }, // マイユニバース 横山典弘 19.1倍
-  { horseId: 316, formScore: 87, pedigreeScore: 84, trainingScore: 85, jockeyScore: 88 }, // メイショウタバル 武豊 2.5倍
-  { horseId: 317, formScore: 75, pedigreeScore: 73, trainingScore: 74, jockeyScore: 95 }, // レガレイラ ルメール 7.8倍
-  { horseId: 318, formScore: 39, pedigreeScore: 38, trainingScore: 39, jockeyScore: 68 }, // ミステリーウェイ 松本大輝 229.4倍
-  // 東京11R ジューンS(OP) — formScore/pedigreeScore/trainingScore はオッズ逆相関で推定
-  { horseId: 101, formScore: 78, pedigreeScore: 76, trainingScore: 77, jockeyScore: 76 }, // レガーロデルシエロ 大野拓弥 5.7倍
-  { horseId: 102, formScore: 48, pedigreeScore: 47, trainingScore: 48, jockeyScore: 72 }, // タシット 三浦皇成 120.3倍
-  { horseId: 103, formScore: 81, pedigreeScore: 79, trainingScore: 80, jockeyScore: 95 }, // カネラフィーナ ルメール 5.1倍
-  { horseId: 104, formScore: 73, pedigreeScore: 71, trainingScore: 72, jockeyScore: 84 }, // リラエンブレム 戸崎圭太 9.0倍
-  { horseId: 105, formScore: 70, pedigreeScore: 68, trainingScore: 69, jockeyScore: 70 }, // ナムラエイハブ 原優介 10.9倍
-  { horseId: 106, formScore: 61, pedigreeScore: 60, trainingScore: 60, jockeyScore: 73 }, // メリオーレム 石川裕紀人 26.7倍
-  { horseId: 107, formScore: 64, pedigreeScore: 62, trainingScore: 63, jockeyScore: 72 }, // コントラポスト 津村明秀 20.1倍
-  { horseId: 108, formScore: 57, pedigreeScore: 56, trainingScore: 57, jockeyScore: 70 }, // バレエマスター 菊沢一樹 46.7倍
-  { horseId: 109, formScore: 85, pedigreeScore: 82, trainingScore: 83, jockeyScore: 90 }, // ダノンエアズロック レーン 3.7倍
-  { horseId: 110, formScore: 82, pedigreeScore: 80, trainingScore: 81, jockeyScore: 85 }, // ディマイザキッド M.ディー 4.9倍
-  { horseId: 111, formScore: 67, pedigreeScore: 65, trainingScore: 66, jockeyScore: 75 }, // トーセンリョウ ゴンサルベス 13.2倍
-  { horseId: 112, formScore: 52, pedigreeScore: 51, trainingScore: 52, jockeyScore: 72 }, // ヤマニンサンパ 亀田温心 87.9倍
-  { horseId: 113, formScore: 42, pedigreeScore: 41, trainingScore: 41, jockeyScore: 68 }, // マルチャン 丸田恭介 241.6倍
+  // 阪神11R 宝塚記念(G1) — formScore/pedigreeScore はオッズ逆相関で推定
+  { horseId: 301, formScore: 76, pedigreeScore: 75, jockeyScore: 84 }, // ダノンデサイル 戸崎 7.0倍
+  { horseId: 302, formScore: 76, pedigreeScore: 74, jockeyScore: 90 }, // ミュージアムマイル レーン 7.1倍
+  { horseId: 303, formScore: 39, pedigreeScore: 38, jockeyScore: 65 }, // シュガークン 吉村誠之助 250.2倍
+  { horseId: 304, formScore: 55, pedigreeScore: 54, jockeyScore: 70 }, // ミクニインスパイア 丹内 56.1倍
+  { horseId: 305, formScore: 88, pedigreeScore: 86, jockeyScore: 80 }, // クロワデュノール 北村友一 2.5倍
+  { horseId: 306, formScore: 62, pedigreeScore: 60, jockeyScore: 76 }, // ビザンチンドリーム 西村淳也 29.6倍
+  { horseId: 307, formScore: 37, pedigreeScore: 36, jockeyScore: 74 }, // ファミリータイム 幸 287.4倍
+  { horseId: 308, formScore: 55, pedigreeScore: 53, jockeyScore: 65 }, // タガノデュード 高杉 58.8倍
+  { horseId: 309, formScore: 59, pedigreeScore: 57, jockeyScore: 84 }, // コスモキュランダ 横山武史 41.6倍
+  { horseId: 310, formScore: 40, pedigreeScore: 39, jockeyScore: 80 }, // ジューンテイク 松山 222.6倍
+  { horseId: 311, formScore: 51, pedigreeScore: 49, jockeyScore: 82 }, // シンエンペラー 坂井 85.0倍
+  { horseId: 312, formScore: 46, pedigreeScore: 45, jockeyScore: 88 }, // マイネルエンペラー 川田 121.0倍
+  { horseId: 313, formScore: 51, pedigreeScore: 50, jockeyScore: 72 }, // シェイクユアハート 古川吉 84.0倍
+  { horseId: 314, formScore: 44, pedigreeScore: 42, jockeyScore: 80 }, // スティンガーグラス 岩田望来 151.6倍
+  { horseId: 315, formScore: 67, pedigreeScore: 65, jockeyScore: 78 }, // マイユニバース 横山典弘 19.1倍
+  { horseId: 316, formScore: 87, pedigreeScore: 84, jockeyScore: 88 }, // メイショウタバル 武豊 2.5倍
+  { horseId: 317, formScore: 75, pedigreeScore: 73, jockeyScore: 95 }, // レガレイラ ルメール 7.8倍
+  { horseId: 318, formScore: 39, pedigreeScore: 38, jockeyScore: 68 }, // ミステリーウェイ 松本大輝 229.4倍
+  // 東京11R ジューンS(OP) — formScore/pedigreeScore はオッズ逆相関で推定
+  { horseId: 101, formScore: 78, pedigreeScore: 76, jockeyScore: 76 }, // レガーロデルシエロ 大野拓弥 5.7倍
+  { horseId: 102, formScore: 48, pedigreeScore: 47, jockeyScore: 72 }, // タシット 三浦皇成 120.3倍
+  { horseId: 103, formScore: 81, pedigreeScore: 79, jockeyScore: 95 }, // カネラフィーナ ルメール 5.1倍
+  { horseId: 104, formScore: 73, pedigreeScore: 71, jockeyScore: 84 }, // リラエンブレム 戸崎圭太 9.0倍
+  { horseId: 105, formScore: 70, pedigreeScore: 68, jockeyScore: 70 }, // ナムラエイハブ 原優介 10.9倍
+  { horseId: 106, formScore: 61, pedigreeScore: 60, jockeyScore: 73 }, // メリオーレム 石川裕紀人 26.7倍
+  { horseId: 107, formScore: 64, pedigreeScore: 62, jockeyScore: 72 }, // コントラポスト 津村明秀 20.1倍
+  { horseId: 108, formScore: 57, pedigreeScore: 56, jockeyScore: 70 }, // バレエマスター 菊沢一樹 46.7倍
+  { horseId: 109, formScore: 85, pedigreeScore: 82, jockeyScore: 90 }, // ダノンエアズロック レーン 3.7倍
+  { horseId: 110, formScore: 82, pedigreeScore: 80, jockeyScore: 85 }, // ディマイザキッド M.ディー 4.9倍
+  { horseId: 111, formScore: 67, pedigreeScore: 65, jockeyScore: 75 }, // トーセンリョウ ゴンサルベス 13.2倍
+  { horseId: 112, formScore: 52, pedigreeScore: 51, jockeyScore: 72 }, // ヤマニンサンパ 亀田温心 87.9倍
+  { horseId: 113, formScore: 42, pedigreeScore: 41, jockeyScore: 68 }, // マルチャン 丸田恭介 241.6倍
   // 函館11R G3
-  { horseId: 201, formScore: 68, pedigreeScore: 70, trainingScore: 69, jockeyScore: 73 },
-  { horseId: 202, formScore: 65, pedigreeScore: 68, trainingScore: 66, jockeyScore: 78 },
-  { horseId: 203, formScore: 88, pedigreeScore: 84, trainingScore: 86, jockeyScore: 84 },
-  { horseId: 204, formScore: 82, pedigreeScore: 80, trainingScore: 81, jockeyScore: 65 },
-  { horseId: 205, formScore: 58, pedigreeScore: 62, trainingScore: 60, jockeyScore: 70 },
-  { horseId: 206, formScore: 60, pedigreeScore: 65, trainingScore: 62, jockeyScore: 68 },
-  { horseId: 207, formScore: 72, pedigreeScore: 74, trainingScore: 73, jockeyScore: 76 },
-  { horseId: 208, formScore: 62, pedigreeScore: 64, trainingScore: 63, jockeyScore: 60 },
-  { horseId: 209, formScore: 63, pedigreeScore: 65, trainingScore: 64, jockeyScore: 62 },
-  { horseId: 210, formScore: 79, pedigreeScore: 77, trainingScore: 78, jockeyScore: 63 },
-  { horseId: 211, formScore: 68, pedigreeScore: 70, trainingScore: 69, jockeyScore: 60 },
-  { horseId: 212, formScore: 78, pedigreeScore: 76, trainingScore: 77, jockeyScore: 72 },
-  { horseId: 213, formScore: 54, pedigreeScore: 58, trainingScore: 56, jockeyScore: 78 },
+  { horseId: 201, formScore: 68, pedigreeScore: 70, jockeyScore: 73 },
+  { horseId: 202, formScore: 65, pedigreeScore: 68, jockeyScore: 78 },
+  { horseId: 203, formScore: 88, pedigreeScore: 84, jockeyScore: 84 },
+  { horseId: 204, formScore: 82, pedigreeScore: 80, jockeyScore: 65 },
+  { horseId: 205, formScore: 58, pedigreeScore: 62, jockeyScore: 70 },
+  { horseId: 206, formScore: 60, pedigreeScore: 65, jockeyScore: 68 },
+  { horseId: 207, formScore: 72, pedigreeScore: 74, jockeyScore: 76 },
+  { horseId: 208, formScore: 62, pedigreeScore: 64, jockeyScore: 60 },
+  { horseId: 209, formScore: 63, pedigreeScore: 65, jockeyScore: 62 },
+  { horseId: 210, formScore: 79, pedigreeScore: 77, jockeyScore: 63 },
+  { horseId: 211, formScore: 68, pedigreeScore: 70, jockeyScore: 60 },
+  { horseId: 212, formScore: 78, pedigreeScore: 76, jockeyScore: 72 },
+  { horseId: 213, formScore: 54, pedigreeScore: 58, jockeyScore: 78 },
 ];
 
 export const sentimentScores = [

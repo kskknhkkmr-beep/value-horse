@@ -11,7 +11,7 @@ console.log(`データセット: ${races.length}R  (v2=${races.filter((r) => r.v
 
 let maxDiff = 0, checked = 0;
 for (const race of races) {
-  const eh = applyJockeyMode(race.horses, "clamp");
+  const eh = applyJockeyMode(race.horses, "cache");
   const mine = scoreRace(eh, BASELINE);
   const prod = calculateScore(eh.map((h, i) => ({ id: i, name: String(i), ...h })));
   prod.finalScores.forEach((p, i) => {

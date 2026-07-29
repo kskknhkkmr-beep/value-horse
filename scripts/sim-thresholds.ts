@@ -77,14 +77,12 @@ function buildRaces(): RaceCand[] {
 
     const inputs = horsesWithOdds.map((h) => {
       const cached = scoresById[h.id];
-      const rawTraining = cached ? (cached.trainingScore ?? null) : DEFAULT;
       const rawJockey = cached ? (cached.jockeyScore ?? null) : DEFAULT;
       return {
         id: h.id,
         name: h.horse,
         formScore: (cached?.formScore ?? DEFAULT) / 100,
         pedigreeScore: (cached?.pedigreeScore ?? DEFAULT) / 100,
-        trainingScore: rawTraining == null ? null : rawTraining / 100,
         jockeyScore: rawJockey == null ? null : rawJockey / 100,
         odds: h.odds,
       };
@@ -126,7 +124,6 @@ function buildRaces(): RaceCand[] {
       name: h.horse,
       formScore: DEFAULT / 100,
       pedigreeScore: DEFAULT / 100,
-      trainingScore: DEFAULT / 100,
       jockeyScore: DEFAULT / 100,
       odds: h.odds,
     }));

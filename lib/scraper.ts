@@ -239,57 +239,6 @@ function parseJockeyYearlyStats(html: string): JockeyStats | null {
   return { wins, places: wins + seconds, rides };
 }
 
-// ─── 追い切り評価 → trainingScore ────────────────────────────────────────────
-
-// S=95, A=85, B=72, C=60, D=48 に対応
-const TRAINING_RANK_SCORE: Record<string, number> = {
-  S: 95, "◎": 95,
-  A: 85, "○": 85,
-  B: 72, "△": 72,
-  C: 60, "▲": 60,
-  D: 48, "×": 48,
-};
-
-/**
- * SP 追い切り（調教）ページから「netkeiba 馬 ID → trainingScore (0-100)」のマップを返す。
- * URL: https://race.sp.netkeiba.com/?pid=oikiri&race_id=[raceId]
- *
- * netkeiba 記者による追い切りコメント・評価が付いた馬のみが対象（全頭ではない）。
- * 評価記号（Rank_S/A/B/C/D クラス）が見つからない馬は含まれない。
- */
-export async function fetchTrainingScores(netKeibaRaceId: string): Promise<Map<string, number>> {
-  await sleep(1000);
-  const url = `https://race.sp.netkeiba.com/?pid=oikiri&race_id=${netKeibaRaceId}`;
-  try {
-    const html = await fetchUtf8(url);
-    return parseTrainingScores(html);
-  } catch (e) {
-    console.warn(`  [scraper] fetchTrainingScores failed (${netKeibaRaceId}):`, (e as Error).message);
-    return new Map();
-  }
-}
-
-function parseTrainingScores(html: string): Map<string, number> {
-  const map = new Map<string, number>();
-
-  // 各馬ブロック: <tr class="HorseList"> から次の HorseList 行（or 末尾）まで
-  const blockRe = /<tr[^>]*class="HorseList"[^>]*>([\s\S]*?)(?=<tr[^>]*class="HorseList"|$)/g;
-
-  for (const m of html.matchAll(blockRe)) {
-    const block = m[1];
-    // 馬 ID: <a href="https://db.sp.netkeiba.com//horse/training/2022105291/">
-    const idM = block.match(/\/horse\/training\/(\d+)\//);
-    // 評価: <span class="Rank_B">B</span>
-    const rankM = block.match(/class="Rank_([SABCD])"/);
-    if (!idM || !rankM) continue;
-
-    const score = TRAINING_RANK_SCORE[rankM[1]];
-    if (score !== undefined) map.set(idM[1], score);
-  }
-
-  return map;
-}
-
 // ─── レース確定結果（着順） ───────────────────────────────────────────────────
 
 export type RaceFinishResult = {

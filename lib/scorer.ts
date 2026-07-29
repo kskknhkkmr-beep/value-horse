@@ -16,6 +16,7 @@ export interface JockeyStats {
  * モデルバージョン。算出コードの実体が変わった境界を表す。
  *   v1: jockeyScore・trainingScore がデフォルト値(65)固定だった旧モデル（2feature相当、〜2026-07-05）
  *   v2: jockeyScore・trainingScore を実データ化した現行モデル（4feature、be7add6 以降）
+ *       ※ trainingScore は後に除去、jockeyScore は後にクランプ解除（是正案①②）。
  */
 export type ModelVersion = "v1" | "v2";
 
@@ -27,8 +28,12 @@ export interface HorseScores {
   pedigreeScore: number;
   /** 騎手スコア。取得不能な場合は null（「データ欠損」を「平均評価」と区別する）。 */
   jockeyScore: number | null;
-  /** 追い切りスコア。取得不能な場合は null。 */
-  trainingScore: number | null;
+  /**
+   * jockeyScore の元になった生スタッツ（wins/rides/places）。取得不能な場合は null。
+   * 正規化方法（clamp・パーセンタイル化等）を見直す際に再スクレイピングなしで
+   * 再計算できるよう、計算済みスコアと一緒に保持する。
+   */
+  jockeyStats: JockeyStats | null;
   /** このスコアを算出したコードのバージョン。未設定(旧データ)は v1 とみなす。 */
   modelVersion?: ModelVersion;
   /** このスコアを算出した時刻(ISO)。 */
@@ -87,14 +92,17 @@ export function calcPedigreeScore(
 }
 
 /**
- * 騎手の勝率・連対率からスコアを計算（0-100）
+ * 騎手の勝率・連対率からスコアを計算（0-100想定域だが上限は設けない）
  * JRAトップ騎手: 勝率~20% → 約80点, 連対率~35% → 約52点
  * 騎乗実績が無い場合は null（欠損）を返す。
+ *
+ * 以前は 40〜95 に clamp していたが、下位騎手の約4割が下限40に張り付き
+ * 実力差の情報が失われていたため撤廃（是正案②）。
  */
 export function calcJockeyScore(stats: JockeyStats): number | null {
   if (stats.rides === 0) return null;
   const winRate = stats.wins / stats.rides;
   const placeRate = stats.places / stats.rides;
   const raw = winRate * 400 + placeRate * 150;
-  return Math.min(95, Math.max(40, Math.round(raw)));
+  return Math.round(raw);
 }

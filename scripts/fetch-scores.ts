@@ -18,7 +18,6 @@ import {
   fetchRaceEntry,
   fetchHorseResults,
   fetchJockeyStats,
-  fetchTrainingScores,
 } from "../lib/scraper";
 import type { JockeyStats } from "../lib/scorer";
 import {
@@ -88,18 +87,21 @@ async function main() {
   // netkeiba 騎手ID → JockeyStats（同一レース内・レース間で使い回す）
   const jockeyCache = new Map<string, JockeyStats | null>();
 
-  async function getJockeyScore(jockeyId: string, jockeyName: string): Promise<number | null> {
-    if (!jockeyId) return null;
+  async function getJockeyData(
+    jockeyId: string,
+    jockeyName: string
+  ): Promise<{ score: number | null; stats: JockeyStats | null }> {
+    if (!jockeyId) return { score: null, stats: null };
     if (!jockeyCache.has(jockeyId)) {
       jockeyCache.set(jockeyId, await fetchJockeyStats(jockeyId));
     }
     const jStats = jockeyCache.get(jockeyId) ?? null;
-    if (!jStats) return null;
+    if (!jStats) return { score: null, stats: null };
     const score = calcJockeyScore(jStats);
-    if (score == null) return null;
+    if (score == null) return { score: null, stats: null };
     const wr = ((jStats.wins / jStats.rides) * 100).toFixed(1);
     console.log(`     騎手 ${jockeyName}(${jockeyId}) ${jStats.wins}勝/${jStats.rides}戦 (勝率${wr}%) → jockeyScore=${score}`);
-    return score;
+    return { score, stats: jStats };
   }
 
   // ── races-cache.json がある場合 ───────────────────────────────────────────
@@ -111,11 +113,6 @@ async function main() {
 
     for (const race of targetRaces) {
       console.log(`\n━━ Race ${race.id}: ${race.raceName} (${race.venue} ${race.surface}${race.distance}m) ━━`);
-
-      // 追い切り評価: レース単位で一括取得（馬IDキー）
-      console.log(`  追い切り取得中...`);
-      const trainingMap = await fetchTrainingScores(race.netKeibaRaceId);
-      console.log(`  追い切り評価取得: ${trainingMap.size}頭`);
 
       for (const horse of race.horses) {
         const jockeyName = horse.jockey ?? "";
@@ -140,13 +137,10 @@ async function main() {
         }
 
         // 騎手成績: 出馬表から直接取得した netkeiba 騎手ID を使用（名前照合は行わない）
-        const jockeyScore = await getJockeyScore(horse.jockeyId ?? "", jockeyName);
+        const { score: jockeyScore, stats: jockeyStats } = await getJockeyData(horse.jockeyId ?? "", jockeyName);
 
-        // 追い切り評価: netKeibaHorseId で照合。取得不能は null（欠損）
-        const trainingScore = trainingMap.get(horse.netKeibaHorseId) ?? null;
-        const trainingSrc = trainingMap.has(horse.netKeibaHorseId) ? "取得" : "欠損(null)";
-        console.log(`     ✓ form=${formScore} pedigree=${pedigreeScore} jockey=${jockeyScore} training=${trainingScore}(${trainingSrc})`);
-        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore, modelVersion: CURRENT_MODEL_VERSION, computedAt };
+        console.log(`     ✓ form=${formScore} pedigree=${pedigreeScore} jockey=${jockeyScore}`);
+        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, jockeyStats, modelVersion: CURRENT_MODEL_VERSION, computedAt };
       }
     }
   } else {
@@ -160,13 +154,10 @@ async function main() {
       const raceHorses = mockHorses.filter((h) => h.raceId === race.id);
       console.log(`\n━━ Race ${race.id}: ${race.raceName} (${race.venue} ${cond.surface}${cond.distance}m) ━━`);
 
-      // 出馬表を実際に取得し、馬ID・騎手ID・追い切り評価を名前照合で引き当てる
+      // 出馬表を実際に取得し、馬ID・騎手IDを名前照合で引き当てる
       const entry = await fetchRaceEntry(cond.netKeibaRaceId);
       const entryByName = new Map((entry?.horses ?? []).map((h) => [h.horse, h]));
       console.log(`   出馬表取得: ${entryByName.size}頭`);
-
-      const trainingMap = await fetchTrainingScores(cond.netKeibaRaceId);
-      console.log(`   追い切り評価取得: ${trainingMap.size}頭`);
 
       for (const horse of raceHorses) {
         const jockeyName = (horse as { jockey?: string }).jockey ?? "";
@@ -190,13 +181,9 @@ async function main() {
 
         // 騎手成績: 出馬表側の実データを優先し、mockData の名前は表示用のみに使う
         const jockeyId = matched?.jockeyId ?? "";
-        const jockeyScore = await getJockeyScore(jockeyId, matched?.jockey ?? jockeyName);
+        const { score: jockeyScore, stats: jockeyStats } = await getJockeyData(jockeyId, matched?.jockey ?? jockeyName);
 
-        const trainingScore = matched?.netKeibaHorseId
-          ? (trainingMap.get(matched.netKeibaHorseId) ?? null)
-          : null;
-
-        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, trainingScore, modelVersion: CURRENT_MODEL_VERSION, computedAt };
+        scores[horse.id] = { formScore, pedigreeScore, jockeyScore, jockeyStats, modelVersion: CURRENT_MODEL_VERSION, computedAt };
       }
     }
   }

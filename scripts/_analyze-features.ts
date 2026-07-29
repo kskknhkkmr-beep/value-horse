@@ -1,5 +1,6 @@
 /**
- * 調査1: 4特徴量の寄与度分析 — 一時分析スクリプト。
+ * 調査1: 特徴量の寄与度分析 — 一時分析スクリプト。
+ * （trainingScore は是正案①により本番から除去済みのため対象外）
  *   ① 各特徴量の実データ被覆率・分散（そもそも情報を持っているか）
  *   ② 単変量AUC（その特徴量だけで勝敗をどれだけ当てられるか）
  *   ③ 市場(log odds)との相関（市場が見ているものを捉えられているか）
@@ -29,7 +30,7 @@ for (const [k, v] of Object.entries(scoresRaw?.scores ?? {})) scoresById[Number(
 
 type H = {
   form: number; pedigree: number;
-  training: number | null; jockey: number | null;
+  jockey: number | null;
   hasRealScores: boolean; // scores-cache にエントリがあるか
   odds: number; won: boolean; raceIdx: number;
 };
@@ -45,7 +46,6 @@ function push(hs: { id: number; horse: string; horseNumber: number; odds: number
     horses.push({
       form: c?.formScore ?? DEFAULT,
       pedigree: c?.pedigreeScore ?? DEFAULT,
-      training: c ? (c.trainingScore ?? null) : DEFAULT,
       jockey: c ? (c.jockeyScore ?? null) : DEFAULT,
       hasRealScores: !!c,
       odds: h.odds,
@@ -110,7 +110,6 @@ console.log("════ ① 特徴量の被覆率と分散（実データ保�
 const featDefs: [string, (h: H) => number | null][] = [
   ["formScore", (h) => h.form],
   ["pedigreeScore", (h) => h.pedigree],
-  ["trainingScore", (h) => h.training],
   ["jockeyScore", (h) => h.jockey],
 ];
 console.log("特徴量          | 欠損(null) | DEFAULT(65)固定 |   平均 |   SD | 異なる値の数");
@@ -151,14 +150,13 @@ for (const [name, get] of featDefs) {
 }
 
 console.log("\n════ ④ アブレーション（特徴量を1つ除いたときの全体AUC変化）════");
-function strengthAUC(mask: { form?: boolean; ped?: boolean; tr?: boolean; jk?: boolean }) {
+function strengthAUC(mask: { form?: boolean; ped?: boolean; jk?: boolean }) {
   const xs: number[] = [], ys: boolean[] = [];
   for (const h of real) {
     const s = calculateStrength({
       id: 0, name: "",
       formScore: (mask.form === false ? DEFAULT : h.form) / 100,
       pedigreeScore: (mask.ped === false ? DEFAULT : h.pedigree) / 100,
-      trainingScore: mask.tr === false ? null : (h.training == null ? null : h.training / 100),
       jockeyScore: mask.jk === false ? null : (h.jockey == null ? null : h.jockey / 100),
       odds: h.odds,
     });
@@ -167,11 +165,10 @@ function strengthAUC(mask: { form?: boolean; ped?: boolean; tr?: boolean; jk?: b
   return auc(xs, ys);
 }
 const baseAuc = strengthAUC({});
-console.log(`全4特徴量そろった strength の AUC = ${baseAuc.toFixed(4)}`);
+console.log(`全特徴量そろった strength の AUC = ${baseAuc.toFixed(4)}`);
 const ablations: [string, Parameters<typeof strengthAUC>[0]][] = [
   ["formScore を除去", { form: false }],
   ["pedigreeScore を除去", { ped: false }],
-  ["trainingScore を除去", { tr: false }],
   ["jockeyScore を除去", { jk: false }],
 ];
 for (const [label, mask] of ablations) {
@@ -193,7 +190,6 @@ for (const [, hs] of byRace) {
   if (hs.length < 5) continue;
   const st = hs.map((h) => calculateStrength({
     id: 0, name: "", formScore: h.form / 100, pedigreeScore: h.pedigree / 100,
-    trainingScore: h.training == null ? null : h.training / 100,
     jockeyScore: h.jockey == null ? null : h.jockey / 100, odds: h.odds,
   }));
   const ex = st.map((s) => Math.exp(s * TEMP));

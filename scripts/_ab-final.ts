@@ -34,13 +34,12 @@ for (const [t, om] of [[4, 50], [4, 30], [4, 20], [4, 15], [8, 50], [10, 50], [1
 }
 
 console.log("\n════ (B) 是正案の組み合わせ ════");
+console.log("①(training除去)・②(jockeyクランプ解除)は本番実装済み。BASELINE(cache)が①+②適用後の状態。");
 const variants: Array<[string, EngineOpts]> = [
-  ["ベースライン(現行)", BASELINE],
-  ["① training除去", { ...BASELINE, useTraining: false }],
-  ["② jockeyクランプ解除", { ...BASELINE, jockeyMode: "raw" }],
-  ["①+②", { ...BASELINE, useTraining: false, jockeyMode: "raw" }],
-  ["①+②+③(TEMP=5)", { ...BASELINE, useTraining: false, jockeyMode: "raw", temp: 5 }],
-  ["①+②+③(TEMP=8)", { ...BASELINE, useTraining: false, jockeyMode: "raw", temp: 8 }],
+  ["①+②適用後(現行, cache)", BASELINE],
+  ["②raw再計算(検算用)", { ...BASELINE, jockeyMode: "raw" }],
+  ["①+②+③(TEMP=5)", { ...BASELINE, temp: 5 }],
+  ["①+②+③(TEMP=8)", { ...BASELINE, temp: 8 }],
 ];
 console.log("設定                          | AUC強 | AUC最終 | ばらつき比 |  点数 | 的中率 |     ROI");
 console.log("-".repeat(84));
@@ -62,7 +61,7 @@ for (const [label, o] of variants.slice(1)) {
 
 // 騎手クランプ解除の効果を「騎手特徴量単独AUC」で直接見る
 console.log("\n════ (C) 参考: 騎手特徴量そのものの単独AUC ════");
-for (const mode of ["clamp", "raw", "percentile"] as const) {
+for (const mode of ["cache", "raw", "percentile"] as const) {
   const pairs: Array<{ score: number; hit: boolean }> = [];
   for (const race of races) {
     const eh = applyJockeyMode(race.horses, mode);

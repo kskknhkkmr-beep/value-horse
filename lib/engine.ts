@@ -6,8 +6,7 @@ type Horse = {
 
   formScore: number;
   pedigreeScore: number;
-  // 追い切り・騎手は取得不能なら null（欠損）。欠損時は重みを再配分する。
-  trainingScore: number | null;
+  // 騎手は取得不能なら null（欠損）。欠損時は重みを再配分する。
   jockeyScore: number | null;
 
   odds: number;
@@ -36,18 +35,13 @@ function jockeyHorseInteraction(j: number, p: number): number {
   return sigmoid(j * 0.6 + p * 0.4);
 }
 
-function formTrainingInteraction(f: number, t: number): number {
-  return Math.pow(f * t, 0.5);
-}
-
 // -----------------------
 // strength
 // -----------------------
-// ベース要素の元ウェイト。欠損 feature は式から外し、残りの重みを合計 0.85
+// ベース要素の元ウェイト。欠損 feature は式から外し、残りの重みを合計
 // （= 全ベースウェイト）へ再正規化する。全 feature が揃っていれば従来と完全一致。
-const BASE_WEIGHT = { form: 0.3, pedigree: 0.2, training: 0.2, jockey: 0.15 };
-const TOTAL_BASE_WEIGHT =
-  BASE_WEIGHT.form + BASE_WEIGHT.pedigree + BASE_WEIGHT.training + BASE_WEIGHT.jockey;
+const BASE_WEIGHT = { form: 0.3, pedigree: 0.2, jockey: 0.15 };
+const TOTAL_BASE_WEIGHT = BASE_WEIGHT.form + BASE_WEIGHT.pedigree + BASE_WEIGHT.jockey;
 
 export function calculateStrength(h: Horse): number {
   // 利用可能なベース要素のみを集める（form・pedigree は常に存在）
@@ -55,9 +49,6 @@ export function calculateStrength(h: Horse): number {
     { value: sigmoid(h.formScore), weight: BASE_WEIGHT.form },
     { value: Math.pow(h.pedigreeScore, 1.2), weight: BASE_WEIGHT.pedigree },
   ];
-  if (h.trainingScore != null) {
-    base.push({ value: sigmoid(h.trainingScore * 1.1), weight: BASE_WEIGHT.training });
-  }
   if (h.jockeyScore != null) {
     base.push({ value: Math.pow(h.jockeyScore, 1.3), weight: BASE_WEIGHT.jockey });
   }
@@ -71,9 +62,6 @@ export function calculateStrength(h: Horse): number {
   let interaction = 0;
   if (h.jockeyScore != null) {
     interaction += jockeyHorseInteraction(h.jockeyScore, h.pedigreeScore) * 0.1;
-  }
-  if (h.trainingScore != null) {
-    interaction += formTrainingInteraction(h.formScore, h.trainingScore) * 0.05;
   }
 
   return baseSum + interaction;

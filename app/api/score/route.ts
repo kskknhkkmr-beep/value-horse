@@ -106,16 +106,14 @@ export async function GET(request: Request) {
       : undefined;
 
     const DEFAULT = 65;
-    // form/pedigree は常に数値。training/jockey は欠損を null として保持
+    // form/pedigree は常に数値。jockey は欠損を null として保持
     // （cached エントリがあればその null を尊重し、DEFAULT で埋め戻さない）。
     const formScore = (cached?.formScore ?? fallback?.formScore ?? DEFAULT) / 100;
     const pedigreeScore = (cached?.pedigreeScore ?? fallback?.pedigreeScore ?? DEFAULT) / 100;
-    const rawTraining = cached ? (cached.trainingScore ?? null) : (fallback?.trainingScore ?? DEFAULT);
     const rawJockey = cached ? (cached.jockeyScore ?? null) : (fallback?.jockeyScore ?? DEFAULT);
-    const trainingScore = rawTraining == null ? null : rawTraining / 100;
     const jockeyScore = rawJockey == null ? null : rawJockey / 100;
 
-    return { id: h.id, name: h.horse, formScore, pedigreeScore, trainingScore, jockeyScore, odds: h.odds! };
+    return { id: h.id, name: h.horse, formScore, pedigreeScore, jockeyScore, odds: h.odds! };
   });
 
   const result = calculateScore(inputs);
@@ -128,7 +126,6 @@ export async function GET(request: Request) {
       return [h.id, {
         formScore: cached?.formScore ?? fallback?.formScore ?? DEFAULT,
         pedigreeScore: cached?.pedigreeScore ?? fallback?.pedigreeScore ?? DEFAULT,
-        trainingScore: cached?.trainingScore ?? fallback?.trainingScore ?? DEFAULT,
         jockeyScore: cached?.jockeyScore ?? fallback?.jockeyScore ?? DEFAULT,
       }];
     })
@@ -147,7 +144,7 @@ export async function GET(request: Request) {
       edge: h.edge,
       ev: h.ev,
       valueRating: h.valueRating,
-      features: f ? { form: f.formScore, pedigree: f.pedigreeScore, training: f.trainingScore, jockey: f.jockeyScore } : null,
+      features: f ? { form: f.formScore, pedigree: f.pedigreeScore, jockey: f.jockeyScore } : null,
     };
   };
 

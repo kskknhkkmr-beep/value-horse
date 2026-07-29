@@ -1,5 +1,6 @@
 /**
- * 是正案①②③の個別A/B検証。v2レース（実スコア保有）のみを対象にする。
+ * 是正案②③の個別A/B検証（①trainingScore除去は本番実装済みのため対象外）。
+ * v2レース（実スコア保有）のみを対象にする。
  * v1 はスコアが全頭デフォルト値で race 内に差が無く、特徴量の改変を評価できないため除外。
  */
 import { buildDataset, evaluate, bootstrapDelta, BASELINE, type EngineOpts, type Metrics } from "./_ab-backtest";
@@ -34,21 +35,16 @@ function delta(label: string, o: EngineOpts) {
 
 console.log(`対象: v2 ${races.length}R / ${base.horses}頭  （ROIは${base.bets}点ベースでノイズが大きい点に注意）`);
 
-// ── ① trainingScore の除去 ──────────────────────────────────────────────────
-header("① trainingScore の除去");
-row("ベースライン(現行)", base);
-const noTrain: EngineOpts = { ...BASELINE, useTraining: false };
-row("trainingScore を除去", evaluate(races, noTrain));
-delta("除去の効果", noTrain);
-
 // ── ② jockeyScore の正規化 ──────────────────────────────────────────────────
-header("② jockeyScore のクランプ(40〜95)処理");
-row("ベースライン(clamp 40-95)", base);
+// 本番実装済み: scores-cache の jockeyScore は既にクランプ解除済み(BASELINE=cache)。
+// ここでは jockey_raw.json からの再計算(raw)・パーセンタイル化との一致/差分を確認する。
+header("② jockeyScore の正規化方式の比較");
+row("ベースライン(cache=クランプ解除済み)", base);
 const jRaw: EngineOpts = { ...BASELINE, jockeyMode: "raw" };
 const jPct: EngineOpts = { ...BASELINE, jockeyMode: "percentile" };
-row("クランプ解除(生raw)", evaluate(races, jRaw));
+row("jockey_raw.jsonから再計算(raw)", evaluate(races, jRaw));
 row("パーセンタイル正規化", evaluate(races, jPct));
-delta("クランプ解除", jRaw);
+delta("raw再計算との差分", jRaw);
 delta("パーセンタイル化", jPct);
 
 // ── ③ TEMP（確率ばらつき）の補正 ────────────────────────────────────────────

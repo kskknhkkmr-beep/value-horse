@@ -179,15 +179,13 @@ export async function GET(request: Request) {
 
     const inputs = horsesWithOdds.map((h) => {
       const cached = scoresById[h.id];
-      // training/jockey は欠損を null で保持（cached の null を DEFAULT で埋めない）
-      const rawTraining = cached ? (cached.trainingScore ?? null) : DEFAULT;
+      // jockey は欠損を null で保持（cached の null を DEFAULT で埋めない）
       const rawJockey = cached ? (cached.jockeyScore ?? null) : DEFAULT;
       return {
         id: h.id,
         name: h.horse,
         formScore: (cached?.formScore ?? DEFAULT) / 100,
         pedigreeScore: (cached?.pedigreeScore ?? DEFAULT) / 100,
-        trainingScore: rawTraining == null ? null : rawTraining / 100,
         jockeyScore: rawJockey == null ? null : rawJockey / 100,
         odds: h.odds,
       };
@@ -258,7 +256,6 @@ export async function GET(request: Request) {
         name: h.horse,
         formScore: DEFAULT / 100,
         pedigreeScore: DEFAULT / 100,
-        trainingScore: DEFAULT / 100,
         jockeyScore: DEFAULT / 100,
         odds: h.odds,
       }));
