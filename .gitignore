@@ -45,3 +45,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 一時分析スクリプト(_*.ts)のデータ退避先
+/scripts/_cache/
