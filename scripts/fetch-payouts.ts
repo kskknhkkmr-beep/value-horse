@@ -1,6 +1,7 @@
 /**
- * results-cache.json で結果確定済みのレースについて、馬連・馬単の確定払戻を
- * netkeiba から取得し、lib/payouts-cache.json に累積保存する。
+ * results-cache.json で結果確定済みのレースについて、確定払戻
+ * （単勝・複勝・ワイド・馬連・馬単）を netkeiba から取得し、
+ * lib/payouts-cache.json に累積保存する。
  *
  * 単勝vsボックス買いのバックテスト用に一度だけ使うデータ取得スクリプト。
  * results-cache.json / race-data.yml の自動更新パイプラインとは独立しており、
@@ -72,25 +73,49 @@ async function main() {
   const existing = loadExisting();
   console.log(`既存払戻データ: ${existing.size} レース`);
 
-  const targets = finished.filter((r) => !existing.has(r.netKeibaRaceId));
+  // 再取得が必要なもの:
+  //  (a) 未取得
+  //  (b) 旧スキーマ（tan/fuku/wide が無い＝馬連・馬単だけの世代）
+  //  (c) 前回取得が失敗して払戻が空（一時的な取得失敗の取りこぼし回収）
+  function needsFetch(id: string): boolean {
+    const e = existing.get(id);
+    if (!e) return true;
+    if (!e.tan || !e.fuku || !e.wide) return true;
+    return e.umaren.length === 0 && e.tan.length === 0;
+  }
+
+  const targets = finished.filter((r) => needsFetch(r.netKeibaRaceId));
   console.log(`今回取得対象: ${targets.length} レース\n`);
 
   let done = 0;
+  let failed = 0;
   for (const r of targets) {
     process.stdout.write(`  [${r.netKeibaRaceId}] ${r.date} ${r.venue}${r.raceNumber}R ${r.raceName} ...`);
     const payouts = await fetchRacePayouts(r.netKeibaRaceId);
-    existing.set(r.netKeibaRaceId, {
-      raceId: r.raceId,
-      netKeibaRaceId: r.netKeibaRaceId,
-      date: r.date,
-      venue: r.venue,
-      raceNumber: r.raceNumber,
-      umaren: payouts.umaren,
-      umatan: payouts.umatan,
-    });
+    const ok = payouts.tan.length > 0 || payouts.umaren.length > 0;
+    if (ok) {
+      existing.set(r.netKeibaRaceId, {
+        raceId: r.raceId,
+        netKeibaRaceId: r.netKeibaRaceId,
+        date: r.date,
+        venue: r.venue,
+        raceNumber: r.raceNumber,
+        tan: payouts.tan,
+        fuku: payouts.fuku,
+        wide: payouts.wide,
+        umaren: payouts.umaren,
+        umatan: payouts.umatan,
+      });
+      console.log(
+        ` ✓ 単${payouts.tan.length} 複${payouts.fuku.length} ワ${payouts.wide.length}` +
+          ` 馬連${payouts.umaren.length} 馬単${payouts.umatan.length}`
+      );
+    } else {
+      // 失敗時は既存エントリを上書きしない（部分データで潰さない）
+      failed++;
+      console.log(" ✗ 取得失敗");
+    }
     done++;
-    const ok = payouts.umaren.length > 0 || payouts.umatan.length > 0;
-    console.log(ok ? ` ✓ 馬連${payouts.umaren.length}件 馬単${payouts.umatan.length}件` : " ✗ 取得失敗");
 
     // 15件ごとに中間保存（長時間実行中の中断に備える）
     if (done % 15 === 0) save(existing);
@@ -98,7 +123,10 @@ async function main() {
 
   save(existing);
   console.log(`\n✓ 書き出し完了: ${outPath}`);
-  console.log(`  合計: ${existing.size} レース（今回新規: ${done} レース）`);
+  console.log(`  合計: ${existing.size} レース（今回取得: ${done} 件 / うち失敗 ${failed} 件）`);
+  if (failed > 0) {
+    console.log("  ※ 失敗分はもう一度同じコマンドを実行すれば再試行されます。");
+  }
 }
 
 main().catch((err) => {

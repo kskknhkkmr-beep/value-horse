@@ -275,17 +275,30 @@ export async function fetchRaceResult(netKeibaRaceId: string): Promise<RaceFinis
   }
 }
 
-// ─── 確定払戻（馬連・馬単） ───────────────────────────────────────────────────
+// ─── 確定払戻（単勝・複勝・ワイド・馬連・馬単） ───────────────────────────────
 
 export type ComboPayout = {
-  combo: number[]; // 馬連=昇順2頭、馬単=着順(1着→2着)の2頭
+  combo: number[]; // 馬連/ワイド=昇順2頭、馬単=着順(1着→2着)の2頭
+  payout: number; // 100円あたり払戻金
+};
+
+export type SinglePayout = {
+  horse: number; // 馬番
   payout: number; // 100円あたり払戻金
 };
 
 export type RacePayouts = {
   umaren: ComboPayout[]; // 通常1件。1着同着等で複数件になる場合がある
   umatan: ComboPayout[];
+  /** 単勝。通常1件（1着同着で2件） */
+  tan: SinglePayout[];
+  /** 複勝。通常3件。出走5〜7頭なら2件、4頭以下は発売なしで0件 */
+  fuku: SinglePayout[];
+  /** ワイド。通常3件（3着同着等で増える） */
+  wide: ComboPayout[];
 };
+
+const EMPTY_PAYOUTS: RacePayouts = { umaren: [], umatan: [], tan: [], fuku: [], wide: [] };
 
 /**
  * db.netkeiba.com のレース結果ページから馬連・馬単の確定払戻を取得する。
@@ -299,19 +312,28 @@ export async function fetchRacePayouts(netKeibaRaceId: string): Promise<RacePayo
     return parsePayouts(html);
   } catch (e) {
     console.warn(`  [scraper] fetchRacePayouts failed (${netKeibaRaceId}):`, (e as Error).message);
-    return { umaren: [], umatan: [] };
+    return { ...EMPTY_PAYOUTS };
   }
 }
 
 /**
  * 払戻テーブル（class="pay_table_01"）をパースする。
  * 構造:
+ *   <tr><th class="tan">単勝</th><td>8</td><td class="txt_r">390</td><td class="txt_r">2</td></tr>
+ *   <tr><th class="fuku" align="center">複勝</th><td>8<br />4<br />7</td>
+ *       <td class="txt_r">140<br />110<br />140</td><td class="txt_r">3<br />1<br />2</td></tr>
  *   <tr><th class="uren">馬連</th><td>8 - 13</td><td class="txt_r">29,830</td><td class="txt_r">58</td></tr>
+ *   <tr><th class="wide">ワイド</th><td>4 - 8<br />7 - 8<br />4 - 7</td>
+ *       <td class="txt_r">240<br />360<br />260</td><td class="txt_r">1<br />4<br />2</td></tr>
  *   <tr><th class="utan">馬単</th><td>13 → 8</td><td class="txt_r">70,700</td><td class="txt_r">114</td></tr>
- * 複数組み合わせ（同着等）は <br /> 区切りで並ぶ。
+ * 複数組み合わせ（ワイド・複勝の各点、同着等）は <br /> 区切りで並ぶ。
+ *
+ * 注: th の class は完全一致で引くこと。"fuku" を部分一致にすると
+ *     三連複の class="sanfuku" を誤って拾う。
  */
 function parsePayouts(html: string): RacePayouts {
-  function extractRow(thClass: string, sep: "-" | "→"): ComboPayout[] {
+  /** 該当行の「組み合わせ列」と「払戻列」を <br /> で割って対で返す */
+  function extractCells(thClass: string): Array<[string, number]> {
     const rowRe = new RegExp(
       `<th[^>]*class="${thClass}"[^>]*>[\\s\\S]*?<\\/th>\\s*<td[^>]*>([\\s\\S]*?)<\\/td>\\s*<td[^>]*class="txt_r"[^>]*>([\\s\\S]*?)<\\/td>`,
       "i"
@@ -320,23 +342,43 @@ function parsePayouts(html: string): RacePayouts {
     if (!m) return [];
     const combos = m[1].split(/<br\s*\/?>/i).map((s) => stripTags(s).trim()).filter(Boolean);
     const payouts = m[2].split(/<br\s*\/?>/i).map((s) => stripTags(s).trim()).filter(Boolean);
-    const results: ComboPayout[] = [];
+    const out: Array<[string, number]> = [];
     for (let i = 0; i < combos.length; i++) {
-      const nums = combos[i]
-        .split(sep === "-" ? "-" : "→")
+      const payout = parseInt((payouts[i] ?? "").replace(/[^\d]/g, ""), 10);
+      if (!isNaN(payout) && payout > 0) out.push([combos[i], payout]);
+    }
+    return out;
+  }
+
+  /** 2頭組（馬連・ワイド・馬単） */
+  function extractCombo(thClass: string, sep: "-" | "→"): ComboPayout[] {
+    const results: ComboPayout[] = [];
+    for (const [combo, payout] of extractCells(thClass)) {
+      const nums = combo
+        .split(sep)
         .map((s) => parseInt(s.trim(), 10))
         .filter((n) => !isNaN(n));
-      const payout = parseInt((payouts[i] ?? "").replace(/[^\d]/g, ""), 10);
-      if (nums.length === 2 && !isNaN(payout) && payout > 0) {
-        results.push({ combo: nums, payout });
-      }
+      if (nums.length === 2) results.push({ combo: nums, payout });
+    }
+    return results;
+  }
+
+  /** 単頭（単勝・複勝） */
+  function extractSingle(thClass: string): SinglePayout[] {
+    const results: SinglePayout[] = [];
+    for (const [combo, payout] of extractCells(thClass)) {
+      const horse = parseInt(combo.trim(), 10);
+      if (!isNaN(horse)) results.push({ horse, payout });
     }
     return results;
   }
 
   return {
-    umaren: extractRow("uren", "-"),
-    umatan: extractRow("utan", "→"),
+    umaren: extractCombo("uren", "-"),
+    umatan: extractCombo("utan", "→"),
+    tan: extractSingle("tan"),
+    fuku: extractSingle("fuku"),
+    wide: extractCombo("wide", "-"),
   };
 }
 
