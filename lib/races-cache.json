@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-01T07:51:55.207Z",
+  "fetchedAt": "2026-08-01T22:51:19.640Z",
   "dates": [
     "2026-06-28",
     "2026-07-04",
@@ -51855,9 +51855,208 @@
       "surface": "芝",
       "distance": 2000,
       "netKeibaRaceId": "202607020401",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040101,
+          "raceId": 7020401,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "グラディオール",
+          "netKeibaHorseId": "2023106877",
+          "jockey": "森田",
+          "jockeyId": "01222",
+          "odds": 158.3
+        },
+        {
+          "id": 702040102,
+          "raceId": 7020401,
+          "frameNumber": 1,
+          "horseNumber": 2,
+          "horse": "オーロアルジェント",
+          "netKeibaHorseId": "2023106797",
+          "jockey": "田山",
+          "jockeyId": "01220",
+          "odds": 6.9
+        },
+        {
+          "id": 702040103,
+          "raceId": 7020401,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "メイショウプレマ",
+          "netKeibaHorseId": "2023101585",
+          "jockey": "太宰",
+          "jockeyId": "01037",
+          "odds": 27.9
+        },
+        {
+          "id": 702040104,
+          "raceId": 7020401,
+          "frameNumber": 2,
+          "horseNumber": 4,
+          "horse": "ビクスバイト",
+          "netKeibaHorseId": "2023106949",
+          "jockey": "川田",
+          "jockeyId": "01088",
+          "odds": 3.6
+        },
+        {
+          "id": 702040105,
+          "raceId": 7020401,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "ワンダースアン",
+          "netKeibaHorseId": "2023101639",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 72.7
+        },
+        {
+          "id": 702040106,
+          "raceId": 7020401,
+          "frameNumber": 3,
+          "horseNumber": 6,
+          "horse": "ハギノデュア",
+          "netKeibaHorseId": "2023101882",
+          "jockey": "藤懸",
+          "jockeyId": "01138",
+          "odds": 233.9
+        },
+        {
+          "id": 702040107,
+          "raceId": 7020401,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "レーヴドリュヌ",
+          "netKeibaHorseId": "2023102073",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 30.3
+        },
+        {
+          "id": 702040108,
+          "raceId": 7020401,
+          "frameNumber": 4,
+          "horseNumber": 8,
+          "horse": "タイセイアビオン",
+          "netKeibaHorseId": "2023105225",
+          "jockey": "団野",
+          "jockeyId": "01180",
+          "odds": 8
+        },
+        {
+          "id": 702040109,
+          "raceId": 7020401,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "ゴールデンテティス",
+          "netKeibaHorseId": "2023101097",
+          "jockey": "加藤",
+          "jockeyId": "01156",
+          "odds": 14.1
+        },
+        {
+          "id": 702040110,
+          "raceId": 7020401,
+          "frameNumber": 5,
+          "horseNumber": 10,
+          "horse": "ワンダーデリエール",
+          "netKeibaHorseId": "2023100446",
+          "jockey": "永島",
+          "jockeyId": "01187",
+          "odds": 30.3
+        },
+        {
+          "id": 702040111,
+          "raceId": 7020401,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "ダンツカレン",
+          "netKeibaHorseId": "2023104337",
+          "jockey": "川端",
+          "jockeyId": "01195",
+          "odds": 62.3
+        },
+        {
+          "id": 702040112,
+          "raceId": 7020401,
+          "frameNumber": 6,
+          "horseNumber": 12,
+          "horse": "ノチェブエナ",
+          "netKeibaHorseId": "2023103708",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 78.4
+        },
+        {
+          "id": 702040113,
+          "raceId": 7020401,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "ノブレスラブリエ",
+          "netKeibaHorseId": "2023106455",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 113.9
+        },
+        {
+          "id": 702040114,
+          "raceId": 7020401,
+          "frameNumber": 7,
+          "horseNumber": 14,
+          "horse": "フィールライクユー",
+          "netKeibaHorseId": "2023106157",
+          "jockey": "角田和",
+          "jockeyId": "01186",
+          "odds": 132
+        },
+        {
+          "id": 702040115,
+          "raceId": 7020401,
+          "frameNumber": 7,
+          "horseNumber": 15,
+          "horse": "オーマイラッキーン",
+          "netKeibaHorseId": "2023102060",
+          "jockey": "秋山稔",
+          "jockeyId": "01181",
+          "odds": 94.4
+        },
+        {
+          "id": 702040116,
+          "raceId": 7020401,
+          "frameNumber": 8,
+          "horseNumber": 16,
+          "horse": "テンダーワーズ",
+          "netKeibaHorseId": "2023103359",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 24.1
+        },
+        {
+          "id": 702040117,
+          "raceId": 7020401,
+          "frameNumber": 8,
+          "horseNumber": 17,
+          "horse": "ルーチェブリラーレ",
+          "netKeibaHorseId": "2023107297",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 2.4
+        },
+        {
+          "id": 702040118,
+          "raceId": 7020401,
+          "frameNumber": 8,
+          "horseNumber": 18,
+          "horse": "リュネヴィル",
+          "netKeibaHorseId": "2023103775",
+          "jockey": "柴田裕",
+          "jockeyId": "01212",
+          "odds": 322.4
+        }
+      ]
     },
     {
       "id": 7020402,
@@ -51869,9 +52068,98 @@
       "surface": "ダ",
       "distance": 1800,
       "netKeibaRaceId": "202607020402",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040201,
+          "raceId": 7020402,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "サンライズエイト",
+          "netKeibaHorseId": "2024105728",
+          "jockey": "コレット",
+          "jockeyId": "05691",
+          "odds": 3.3
+        },
+        {
+          "id": 702040202,
+          "raceId": 7020402,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "アントラヴァースト",
+          "netKeibaHorseId": "2024101947",
+          "jockey": "田山",
+          "jockeyId": "01220",
+          "odds": 21.9
+        },
+        {
+          "id": 702040203,
+          "raceId": 7020402,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ラッキーハナコ",
+          "netKeibaHorseId": "2024104655",
+          "jockey": "団野",
+          "jockeyId": "01180",
+          "odds": 31.2
+        },
+        {
+          "id": 702040204,
+          "raceId": 7020402,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ファンビッチャン",
+          "netKeibaHorseId": "2024108230",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 4.1
+        },
+        {
+          "id": 702040205,
+          "raceId": 7020402,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "オーリエイト",
+          "netKeibaHorseId": "2024107041",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 11.9
+        },
+        {
+          "id": 702040206,
+          "raceId": 7020402,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "イツマデモマツワ",
+          "netKeibaHorseId": "2024100480",
+          "jockey": "長岡",
+          "jockeyId": "01142",
+          "odds": 39.5
+        },
+        {
+          "id": 702040207,
+          "raceId": 7020402,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "ハイウェイワン",
+          "netKeibaHorseId": "2024106362",
+          "jockey": "川田",
+          "jockeyId": "01088",
+          "odds": 4.2
+        },
+        {
+          "id": 702040208,
+          "raceId": 7020402,
+          "frameNumber": 8,
+          "horseNumber": 8,
+          "horse": "エコログレイス",
+          "netKeibaHorseId": "2024108329",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 3.5
+        }
+      ]
     },
     {
       "id": 7020403,
@@ -51883,9 +52171,120 @@
       "surface": "芝",
       "distance": 1600,
       "netKeibaRaceId": "202607020403",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040301,
+          "raceId": 7020403,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ムーンパッセ",
+          "netKeibaHorseId": "2024100726",
+          "jockey": "コレット",
+          "jockeyId": "05691",
+          "odds": 18.4
+        },
+        {
+          "id": 702040302,
+          "raceId": 7020403,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "トゥーレジット",
+          "netKeibaHorseId": "2024106741",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 4.1
+        },
+        {
+          "id": 702040303,
+          "raceId": 7020403,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "アレオクール",
+          "netKeibaHorseId": "2024106294",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 5.7
+        },
+        {
+          "id": 702040304,
+          "raceId": 7020403,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "サウンドファイト",
+          "netKeibaHorseId": "2024101071",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 28.2
+        },
+        {
+          "id": 702040305,
+          "raceId": 7020403,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "ヤマトクオーレ",
+          "netKeibaHorseId": "2024104824",
+          "jockey": "森田",
+          "jockeyId": "01222",
+          "odds": 143.6
+        },
+        {
+          "id": 702040306,
+          "raceId": 7020403,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "ベルコート",
+          "netKeibaHorseId": "2024106187",
+          "jockey": "川田",
+          "jockeyId": "01088",
+          "odds": 2.5
+        },
+        {
+          "id": 702040307,
+          "raceId": 7020403,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "ミライノシャチョウ",
+          "netKeibaHorseId": "2024108324",
+          "jockey": "団野",
+          "jockeyId": "01180",
+          "odds": 14.3
+        },
+        {
+          "id": 702040308,
+          "raceId": 7020403,
+          "frameNumber": 7,
+          "horseNumber": 8,
+          "horse": "スーサンコルティナ",
+          "netKeibaHorseId": "2024102040",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 83.6
+        },
+        {
+          "id": 702040309,
+          "raceId": 7020403,
+          "frameNumber": 8,
+          "horseNumber": 9,
+          "horse": "リボンロゼッタ",
+          "netKeibaHorseId": "2024101153",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 13.1
+        },
+        {
+          "id": 702040310,
+          "raceId": 7020403,
+          "frameNumber": 8,
+          "horseNumber": 10,
+          "horse": "ジーティーマンフク",
+          "netKeibaHorseId": "2024102891",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 5.2
+        }
+      ]
     },
     {
       "id": 7020404,
@@ -51897,9 +52296,186 @@
       "surface": "ダ",
       "distance": 1200,
       "netKeibaRaceId": "202607020404",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040401,
+          "raceId": 7020404,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "メテオロイド",
+          "netKeibaHorseId": "2023104173",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 8.3
+        },
+        {
+          "id": 702040402,
+          "raceId": 7020404,
+          "frameNumber": 1,
+          "horseNumber": 2,
+          "horse": "アステルディーヴァ",
+          "netKeibaHorseId": "2023104883",
+          "jockey": "Ｍデムーロ",
+          "jockeyId": "05212",
+          "odds": 22.6
+        },
+        {
+          "id": 702040403,
+          "raceId": 7020404,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "ラジャブルック",
+          "netKeibaHorseId": "2023107314",
+          "jockey": "亀田",
+          "jockeyId": "01176",
+          "odds": 42.5
+        },
+        {
+          "id": 702040404,
+          "raceId": 7020404,
+          "frameNumber": 2,
+          "horseNumber": 4,
+          "horse": "リアライズガイザー",
+          "netKeibaHorseId": "2023105216",
+          "jockey": "泉谷",
+          "jockeyId": "01182",
+          "odds": 6.8
+        },
+        {
+          "id": 702040405,
+          "raceId": 7020404,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "モズタイシソウシ",
+          "netKeibaHorseId": "2023105728",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 14.3
+        },
+        {
+          "id": 702040406,
+          "raceId": 7020404,
+          "frameNumber": 3,
+          "horseNumber": 6,
+          "horse": "グラマラス",
+          "netKeibaHorseId": "2023107185",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 31.5
+        },
+        {
+          "id": 702040407,
+          "raceId": 7020404,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "ディアデムドール",
+          "netKeibaHorseId": "2023103285",
+          "jockey": "永島",
+          "jockeyId": "01187",
+          "odds": 18.1
+        },
+        {
+          "id": 702040408,
+          "raceId": 7020404,
+          "frameNumber": 4,
+          "horseNumber": 8,
+          "horse": "ザキノフレンズ",
+          "netKeibaHorseId": "2023104433",
+          "jockey": "団野",
+          "jockeyId": "01180",
+          "odds": 12.9
+        },
+        {
+          "id": 702040409,
+          "raceId": 7020404,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "クロカミジョウ",
+          "netKeibaHorseId": "2023101500",
+          "jockey": "柴田裕",
+          "jockeyId": "01212",
+          "odds": 9.1
+        },
+        {
+          "id": 702040410,
+          "raceId": 7020404,
+          "frameNumber": 5,
+          "horseNumber": 10,
+          "horse": "チョウスター",
+          "netKeibaHorseId": "2023104226",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 50.8
+        },
+        {
+          "id": 702040411,
+          "raceId": 7020404,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "ビービーシナジー",
+          "netKeibaHorseId": "2023100552",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 6.7
+        },
+        {
+          "id": 702040412,
+          "raceId": 7020404,
+          "frameNumber": 6,
+          "horseNumber": 12,
+          "horse": "マクアケ",
+          "netKeibaHorseId": "2023100452",
+          "jockey": "コレット",
+          "jockeyId": "05691",
+          "odds": 9
+        },
+        {
+          "id": 702040413,
+          "raceId": 7020404,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "プレデンシア",
+          "netKeibaHorseId": "2023100376",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 17.4
+        },
+        {
+          "id": 702040414,
+          "raceId": 7020404,
+          "frameNumber": 7,
+          "horseNumber": 14,
+          "horse": "マルカスマッシュ",
+          "netKeibaHorseId": "2023100540",
+          "jockey": "森田",
+          "jockeyId": "01222",
+          "odds": 226
+        },
+        {
+          "id": 702040415,
+          "raceId": 7020404,
+          "frameNumber": 8,
+          "horseNumber": 15,
+          "horse": "ナムラロダン",
+          "netKeibaHorseId": "2023106223",
+          "jockey": "田山",
+          "jockeyId": "01220",
+          "odds": 4.7
+        },
+        {
+          "id": 702040416,
+          "raceId": 7020404,
+          "frameNumber": 8,
+          "horseNumber": 16,
+          "horse": "ジーティーリボーン",
+          "netKeibaHorseId": "2023105353",
+          "jockey": "国分優",
+          "jockeyId": "01125",
+          "odds": 41.9
+        }
+      ]
     },
     {
       "id": 7020405,
@@ -51911,9 +52487,109 @@
       "surface": "ダ",
       "distance": 1800,
       "netKeibaRaceId": "202607020405",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040501,
+          "raceId": 7020405,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "シエーナカラー",
+          "netKeibaHorseId": "2023103169",
+          "jockey": "酒井",
+          "jockeyId": "01034",
+          "odds": 11.5
+        },
+        {
+          "id": 702040502,
+          "raceId": 7020405,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "デールエルバハリ",
+          "netKeibaHorseId": "2023106955",
+          "jockey": "Ｍデムーロ",
+          "jockeyId": "05212",
+          "odds": 3.4
+        },
+        {
+          "id": 702040503,
+          "raceId": 7020405,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "アンティスマ",
+          "netKeibaHorseId": "2023100989",
+          "jockey": "太宰",
+          "jockeyId": "01037",
+          "odds": 3.1
+        },
+        {
+          "id": 702040504,
+          "raceId": 7020405,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "シャンパンスター",
+          "netKeibaHorseId": "2023100112",
+          "jockey": "川端",
+          "jockeyId": "01195",
+          "odds": 12.2
+        },
+        {
+          "id": 702040505,
+          "raceId": 7020405,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "アーデルリーベ",
+          "netKeibaHorseId": "2022104633",
+          "jockey": "亀田",
+          "jockeyId": "01176",
+          "odds": 10.6
+        },
+        {
+          "id": 702040506,
+          "raceId": 7020405,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "シャフメラン",
+          "netKeibaHorseId": "2023103568",
+          "jockey": "田山",
+          "jockeyId": "01220",
+          "odds": 7.8
+        },
+        {
+          "id": 702040507,
+          "raceId": 7020405,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "クイーンズホリデー",
+          "netKeibaHorseId": "2023100941",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 5
+        },
+        {
+          "id": 702040508,
+          "raceId": 7020405,
+          "frameNumber": 8,
+          "horseNumber": 8,
+          "horse": "シャンドラテ",
+          "netKeibaHorseId": "2023101082",
+          "jockey": "森田",
+          "jockeyId": "01222",
+          "odds": 49.4
+        },
+        {
+          "id": 702040509,
+          "raceId": 7020405,
+          "frameNumber": 8,
+          "horseNumber": 9,
+          "horse": "ブラックドレス",
+          "netKeibaHorseId": "2021101391",
+          "jockey": "永島",
+          "jockeyId": "01187",
+          "odds": 26.1
+        }
+      ]
     },
     {
       "id": 7020406,
@@ -51925,9 +52601,109 @@
       "surface": "芝",
       "distance": 1400,
       "netKeibaRaceId": "202607020406",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040601,
+          "raceId": 7020406,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "スターウェーブ",
+          "netKeibaHorseId": "2022104771",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 33.4
+        },
+        {
+          "id": 702040602,
+          "raceId": 7020406,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "エイヨーアメジスト",
+          "netKeibaHorseId": "2022109145",
+          "jockey": "酒井",
+          "jockeyId": "01034",
+          "odds": 40.2
+        },
+        {
+          "id": 702040603,
+          "raceId": 7020406,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "トライアンフパス",
+          "netKeibaHorseId": "2023106431",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 8.7
+        },
+        {
+          "id": 702040604,
+          "raceId": 7020406,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "アイニードユー",
+          "netKeibaHorseId": "2023101159",
+          "jockey": "川田",
+          "jockeyId": "01088",
+          "odds": 5.4
+        },
+        {
+          "id": 702040605,
+          "raceId": 7020406,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "ロンドボス",
+          "netKeibaHorseId": "2022104988",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 14
+        },
+        {
+          "id": 702040606,
+          "raceId": 7020406,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "トミーバローズ",
+          "netKeibaHorseId": "2023103101",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 1.4
+        },
+        {
+          "id": 702040607,
+          "raceId": 7020406,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "カウンティフェア",
+          "netKeibaHorseId": "2022104121",
+          "jockey": "長岡",
+          "jockeyId": "01142",
+          "odds": 44
+        },
+        {
+          "id": 702040608,
+          "raceId": 7020406,
+          "frameNumber": 8,
+          "horseNumber": 8,
+          "horse": "タガノアンファン",
+          "netKeibaHorseId": "2022106555",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 19.6
+        },
+        {
+          "id": 702040609,
+          "raceId": 7020406,
+          "frameNumber": 8,
+          "horseNumber": 9,
+          "horse": "キャッスルレイク",
+          "netKeibaHorseId": "2022100642",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 19.8
+        }
+      ]
     },
     {
       "id": 7020407,
@@ -51939,9 +52715,109 @@
       "surface": "ダ",
       "distance": 1800,
       "netKeibaRaceId": "202607020407",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040701,
+          "raceId": 7020407,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ブレイクフォース",
+          "netKeibaHorseId": "2019105604",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 8.1
+        },
+        {
+          "id": 702040702,
+          "raceId": 7020407,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "マリオロード",
+          "netKeibaHorseId": "2019101198",
+          "jockey": "Ｍデムーロ",
+          "jockeyId": "05212",
+          "odds": 12
+        },
+        {
+          "id": 702040703,
+          "raceId": 7020407,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "タイトニット",
+          "netKeibaHorseId": "2020102750",
+          "jockey": "川田",
+          "jockeyId": "01088",
+          "odds": 3.3
+        },
+        {
+          "id": 702040704,
+          "raceId": 7020407,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ハビレ",
+          "netKeibaHorseId": "2021100561",
+          "jockey": "コレット",
+          "jockeyId": "05691",
+          "odds": 10.1
+        },
+        {
+          "id": 702040705,
+          "raceId": 7020407,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "ソーニーイシュー",
+          "netKeibaHorseId": "2021101705",
+          "jockey": "団野",
+          "jockeyId": "01180",
+          "odds": 5
+        },
+        {
+          "id": 702040706,
+          "raceId": 7020407,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "ポッドロゴ",
+          "netKeibaHorseId": "2021104873",
+          "jockey": "長岡",
+          "jockeyId": "01142",
+          "odds": 14.7
+        },
+        {
+          "id": 702040707,
+          "raceId": 7020407,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "サイモンザナドゥ",
+          "netKeibaHorseId": "2020104497",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 11.1
+        },
+        {
+          "id": 702040708,
+          "raceId": 7020407,
+          "frameNumber": 8,
+          "horseNumber": 8,
+          "horse": "ゼットリアン",
+          "netKeibaHorseId": "2020104760",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 8.1
+        },
+        {
+          "id": 702040709,
+          "raceId": 7020407,
+          "frameNumber": 8,
+          "horseNumber": 9,
+          "horse": "クールミラボー",
+          "netKeibaHorseId": "2020103387",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 5.6
+        }
+      ]
     },
     {
       "id": 7020408,
@@ -51953,9 +52829,131 @@
       "surface": "ダ",
       "distance": 1200,
       "netKeibaRaceId": "202607020408",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702040801,
+          "raceId": 7020408,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "セルヴァンス",
+          "netKeibaHorseId": "2022100654",
+          "jockey": "長岡",
+          "jockeyId": "01142",
+          "odds": 7.4
+        },
+        {
+          "id": 702040802,
+          "raceId": 7020408,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ウィップスティッチ",
+          "netKeibaHorseId": "2021105253",
+          "jockey": "団野",
+          "jockeyId": "01180",
+          "odds": 8.3
+        },
+        {
+          "id": 702040803,
+          "raceId": 7020408,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ルクスレイモンド",
+          "netKeibaHorseId": "2023100670",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 4.6
+        },
+        {
+          "id": 702040804,
+          "raceId": 7020408,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ワイノナオミ",
+          "netKeibaHorseId": "2021105973",
+          "jockey": "国分優",
+          "jockeyId": "01125",
+          "odds": 9.5
+        },
+        {
+          "id": 702040805,
+          "raceId": 7020408,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "サンマルノヴェル",
+          "netKeibaHorseId": "2022102716",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 4.7
+        },
+        {
+          "id": 702040806,
+          "raceId": 7020408,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "ザウリ",
+          "netKeibaHorseId": "2019101399",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 9.1
+        },
+        {
+          "id": 702040807,
+          "raceId": 7020408,
+          "frameNumber": 6,
+          "horseNumber": 7,
+          "horse": "シルフズミスチーフ",
+          "netKeibaHorseId": "2022110001",
+          "jockey": "コレット",
+          "jockeyId": "05691",
+          "odds": 10.8
+        },
+        {
+          "id": 702040808,
+          "raceId": 7020408,
+          "frameNumber": 7,
+          "horseNumber": 8,
+          "horse": "パルプフィクション",
+          "netKeibaHorseId": "2021102562",
+          "jockey": "酒井",
+          "jockeyId": "01034",
+          "odds": 25.2
+        },
+        {
+          "id": 702040809,
+          "raceId": 7020408,
+          "frameNumber": 7,
+          "horseNumber": 9,
+          "horse": "フレイミングパイ",
+          "netKeibaHorseId": "2021106936",
+          "jockey": "柴田裕",
+          "jockeyId": "01212",
+          "odds": 45.2
+        },
+        {
+          "id": 702040810,
+          "raceId": 7020408,
+          "frameNumber": 8,
+          "horseNumber": 10,
+          "horse": "カツラノキサノキ",
+          "netKeibaHorseId": "2021101461",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 64.7
+        },
+        {
+          "id": 702040811,
+          "raceId": 7020408,
+          "frameNumber": 8,
+          "horseNumber": 11,
+          "horse": "ジャンシ",
+          "netKeibaHorseId": "2023110088",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 5.3
+        }
+      ]
     },
     {
       "id": 7020409,
@@ -51964,12 +52962,123 @@
       "raceNumber": 9,
       "raceName": "3歳以上障害未勝利",
       "postTime": "16:45",
-      "surface": "芝",
+      "surface": "障",
       "distance": 3000,
       "netKeibaRaceId": "202607020409",
-      "entriesPending": true,
+      "entriesPending": false,
       "grade": null,
-      "horses": []
+      "horses": [
+        {
+          "id": 702040901,
+          "raceId": 7020409,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "トモジャシャトー",
+          "netKeibaHorseId": "2021101041",
+          "jockey": "大江圭",
+          "jockeyId": "01120",
+          "odds": 14.6
+        },
+        {
+          "id": 702040902,
+          "raceId": 7020409,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "メイショウヘール",
+          "netKeibaHorseId": "2021104622",
+          "jockey": "中村",
+          "jockeyId": "01101",
+          "odds": 8.5
+        },
+        {
+          "id": 702040903,
+          "raceId": 7020409,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ガイ",
+          "netKeibaHorseId": "2022101140",
+          "jockey": "草野",
+          "jockeyId": "01113",
+          "odds": 41.2
+        },
+        {
+          "id": 702040904,
+          "raceId": 7020409,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ボールドハーテッド",
+          "netKeibaHorseId": "2022103551",
+          "jockey": "五十嵐",
+          "jockeyId": "01069",
+          "odds": 3.5
+        },
+        {
+          "id": 702040905,
+          "raceId": 7020409,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "オンクラウドナイン",
+          "netKeibaHorseId": "2022106754",
+          "jockey": "水沼",
+          "jockeyId": "01201",
+          "odds": 38
+        },
+        {
+          "id": 702040906,
+          "raceId": 7020409,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "セイフウサツキ",
+          "netKeibaHorseId": "2022101461",
+          "jockey": "難波",
+          "jockeyId": "01066",
+          "odds": 6.8
+        },
+        {
+          "id": 702040907,
+          "raceId": 7020409,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "テーオーレガシー",
+          "netKeibaHorseId": "2020100604",
+          "jockey": "小牧加",
+          "jockeyId": "01196",
+          "odds": 4.8
+        },
+        {
+          "id": 702040908,
+          "raceId": 7020409,
+          "frameNumber": 7,
+          "horseNumber": 8,
+          "horse": "ゴールデンステップ",
+          "netKeibaHorseId": "2021103555",
+          "jockey": "高田",
+          "jockeyId": "01046",
+          "odds": 4.1
+        },
+        {
+          "id": 702040909,
+          "raceId": 7020409,
+          "frameNumber": 8,
+          "horseNumber": 9,
+          "horse": "メラーキ",
+          "netKeibaHorseId": "2017105634",
+          "jockey": "坂口",
+          "jockeyId": "01211",
+          "odds": 28.1
+        },
+        {
+          "id": 702040910,
+          "raceId": 7020409,
+          "frameNumber": 8,
+          "horseNumber": 10,
+          "horse": "サスツルギ",
+          "netKeibaHorseId": "2020103439",
+          "jockey": "上野",
+          "jockeyId": "01087",
+          "odds": 9.7
+        }
+      ]
     },
     {
       "id": 7020410,
@@ -51981,9 +53090,164 @@
       "surface": "ダ",
       "distance": 1900,
       "netKeibaRaceId": "202607020410",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702041001,
+          "raceId": 7020410,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ロックバンド",
+          "netKeibaHorseId": "2023107150",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 70.1
+        },
+        {
+          "id": 702041002,
+          "raceId": 7020410,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ドメイン",
+          "netKeibaHorseId": "2023105445",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 23.9
+        },
+        {
+          "id": 702041003,
+          "raceId": 7020410,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "エクストラプッシュ",
+          "netKeibaHorseId": "2023105329",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 9.8
+        },
+        {
+          "id": 702041004,
+          "raceId": 7020410,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "スターシップ",
+          "netKeibaHorseId": "2023100704",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 2.5
+        },
+        {
+          "id": 702041005,
+          "raceId": 7020410,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "オーレアミスト",
+          "netKeibaHorseId": "2022104841",
+          "jockey": "角田和",
+          "jockeyId": "01186",
+          "odds": 12.4
+        },
+        {
+          "id": 702041006,
+          "raceId": 7020410,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ロードシュヴァリエ",
+          "netKeibaHorseId": "2022102639",
+          "jockey": "中井",
+          "jockeyId": "01141",
+          "odds": 24.7
+        },
+        {
+          "id": 702041007,
+          "raceId": 7020410,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "カイラーサ",
+          "netKeibaHorseId": "2023104476",
+          "jockey": "鮫島良",
+          "jockeyId": "01099",
+          "odds": 82.8
+        },
+        {
+          "id": 702041008,
+          "raceId": 7020410,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "ジーティーパワー",
+          "netKeibaHorseId": "2021105526",
+          "jockey": "国分優",
+          "jockeyId": "01125",
+          "odds": 60.7
+        },
+        {
+          "id": 702041009,
+          "raceId": 7020410,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "アメリカンイズム",
+          "netKeibaHorseId": "2023110081",
+          "jockey": "川田",
+          "jockeyId": "01088",
+          "odds": 7.4
+        },
+        {
+          "id": 702041010,
+          "raceId": 7020410,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "エコロスパーダ",
+          "netKeibaHorseId": "2022105602",
+          "jockey": "酒井",
+          "jockeyId": "01034",
+          "odds": 5.3
+        },
+        {
+          "id": 702041011,
+          "raceId": 7020410,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "ブームバップビート",
+          "netKeibaHorseId": "2023110070",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 9.3
+        },
+        {
+          "id": 702041012,
+          "raceId": 7020410,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "エアフォースワン",
+          "netKeibaHorseId": "2019103506",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 27.5
+        },
+        {
+          "id": 702041013,
+          "raceId": 7020410,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "スナークシャラク",
+          "netKeibaHorseId": "2023104072",
+          "jockey": "田山",
+          "jockeyId": "01220",
+          "odds": 18.2
+        },
+        {
+          "id": 702041014,
+          "raceId": 7020410,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "ロックウイズユー",
+          "netKeibaHorseId": "2022103143",
+          "jockey": "コレット",
+          "jockeyId": "05691",
+          "odds": 32.2
+        }
+      ]
     },
     {
       "id": 7020411,
@@ -51995,9 +53259,76 @@
       "surface": "芝",
       "distance": 2200,
       "netKeibaRaceId": "202607020411",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702041101,
+          "raceId": 7020411,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "バリオス",
+          "netKeibaHorseId": "2023105354",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 4.8
+        },
+        {
+          "id": 702041102,
+          "raceId": 7020411,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "メイショウアゴナス",
+          "netKeibaHorseId": "2022103263",
+          "jockey": "森田",
+          "jockeyId": "01222",
+          "odds": 8.9
+        },
+        {
+          "id": 702041103,
+          "raceId": 7020411,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ジュンプリメーロ",
+          "netKeibaHorseId": "2023107059",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 8.3
+        },
+        {
+          "id": 702041104,
+          "raceId": 7020411,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "レッドヴァリアート",
+          "netKeibaHorseId": "2022105290",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 2.9
+        },
+        {
+          "id": 702041105,
+          "raceId": 7020411,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "ビップヴォルフ",
+          "netKeibaHorseId": "2023105418",
+          "jockey": "Ｍデムーロ",
+          "jockeyId": "05212",
+          "odds": 3.9
+        },
+        {
+          "id": 702041106,
+          "raceId": 7020411,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "メイショウナルカミ",
+          "netKeibaHorseId": "2023106560",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 4.6
+        }
+      ]
     },
     {
       "id": 7020412,
@@ -52009,9 +53340,208 @@
       "surface": "芝",
       "distance": 1400,
       "netKeibaRaceId": "202607020412",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 702041201,
+          "raceId": 7020412,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ジュピターバローズ",
+          "netKeibaHorseId": "2023106961",
+          "jockey": "Ｍデムーロ",
+          "jockeyId": "05212",
+          "odds": 24.7
+        },
+        {
+          "id": 702041202,
+          "raceId": 7020412,
+          "frameNumber": 1,
+          "horseNumber": 2,
+          "horse": "チヨ",
+          "netKeibaHorseId": "2023107543",
+          "jockey": "田山",
+          "jockeyId": "01220",
+          "odds": 17.3
+        },
+        {
+          "id": 702041203,
+          "raceId": 7020412,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "アルジェンテーラ",
+          "netKeibaHorseId": "2023107057",
+          "jockey": "団野",
+          "jockeyId": "01180",
+          "odds": 5.8
+        },
+        {
+          "id": 702041204,
+          "raceId": 7020412,
+          "frameNumber": 2,
+          "horseNumber": 4,
+          "horse": "カフラー",
+          "netKeibaHorseId": "2023110039",
+          "jockey": "坂井",
+          "jockeyId": "01163",
+          "odds": 13.6
+        },
+        {
+          "id": 702041205,
+          "raceId": 7020412,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "ホウオウスカイハイ",
+          "netKeibaHorseId": "2023103255",
+          "jockey": "秋山稔",
+          "jockeyId": "01181",
+          "odds": 162.7
+        },
+        {
+          "id": 702041206,
+          "raceId": 7020412,
+          "frameNumber": 3,
+          "horseNumber": 6,
+          "horse": "モカプウイング",
+          "netKeibaHorseId": "2023103334",
+          "jockey": "コレット",
+          "jockeyId": "05691",
+          "odds": 31.3
+        },
+        {
+          "id": 702041207,
+          "raceId": 7020412,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "グランスプリント",
+          "netKeibaHorseId": "2023104906",
+          "jockey": "長岡",
+          "jockeyId": "01142",
+          "odds": 47
+        },
+        {
+          "id": 702041208,
+          "raceId": 7020412,
+          "frameNumber": 4,
+          "horseNumber": 8,
+          "horse": "ハピネスサンライズ",
+          "netKeibaHorseId": "2023100910",
+          "jockey": "松若",
+          "jockeyId": "01154",
+          "odds": 10
+        },
+        {
+          "id": 702041209,
+          "raceId": 7020412,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "フィアレスウィル",
+          "netKeibaHorseId": "2023102144",
+          "jockey": "幸",
+          "jockeyId": "00732",
+          "odds": 32.1
+        },
+        {
+          "id": 702041210,
+          "raceId": 7020412,
+          "frameNumber": 5,
+          "horseNumber": 10,
+          "horse": "ルージュエテルナ",
+          "netKeibaHorseId": "2023103330",
+          "jockey": "田口",
+          "jockeyId": "01208",
+          "odds": 12.7
+        },
+        {
+          "id": 702041211,
+          "raceId": 7020412,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "リントゥラウル",
+          "netKeibaHorseId": "2023101735",
+          "jockey": "酒井",
+          "jockeyId": "01034",
+          "odds": 16.9
+        },
+        {
+          "id": 702041212,
+          "raceId": 7020412,
+          "frameNumber": 6,
+          "horseNumber": 12,
+          "horse": "ミッキーラヴィータ",
+          "netKeibaHorseId": "2023105346",
+          "jockey": "岩田望",
+          "jockeyId": "01174",
+          "odds": 3.7
+        },
+        {
+          "id": 702041213,
+          "raceId": 7020412,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "マルモリキャスター",
+          "netKeibaHorseId": "2023104839",
+          "jockey": "泉谷",
+          "jockeyId": "01182",
+          "odds": 53.8
+        },
+        {
+          "id": 702041214,
+          "raceId": 7020412,
+          "frameNumber": 7,
+          "horseNumber": 14,
+          "horse": "アラビアンジョイ",
+          "netKeibaHorseId": "2023102939",
+          "jockey": "吉村",
+          "jockeyId": "01216",
+          "odds": 10.6
+        },
+        {
+          "id": 702041215,
+          "raceId": 7020412,
+          "frameNumber": 7,
+          "horseNumber": 15,
+          "horse": "コカボムショット",
+          "netKeibaHorseId": "2023100984",
+          "jockey": "加藤",
+          "jockeyId": "01156",
+          "odds": 177.5
+        },
+        {
+          "id": 702041216,
+          "raceId": 7020412,
+          "frameNumber": 8,
+          "horseNumber": 16,
+          "horse": "エールドリー",
+          "netKeibaHorseId": "2023100375",
+          "jockey": "藤懸",
+          "jockeyId": "01138",
+          "odds": 110
+        },
+        {
+          "id": 702041217,
+          "raceId": 7020412,
+          "frameNumber": 8,
+          "horseNumber": 17,
+          "horse": "ケイアイブラック",
+          "netKeibaHorseId": "2023105761",
+          "jockey": "森田",
+          "jockeyId": "01222",
+          "odds": 55
+        },
+        {
+          "id": 702041218,
+          "raceId": 7020412,
+          "frameNumber": 8,
+          "horseNumber": 18,
+          "horse": "モンシーク",
+          "netKeibaHorseId": "2023105000",
+          "jockey": "川田",
+          "jockeyId": "01088",
+          "odds": 5.8
+        }
+      ]
     },
     {
       "id": 4020401,
@@ -52023,9 +53553,142 @@
       "surface": "芝",
       "distance": 1600,
       "netKeibaRaceId": "202604020401",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040101,
+          "raceId": 4020401,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ホワイトフレアー",
+          "netKeibaHorseId": "2024106066",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 29.1
+        },
+        {
+          "id": 402040102,
+          "raceId": 4020401,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "エレスレイプニル",
+          "netKeibaHorseId": "2024106831",
+          "jockey": "木幡育",
+          "jockeyId": "01167",
+          "odds": 189.5
+        },
+        {
+          "id": 402040103,
+          "raceId": 4020401,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "エコロテラ",
+          "netKeibaHorseId": "2024104541",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 12.5
+        },
+        {
+          "id": 402040104,
+          "raceId": 4020401,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "サノノキセキ",
+          "netKeibaHorseId": "2024100178",
+          "jockey": "戸崎圭",
+          "jockeyId": "05386",
+          "odds": 3
+        },
+        {
+          "id": 402040105,
+          "raceId": 4020401,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "ヴェントリナ",
+          "netKeibaHorseId": "2024101041",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 4.5
+        },
+        {
+          "id": 402040106,
+          "raceId": 4020401,
+          "frameNumber": 5,
+          "horseNumber": 6,
+          "horse": "シュネーバレン",
+          "netKeibaHorseId": "2024100076",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 11.5
+        },
+        {
+          "id": 402040107,
+          "raceId": 4020401,
+          "frameNumber": 6,
+          "horseNumber": 7,
+          "horse": "ノドゥス",
+          "netKeibaHorseId": "2024100464",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 7.6
+        },
+        {
+          "id": 402040108,
+          "raceId": 4020401,
+          "frameNumber": 6,
+          "horseNumber": 8,
+          "horse": "センカンナガト",
+          "netKeibaHorseId": "2024101497",
+          "jockey": "石神道",
+          "jockeyId": "01209",
+          "odds": 98.8
+        },
+        {
+          "id": 402040109,
+          "raceId": 4020401,
+          "frameNumber": 7,
+          "horseNumber": 9,
+          "horse": "デザートスピリット",
+          "netKeibaHorseId": "2024101022",
+          "jockey": "吉田豊",
+          "jockeyId": "00733",
+          "odds": 7.4
+        },
+        {
+          "id": 402040110,
+          "raceId": 4020401,
+          "frameNumber": 7,
+          "horseNumber": 10,
+          "horse": "ウィールズアップ",
+          "netKeibaHorseId": "2024105762",
+          "jockey": "田辺",
+          "jockeyId": "01075",
+          "odds": 12.1
+        },
+        {
+          "id": 402040111,
+          "raceId": 4020401,
+          "frameNumber": 8,
+          "horseNumber": 11,
+          "horse": "タイセイルミナス",
+          "netKeibaHorseId": "2024104363",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 8
+        },
+        {
+          "id": 402040112,
+          "raceId": 4020401,
+          "frameNumber": 8,
+          "horseNumber": 12,
+          "horse": "キミヘノメロディー",
+          "netKeibaHorseId": "2024105225",
+          "jockey": "杉原",
+          "jockeyId": "01135",
+          "odds": 86.1
+        }
+      ]
     },
     {
       "id": 4020402,
@@ -52037,9 +53700,142 @@
       "surface": "ダ",
       "distance": 1800,
       "netKeibaRaceId": "202604020402",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040201,
+          "raceId": 4020402,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ライングラウス",
+          "netKeibaHorseId": "2024104199",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 21.2
+        },
+        {
+          "id": 402040202,
+          "raceId": 4020402,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ステラガーネット",
+          "netKeibaHorseId": "2024106348",
+          "jockey": "田辺",
+          "jockeyId": "01075",
+          "odds": 5.8
+        },
+        {
+          "id": 402040203,
+          "raceId": 4020402,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ゼノスフィア",
+          "netKeibaHorseId": "2024105951",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 10.2
+        },
+        {
+          "id": 402040204,
+          "raceId": 4020402,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ヴィシーチェック",
+          "netKeibaHorseId": "2024105829",
+          "jockey": "大野",
+          "jockeyId": "01096",
+          "odds": 13
+        },
+        {
+          "id": 402040205,
+          "raceId": 4020402,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "リーチツモドライチ",
+          "netKeibaHorseId": "2024108321",
+          "jockey": "戸崎圭",
+          "jockeyId": "05386",
+          "odds": 4.8
+        },
+        {
+          "id": 402040206,
+          "raceId": 4020402,
+          "frameNumber": 5,
+          "horseNumber": 6,
+          "horse": "ラインホルト",
+          "netKeibaHorseId": "2024106108",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 15.5
+        },
+        {
+          "id": 402040207,
+          "raceId": 4020402,
+          "frameNumber": 6,
+          "horseNumber": 7,
+          "horse": "コウユーキミガイテ",
+          "netKeibaHorseId": "2024100913",
+          "jockey": "木幡初",
+          "jockeyId": "01153",
+          "odds": 7.5
+        },
+        {
+          "id": 402040208,
+          "raceId": 4020402,
+          "frameNumber": 6,
+          "horseNumber": 8,
+          "horse": "ヌンエリン",
+          "netKeibaHorseId": "2024102023",
+          "jockey": "野中",
+          "jockeyId": "01158",
+          "odds": 72
+        },
+        {
+          "id": 402040209,
+          "raceId": 4020402,
+          "frameNumber": 7,
+          "horseNumber": 9,
+          "horse": "イチザサンダー",
+          "netKeibaHorseId": "2024104310",
+          "jockey": "木幡育",
+          "jockeyId": "01167",
+          "odds": 36.5
+        },
+        {
+          "id": 402040210,
+          "raceId": 4020402,
+          "frameNumber": 7,
+          "horseNumber": 10,
+          "horse": "テンユメノオーロラ",
+          "netKeibaHorseId": "2024106055",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 5.1
+        },
+        {
+          "id": 402040211,
+          "raceId": 4020402,
+          "frameNumber": 8,
+          "horseNumber": 11,
+          "horse": "サスケソルトバーン",
+          "netKeibaHorseId": "2024102123",
+          "jockey": "柴田大",
+          "jockeyId": "01009",
+          "odds": 96.4
+        },
+        {
+          "id": 402040212,
+          "raceId": 4020402,
+          "frameNumber": 8,
+          "horseNumber": 12,
+          "horse": "グランシュレーム",
+          "netKeibaHorseId": "2024106933",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 4.7
+        }
+      ]
     },
     {
       "id": 4020403,
@@ -52051,9 +53847,153 @@
       "surface": "芝",
       "distance": 1600,
       "netKeibaRaceId": "202604020403",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040301,
+          "raceId": 4020403,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ベールダウン",
+          "netKeibaHorseId": "2024105028",
+          "jockey": "石神道",
+          "jockeyId": "01209",
+          "odds": 31.2
+        },
+        {
+          "id": 402040302,
+          "raceId": 4020403,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "レーゲンシャウアー",
+          "netKeibaHorseId": "2024104453",
+          "jockey": "柴田大",
+          "jockeyId": "01009",
+          "odds": 113.3
+        },
+        {
+          "id": 402040303,
+          "raceId": 4020403,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "クラオルグジェシダ",
+          "netKeibaHorseId": "2024100295",
+          "jockey": "丸山",
+          "jockeyId": "01127",
+          "odds": 52.5
+        },
+        {
+          "id": 402040304,
+          "raceId": 4020403,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ペアレンツハート",
+          "netKeibaHorseId": "2024106925",
+          "jockey": "戸崎圭",
+          "jockeyId": "05386",
+          "odds": 4.2
+        },
+        {
+          "id": 402040305,
+          "raceId": 4020403,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "ファーストアライヴ",
+          "netKeibaHorseId": "2024106697",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 3
+        },
+        {
+          "id": 402040306,
+          "raceId": 4020403,
+          "frameNumber": 5,
+          "horseNumber": 6,
+          "horse": "ビスクヴィート",
+          "netKeibaHorseId": "2024101728",
+          "jockey": "今村",
+          "jockeyId": "01193",
+          "odds": 26.1
+        },
+        {
+          "id": 402040307,
+          "raceId": 4020403,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "マイネルリシャール",
+          "netKeibaHorseId": "2024106419",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 8.8
+        },
+        {
+          "id": 402040308,
+          "raceId": 4020403,
+          "frameNumber": 6,
+          "horseNumber": 8,
+          "horse": "コイゾラ",
+          "netKeibaHorseId": "2024103350",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 43.8
+        },
+        {
+          "id": 402040309,
+          "raceId": 4020403,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "スカーレットクラン",
+          "netKeibaHorseId": "2024106408",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 29.3
+        },
+        {
+          "id": 402040310,
+          "raceId": 4020403,
+          "frameNumber": 7,
+          "horseNumber": 10,
+          "horse": "アンドレイア",
+          "netKeibaHorseId": "2024102705",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 75.9
+        },
+        {
+          "id": 402040311,
+          "raceId": 4020403,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "ヴァルフォース",
+          "netKeibaHorseId": "2024105987",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 5.9
+        },
+        {
+          "id": 402040312,
+          "raceId": 4020403,
+          "frameNumber": 8,
+          "horseNumber": 12,
+          "horse": "コンフィアル",
+          "netKeibaHorseId": "2024105763",
+          "jockey": "田辺",
+          "jockeyId": "01075",
+          "odds": 5.1
+        },
+        {
+          "id": 402040313,
+          "raceId": 4020403,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "ニシノトラノスケ",
+          "netKeibaHorseId": "2024102993",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 24.4
+        }
+      ]
     },
     {
       "id": 4020404,
@@ -52065,9 +54005,175 @@
       "surface": "ダ",
       "distance": 1800,
       "netKeibaRaceId": "202604020404",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040401,
+          "raceId": 4020404,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "チャリティチャリス",
+          "netKeibaHorseId": "2023103473",
+          "jockey": "小崎",
+          "jockeyId": "01152",
+          "odds": 78.2
+        },
+        {
+          "id": 402040402,
+          "raceId": 4020404,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "グランフィエスタ",
+          "netKeibaHorseId": "2023105577",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 39.8
+        },
+        {
+          "id": 402040403,
+          "raceId": 4020404,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "ツインドライヴ",
+          "netKeibaHorseId": "2023103438",
+          "jockey": "石田",
+          "jockeyId": "01203",
+          "odds": 11
+        },
+        {
+          "id": 402040404,
+          "raceId": 4020404,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "カミカクシ",
+          "netKeibaHorseId": "2023104045",
+          "jockey": "大野",
+          "jockeyId": "01096",
+          "odds": 40.2
+        },
+        {
+          "id": 402040405,
+          "raceId": 4020404,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "ヤマタケボニータ",
+          "netKeibaHorseId": "2023100739",
+          "jockey": "野中",
+          "jockeyId": "01158",
+          "odds": 19.5
+        },
+        {
+          "id": 402040406,
+          "raceId": 4020404,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ブリリアンス",
+          "netKeibaHorseId": "2023100637",
+          "jockey": "佐藤",
+          "jockeyId": "01207",
+          "odds": 110.1
+        },
+        {
+          "id": 402040407,
+          "raceId": 4020404,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "ヤマメナイト",
+          "netKeibaHorseId": "2023104854",
+          "jockey": "菱田",
+          "jockeyId": "01144",
+          "odds": 19.1
+        },
+        {
+          "id": 402040408,
+          "raceId": 4020404,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "サングラント",
+          "netKeibaHorseId": "2023106956",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 5.4
+        },
+        {
+          "id": 402040409,
+          "raceId": 4020404,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "サトノクラシカル",
+          "netKeibaHorseId": "2023106974",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 3.7
+        },
+        {
+          "id": 402040410,
+          "raceId": 4020404,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "ネイティヴプライド",
+          "netKeibaHorseId": "2023105319",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 6.1
+        },
+        {
+          "id": 402040411,
+          "raceId": 4020404,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "グラムエッジ",
+          "netKeibaHorseId": "2023107305",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 12.9
+        },
+        {
+          "id": 402040412,
+          "raceId": 4020404,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "ジュングロワール",
+          "netKeibaHorseId": "2023107425",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 17.2
+        },
+        {
+          "id": 402040413,
+          "raceId": 4020404,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "ウォーレーションズ",
+          "netKeibaHorseId": "2023106368",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 5.1
+        },
+        {
+          "id": 402040414,
+          "raceId": 4020404,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "アルティシエル",
+          "netKeibaHorseId": "2023101970",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 38
+        },
+        {
+          "id": 402040415,
+          "raceId": 4020404,
+          "frameNumber": 8,
+          "horseNumber": 15,
+          "horse": "テルケンレンタッチ",
+          "netKeibaHorseId": "2023102159",
+          "jockey": "石橋脩",
+          "jockeyId": "01077",
+          "odds": 73.4
+        }
+      ]
     },
     {
       "id": 4020405,
@@ -52079,9 +54185,208 @@
       "surface": "芝",
       "distance": 1800,
       "netKeibaRaceId": "202604020405",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040501,
+          "raceId": 4020405,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ナイトバード",
+          "netKeibaHorseId": "2023103429",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 5.7
+        },
+        {
+          "id": 402040502,
+          "raceId": 4020405,
+          "frameNumber": 1,
+          "horseNumber": 2,
+          "horse": "ラグアイリータ",
+          "netKeibaHorseId": "2023106463",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 24.2
+        },
+        {
+          "id": 402040503,
+          "raceId": 4020405,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "セーヌデローヴ",
+          "netKeibaHorseId": "2023102504",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 16
+        },
+        {
+          "id": 402040504,
+          "raceId": 4020405,
+          "frameNumber": 2,
+          "horseNumber": 4,
+          "horse": "ジーナグレイス",
+          "netKeibaHorseId": "2023107385",
+          "jockey": "国分恭",
+          "jockeyId": "01124",
+          "odds": 77.3
+        },
+        {
+          "id": 402040505,
+          "raceId": 4020405,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "チルチャンプ",
+          "netKeibaHorseId": "2023105307",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 3.5
+        },
+        {
+          "id": 402040506,
+          "raceId": 4020405,
+          "frameNumber": 3,
+          "horseNumber": 6,
+          "horse": "エクストラダーク",
+          "netKeibaHorseId": "2023101892",
+          "jockey": "石神道",
+          "jockeyId": "01209",
+          "odds": 74.8
+        },
+        {
+          "id": 402040507,
+          "raceId": 4020405,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "レッドレガリア",
+          "netKeibaHorseId": "2023107340",
+          "jockey": "戸崎圭",
+          "jockeyId": "05386",
+          "odds": 2.9
+        },
+        {
+          "id": 402040508,
+          "raceId": 4020405,
+          "frameNumber": 4,
+          "horseNumber": 8,
+          "horse": "ルビーサンセット",
+          "netKeibaHorseId": "2023107338",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 125.3
+        },
+        {
+          "id": 402040509,
+          "raceId": 4020405,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "イバラヒメ",
+          "netKeibaHorseId": "2023101298",
+          "jockey": "今村",
+          "jockeyId": "01193",
+          "odds": 29.8
+        },
+        {
+          "id": 402040510,
+          "raceId": 4020405,
+          "frameNumber": 5,
+          "horseNumber": 10,
+          "horse": "レーザーキック",
+          "netKeibaHorseId": "2023105231",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 83
+        },
+        {
+          "id": 402040511,
+          "raceId": 4020405,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "ビップマリク",
+          "netKeibaHorseId": "2023100161",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 52.2
+        },
+        {
+          "id": 402040512,
+          "raceId": 4020405,
+          "frameNumber": 6,
+          "horseNumber": 12,
+          "horse": "カルダモン",
+          "netKeibaHorseId": "2023107051",
+          "jockey": "丸山",
+          "jockeyId": "01127",
+          "odds": 12.3
+        },
+        {
+          "id": 402040513,
+          "raceId": 4020405,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "ニシノトップダノン",
+          "netKeibaHorseId": "2023106255",
+          "jockey": "野中",
+          "jockeyId": "01158",
+          "odds": 42.7
+        },
+        {
+          "id": 402040514,
+          "raceId": 4020405,
+          "frameNumber": 7,
+          "horseNumber": 14,
+          "horse": "キタノアヤカ",
+          "netKeibaHorseId": "2023102715",
+          "jockey": "上里",
+          "jockeyId": "01217",
+          "odds": 121.9
+        },
+        {
+          "id": 402040515,
+          "raceId": 4020405,
+          "frameNumber": 7,
+          "horseNumber": 15,
+          "horse": "テンノルーキー",
+          "netKeibaHorseId": "2023104349",
+          "jockey": "石田",
+          "jockeyId": "01203",
+          "odds": 104.1
+        },
+        {
+          "id": 402040516,
+          "raceId": 4020405,
+          "frameNumber": 8,
+          "horseNumber": 16,
+          "horse": "プラネタリーアワー",
+          "netKeibaHorseId": "2023103421",
+          "jockey": "菱田",
+          "jockeyId": "01144",
+          "odds": 14.8
+        },
+        {
+          "id": 402040517,
+          "raceId": 4020405,
+          "frameNumber": 8,
+          "horseNumber": 17,
+          "horse": "フキョウワオン",
+          "netKeibaHorseId": "2023103971",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 19.3
+        },
+        {
+          "id": 402040518,
+          "raceId": 4020405,
+          "frameNumber": 8,
+          "horseNumber": 18,
+          "horse": "アオゾラランチ",
+          "netKeibaHorseId": "2023103377",
+          "jockey": "吉田豊",
+          "jockeyId": "00733",
+          "odds": 109.1
+        }
+      ]
     },
     {
       "id": 4020406,
@@ -52093,9 +54398,175 @@
       "surface": "ダ",
       "distance": 1800,
       "netKeibaRaceId": "202604020406",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040601,
+          "raceId": 4020406,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ブレトワルダ",
+          "netKeibaHorseId": "2022102965",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 7.2
+        },
+        {
+          "id": 402040602,
+          "raceId": 4020406,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "カレンワッツアップ",
+          "netKeibaHorseId": "2021104321",
+          "jockey": "丸山",
+          "jockeyId": "01127",
+          "odds": 18.8
+        },
+        {
+          "id": 402040603,
+          "raceId": 4020406,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "シーニックビュー",
+          "netKeibaHorseId": "2021105229",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 39.8
+        },
+        {
+          "id": 402040604,
+          "raceId": 4020406,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "マッドゲイル",
+          "netKeibaHorseId": "2023103701",
+          "jockey": "石橋脩",
+          "jockeyId": "01077",
+          "odds": 6.2
+        },
+        {
+          "id": 402040605,
+          "raceId": 4020406,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "ナイトスラッガー",
+          "netKeibaHorseId": "2021101603",
+          "jockey": "田辺",
+          "jockeyId": "01075",
+          "odds": 9.3
+        },
+        {
+          "id": 402040606,
+          "raceId": 4020406,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ヘリオトロープ",
+          "netKeibaHorseId": "2022105198",
+          "jockey": "戸崎圭",
+          "jockeyId": "05386",
+          "odds": 5.8
+        },
+        {
+          "id": 402040607,
+          "raceId": 4020406,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "ルーラーリッチ",
+          "netKeibaHorseId": "2020102793",
+          "jockey": "野中",
+          "jockeyId": "01158",
+          "odds": 58.5
+        },
+        {
+          "id": 402040608,
+          "raceId": 4020406,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "セザンワールド",
+          "netKeibaHorseId": "2020106051",
+          "jockey": "小林脩",
+          "jockeyId": "01183",
+          "odds": 24.4
+        },
+        {
+          "id": 402040609,
+          "raceId": 4020406,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "フクチャントウメイ",
+          "netKeibaHorseId": "2021105086",
+          "jockey": "菱田",
+          "jockeyId": "01144",
+          "odds": 45.5
+        },
+        {
+          "id": 402040610,
+          "raceId": 4020406,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "フィールオーサム",
+          "netKeibaHorseId": "2022105925",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 4.9
+        },
+        {
+          "id": 402040611,
+          "raceId": 4020406,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "ニシノケンタマン",
+          "netKeibaHorseId": "2022106427",
+          "jockey": "今村",
+          "jockeyId": "01193",
+          "odds": 11.6
+        },
+        {
+          "id": 402040612,
+          "raceId": 4020406,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "ユイノマチブセ",
+          "netKeibaHorseId": "2020105147",
+          "jockey": "木幡初",
+          "jockeyId": "01153",
+          "odds": 7.2
+        },
+        {
+          "id": 402040613,
+          "raceId": 4020406,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "エリカヴェネチア",
+          "netKeibaHorseId": "2021110106",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 36.4
+        },
+        {
+          "id": 402040614,
+          "raceId": 4020406,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "スプレーフォール",
+          "netKeibaHorseId": "2021107266",
+          "jockey": "石田",
+          "jockeyId": "01203",
+          "odds": 75.7
+        },
+        {
+          "id": 402040615,
+          "raceId": 4020406,
+          "frameNumber": 8,
+          "horseNumber": 15,
+          "horse": "ロードソルスティス",
+          "netKeibaHorseId": "2022100650",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 19.7
+        }
+      ]
     },
     {
       "id": 4020407,
@@ -52119,7 +54590,7 @@
           "netKeibaHorseId": "2017101423",
           "jockey": "松岡",
           "jockeyId": "01085",
-          "odds": 17.8
+          "odds": 13
         },
         {
           "id": 402040702,
@@ -52130,7 +54601,7 @@
           "netKeibaHorseId": "2019110102",
           "jockey": "江田照",
           "jockeyId": "00689",
-          "odds": 31.4
+          "odds": 73.6
         },
         {
           "id": 402040703,
@@ -52141,7 +54612,7 @@
           "netKeibaHorseId": "2020103049",
           "jockey": "小林脩",
           "jockeyId": "01183",
-          "odds": 77.6
+          "odds": 91.9
         },
         {
           "id": 402040704,
@@ -52152,7 +54623,7 @@
           "netKeibaHorseId": "2022100627",
           "jockey": "津村",
           "jockeyId": "01092",
-          "odds": 41.8
+          "odds": 39.4
         },
         {
           "id": 402040705,
@@ -52163,7 +54634,7 @@
           "netKeibaHorseId": "2022100098",
           "jockey": "菱田",
           "jockeyId": "01144",
-          "odds": 17.8
+          "odds": 34
         },
         {
           "id": 402040706,
@@ -52174,7 +54645,7 @@
           "netKeibaHorseId": "2021107058",
           "jockey": "田辺",
           "jockeyId": "01075",
-          "odds": 2.3
+          "odds": 3.1
         },
         {
           "id": 402040707,
@@ -52185,7 +54656,7 @@
           "netKeibaHorseId": "2020106015",
           "jockey": "杉原",
           "jockeyId": "01135",
-          "odds": 57.3
+          "odds": 44.7
         },
         {
           "id": 402040708,
@@ -52196,7 +54667,7 @@
           "netKeibaHorseId": "2022103324",
           "jockey": "嶋田",
           "jockeyId": "01134",
-          "odds": 18.8
+          "odds": 17.5
         },
         {
           "id": 402040709,
@@ -52207,7 +54678,7 @@
           "netKeibaHorseId": "2022104197",
           "jockey": "三浦",
           "jockeyId": "01122",
-          "odds": 40.4
+          "odds": 32.6
         },
         {
           "id": 402040710,
@@ -52218,7 +54689,7 @@
           "netKeibaHorseId": "2020101262",
           "jockey": "菊沢",
           "jockeyId": "01161",
-          "odds": 7.9
+          "odds": 6.4
         },
         {
           "id": 402040711,
@@ -52229,7 +54700,7 @@
           "netKeibaHorseId": "2021100157",
           "jockey": "大野",
           "jockeyId": "01096",
-          "odds": 85.9
+          "odds": 45.4
         },
         {
           "id": 402040712,
@@ -52240,7 +54711,7 @@
           "netKeibaHorseId": "2018103205",
           "jockey": "原",
           "jockeyId": "01184",
-          "odds": 18.1
+          "odds": 18.5
         },
         {
           "id": 402040713,
@@ -52251,7 +54722,7 @@
           "netKeibaHorseId": "2019103422",
           "jockey": "国分恭",
           "jockeyId": "01124",
-          "odds": 19
+          "odds": 15.5
         },
         {
           "id": 402040714,
@@ -52262,7 +54733,7 @@
           "netKeibaHorseId": "2020101419",
           "jockey": "石橋脩",
           "jockeyId": "01077",
-          "odds": 240.6
+          "odds": 122.2
         },
         {
           "id": 402040715,
@@ -52273,7 +54744,7 @@
           "netKeibaHorseId": "2022107138",
           "jockey": "武藤",
           "jockeyId": "01169",
-          "odds": 26.4
+          "odds": 41.3
         },
         {
           "id": 402040716,
@@ -52284,7 +54755,7 @@
           "netKeibaHorseId": "2022110105",
           "jockey": "戸崎圭",
           "jockeyId": "05386",
-          "odds": 7.1
+          "odds": 4.4
         },
         {
           "id": 402040717,
@@ -52295,7 +54766,7 @@
           "netKeibaHorseId": "2020100896",
           "jockey": "荻野極",
           "jockeyId": "01160",
-          "odds": 8.8
+          "odds": 9.2
         }
       ]
     },
@@ -52309,9 +54780,164 @@
       "surface": "芝",
       "distance": 1800,
       "netKeibaRaceId": "202604020408",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040801,
+          "raceId": 4020408,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "キアラメンテ",
+          "netKeibaHorseId": "2022105864",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 7
+        },
+        {
+          "id": 402040802,
+          "raceId": 4020408,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ガーヴィ",
+          "netKeibaHorseId": "2023107330",
+          "jockey": "大野",
+          "jockeyId": "01096",
+          "odds": 3.7
+        },
+        {
+          "id": 402040803,
+          "raceId": 4020408,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "シアブリス",
+          "netKeibaHorseId": "2021105742",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 18.3
+        },
+        {
+          "id": 402040804,
+          "raceId": 4020408,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "ファストフォワード",
+          "netKeibaHorseId": "2023106362",
+          "jockey": "小崎",
+          "jockeyId": "01152",
+          "odds": 20.7
+        },
+        {
+          "id": 402040805,
+          "raceId": 4020408,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "トランスマーレ",
+          "netKeibaHorseId": "2023103584",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 13.5
+        },
+        {
+          "id": 402040806,
+          "raceId": 4020408,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ユメシルベ",
+          "netKeibaHorseId": "2023106412",
+          "jockey": "柴田大",
+          "jockeyId": "01009",
+          "odds": 38
+        },
+        {
+          "id": 402040807,
+          "raceId": 4020408,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "ゴバド",
+          "netKeibaHorseId": "2023105239",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 5.9
+        },
+        {
+          "id": 402040808,
+          "raceId": 4020408,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "リポサンテ",
+          "netKeibaHorseId": "2022105338",
+          "jockey": "田辺",
+          "jockeyId": "01075",
+          "odds": 5.1
+        },
+        {
+          "id": 402040809,
+          "raceId": 4020408,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "キューティリップ",
+          "netKeibaHorseId": "2022105131",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 36.7
+        },
+        {
+          "id": 402040810,
+          "raceId": 4020408,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "ニシノコマチムスメ",
+          "netKeibaHorseId": "2021107253",
+          "jockey": "今村",
+          "jockeyId": "01193",
+          "odds": 16.7
+        },
+        {
+          "id": 402040811,
+          "raceId": 4020408,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "ルンベーラ",
+          "netKeibaHorseId": "2023102403",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 28.7
+        },
+        {
+          "id": 402040812,
+          "raceId": 4020408,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "ノーザンタイタン",
+          "netKeibaHorseId": "2023105275",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 12.2
+        },
+        {
+          "id": 402040813,
+          "raceId": 4020408,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "ミエノフェアリー",
+          "netKeibaHorseId": "2022102064",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 16.9
+        },
+        {
+          "id": 402040814,
+          "raceId": 4020408,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "ノーブルクラウド",
+          "netKeibaHorseId": "2023103069",
+          "jockey": "吉田豊",
+          "jockeyId": "00733",
+          "odds": 113.1
+        }
+      ]
     },
     {
       "id": 4020409,
@@ -52323,9 +54949,175 @@
       "surface": "ダ",
       "distance": 1800,
       "netKeibaRaceId": "202604020409",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402040901,
+          "raceId": 4020409,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "スーパーホース",
+          "netKeibaHorseId": "2022100485",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 120.4
+        },
+        {
+          "id": 402040902,
+          "raceId": 4020409,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ウリズンベー",
+          "netKeibaHorseId": "2023103709",
+          "jockey": "戸崎圭",
+          "jockeyId": "05386",
+          "odds": 6.6
+        },
+        {
+          "id": 402040903,
+          "raceId": 4020409,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "ウーバーストロング",
+          "netKeibaHorseId": "2022103629",
+          "jockey": "木幡育",
+          "jockeyId": "01167",
+          "odds": 103.7
+        },
+        {
+          "id": 402040904,
+          "raceId": 4020409,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "ヘルメスギャング",
+          "netKeibaHorseId": "2023100729",
+          "jockey": "今村",
+          "jockeyId": "01193",
+          "odds": 16.2
+        },
+        {
+          "id": 402040905,
+          "raceId": 4020409,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "サトノラポール",
+          "netKeibaHorseId": "2022104786",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 24
+        },
+        {
+          "id": 402040906,
+          "raceId": 4020409,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ブレゲアン",
+          "netKeibaHorseId": "2022106951",
+          "jockey": "大野",
+          "jockeyId": "01096",
+          "odds": 15
+        },
+        {
+          "id": 402040907,
+          "raceId": 4020409,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "メディチパワー",
+          "netKeibaHorseId": "2023100419",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 6.6
+        },
+        {
+          "id": 402040908,
+          "raceId": 4020409,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "イーグルロック",
+          "netKeibaHorseId": "2023106954",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 5.8
+        },
+        {
+          "id": 402040909,
+          "raceId": 4020409,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "タニセンドリーム",
+          "netKeibaHorseId": "2021106057",
+          "jockey": "上里",
+          "jockeyId": "01217",
+          "odds": 25.3
+        },
+        {
+          "id": 402040910,
+          "raceId": 4020409,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "サトノフェンサー",
+          "netKeibaHorseId": "2023103157",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 17.9
+        },
+        {
+          "id": 402040911,
+          "raceId": 4020409,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "サトノシャムロック",
+          "netKeibaHorseId": "2022104967",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 27.7
+        },
+        {
+          "id": 402040912,
+          "raceId": 4020409,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "セントゴーデンス",
+          "netKeibaHorseId": "2023107296",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 17.8
+        },
+        {
+          "id": 402040913,
+          "raceId": 4020409,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "エコロガノン",
+          "netKeibaHorseId": "2023100858",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 4.4
+        },
+        {
+          "id": 402040914,
+          "raceId": 4020409,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "ベルウッドピース",
+          "netKeibaHorseId": "2023101642",
+          "jockey": "田辺",
+          "jockeyId": "01075",
+          "odds": 6.1
+        },
+        {
+          "id": 402040915,
+          "raceId": 4020409,
+          "frameNumber": 8,
+          "horseNumber": 15,
+          "horse": "カシノスパーク",
+          "netKeibaHorseId": "2023105779",
+          "jockey": "石神道",
+          "jockeyId": "01209",
+          "odds": 51.8
+        }
+      ]
     },
     {
       "id": 4020410,
@@ -52337,9 +55129,164 @@
       "surface": "ダ",
       "distance": 1200,
       "netKeibaRaceId": "202604020410",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402041001,
+          "raceId": 4020410,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "チームユートピア",
+          "netKeibaHorseId": "2023105429",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 2.8
+        },
+        {
+          "id": 402041002,
+          "raceId": 4020410,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ベルヴィヴァン",
+          "netKeibaHorseId": "2022105119",
+          "jockey": "小崎",
+          "jockeyId": "01152",
+          "odds": 10
+        },
+        {
+          "id": 402041003,
+          "raceId": 4020410,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "マオノクラッシュ",
+          "netKeibaHorseId": "2022101864",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 19.8
+        },
+        {
+          "id": 402041004,
+          "raceId": 4020410,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "レディサン",
+          "netKeibaHorseId": "2023104852",
+          "jockey": "杉原",
+          "jockeyId": "01135",
+          "odds": 22.8
+        },
+        {
+          "id": 402041005,
+          "raceId": 4020410,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "ローズブーケ",
+          "netKeibaHorseId": "2023100453",
+          "jockey": "石田",
+          "jockeyId": "01203",
+          "odds": 13.7
+        },
+        {
+          "id": 402041006,
+          "raceId": 4020410,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "アイアンソリッド",
+          "netKeibaHorseId": "2022100588",
+          "jockey": "上里",
+          "jockeyId": "01217",
+          "odds": 52.5
+        },
+        {
+          "id": 402041007,
+          "raceId": 4020410,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "フュルスティン",
+          "netKeibaHorseId": "2023100583",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 8
+        },
+        {
+          "id": 402041008,
+          "raceId": 4020410,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "ビアフォーナウ",
+          "netKeibaHorseId": "2021104481",
+          "jockey": "丸田",
+          "jockeyId": "01117",
+          "odds": 41.4
+        },
+        {
+          "id": 402041009,
+          "raceId": 4020410,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "レゲンデ",
+          "netKeibaHorseId": "2023107255",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 7
+        },
+        {
+          "id": 402041010,
+          "raceId": 4020410,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "トモジャオーリー",
+          "netKeibaHorseId": "2023103068",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 5.2
+        },
+        {
+          "id": 402041011,
+          "raceId": 4020410,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "カンレイスター",
+          "netKeibaHorseId": "2023105558",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 19.5
+        },
+        {
+          "id": 402041012,
+          "raceId": 4020410,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "セイウンアインス",
+          "netKeibaHorseId": "2023106256",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 40.9
+        },
+        {
+          "id": 402041013,
+          "raceId": 4020410,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "ハヌル",
+          "netKeibaHorseId": "2021103343",
+          "jockey": "江田照",
+          "jockeyId": "00689",
+          "odds": 28
+        },
+        {
+          "id": 402041014,
+          "raceId": 4020410,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "ゴールドシャーク",
+          "netKeibaHorseId": "2022101917",
+          "jockey": "大野",
+          "jockeyId": "01096",
+          "odds": 49
+        }
+      ]
     },
     {
       "id": 4020411,
@@ -52351,9 +55298,164 @@
       "surface": "芝",
       "distance": 2200,
       "netKeibaRaceId": "202604020411",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402041101,
+          "raceId": 4020411,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "キコリータ",
+          "netKeibaHorseId": "2023103321",
+          "jockey": "石田",
+          "jockeyId": "01203",
+          "odds": 8.1
+        },
+        {
+          "id": 402041102,
+          "raceId": 4020411,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "レッドリファインド",
+          "netKeibaHorseId": "2023105606",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 15.9
+        },
+        {
+          "id": 402041103,
+          "raceId": 4020411,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "フロステリオン",
+          "netKeibaHorseId": "2023102266",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 74
+        },
+        {
+          "id": 402041104,
+          "raceId": 4020411,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "サヴマ",
+          "netKeibaHorseId": "2023106182",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 10.9
+        },
+        {
+          "id": 402041105,
+          "raceId": 4020411,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "コスモアミュレット",
+          "netKeibaHorseId": "2023106489",
+          "jockey": "上里",
+          "jockeyId": "01217",
+          "odds": 11.2
+        },
+        {
+          "id": 402041106,
+          "raceId": 4020411,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "タイキヴィグルーズ",
+          "netKeibaHorseId": "2023102175",
+          "jockey": "丸田",
+          "jockeyId": "01117",
+          "odds": 47.1
+        },
+        {
+          "id": 402041107,
+          "raceId": 4020411,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "ブラーヴジャン",
+          "netKeibaHorseId": "2023103238",
+          "jockey": "小崎",
+          "jockeyId": "01152",
+          "odds": 18.7
+        },
+        {
+          "id": 402041108,
+          "raceId": 4020411,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "マイネルオラクル",
+          "netKeibaHorseId": "2023106422",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 8.8
+        },
+        {
+          "id": 402041109,
+          "raceId": 4020411,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "ジーティーホクサイ",
+          "netKeibaHorseId": "2023106977",
+          "jockey": "杉原",
+          "jockeyId": "01135",
+          "odds": 48.9
+        },
+        {
+          "id": 402041110,
+          "raceId": 4020411,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "カムバックトゥミー",
+          "netKeibaHorseId": "2023106593",
+          "jockey": "嶋田",
+          "jockeyId": "01134",
+          "odds": 51.3
+        },
+        {
+          "id": 402041111,
+          "raceId": 4020411,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "ソロンゴ",
+          "netKeibaHorseId": "2023100582",
+          "jockey": "木幡育",
+          "jockeyId": "01167",
+          "odds": 10.9
+        },
+        {
+          "id": 402041112,
+          "raceId": 4020411,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "ヤマメホープ",
+          "netKeibaHorseId": "2023103075",
+          "jockey": "戸崎圭",
+          "jockeyId": "05386",
+          "odds": 5.9
+        },
+        {
+          "id": 402041113,
+          "raceId": 4020411,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "クイーンズレイン",
+          "netKeibaHorseId": "2023103686",
+          "jockey": "石神道",
+          "jockeyId": "01209",
+          "odds": 4.5
+        },
+        {
+          "id": 402041114,
+          "raceId": 4020411,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "フォンドルレール",
+          "netKeibaHorseId": "2023103799",
+          "jockey": "吉田豊",
+          "jockeyId": "00733",
+          "odds": 6.1
+        }
+      ]
     },
     {
       "id": 4020412,
@@ -52365,9 +55467,208 @@
       "surface": "芝",
       "distance": 1400,
       "netKeibaRaceId": "202604020412",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 402041201,
+          "raceId": 4020412,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ノブステップ",
+          "netKeibaHorseId": "2023103955",
+          "jockey": "丸山",
+          "jockeyId": "01127",
+          "odds": 34.3
+        },
+        {
+          "id": 402041202,
+          "raceId": 4020412,
+          "frameNumber": 1,
+          "horseNumber": 2,
+          "horse": "アラムベイ",
+          "netKeibaHorseId": "2023101151",
+          "jockey": "大野",
+          "jockeyId": "01096",
+          "odds": 16.3
+        },
+        {
+          "id": 402041203,
+          "raceId": 4020412,
+          "frameNumber": 2,
+          "horseNumber": 3,
+          "horse": "ベルバード",
+          "netKeibaHorseId": "2023105331",
+          "jockey": "上里",
+          "jockeyId": "01217",
+          "odds": 25.6
+        },
+        {
+          "id": 402041204,
+          "raceId": 4020412,
+          "frameNumber": 2,
+          "horseNumber": 4,
+          "horse": "エイシンイクサボシ",
+          "netKeibaHorseId": "2023105536",
+          "jockey": "木幡初",
+          "jockeyId": "01153",
+          "odds": 30.8
+        },
+        {
+          "id": 402041205,
+          "raceId": 4020412,
+          "frameNumber": 3,
+          "horseNumber": 5,
+          "horse": "ノベンバーベイズ",
+          "netKeibaHorseId": "2023102900",
+          "jockey": "菊沢",
+          "jockeyId": "01161",
+          "odds": 46.3
+        },
+        {
+          "id": 402041206,
+          "raceId": 4020412,
+          "frameNumber": 3,
+          "horseNumber": 6,
+          "horse": "ゴッドレイ",
+          "netKeibaHorseId": "2023106084",
+          "jockey": "石田",
+          "jockeyId": "01203",
+          "odds": 14.8
+        },
+        {
+          "id": 402041207,
+          "raceId": 4020412,
+          "frameNumber": 4,
+          "horseNumber": 7,
+          "horse": "セレスティアハート",
+          "netKeibaHorseId": "2023100186",
+          "jockey": "野中",
+          "jockeyId": "01158",
+          "odds": 35.8
+        },
+        {
+          "id": 402041208,
+          "raceId": 4020412,
+          "frameNumber": 4,
+          "horseNumber": 8,
+          "horse": "ニシノタチアナ",
+          "netKeibaHorseId": "2023104714",
+          "jockey": "石神道",
+          "jockeyId": "01209",
+          "odds": 25.7
+        },
+        {
+          "id": 402041209,
+          "raceId": 4020412,
+          "frameNumber": 5,
+          "horseNumber": 9,
+          "horse": "モントーヤ",
+          "netKeibaHorseId": "2023100043",
+          "jockey": "小崎",
+          "jockeyId": "01152",
+          "odds": 22
+        },
+        {
+          "id": 402041210,
+          "raceId": 4020412,
+          "frameNumber": 5,
+          "horseNumber": 10,
+          "horse": "ヤマカンドリーミン",
+          "netKeibaHorseId": "2023106660",
+          "jockey": "原",
+          "jockeyId": "01184",
+          "odds": 86.4
+        },
+        {
+          "id": 402041211,
+          "raceId": 4020412,
+          "frameNumber": 6,
+          "horseNumber": 11,
+          "horse": "ピコバレット",
+          "netKeibaHorseId": "2023107508",
+          "jockey": "木幡巧",
+          "jockeyId": "01162",
+          "odds": 45.4
+        },
+        {
+          "id": 402041212,
+          "raceId": 4020412,
+          "frameNumber": 6,
+          "horseNumber": 12,
+          "horse": "スイートハイデン",
+          "netKeibaHorseId": "2023104025",
+          "jockey": "三浦",
+          "jockeyId": "01122",
+          "odds": 16.4
+        },
+        {
+          "id": 402041213,
+          "raceId": 4020412,
+          "frameNumber": 7,
+          "horseNumber": 13,
+          "horse": "ノーブルクロンヌ",
+          "netKeibaHorseId": "2023103657",
+          "jockey": "荻野極",
+          "jockeyId": "01160",
+          "odds": 8.8
+        },
+        {
+          "id": 402041214,
+          "raceId": 4020412,
+          "frameNumber": 7,
+          "horseNumber": 14,
+          "horse": "シャインアルプス",
+          "netKeibaHorseId": "2023107234",
+          "jockey": "武藤",
+          "jockeyId": "01169",
+          "odds": 2.7
+        },
+        {
+          "id": 402041215,
+          "raceId": 4020412,
+          "frameNumber": 7,
+          "horseNumber": 15,
+          "horse": "ウインテラジーナ",
+          "netKeibaHorseId": "2023105858",
+          "jockey": "津村",
+          "jockeyId": "01092",
+          "odds": 7.1
+        },
+        {
+          "id": 402041216,
+          "raceId": 4020412,
+          "frameNumber": 8,
+          "horseNumber": 16,
+          "horse": "ペルシアーノ",
+          "netKeibaHorseId": "2023100653",
+          "jockey": "石川",
+          "jockeyId": "01150",
+          "odds": 19.3
+        },
+        {
+          "id": 402041217,
+          "raceId": 4020412,
+          "frameNumber": 8,
+          "horseNumber": 17,
+          "horse": "ブロッコロ",
+          "netKeibaHorseId": "2023100999",
+          "jockey": "小林脩",
+          "jockeyId": "01183",
+          "odds": 72
+        },
+        {
+          "id": 402041218,
+          "raceId": 4020412,
+          "frameNumber": 8,
+          "horseNumber": 18,
+          "horse": "ホウオウパーソンズ",
+          "netKeibaHorseId": "2023105361",
+          "jockey": "今村",
+          "jockeyId": "01193",
+          "odds": 8.8
+        }
+      ]
     },
     {
       "id": 1010401,
@@ -52379,9 +55680,164 @@
       "surface": "ダ",
       "distance": 1700,
       "netKeibaRaceId": "202601010401",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040101,
+          "raceId": 1010401,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "タガノシルフィー",
+          "netKeibaHorseId": "2023104322",
+          "jockey": "浜中",
+          "jockeyId": "01115",
+          "odds": 2.7
+        },
+        {
+          "id": 101040102,
+          "raceId": 1010401,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ヒマラヤミュサ",
+          "netKeibaHorseId": "2023100699",
+          "jockey": "石川倭",
+          "jockeyId": "05534",
+          "odds": 62.8
+        },
+        {
+          "id": 101040103,
+          "raceId": 1010401,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ワンダーアスク",
+          "netKeibaHorseId": "2023103191",
+          "jockey": "川又",
+          "jockeyId": "01166",
+          "odds": 24.1
+        },
+        {
+          "id": 101040104,
+          "raceId": 1010401,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "ダノンルミエール",
+          "netKeibaHorseId": "2023107103",
+          "jockey": "舟山",
+          "jockeyId": "01221",
+          "odds": 20.4
+        },
+        {
+          "id": 101040105,
+          "raceId": 1010401,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "ローゾフィア",
+          "netKeibaHorseId": "2023104384",
+          "jockey": "荻野琢",
+          "jockeyId": "01112",
+          "odds": 21.4
+        },
+        {
+          "id": 101040106,
+          "raceId": 1010401,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "フレンチブラッサム",
+          "netKeibaHorseId": "2023105062",
+          "jockey": "横山和",
+          "jockeyId": "01140",
+          "odds": 7
+        },
+        {
+          "id": 101040107,
+          "raceId": 1010401,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "ザンシュトーム",
+          "netKeibaHorseId": "2023103813",
+          "jockey": "斎藤",
+          "jockeyId": "01178",
+          "odds": 12
+        },
+        {
+          "id": 101040108,
+          "raceId": 1010401,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "ストリートクイーン",
+          "netKeibaHorseId": "2023101091",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 3.2
+        },
+        {
+          "id": 101040109,
+          "raceId": 1010401,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "ドゥブルヴェ",
+          "netKeibaHorseId": "2023106953",
+          "jockey": "河原田",
+          "jockeyId": "01204",
+          "odds": 131.9
+        },
+        {
+          "id": 101040110,
+          "raceId": 1010401,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "アインプロージット",
+          "netKeibaHorseId": "2023104415",
+          "jockey": "佐々木",
+          "jockeyId": "01197",
+          "odds": 23.2
+        },
+        {
+          "id": 101040111,
+          "raceId": 1010401,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "クルサール",
+          "netKeibaHorseId": "2023105004",
+          "jockey": "富田",
+          "jockeyId": "01168",
+          "odds": 15.5
+        },
+        {
+          "id": 101040112,
+          "raceId": 1010401,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "ヨドノサファイア",
+          "netKeibaHorseId": "2023101825",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 20
+        },
+        {
+          "id": 101040113,
+          "raceId": 1010401,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "レーヌペスカ",
+          "netKeibaHorseId": "2023103193",
+          "jockey": "吉田隼",
+          "jockeyId": "01095",
+          "odds": 111.7
+        },
+        {
+          "id": 101040114,
+          "raceId": 1010401,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "テリオスリコ",
+          "netKeibaHorseId": "2023101796",
+          "jockey": "古川吉",
+          "jockeyId": "01015",
+          "odds": 40.2
+        }
+      ]
     },
     {
       "id": 1010402,
@@ -52393,9 +55849,164 @@
       "surface": "芝",
       "distance": 1500,
       "netKeibaRaceId": "202601010402",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040201,
+          "raceId": 1010402,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "スカイピア",
+          "netKeibaHorseId": "2023110026",
+          "jockey": "小林美",
+          "jockeyId": "01206",
+          "odds": 9.9
+        },
+        {
+          "id": 101040202,
+          "raceId": 1010402,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ニシノマーレ",
+          "netKeibaHorseId": "2023100179",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 13.5
+        },
+        {
+          "id": 101040203,
+          "raceId": 1010402,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ペカリーナ",
+          "netKeibaHorseId": "2023106578",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 3.4
+        },
+        {
+          "id": 101040204,
+          "raceId": 1010402,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "シーシェル",
+          "netKeibaHorseId": "2023105212",
+          "jockey": "黛",
+          "jockeyId": "01109",
+          "odds": 147.9
+        },
+        {
+          "id": 101040205,
+          "raceId": 1010402,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "モンテール",
+          "netKeibaHorseId": "2023104404",
+          "jockey": "横山琉",
+          "jockeyId": "01192",
+          "odds": 8.8
+        },
+        {
+          "id": 101040206,
+          "raceId": 1010402,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ロックフラワー",
+          "netKeibaHorseId": "2023102425",
+          "jockey": "石川倭",
+          "jockeyId": "05534",
+          "odds": 40.6
+        },
+        {
+          "id": 101040207,
+          "raceId": 1010402,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "ポセイドンテソーロ",
+          "netKeibaHorseId": "2023106742",
+          "jockey": "長浜",
+          "jockeyId": "01214",
+          "odds": 24.9
+        },
+        {
+          "id": 101040208,
+          "raceId": 1010402,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "エグジスタンス",
+          "netKeibaHorseId": "2023103155",
+          "jockey": "佐々木",
+          "jockeyId": "01197",
+          "odds": 5.5
+        },
+        {
+          "id": 101040209,
+          "raceId": 1010402,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "ミアエッテ",
+          "netKeibaHorseId": "2023101530",
+          "jockey": "舟山",
+          "jockeyId": "01221",
+          "odds": 29.8
+        },
+        {
+          "id": 101040210,
+          "raceId": 1010402,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "グローリーバローズ",
+          "netKeibaHorseId": "2023105470",
+          "jockey": "鮫島駿",
+          "jockeyId": "01157",
+          "odds": 16.5
+        },
+        {
+          "id": 101040211,
+          "raceId": 1010402,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "ショウナンバーボン",
+          "netKeibaHorseId": "2023106620",
+          "jockey": "西村淳",
+          "jockeyId": "01171",
+          "odds": 6.9
+        },
+        {
+          "id": 101040212,
+          "raceId": 1010402,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "ブルーエ",
+          "netKeibaHorseId": "2023105952",
+          "jockey": "原田和",
+          "jockeyId": "01143",
+          "odds": 20.8
+        },
+        {
+          "id": 101040213,
+          "raceId": 1010402,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "アトリ",
+          "netKeibaHorseId": "2023106885",
+          "jockey": "北村友",
+          "jockeyId": "01102",
+          "odds": 8.7
+        },
+        {
+          "id": 101040214,
+          "raceId": 1010402,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "メイショウタダツグ",
+          "netKeibaHorseId": "2023105042",
+          "jockey": "西塚",
+          "jockeyId": "01200",
+          "odds": 47.7
+        }
+      ]
     },
     {
       "id": 1010403,
@@ -52407,9 +56018,131 @@
       "surface": "ダ",
       "distance": 1700,
       "netKeibaRaceId": "202601010403",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040301,
+          "raceId": 1010403,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "モズヴイ",
+          "netKeibaHorseId": "2023105739",
+          "jockey": "西塚",
+          "jockeyId": "01200",
+          "odds": 8
+        },
+        {
+          "id": 101040302,
+          "raceId": 1010403,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ワンダーゾルダート",
+          "netKeibaHorseId": "2023101714",
+          "jockey": "松本",
+          "jockeyId": "01191",
+          "odds": 16.3
+        },
+        {
+          "id": 101040303,
+          "raceId": 1010403,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ワンダーブリッツ",
+          "netKeibaHorseId": "2023102750",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 1.8
+        },
+        {
+          "id": 101040304,
+          "raceId": 1010403,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "エースオブゴールド",
+          "netKeibaHorseId": "2023100784",
+          "jockey": "横山琉",
+          "jockeyId": "01192",
+          "odds": 80.8
+        },
+        {
+          "id": 101040305,
+          "raceId": 1010403,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "イーサンミラー",
+          "netKeibaHorseId": "2023106657",
+          "jockey": "斎藤",
+          "jockeyId": "01178",
+          "odds": 20.3
+        },
+        {
+          "id": 101040306,
+          "raceId": 1010403,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "ヘリオポリス",
+          "netKeibaHorseId": "2023105090",
+          "jockey": "和田陽",
+          "jockeyId": "01223",
+          "odds": 142.3
+        },
+        {
+          "id": 101040307,
+          "raceId": 1010403,
+          "frameNumber": 6,
+          "horseNumber": 7,
+          "horse": "イントゥゴールデン",
+          "netKeibaHorseId": "2023104288",
+          "jockey": "古川奈",
+          "jockeyId": "01190",
+          "odds": 70.6
+        },
+        {
+          "id": 101040308,
+          "raceId": 1010403,
+          "frameNumber": 7,
+          "horseNumber": 8,
+          "horse": "ゴンフィンガー",
+          "netKeibaHorseId": "2023110069",
+          "jockey": "西村淳",
+          "jockeyId": "01171",
+          "odds": 4.5
+        },
+        {
+          "id": 101040309,
+          "raceId": 1010403,
+          "frameNumber": 7,
+          "horseNumber": 9,
+          "horse": "ハイランダー",
+          "netKeibaHorseId": "2023103504",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 14.1
+        },
+        {
+          "id": 101040310,
+          "raceId": 1010403,
+          "frameNumber": 8,
+          "horseNumber": 10,
+          "horse": "カンフージョン",
+          "netKeibaHorseId": "2023107544",
+          "jockey": "小沢",
+          "jockeyId": "01185",
+          "odds": 113.5
+        },
+        {
+          "id": 101040311,
+          "raceId": 1010403,
+          "frameNumber": 8,
+          "horseNumber": 11,
+          "horse": "ホウオウロレンシア",
+          "netKeibaHorseId": "2023102396",
+          "jockey": "石川倭",
+          "jockeyId": "05534",
+          "odds": 7.6
+        }
+      ]
     },
     {
       "id": 1010404,
@@ -52421,9 +56154,153 @@
       "surface": "芝",
       "distance": 2600,
       "netKeibaRaceId": "202601010404",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040401,
+          "raceId": 1010404,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "エナジーショット",
+          "netKeibaHorseId": "2022101425",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 19.6
+        },
+        {
+          "id": 101040402,
+          "raceId": 1010404,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ワンダフルデイズ",
+          "netKeibaHorseId": "2023107050",
+          "jockey": "横山琉",
+          "jockeyId": "01192",
+          "odds": 4.8
+        },
+        {
+          "id": 101040403,
+          "raceId": 1010404,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ジーティートシオー",
+          "netKeibaHorseId": "2022104661",
+          "jockey": "荻野琢",
+          "jockeyId": "01112",
+          "odds": 62
+        },
+        {
+          "id": 101040404,
+          "raceId": 1010404,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "グランアルト",
+          "netKeibaHorseId": "2023104156",
+          "jockey": "斎藤",
+          "jockeyId": "01178",
+          "odds": 17.1
+        },
+        {
+          "id": 101040405,
+          "raceId": 1010404,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "クオンタムスター",
+          "netKeibaHorseId": "2023101050",
+          "jockey": "佐々木",
+          "jockeyId": "01197",
+          "odds": 1.9
+        },
+        {
+          "id": 101040406,
+          "raceId": 1010404,
+          "frameNumber": 5,
+          "horseNumber": 6,
+          "horse": "タケルフォーカス",
+          "netKeibaHorseId": "2023106077",
+          "jockey": "古川吉",
+          "jockeyId": "01015",
+          "odds": 10
+        },
+        {
+          "id": 101040407,
+          "raceId": 1010404,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "ペリプルス",
+          "netKeibaHorseId": "2020105796",
+          "jockey": "舟山",
+          "jockeyId": "01221",
+          "odds": 13.8
+        },
+        {
+          "id": 101040408,
+          "raceId": 1010404,
+          "frameNumber": 6,
+          "horseNumber": 8,
+          "horse": "ランブリングマン",
+          "netKeibaHorseId": "2023103837",
+          "jockey": "北村友",
+          "jockeyId": "01102",
+          "odds": 74.7
+        },
+        {
+          "id": 101040409,
+          "raceId": 1010404,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "ニヒトツーゼーア",
+          "netKeibaHorseId": "2022102383",
+          "jockey": "河原田",
+          "jockeyId": "01204",
+          "odds": 11.8
+        },
+        {
+          "id": 101040410,
+          "raceId": 1010404,
+          "frameNumber": 7,
+          "horseNumber": 10,
+          "horse": "レイデラティエラ",
+          "netKeibaHorseId": "2022103070",
+          "jockey": "富田",
+          "jockeyId": "01168",
+          "odds": 42
+        },
+        {
+          "id": 101040411,
+          "raceId": 1010404,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "サイモンイロハニー",
+          "netKeibaHorseId": "2022104164",
+          "jockey": "小沢",
+          "jockeyId": "01185",
+          "odds": 30.4
+        },
+        {
+          "id": 101040412,
+          "raceId": 1010404,
+          "frameNumber": 8,
+          "horseNumber": 12,
+          "horse": "テイクザクラウン",
+          "netKeibaHorseId": "2021102379",
+          "jockey": "川又",
+          "jockeyId": "01166",
+          "odds": 19.8
+        },
+        {
+          "id": 101040413,
+          "raceId": 1010404,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "シャインバオバブ",
+          "netKeibaHorseId": "2022106180",
+          "jockey": "遠藤",
+          "jockeyId": "01218",
+          "odds": 51.3
+        }
+      ]
     },
     {
       "id": 1010405,
@@ -52435,9 +56312,120 @@
       "surface": "芝",
       "distance": 1800,
       "netKeibaRaceId": "202601010405",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040501,
+          "raceId": 1010405,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ジューンガレン",
+          "netKeibaHorseId": "2024107200",
+          "jockey": "浜中",
+          "jockeyId": "01115",
+          "odds": 8.8
+        },
+        {
+          "id": 101040502,
+          "raceId": 1010405,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "ホウオウプレマ",
+          "netKeibaHorseId": "2024106597",
+          "jockey": "池添",
+          "jockeyId": "01032",
+          "odds": 3.7
+        },
+        {
+          "id": 101040503,
+          "raceId": 1010405,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "オンザボー",
+          "netKeibaHorseId": "2024103472",
+          "jockey": "舟山",
+          "jockeyId": "01221",
+          "odds": 6.4
+        },
+        {
+          "id": 101040504,
+          "raceId": 1010405,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "スワッグウォーク",
+          "netKeibaHorseId": "2024106558",
+          "jockey": "武豊",
+          "jockeyId": "00666",
+          "odds": 2.3
+        },
+        {
+          "id": 101040505,
+          "raceId": 1010405,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "サーギュスターヴ",
+          "netKeibaHorseId": "2024106823",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 51.4
+        },
+        {
+          "id": 101040506,
+          "raceId": 1010405,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "ボンジュールパリ",
+          "netKeibaHorseId": "2024106074",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 12.7
+        },
+        {
+          "id": 101040507,
+          "raceId": 1010405,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "ロゼプレミア",
+          "netKeibaHorseId": "2024103201",
+          "jockey": "鮫島駿",
+          "jockeyId": "01157",
+          "odds": 12.1
+        },
+        {
+          "id": 101040508,
+          "raceId": 1010405,
+          "frameNumber": 7,
+          "horseNumber": 8,
+          "horse": "チャームジュネーヴ",
+          "netKeibaHorseId": "2024106864",
+          "jockey": "原田和",
+          "jockeyId": "01143",
+          "odds": 62.2
+        },
+        {
+          "id": 101040509,
+          "raceId": 1010405,
+          "frameNumber": 8,
+          "horseNumber": 9,
+          "horse": "デルマハッコウダ",
+          "netKeibaHorseId": "2024106075",
+          "jockey": "落合玄",
+          "jockeyId": "05578",
+          "odds": 42.8
+        },
+        {
+          "id": 101040510,
+          "raceId": 1010405,
+          "frameNumber": 8,
+          "horseNumber": 10,
+          "horse": "グラブザクラウン",
+          "netKeibaHorseId": "2024104957",
+          "jockey": "横山典",
+          "jockeyId": "00660",
+          "odds": 15.4
+        }
+      ]
     },
     {
       "id": 1010406,
@@ -52449,9 +56437,131 @@
       "surface": "ダ",
       "distance": 1700,
       "netKeibaRaceId": "202601010406",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040601,
+          "raceId": 1010406,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ステイアンビシャス",
+          "netKeibaHorseId": "2022101255",
+          "jockey": "佐々木",
+          "jockeyId": "01197",
+          "odds": 28.6
+        },
+        {
+          "id": 101040602,
+          "raceId": 1010406,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "アスクガンバーレ",
+          "netKeibaHorseId": "2022102300",
+          "jockey": "岩田康",
+          "jockeyId": "05203",
+          "odds": 7.4
+        },
+        {
+          "id": 101040603,
+          "raceId": 1010406,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ロードアマルフィ",
+          "netKeibaHorseId": "2023105786",
+          "jockey": "石川倭",
+          "jockeyId": "05534",
+          "odds": 5.1
+        },
+        {
+          "id": 101040604,
+          "raceId": 1010406,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "マテンロウカナロア",
+          "netKeibaHorseId": "2022101445",
+          "jockey": "横山和",
+          "jockeyId": "01140",
+          "odds": 8.6
+        },
+        {
+          "id": 101040605,
+          "raceId": 1010406,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "ココデイック",
+          "netKeibaHorseId": "2022100912",
+          "jockey": "西塚",
+          "jockeyId": "01200",
+          "odds": 9.3
+        },
+        {
+          "id": 101040606,
+          "raceId": 1010406,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "グランセレスト",
+          "netKeibaHorseId": "2023100953",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 5.2
+        },
+        {
+          "id": 101040607,
+          "raceId": 1010406,
+          "frameNumber": 6,
+          "horseNumber": 7,
+          "horse": "ステラデルークス",
+          "netKeibaHorseId": "2023102263",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 12.8
+        },
+        {
+          "id": 101040608,
+          "raceId": 1010406,
+          "frameNumber": 7,
+          "horseNumber": 8,
+          "horse": "タイセイジェイド",
+          "netKeibaHorseId": "2023100612",
+          "jockey": "西村淳",
+          "jockeyId": "01171",
+          "odds": 16.2
+        },
+        {
+          "id": 101040609,
+          "raceId": 1010406,
+          "frameNumber": 7,
+          "horseNumber": 9,
+          "horse": "ゼルダ",
+          "netKeibaHorseId": "2023103232",
+          "jockey": "和田陽",
+          "jockeyId": "01223",
+          "odds": 11.6
+        },
+        {
+          "id": 101040610,
+          "raceId": 1010406,
+          "frameNumber": 8,
+          "horseNumber": 10,
+          "horse": "セイントホース",
+          "netKeibaHorseId": "2023103176",
+          "jockey": "河原田",
+          "jockeyId": "01204",
+          "odds": 5.7
+        },
+        {
+          "id": 101040611,
+          "raceId": 1010406,
+          "frameNumber": 8,
+          "horseNumber": 11,
+          "horse": "カフジクロミエ",
+          "netKeibaHorseId": "2023110034",
+          "jockey": "古川吉",
+          "jockeyId": "01015",
+          "odds": 13.3
+        }
+      ]
     },
     {
       "id": 1010407,
@@ -52463,9 +56573,142 @@
       "surface": "芝",
       "distance": 2000,
       "netKeibaRaceId": "202601010407",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040701,
+          "raceId": 1010407,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "アールグレイ",
+          "netKeibaHorseId": "2023105003",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 2.5
+        },
+        {
+          "id": 101040702,
+          "raceId": 1010407,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "フクチャンブラック",
+          "netKeibaHorseId": "2023103196",
+          "jockey": "松本",
+          "jockeyId": "01191",
+          "odds": 18
+        },
+        {
+          "id": 101040703,
+          "raceId": 1010407,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "アイアムコロンブス",
+          "netKeibaHorseId": "2023103601",
+          "jockey": "石川倭",
+          "jockeyId": "05534",
+          "odds": 7
+        },
+        {
+          "id": 101040704,
+          "raceId": 1010407,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ウインベルチェーロ",
+          "netKeibaHorseId": "2023105879",
+          "jockey": "長浜",
+          "jockeyId": "01214",
+          "odds": 15.3
+        },
+        {
+          "id": 101040705,
+          "raceId": 1010407,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "ゴールデンボブ",
+          "netKeibaHorseId": "2023105044",
+          "jockey": "舟山",
+          "jockeyId": "01221",
+          "odds": 16.8
+        },
+        {
+          "id": 101040706,
+          "raceId": 1010407,
+          "frameNumber": 5,
+          "horseNumber": 6,
+          "horse": "デルマアサマ",
+          "netKeibaHorseId": "2023103863",
+          "jockey": "河原田",
+          "jockeyId": "01204",
+          "odds": 59.7
+        },
+        {
+          "id": 101040707,
+          "raceId": 1010407,
+          "frameNumber": 6,
+          "horseNumber": 7,
+          "horse": "ワダツミ",
+          "netKeibaHorseId": "2023102669",
+          "jockey": "小林美",
+          "jockeyId": "01206",
+          "odds": 11
+        },
+        {
+          "id": 101040708,
+          "raceId": 1010407,
+          "frameNumber": 6,
+          "horseNumber": 8,
+          "horse": "スリールーディカ",
+          "netKeibaHorseId": "2023106211",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 4.7
+        },
+        {
+          "id": 101040709,
+          "raceId": 1010407,
+          "frameNumber": 7,
+          "horseNumber": 9,
+          "horse": "メイショウローゼ",
+          "netKeibaHorseId": "2023101938",
+          "jockey": "池添",
+          "jockeyId": "01032",
+          "odds": 10.2
+        },
+        {
+          "id": 101040710,
+          "raceId": 1010407,
+          "frameNumber": 7,
+          "horseNumber": 10,
+          "horse": "フォーティンブラス",
+          "netKeibaHorseId": "2023103776",
+          "jockey": "小沢",
+          "jockeyId": "01185",
+          "odds": 21.3
+        },
+        {
+          "id": 101040711,
+          "raceId": 1010407,
+          "frameNumber": 8,
+          "horseNumber": 11,
+          "horse": "デイズインザサン",
+          "netKeibaHorseId": "2023101812",
+          "jockey": "佐々木",
+          "jockeyId": "01197",
+          "odds": 22.5
+        },
+        {
+          "id": 101040712,
+          "raceId": 1010407,
+          "frameNumber": 8,
+          "horseNumber": 12,
+          "horse": "ヤクジョ",
+          "netKeibaHorseId": "2023102802",
+          "jockey": "和田陽",
+          "jockeyId": "01223",
+          "odds": 31.4
+        }
+      ]
     },
     {
       "id": 1010408,
@@ -52477,9 +56720,164 @@
       "surface": "芝",
       "distance": 1200,
       "netKeibaRaceId": "202601010408",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040801,
+          "raceId": 1010408,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "エコロハート",
+          "netKeibaHorseId": "2022105212",
+          "jockey": "鮫島駿",
+          "jockeyId": "01157",
+          "odds": 5.3
+        },
+        {
+          "id": 101040802,
+          "raceId": 1010408,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "サトノワーグナー",
+          "netKeibaHorseId": "2023100925",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 5
+        },
+        {
+          "id": 101040803,
+          "raceId": 1010408,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "ブライトアゲイン",
+          "netKeibaHorseId": "2021110014",
+          "jockey": "松本",
+          "jockeyId": "01191",
+          "odds": 11
+        },
+        {
+          "id": 101040804,
+          "raceId": 1010408,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "グレートスティック",
+          "netKeibaHorseId": "2023102972",
+          "jockey": "石川倭",
+          "jockeyId": "05534",
+          "odds": 41.5
+        },
+        {
+          "id": 101040805,
+          "raceId": 1010408,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "ザカリナン",
+          "netKeibaHorseId": "2022101103",
+          "jockey": "斎藤",
+          "jockeyId": "01178",
+          "odds": 8.5
+        },
+        {
+          "id": 101040806,
+          "raceId": 1010408,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ロードクラシコ",
+          "netKeibaHorseId": "2023105797",
+          "jockey": "佐々木",
+          "jockeyId": "01197",
+          "odds": 7.5
+        },
+        {
+          "id": 101040807,
+          "raceId": 1010408,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "ブライアーヒル",
+          "netKeibaHorseId": "2022106016",
+          "jockey": "横山琉",
+          "jockeyId": "01192",
+          "odds": 19.3
+        },
+        {
+          "id": 101040808,
+          "raceId": 1010408,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "アースコーリング",
+          "netKeibaHorseId": "2023105169",
+          "jockey": "落合玄",
+          "jockeyId": "05578",
+          "odds": 53
+        },
+        {
+          "id": 101040809,
+          "raceId": 1010408,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "アートフォーム",
+          "netKeibaHorseId": "2021102433",
+          "jockey": "和田陽",
+          "jockeyId": "01223",
+          "odds": 27.2
+        },
+        {
+          "id": 101040810,
+          "raceId": 1010408,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "シャインズオンユー",
+          "netKeibaHorseId": "2021103535",
+          "jockey": "岩田康",
+          "jockeyId": "05203",
+          "odds": 15.7
+        },
+        {
+          "id": 101040811,
+          "raceId": 1010408,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "ダブルチャレンジ",
+          "netKeibaHorseId": "2023104875",
+          "jockey": "吉田隼",
+          "jockeyId": "01095",
+          "odds": 14.1
+        },
+        {
+          "id": 101040812,
+          "raceId": 1010408,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "レッドカメリア",
+          "netKeibaHorseId": "2020100084",
+          "jockey": "古川吉",
+          "jockeyId": "01015",
+          "odds": 41
+        },
+        {
+          "id": 101040813,
+          "raceId": 1010408,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "ディーズメンフィス",
+          "netKeibaHorseId": "2023102812",
+          "jockey": "横山典",
+          "jockeyId": "00660",
+          "odds": 12.1
+        },
+        {
+          "id": 101040814,
+          "raceId": 1010408,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "ジーティーエスピ",
+          "netKeibaHorseId": "2022103991",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 6.4
+        }
+      ]
     },
     {
       "id": 1010409,
@@ -52491,9 +56889,142 @@
       "surface": "ダ",
       "distance": 1000,
       "netKeibaRaceId": "202601010409",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101040901,
+          "raceId": 1010409,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "ヒットミー",
+          "netKeibaHorseId": "2022104394",
+          "jockey": "長浜",
+          "jockeyId": "01214",
+          "odds": 5.4
+        },
+        {
+          "id": 101040902,
+          "raceId": 1010409,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "デアプリームス",
+          "netKeibaHorseId": "2023107523",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 6.4
+        },
+        {
+          "id": 101040903,
+          "raceId": 1010409,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "エコロレバン",
+          "netKeibaHorseId": "2023103625",
+          "jockey": "和田陽",
+          "jockeyId": "01223",
+          "odds": 8
+        },
+        {
+          "id": 101040904,
+          "raceId": 1010409,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "ベニシア",
+          "netKeibaHorseId": "2021100662",
+          "jockey": "原田和",
+          "jockeyId": "01143",
+          "odds": 68.7
+        },
+        {
+          "id": 101040905,
+          "raceId": 1010409,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "パールフロント",
+          "netKeibaHorseId": "2022102427",
+          "jockey": "武豊",
+          "jockeyId": "00666",
+          "odds": 3.6
+        },
+        {
+          "id": 101040906,
+          "raceId": 1010409,
+          "frameNumber": 5,
+          "horseNumber": 6,
+          "horse": "ストロングボンド",
+          "netKeibaHorseId": "2023105661",
+          "jockey": "石川倭",
+          "jockeyId": "05534",
+          "odds": 75.7
+        },
+        {
+          "id": 101040907,
+          "raceId": 1010409,
+          "frameNumber": 6,
+          "horseNumber": 7,
+          "horse": "ララアヴリル",
+          "netKeibaHorseId": "2022110087",
+          "jockey": "小林美",
+          "jockeyId": "01206",
+          "odds": 9.1
+        },
+        {
+          "id": 101040908,
+          "raceId": 1010409,
+          "frameNumber": 6,
+          "horseNumber": 8,
+          "horse": "アイアムイチバン",
+          "netKeibaHorseId": "2022103183",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 8.8
+        },
+        {
+          "id": 101040909,
+          "raceId": 1010409,
+          "frameNumber": 7,
+          "horseNumber": 9,
+          "horse": "サベージラヴ",
+          "netKeibaHorseId": "2021103748",
+          "jockey": "河原田",
+          "jockeyId": "01204",
+          "odds": 19
+        },
+        {
+          "id": 101040910,
+          "raceId": 1010409,
+          "frameNumber": 7,
+          "horseNumber": 10,
+          "horse": "クインズシフォン",
+          "netKeibaHorseId": "2022103857",
+          "jockey": "小沢",
+          "jockeyId": "01185",
+          "odds": 28.7
+        },
+        {
+          "id": 101040911,
+          "raceId": 1010409,
+          "frameNumber": 8,
+          "horseNumber": 11,
+          "horse": "ジーベック",
+          "netKeibaHorseId": "2021103242",
+          "jockey": "古川奈",
+          "jockeyId": "01190",
+          "odds": 9.1
+        },
+        {
+          "id": 101040912,
+          "raceId": 1010409,
+          "frameNumber": 8,
+          "horseNumber": 12,
+          "horse": "ビーマックス",
+          "netKeibaHorseId": "2022100729",
+          "jockey": "浜中",
+          "jockeyId": "01115",
+          "odds": 15.4
+        }
+      ]
     },
     {
       "id": 1010410,
@@ -52505,9 +57036,120 @@
       "surface": "ダ",
       "distance": 1700,
       "netKeibaRaceId": "202601010410",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101041001,
+          "raceId": 1010410,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "サムシャイン",
+          "netKeibaHorseId": "2022105823",
+          "jockey": "横山和",
+          "jockeyId": "01140",
+          "odds": 5.2
+        },
+        {
+          "id": 101041002,
+          "raceId": 1010410,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "キュールエフウジン",
+          "netKeibaHorseId": "2019102983",
+          "jockey": "横山琉",
+          "jockeyId": "01192",
+          "odds": 102
+        },
+        {
+          "id": 101041003,
+          "raceId": 1010410,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "タイセイミッション",
+          "netKeibaHorseId": "2021101045",
+          "jockey": "黛",
+          "jockeyId": "01109",
+          "odds": 46.7
+        },
+        {
+          "id": 101041004,
+          "raceId": 1010410,
+          "frameNumber": 4,
+          "horseNumber": 4,
+          "horse": "スマートケープ",
+          "netKeibaHorseId": "2020102187",
+          "jockey": "西塚",
+          "jockeyId": "01200",
+          "odds": 36.1
+        },
+        {
+          "id": 101041005,
+          "raceId": 1010410,
+          "frameNumber": 5,
+          "horseNumber": 5,
+          "horse": "シーズザスローン",
+          "netKeibaHorseId": "2023104414",
+          "jockey": "武豊",
+          "jockeyId": "00666",
+          "odds": 6.7
+        },
+        {
+          "id": 101041006,
+          "raceId": 1010410,
+          "frameNumber": 6,
+          "horseNumber": 6,
+          "horse": "チャーリー",
+          "netKeibaHorseId": "2023105351",
+          "jockey": "岩田康",
+          "jockeyId": "05203",
+          "odds": 3.6
+        },
+        {
+          "id": 101041007,
+          "raceId": 1010410,
+          "frameNumber": 7,
+          "horseNumber": 7,
+          "horse": "スマートカイロス",
+          "netKeibaHorseId": "2022102735",
+          "jockey": "古川奈",
+          "jockeyId": "01190",
+          "odds": 21.9
+        },
+        {
+          "id": 101041008,
+          "raceId": 1010410,
+          "frameNumber": 7,
+          "horseNumber": 8,
+          "horse": "ヘニーガイスト",
+          "netKeibaHorseId": "2022104865",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 2.1
+        },
+        {
+          "id": 101041009,
+          "raceId": 1010410,
+          "frameNumber": 8,
+          "horseNumber": 9,
+          "horse": "アイウィル",
+          "netKeibaHorseId": "2021103502",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 25.3
+        },
+        {
+          "id": 101041010,
+          "raceId": 1010410,
+          "frameNumber": 8,
+          "horseNumber": 10,
+          "horse": "フルールドール",
+          "netKeibaHorseId": "2023103822",
+          "jockey": "北村友",
+          "jockeyId": "01102",
+          "odds": 34.8
+        }
+      ]
     },
     {
       "id": 1010411,
@@ -52531,7 +57173,7 @@
           "netKeibaHorseId": "2021105581",
           "jockey": "吉田隼",
           "jockeyId": "01095",
-          "odds": 28.3
+          "odds": 39.1
         },
         {
           "id": 101041102,
@@ -52542,7 +57184,7 @@
           "netKeibaHorseId": "2022102296",
           "jockey": "横山武",
           "jockeyId": "01170",
-          "odds": 5.6
+          "odds": 12.9
         },
         {
           "id": 101041103,
@@ -52553,7 +57195,7 @@
           "netKeibaHorseId": "2021101485",
           "jockey": "浜中",
           "jockeyId": "01115",
-          "odds": 26.7
+          "odds": 18.7
         },
         {
           "id": 101041104,
@@ -52564,7 +57206,7 @@
           "netKeibaHorseId": "2021103519",
           "jockey": "鮫島駿",
           "jockeyId": "01157",
-          "odds": 27.2
+          "odds": 33.9
         },
         {
           "id": 101041105,
@@ -52575,7 +57217,7 @@
           "netKeibaHorseId": "2021105738",
           "jockey": "岩田康",
           "jockeyId": "05203",
-          "odds": 13
+          "odds": 14.1
         },
         {
           "id": 101041106,
@@ -52586,7 +57228,7 @@
           "netKeibaHorseId": "2022101250",
           "jockey": "富田",
           "jockeyId": "01168",
-          "odds": 57.2
+          "odds": 90.1
         },
         {
           "id": 101041107,
@@ -52597,7 +57239,7 @@
           "netKeibaHorseId": "2020101607",
           "jockey": "北村友",
           "jockeyId": "01102",
-          "odds": 6.4
+          "odds": 3.5
         },
         {
           "id": 101041108,
@@ -52608,7 +57250,7 @@
           "netKeibaHorseId": "2021105442",
           "jockey": "舟山",
           "jockeyId": "01221",
-          "odds": 47.4
+          "odds": 73.7
         },
         {
           "id": 101041109,
@@ -52619,7 +57261,7 @@
           "netKeibaHorseId": "2022103205",
           "jockey": "武豊",
           "jockeyId": "00666",
-          "odds": 3.2
+          "odds": 3
         },
         {
           "id": 101041110,
@@ -52630,7 +57272,7 @@
           "netKeibaHorseId": "2023107265",
           "jockey": "西村淳",
           "jockeyId": "01171",
-          "odds": 10.3
+          "odds": 11.7
         },
         {
           "id": 101041111,
@@ -52641,7 +57283,7 @@
           "netKeibaHorseId": "2021106823",
           "jockey": "丹内",
           "jockeyId": "01091",
-          "odds": 9.6
+          "odds": 8.4
         },
         {
           "id": 101041112,
@@ -52652,7 +57294,7 @@
           "netKeibaHorseId": "2021107179",
           "jockey": "佐々木",
           "jockeyId": "01197",
-          "odds": 9.3
+          "odds": 14.8
         },
         {
           "id": 101041113,
@@ -52663,7 +57305,7 @@
           "netKeibaHorseId": "2022105157",
           "jockey": "西塚",
           "jockeyId": "01200",
-          "odds": 27.6
+          "odds": 30.3
         },
         {
           "id": 101041114,
@@ -52674,7 +57316,7 @@
           "netKeibaHorseId": "2022104617",
           "jockey": "横山典",
           "jockeyId": "00660",
-          "odds": 24
+          "odds": 17.4
         }
       ]
     },
@@ -52688,9 +57330,164 @@
       "surface": "芝",
       "distance": 1200,
       "netKeibaRaceId": "202601010412",
-      "entriesPending": true,
-      "grade": null,
-      "horses": []
+      "entriesPending": false,
+      "grade": "G3",
+      "horses": [
+        {
+          "id": 101041201,
+          "raceId": 1010412,
+          "frameNumber": 1,
+          "horseNumber": 1,
+          "horse": "トウカイエルデ",
+          "netKeibaHorseId": "2021100365",
+          "jockey": "岩田康",
+          "jockeyId": "05203",
+          "odds": 18.6
+        },
+        {
+          "id": 101041202,
+          "raceId": 1010412,
+          "frameNumber": 2,
+          "horseNumber": 2,
+          "horse": "デンプシー",
+          "netKeibaHorseId": "2023106190",
+          "jockey": "舟山",
+          "jockeyId": "01221",
+          "odds": 11.1
+        },
+        {
+          "id": 101041203,
+          "raceId": 1010412,
+          "frameNumber": 3,
+          "horseNumber": 3,
+          "horse": "サンドロナイト",
+          "netKeibaHorseId": "2021110119",
+          "jockey": "北村友",
+          "jockeyId": "01102",
+          "odds": 10
+        },
+        {
+          "id": 101041204,
+          "raceId": 1010412,
+          "frameNumber": 3,
+          "horseNumber": 4,
+          "horse": "ホウオウヘッセン",
+          "netKeibaHorseId": "2023102440",
+          "jockey": "横山武",
+          "jockeyId": "01170",
+          "odds": 25.6
+        },
+        {
+          "id": 101041205,
+          "raceId": 1010412,
+          "frameNumber": 4,
+          "horseNumber": 5,
+          "horse": "マテンロウサン",
+          "netKeibaHorseId": "2022110093",
+          "jockey": "横山典",
+          "jockeyId": "00660",
+          "odds": 7.6
+        },
+        {
+          "id": 101041206,
+          "raceId": 1010412,
+          "frameNumber": 4,
+          "horseNumber": 6,
+          "horse": "ニホンピロトッティ",
+          "netKeibaHorseId": "2021104210",
+          "jockey": "浜中",
+          "jockeyId": "01115",
+          "odds": 33.4
+        },
+        {
+          "id": 101041207,
+          "raceId": 1010412,
+          "frameNumber": 5,
+          "horseNumber": 7,
+          "horse": "ライツユーアップ",
+          "netKeibaHorseId": "2022103527",
+          "jockey": "丹内",
+          "jockeyId": "01091",
+          "odds": 39
+        },
+        {
+          "id": 101041208,
+          "raceId": 1010412,
+          "frameNumber": 5,
+          "horseNumber": 8,
+          "horse": "ベビーズブレス",
+          "netKeibaHorseId": "2022106351",
+          "jockey": "西村淳",
+          "jockeyId": "01171",
+          "odds": 21.4
+        },
+        {
+          "id": 101041209,
+          "raceId": 1010412,
+          "frameNumber": 6,
+          "horseNumber": 9,
+          "horse": "ピースフルナイト",
+          "netKeibaHorseId": "2020106821",
+          "jockey": "斎藤",
+          "jockeyId": "01178",
+          "odds": 59.3
+        },
+        {
+          "id": 101041210,
+          "raceId": 1010412,
+          "frameNumber": 6,
+          "horseNumber": 10,
+          "horse": "ベルビースタローン",
+          "netKeibaHorseId": "2022106389",
+          "jockey": "小林美",
+          "jockeyId": "01206",
+          "odds": 12.8
+        },
+        {
+          "id": 101041211,
+          "raceId": 1010412,
+          "frameNumber": 7,
+          "horseNumber": 11,
+          "horse": "バシレウスシチー",
+          "netKeibaHorseId": "2019101643",
+          "jockey": "小沢",
+          "jockeyId": "01185",
+          "odds": 37.7
+        },
+        {
+          "id": 101041212,
+          "raceId": 1010412,
+          "frameNumber": 7,
+          "horseNumber": 12,
+          "horse": "サンポーニャ",
+          "netKeibaHorseId": "2020102050",
+          "jockey": "佐々木",
+          "jockeyId": "01197",
+          "odds": 55.7
+        },
+        {
+          "id": 101041213,
+          "raceId": 1010412,
+          "frameNumber": 8,
+          "horseNumber": 13,
+          "horse": "スイミーユニバンス",
+          "netKeibaHorseId": "2020103632",
+          "jockey": "鮫島駿",
+          "jockeyId": "01157",
+          "odds": 23.2
+        },
+        {
+          "id": 101041214,
+          "raceId": 1010412,
+          "frameNumber": 8,
+          "horseNumber": 14,
+          "horse": "ミキノバカラ",
+          "netKeibaHorseId": "2022102594",
+          "jockey": "西塚",
+          "jockeyId": "01200",
+          "odds": 1.8
+        }
+      ]
     }
   ]
 }
