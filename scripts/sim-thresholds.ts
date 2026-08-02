@@ -21,9 +21,9 @@ import type { RacesCache } from "@/scripts/fetch-races";
 import type { ResultsCache } from "@/scripts/fetch-results";
 import type { HorseScores, ModelVersion } from "@/lib/scorer";
 
-const EV_MIN = 0.10; // 据え置き
-const EDGE_MINS = [0.02, 0.05, 0.08, 0.10];
-const ODDS_MAXS = [50, 30, 20, 15];
+export const EV_MIN = 0.10; // 据え置き
+export const EDGE_MINS = [0.02, 0.05, 0.08, 0.10];
+export const ODDS_MAXS = [50, 30, 20, 15];
 const DEFAULT = 65;
 
 // この分析は route.ts の byVersion.v1 に対応させる（v1・214R）
@@ -42,10 +42,10 @@ function loadJSON<T>(filename: string): T | null {
 }
 
 // 各レースの候補馬（EV_MIN のみ通過前の全馬情報を保持）
-type Candidate = { ev: number; edge: number; odds: number; hit: boolean };
-type RaceCand = { modelVersion: ModelVersion; horses: Candidate[] };
+export type Candidate = { ev: number; edge: number; odds: number; hit: boolean; horseNumber: number };
+export type RaceCand = { modelVersion: ModelVersion; netKeibaRaceId: string; horses: Candidate[] };
 
-function buildRaces(): RaceCand[] {
+export function buildRaces(): RaceCand[] {
   const racesCache = loadJSON<RacesCache>("races-cache.json");
   const scoresCache = loadJSON<{ scores?: Record<string, HorseScores> }>("scores-cache.json");
   const resultsCache = loadJSON<ResultsCache>("results-cache.json");
@@ -97,7 +97,7 @@ function buildRaces(): RaceCand[] {
       const isHit =
         h.name === winnerName ||
         (winner?.horseNumber != null && hEntry?.horseNumber === winner.horseNumber);
-      return { ev: h.ev, edge: h.edge, odds: h.odds, hit: !!isHit };
+      return { ev: h.ev, edge: h.edge, odds: h.odds, hit: !!isHit, horseNumber: hEntry!.horseNumber };
     });
 
     const raceVersion: ModelVersion = horsesWithOdds.some(
@@ -106,7 +106,7 @@ function buildRaces(): RaceCand[] {
       ? "v2"
       : "v1";
 
-    races.push({ modelVersion: raceVersion, horses });
+    races.push({ modelVersion: raceVersion, netKeibaRaceId: race.netKeibaRaceId, horses });
   }
 
   // ── Pass 2: results-cache のみ（過去週・デフォルトスコア）→ v1 ──
@@ -137,10 +137,10 @@ function buildRaces(): RaceCand[] {
       const isHit =
         h.name === winnerName ||
         (winner?.horseNumber != null && hFin?.horseNumber === winner.horseNumber);
-      return { ev: h.ev, edge: h.edge, odds: h.odds, hit: !!isHit };
+      return { ev: h.ev, edge: h.edge, odds: h.odds, hit: !!isHit, horseNumber: hFin!.horseNumber };
     });
 
-    races.push({ modelVersion: "v1", horses });
+    races.push({ modelVersion: "v1", netKeibaRaceId: resultEntry.netKeibaRaceId, horses });
   }
 
   return races;
@@ -209,4 +209,6 @@ function main() {
   }
 }
 
-main();
+if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
+  main();
+}
