@@ -13,12 +13,31 @@ export interface JockeyStats {
 }
 
 /**
+ * 騎手の年度別成績テーブルの1行（集約前の生データ）。
+ * label は "累計"（キャリア通算）または西暦4桁。
+ * 生のまま保存しておくことで、cutoff ルールや MIN_RIDES を変えても
+ * 再スクレイピングなしにオフラインで再導出できる。
+ */
+export interface JockeyYearRow {
+  label: string;
+  wins: number;
+  seconds: number;
+  thirds: number;
+  others: number;
+}
+
+/** 年度成績の騎乗数がこれ未満の場合、さらに過去の年度と合算してサンプルを確保する */
+export const MIN_RIDES_FOR_YEAR = 30;
+
+/**
  * モデルバージョン。算出コードの実体が変わった境界を表す。
  *   v1: jockeyScore・trainingScore がデフォルト値(65)固定だった旧モデル（2feature相当、〜2026-07-05）
  *   v2: jockeyScore・trainingScore を実データ化した現行モデル（4feature、be7add6 以降）
  *       ※ trainingScore は後に除去、jockeyScore は後にクランプ解除（是正案①②）。
+ *   v3: jockeyScore を「年度 < レース年」の行のみから導出したリーク無しモデル
+ *       （バックテスト専用。本番ライブ経路は v2 のまま）。
  */
-export type ModelVersion = "v1" | "v2";
+export type ModelVersion = "v1" | "v2" | "v3";
 
 /** 現行 fetch-scores が付与するモデルバージョン */
 export const CURRENT_MODEL_VERSION: ModelVersion = "v2";
@@ -105,4 +124,43 @@ export function calcJockeyScore(stats: JockeyStats): number | null {
   const placeRate = stats.places / stats.rides;
   const raw = winRate * 400 + placeRate * 150;
   return Math.round(raw);
+}
+
+/**
+ * 年度別の生成績から、レース年 Y 時点で「未来を見ていない」JockeyStats を導出する（純関数）。
+ *
+ * 遡及バックフィルでは、当年（進行中）の行にはレース後の騎乗結果が混入するため使えない。
+ * 「年度 < Y の行のみ」を使い、サンプル不足時のフォールバックは必ず過去方向へ倒す。
+ *   1. 既定              → 年度 Y−1
+ *   2. rides < MIN       → Y−1 + Y−2
+ *   3. なお rides < MIN  → 年度 < Y の全行を合算
+ *   4. 年度 < Y の行が皆無（当年デビュー） → null（欠損。デフォルト値では埋めない）
+ *
+ * 「累計」行はキャリア通算＝当年を含むため使用しない。
+ */
+export function resolveJockeyStats(
+  rows: JockeyYearRow[],
+  raceYear: number
+): JockeyStats | null {
+  const past = rows
+    .filter((r) => /^\d{4}$/.test(r.label) && Number(r.label) < raceYear)
+    .sort((a, b) => Number(b.label) - Number(a.label)); // 新しい年度から降順
+
+  if (past.length === 0) return null;
+
+  const sum = (n: number): JockeyStats => {
+    const taken = past.slice(0, n);
+    const wins = taken.reduce((s, r) => s + r.wins, 0);
+    const seconds = taken.reduce((s, r) => s + r.seconds, 0);
+    const rides = taken.reduce((s, r) => s + r.wins + r.seconds + r.thirds + r.others, 0);
+    return { wins, places: wins + seconds, rides };
+  };
+
+  for (const n of [1, 2, past.length]) {
+    const stats = sum(n);
+    if (stats.rides >= MIN_RIDES_FOR_YEAR) return stats;
+  }
+
+  const all = sum(past.length);
+  return all.rides > 0 ? all : null;
 }

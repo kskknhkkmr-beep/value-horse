@@ -25,8 +25,12 @@ import { join } from "node:path";
 import { buildRaces, EV_MIN, type RaceCand, type Candidate } from "./sim-thresholds";
 import type { RacesCache, CachedRace } from "./fetch-races";
 import type { PayoutsCache, PayoutEntry } from "./fetch-payouts";
+import type { ModelVersion } from "@/lib/scorer";
 
-const TARGET_VERSION = "v2" as const;
+// リーク除去版との A/B 用に env で差し替え可能。
+//   例: SCORES_FILE=scores-cache-v3.json TARGET_VERSION=v3 npx tsx scripts/sim-thresholds-segments.ts
+const SCORES_FILE = process.env.SCORES_FILE ?? "scores-cache.json";
+const TARGET_VERSION = (process.env.TARGET_VERSION ?? "v2") as ModelVersion;
 const EDGE_MIN = 0.02;
 const ODDS_MAX = 50;
 const MIN_N = 20; // AUC=レース数, ROI=的中件数 がこれ未満なら参考値
@@ -74,7 +78,7 @@ type MatchedRace = {
 };
 
 function buildMatchedRaces(): MatchedRace[] {
-  const all = buildRaces().filter((r) => r.modelVersion === TARGET_VERSION);
+  const all = buildRaces(SCORES_FILE).filter((r) => r.modelVersion === TARGET_VERSION);
   const payouts = loadJSON<PayoutsCache>("payouts-cache.json").payouts;
   const payoutById = new Map(payouts.map((p) => [p.netKeibaRaceId, p]));
   const racesMeta = loadJSON<RacesCache>("races-cache.json").races;

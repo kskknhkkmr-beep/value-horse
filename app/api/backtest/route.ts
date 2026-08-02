@@ -118,6 +118,9 @@ function computeVariant(records: BacktestRaceRecord[], cap: number): OddsMaxVari
     byVersion: {
       v1: computeStats(adj.filter((r) => r.modelVersion === "v1")),
       v2: computeStats(adj.filter((r) => r.modelVersion === "v2")),
+      // v3（リーク対策済み）はバックテスト専用の scores-cache-v3.json 側にのみ存在し、
+      // 本番が読む scores-cache.json には現れない。型を満たすため常に 0 件で集計される。
+      v3: computeStats(adj.filter((r) => r.modelVersion === "v3")),
     },
   };
 }

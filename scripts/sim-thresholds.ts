@@ -53,9 +53,13 @@ export type Candidate = {
 };
 export type RaceCand = { modelVersion: ModelVersion; netKeibaRaceId: string; horses: Candidate[] };
 
-export function buildRaces(): RaceCand[] {
+/**
+ * @param scoresFile 読み込むスコアキャッシュ。既定は本番の scores-cache.json。
+ *   リーク除去版の A/B を取る場合は "scores-cache-v3.json" を渡す。
+ */
+export function buildRaces(scoresFile = "scores-cache.json"): RaceCand[] {
   const racesCache = loadJSON<RacesCache>("races-cache.json");
-  const scoresCache = loadJSON<{ scores?: Record<string, HorseScores> }>("scores-cache.json");
+  const scoresCache = loadJSON<{ scores?: Record<string, HorseScores> }>(scoresFile);
   const resultsCache = loadJSON<ResultsCache>("results-cache.json");
   if (!racesCache || !resultsCache) throw new Error("cache 不在");
 
@@ -117,10 +121,12 @@ export function buildRaces(): RaceCand[] {
     });
 
     const raceVersion: ModelVersion = horsesWithOdds.some(
-      (h) => scoresById[h.id]?.modelVersion === "v2"
+      (h) => scoresById[h.id]?.modelVersion === "v3"
     )
-      ? "v2"
-      : "v1";
+      ? "v3"
+      : horsesWithOdds.some((h) => scoresById[h.id]?.modelVersion === "v2")
+        ? "v2"
+        : "v1";
 
     races.push({ modelVersion: raceVersion, netKeibaRaceId: race.netKeibaRaceId, horses });
   }

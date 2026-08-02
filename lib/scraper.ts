@@ -1,4 +1,5 @@
-import type { RaceResult, JockeyStats } from "./scorer";
+import type { RaceResult, JockeyStats, JockeyYearRow } from "./scorer";
+import { MIN_RIDES_FOR_YEAR } from "./scorer";
 
 // ── 会場コード → 会場名 ───────────────────────────────────────────────────────
 export const VENUE_MAP: Record<string, string> = {
@@ -113,9 +114,6 @@ export async function fetchHorseResults(horseId: string): Promise<RaceResult[]> 
 
 // ─── 騎手成績（年度別） → JockeyStats ────────────────────────────────────────
 
-// 年度成績の騎乗数がこれ未満の場合、前年度分と合算してサンプルを確保する
-const MIN_RIDES_FOR_YEAR = 30;
-
 /**
  * 騎手の年度別成績（今年 or 直近年度、サンプル不足時は前年度と合算）から
  * 勝利数・連対数・騎乗数を集計して返す。
@@ -134,6 +132,24 @@ export async function fetchJockeyStats(jockeyId: string): Promise<JockeyStats | 
     return parseJockeyYearlyStats(html);
   } catch (e) {
     console.warn(`  [scraper] fetchJockeyStats failed (${jockeyId}):`, (e as Error).message);
+    return null;
+  }
+}
+
+/**
+ * 同じ年度別成績ページから、**集約せず全行をそのまま** 返す。
+ * レース年を cutoff にした導出（`resolveJockeyStats`）をオフラインで行うための生データ取得。
+ * fetchJockeyStats（本番ライブ経路）とは用途が異なるため別関数として並置する。
+ */
+export async function fetchJockeyYearlyTable(jockeyId: string): Promise<JockeyYearRow[] | null> {
+  await sleep(1200);
+  const url = `https://db.netkeiba.com/jockey/result/${jockeyId}/`;
+  try {
+    const html = await fetchEuc(url);
+    const rows = parseJockeyYearRows(html);
+    return rows.length > 0 ? rows : null;
+  } catch (e) {
+    console.warn(`  [scraper] fetchJockeyYearlyTable failed (${jockeyId}):`, (e as Error).message);
     return null;
   }
 }
@@ -182,9 +198,9 @@ function parseRaceResultTable(
   return results.slice(0, 10); // 直近10走まで
 }
 
-function parseJockeyYearlyStats(html: string): JockeyStats | null {
-  type YearRow = { label: string; wins: number; seconds: number; thirds: number; others: number };
-  const rows: YearRow[] = [];
+/** 年度別成績テーブルの行を、集約せずそのまま抽出する。 */
+function parseJockeyYearRows(html: string): JockeyYearRow[] {
+  const rows: JockeyYearRow[] = [];
 
   const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
   let m: RegExpExecArray | null;
@@ -208,9 +224,14 @@ function parseJockeyYearlyStats(html: string): JockeyStats | null {
     rows.push({ label, wins: n(cells[2]), seconds: n(cells[3]), thirds: n(cells[4]), others: n(cells[5]) });
   }
 
+  return rows;
+}
+
+function parseJockeyYearlyStats(html: string): JockeyStats | null {
+  const rows = parseJockeyYearRows(html);
   if (rows.length === 0) return null;
 
-  const toStats = (r: YearRow): JockeyStats => ({
+  const toStats = (r: JockeyYearRow): JockeyStats => ({
     wins: r.wins,
     places: r.wins + r.seconds,
     rides: r.wins + r.seconds + r.thirds + r.others,

@@ -25,7 +25,13 @@ import { buildRaces, EV_MIN, EDGE_MINS, ODDS_MAXS, type RaceCand } from "./sim-t
 import type { ModelVersion } from "@/lib/scorer";
 import type { PayoutsCache, PayoutEntry } from "./fetch-payouts";
 
-const TARGET_VERSIONS: ModelVersion[] = ["v1", "v2"];
+// リーク除去版との A/B 用に、読むスコアキャッシュと対象バージョンを env で差し替えられる。
+//   例: SCORES_FILE=scores-cache-v3.json TARGET_VERSIONS=v3 npx tsx scripts/sim-thresholds-place-wide.ts
+const SCORES_FILE = process.env.SCORES_FILE ?? "scores-cache.json";
+const TARGET_VERSIONS: ModelVersion[] = (process.env.TARGET_VERSIONS?.split(",") as ModelVersion[]) ?? [
+  "v1",
+  "v2",
+];
 const MIN_HITS = 20; // これ未満は候補から除外し、参考値として扱う
 const BOOTSTRAP_ITERS = 2000;
 const BOOTSTRAP_SEED = 20260802; // 再現性のため固定
@@ -42,7 +48,7 @@ function loadPayouts(): PayoutsCache {
 type MatchedRace = { race: RaceCand; payout: PayoutEntry };
 
 function buildMatchedRaces(version: ModelVersion): MatchedRace[] {
-  const all = buildRaces().filter((r) => r.modelVersion === version);
+  const all = buildRaces(SCORES_FILE).filter((r) => r.modelVersion === version);
   const payouts = loadPayouts().payouts;
   const payoutById = new Map(payouts.map((p) => [p.netKeibaRaceId, p]));
 
