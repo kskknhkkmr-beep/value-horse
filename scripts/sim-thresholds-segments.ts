@@ -312,6 +312,21 @@ function main() {
     .filter((races) => races.length > 0)
     .map((races) => evaluateSegment(races[0].headcountBucket, races));
   printSegmentTable("④ 頭数別", hcResults);
+
+  // ── 追加: 芝 × 距離帯 クロス集計 ──
+  const turf = matched.filter((m) => m.surface === "芝");
+  const turfDistResults = distOrder
+    .map((d) => turf.filter((m) => m.distanceBucket === d))
+    .filter((races) => races.length > 0)
+    .map((races) => evaluateSegment(races[0].distanceBucket, races));
+  printSegmentTable("⑤ 芝 × 距離帯 クロス集計", turfDistResults);
+
+  // ── 芝×短距離・マイル(~1800m)を合算して検出力を上げた場合 ──
+  const turfUpTo1800 = turf.filter(
+    (m) => m.distanceBucket === "短距離(~1400)" || m.distanceBucket === "マイル(1401~1800)"
+  );
+  const turfUpTo1800Result = evaluateSegment("芝×~1800m(合算)", turfUpTo1800);
+  printSegmentTable("⑥ 芝×~1800m(短距離+マイル合算)", [turfUpTo1800Result]);
 }
 
 if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
