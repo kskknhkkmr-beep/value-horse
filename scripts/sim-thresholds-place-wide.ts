@@ -22,9 +22,10 @@ import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 import { buildRaces, EV_MIN, EDGE_MINS, ODDS_MAXS, type RaceCand } from "./sim-thresholds";
+import type { ModelVersion } from "@/lib/scorer";
 import type { PayoutsCache, PayoutEntry } from "./fetch-payouts";
 
-const TARGET_VERSION = "v1" as const;
+const TARGET_VERSIONS: ModelVersion[] = ["v1", "v2"];
 const MIN_HITS = 20; // これ未満は候補から除外し、参考値として扱う
 const BOOTSTRAP_ITERS = 2000;
 const BOOTSTRAP_SEED = 20260802; // 再現性のため固定
@@ -40,8 +41,8 @@ function loadPayouts(): PayoutsCache {
 
 type MatchedRace = { race: RaceCand; payout: PayoutEntry };
 
-function buildMatchedRaces(): MatchedRace[] {
-  const all = buildRaces().filter((r) => r.modelVersion === TARGET_VERSION);
+function buildMatchedRaces(version: ModelVersion): MatchedRace[] {
+  const all = buildRaces().filter((r) => r.modelVersion === version);
   const payouts = loadPayouts().payouts;
   const payoutById = new Map(payouts.map((p) => [p.netKeibaRaceId, p]));
 
@@ -199,10 +200,10 @@ function fmtPct(n: number): string {
   return (n >= 0 ? "+" : "") + n.toFixed(1) + "%";
 }
 
-function main() {
-  const matched = buildMatchedRaces();
-  console.log(`\n=== 券種別ROI検証(単勝/複勝/ワイド, 選定ロジック共通, version=${TARGET_VERSION}) ===`);
-  console.log(`対象: 払戻データ確定済み ${matched.length}R（payouts-cache ∩ ${TARGET_VERSION}）`);
+function runForVersion(version: ModelVersion) {
+  const matched = buildMatchedRaces(version);
+  console.log(`\n=== 券種別ROI検証(単勝/複勝/ワイド, 選定ロジック共通, version=${version}) ===`);
+  console.log(`対象: 払戻データ確定済み ${matched.length}R（payouts-cache ∩ ${version}）`);
   console.log(`ブートストラップ: レース単位リサンプル ${BOOTSTRAP_ITERS}回, 95%CI, 的中${MIN_HITS}件未満は参考値\n`);
 
   const allResults: ComboResult[] = [];
@@ -251,4 +252,12 @@ function main() {
   }
 }
 
-main();
+function main() {
+  for (const version of TARGET_VERSIONS) {
+    runForVersion(version);
+  }
+}
+
+if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
+  main();
+}
