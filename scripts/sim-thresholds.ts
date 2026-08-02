@@ -42,7 +42,15 @@ function loadJSON<T>(filename: string): T | null {
 }
 
 // 各レースの候補馬（EV_MIN のみ通過前の全馬情報を保持）
-export type Candidate = { ev: number; edge: number; odds: number; hit: boolean; horseNumber: number };
+export type Candidate = {
+  ev: number;
+  edge: number;
+  odds: number;
+  hit: boolean;
+  horseNumber: number;
+  modelProb: number;
+  marketProb: number;
+};
 export type RaceCand = { modelVersion: ModelVersion; netKeibaRaceId: string; horses: Candidate[] };
 
 export function buildRaces(): RaceCand[] {
@@ -97,7 +105,15 @@ export function buildRaces(): RaceCand[] {
       const isHit =
         h.name === winnerName ||
         (winner?.horseNumber != null && hEntry?.horseNumber === winner.horseNumber);
-      return { ev: h.ev, edge: h.edge, odds: h.odds, hit: !!isHit, horseNumber: hEntry!.horseNumber };
+      return {
+        ev: h.ev,
+        edge: h.edge,
+        odds: h.odds,
+        hit: !!isHit,
+        horseNumber: hEntry!.horseNumber,
+        modelProb: h.probability,
+        marketProb: h.marketProb,
+      };
     });
 
     const raceVersion: ModelVersion = horsesWithOdds.some(
@@ -137,7 +153,15 @@ export function buildRaces(): RaceCand[] {
       const isHit =
         h.name === winnerName ||
         (winner?.horseNumber != null && hFin?.horseNumber === winner.horseNumber);
-      return { ev: h.ev, edge: h.edge, odds: h.odds, hit: !!isHit, horseNumber: hFin!.horseNumber };
+      return {
+        ev: h.ev,
+        edge: h.edge,
+        odds: h.odds,
+        hit: !!isHit,
+        horseNumber: hFin!.horseNumber,
+        modelProb: h.probability,
+        marketProb: h.marketProb,
+      };
     });
 
     races.push({ modelVersion: "v1", netKeibaRaceId: resultEntry.netKeibaRaceId, horses });
