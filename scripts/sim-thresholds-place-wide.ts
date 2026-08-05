@@ -28,6 +28,8 @@ import type { PayoutsCache, PayoutEntry } from "./fetch-payouts";
 // リーク除去版との A/B 用に、読むスコアキャッシュと対象バージョンを env で差し替えられる。
 //   例: SCORES_FILE=scores-cache-v3.json TARGET_VERSIONS=v3 npx tsx scripts/sim-thresholds-place-wide.ts
 const SCORES_FILE = process.env.SCORES_FILE ?? "scores-cache.json";
+// バックフィルのデータセットを見る場合: CACHE_DIR=lib/backfill
+const CACHE_DIR = process.env.CACHE_DIR ?? "lib";
 const TARGET_VERSIONS: ModelVersion[] = (process.env.TARGET_VERSIONS?.split(",") as ModelVersion[]) ?? [
   "v1",
   "v2",
@@ -40,7 +42,7 @@ type BetType = "tan" | "fuku" | "wide";
 const BET_TYPES: BetType[] = ["tan", "fuku", "wide"];
 
 function loadPayouts(): PayoutsCache {
-  const p = join(process.cwd(), "lib", "payouts-cache.json");
+  const p = join(process.cwd(), CACHE_DIR, "payouts-cache.json");
   if (!existsSync(p)) throw new Error("payouts-cache.json が見つかりません");
   return JSON.parse(readFileSync(p, "utf-8")) as PayoutsCache;
 }
@@ -48,7 +50,9 @@ function loadPayouts(): PayoutsCache {
 type MatchedRace = { race: RaceCand; payout: PayoutEntry };
 
 function buildMatchedRaces(version: ModelVersion): MatchedRace[] {
-  const all = buildRaces(SCORES_FILE).filter((r) => r.modelVersion === version);
+  const all = buildRaces({ dir: CACHE_DIR, scoresFile: SCORES_FILE }).filter(
+    (r) => r.modelVersion === version
+  );
   const payouts = loadPayouts().payouts;
   const payoutById = new Map(payouts.map((p) => [p.netKeibaRaceId, p]));
 

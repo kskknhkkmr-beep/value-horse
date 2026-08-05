@@ -48,3 +48,6 @@ next-env.d.ts
 
 # 一時分析スクリプト(_*.ts)のデータ退避先
 /scripts/_cache/
+
+# バックフィルの小規模テスト用データ（再生成可能）
+/lib/backfill-test/

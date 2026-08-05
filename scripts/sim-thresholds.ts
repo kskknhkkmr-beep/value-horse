@@ -31,14 +31,28 @@ const TARGET_VERSION: ModelVersion = "v1";
 
 type ScoresCache = Record<number, HorseScores>;
 
-function loadJSON<T>(filename: string): T | null {
+function loadJSON<T>(filename: string, dir = "lib"): T | null {
   try {
-    const p = join(process.cwd(), "lib", filename);
+    const p = join(process.cwd(), dir, filename);
     if (!existsSync(p)) return null;
     return JSON.parse(readFileSync(p, "utf-8")) as T;
   } catch {
     return null;
   }
+}
+
+/**
+ * 読み込むキャッシュの指定。
+ *   既定           … 本番の lib/ 配下
+ *   scoresFile 指定 … リーク除去版 A/B（lib/scores-cache-v3.json）
+ *   dir 指定        … バックフィルのデータセット一式（lib/backfill/）
+ */
+export type BuildSource = { dir?: string; scoresFile?: string };
+
+/** 文字列を渡した場合は「スコアファイル名だけ差し替え」と解釈する（後方互換） */
+function normalizeSource(src: string | BuildSource): Required<BuildSource> {
+  const o = typeof src === "string" ? { scoresFile: src } : src;
+  return { dir: o.dir ?? "lib", scoresFile: o.scoresFile ?? "scores-cache.json" };
 }
 
 // 各レースの候補馬（EV_MIN のみ通過前の全馬情報を保持）
@@ -53,14 +67,11 @@ export type Candidate = {
 };
 export type RaceCand = { modelVersion: ModelVersion; netKeibaRaceId: string; horses: Candidate[] };
 
-/**
- * @param scoresFile 読み込むスコアキャッシュ。既定は本番の scores-cache.json。
- *   リーク除去版の A/B を取る場合は "scores-cache-v3.json" を渡す。
- */
-export function buildRaces(scoresFile = "scores-cache.json"): RaceCand[] {
-  const racesCache = loadJSON<RacesCache>("races-cache.json");
-  const scoresCache = loadJSON<{ scores?: Record<string, HorseScores> }>(scoresFile);
-  const resultsCache = loadJSON<ResultsCache>("results-cache.json");
+export function buildRaces(source: string | BuildSource = {}): RaceCand[] {
+  const { dir, scoresFile } = normalizeSource(source);
+  const racesCache = loadJSON<RacesCache>("races-cache.json", dir);
+  const scoresCache = loadJSON<{ scores?: Record<string, HorseScores> }>(scoresFile, dir);
+  const resultsCache = loadJSON<ResultsCache>("results-cache.json", dir);
   if (!racesCache || !resultsCache) throw new Error("cache 不在");
 
   const scoresById: ScoresCache = {};

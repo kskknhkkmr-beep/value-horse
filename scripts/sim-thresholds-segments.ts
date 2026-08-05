@@ -30,6 +30,8 @@ import type { ModelVersion } from "@/lib/scorer";
 // リーク除去版との A/B 用に env で差し替え可能。
 //   例: SCORES_FILE=scores-cache-v3.json TARGET_VERSION=v3 npx tsx scripts/sim-thresholds-segments.ts
 const SCORES_FILE = process.env.SCORES_FILE ?? "scores-cache.json";
+// バックフィルのデータセットを見る場合: CACHE_DIR=lib/backfill
+const CACHE_DIR = process.env.CACHE_DIR ?? "lib";
 const TARGET_VERSION = (process.env.TARGET_VERSION ?? "v2") as ModelVersion;
 const EDGE_MIN = 0.02;
 const ODDS_MAX = 50;
@@ -37,8 +39,8 @@ const MIN_N = 20; // AUC=レース数, ROI=的中件数 がこれ未満なら参
 const BOOTSTRAP_ITERS = 2000;
 const BOOTSTRAP_SEED = 20260802;
 
-function loadJSON<T>(filename: string): T {
-  const p = join(process.cwd(), "lib", filename);
+function loadJSON<T>(filename: string, dir = CACHE_DIR): T {
+  const p = join(process.cwd(), dir, filename);
   if (!existsSync(p)) throw new Error(`${filename} が見つかりません`);
   return JSON.parse(readFileSync(p, "utf-8")) as T;
 }
@@ -78,7 +80,9 @@ type MatchedRace = {
 };
 
 function buildMatchedRaces(): MatchedRace[] {
-  const all = buildRaces(SCORES_FILE).filter((r) => r.modelVersion === TARGET_VERSION);
+  const all = buildRaces({ dir: CACHE_DIR, scoresFile: SCORES_FILE }).filter(
+    (r) => r.modelVersion === TARGET_VERSION
+  );
   const payouts = loadJSON<PayoutsCache>("payouts-cache.json").payouts;
   const payoutById = new Map(payouts.map((p) => [p.netKeibaRaceId, p]));
   const racesMeta = loadJSON<RacesCache>("races-cache.json").races;

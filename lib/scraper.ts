@@ -112,6 +112,26 @@ export async function fetchHorseResults(horseId: string): Promise<RaceResult[]> 
   }
 }
 
+/**
+ * 同じページから **全戦績行**（直近10走に切らない）を返す。
+ *
+ * 遡及バックフィル専用。過去のレース時点の形状を復元するには、そのレース日より
+ * 前の走りだけを残して切り出す必要があり、直近10走に切ってしまうと
+ * 「対象レースより後の走り」で枠が埋まって手前が消える。生データを全部持ち、
+ * cutoff はオフラインで当てる（docs/backfill-leak-design.md §3）。
+ */
+export async function fetchHorseResultsAll(horseId: string): Promise<RaceResult[] | null> {
+  await sleep(1200);
+  const url = `https://db.netkeiba.com/horse/result/${horseId}/`;
+  try {
+    const html = await fetchEuc(url);
+    return parseRaceResultTable(html, { fieldSizeCol: 6, positionCol: 11, courseCol: 14 }, Infinity);
+  } catch (e) {
+    console.warn(`  [scraper] fetchHorseResultsAll failed (${horseId}):`, (e as Error).message);
+    return null;
+  }
+}
+
 // ─── 騎手成績（年度別） → JockeyStats ────────────────────────────────────────
 
 /**
@@ -158,7 +178,8 @@ export async function fetchJockeyYearlyTable(jockeyId: string): Promise<JockeyYe
 
 function parseRaceResultTable(
   html: string,
-  cols: { fieldSizeCol: number; positionCol: number; courseCol: number }
+  cols: { fieldSizeCol: number; positionCol: number; courseCol: number },
+  limit = 10
 ): RaceResult[] {
   const results: RaceResult[] = [];
   const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
@@ -195,7 +216,7 @@ function parseRaceResultTable(
     results.push({ date: cells[0], surface, distance, position: pos, fieldSize });
   }
 
-  return results.slice(0, 10); // 直近10走まで
+  return limit === Infinity ? results : results.slice(0, limit); // 既定は直近10走まで
 }
 
 /** 年度別成績テーブルの行を、集約せずそのまま抽出する。 */
@@ -487,6 +508,133 @@ function parseFinishOrder(html: string): RaceFinishResult[] {
   }
 
   return results.sort((a, b) => a.position - b.position);
+}
+
+// ─── 過去レース1枚取得（バックフィル専用） ──────────────────────────────────
+
+export type DbRaceHorse = {
+  /** 着順。中止・失格など着順がつかなかった馬は 0（出走はしたので買えた） */
+  position: number;
+  frameNumber: number;
+  horseNumber: number;
+  horse: string;
+  horseId: string;
+  jockey: string;
+  jockeyId: string;
+  /** 確定単勝オッズ */
+  odds: number | null;
+  popularity: number | null;
+};
+
+export type DbRacePage = {
+  netKeibaRaceId: string;
+  date: string; // YYYY-MM-DD
+  venue: string;
+  raceNumber: number;
+  raceName: string;
+  surface: "芝" | "ダ" | "障";
+  distance: number;
+  horses: DbRaceHorse[];
+  payouts: RacePayouts;
+};
+
+/**
+ * db.netkeiba.com のレース結果ページ **1枚** から、バックフィルに必要なものを全部取る。
+ *   馬ID・騎手ID・馬番・馬名・着順・確定単勝オッズ・レース条件・確定払戻
+ *
+ * 設計 §5 では「出馬表＋オッズ＋結果の3枚」を見込んでいたが、実測でこの1枚に
+ * すべて揃うことを確認したため、レースあたりのリクエストは 1 で済む。
+ *
+ * 注意: ここで取れるオッズは **確定単勝オッズ**。本番のライブ経路が使う
+ * 「発走前スナップショット」とは厳密には別物（遡及取得では原理的に手に入らない）。
+ */
+export async function fetchDbRacePage(netKeibaRaceId: string): Promise<DbRacePage | null> {
+  await sleep(1200);
+  const url = `https://db.netkeiba.com/race/${netKeibaRaceId}/`;
+  let html: string;
+  try {
+    html = await fetchEuc(url);
+  } catch (e) {
+    console.warn(`  [scraper] fetchDbRacePage failed (${netKeibaRaceId}):`, (e as Error).message);
+    return null;
+  }
+  return parseDbRacePage(html, netKeibaRaceId);
+}
+
+/** 着順セル → 数値。"中"(中止)・"失"(失格)は出走扱いで 0、"除"/"取"(非出走)は null */
+function parseFinishCell(s: string): number | null {
+  const t = s.trim();
+  if (/^\d+$/.test(t)) return parseInt(t, 10);
+  if (t.startsWith("中") || t.startsWith("失")) return 0;
+  return null; // 除外・取消 → 出走していないので対象外
+}
+
+export function parseDbRacePage(html: string, netKeibaRaceId: string): DbRacePage | null {
+  // 条件: <span>芝右1200m / 天候 : 晴 / ...</span>
+  const condM = html.match(/(芝|ダ|障)[^<]{0,4}?(\d{3,4})m/);
+  if (!condM) return null;
+  const surface = (condM[1] === "芝" ? "芝" : condM[1] === "障" ? "障" : "ダ") as "芝" | "ダ" | "障";
+  const distance = parseInt(condM[2], 10);
+
+  // 日付: <p class="smalltxt">2026年06月28日 1回函館6日目 ...</p>
+  const dateM = html.match(/class="smalltxt"[^>]*>\s*(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  if (!dateM) return null;
+  const date = `${dateM[1]}-${dateM[2].padStart(2, "0")}-${dateM[3].padStart(2, "0")}`;
+
+  const nameM = html.match(/<dl class="racedata[^"]*"[\s\S]*?<h1>([\s\S]*?)<\/h1>/);
+  const raceName = nameM ? stripTags(nameM[1].replace(/<!--[\s\S]*?-->/g, "")) : "";
+
+  // 会場・R番号は race_id から一意に決まる（HTML 解析より確実）
+  const venue = VENUE_MAP[netKeibaRaceId.slice(4, 6)] ?? netKeibaRaceId.slice(4, 6);
+  const raceNumber = parseInt(netKeibaRaceId.slice(10, 12), 10);
+
+  // 着順テーブル: 0:着順 1:枠番 2:馬番 3:馬名 4:性齢 5:斤量 6:騎手 ... 16:単勝 17:人気
+  const horses: DbRaceHorse[] = [];
+  for (const rowM of html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
+    const row = rowM[1];
+    const cells = [...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)].map((c) => stripTags(c[1]));
+    if (cells.length < 18) continue;
+
+    const position = parseFinishCell(cells[0]);
+    if (position == null) continue;
+
+    const horseId = row.match(/\/horse\/(\d{10})\//)?.[1];
+    const jockeyId = row.match(/\/jockey\/(?:result\/)?(?:recent\/)?(\d{5})\//)?.[1];
+    if (!horseId) continue;
+
+    const horseNumber = toInt(cells[2]);
+    const frameNumber = toInt(cells[1]);
+    if (isNaN(horseNumber)) continue;
+
+    const oddsVal = parseFloat(cells[16]);
+    const popVal = parseInt(cells[17], 10);
+
+    horses.push({
+      position,
+      frameNumber: isNaN(frameNumber) ? 0 : frameNumber,
+      horseNumber,
+      horse: cells[3],
+      horseId,
+      jockey: cells[6],
+      jockeyId: jockeyId ?? "",
+      odds: !isNaN(oddsVal) && oddsVal >= 1 ? oddsVal : null,
+      popularity: isNaN(popVal) ? null : popVal,
+    });
+  }
+
+  if (horses.length === 0) return null;
+
+  return {
+    netKeibaRaceId,
+    date,
+    venue,
+    raceNumber,
+    raceName,
+    surface,
+    distance,
+    horses: horses.sort((a, b) => a.horseNumber - b.horseNumber),
+    payouts: parsePayouts(html),
+  };
 }
 
 // ─── 週末レース一覧取得 ───────────────────────────────────────────────────────
