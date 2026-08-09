@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T09:10:06.227Z",
+  "fetchedAt": "2026-08-09T11:54:37.040Z",
   "results": [
     {
       "raceId": 1,
@@ -46092,7 +46092,110 @@
       "raceNumber": 11,
       "date": "2026-08-09",
       "venue": "中京",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 11,
+          "horse": "パリコレジェンヌ",
+          "odds": 66.4
+        },
+        {
+          "position": 2,
+          "horseNumber": 1,
+          "horse": "フロムレイブン",
+          "odds": 3.2
+        },
+        {
+          "position": 3,
+          "horseNumber": 3,
+          "horse": "モルティフレーバー",
+          "odds": 17.3
+        },
+        {
+          "position": 4,
+          "horseNumber": 6,
+          "horse": "アーリントンロウ",
+          "odds": 9.3
+        },
+        {
+          "position": 5,
+          "horseNumber": 13,
+          "horse": "ベランジェール",
+          "odds": 18.1
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "マーシーラン",
+          "odds": 11.1
+        },
+        {
+          "position": 7,
+          "horseNumber": 8,
+          "horse": "スピリットライズ",
+          "odds": 104.7
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "アウクソー",
+          "odds": 111.6
+        },
+        {
+          "position": 9,
+          "horseNumber": 7,
+          "horse": "セクシーマージュ",
+          "odds": 18.9
+        },
+        {
+          "position": 10,
+          "horseNumber": 16,
+          "horse": "ヤマニンフェイエル",
+          "odds": 12
+        },
+        {
+          "position": 11,
+          "horseNumber": 15,
+          "horse": "ウェルカムソング",
+          "odds": 5
+        },
+        {
+          "position": 12,
+          "horseNumber": 17,
+          "horse": "トウカイフルーレ",
+          "odds": 162.5
+        },
+        {
+          "position": 13,
+          "horseNumber": 4,
+          "horse": "フェリーニ",
+          "odds": 21.5
+        },
+        {
+          "position": 14,
+          "horseNumber": 18,
+          "horse": "フランクスピード",
+          "odds": 77.2
+        },
+        {
+          "position": 15,
+          "horseNumber": 14,
+          "horse": "マーゴットミスト",
+          "odds": 5.4
+        },
+        {
+          "position": 16,
+          "horseNumber": 2,
+          "horse": "パレットフレイバー",
+          "odds": 248.9
+        },
+        {
+          "position": 17,
+          "horseNumber": 9,
+          "horse": "カラクニダケ",
+          "odds": 79.1
+        }
+      ]
     },
     {
       "raceId": 7020612,
@@ -46101,7 +46204,98 @@
       "raceNumber": 12,
       "date": "2026-08-09",
       "venue": "中京",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 3,
+          "horse": "レインボーステート",
+          "odds": 4.1
+        },
+        {
+          "position": 2,
+          "horseNumber": 13,
+          "horse": "ビッグヒーロー",
+          "odds": 2.4
+        },
+        {
+          "position": 3,
+          "horseNumber": 2,
+          "horse": "ローズラフィネ",
+          "odds": 9.6
+        },
+        {
+          "position": 4,
+          "horseNumber": 4,
+          "horse": "カステッロトゥーレ",
+          "odds": 24.7
+        },
+        {
+          "position": 5,
+          "horseNumber": 1,
+          "horse": "プリュスエクラ",
+          "odds": 18.7
+        },
+        {
+          "position": 6,
+          "horseNumber": 14,
+          "horse": "エングルマン",
+          "odds": 59.5
+        },
+        {
+          "position": 7,
+          "horseNumber": 15,
+          "horse": "ルージュソムニウム",
+          "odds": 67.7
+        },
+        {
+          "position": 8,
+          "horseNumber": 9,
+          "horse": "ネッカーズルム",
+          "odds": 11.6
+        },
+        {
+          "position": 9,
+          "horseNumber": 5,
+          "horse": "ウォータールスール",
+          "odds": 15.2
+        },
+        {
+          "position": 10,
+          "horseNumber": 12,
+          "horse": "リノルアナ",
+          "odds": 96.7
+        },
+        {
+          "position": 11,
+          "horseNumber": 11,
+          "horse": "スズノボンライミー",
+          "odds": 136.3
+        },
+        {
+          "position": 12,
+          "horseNumber": 10,
+          "horse": "ブランチアウト",
+          "odds": 8.3
+        },
+        {
+          "position": 13,
+          "horseNumber": 16,
+          "horse": "ビシェノ",
+          "odds": 19.4
+        },
+        {
+          "position": 14,
+          "horseNumber": 6,
+          "horse": "ジーティーウタマロ",
+          "odds": 39.1
+        },
+        {
+          "position": 15,
+          "horseNumber": 8,
+          "horse": "ヴェネラブル",
+          "odds": 175.9
+        }
+      ]
     },
     {
       "raceId": 4020601,
@@ -47144,7 +47338,116 @@
       "raceNumber": 12,
       "date": "2026-08-09",
       "venue": "新潟",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 17,
+          "horse": "ジェムシリカ",
+          "odds": 10.2
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "セリエンクーニゲン",
+          "odds": 9.1
+        },
+        {
+          "position": 3,
+          "horseNumber": 15,
+          "horse": "ルージュフィーリア",
+          "odds": 3.5
+        },
+        {
+          "position": 4,
+          "horseNumber": 13,
+          "horse": "エンジェルサン",
+          "odds": 24.8
+        },
+        {
+          "position": 5,
+          "horseNumber": 10,
+          "horse": "オンナキュヌヴィ",
+          "odds": 5.4
+        },
+        {
+          "position": 5,
+          "horseNumber": 12,
+          "horse": "ミクロスギガース",
+          "odds": 38.2
+        },
+        {
+          "position": 7,
+          "horseNumber": 16,
+          "horse": "ラルルジェンヌ",
+          "odds": 9.4
+        },
+        {
+          "position": 8,
+          "horseNumber": 2,
+          "horse": "ウィズアツインクル",
+          "odds": 86.2
+        },
+        {
+          "position": 9,
+          "horseNumber": 14,
+          "horse": "ココソラーレ",
+          "odds": 32.7
+        },
+        {
+          "position": 10,
+          "horseNumber": 11,
+          "horse": "ハルカオル",
+          "odds": 16.5
+        },
+        {
+          "position": 11,
+          "horseNumber": 5,
+          "horse": "ロジシーザ",
+          "odds": 115
+        },
+        {
+          "position": 12,
+          "horseNumber": 4,
+          "horse": "シエラモレーナ",
+          "odds": 43.4
+        },
+        {
+          "position": 13,
+          "horseNumber": 3,
+          "horse": "フレアリングベリー",
+          "odds": 34.8
+        },
+        {
+          "position": 14,
+          "horseNumber": 8,
+          "horse": "タイセイギガース",
+          "odds": 224.5
+        },
+        {
+          "position": 15,
+          "horseNumber": 7,
+          "horse": "ルナーファントム",
+          "odds": 6.7
+        },
+        {
+          "position": 16,
+          "horseNumber": 9,
+          "horse": "サンロード",
+          "odds": 169.3
+        },
+        {
+          "position": 17,
+          "horseNumber": 1,
+          "horse": "インザライムライト",
+          "odds": 49.7
+        },
+        {
+          "position": 18,
+          "horseNumber": 18,
+          "horse": "シルバーアックス",
+          "odds": 15.3
+        }
+      ]
     },
     {
       "raceId": 1010601,
