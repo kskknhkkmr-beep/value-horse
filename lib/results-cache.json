@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-23T08:55:53.708Z",
+  "fetchedAt": "2026-08-23T11:44:07.910Z",
   "results": [
     {
       "raceId": 1,
@@ -59022,7 +59022,110 @@
       "raceNumber": 11,
       "date": "2026-08-23",
       "venue": "中京",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 4,
+          "horse": "エルハーベン",
+          "odds": 6.7
+        },
+        {
+          "position": 2,
+          "horseNumber": 6,
+          "horse": "ベルサ",
+          "odds": 24.9
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "メイクワンズデイ",
+          "odds": 5.1
+        },
+        {
+          "position": 4,
+          "horseNumber": 15,
+          "horse": "ダンデノン",
+          "odds": 2.3
+        },
+        {
+          "position": 5,
+          "horseNumber": 3,
+          "horse": "リピ",
+          "odds": 29
+        },
+        {
+          "position": 6,
+          "horseNumber": 5,
+          "horse": "ペールノエル",
+          "odds": 14
+        },
+        {
+          "position": 7,
+          "horseNumber": 7,
+          "horse": "アラビアンジョイ",
+          "odds": 9.1
+        },
+        {
+          "position": 8,
+          "horseNumber": 17,
+          "horse": "リアライズブラーヴ",
+          "odds": 28
+        },
+        {
+          "position": 9,
+          "horseNumber": 2,
+          "horse": "バーケンティン",
+          "odds": 188
+        },
+        {
+          "position": 10,
+          "horseNumber": 12,
+          "horse": "ルクスノア",
+          "odds": 54.1
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "エンヴェロップ",
+          "odds": 21.4
+        },
+        {
+          "position": 12,
+          "horseNumber": 8,
+          "horse": "ロンティケチャップ",
+          "odds": 85.5
+        },
+        {
+          "position": 13,
+          "horseNumber": 11,
+          "horse": "ペアレンツギフト",
+          "odds": 11.7
+        },
+        {
+          "position": 14,
+          "horseNumber": 16,
+          "horse": "ホウオウドルーリー",
+          "odds": 149.7
+        },
+        {
+          "position": 15,
+          "horseNumber": 14,
+          "horse": "チリーゴールド",
+          "odds": 90.7
+        },
+        {
+          "position": 16,
+          "horseNumber": 10,
+          "horse": "クインズセレネ",
+          "odds": 250.3
+        },
+        {
+          "position": 17,
+          "horseNumber": 1,
+          "horse": "オンザマーチ",
+          "odds": 108.7
+        }
+      ]
     },
     {
       "raceId": 7030212,
@@ -59031,7 +59134,104 @@
       "raceNumber": 12,
       "date": "2026-08-23",
       "venue": "中京",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 5,
+          "horse": "ヒッグスボソン",
+          "odds": 20.3
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "ユウトザイシン",
+          "odds": 151.4
+        },
+        {
+          "position": 3,
+          "horseNumber": 9,
+          "horse": "シャインゴーツ",
+          "odds": 14.2
+        },
+        {
+          "position": 4,
+          "horseNumber": 15,
+          "horse": "イッタレイッタレ",
+          "odds": 22.8
+        },
+        {
+          "position": 5,
+          "horseNumber": 4,
+          "horse": "エバイダンス",
+          "odds": 2.9
+        },
+        {
+          "position": 6,
+          "horseNumber": 14,
+          "horse": "マクアケ",
+          "odds": 7.8
+        },
+        {
+          "position": 7,
+          "horseNumber": 16,
+          "horse": "ヤマニンコルザ",
+          "odds": 9.7
+        },
+        {
+          "position": 8,
+          "horseNumber": 11,
+          "horse": "ファイアプレイス",
+          "odds": 9.4
+        },
+        {
+          "position": 9,
+          "horseNumber": 12,
+          "horse": "イットガール",
+          "odds": 173.3
+        },
+        {
+          "position": 10,
+          "horseNumber": 10,
+          "horse": "フルドフォルク",
+          "odds": 169.5
+        },
+        {
+          "position": 11,
+          "horseNumber": 13,
+          "horse": "アルミラージ",
+          "odds": 12.4
+        },
+        {
+          "position": 12,
+          "horseNumber": 6,
+          "horse": "ルナフィオーレ",
+          "odds": 15.8
+        },
+        {
+          "position": 13,
+          "horseNumber": 1,
+          "horse": "ロードフリューゲル",
+          "odds": 47.6
+        },
+        {
+          "position": 14,
+          "horseNumber": 2,
+          "horse": "ラッキーラグーン",
+          "odds": 98.4
+        },
+        {
+          "position": 15,
+          "horseNumber": 7,
+          "horse": "アスターエポワス",
+          "odds": 4.7
+        },
+        {
+          "position": 16,
+          "horseNumber": 3,
+          "horse": "スターペスアンナ",
+          "odds": 229.5
+        }
+      ]
     },
     {
       "raceId": 4030201,
@@ -60044,7 +60244,80 @@
       "raceNumber": 12,
       "date": "2026-08-23",
       "venue": "新潟",
-      "finishers": []
+      "finishers": [
+        {
+          "position": 1,
+          "horseNumber": 7,
+          "horse": "クリムゾンリーフ",
+          "odds": 1.4
+        },
+        {
+          "position": 2,
+          "horseNumber": 8,
+          "horse": "トルネードアイル",
+          "odds": 3.4
+        },
+        {
+          "position": 3,
+          "horseNumber": 4,
+          "horse": "タニセンローマ",
+          "odds": 40.8
+        },
+        {
+          "position": 4,
+          "horseNumber": 12,
+          "horse": "テンカラットレター",
+          "odds": 25.2
+        },
+        {
+          "position": 5,
+          "horseNumber": 5,
+          "horse": "カズシ",
+          "odds": 54.8
+        },
+        {
+          "position": 6,
+          "horseNumber": 3,
+          "horse": "フォンドルレール",
+          "odds": 9.9
+        },
+        {
+          "position": 7,
+          "horseNumber": 6,
+          "horse": "ドロワ",
+          "odds": 218.3
+        },
+        {
+          "position": 8,
+          "horseNumber": 10,
+          "horse": "パンパネイラ",
+          "odds": 40
+        },
+        {
+          "position": 9,
+          "horseNumber": 1,
+          "horse": "チャームドウイング",
+          "odds": 31.5
+        },
+        {
+          "position": 10,
+          "horseNumber": 9,
+          "horse": "キチロクゴール",
+          "odds": 130.2
+        },
+        {
+          "position": 11,
+          "horseNumber": 11,
+          "horse": "メイショウソラル",
+          "odds": 263.1
+        },
+        {
+          "position": 12,
+          "horseNumber": 2,
+          "horse": "ブルーブロディ",
+          "odds": 143
+        }
+      ]
     },
     {
       "raceId": 1020201,
