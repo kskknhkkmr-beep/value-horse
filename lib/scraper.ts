@@ -22,9 +22,30 @@ const SP_HEADERS = {
   Accept: "text/html,application/xhtml+xml,*/*;q=0.8",
 };
 
+/**
+ * スリープ復帰後の無効な接続や Wi-Fi 瞬断時、素の fetch は応答を無期限に待ち続け
+ * ハングし得る（AbortSignal 無しだと打ち切る手段が無いため）。全リクエストで
+ * タイムアウトを強制し、打ち切り時は呼び出し元の catch で「失敗」として扱えるよう
+ * 分かりやすいエラーに変換する。
+ */
+const DEFAULT_TIMEOUT_MS = 30_000;
+
+async function fetchWithTimeout(url: string, init: RequestInit, timeoutMs = DEFAULT_TIMEOUT_MS): Promise<Response> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(url, { ...init, signal: controller.signal });
+  } catch (e) {
+    if ((e as Error).name === "AbortError") throw new Error(`timeout after ${timeoutMs}ms: ${url}`);
+    throw e;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 // netkeiba DB は EUC-JP
 async function fetchEuc(url: string): Promise<string> {
-  const res = await fetch(url, { headers: PC_HEADERS });
+  const res = await fetchWithTimeout(url, { headers: PC_HEADERS });
   if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`);
   const buf = await res.arrayBuffer();
   // charset=euc-jp / charset= の両方に対応
@@ -35,7 +56,7 @@ async function fetchEuc(url: string): Promise<string> {
 
 // SP サイトは UTF-8
 async function fetchUtf8(url: string): Promise<string> {
-  const res = await fetch(url, { headers: SP_HEADERS });
+  const res = await fetchWithTimeout(url, { headers: SP_HEADERS });
   if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`);
   return res.text();
 }
@@ -63,7 +84,7 @@ export async function fetchWinOdds(netKeibaRaceId: string): Promise<Map<number, 
   await sleep(800);
   const url = `https://race.netkeiba.com/api/api_get_jra_odds.html?race_id=${netKeibaRaceId}&type=1&action=update`;
   try {
-    const res = await fetch(url, {
+    const res = await fetchWithTimeout(url, {
       headers: { ...PC_HEADERS, Referer: `https://race.netkeiba.com/race/shutuba.html?race_id=${netKeibaRaceId}` },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);

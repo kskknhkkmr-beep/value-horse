@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-02T14:32:18.819Z",
+  "fetchedAt": "2026-08-05T07:12:29.543Z",
   "source": "db.netkeiba.com/jockey/result/",
   "jockeys": {
     "01204": {
@@ -14621,6 +14621,2475 @@
         }
       ],
       "fetchedAt": "2026-08-02T14:32:18.819Z"
+    },
+    "00641": {
+      "name": "柴田善臣",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 2341,
+          "seconds": 2314,
+          "thirds": 2162,
+          "others": 15494
+        },
+        {
+          "label": "2026",
+          "wins": 3,
+          "seconds": 3,
+          "thirds": 1,
+          "others": 61
+        },
+        {
+          "label": "2025",
+          "wins": 3,
+          "seconds": 2,
+          "thirds": 3,
+          "others": 59
+        },
+        {
+          "label": "2024",
+          "wins": 9,
+          "seconds": 15,
+          "thirds": 12,
+          "others": 166
+        },
+        {
+          "label": "2023",
+          "wins": 9,
+          "seconds": 14,
+          "thirds": 12,
+          "others": 162
+        },
+        {
+          "label": "2022",
+          "wins": 3,
+          "seconds": 5,
+          "thirds": 2,
+          "others": 81
+        },
+        {
+          "label": "2021",
+          "wins": 20,
+          "seconds": 16,
+          "thirds": 17,
+          "others": 283
+        },
+        {
+          "label": "2020",
+          "wins": 22,
+          "seconds": 29,
+          "thirds": 15,
+          "others": 300
+        },
+        {
+          "label": "2019",
+          "wins": 16,
+          "seconds": 9,
+          "thirds": 20,
+          "others": 243
+        },
+        {
+          "label": "2018",
+          "wins": 7,
+          "seconds": 19,
+          "thirds": 22,
+          "others": 304
+        },
+        {
+          "label": "2017",
+          "wins": 16,
+          "seconds": 24,
+          "thirds": 31,
+          "others": 404
+        },
+        {
+          "label": "2016",
+          "wins": 36,
+          "seconds": 48,
+          "thirds": 41,
+          "others": 463
+        },
+        {
+          "label": "2015",
+          "wins": 45,
+          "seconds": 42,
+          "thirds": 54,
+          "others": 442
+        },
+        {
+          "label": "2014",
+          "wins": 48,
+          "seconds": 44,
+          "thirds": 57,
+          "others": 446
+        },
+        {
+          "label": "2013",
+          "wins": 44,
+          "seconds": 44,
+          "thirds": 59,
+          "others": 496
+        },
+        {
+          "label": "2012",
+          "wins": 59,
+          "seconds": 57,
+          "thirds": 58,
+          "others": 533
+        },
+        {
+          "label": "2011",
+          "wins": 47,
+          "seconds": 58,
+          "thirds": 48,
+          "others": 482
+        },
+        {
+          "label": "2010",
+          "wins": 83,
+          "seconds": 63,
+          "thirds": 57,
+          "others": 537
+        },
+        {
+          "label": "2009",
+          "wins": 46,
+          "seconds": 56,
+          "thirds": 71,
+          "others": 482
+        },
+        {
+          "label": "2008",
+          "wins": 56,
+          "seconds": 74,
+          "thirds": 71,
+          "others": 542
+        },
+        {
+          "label": "2007",
+          "wins": 58,
+          "seconds": 54,
+          "thirds": 46,
+          "others": 408
+        },
+        {
+          "label": "2006",
+          "wins": 99,
+          "seconds": 88,
+          "thirds": 81,
+          "others": 518
+        },
+        {
+          "label": "2005",
+          "wins": 106,
+          "seconds": 107,
+          "thirds": 95,
+          "others": 496
+        },
+        {
+          "label": "2004",
+          "wins": 145,
+          "seconds": 134,
+          "thirds": 110,
+          "others": 546
+        },
+        {
+          "label": "2003",
+          "wins": 119,
+          "seconds": 121,
+          "thirds": 104,
+          "others": 552
+        },
+        {
+          "label": "2002",
+          "wins": 120,
+          "seconds": 85,
+          "thirds": 96,
+          "others": 540
+        },
+        {
+          "label": "2001",
+          "wins": 129,
+          "seconds": 105,
+          "thirds": 107,
+          "others": 545
+        },
+        {
+          "label": "2000",
+          "wins": 71,
+          "seconds": 55,
+          "thirds": 42,
+          "others": 379
+        },
+        {
+          "label": "1999",
+          "wins": 105,
+          "seconds": 111,
+          "thirds": 81,
+          "others": 493
+        },
+        {
+          "label": "1998",
+          "wins": 109,
+          "seconds": 95,
+          "thirds": 74,
+          "others": 478
+        },
+        {
+          "label": "1997",
+          "wins": 100,
+          "seconds": 86,
+          "thirds": 71,
+          "others": 451
+        },
+        {
+          "label": "1996",
+          "wins": 80,
+          "seconds": 68,
+          "thirds": 77,
+          "others": 474
+        },
+        {
+          "label": "1995",
+          "wins": 87,
+          "seconds": 71,
+          "thirds": 81,
+          "others": 340
+        },
+        {
+          "label": "1994",
+          "wins": 78,
+          "seconds": 87,
+          "thirds": 65,
+          "others": 374
+        },
+        {
+          "label": "1993",
+          "wins": 69,
+          "seconds": 77,
+          "thirds": 63,
+          "others": 395
+        },
+        {
+          "label": "1992",
+          "wins": 35,
+          "seconds": 48,
+          "thirds": 48,
+          "others": 295
+        },
+        {
+          "label": "1991",
+          "wins": 37,
+          "seconds": 63,
+          "thirds": 53,
+          "others": 341
+        },
+        {
+          "label": "1990",
+          "wins": 59,
+          "seconds": 64,
+          "thirds": 54,
+          "others": 314
+        },
+        {
+          "label": "1989",
+          "wins": 66,
+          "seconds": 60,
+          "thirds": 56,
+          "others": 322
+        },
+        {
+          "label": "1988",
+          "wins": 50,
+          "seconds": 71,
+          "thirds": 50,
+          "others": 284
+        },
+        {
+          "label": "1987",
+          "wins": 26,
+          "seconds": 15,
+          "thirds": 36,
+          "others": 180
+        },
+        {
+          "label": "1986",
+          "wins": 9,
+          "seconds": 14,
+          "thirds": 10,
+          "others": 141
+        },
+        {
+          "label": "1985",
+          "wins": 12,
+          "seconds": 13,
+          "thirds": 11,
+          "others": 98
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:11:55.319Z"
+    },
+    "05443": {
+      "name": "本田正重",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 1,
+          "seconds": 1,
+          "thirds": 1,
+          "others": 43
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 6
+        },
+        {
+          "label": "2025",
+          "wins": 1,
+          "seconds": 1,
+          "thirds": 1,
+          "others": 11
+        },
+        {
+          "label": "2024",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 11
+        },
+        {
+          "label": "2023",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 9
+        },
+        {
+          "label": "2017",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 5
+        },
+        {
+          "label": "2009",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:11:56.841Z"
+    },
+    "05675": {
+      "name": "ゴンサル",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 14,
+          "seconds": 14,
+          "thirds": 16,
+          "others": 107
+        },
+        {
+          "label": "2026",
+          "wins": 13,
+          "seconds": 12,
+          "thirds": 16,
+          "others": 101
+        },
+        {
+          "label": "2025",
+          "wins": 1,
+          "seconds": 2,
+          "thirds": 0,
+          "others": 6
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:11:58.320Z"
+    },
+    "01043": {
+      "name": "北村宏司",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 1481,
+          "seconds": 1461,
+          "thirds": 1422,
+          "others": 12959
+        },
+        {
+          "label": "2026",
+          "wins": 2,
+          "seconds": 4,
+          "thirds": 2,
+          "others": 78
+        },
+        {
+          "label": "2025",
+          "wins": 12,
+          "seconds": 13,
+          "thirds": 27,
+          "others": 246
+        },
+        {
+          "label": "2024",
+          "wins": 15,
+          "seconds": 27,
+          "thirds": 27,
+          "others": 288
+        },
+        {
+          "label": "2023",
+          "wins": 39,
+          "seconds": 28,
+          "thirds": 45,
+          "others": 398
+        },
+        {
+          "label": "2022",
+          "wins": 9,
+          "seconds": 15,
+          "thirds": 20,
+          "others": 188
+        },
+        {
+          "label": "2021",
+          "wins": 22,
+          "seconds": 23,
+          "thirds": 28,
+          "others": 275
+        },
+        {
+          "label": "2020",
+          "wins": 42,
+          "seconds": 42,
+          "thirds": 45,
+          "others": 512
+        },
+        {
+          "label": "2019",
+          "wins": 20,
+          "seconds": 34,
+          "thirds": 34,
+          "others": 291
+        },
+        {
+          "label": "2018",
+          "wins": 62,
+          "seconds": 53,
+          "thirds": 71,
+          "others": 629
+        },
+        {
+          "label": "2017",
+          "wins": 60,
+          "seconds": 67,
+          "thirds": 45,
+          "others": 606
+        },
+        {
+          "label": "2016",
+          "wins": 24,
+          "seconds": 15,
+          "thirds": 19,
+          "others": 174
+        },
+        {
+          "label": "2015",
+          "wins": 76,
+          "seconds": 67,
+          "thirds": 60,
+          "others": 551
+        },
+        {
+          "label": "2014",
+          "wins": 117,
+          "seconds": 123,
+          "thirds": 109,
+          "others": 667
+        },
+        {
+          "label": "2013",
+          "wins": 101,
+          "seconds": 85,
+          "thirds": 83,
+          "others": 629
+        },
+        {
+          "label": "2012",
+          "wins": 88,
+          "seconds": 90,
+          "thirds": 95,
+          "others": 631
+        },
+        {
+          "label": "2011",
+          "wins": 78,
+          "seconds": 77,
+          "thirds": 63,
+          "others": 597
+        },
+        {
+          "label": "2010",
+          "wins": 60,
+          "seconds": 80,
+          "thirds": 64,
+          "others": 674
+        },
+        {
+          "label": "2009",
+          "wins": 87,
+          "seconds": 77,
+          "thirds": 57,
+          "others": 607
+        },
+        {
+          "label": "2008",
+          "wins": 55,
+          "seconds": 40,
+          "thirds": 35,
+          "others": 383
+        },
+        {
+          "label": "2007",
+          "wins": 61,
+          "seconds": 76,
+          "thirds": 72,
+          "others": 612
+        },
+        {
+          "label": "2006",
+          "wins": 79,
+          "seconds": 72,
+          "thirds": 66,
+          "others": 622
+        },
+        {
+          "label": "2005",
+          "wins": 59,
+          "seconds": 63,
+          "thirds": 45,
+          "others": 571
+        },
+        {
+          "label": "2004",
+          "wins": 65,
+          "seconds": 55,
+          "thirds": 59,
+          "others": 565
+        },
+        {
+          "label": "2003",
+          "wins": 78,
+          "seconds": 56,
+          "thirds": 72,
+          "others": 483
+        },
+        {
+          "label": "2002",
+          "wins": 41,
+          "seconds": 62,
+          "thirds": 53,
+          "others": 438
+        },
+        {
+          "label": "2001",
+          "wins": 54,
+          "seconds": 52,
+          "thirds": 55,
+          "others": 488
+        },
+        {
+          "label": "2000",
+          "wins": 38,
+          "seconds": 40,
+          "thirds": 46,
+          "others": 466
+        },
+        {
+          "label": "1999",
+          "wins": 37,
+          "seconds": 25,
+          "thirds": 25,
+          "others": 275
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:00.021Z"
+    },
+    "05339": {
+      "name": "ルメール",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 2205,
+          "seconds": 1578,
+          "thirds": 1153,
+          "others": 4868
+        },
+        {
+          "label": "2026",
+          "wins": 91,
+          "seconds": 58,
+          "thirds": 45,
+          "others": 129
+        },
+        {
+          "label": "2025",
+          "wins": 140,
+          "seconds": 111,
+          "thirds": 67,
+          "others": 203
+        },
+        {
+          "label": "2024",
+          "wins": 176,
+          "seconds": 105,
+          "thirds": 68,
+          "others": 241
+        },
+        {
+          "label": "2023",
+          "wins": 165,
+          "seconds": 119,
+          "thirds": 88,
+          "others": 294
+        },
+        {
+          "label": "2022",
+          "wins": 109,
+          "seconds": 88,
+          "thirds": 74,
+          "others": 296
+        },
+        {
+          "label": "2021",
+          "wins": 199,
+          "seconds": 134,
+          "thirds": 78,
+          "others": 391
+        },
+        {
+          "label": "2020",
+          "wins": 204,
+          "seconds": 137,
+          "thirds": 85,
+          "others": 355
+        },
+        {
+          "label": "2019",
+          "wins": 164,
+          "seconds": 123,
+          "thirds": 78,
+          "others": 285
+        },
+        {
+          "label": "2018",
+          "wins": 215,
+          "seconds": 135,
+          "thirds": 98,
+          "others": 324
+        },
+        {
+          "label": "2017",
+          "wins": 199,
+          "seconds": 138,
+          "thirds": 106,
+          "others": 366
+        },
+        {
+          "label": "2016",
+          "wins": 186,
+          "seconds": 109,
+          "thirds": 100,
+          "others": 391
+        },
+        {
+          "label": "2015",
+          "wins": 112,
+          "seconds": 90,
+          "thirds": 70,
+          "others": 301
+        },
+        {
+          "label": "2014",
+          "wins": 22,
+          "seconds": 16,
+          "thirds": 19,
+          "others": 87
+        },
+        {
+          "label": "2013",
+          "wins": 29,
+          "seconds": 23,
+          "thirds": 17,
+          "others": 102
+        },
+        {
+          "label": "2012",
+          "wins": 23,
+          "seconds": 20,
+          "thirds": 15,
+          "others": 94
+        },
+        {
+          "label": "2011",
+          "wins": 10,
+          "seconds": 10,
+          "thirds": 6,
+          "others": 65
+        },
+        {
+          "label": "2010",
+          "wins": 28,
+          "seconds": 18,
+          "thirds": 18,
+          "others": 107
+        },
+        {
+          "label": "2009",
+          "wins": 12,
+          "seconds": 19,
+          "thirds": 18,
+          "others": 100
+        },
+        {
+          "label": "2008",
+          "wins": 21,
+          "seconds": 20,
+          "thirds": 13,
+          "others": 139
+        },
+        {
+          "label": "2007",
+          "wins": 14,
+          "seconds": 23,
+          "thirds": 25,
+          "others": 108
+        },
+        {
+          "label": "2006",
+          "wins": 34,
+          "seconds": 16,
+          "thirds": 13,
+          "others": 131
+        },
+        {
+          "label": "2005",
+          "wins": 20,
+          "seconds": 29,
+          "thirds": 22,
+          "others": 138
+        },
+        {
+          "label": "2004",
+          "wins": 17,
+          "seconds": 20,
+          "thirds": 14,
+          "others": 106
+        },
+        {
+          "label": "2003",
+          "wins": 11,
+          "seconds": 13,
+          "thirds": 12,
+          "others": 89
+        },
+        {
+          "label": "2002",
+          "wins": 4,
+          "seconds": 4,
+          "thirds": 4,
+          "others": 25
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:01.703Z"
+    },
+    "05615": {
+      "name": "井上瑛太",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:03.248Z"
+    },
+    "05643": {
+      "name": "キング",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 61,
+          "seconds": 42,
+          "thirds": 41,
+          "others": 277
+        },
+        {
+          "label": "2026",
+          "wins": 16,
+          "seconds": 10,
+          "thirds": 8,
+          "others": 42
+        },
+        {
+          "label": "2025",
+          "wins": 28,
+          "seconds": 19,
+          "thirds": 16,
+          "others": 137
+        },
+        {
+          "label": "2024",
+          "wins": 16,
+          "seconds": 12,
+          "thirds": 17,
+          "others": 94
+        },
+        {
+          "label": "2023",
+          "wins": 1,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 4
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:04.687Z"
+    },
+    "01179": {
+      "name": "菅原明良",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 410,
+          "seconds": 432,
+          "thirds": 458,
+          "others": 3988
+        },
+        {
+          "label": "2026",
+          "wins": 9,
+          "seconds": 13,
+          "thirds": 22,
+          "others": 136
+        },
+        {
+          "label": "2025",
+          "wins": 63,
+          "seconds": 54,
+          "thirds": 70,
+          "others": 540
+        },
+        {
+          "label": "2024",
+          "wins": 60,
+          "seconds": 72,
+          "thirds": 79,
+          "others": 547
+        },
+        {
+          "label": "2023",
+          "wins": 70,
+          "seconds": 80,
+          "thirds": 69,
+          "others": 595
+        },
+        {
+          "label": "2022",
+          "wins": 72,
+          "seconds": 73,
+          "thirds": 68,
+          "others": 612
+        },
+        {
+          "label": "2021",
+          "wins": 75,
+          "seconds": 67,
+          "thirds": 70,
+          "others": 648
+        },
+        {
+          "label": "2020",
+          "wins": 30,
+          "seconds": 36,
+          "thirds": 48,
+          "others": 472
+        },
+        {
+          "label": "2019",
+          "wins": 31,
+          "seconds": 37,
+          "thirds": 32,
+          "others": 438
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:06.574Z"
+    },
+    "05674": {
+      "name": "ディー",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 19,
+          "seconds": 26,
+          "thirds": 20,
+          "others": 230
+        },
+        {
+          "label": "2026",
+          "wins": 14,
+          "seconds": 16,
+          "thirds": 10,
+          "others": 125
+        },
+        {
+          "label": "2025",
+          "wins": 5,
+          "seconds": 10,
+          "thirds": 10,
+          "others": 105
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:08.039Z"
+    },
+    "05585": {
+      "name": "レーン",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 208,
+          "seconds": 136,
+          "thirds": 113,
+          "others": 446
+        },
+        {
+          "label": "2026",
+          "wins": 22,
+          "seconds": 23,
+          "thirds": 14,
+          "others": 50
+        },
+        {
+          "label": "2025",
+          "wins": 38,
+          "seconds": 24,
+          "thirds": 21,
+          "others": 78
+        },
+        {
+          "label": "2024",
+          "wins": 2,
+          "seconds": 2,
+          "thirds": 1,
+          "others": 19
+        },
+        {
+          "label": "2023",
+          "wins": 35,
+          "seconds": 18,
+          "thirds": 19,
+          "others": 55
+        },
+        {
+          "label": "2022",
+          "wins": 32,
+          "seconds": 28,
+          "thirds": 15,
+          "others": 90
+        },
+        {
+          "label": "2020",
+          "wins": 41,
+          "seconds": 30,
+          "thirds": 25,
+          "others": 96
+        },
+        {
+          "label": "2019",
+          "wins": 38,
+          "seconds": 11,
+          "thirds": 18,
+          "others": 58
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:09.536Z"
+    },
+    "05380": {
+      "name": "矢野貴之",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 2,
+          "seconds": 0,
+          "thirds": 1,
+          "others": 44
+        },
+        {
+          "label": "2026",
+          "wins": 1,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 23
+        },
+        {
+          "label": "2025",
+          "wins": 1,
+          "seconds": 0,
+          "thirds": 1,
+          "others": 8
+        },
+        {
+          "label": "2024",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2022",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2020",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2019",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 2
+        },
+        {
+          "label": "2015",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 2
+        },
+        {
+          "label": "2011",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 4
+        },
+        {
+          "label": "2005",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2004",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:11.410Z"
+    },
+    "05571": {
+      "name": "菅原辰徳",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 5
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2025",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 3
+        },
+        {
+          "label": "2018",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:13.149Z"
+    },
+    "01059": {
+      "name": "石神深一",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 218,
+          "seconds": 238,
+          "thirds": 273,
+          "others": 3372
+        },
+        {
+          "label": "2026",
+          "wins": 3,
+          "seconds": 2,
+          "thirds": 7,
+          "others": 25
+        },
+        {
+          "label": "2025",
+          "wins": 7,
+          "seconds": 3,
+          "thirds": 11,
+          "others": 78
+        },
+        {
+          "label": "2024",
+          "wins": 12,
+          "seconds": 15,
+          "thirds": 6,
+          "others": 87
+        },
+        {
+          "label": "2023",
+          "wins": 14,
+          "seconds": 4,
+          "thirds": 8,
+          "others": 67
+        },
+        {
+          "label": "2022",
+          "wins": 15,
+          "seconds": 11,
+          "thirds": 10,
+          "others": 50
+        },
+        {
+          "label": "2021",
+          "wins": 10,
+          "seconds": 7,
+          "thirds": 3,
+          "others": 59
+        },
+        {
+          "label": "2020",
+          "wins": 11,
+          "seconds": 5,
+          "thirds": 5,
+          "others": 38
+        },
+        {
+          "label": "2019",
+          "wins": 10,
+          "seconds": 10,
+          "thirds": 8,
+          "others": 70
+        },
+        {
+          "label": "2018",
+          "wins": 7,
+          "seconds": 11,
+          "thirds": 11,
+          "others": 71
+        },
+        {
+          "label": "2017",
+          "wins": 15,
+          "seconds": 9,
+          "thirds": 9,
+          "others": 61
+        },
+        {
+          "label": "2016",
+          "wins": 15,
+          "seconds": 11,
+          "thirds": 9,
+          "others": 66
+        },
+        {
+          "label": "2015",
+          "wins": 3,
+          "seconds": 2,
+          "thirds": 9,
+          "others": 70
+        },
+        {
+          "label": "2014",
+          "wins": 4,
+          "seconds": 7,
+          "thirds": 8,
+          "others": 83
+        },
+        {
+          "label": "2013",
+          "wins": 5,
+          "seconds": 12,
+          "thirds": 5,
+          "others": 99
+        },
+        {
+          "label": "2012",
+          "wins": 5,
+          "seconds": 16,
+          "thirds": 10,
+          "others": 139
+        },
+        {
+          "label": "2011",
+          "wins": 0,
+          "seconds": 6,
+          "thirds": 4,
+          "others": 82
+        },
+        {
+          "label": "2010",
+          "wins": 4,
+          "seconds": 10,
+          "thirds": 6,
+          "others": 82
+        },
+        {
+          "label": "2009",
+          "wins": 5,
+          "seconds": 3,
+          "thirds": 5,
+          "others": 91
+        },
+        {
+          "label": "2008",
+          "wins": 3,
+          "seconds": 5,
+          "thirds": 4,
+          "others": 115
+        },
+        {
+          "label": "2007",
+          "wins": 2,
+          "seconds": 7,
+          "thirds": 9,
+          "others": 138
+        },
+        {
+          "label": "2006",
+          "wins": 5,
+          "seconds": 4,
+          "thirds": 13,
+          "others": 196
+        },
+        {
+          "label": "2005",
+          "wins": 5,
+          "seconds": 4,
+          "thirds": 9,
+          "others": 201
+        },
+        {
+          "label": "2004",
+          "wins": 16,
+          "seconds": 15,
+          "thirds": 23,
+          "others": 309
+        },
+        {
+          "label": "2003",
+          "wins": 13,
+          "seconds": 17,
+          "thirds": 26,
+          "others": 383
+        },
+        {
+          "label": "2002",
+          "wins": 17,
+          "seconds": 30,
+          "thirds": 44,
+          "others": 440
+        },
+        {
+          "label": "2001",
+          "wins": 12,
+          "seconds": 12,
+          "thirds": 11,
+          "others": 264
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:14.852Z"
+    },
+    "01123": {
+      "name": "小野寺祐",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 66,
+          "seconds": 77,
+          "thirds": 108,
+          "others": 1798
+        },
+        {
+          "label": "2026",
+          "wins": 2,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 31
+        },
+        {
+          "label": "2025",
+          "wins": 6,
+          "seconds": 6,
+          "thirds": 10,
+          "others": 70
+        },
+        {
+          "label": "2024",
+          "wins": 2,
+          "seconds": 4,
+          "thirds": 3,
+          "others": 67
+        },
+        {
+          "label": "2023",
+          "wins": 8,
+          "seconds": 13,
+          "thirds": 13,
+          "others": 68
+        },
+        {
+          "label": "2022",
+          "wins": 5,
+          "seconds": 8,
+          "thirds": 7,
+          "others": 64
+        },
+        {
+          "label": "2021",
+          "wins": 6,
+          "seconds": 5,
+          "thirds": 8,
+          "others": 59
+        },
+        {
+          "label": "2020",
+          "wins": 3,
+          "seconds": 1,
+          "thirds": 1,
+          "others": 61
+        },
+        {
+          "label": "2019",
+          "wins": 4,
+          "seconds": 0,
+          "thirds": 4,
+          "others": 52
+        },
+        {
+          "label": "2018",
+          "wins": 2,
+          "seconds": 1,
+          "thirds": 3,
+          "others": 39
+        },
+        {
+          "label": "2017",
+          "wins": 4,
+          "seconds": 6,
+          "thirds": 4,
+          "others": 58
+        },
+        {
+          "label": "2016",
+          "wins": 3,
+          "seconds": 4,
+          "thirds": 5,
+          "others": 81
+        },
+        {
+          "label": "2015",
+          "wins": 2,
+          "seconds": 5,
+          "thirds": 5,
+          "others": 111
+        },
+        {
+          "label": "2014",
+          "wins": 0,
+          "seconds": 2,
+          "thirds": 1,
+          "others": 87
+        },
+        {
+          "label": "2013",
+          "wins": 0,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 55
+        },
+        {
+          "label": "2012",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 70
+        },
+        {
+          "label": "2011",
+          "wins": 7,
+          "seconds": 6,
+          "thirds": 18,
+          "others": 339
+        },
+        {
+          "label": "2010",
+          "wins": 9,
+          "seconds": 11,
+          "thirds": 17,
+          "others": 314
+        },
+        {
+          "label": "2009",
+          "wins": 3,
+          "seconds": 3,
+          "thirds": 9,
+          "others": 172
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:16.368Z"
+    },
+    "05563": {
+      "name": "桜井光輔",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 9
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 4
+        },
+        {
+          "label": "2019",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 2
+        },
+        {
+          "label": "2018",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 3
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:17.821Z"
+    },
+    "05524": {
+      "name": "笹川翼",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 3,
+          "seconds": 3,
+          "thirds": 4,
+          "others": 80
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 1,
+          "others": 7
+        },
+        {
+          "label": "2025",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 1,
+          "others": 7
+        },
+        {
+          "label": "2024",
+          "wins": 3,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 11
+        },
+        {
+          "label": "2023",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 9
+        },
+        {
+          "label": "2022",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2021",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "2020",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 1,
+          "others": 8
+        },
+        {
+          "label": "2019",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 7
+        },
+        {
+          "label": "2018",
+          "wins": 0,
+          "seconds": 1,
+          "thirds": 1,
+          "others": 10
+        },
+        {
+          "label": "2017",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 4
+        },
+        {
+          "label": "2016",
+          "wins": 0,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 8
+        },
+        {
+          "label": "2015",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 7
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:19.290Z"
+    },
+    "00726": {
+      "name": "岩部純二",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 159,
+          "seconds": 204,
+          "thirds": 194,
+          "others": 4364
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 31
+        },
+        {
+          "label": "2025",
+          "wins": 0,
+          "seconds": 2,
+          "thirds": 3,
+          "others": 91
+        },
+        {
+          "label": "2024",
+          "wins": 1,
+          "seconds": 4,
+          "thirds": 3,
+          "others": 129
+        },
+        {
+          "label": "2023",
+          "wins": 1,
+          "seconds": 0,
+          "thirds": 3,
+          "others": 100
+        },
+        {
+          "label": "2022",
+          "wins": 0,
+          "seconds": 2,
+          "thirds": 5,
+          "others": 121
+        },
+        {
+          "label": "2021",
+          "wins": 5,
+          "seconds": 5,
+          "thirds": 3,
+          "others": 106
+        },
+        {
+          "label": "2020",
+          "wins": 3,
+          "seconds": 4,
+          "thirds": 5,
+          "others": 150
+        },
+        {
+          "label": "2019",
+          "wins": 5,
+          "seconds": 1,
+          "thirds": 4,
+          "others": 152
+        },
+        {
+          "label": "2018",
+          "wins": 6,
+          "seconds": 6,
+          "thirds": 6,
+          "others": 174
+        },
+        {
+          "label": "2017",
+          "wins": 5,
+          "seconds": 3,
+          "thirds": 5,
+          "others": 193
+        },
+        {
+          "label": "2016",
+          "wins": 5,
+          "seconds": 2,
+          "thirds": 4,
+          "others": 190
+        },
+        {
+          "label": "2015",
+          "wins": 0,
+          "seconds": 3,
+          "thirds": 2,
+          "others": 117
+        },
+        {
+          "label": "2014",
+          "wins": 5,
+          "seconds": 5,
+          "thirds": 4,
+          "others": 103
+        },
+        {
+          "label": "2013",
+          "wins": 6,
+          "seconds": 7,
+          "thirds": 6,
+          "others": 82
+        },
+        {
+          "label": "2012",
+          "wins": 4,
+          "seconds": 5,
+          "thirds": 8,
+          "others": 83
+        },
+        {
+          "label": "2011",
+          "wins": 2,
+          "seconds": 3,
+          "thirds": 1,
+          "others": 74
+        },
+        {
+          "label": "2010",
+          "wins": 3,
+          "seconds": 2,
+          "thirds": 3,
+          "others": 76
+        },
+        {
+          "label": "2009",
+          "wins": 1,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 45
+        },
+        {
+          "label": "2008",
+          "wins": 5,
+          "seconds": 2,
+          "thirds": 3,
+          "others": 86
+        },
+        {
+          "label": "2007",
+          "wins": 3,
+          "seconds": 9,
+          "thirds": 3,
+          "others": 82
+        },
+        {
+          "label": "2006",
+          "wins": 2,
+          "seconds": 5,
+          "thirds": 2,
+          "others": 69
+        },
+        {
+          "label": "2005",
+          "wins": 0,
+          "seconds": 1,
+          "thirds": 2,
+          "others": 91
+        },
+        {
+          "label": "2004",
+          "wins": 3,
+          "seconds": 4,
+          "thirds": 7,
+          "others": 108
+        },
+        {
+          "label": "2003",
+          "wins": 5,
+          "seconds": 6,
+          "thirds": 2,
+          "others": 111
+        },
+        {
+          "label": "2002",
+          "wins": 4,
+          "seconds": 4,
+          "thirds": 5,
+          "others": 151
+        },
+        {
+          "label": "2001",
+          "wins": 5,
+          "seconds": 10,
+          "thirds": 7,
+          "others": 189
+        },
+        {
+          "label": "2000",
+          "wins": 10,
+          "seconds": 20,
+          "thirds": 17,
+          "others": 229
+        },
+        {
+          "label": "1999",
+          "wins": 9,
+          "seconds": 20,
+          "thirds": 11,
+          "others": 255
+        },
+        {
+          "label": "1998",
+          "wins": 18,
+          "seconds": 26,
+          "thirds": 25,
+          "others": 195
+        },
+        {
+          "label": "1997",
+          "wins": 8,
+          "seconds": 9,
+          "thirds": 9,
+          "others": 152
+        },
+        {
+          "label": "1996",
+          "wins": 12,
+          "seconds": 10,
+          "thirds": 11,
+          "others": 197
+        },
+        {
+          "label": "1995",
+          "wins": 18,
+          "seconds": 15,
+          "thirds": 18,
+          "others": 266
+        },
+        {
+          "label": "1994",
+          "wins": 5,
+          "seconds": 8,
+          "thirds": 7,
+          "others": 156
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:20.865Z"
+    },
+    "01215": {
+      "name": "橋木太希",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 5,
+          "seconds": 9,
+          "thirds": 12,
+          "others": 297
+        },
+        {
+          "label": "2026",
+          "wins": 2,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 25
+        },
+        {
+          "label": "2025",
+          "wins": 2,
+          "seconds": 3,
+          "thirds": 7,
+          "others": 169
+        },
+        {
+          "label": "2024",
+          "wins": 1,
+          "seconds": 6,
+          "thirds": 5,
+          "others": 103
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:22.314Z"
+    },
+    "05053": {
+      "name": "丸野勝虎",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 3,
+          "seconds": 4,
+          "thirds": 2,
+          "others": 168
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 3
+        },
+        {
+          "label": "2025",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 4
+        },
+        {
+          "label": "2023",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 3
+        },
+        {
+          "label": "2016",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 6
+        },
+        {
+          "label": "2014",
+          "wins": 0,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 7
+        },
+        {
+          "label": "2013",
+          "wins": 1,
+          "seconds": 1,
+          "thirds": 1,
+          "others": 13
+        },
+        {
+          "label": "2012",
+          "wins": 0,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 28
+        },
+        {
+          "label": "2011",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 25
+        },
+        {
+          "label": "2009",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 4
+        },
+        {
+          "label": "2007",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 1,
+          "others": 16
+        },
+        {
+          "label": "2006",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 16
+        },
+        {
+          "label": "2005",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 9
+        },
+        {
+          "label": "2004",
+          "wins": 1,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 24
+        },
+        {
+          "label": "2003",
+          "wins": 1,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 3
+        },
+        {
+          "label": "2001",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 2
+        },
+        {
+          "label": "2000",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        },
+        {
+          "label": "1999",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 3
+        },
+        {
+          "label": "1996",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 1
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:23.793Z"
+    },
+    "05676": {
+      "name": "ハマーハ",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 11,
+          "seconds": 10,
+          "thirds": 5,
+          "others": 90
+        },
+        {
+          "label": "2026",
+          "wins": 9,
+          "seconds": 10,
+          "thirds": 5,
+          "others": 87
+        },
+        {
+          "label": "2025",
+          "wins": 2,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 3
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:25.179Z"
+    },
+    "01093": {
+      "name": "藤岡佑介",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 1110,
+          "seconds": 1092,
+          "thirds": 1075,
+          "others": 9068
+        },
+        {
+          "label": "2026",
+          "wins": 7,
+          "seconds": 7,
+          "thirds": 8,
+          "others": 34
+        },
+        {
+          "label": "2025",
+          "wins": 49,
+          "seconds": 38,
+          "thirds": 33,
+          "others": 239
+        },
+        {
+          "label": "2024",
+          "wins": 51,
+          "seconds": 59,
+          "thirds": 46,
+          "others": 334
+        },
+        {
+          "label": "2023",
+          "wins": 44,
+          "seconds": 25,
+          "thirds": 36,
+          "others": 293
+        },
+        {
+          "label": "2022",
+          "wins": 47,
+          "seconds": 41,
+          "thirds": 49,
+          "others": 317
+        },
+        {
+          "label": "2021",
+          "wins": 51,
+          "seconds": 59,
+          "thirds": 52,
+          "others": 334
+        },
+        {
+          "label": "2020",
+          "wins": 68,
+          "seconds": 74,
+          "thirds": 43,
+          "others": 396
+        },
+        {
+          "label": "2019",
+          "wins": 58,
+          "seconds": 55,
+          "thirds": 43,
+          "others": 382
+        },
+        {
+          "label": "2018",
+          "wins": 74,
+          "seconds": 65,
+          "thirds": 57,
+          "others": 429
+        },
+        {
+          "label": "2017",
+          "wins": 36,
+          "seconds": 43,
+          "thirds": 43,
+          "others": 404
+        },
+        {
+          "label": "2016",
+          "wins": 37,
+          "seconds": 33,
+          "thirds": 44,
+          "others": 300
+        },
+        {
+          "label": "2015",
+          "wins": 39,
+          "seconds": 33,
+          "thirds": 31,
+          "others": 377
+        },
+        {
+          "label": "2014",
+          "wins": 39,
+          "seconds": 47,
+          "thirds": 45,
+          "others": 488
+        },
+        {
+          "label": "2013",
+          "wins": 19,
+          "seconds": 16,
+          "thirds": 18,
+          "others": 167
+        },
+        {
+          "label": "2012",
+          "wins": 39,
+          "seconds": 57,
+          "thirds": 35,
+          "others": 502
+        },
+        {
+          "label": "2011",
+          "wins": 42,
+          "seconds": 59,
+          "thirds": 49,
+          "others": 511
+        },
+        {
+          "label": "2010",
+          "wins": 63,
+          "seconds": 65,
+          "thirds": 64,
+          "others": 540
+        },
+        {
+          "label": "2009",
+          "wins": 67,
+          "seconds": 68,
+          "thirds": 71,
+          "others": 535
+        },
+        {
+          "label": "2008",
+          "wins": 75,
+          "seconds": 74,
+          "thirds": 73,
+          "others": 513
+        },
+        {
+          "label": "2007",
+          "wins": 57,
+          "seconds": 59,
+          "thirds": 75,
+          "others": 532
+        },
+        {
+          "label": "2006",
+          "wins": 51,
+          "seconds": 41,
+          "thirds": 72,
+          "others": 548
+        },
+        {
+          "label": "2005",
+          "wins": 62,
+          "seconds": 52,
+          "thirds": 56,
+          "others": 545
+        },
+        {
+          "label": "2004",
+          "wins": 35,
+          "seconds": 22,
+          "thirds": 32,
+          "others": 342
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:26.669Z"
+    },
+    "01005": {
+      "name": "西谷誠",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 226,
+          "seconds": 184,
+          "thirds": 167,
+          "others": 1382
+        },
+        {
+          "label": "2026",
+          "wins": 1,
+          "seconds": 0,
+          "thirds": 0,
+          "others": 2
+        },
+        {
+          "label": "2025",
+          "wins": 1,
+          "seconds": 3,
+          "thirds": 3,
+          "others": 16
+        },
+        {
+          "label": "2024",
+          "wins": 2,
+          "seconds": 4,
+          "thirds": 4,
+          "others": 10
+        },
+        {
+          "label": "2023",
+          "wins": 7,
+          "seconds": 1,
+          "thirds": 6,
+          "others": 21
+        },
+        {
+          "label": "2022",
+          "wins": 3,
+          "seconds": 4,
+          "thirds": 4,
+          "others": 27
+        },
+        {
+          "label": "2021",
+          "wins": 6,
+          "seconds": 8,
+          "thirds": 6,
+          "others": 44
+        },
+        {
+          "label": "2020",
+          "wins": 4,
+          "seconds": 6,
+          "thirds": 7,
+          "others": 45
+        },
+        {
+          "label": "2019",
+          "wins": 3,
+          "seconds": 5,
+          "thirds": 4,
+          "others": 38
+        },
+        {
+          "label": "2018",
+          "wins": 5,
+          "seconds": 2,
+          "thirds": 3,
+          "others": 24
+        },
+        {
+          "label": "2017",
+          "wins": 4,
+          "seconds": 2,
+          "thirds": 5,
+          "others": 27
+        },
+        {
+          "label": "2016",
+          "wins": 3,
+          "seconds": 3,
+          "thirds": 5,
+          "others": 29
+        },
+        {
+          "label": "2015",
+          "wins": 11,
+          "seconds": 4,
+          "thirds": 9,
+          "others": 32
+        },
+        {
+          "label": "2014",
+          "wins": 10,
+          "seconds": 9,
+          "thirds": 5,
+          "others": 33
+        },
+        {
+          "label": "2013",
+          "wins": 8,
+          "seconds": 4,
+          "thirds": 4,
+          "others": 47
+        },
+        {
+          "label": "2012",
+          "wins": 8,
+          "seconds": 3,
+          "thirds": 3,
+          "others": 34
+        },
+        {
+          "label": "2011",
+          "wins": 8,
+          "seconds": 5,
+          "thirds": 6,
+          "others": 44
+        },
+        {
+          "label": "2010",
+          "wins": 4,
+          "seconds": 6,
+          "thirds": 9,
+          "others": 54
+        },
+        {
+          "label": "2009",
+          "wins": 11,
+          "seconds": 11,
+          "thirds": 5,
+          "others": 47
+        },
+        {
+          "label": "2008",
+          "wins": 13,
+          "seconds": 14,
+          "thirds": 7,
+          "others": 33
+        },
+        {
+          "label": "2007",
+          "wins": 15,
+          "seconds": 9,
+          "thirds": 5,
+          "others": 36
+        },
+        {
+          "label": "2006",
+          "wins": 13,
+          "seconds": 7,
+          "thirds": 5,
+          "others": 31
+        },
+        {
+          "label": "2005",
+          "wins": 6,
+          "seconds": 5,
+          "thirds": 5,
+          "others": 24
+        },
+        {
+          "label": "2004",
+          "wins": 2,
+          "seconds": 2,
+          "thirds": 3,
+          "others": 35
+        },
+        {
+          "label": "2003",
+          "wins": 3,
+          "seconds": 2,
+          "thirds": 5,
+          "others": 38
+        },
+        {
+          "label": "2002",
+          "wins": 6,
+          "seconds": 9,
+          "thirds": 2,
+          "others": 40
+        },
+        {
+          "label": "2001",
+          "wins": 7,
+          "seconds": 3,
+          "thirds": 4,
+          "others": 40
+        },
+        {
+          "label": "2000",
+          "wins": 6,
+          "seconds": 5,
+          "thirds": 4,
+          "others": 30
+        },
+        {
+          "label": "1999",
+          "wins": 6,
+          "seconds": 7,
+          "thirds": 2,
+          "others": 23
+        },
+        {
+          "label": "1998",
+          "wins": 10,
+          "seconds": 10,
+          "thirds": 5,
+          "others": 30
+        },
+        {
+          "label": "1997",
+          "wins": 5,
+          "seconds": 11,
+          "thirds": 6,
+          "others": 42
+        },
+        {
+          "label": "1996",
+          "wins": 19,
+          "seconds": 11,
+          "thirds": 12,
+          "others": 187
+        },
+        {
+          "label": "1995",
+          "wins": 16,
+          "seconds": 9,
+          "thirds": 14,
+          "others": 185
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:28.146Z"
+    },
+    "05666": {
+      "name": "望月洵輝",
+      "rows": [
+        {
+          "label": "累計",
+          "wins": 1,
+          "seconds": 1,
+          "thirds": 1,
+          "others": 3
+        },
+        {
+          "label": "2026",
+          "wins": 0,
+          "seconds": 0,
+          "thirds": 1,
+          "others": 3
+        },
+        {
+          "label": "2024",
+          "wins": 1,
+          "seconds": 1,
+          "thirds": 0,
+          "others": 0
+        }
+      ],
+      "fetchedAt": "2026-08-05T07:12:29.543Z"
     }
   }
 }
