@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-13T02:25:20.515Z",
+  "fetchedAt": "2026-09-13T07:34:24.456Z",
   "dates": [
     "2026-06-28",
     "2026-07-04",
@@ -121275,7 +121275,7 @@
           "netKeibaHorseId": "2022100526",
           "jockey": "柴田大",
           "jockeyId": "01009",
-          "odds": 23
+          "odds": 40.1
         },
         {
           "id": 604041202,
@@ -121286,7 +121286,7 @@
           "netKeibaHorseId": "2021103033",
           "jockey": "内田博",
           "jockeyId": "00422",
-          "odds": 38.3
+          "odds": 67.1
         },
         {
           "id": 604041203,
@@ -121297,7 +121297,7 @@
           "netKeibaHorseId": "2022106427",
           "jockey": "野中",
           "jockeyId": "01158",
-          "odds": 12.9
+          "odds": 29.7
         },
         {
           "id": 604041204,
@@ -121308,7 +121308,7 @@
           "netKeibaHorseId": "2023106313",
           "jockey": "田辺",
           "jockeyId": "01075",
-          "odds": 2.6
+          "odds": 1.8
         },
         {
           "id": 604041205,
@@ -121319,7 +121319,7 @@
           "netKeibaHorseId": "2021103209",
           "jockey": "横山琉",
           "jockeyId": "01192",
-          "odds": 31.1
+          "odds": 111
         },
         {
           "id": 604041206,
@@ -121330,7 +121330,7 @@
           "netKeibaHorseId": "2021105375",
           "jockey": "岩田康",
           "jockeyId": "05203",
-          "odds": 16
+          "odds": 33.3
         },
         {
           "id": 604041207,
@@ -121341,7 +121341,7 @@
           "netKeibaHorseId": "2022105556",
           "jockey": "岩田望",
           "jockeyId": "01174",
-          "odds": 5.6
+          "odds": 6.3
         },
         {
           "id": 604041208,
@@ -121352,7 +121352,7 @@
           "netKeibaHorseId": "2022107226",
           "jockey": "今村",
           "jockeyId": "01193",
-          "odds": 11.1
+          "odds": 19.5
         },
         {
           "id": 604041209,
@@ -121363,7 +121363,7 @@
           "netKeibaHorseId": "2021101603",
           "jockey": "横山武",
           "jockeyId": "01170",
-          "odds": 8.3
+          "odds": 6.6
         },
         {
           "id": 604041210,
@@ -121374,7 +121374,7 @@
           "netKeibaHorseId": "2022106951",
           "jockey": "大野",
           "jockeyId": "01096",
-          "odds": 26.7
+          "odds": 19.5
         },
         {
           "id": 604041211,
@@ -121385,7 +121385,7 @@
           "netKeibaHorseId": "2021103376",
           "jockey": "丹内",
           "jockeyId": "01091",
-          "odds": 10.5
+          "odds": 8.6
         },
         {
           "id": 604041212,
@@ -121396,7 +121396,7 @@
           "netKeibaHorseId": "2021101195",
           "jockey": "松山",
           "jockeyId": "01126",
-          "odds": 11
+          "odds": 14.3
         },
         {
           "id": 604041213,
@@ -121407,7 +121407,7 @@
           "netKeibaHorseId": "2023101542",
           "jockey": "長浜",
           "jockeyId": "01214",
-          "odds": 61
+          "odds": 224.5
         }
       ]
     },
