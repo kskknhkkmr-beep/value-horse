@@ -41,7 +41,9 @@ app/page.tsx   EV_MIN=0.10 / EDGE_MIN=0.02 / ODDS_MAX=50 でフィルタして�
 | `app/` | Next.js 16 App Router。`page.tsx` がメインUI、`api/` に3ルート |
 | `lib/*.ts` | モデル本体。`engine.ts`（スコア計算）、`scorer.ts`、`scraper.ts`、`combination-ev.ts` |
 | `lib/*.json` | **本番データキャッシュ。GitHub Actions が自動更新・自動commitする** |
-| `lib/backfill/` | **6ヶ月バックフィルデータ（Git管理外・下記§5参照）** |
+| `lib/backfill/` | **development専用データ（2026-02-07〜06-21、1,338R、Git管理外）** |
+| `.sealed-data/fixed-evaluation-20260627/` | **固定評価区画（2026-06-27〜08-02、432R、通常時は読込禁止）** |
+| `.sealed-data/source-full-20260207-20260802/` | **分割前の完全版原本（1,770R、分析入力にしない）** |
 | `lib/backfill-test/` | 小規模テスト用（`.gitignore` 済み・再生成可能） |
 | `scripts/*.ts` | 取得・分析スクリプト |
 | `scripts/_*.ts` | **一時分析スクリプト。`tsconfig.json` の型チェック対象外** |
@@ -100,14 +102,13 @@ app/page.tsx   EV_MIN=0.10 / EDGE_MIN=0.02 / ODDS_MAX=50 でフィルタして�
 |---|---|---|
 | `lib/races-cache.json` 等の本番キャッシュ | **GitHub（追跡済み）** | 復旧可能 |
 | `docs/` の判断記録 | **GitHub（追跡済み）** | 復旧可能 |
-| **`lib/backfill/`（29MB、6ヶ月・8,683頭）** | ⚠ **このPCのローカルのみ** | **再取得に約44時間**（実測 2,641分のスクレイピング。2026-08-05〜08-08に取得） |
+| **development `lib/backfill/`** | このPCのローカル（Git管理外） | 隔離原本から再生成可能 |
+| **fixed evaluation / 完全版原本 `.sealed-data/`** | このPCのローカル（Git管理外・Google Drive別途バックアップ済み） | **再取得に約44時間** |
 | `scripts/_cache/`, `lib/backfill-test/` | ローカルのみ（`.gitignore`済み） | 再生成可能・軽微 |
 
-**`lib/backfill/` はGit管理外だが `.gitignore` にも入っていない。**
-これは意図的な保留状態であり、このPCが故障すると失われる。
-中身: `horses.json` / `races.json` / `races-cache.json` / `results-cache.json` /
-`payouts-cache.json` / `scores-cache.json`(v3) / `scores-cache-v2.json` /
-`race-index.json` / 取得ログ。
+`lib/backfill/` と `.sealed-data/` は `.gitignore` 済み。PUBLIC GitHubへ追加しない。
+developmentにはv3だけを置き、リーク再現用 `scores-cache-v2.json` は完全版原本にのみ保管する。
+境界・ハッシュ・解禁条件は [`FIXED_EVALUATION.md`](FIXED_EVALUATION.md) を参照。
 
 **すべての診断・A/B検証・基準点はこのデータに依存している。**
 失うと `_diagnose-market-agreement.ts` が動かず、基準点比較ができなくなる。

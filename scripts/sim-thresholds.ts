@@ -52,7 +52,27 @@ export type BuildSource = { dir?: string; scoresFile?: string };
 /** 文字列を渡した場合は「スコアファイル名だけ差し替え」と解釈する（後方互換） */
 function normalizeSource(src: string | BuildSource): Required<BuildSource> {
   const o = typeof src === "string" ? { scoresFile: src } : src;
-  return { dir: o.dir ?? "lib", scoresFile: o.scoresFile ?? "scores-cache.json" };
+  const dir = o.dir ?? "lib";
+  const normalizedDir = dir.replace(/\\/g, "/").toLowerCase();
+
+  // 完全版原本は再生成・監査用の保全物であり、分析入力にしない。
+  if (normalizedDir.includes(".sealed-data/source-full-")) {
+    throw new Error("隔離済みの完全版原本は分析入力として使用できません");
+  }
+
+  // fixed evaluation は通常の開発中に開かない。最終評価の一度だけ、
+  // 事前に固定した commit/成功基準の下で明示的に解禁する。
+  if (
+    normalizedDir.includes(".sealed-data/fixed-evaluation-") &&
+    process.env.VALUE_HORSE_FIXED_EVAL_UNLOCK !==
+      "I_UNDERSTAND_FIXED_EVALUATION_IS_ONE_TIME"
+  ) {
+    throw new Error(
+      "fixed evaluation は凍結中です。通常のdevelopment分析からは読み込めません"
+    );
+  }
+
+  return { dir, scoresFile: o.scoresFile ?? "scores-cache.json" };
 }
 
 // 各レースの候補馬（EV_MIN のみ通過前の全馬情報を保持）
@@ -250,6 +270,9 @@ function main() {
   }
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`) {
+if (
+  process.argv[1] &&
+  import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`
+) {
   main();
 }

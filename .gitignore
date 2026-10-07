@@ -52,6 +52,12 @@ next-env.d.ts
 # バックフィルの小規模テスト用データ（再生成可能）
 /lib/backfill-test/
 
+# 固定評価分割のローカルデータ
+# lib/backfill/ には development 区画だけを置き、完全版原本と
+# fixed evaluation は .sealed-data/ に物理的に隔離する。PUBLIC repo には追加しない。
+/lib/backfill/
+/.sealed-data/
+
 # 個人用の管理台帳・他プロジェクトの引継ぎ資料（このリポジトリはPUBLIC。
 # 誤って `git add -A` で公開しないよう除外する。ファイル自体は残してある）
 /20260726_本部②_chat_引継ぎ一次資料.md

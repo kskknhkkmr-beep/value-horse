@@ -22,9 +22,13 @@ VALUE HORSEは**競馬予想アプリではない。** 目的は的中率やAUC�
 
 ## やってはいけないこと
 
-1. **ホールドアウト固定が完了する前に、モデル改善を開始しない。**
-   次の作業は [`docs/NEXT_SESSION.md`](docs/NEXT_SESSION.md) の1件だけ。
-   ゲートモデル実装・特徴量追加・閾値探索・ROI探索へ勝手に進まない。
+1. **固定評価区画をdevelopment中に開かない。**
+   2026-06-27〜2026-08-02の432レースは固定評価区画として隔離済み。
+   通常の開発は2026-06-21までのdevelopment 1,338レースだけを使う。
+   詳細は [`docs/FIXED_EVALUATION.md`](docs/FIXED_EVALUATION.md) と
+   [`docs/fixed-evaluation-manifest.json`](docs/fixed-evaluation-manifest.json) を参照。
+   ゲートモデル実装・特徴量追加・閾値探索・ROI探索はオーナーの
+   別途承認なしに開始しない。
 
 2. **ROIが良いセグメントを後付けで探索しない。**
    「芝だけなら」「マイルだけなら」「この閾値なら」プラス、という探し方で

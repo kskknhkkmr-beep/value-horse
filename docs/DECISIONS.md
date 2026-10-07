@@ -151,3 +151,15 @@ v2とv3はjockeyScoreの算出法しか違わず、選定基準への影響が�
 | [`score-horse-misassignment.md`](score-horse-misassignment.md) | **未修正の不具合** |
 | [`session-log-2026-09-02.md`](session-log-2026-09-02.md) | 方針転換当日の詳細な作業ログ |
 | [`2026-06-13-work-log.md`](2026-06-13-work-log.md) | 初期の作業ログ |
+
+---
+
+## 7. 時系列固定評価境界（2026-10-07、変更禁止）
+
+- development: 2026-02-07〜2026-06-21（1,338R）
+- fixed evaluation: 2026-06-27〜2026-08-02（432R）
+- 境界: 2026-06-27
+
+この境界は成績・ROI・AUCを見て選んでおらず、評価結果を見た後も変更しない。
+fixed evaluationは過去診断で使用済みのため、厳密な完全未見データとは呼ばない。
+今後のdevelopmentに対する一回限りの固定評価区画とする。

@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-07T04:51:39.755Z",
+  "boundaryDate": "2026-06-27",
+  "source": {
+    "period": {
+      "from": "2026-02-07",
+      "to": "2026-08-02"
+    },
+    "collectionWindow": {
+      "from": "2026-02-05",
+      "to": "2026-08-05"
+    },
+    "races": 1770,
+    "commit": "2e34baaa7ec4381743c001b883b125e13273eb70",
+    "directory": ".sealed-data/source-full-20260207-20260802",
+    "files": [
+      "race-index.json",
+      "races.json",
+      "horses.json",
+      "races-cache.json",
+      "results-cache.json",
+      "payouts-cache.json",
+      "scores-cache.json",
+      "scores-cache-v2.json",
+      "progress.log",
+      "run.out",
+      "run-retry.out"
+    ],
+    "sha256": {
+      "race-index.json": "4779cae05d2f541eae988694047932613306954c81851912ed091d27410ff06d",
+      "races.json": "5a72a848ee21d5b2769154d60948d8d7abc9432192d417455ff1ec5ca4a75198",
+      "horses.json": "3bdd9ce4b1762986f592519941c68c2a36dd4580fc85a88aef4125c94634754f",
+      "races-cache.json": "dd043f6c097907bf5489ed38a132c036bbb81f62a14c8d015f22a353a4217bb9",
+      "results-cache.json": "bd59a0fd0ec1228fb13245d9f495788b3dd62686e90d992ffa3f5504fb52b6e6",
+      "payouts-cache.json": "0c7fd54f21744af1679e98565c1c60c230eb6abd158dde7e0b426a2d1047a93a",
+      "scores-cache.json": "df1fe8ad118d39c5f282481a8dc05f4d44357fd9122b1b75efb40d2afbded002",
+      "scores-cache-v2.json": "d737cfc415097b5228b43e75f79ffa4b8953246333c37d60af6191644b4af659",
+      "progress.log": "ec859b6278169496c14b90f71756489d1a3008d6624649fd8536d9f70273833b",
+      "run.out": "419ad841400cbcbd89bf606f5fbb5a21f933f03affbb3956ee10fa03a0cec790",
+      "run-retry.out": "ceb774acb5683235471e91905dad13785bd2dfd277299c4569054f74eee5ddbc"
+    }
+  },
+  "development": {
+    "period": {
+      "from": "2026-02-07",
+      "to": "2026-06-21"
+    },
+    "races": 1338,
+    "directory": "lib/backfill",
+    "files": [
+      "race-index.json",
+      "races.json",
+      "horses.json",
+      "races-cache.json",
+      "results-cache.json",
+      "payouts-cache.json",
+      "scores-cache.json"
+    ],
+    "sha256": {
+      "race-index.json": "659688ade76ed8759bfc0e1ac49cb12a964e1c3b4976b8459d05d30b498afb7b",
+      "races.json": "f3a28b5ac0857edb238dfa376eaf822c3ea39d3cf28ba6d188b1e8482ce3321f",
+      "horses.json": "a1b122f9d028bf428f2bc6c5f179450e9fcf475cda934711693e60f6a3e0667a",
+      "races-cache.json": "c2ab9ff54d3619c8fac5e74ece542b015e27c8a70762035af23df76a83e6fe56",
+      "results-cache.json": "2a5cd88179fcee1a94aa850892b3b625202fcdc90ec769ecd6d85fa2d7a5e42d",
+      "payouts-cache.json": "d88a93a5d1ce9ac766db954d994cb9073cbdf78d09fe2f109d5ef1b7a2b36479",
+      "scores-cache.json": "a97a01527d1d606b3e95865d356b01926aeeda83f895bb887ed454840a4e22de"
+    },
+    "prohibitedFiles": [
+      "scores-cache-v2.json"
+    ]
+  },
+  "fixedEvaluation": {
+    "period": {
+      "from": "2026-06-27",
+      "to": "2026-08-02"
+    },
+    "races": 432,
+    "directory": ".sealed-data/fixed-evaluation-20260627",
+    "files": [
+      "race-index.json",
+      "races.json",
+      "horses.json",
+      "races-cache.json",
+      "results-cache.json",
+      "payouts-cache.json",
+      "scores-cache.json"
+    ],
+    "sha256": {
+      "race-index.json": "2cabf1c9e7ec4d06c0db223373e3cd218dc78b8274e920bae70ff6666a0f8fa7",
+      "races.json": "65750368a655fb941b64e647a22702bf9826bb1ca4e85ddf19de021ba38e96ba",
+      "horses.json": "4e1eb4673ec37c6ba8e243c535886367709798f95013ee6d65dea9cbaae1648f",
+      "races-cache.json": "2b59f2464f572a6dbb840ad6d6d549eba951618530569b159f960353528d8149",
+      "results-cache.json": "21c6d4ef63dfc1f0da9473a62de7ce9fa8586891fc009efd989774f47cf27df6",
+      "payouts-cache.json": "782a089ff909d730924574daea9010e7cf98674c5757053d4835d596cfefb10f",
+      "scores-cache.json": "e3e44d3614be97ea18a864fb5c1b7d5abbed31666de4c797beef37b110853aa6"
+    },
+    "priorUseDisclosure": "過去の市場乖離診断で使用済みであり、厳密な完全未見データではない"
+  },
+  "invariants": {
+    "boundaryWillNotChangeAfterViewingEvaluationResults": true,
+    "developmentAndFixedRaceIdsDisjoint": true,
+    "unionMatchesSourceRaceIds": true,
+    "performanceMetricsIncluded": false,
+    "strictUnseenEvaluation": "2026-08-02より後に蓄積された将来データで別途実施する",
+    "horseFeatureRule": "各レース日より厳密に前の履歴だけを使用する",
+    "jockeyFeatureRule": "レース年より前の年度行だけを使用する"
+  }
+}
