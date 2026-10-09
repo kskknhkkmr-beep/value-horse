@@ -60,7 +60,8 @@ Stage 1モデルは未実装。ローカル取得データはGit管理外。
 
 development時系列シミュレーター基盤と制約・合成テストは
 [`docs/TIMELINE_SIMULATOR.md`](docs/TIMELINE_SIMULATOR.md) を参照。
-現行VHの性能評価は未実行。発走前オッズがなく、厳密な市場ブレンド再現は未対応。
+現行VHのdevelopment監査は [`docs/STAGE0_AUDIT.md`](docs/STAGE0_AUDIT.md) を参照。
+最終オッズによる参考分析であり、発走前オッズを使った厳密な再現ではない。
 
 ---
 
