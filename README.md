@@ -58,6 +58,10 @@ development専用のrawデータ取得・再開・品質監査については
 [`docs/STAGE1_RAW_DATA.md`](docs/STAGE1_RAW_DATA.md) を参照。
 Stage 1モデルは未実装。ローカル取得データはGit管理外。
 
+development時系列シミュレーター基盤と制約・合成テストは
+[`docs/TIMELINE_SIMULATOR.md`](docs/TIMELINE_SIMULATOR.md) を参照。
+現行VHの性能評価は未実行。発走前オッズがなく、厳密な市場ブレンド再現は未対応。
+
 ---
 
 ## セットアップ

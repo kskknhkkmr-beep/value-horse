@@ -46,6 +46,8 @@ app/page.tsx   EV_MIN=0.10 / EDGE_MIN=0.02 / ODDS_MAX=50 でフィルタして�
 | `.sealed-data/source-full-20260207-20260802/` | **分割前の完全版原本（1,770R、分析入力にしない）** |
 | `lib/backfill-test/` | 小規模テスト用（`.gitignore` 済み・再生成可能） |
 | `scripts/*.ts` | 取得・分析スクリプト |
+| `scripts/simulator/` | development専用の時系列検証基盤。モデルは内蔵しない |
+| `lib/simulation-runs/` | 版別の予測・正解記録（Git管理外・上書き禁止） |
 | `scripts/_*.ts` | **一時分析スクリプト。`tsconfig.json` の型チェック対象外** |
 | `scripts/_cache/` | 分析用の中間データ（`.gitignore` 済み） |
 | `docs/` | 判断の記録。**このプロジェクトの中核資産** |

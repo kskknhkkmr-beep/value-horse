@@ -58,6 +58,7 @@ next-env.d.ts
 /lib/backfill/
 /lib/backfill-stage1/
 /lib/backfill-stage1-sample/
+/lib/simulation-runs/
 /.sealed-data/
 
 # 個人用の管理台帳・他プロジェクトの引継ぎ資料（このリポジトリはPUBLIC。
