@@ -56,6 +56,8 @@ next-env.d.ts
 # lib/backfill/ には development 区画だけを置き、完全版原本と
 # fixed evaluation は .sealed-data/ に物理的に隔離する。PUBLIC repo には追加しない。
 /lib/backfill/
+/lib/backfill-stage1/
+/lib/backfill-stage1-sample/
 /.sealed-data/
 
 # 個人用の管理台帳・他プロジェクトの引継ぎ資料（このリポジトリはPUBLIC。

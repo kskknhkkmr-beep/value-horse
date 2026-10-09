@@ -54,6 +54,10 @@
 完全未見データではない。
 → [`docs/FIXED_EVALUATION.md`](docs/FIXED_EVALUATION.md)
 
+development専用のrawデータ取得・再開・品質監査については
+[`docs/STAGE1_RAW_DATA.md`](docs/STAGE1_RAW_DATA.md) を参照。
+Stage 1モデルは未実装。ローカル取得データはGit管理外。
+
 ---
 
 ## セットアップ
