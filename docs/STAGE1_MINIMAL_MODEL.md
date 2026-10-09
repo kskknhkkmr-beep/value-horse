@@ -1,5 +1,8 @@
 # Stage 1 独立◎ 最小実装
 
+以下は実装時点の固定規約と記録。後続の承認による初回性能診断は
+[STAGE1_FIRST_AUDIT.md](STAGE1_FIRST_AUDIT.md) に記録した。モデル設定の変更はない。
+
 2026-10-09。オーナーは固定設定による通常学習を承認。性能評価・設定探索は未承認。
 設計の基準は [STAGE1_INDEPENDENT_DESIGN.md](STAGE1_INDEPENDENT_DESIGN.md)。
 以下の設定をdevelopmentでの学習実行前に固定した。実装検査で不具合を直しても

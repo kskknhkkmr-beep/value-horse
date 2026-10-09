@@ -56,7 +56,9 @@
 
 development専用のrawデータ取得・再開・品質監査については
 [`docs/STAGE1_RAW_DATA.md`](docs/STAGE1_RAW_DATA.md) を参照。
-Stage 1モデルは未実装。ローカル取得データはGit管理外。
+Stage 1独立◎の最小実装は [`docs/STAGE1_MINIMAL_MODEL.md`](docs/STAGE1_MINIMAL_MODEL.md)、
+保存766Rの初回診断は [`docs/STAGE1_FIRST_AUDIT.md`](docs/STAGE1_FIRST_AUDIT.md) を参照。
+モデルは市場を上回る結果を示していない。ローカル取得データ・保存予測はGit管理外。
 
 development時系列シミュレーター基盤と制約・合成テストは
 [`docs/TIMELINE_SIMULATOR.md`](docs/TIMELINE_SIMULATOR.md) を参照。

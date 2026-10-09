@@ -4,7 +4,8 @@
 
 後続のオーナー承認で最小実装・固定設定の時系列学習と予測保存を実施。
 採用範囲・固定値・校正延期の明示は [STAGE1_MINIMAL_MODEL.md](STAGE1_MINIMAL_MODEL.md)。
-性能評価・★・128通りは未実施。本設計全体を実装済みと解釈しない。
+後続承認の初回性能診断は [STAGE1_FIRST_AUDIT.md](STAGE1_FIRST_AUDIT.md)。
+★・128通りは未実施。本設計全体を実装済みと解釈しない。
 [入力品質の実測](STAGE1_INPUT_QUALITY.md)、[現行VH監査](STAGE0_AUDIT.md)、
 [TIMELINE_SIMULATOR](TIMELINE_SIMULATOR.md) が根拠。今回の変更は文書のみ。
 
