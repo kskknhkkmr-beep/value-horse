@@ -1,5 +1,13 @@
 # 次のセッションでやること
 
+## 2026-10-09: 独立評価設計を確認して停止
+
+最新の依頼に基づく設計は [`STAGE1_INDEPENDENT_DESIGN.md`](STAGE1_INDEPENDENT_DESIGN.md)。
+品質数値は [`STAGE1_INPUT_QUALITY.md`](STAGE1_INPUT_QUALITY.md)。今回承認されたのは設計のみ。
+最初の実装候補は市場情報を含まない入力契約・raw派生の来歴/欠損・合成テスト。
+モデル学習・頑健性シミュレーション・性能評価はまだ行わず、次回の明示承認を待つ。
+固定評価も引き続き未参照。以下の旧ゲート方針や監査停止記録を実装許可と解釈しない。
+
 ## 2026-10-09: 現行VH監査で停止
 
 承認されたdevelopment監査は完了。まず [`STAGE0_AUDIT.md`](STAGE0_AUDIT.md) を読む。
