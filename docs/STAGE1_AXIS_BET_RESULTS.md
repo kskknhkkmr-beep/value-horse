@@ -200,7 +200,7 @@ sanfuku除外順：2026-04-05 202609020407（単券払戻195,700円）、2026-05
 - scripts/run-stage1-axis-bets.ts：明示監査/事後検証、買い目先行凍結、追記専用出力。
 - scripts/stage1-axis-bet.test.ts：新規10件。関連テスト込み62件通過。
 - TypeScript型検査、対象4ファイルESLint、差分/空白検査通過。
-- データ本体・実行成果物はGit対象外。今回のコード/文書は未commit・未push。
+- データ本体・実行成果物はGit対象外。初回報告時は未commit・未pushだったが、2026-10-11に`6854d06`でコード/文書のcommit・pushを完了。
 
 ```powershell
 npx.cmd tsx scripts/run-stage1-axis-bets.ts --audit-only

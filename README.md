@@ -32,6 +32,7 @@
 - [特徴量アブレーション](docs/STAGE1_FEATURE_ABLATION.md) — A/D保持・B/C独立再学習。同一742Rの比較、効果は未確定で採用なし。
 - [次期特徴量・失敗構造監査](docs/STAGE1_NEXT_FEATURE_AUDIT.md) — 保存742Rのみ。クラスの明示材料・根拠件数・距離/芝ダ変更を研究案とし、相手強度/今回馬場は保留。
 - [◎の着順・複勝監査](docs/STAGE1_PLACE_AND_AXIS_AUDIT.md) — 旧VH/新v2/市場の共通679R。新◎3着以内50.96%、複勝ROI−21.89%、市場に劣る。事後参考検証。
+- [◎軸ワイド・三連複](docs/STAGE1_AXIS_BET_RESULTS.md) / [相手順位診断](docs/STAGE1_PARTNER_RANKING_DIAGNOSIS.md) — 同一742R。全方式赤字。VH2位と第一相手枠に弱さ。モデル・買い目変更なし。
 
 - [`docs/market-disagreement-diagnosis.md`](docs/market-disagreement-diagnosis.md) — **2026-09-02 基準点。**市場乖離診断の全数値
 - [`docs/gate-model-design.md`](docs/gate-model-design.md) — 二段階アーキテクチャ設計（未実装）
