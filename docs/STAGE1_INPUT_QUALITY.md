@@ -1,5 +1,9 @@
 # Stage 1 独立評価の入力品質調査（2026-10-09）
 
+2026-10-10追記：本文の芝/ダ/障件数は保存surfaceの集計で、実競走種別の保証ではない。
+障害レース名なのにsurface=芝の29Rと、障害履歴のfinal3fRawに別解釈を要する表示を確認。
+最新の制約は [STAGE1_WEAKNESS_RESEARCH.md](STAGE1_WEAKNESS_RESEARCH.md)。元の品質値は保持する。
+
 設計用の欠損・型・日付・ID調査のみ。予測、成績比較、ROI、仮説検証は行っていない。
 対象commit: `e71545a933c686039ff51c079568f9876243afb6`。
 [設計本体](STAGE1_INDEPENDENT_DESIGN.md)。取得元への通信は行わず、次のdevelopmentファイルだけを読み取り。
