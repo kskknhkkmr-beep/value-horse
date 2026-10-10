@@ -28,6 +28,7 @@
 - [Stage 1競走種別の修正](docs/STAGE1_RACE_KIND_FIX.md) — 平地1,292R。旧監査は旧分類の記録。
 - [修正後平地ベースライン](docs/STAGE1_FLAT_BASELINE.md) — 742Rの時系列予測、固定設定。市場に劣る結果を保持。
 - [Stage 1 v2事前規約](docs/STAGE1_V2_PLAN.md) / [固定比較結果](docs/STAGE1_V2_RESULTS.md) — 通過位置・斤量差だけを追加。旧◎との差は未確定、市場に劣る。
+- [v2改善要因診断](docs/STAGE1_V2_DIAGNOSIS.md) — 推奨変更・固定スコア除去・共通高配当感度。広範囲の確かな改善は未確認。
 
 - [`docs/market-disagreement-diagnosis.md`](docs/market-disagreement-diagnosis.md) — **2026-09-02 基準点。**市場乖離診断の全数値
 - [`docs/gate-model-design.md`](docs/gate-model-design.md) — 二段階アーキテクチャ設計（未実装）
