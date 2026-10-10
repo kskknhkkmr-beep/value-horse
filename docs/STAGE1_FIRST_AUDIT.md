@@ -1,5 +1,10 @@
 # Stage 1 独立◎ 初回性能診断
 
+2026-10-10の追記：保存766Rには、障害レース名なのにsurface=芝の24Rが含まれると判明。
+以下は当時の保存集合の診断値として保持するが、確認済み平地のみの成績とは解釈しない。
+詳細・未修正の制約は [STAGE1_WEAKNESS_RESEARCH.md](STAGE1_WEAKNESS_RESEARCH.md)。
+この追記時点で除外後の成績は計算していない。
+
 2026-10-09。対象はdevelopmentのみ。規約を [STAGE1_FIRST_AUDIT_PLAN.md](STAGE1_FIRST_AUDIT_PLAN.md) に集計前に固定した。
 モデル・重み・特徴量・閾値・保存予測は変更せず、再学習なしで診断した。
 

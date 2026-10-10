@@ -59,6 +59,9 @@ development専用のrawデータ取得・再開・品質監査については
 Stage 1独立◎の最小実装は [`docs/STAGE1_MINIMAL_MODEL.md`](docs/STAGE1_MINIMAL_MODEL.md)、
 保存766Rの初回診断は [`docs/STAGE1_FIRST_AUDIT.md`](docs/STAGE1_FIRST_AUDIT.md) を参照。
 モデルは市場を上回る結果を示していない。ローカル取得データ・保存予測はGit管理外。
+弱点・未使用入力の調査と競走種別の不整合は
+[`docs/STAGE1_WEAKNESS_RESEARCH.md`](docs/STAGE1_WEAKNESS_RESEARCH.md) を参照。
+保存766Rには障害名/surface不整合の24Rが含まれるため、確認済み平地のみの成績とは解釈しない。
 
 development時系列シミュレーター基盤と制約・合成テストは
 [`docs/TIMELINE_SIMULATOR.md`](docs/TIMELINE_SIMULATOR.md) を参照。
