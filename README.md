@@ -25,6 +25,8 @@
 
 上記5点を読んでから、必要に応じて以下の一次資料に降りる。
 
+- [Stage 1競走種別の修正](docs/STAGE1_RACE_KIND_FIX.md) — 平地1,292R。既存監査は旧分類、補正後性能は未評価。
+
 - [`docs/market-disagreement-diagnosis.md`](docs/market-disagreement-diagnosis.md) — **2026-09-02 基準点。**市場乖離診断の全数値
 - [`docs/gate-model-design.md`](docs/gate-model-design.md) — 二段階アーキテクチャ設計（未実装）
 - [`docs/backfill-step4-ab-results.md`](docs/backfill-step4-ab-results.md) — 6ヶ月バックフィルA/B、仮説撤回の経緯

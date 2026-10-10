@@ -7,6 +7,7 @@ import { canonical, frozenClone, sha256 } from "./simulator/canonical";
 import { loadDevelopment, prepareInput } from "./simulator/input";
 import { simulate } from "./simulator/runner";
 import { saveRun, simulatorFingerprint } from "./simulator/store";
+import { flatExclusionReason } from "./simulator/race-kind";
 import type { Dataset, Policy, Run } from "./simulator/types";
 import { derive, independentInput, model, SETTINGS, train, trainingExample, unsupported } from "./stage1-independent";
 import type { Artifact, Example } from "./stage1-independent";
@@ -20,7 +21,8 @@ type Status = { raceId: string; date: string; status: string; window: string | n
 export function execute(dataset: Dataset, codeSha256: string, simulatorSha256: string) {
   const ordered = [...dataset.races].sort((a, b) => a.date.localeCompare(b.date) || a.raceId.localeCompare(b.raceId));
   if (ordered.length !== 1338 || new Set(ordered.map(r => r.raceId)).size !== 1338) throw new Error("Development coverage mismatch");
-  const featured = new Map(ordered.map(r => [r.raceId, derive(independentInput(prepareInput(r, dataset.historyByHorse)))]));
+  const featured = new Map(ordered.filter(r => flatExclusionReason(r) === null)
+    .map(r => [r.raceId, derive(independentInput(prepareInput(r, dataset.historyByHorse)))]));
   const statuses: Status[] = ordered.map(r => ({ raceId: r.raceId, date: r.date,
     status: r.date <= WINDOWS[0].cutoff ? "initial training period; no out-of-sample prediction" : "pending", window: null }));
   const artifacts: Artifact[] = [], runs: Run[] = [];
@@ -32,6 +34,8 @@ export function execute(dataset: Dataset, codeSha256: string, simulatorSha256: s
     if (training.length !== window.trainingCount || targets.length !== window.targetCount) throw new Error("Fixed calendar window count mismatch");
     const examples: Example[] = [], excluded: Artifact["excluded"] = [];
     for (const race of training) {
+      const kindReason = flatExclusionReason(race);
+      if (kindReason) { excluded.push({ raceId: race.raceId, reason: kindReason }); continue; }
       const input = featured.get(race.raceId)!;
       const reason = unsupported(input, race.surface);
       if (reason) { excluded.push({ raceId: race.raceId, reason }); continue; }
@@ -42,7 +46,7 @@ export function execute(dataset: Dataset, codeSha256: string, simulatorSha256: s
     }
     const artifact = train(examples, window.cutoff, excluded); artifacts.push(artifact);
     const supported = targets.filter(r => {
-      const reason = unsupported(featured.get(r.raceId)!, r.surface);
+      const reason = flatExclusionReason(r) ?? unsupported(featured.get(r.raceId)!, r.surface);
       const status = statuses.find(s => s.raceId === r.raceId)!;
       status.window = window.name; status.status = reason ?? "predicted; uncalibrated";
       return reason === null;
@@ -66,6 +70,7 @@ export function execute(dataset: Dataset, codeSha256: string, simulatorSha256: s
       independentInputSha256: sha256(independentInput(prepareInput(ordered.find(r => r.raceId === record.raceId)!, dataset.historyByHorse))) };
   }));
   return frozenClone({ settings: SETTINGS, windows: WINDOWS, sourceHashes: dataset.sourceHashes,
+    classification: dataset.classification ?? null,
     statuses, artifacts, runs, nominations });
 }
 function main() {

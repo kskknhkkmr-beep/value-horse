@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { lstatSync, readFileSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { developmentDate, frozenClone, isoDate } from "./canonical";
+import { classifyRaceKind, flatExclusionReason, RACE_KIND_VERSION } from "./race-kind";
 import type { Dataset, History, Payout, PreRaceInput, RaceSpec, TicketKind, Truth } from "./types";
 
 const FILES = ["lib/backfill/races.json", "lib/backfill-stage1/race-details-raw.json",
@@ -40,7 +41,10 @@ function history(value: unknown): History {
   return {
     netKeibaRaceId: r.netKeibaRaceId == null ? null : id(r.netKeibaRaceId, 12), date,
     venueRaw: maybeText(r.venueRaw), venue: maybeText(r.venue), raceName: maybeText(r.raceName),
-    weatherRaw: maybeText(r.weatherRaw), surface: maybeText(r.surface), distance: maybeNumber(r.distance),
+    weatherRaw: maybeText(r.weatherRaw), surface: (() => {
+      const kind = classifyRaceKind({ surface: maybeText(r.surface), raceName: maybeText(r.raceName) }).kind;
+      return kind === "unknown" ? null : kind;
+    })(), distance: maybeNumber(r.distance),
     trackConditionRaw: maybeText(r.trackConditionRaw), fieldSize: maybeNumber(r.fieldSize),
     frameNumber: maybeNumber(r.frameNumber), horseNumber: maybeNumber(r.horseNumber),
     positionRaw: maybeText(r.positionRaw), position: maybeNumber(r.position), marginRaw: maybeText(r.marginRaw),
@@ -83,6 +87,7 @@ export function loadDevelopment(): Dataset {
     historyByHorse[key] = array(h.rows).map(history);
   }
   const races: RaceSpec[] = [], truthByRace: Record<string, Truth> = {};
+  const classifications: NonNullable<Dataset["classification"]>["races"] = [];
   const seen = new Set<string>(), starterIds = new Set<string>();
   for (const value of Object.values(source)) {
     const s = obj(value), raceId = id(s.netKeibaRaceId, 12), date = developmentDate(text(s.date));
@@ -110,8 +115,13 @@ export function loadDevelopment(): Dataset {
     for (const h of rawHorses) if (!sourceIds.has(text(h.horseId)) && !/^(取|除)/.test(text(obj(h.result).positionRaw))) {
       throw new Error("Unexplained extra result horse");
     }
+    const evidence = { surface: text(s.surface), raceName: text(s.raceName),
+      classRaw: maybeText(cls.raw), grade: maybeText(cls.grade) };
+    const classification = classifyRaceKind(evidence);
+    classifications.push({ raceId, date, storedSurface: evidence.surface, kind: classification.kind,
+      reasons: classification.reasons, exclusionReason: flatExclusionReason(evidence) });
     races.push({ raceId, date, venue: text(s.venue), raceNumber: number(s.raceNumber),
-      raceName: text(s.raceName), surface: text(s.surface), distance: number(s.distance),
+      raceName: text(s.raceName), surface: classification.kind, distance: number(s.distance),
       classRaw: maybeText(cls.raw), structuredClass: maybeText(cls.structured), grade: maybeText(cls.grade), starters });
     const payouts = obj(obj(d.labels).payouts);
     const time = maybeText(pre.postTimeRaw);
@@ -134,7 +144,9 @@ export function loadDevelopment(): Dataset {
       throw new Error("History race date disagreement");
     }
   }
-  return frozenClone({ races, historyByHorse, truthByRace, sourceHashes, constraints: [
+  return frozenClone({ races, historyByHorse, truthByRace, sourceHashes,
+    classification: { version: RACE_KIND_VERSION, races: classifications }, constraints: [
+    `Race kind normalized by ${RACE_KIND_VERSION}; raw files unchanged. Flat inputs exclude jump/unknown histories.`,
     "Final odds and popularity are retrospective references only; no pre-race odds snapshots exist.",
     "Current track condition, weather, horse weight and archival start time are not prediction inputs.",
     "Starter set is retrospective actual starters; cancelled/excluded announced entrants are not reconstructed.",
@@ -147,8 +159,10 @@ export function loadDevelopment(): Dataset {
 /** White-list projection: no current result, odds, popularity, payouts or unknown fields. */
 export function prepareInput(race: RaceSpec, historyByHorse: Dataset["historyByHorse"]): PreRaceInput {
   const date = developmentDate(race.date);
+  const kind = classifyRaceKind({ surface: race.surface, raceName: race.raceName,
+    classRaw: race.classRaw, grade: race.grade }).kind;
   return frozenClone({ raceId: race.raceId, date, venue: race.venue, raceNumber: race.raceNumber,
-    raceName: race.raceName, surface: race.surface, distance: race.distance,
+    raceName: race.raceName, surface: kind, distance: race.distance,
     classRaw: race.classRaw, structuredClass: race.structuredClass, grade: race.grade,
     horses: race.starters.map((h) => {
       if (!historyByHorse[h.horseId]) throw new Error("Missing history (never silently substitute empty)");
@@ -156,7 +170,8 @@ export function prepareInput(race: RaceSpec, historyByHorse: Dataset["historyByH
         sex: h.sex, age: h.age, carriedWeight: h.carriedWeight, carriedWeightRaw: h.carriedWeightRaw,
         jockey: h.jockey, jockeyId: h.jockeyId, trainer: h.trainer, trainerId: h.trainerId,
         history: historyByHorse[h.horseId].filter((r) => isoDate(r.date) < date && r.netKeibaRaceId !== race.raceId)
-          .map(history).sort((a, b) => a.date.localeCompare(b.date) || (a.netKeibaRaceId ?? "").localeCompare(b.netKeibaRaceId ?? "")),
+          .map(history).filter(r => !(kind === "芝" || kind === "ダ") || r.surface === "芝" || r.surface === "ダ")
+          .sort((a, b) => a.date.localeCompare(b.date) || (a.netKeibaRaceId ?? "").localeCompare(b.netKeibaRaceId ?? "")),
       };
     }).sort((a, b) => a.horseNumber - b.horseNumber) });
 }

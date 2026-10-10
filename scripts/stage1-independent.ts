@@ -2,6 +2,7 @@
 import { developmentDate, frozenClone, isoDate, sha256 } from "./simulator/canonical";
 import { assertPreRaceInput } from "./simulator/runner";
 import type { Model, PreRaceInput, Truth } from "./simulator/types";
+import { RACE_KIND_VERSION } from "./simulator/race-kind";
 
 export const SETTINGS = frozenClone({ version: "stage1-independent-minimal-v1", iterations: 200,
   learningRate: 0.1, l2: 0.01, temperature: 1, recentRuns: 3, distanceBandMetres: 200,
@@ -12,10 +13,10 @@ type Past = { raceId: string | null; date: string; surface: string | null; dista
 export type IndependentInput = { raceId: string; date: string; surface: string; distance: number;
   horses: { horseId: string; horseNumber: number; history: Past[] }[] };
 type Feature = { name: string; value: number | null; missingReason: string | null; sourceRows: Past[]; unit: string };
-export type FeaturedRace = { raceId: string; date: string; horses: {
+export type FeaturedRace = { inputClassificationVersion: typeof RACE_KIND_VERSION; raceId: string; date: string; horses: {
   horseId: string; horseNumber: number; features: Feature[] }[] };
 export type Example = { input: FeaturedRace; winnerId: string };
-export type Artifact = { settings: typeof SETTINGS; features: readonly string[]; trainedThroughDate: string;
+export type Artifact = { inputClassificationVersion: typeof RACE_KIND_VERSION; settings: typeof SETTINGS; features: readonly string[]; trainedThroughDate: string;
   trainingRaceIds: string[]; excluded: { raceId: string; reason: string }[];
   means: number[]; weights: number[]; trainingSha256: string };
 
@@ -30,6 +31,7 @@ export function independentInput(input: PreRaceInput): IndependentInput {
   assertIndependent(projected); return projected;
 }
 export function assertIndependent(input: IndependentInput) {
+  if (!["芝", "ダ"].includes(input.surface)) throw new Error("Flat model rejects jump/unknown target");
   const keys = (o: object, allowed: string[]) => {
     if (Object.keys(o).some(k => !allowed.includes(k))) throw new Error("Unapproved independent input column");
   };
@@ -42,6 +44,7 @@ export function assertIndependent(input: IndependentInput) {
     keys(h, ["horseId", "horseNumber", "history"]);
     if (!Number.isInteger(h.horseNumber) || h.horseNumber < 1) throw new Error("Invalid horse number");
     for (const r of h.history) {
+      if (r.surface !== "芝" && r.surface !== "ダ") throw new Error("Flat model rejects jump/unknown history");
       keys(r, ["raceId", "date", "surface", "distance", "position", "positionRaw", "fieldSize"]);
       if (isoDate(r.date) >= date || r.raceId === input.raceId) throw new Error("Future/same-day/target history");
     }
@@ -52,7 +55,7 @@ const validFinish = (r: Past) => Number.isInteger(r.position) && Number.isIntege
   r.positionRaw !== null && /^\d+$/.test(r.positionRaw) && Number(r.positionRaw) === r.position;
 export function derive(input: IndependentInput): FeaturedRace {
   assertIndependent(input);
-  return frozenClone({ raceId: input.raceId, date: input.date, horses: [...input.horses]
+  return frozenClone({ inputClassificationVersion: RACE_KIND_VERSION, raceId: input.raceId, date: input.date, horses: [...input.horses]
     .sort((a, b) => a.horseNumber - b.horseNumber).map(h => {
       const past = [...h.history].sort((a, b) => b.date.localeCompare(a.date) ||
         (a.raceId ?? "").localeCompare(b.raceId ?? ""));
@@ -103,6 +106,7 @@ export function train(examples: Example[], cutoff: string, excluded: Artifact["e
   if (!examples.length || new Set(examples.map(e => e.input.raceId)).size !== examples.length) throw new Error("Empty/duplicate training set");
   const ordered = [...examples].sort((a, b) => a.input.date.localeCompare(b.input.date) || a.input.raceId.localeCompare(b.input.raceId));
   for (const e of ordered) {
+    if (e.input.inputClassificationVersion !== RACE_KIND_VERSION) throw new Error("Legacy classification training example rejected");
     developmentDate(e.input.date);
     if (e.input.date > cutoff || !e.input.horses.some(h => h.horseId === e.winnerId)) throw new Error("Invalid training example");
     for (const h of e.input.horses) for (const f of h.features) for (const r of f.sourceRows) {
@@ -126,10 +130,11 @@ export function train(examples: Example[], cutoff: string, excluded: Artifact["e
     weights.forEach((w, j) => { weights[j] = w - SETTINGS.learningRate * gradient[j]; });
   }
   if (weights.some(w => !Number.isFinite(w))) throw new Error("Non-finite fitted weight");
-  return frozenClone({ settings: SETTINGS, features: FEATURES, trainedThroughDate: cutoff,
+  return frozenClone({ inputClassificationVersion: RACE_KIND_VERSION, settings: SETTINGS, features: FEATURES, trainedThroughDate: cutoff,
     trainingRaceIds: ordered.map(e => e.input.raceId), excluded, means, weights, trainingSha256: sha256(ordered) });
 }
 export function model(artifact: Artifact, codeSha256: string): Model {
+  if (artifact.inputClassificationVersion !== RACE_KIND_VERSION) throw new Error("Legacy classification artifact rejected; separate retraining approval required");
   return { identity: { name: "stage1-independent", version: SETTINGS.version, codeSha256,
     trainedThroughDate: artifact.trainedThroughDate, config: { settings: SETTINGS, artifactSha256: sha256(artifact) } },
   predict(input) {

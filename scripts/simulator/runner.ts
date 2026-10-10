@@ -1,5 +1,6 @@
 import { canonical, developmentDate, frozenClone, isoDate, sha256 } from "./canonical";
 import { prepareInput, TICKET_KINDS } from "./input";
+import { classifyRaceKind } from "./race-kind";
 import type { Context, Dataset, Model, Policy, PreRaceInput, RankedPrediction, Run, Ticket, Version } from "./types";
 
 export const SIMULATOR_VERSION = "development-timeline-v1";
@@ -20,6 +21,7 @@ function versionAt(identity: Version, date: string) {
   }
 }
 export function assertPreRaceInput(input: PreRaceInput) {
+  if (classifyRaceKind(input).kind !== input.surface) throw new Error("Uncorrected race kind in prediction input");
   const allowedRace = new Set(["raceId", "date", "venue", "raceNumber", "raceName", "surface", "distance",
     "classRaw", "structuredClass", "grade", "horses"]);
   if (Object.keys(input).some((k) => !allowedRace.has(k))) throw new Error("Unapproved current race field");

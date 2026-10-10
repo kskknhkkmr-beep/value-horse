@@ -4,7 +4,7 @@ import { join, relative, resolve } from "node:path";
 import { canonical, frozenClone, sha256 } from "./canonical";
 import type { Run } from "./types";
 
-const SOURCES = ["types.ts", "canonical.ts", "input.ts", "runner.ts", "settlement.ts", "store.ts"];
+const SOURCES = ["types.ts", "canonical.ts", "input.ts", "race-kind.ts", "runner.ts", "settlement.ts", "store.ts"];
 export function simulatorFingerprint(): string {
   return sha256(Object.fromEntries(SOURCES.map((file) => [file,
     createHash("sha256").update(readFileSync(join(process.cwd(), "scripts", "simulator", file))).digest("hex")] )));

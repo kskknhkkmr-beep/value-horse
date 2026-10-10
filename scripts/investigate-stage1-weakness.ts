@@ -9,6 +9,11 @@ import type { History } from "./simulator/types";
 import type { AuditRow } from "./stage1-first-audit-core";
 
 if (process.argv.length > 2) throw new Error("No paths or selection parameters accepted");
+// Archived research used the legacy classifier. Never mix those predictions with
+// corrected inputs or recompute their performance under a different population.
+if (loadDevelopment().classification) {
+  throw new Error("Archived legacy-classification research blocked; use check-development-race-kind.ts for structural counts. New performance analysis needs separate approval.");
+}
 const audit = "47ae88195890f642fcb17a741816e4768090c9c82895056c8a607c7c84e9b538";
 const dir = `lib/simulation-runs/stage1-first-audit-${audit}`;
 function read(name: "rows.json" | "summary.json") {

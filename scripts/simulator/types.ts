@@ -45,6 +45,8 @@ export type Dataset = {
   races: RaceSpec[]; historyByHorse: Record<string, History[]>;
   truthByRace: Record<string, Truth>; sourceHashes: Record<string, string>;
   constraints: string[];
+  classification?: { version: string; races: Array<{ raceId: string; date: string;
+    storedSurface: string; kind: string; reasons: string[]; exclusionReason: string | null }> };
 };
 export type Reason = { name: string; rawValue: Json; contribution: number | null; explanation: string };
 export type Prediction = { horseId: string; probability: number; reasons: Reason[] };

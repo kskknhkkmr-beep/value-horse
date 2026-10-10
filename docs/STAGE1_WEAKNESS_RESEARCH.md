@@ -1,5 +1,7 @@
 # Stage 1：独立◎の弱点と未使用入力調査
 
+> 本文の監査・品質集計は旧分類に基づく保存記録。後続の[競走種別修正](STAGE1_RACE_KIND_FIX.md)で29Rを障害へ補正した。本文の性能数値を補正後平地モデルの成績として扱わない。数値の再計算はしていない。
+
 2026-10-10。対象commit `8ba48682fa8a3566ded9505cb1309ea094ba515e`。
 [集計前の規約](STAGE1_WEAKNESS_PLAN.md)、[初回診断](STAGE1_FIRST_AUDIT.md)、
 [既存入力品質](STAGE1_INPUT_QUALITY.md)、[独立評価設計](STAGE1_INDEPENDENT_DESIGN.md)を参照。
