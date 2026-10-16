@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T00:40:32.804Z",
+  "fetchedAt": "2026-10-16T14:30:07.564Z",
   "source": "netkeiba db.netkeiba.com / race.sp.netkeiba.com",
   "scores": {
     "101010101": {
@@ -65449,6 +65449,2202 @@
       },
       "modelVersion": "v2",
       "computedAt": "2026-08-29T23:53:28.517Z"
+    },
+    "404010101": {
+      "formScore": 44,
+      "pedigreeScore": 47,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 9,
+        "places": 16,
+        "rides": 255
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010102": {
+      "formScore": 50,
+      "pedigreeScore": 50,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 32,
+        "rides": 289
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010103": {
+      "formScore": 24,
+      "pedigreeScore": 28,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010104": {
+      "formScore": 79,
+      "pedigreeScore": 79,
+      "jockeyScore": 34,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 38,
+        "rides": 401
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010105": {
+      "formScore": 59,
+      "pedigreeScore": 63,
+      "jockeyScore": 29,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 36,
+        "rides": 366
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010106": {
+      "formScore": 63,
+      "pedigreeScore": 62,
+      "jockeyScore": 32,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 26,
+        "rides": 337
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010107": {
+      "formScore": 62,
+      "pedigreeScore": 53,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010108": {
+      "formScore": 70,
+      "pedigreeScore": 70,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010109": {
+      "formScore": 63,
+      "pedigreeScore": 65,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010110": {
+      "formScore": 92,
+      "pedigreeScore": 92,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010111": {
+      "formScore": 61,
+      "pedigreeScore": 59,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010112": {
+      "formScore": 60,
+      "pedigreeScore": 60,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 26,
+        "places": 44,
+        "rides": 457
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010201": {
+      "formScore": 29,
+      "pedigreeScore": 33,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010202": {
+      "formScore": 22,
+      "pedigreeScore": 21,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010203": {
+      "formScore": 57,
+      "pedigreeScore": 69,
+      "jockeyScore": 29,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 36,
+        "rides": 366
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010204": {
+      "formScore": 67,
+      "pedigreeScore": 67,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010205": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 8,
+      "jockeyStats": {
+        "wins": 2,
+        "places": 4,
+        "rides": 176
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010206": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 40,
+        "rides": 509
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010207": {
+      "formScore": 73,
+      "pedigreeScore": 73,
+      "jockeyScore": 14,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 15,
+        "rides": 312
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010208": {
+      "formScore": 71,
+      "pedigreeScore": 72,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 31,
+        "rides": 331
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010209": {
+      "formScore": 0,
+      "pedigreeScore": 0,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010210": {
+      "formScore": 64,
+      "pedigreeScore": 64,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010211": {
+      "formScore": 87,
+      "pedigreeScore": 87,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010212": {
+      "formScore": 22,
+      "pedigreeScore": 22,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010301": {
+      "formScore": 64,
+      "pedigreeScore": 72,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 32,
+        "rides": 289
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010302": {
+      "formScore": 78,
+      "pedigreeScore": 93,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 16,
+        "places": 30,
+        "rides": 358
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010303": {
+      "formScore": 92,
+      "pedigreeScore": 70,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010304": {
+      "formScore": 36,
+      "pedigreeScore": 60,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 6,
+        "places": 13,
+        "rides": 147
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010305": {
+      "formScore": 76,
+      "pedigreeScore": 83,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010306": {
+      "formScore": 62,
+      "pedigreeScore": 68,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 320
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010307": {
+      "formScore": 89,
+      "pedigreeScore": 82,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010308": {
+      "formScore": 46,
+      "pedigreeScore": 54,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 31,
+        "rides": 331
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010309": {
+      "formScore": 79,
+      "pedigreeScore": 78,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 9,
+        "places": 16,
+        "rides": 255
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010310": {
+      "formScore": 42,
+      "pedigreeScore": 58,
+      "jockeyScore": 19,
+      "jockeyStats": {
+        "wins": 2,
+        "places": 7,
+        "rides": 95
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010311": {
+      "formScore": 40,
+      "pedigreeScore": 62,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010312": {
+      "formScore": 95,
+      "pedigreeScore": 92,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010313": {
+      "formScore": 36,
+      "pedigreeScore": 93,
+      "jockeyScore": 20,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 11,
+        "rides": 221
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010314": {
+      "formScore": 72,
+      "pedigreeScore": 54,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010315": {
+      "formScore": 42,
+      "pedigreeScore": 55,
+      "jockeyScore": 13,
+      "jockeyStats": {
+        "wins": 4,
+        "places": 11,
+        "rides": 243
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010401": {
+      "formScore": 66,
+      "pedigreeScore": 69,
+      "jockeyScore": 5,
+      "jockeyStats": {
+        "wins": 0,
+        "places": 1,
+        "rides": 32
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010402": {
+      "formScore": 47,
+      "pedigreeScore": 44,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010403": {
+      "formScore": 32,
+      "pedigreeScore": 37,
+      "jockeyScore": 14,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 15,
+        "rides": 312
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010404": {
+      "formScore": 57,
+      "pedigreeScore": 65,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010405": {
+      "formScore": 65,
+      "pedigreeScore": 64,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010406": {
+      "formScore": 23,
+      "pedigreeScore": 29,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010407": {
+      "formScore": 71,
+      "pedigreeScore": 63,
+      "jockeyScore": 51,
+      "jockeyStats": {
+        "wins": 21,
+        "places": 41,
+        "rides": 286
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010408": {
+      "formScore": 69,
+      "pedigreeScore": 61,
+      "jockeyScore": 29,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 36,
+        "rides": 366
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010409": {
+      "formScore": 71,
+      "pedigreeScore": 58,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010410": {
+      "formScore": 50,
+      "pedigreeScore": 64,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010411": {
+      "formScore": 84,
+      "pedigreeScore": 84,
+      "jockeyScore": 32,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 26,
+        "rides": 337
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010412": {
+      "formScore": 87,
+      "pedigreeScore": 66,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010413": {
+      "formScore": 28,
+      "pedigreeScore": 31,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 31,
+        "rides": 331
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010414": {
+      "formScore": 78,
+      "pedigreeScore": 71,
+      "jockeyScore": 16,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 14,
+        "rides": 315
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010415": {
+      "formScore": 36,
+      "pedigreeScore": 68,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010416": {
+      "formScore": 26,
+      "pedigreeScore": 30,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 40,
+        "rides": 509
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010501": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010502": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010503": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 16,
+        "places": 30,
+        "rides": 358
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010504": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 11,
+      "jockeyStats": {
+        "wins": 3,
+        "places": 9,
+        "rides": 232
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010505": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010506": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010507": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 32,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 26,
+        "rides": 337
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010508": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 320
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010509": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 11,
+        "rides": 131
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010510": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010511": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 22,
+        "rides": 258
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010512": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 22,
+        "places": 43,
+        "rides": 441
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010513": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 14,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 15,
+        "rides": 312
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010514": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010515": {
+      "formScore": 65,
+      "pedigreeScore": 65,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 26,
+        "places": 44,
+        "rides": 457
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010601": {
+      "formScore": 37,
+      "pedigreeScore": 37,
+      "jockeyScore": 7,
+      "jockeyStats": {
+        "wins": 1,
+        "places": 3,
+        "rides": 120
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010602": {
+      "formScore": 60,
+      "pedigreeScore": 60,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 22,
+        "places": 43,
+        "rides": 441
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010603": {
+      "formScore": 73,
+      "pedigreeScore": 76,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 32,
+        "rides": 289
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010604": {
+      "formScore": 82,
+      "pedigreeScore": 82,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 26,
+        "places": 44,
+        "rides": 457
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010605": {
+      "formScore": 41,
+      "pedigreeScore": 55,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010606": {
+      "formScore": 32,
+      "pedigreeScore": 57,
+      "jockeyScore": 29,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 36,
+        "rides": 366
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010607": {
+      "formScore": 36,
+      "pedigreeScore": 43,
+      "jockeyScore": 8,
+      "jockeyStats": {
+        "wins": 1,
+        "places": 5,
+        "rides": 153
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010608": {
+      "formScore": 33,
+      "pedigreeScore": 42,
+      "jockeyScore": 19,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 14,
+        "rides": 215
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010609": {
+      "formScore": 53,
+      "pedigreeScore": 61,
+      "jockeyScore": 16,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 14,
+        "rides": 315
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010610": {
+      "formScore": 47,
+      "pedigreeScore": 56,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 22,
+        "rides": 258
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010611": {
+      "formScore": 52,
+      "pedigreeScore": 75,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 31,
+        "rides": 331
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010612": {
+      "formScore": 32,
+      "pedigreeScore": 43,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 320
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010613": {
+      "formScore": 56,
+      "pedigreeScore": 54,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 40,
+        "rides": 509
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010614": {
+      "formScore": 27,
+      "pedigreeScore": 20,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 9,
+        "places": 16,
+        "rides": 255
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010615": {
+      "formScore": 72,
+      "pedigreeScore": 62,
+      "jockeyScore": 60,
+      "jockeyStats": {
+        "wins": 38,
+        "places": 79,
+        "rides": 448
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010701": {
+      "formScore": 94,
+      "pedigreeScore": 79,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010702": {
+      "formScore": 71,
+      "pedigreeScore": 70,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 22,
+        "places": 43,
+        "rides": 441
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010703": {
+      "formScore": 73,
+      "pedigreeScore": 82,
+      "jockeyScore": 20,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 11,
+        "rides": 221
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010704": {
+      "formScore": 54,
+      "pedigreeScore": 52,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010705": {
+      "formScore": 27,
+      "pedigreeScore": 65,
+      "jockeyScore": 29,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 36,
+        "rides": 366
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010706": {
+      "formScore": 78,
+      "pedigreeScore": 79,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 31,
+        "rides": 331
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010707": {
+      "formScore": 80,
+      "pedigreeScore": 69,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 32,
+        "rides": 289
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010708": {
+      "formScore": 77,
+      "pedigreeScore": 89,
+      "jockeyScore": 22,
+      "jockeyStats": {
+        "wins": 6,
+        "places": 26,
+        "rides": 284
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010709": {
+      "formScore": 53,
+      "pedigreeScore": 54,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010710": {
+      "formScore": 45,
+      "pedigreeScore": 55,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010711": {
+      "formScore": 52,
+      "pedigreeScore": 56,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010712": {
+      "formScore": 30,
+      "pedigreeScore": 43,
+      "jockeyScore": 32,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 26,
+        "rides": 337
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010713": {
+      "formScore": 49,
+      "pedigreeScore": 58,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 22,
+        "rides": 258
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010714": {
+      "formScore": 86,
+      "pedigreeScore": 82,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010715": {
+      "formScore": 55,
+      "pedigreeScore": 79,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 6,
+        "places": 13,
+        "rides": 147
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010801": {
+      "formScore": 40,
+      "pedigreeScore": 53,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 320
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010802": {
+      "formScore": 45,
+      "pedigreeScore": 67,
+      "jockeyScore": 20,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 269
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010803": {
+      "formScore": 34,
+      "pedigreeScore": 54,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010804": {
+      "formScore": 53,
+      "pedigreeScore": 62,
+      "jockeyScore": 32,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 26,
+        "rides": 337
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010805": {
+      "formScore": 42,
+      "pedigreeScore": 58,
+      "jockeyScore": 34,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 38,
+        "rides": 401
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010806": {
+      "formScore": 42,
+      "pedigreeScore": 56,
+      "jockeyScore": 5,
+      "jockeyStats": {
+        "wins": 0,
+        "places": 1,
+        "rides": 32
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010807": {
+      "formScore": 67,
+      "pedigreeScore": 58,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010808": {
+      "formScore": 70,
+      "pedigreeScore": 61,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010809": {
+      "formScore": 41,
+      "pedigreeScore": 49,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 40,
+        "rides": 509
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010810": {
+      "formScore": 39,
+      "pedigreeScore": 55,
+      "jockeyScore": 60,
+      "jockeyStats": {
+        "wins": 38,
+        "places": 79,
+        "rides": 448
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010811": {
+      "formScore": 48,
+      "pedigreeScore": 50,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 16,
+        "places": 30,
+        "rides": 358
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010812": {
+      "formScore": 51,
+      "pedigreeScore": 63,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010813": {
+      "formScore": 35,
+      "pedigreeScore": 46,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010814": {
+      "formScore": 52,
+      "pedigreeScore": 61,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 32,
+        "rides": 289
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010815": {
+      "formScore": 30,
+      "pedigreeScore": 30,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 22,
+        "places": 43,
+        "rides": 441
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010816": {
+      "formScore": 49,
+      "pedigreeScore": 56,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010817": {
+      "formScore": 31,
+      "pedigreeScore": 33,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 9,
+        "places": 16,
+        "rides": 255
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010818": {
+      "formScore": 39,
+      "pedigreeScore": 48,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 11,
+        "rides": 131
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010901": {
+      "formScore": 90,
+      "pedigreeScore": 91,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010902": {
+      "formScore": 11,
+      "pedigreeScore": 27,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 16,
+        "places": 30,
+        "rides": 358
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010903": {
+      "formScore": 52,
+      "pedigreeScore": 69,
+      "jockeyScore": 51,
+      "jockeyStats": {
+        "wins": 21,
+        "places": 41,
+        "rides": 286
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010904": {
+      "formScore": 71,
+      "pedigreeScore": 72,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010905": {
+      "formScore": 63,
+      "pedigreeScore": 62,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010906": {
+      "formScore": 38,
+      "pedigreeScore": 38,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010907": {
+      "formScore": 61,
+      "pedigreeScore": 52,
+      "jockeyScore": 14,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 15,
+        "rides": 312
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010908": {
+      "formScore": 72,
+      "pedigreeScore": 65,
+      "jockeyScore": 34,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 38,
+        "rides": 401
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010909": {
+      "formScore": 87,
+      "pedigreeScore": 72,
+      "jockeyScore": 20,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 11,
+        "rides": 221
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010910": {
+      "formScore": 46,
+      "pedigreeScore": 60,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 26,
+        "places": 44,
+        "rides": 457
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010911": {
+      "formScore": 76,
+      "pedigreeScore": 80,
+      "jockeyScore": 8,
+      "jockeyStats": {
+        "wins": 2,
+        "places": 4,
+        "rides": 176
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010912": {
+      "formScore": 36,
+      "pedigreeScore": 45,
+      "jockeyScore": 32,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 26,
+        "rides": 337
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010913": {
+      "formScore": 51,
+      "pedigreeScore": 55,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 22,
+        "places": 43,
+        "rides": 441
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404010914": {
+      "formScore": 69,
+      "pedigreeScore": 64,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011001": {
+      "formScore": 42,
+      "pedigreeScore": 36,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 40,
+        "rides": 509
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011002": {
+      "formScore": 76,
+      "pedigreeScore": 76,
+      "jockeyScore": 51,
+      "jockeyStats": {
+        "wins": 21,
+        "places": 41,
+        "rides": 286
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011003": {
+      "formScore": 78,
+      "pedigreeScore": 80,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011004": {
+      "formScore": 64,
+      "pedigreeScore": 57,
+      "jockeyScore": 21,
+      "jockeyStats": {
+        "wins": 2,
+        "places": 7,
+        "rides": 89
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011005": {
+      "formScore": 78,
+      "pedigreeScore": 77,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 32,
+        "rides": 289
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011006": {
+      "formScore": 43,
+      "pedigreeScore": 51,
+      "jockeyScore": 60,
+      "jockeyStats": {
+        "wins": 38,
+        "places": 79,
+        "rides": 448
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011007": {
+      "formScore": 70,
+      "pedigreeScore": 80,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011008": {
+      "formScore": 66,
+      "pedigreeScore": 67,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011009": {
+      "formScore": 64,
+      "pedigreeScore": 62,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 22,
+        "rides": 258
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011010": {
+      "formScore": 62,
+      "pedigreeScore": 68,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 16,
+        "places": 30,
+        "rides": 358
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011011": {
+      "formScore": 68,
+      "pedigreeScore": 67,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011012": {
+      "formScore": 54,
+      "pedigreeScore": 56,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011013": {
+      "formScore": 71,
+      "pedigreeScore": 71,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 26,
+        "places": 44,
+        "rides": 457
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011014": {
+      "formScore": 94,
+      "pedigreeScore": 89,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011015": {
+      "formScore": 31,
+      "pedigreeScore": 56,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 22,
+        "places": 43,
+        "rides": 441
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011101": {
+      "formScore": 38,
+      "pedigreeScore": 59,
+      "jockeyScore": 27,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 21,
+        "rides": 308
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011102": {
+      "formScore": 44,
+      "pedigreeScore": 61,
+      "jockeyScore": 8,
+      "jockeyStats": {
+        "wins": 1,
+        "places": 7,
+        "rides": 183
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011103": {
+      "formScore": 58,
+      "pedigreeScore": 68,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 22,
+        "places": 43,
+        "rides": 441
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011104": {
+      "formScore": 24,
+      "pedigreeScore": 53,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 22,
+        "rides": 258
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011105": {
+      "formScore": 63,
+      "pedigreeScore": 68,
+      "jockeyScore": 46,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 53,
+        "rides": 345
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011106": {
+      "formScore": 70,
+      "pedigreeScore": 64,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011107": {
+      "formScore": 25,
+      "pedigreeScore": 37,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 9,
+        "places": 16,
+        "rides": 255
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011108": {
+      "formScore": 62,
+      "pedigreeScore": 80,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011109": {
+      "formScore": 59,
+      "pedigreeScore": 58,
+      "jockeyScore": 18,
+      "jockeyStats": {
+        "wins": 10,
+        "places": 16,
+        "rides": 360
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011110": {
+      "formScore": 48,
+      "pedigreeScore": 55,
+      "jockeyScore": 32,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 26,
+        "rides": 337
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011111": {
+      "formScore": 27,
+      "pedigreeScore": 30,
+      "jockeyScore": 28,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 11,
+        "rides": 131
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011112": {
+      "formScore": 50,
+      "pedigreeScore": 61,
+      "jockeyScore": 51,
+      "jockeyStats": {
+        "wins": 21,
+        "places": 41,
+        "rides": 286
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011113": {
+      "formScore": 43,
+      "pedigreeScore": 55,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 26,
+        "places": 44,
+        "rides": 457
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011114": {
+      "formScore": 58,
+      "pedigreeScore": 83,
+      "jockeyScore": 34,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 38,
+        "rides": 401
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011115": {
+      "formScore": 96,
+      "pedigreeScore": 100,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011116": {
+      "formScore": 48,
+      "pedigreeScore": 54,
+      "jockeyScore": 37,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 32,
+        "rides": 289
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011117": {
+      "formScore": 65,
+      "pedigreeScore": 70,
+      "jockeyScore": 60,
+      "jockeyStats": {
+        "wins": 38,
+        "places": 79,
+        "rides": 448
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011118": {
+      "formScore": 44,
+      "pedigreeScore": 58,
+      "jockeyScore": 20,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 11,
+        "rides": 221
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011201": {
+      "formScore": 47,
+      "pedigreeScore": 62,
+      "jockeyScore": 40,
+      "jockeyStats": {
+        "wins": 40,
+        "places": 77,
+        "rides": 693
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011202": {
+      "formScore": 74,
+      "pedigreeScore": 75,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 16,
+        "places": 30,
+        "rides": 358
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011203": {
+      "formScore": 62,
+      "pedigreeScore": 60,
+      "jockeyScore": 60,
+      "jockeyStats": {
+        "wins": 38,
+        "places": 79,
+        "rides": 448
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011204": {
+      "formScore": 25,
+      "pedigreeScore": 42,
+      "jockeyScore": 67,
+      "jockeyStats": {
+        "wins": 57,
+        "places": 95,
+        "rides": 550
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011205": {
+      "formScore": 45,
+      "pedigreeScore": 38,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 15,
+        "places": 40,
+        "rides": 509
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011206": {
+      "formScore": 17,
+      "pedigreeScore": 31,
+      "jockeyScore": 24,
+      "jockeyStats": {
+        "wins": 9,
+        "places": 16,
+        "rides": 255
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011207": {
+      "formScore": 1,
+      "pedigreeScore": 23,
+      "jockeyScore": 29,
+      "jockeyStats": {
+        "wins": 13,
+        "places": 36,
+        "rides": 366
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011208": {
+      "formScore": 73,
+      "pedigreeScore": 69,
+      "jockeyScore": 13,
+      "jockeyStats": {
+        "wins": 4,
+        "places": 11,
+        "rides": 243
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011209": {
+      "formScore": 31,
+      "pedigreeScore": 28,
+      "jockeyScore": 16,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 14,
+        "rides": 315
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011210": {
+      "formScore": 76,
+      "pedigreeScore": 72,
+      "jockeyScore": 70,
+      "jockeyStats": {
+        "wins": 41,
+        "places": 63,
+        "rides": 371
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011211": {
+      "formScore": 40,
+      "pedigreeScore": 24,
+      "jockeyScore": 14,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 15,
+        "rides": 312
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011212": {
+      "formScore": 66,
+      "pedigreeScore": 56,
+      "jockeyScore": 34,
+      "jockeyStats": {
+        "wins": 20,
+        "places": 38,
+        "rides": 401
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011213": {
+      "formScore": 59,
+      "pedigreeScore": 61,
+      "jockeyScore": 30,
+      "jockeyStats": {
+        "wins": 6,
+        "places": 13,
+        "rides": 147
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011214": {
+      "formScore": 49,
+      "pedigreeScore": 40,
+      "jockeyScore": 19,
+      "jockeyStats": {
+        "wins": 5,
+        "places": 14,
+        "rides": 215
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011215": {
+      "formScore": 52,
+      "pedigreeScore": 59,
+      "jockeyScore": 17,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 17,
+        "rides": 320
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011216": {
+      "formScore": 78,
+      "pedigreeScore": 80,
+      "jockeyScore": 35,
+      "jockeyStats": {
+        "wins": 17,
+        "places": 31,
+        "rides": 331
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011217": {
+      "formScore": 66,
+      "pedigreeScore": 76,
+      "jockeyScore": 69,
+      "jockeyStats": {
+        "wins": 70,
+        "places": 153,
+        "rides": 743
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
+    },
+    "404011218": {
+      "formScore": 33,
+      "pedigreeScore": 49,
+      "jockeyScore": 20,
+      "jockeyStats": {
+        "wins": 7,
+        "places": 11,
+        "rides": 221
+      },
+      "modelVersion": "v2",
+      "computedAt": "2026-10-16T14:30:07.564Z"
     },
     "504010101": {
       "formScore": 10,
